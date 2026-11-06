@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="SpriteFrames" path="sphere_fx.tres" id="1_frames"]
+
+[node name="sphere_fx" type="AnimatedSprite2D"]
+texture_filter = 1
+sprite_frames = ExtResource("1_frames")
+animation = &"sphere_charge_and_detonate"
+autoplay = "sphere_charge_and_detonate"
+centered = false
+offset = Vector2(-240.0, -198.0)

@@ -1,0 +1,25 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d_bundle.v1",
+  "default_action": "sphere_charge_and_detonate",
+  "world_height": 2.0300000000000002,
+  "world_height_max_drift": 0.0,
+  "pixel_size": 0.01,
+  "pixel_size_max_drift": 0.0,
+  "actions": {
+    "sphere_charge_and_detonate": {
+      "contract": "action-sphere_charge_and_detonate.json",
+      "loop": false,
+      "clip": "sphere_charge_and_detonate"
+    },
+    "sphere_projectile_loop": {
+      "contract": "action-sphere_projectile_loop.json",
+      "loop": true,
+      "clip": "sphere_projectile_loop"
+    },
+    "sphere_explosion": {
+      "contract": "action-sphere_explosion.json",
+      "loop": false,
+      "clip": "sphere_explosion"
+    }
+  }
+}

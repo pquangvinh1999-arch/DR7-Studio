@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="SpriteFrames" path="sphere_of_destruction.tres" id="1_frames"]
+
+[node name="sphere_of_destruction" type="AnimatedSprite2D"]
+texture_filter = 1
+sprite_frames = ExtResource("1_frames")
+animation = &"idle"
+autoplay = "idle"
+centered = false
+offset = Vector2(-148.0, -364.0)

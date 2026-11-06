@@ -1,0 +1,110 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "frames": [
+    "frames/fx_00.png",
+    "frames/fx_01.png",
+    "frames/fx_02.png",
+    "frames/fx_03.png",
+    "frames/fx_04.png",
+    "frames/fx_05.png",
+    "frames/fx_06.png"
+  ],
+  "anchor_px": [
+    240,
+    198
+  ],
+  "sampling": "nearest",
+  "pixel_art": true,
+  "art_source": "existing",
+  "placeholder": false,
+  "clips": {
+    "sphere_charge_and_detonate": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ticks": [
+        8,
+        8,
+        8,
+        10,
+        10,
+        12,
+        10
+      ],
+      "tick_hz": 60,
+      "loop_policy": "oneshot",
+      "role": "fx",
+      "hitstop_ticks": 6,
+      "events": [
+        {
+          "at": 4,
+          "name": "hit"
+        },
+        {
+          "at": 5,
+          "name": "impact"
+        },
+        {
+          "at": 6,
+          "name": "end"
+        }
+      ]
+    },
+    "sphere_projectile_loop": {
+      "frames": [
+        1,
+        2,
+        3
+      ],
+      "ticks": [
+        6,
+        6,
+        6
+      ],
+      "tick_hz": 60,
+      "loop_policy": "pingpong",
+      "role": "fx"
+    },
+    "sphere_explosion": {
+      "frames": [
+        4,
+        5,
+        6
+      ],
+      "ticks": [
+        8,
+        10,
+        10
+      ],
+      "tick_hz": 60,
+      "loop_policy": "oneshot",
+      "role": "fx",
+      "hitstop_ticks": 6,
+      "events": [
+        {
+          "at": 0,
+          "name": "hit"
+        },
+        {
+          "at": 1,
+          "name": "impact"
+        },
+        {
+          "at": 2,
+          "name": "end"
+        }
+      ]
+    }
+  },
+  "states": {
+    "full_fx": "sphere_charge_and_detonate",
+    "projectile": "sphere_projectile_loop",
+    "explode": "sphere_explosion"
+  }
+}

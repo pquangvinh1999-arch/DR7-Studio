@@ -1,0 +1,86 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "sphere_of_destruction_180ms",
+  "frame_size": [
+    439,
+    386
+  ],
+  "output_origin": [
+    218.0,
+    375.0
+  ],
+  "sprite3d_offset": [
+    1.5,
+    182.0
+  ],
+  "reference_subject_height_px": 365.0,
+  "world_height": 3.65,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 3.65,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 183,
+  "fps": 5.454545454545454,
+  "frames": [
+    "frames/frame-000.png",
+    "frames/frame-001.png",
+    "frames/frame-002.png",
+    "frames/frame-003.png",
+    "frames/frame-004.png",
+    "frames/frame-005.png",
+    "frames/frame-006.png",
+    "frames/frame-007.png",
+    "frames/frame-008.png"
+  ],
+  "frame_sha256": [
+    "68de7f5a69b59446616e47a31f9e185b5912ca7711e8b1d3ace53a9b28f4cb69",
+    "93c455d1a8343dff59053a5b8e8a16b4bedd2e05bc0be5256437790d302143a3",
+    "0d1483e262b50d4045c30b3a193eafdbd0b56e897c123d81665f41f4ece7df72",
+    "76ed4d3abd1573eee239df2ce96a6f94df1f17c998dea3154d2dece8715e1fa1",
+    "1cd31aac09f7c8ea6670339a976b3a75e44e2069cff8d648349f73170d1c52e1",
+    "a853c83f630fb60666d1f224fc66b030777594fb2408b10f6b1440b8bc8bf9bd",
+    "0647290d8b71702c0c258e295262fd9de906c75db8065f2416a8d2137bf63c0a",
+    "8dd027b7131b340078e7d0df771699a34c8e17f9b02d75ad63304e41e74b12b9",
+    "a82e3c2a235b4bc17ece74e2a3b16db4d18aa6428da438b5b20974f671feb67e"
+  ],
+  "durations_ms": [
+    183,
+    184,
+    183,
+    183,
+    184,
+    183,
+    183,
+    184,
+    183
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": [
+    {
+      "name": "tell",
+      "at_ms": 183,
+      "at": 1,
+      "position": 1
+    },
+    {
+      "name": "hit",
+      "at_ms": 1100,
+      "at": 6,
+      "position": 6
+    },
+    {
+      "name": "impact",
+      "at_ms": 1283,
+      "at": 7,
+      "position": 7
+    },
+    {
+      "name": "end",
+      "at_ms": 1467,
+      "at": 8,
+      "position": 8
+    }
+  ]
+}

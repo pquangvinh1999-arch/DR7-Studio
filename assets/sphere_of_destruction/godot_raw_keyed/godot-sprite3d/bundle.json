@@ -1,0 +1,25 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d_bundle.v1",
+  "default_action": "idle",
+  "world_height": 3.65,
+  "world_height_max_drift": 0.0,
+  "pixel_size": 0.01,
+  "pixel_size_max_drift": 0.0,
+  "actions": {
+    "sphere_of_destruction": {
+      "contract": "action-sphere_of_destruction.json",
+      "loop": false,
+      "clip": "sphere_of_destruction"
+    },
+    "sphere_of_destruction_180ms": {
+      "contract": "action-sphere_of_destruction_180ms.json",
+      "loop": false,
+      "clip": "sphere_of_destruction_180ms"
+    },
+    "idle": {
+      "contract": "action-idle.json",
+      "loop": true,
+      "clip": "idle"
+    }
+  }
+}

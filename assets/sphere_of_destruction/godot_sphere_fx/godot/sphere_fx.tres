@@ -1,0 +1,98 @@
+[gd_resource type="SpriteFrames" load_steps=9 format=3]
+
+[ext_resource type="Texture2D" path="sphere_fx-atlas-00.png" id="1_atlas00"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0c0"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(3, 3, 384, 386)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0c1"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(391, 3, 384, 386)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0c2"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(779, 3, 384, 386)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0c3"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(3, 393, 384, 386)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0c4"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(391, 393, 384, 386)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0c5"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(779, 393, 384, 386)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p0c6"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(3, 783, 384, 386)
+filter_clip = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 8.0,
+"texture": SubResource("AtlasTexture_p0c0")
+}, {
+"duration": 8.0,
+"texture": SubResource("AtlasTexture_p0c1")
+}, {
+"duration": 8.0,
+"texture": SubResource("AtlasTexture_p0c2")
+}, {
+"duration": 10.0,
+"texture": SubResource("AtlasTexture_p0c3")
+}, {
+"duration": 10.0,
+"texture": SubResource("AtlasTexture_p0c4")
+}, {
+"duration": 12.0,
+"texture": SubResource("AtlasTexture_p0c5")
+}, {
+"duration": 10.0,
+"texture": SubResource("AtlasTexture_p0c6")
+}],
+"loop": false,
+"name": &"sphere_charge_and_detonate",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_p0c1")
+}, {
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_p0c2")
+}, {
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_p0c3")
+}, {
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_p0c2")
+}],
+"loop": true,
+"name": &"sphere_projectile_loop",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 8.0,
+"texture": SubResource("AtlasTexture_p0c4")
+}, {
+"duration": 10.0,
+"texture": SubResource("AtlasTexture_p0c5")
+}, {
+"duration": 10.0,
+"texture": SubResource("AtlasTexture_p0c6")
+}],
+"loop": false,
+"name": &"sphere_explosion",
+"speed": 60.0
+}]

@@ -1,0 +1,11 @@
+# Godot 4+ local editor/import cache
+.godot/
+
+# Godot 4 CLI binary (>100MB GitHub limit; use tools/godot/install_godot.sh)
+tools/godot/Godot_*
+tools/godot/godot
+tools/godot/*.zip
+
+# Python cache
+__pycache__/
+*.py[cod]

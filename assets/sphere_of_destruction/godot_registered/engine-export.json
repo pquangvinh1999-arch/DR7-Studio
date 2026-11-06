@@ -1,0 +1,769 @@
+{
+  "schema": "generate2dsprite.engine_export.v1",
+  "name": "sphere_of_destruction",
+  "tool": {
+    "name": "export_engine.py",
+    "version": "0.4.0"
+  },
+  "source": {
+    "path": "../registered_clips/animation-clips.json",
+    "sha256": "566c8e5c28e1c8b474ddbf9d7a85ecbdd44ecdad09cb1a612971eb8d58d9a65a",
+    "bytes": 30419,
+    "schema": "generate2dsprite.animation_clips.v2"
+  },
+  "targets": [
+    "aseprite-json",
+    "godot-spriteframes",
+    "godot-sprite3d"
+  ],
+  "frame_size": [
+    512,
+    400
+  ],
+  "anchor_px": [
+    148.0,
+    364.0
+  ],
+  "sampling": "nearest",
+  "pixel_art": true,
+  "art_source": "existing",
+  "placeholder": false,
+  "shadow": {
+    "rx": 36,
+    "ry": 10,
+    "opacity": 0.35
+  },
+  "default_clip": "idle",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          1550,
+          1214
+        ],
+        "cells": 9,
+        "clips": [
+          "sphere_of_destruction",
+          "sphere_of_destruction_180ms",
+          "idle"
+        ]
+      }
+    ]
+  },
+  "scale": {
+    "pixel_size": 0.01,
+    "subject_height_px": 256.0,
+    "world_height": 2.56,
+    "source": "Godot default pixel size",
+    "subject_height_source": "body_height_px"
+  },
+  "clips": {
+    "sphere_of_destruction": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "duration_ms": [
+        133,
+        134,
+        133,
+        133,
+        134,
+        166,
+        167,
+        200,
+        167
+      ],
+      "total_duration_ms": 1367,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "tell",
+          "at_ms": 133,
+          "at": 1,
+          "position": 1
+        },
+        {
+          "name": "hit",
+          "at_ms": 833,
+          "at": 6,
+          "position": 6,
+          "data": {
+            "skill": "sphere_of_destruction",
+            "phase": "launch"
+          }
+        },
+        {
+          "name": "impact",
+          "at_ms": 1000,
+          "at": 7,
+          "position": 7,
+          "data": {
+            "skill": "sphere_of_destruction",
+            "phase": "detonate"
+          }
+        },
+        {
+          "name": "end",
+          "at_ms": 1200,
+          "at": 8,
+          "position": 8
+        }
+      ],
+      "page": 0,
+      "keys": {
+        "wind_start": 1,
+        "wind_peak": 5,
+        "strike": 6,
+        "recover": 8,
+        "end": 8
+      },
+      "keys_ms": {
+        "wind_start": 133,
+        "wind_peak": 667,
+        "strike": 833,
+        "recover": 1200,
+        "end": 1200
+      },
+      "entry_frame": 0,
+      "entry_ms": 0,
+      "hitstop_ticks": 6,
+      "hitstop_ms": 100,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          10,
+          10,
+          12,
+          10
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 82.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        10,
+        10,
+        12,
+        10
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "sphere_of_destruction.json",
+        "from": 0,
+        "to": 8
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          10.0,
+          10.0,
+          12.0,
+          10.0
+        ]
+      },
+      "sprite3d": {
+        "action": "sphere_of_destruction",
+        "contract": "action-sphere_of_destruction.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "sphere_of_destruction_180ms": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "duration_ms": [
+        183,
+        184,
+        183,
+        183,
+        184,
+        183,
+        183,
+        184,
+        183
+      ],
+      "total_duration_ms": 1650,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "tell",
+          "at_ms": 183,
+          "at": 1,
+          "position": 1
+        },
+        {
+          "name": "hit",
+          "at_ms": 1100,
+          "at": 6,
+          "position": 6
+        },
+        {
+          "name": "impact",
+          "at_ms": 1283,
+          "at": 7,
+          "position": 7
+        },
+        {
+          "name": "end",
+          "at_ms": 1467,
+          "at": 8,
+          "position": 8
+        }
+      ],
+      "page": 0,
+      "keys": {
+        "wind_start": 1,
+        "wind_peak": 5,
+        "strike": 6,
+        "recover": 8,
+        "end": 8
+      },
+      "keys_ms": {
+        "wind_start": 183,
+        "wind_peak": 917,
+        "strike": 1100,
+        "recover": 1467,
+        "end": 1467
+      },
+      "entry_frame": 0,
+      "entry_ms": 0,
+      "hitstop_ticks": 6,
+      "hitstop_ms": 100,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 99.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "sphere_of_destruction.json",
+        "from": 9,
+        "to": 17
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+        ]
+      },
+      "sprite3d": {
+        "action": "sphere_of_destruction_180ms",
+        "contract": "action-sphere_of_destruction_180ms.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "idle": {
+      "frames": [
+        0
+      ],
+      "duration_ms": [
+        400
+      ],
+      "total_duration_ms": 400,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "entry_frame": 0,
+      "entry_ms": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.0,
+        "frame_ticks": [
+          24
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 24.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        24
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "sphere_of_destruction.json",
+        "from": 18,
+        "to": 18
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          24.0
+        ]
+      },
+      "sprite3d": {
+        "action": "idle",
+        "contract": "action-idle.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    }
+  },
+  "states": {
+    "idle": "idle",
+    "skill_sphere": "sphere_of_destruction",
+    "skill_sphere_180ms": "sphere_of_destruction_180ms"
+  },
+  "unused_frames": [],
+  "mapping": {
+    "anchor_px": [
+      148.0,
+      364.0
+    ],
+    "frame_size": [
+      512,
+      400
+    ],
+    "anchor_normalized_top_left": [
+      0.2890625,
+      0.91
+    ],
+    "sampling": "nearest",
+    "godot": {
+      "animated_sprite_2d": {
+        "centered": false,
+        "offset": [
+          -148.0,
+          -364.0
+        ],
+        "texture_filter": 1
+      },
+      "animated_sprite_3d": {
+        "centered": true,
+        "offset": [
+          108.0,
+          164.0
+        ],
+        "pixel_size": 0.01,
+        "texture_filter": 0
+      }
+    },
+    "unity": {
+      "pivot": [
+        0.2890625,
+        0.08999999999999997
+      ],
+      "pixels_per_unit": 100.0,
+      "filter_mode": "Point"
+    },
+    "phaser": {
+      "origin": [
+        0.2890625,
+        0.91
+      ],
+      "pixel_art": true
+    },
+    "pixi": {
+      "anchor": [
+        0.2890625,
+        0.91
+      ],
+      "scale_mode": "nearest"
+    },
+    "pitch_compensation": {
+      "applies_to": "yaw-only (fixed-y) billboards seen by a pitched camera",
+      "formula": "scale_y = 1 / cos(camera_pitch), applied about the anchor"
+    }
+  },
+  "files": [
+    {
+      "path": "aseprite/sphere_of_destruction.png",
+      "sha256": "06e9767f71e80fa19241a8c794c2ecb5ba276dd3ed2db325b5d3232ec2152d47",
+      "bytes": 716302
+    },
+    {
+      "path": "aseprite/sphere_of_destruction.json",
+      "sha256": "221ea85cb0208765fc4cdc5e31b41b01843857bf3bbc1fe7ee0f9c8f0075bbec",
+      "bytes": 9191
+    },
+    {
+      "path": "godot/sphere_of_destruction-atlas-00.png",
+      "sha256": "06e9767f71e80fa19241a8c794c2ecb5ba276dd3ed2db325b5d3232ec2152d47",
+      "bytes": 716302
+    },
+    {
+      "path": "godot/sphere_of_destruction.tres",
+      "sha256": "d3c3b1878149f65aca90855b6a29def80d0fd5a30be21f7b2a5a6db072e8829f",
+      "bytes": 2974
+    },
+    {
+      "path": "godot/sphere_of_destruction.tscn",
+      "sha256": "ef82e90f338317e95c68ea5b29654112228a513ddd2d0c512b1ce3143e92d8c7",
+      "bytes": 325
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-000.png",
+      "sha256": "8e2cdcf10f58feb6cb82a0148a09c17b93c25bafafb24f6c97d10347d1999253",
+      "bytes": 42026
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-001.png",
+      "sha256": "3a8b205146135a4c12d7a2dc25d401dbaaf493027f107d8ebe3e2e4abcc5445e",
+      "bytes": 50712
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-002.png",
+      "sha256": "87b67abd7d704bd6f5d311616a65b1d2e7cbcb4e57611d0524a2a867c0dedf86",
+      "bytes": 55134
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-003.png",
+      "sha256": "936b667adc9e52d8d66b1be02abdd2111e903ebf5f8a5fcd7d3d6ad67ab9bb46",
+      "bytes": 65724
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-004.png",
+      "sha256": "0986ac6ca8c4ab21d07d69be426d18413bf31b2c3fcecb495d40e7965d65eb91",
+      "bytes": 76433
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-005.png",
+      "sha256": "27264cf5d70346024d8f6f1368e2c661acebe734858fa68330e279c671984188",
+      "bytes": 90897
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-006.png",
+      "sha256": "275a4f8c36a88dab886911caa0103ee2b491a84ee5c912d08239c7b7f54115e3",
+      "bytes": 106619
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-007.png",
+      "sha256": "9f04e974a47b1ce8d8455bc793f0e630cedab4dce316bbd50d7a18429c103252",
+      "bytes": 133803
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-008.png",
+      "sha256": "fc61d1f2c0712c580ee8ffc7b9e58f2aeef71df1543cff2c4510a363a92e17e3",
+      "bytes": 85469
+    },
+    {
+      "path": "godot-sprite3d/action-sphere_of_destruction.json",
+      "sha256": "50a74e049955c892a191d497472150e0430fb1cf36476156aefa893450b1eae5",
+      "bytes": 2179
+    },
+    {
+      "path": "godot-sprite3d/action-sphere_of_destruction_180ms.json",
+      "sha256": "c251e4b3fc12123243d5d2d1d472077e86dbebb14950b8d906d21cf8996af8e2",
+      "bytes": 1998
+    },
+    {
+      "path": "godot-sprite3d/action-idle.json",
+      "sha256": "fdb596bacf675a9eae5e8679a0349e1ce7d085da22676b504b7f50c17c62c1a0",
+      "bytes": 721
+    },
+    {
+      "path": "godot-sprite3d/sphere_of_destruction.tres",
+      "sha256": "a525b4a37032f6186a35001cda2a1b6172c2873f312cd0cb3c4bdfa6c31bb6d9",
+      "bytes": 2075
+    },
+    {
+      "path": "godot-sprite3d/sphere_of_destruction.tscn",
+      "sha256": "c6ef030fbdba029cfd82b439164804f875217217aacb32822968fca7f2970b55",
+      "bytes": 338
+    },
+    {
+      "path": "godot-sprite3d/bundle.json",
+      "sha256": "a57645928c3cbec79455401c44f45ec92e8a8c1536a72dd852b9412c66e2a948",
+      "bytes": 639
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "method": "round trip: every written atlas, Aseprite JSON, SpriteFrames .tres, scene .tscn and Sprite3D contract was parsed back and compared with the source frames (exact RGBA), integer durations, loop flags, events and the shared anchor",
+    "notProven": [
+      "Imports into the Aseprite, Godot 4, Phaser, PixiJS and Unity editors or runtimes were not run; only parse-level round trips were checked.",
+      "Engine import settings (filter, compression, mipmaps) are not written; set them as engine-export.md describes.",
+      "Animation quality, timing feel and silhouette consistency are not judged."
+    ],
+    "checks": [
+      {
+        "id": "aseprite_roundtrip",
+        "status": "pass",
+        "value": {
+          "pages": 1,
+          "frames": 19
+        },
+        "threshold": null
+      },
+      {
+        "id": "aseprite_pivot_rounding_px",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0
+      },
+      {
+        "id": "godot_spriteframes_roundtrip",
+        "status": "pass",
+        "value": {
+          "animations": 3
+        },
+        "threshold": null
+      },
+      {
+        "id": "godot_spriteframes_duration_error_ms",
+        "status": "pass",
+        "value": 0.6666666666666856,
+        "threshold": 1.0
+      },
+      {
+        "id": "godot_sprite3d_frames_roundtrip",
+        "status": "pass",
+        "value": {
+          "animations": 3
+        },
+        "threshold": null
+      },
+      {
+        "id": "godot_sprite3d_frames_duration_error_ms",
+        "status": "pass",
+        "value": 0.6666666666666856,
+        "threshold": 1.0
+      },
+      {
+        "id": "sprite3d_paths_relative",
+        "status": "pass",
+        "value": {
+          "contracts": 3
+        },
+        "threshold": null
+      },
+      {
+        "id": "atlas_max_side_px",
+        "status": "pass",
+        "value": 1550,
+        "threshold": 4096
+      },
+      {
+        "id": "source_frame_hashes",
+        "status": "pass",
+        "value": {
+          "verified": 9,
+          "frames": 9
+        },
+        "threshold": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../registered_clips/animation-clips.json",
+        "sha256": "566c8e5c28e1c8b474ddbf9d7a85ecbdd44ecdad09cb1a612971eb8d58d9a65a",
+        "bytes": 30419
+      },
+      {
+        "path": "../registered_clips/frames/frame-00.png",
+        "sha256": "8e2cdcf10f58feb6cb82a0148a09c17b93c25bafafb24f6c97d10347d1999253",
+        "bytes": 42026
+      },
+      {
+        "path": "../registered_clips/frames/frame-01.png",
+        "sha256": "3a8b205146135a4c12d7a2dc25d401dbaaf493027f107d8ebe3e2e4abcc5445e",
+        "bytes": 50712
+      },
+      {
+        "path": "../registered_clips/frames/frame-02.png",
+        "sha256": "87b67abd7d704bd6f5d311616a65b1d2e7cbcb4e57611d0524a2a867c0dedf86",
+        "bytes": 55134
+      },
+      {
+        "path": "../registered_clips/frames/frame-03.png",
+        "sha256": "936b667adc9e52d8d66b1be02abdd2111e903ebf5f8a5fcd7d3d6ad67ab9bb46",
+        "bytes": 65724
+      },
+      {
+        "path": "../registered_clips/frames/frame-04.png",
+        "sha256": "0986ac6ca8c4ab21d07d69be426d18413bf31b2c3fcecb495d40e7965d65eb91",
+        "bytes": 76433
+      },
+      {
+        "path": "../registered_clips/frames/frame-05.png",
+        "sha256": "27264cf5d70346024d8f6f1368e2c661acebe734858fa68330e279c671984188",
+        "bytes": 90897
+      },
+      {
+        "path": "../registered_clips/frames/frame-06.png",
+        "sha256": "275a4f8c36a88dab886911caa0103ee2b491a84ee5c912d08239c7b7f54115e3",
+        "bytes": 106619
+      },
+      {
+        "path": "../registered_clips/frames/frame-07.png",
+        "sha256": "9f04e974a47b1ce8d8455bc793f0e630cedab4dce316bbd50d7a18429c103252",
+        "bytes": 133803
+      },
+      {
+        "path": "../registered_clips/frames/frame-08.png",
+        "sha256": "fc61d1f2c0712c580ee8ffc7b9e58f2aeef71df1543cff2c4510a363a92e17e3",
+        "bytes": 85469
+      }
+    ],
+    "outputs": [
+      {
+        "path": "aseprite/sphere_of_destruction.png",
+        "sha256": "06e9767f71e80fa19241a8c794c2ecb5ba276dd3ed2db325b5d3232ec2152d47"
+      },
+      {
+        "path": "aseprite/sphere_of_destruction.json",
+        "sha256": "221ea85cb0208765fc4cdc5e31b41b01843857bf3bbc1fe7ee0f9c8f0075bbec"
+      },
+      {
+        "path": "godot/sphere_of_destruction-atlas-00.png",
+        "sha256": "06e9767f71e80fa19241a8c794c2ecb5ba276dd3ed2db325b5d3232ec2152d47"
+      },
+      {
+        "path": "godot/sphere_of_destruction.tres",
+        "sha256": "d3c3b1878149f65aca90855b6a29def80d0fd5a30be21f7b2a5a6db072e8829f"
+      },
+      {
+        "path": "godot/sphere_of_destruction.tscn",
+        "sha256": "ef82e90f338317e95c68ea5b29654112228a513ddd2d0c512b1ce3143e92d8c7"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-000.png",
+        "sha256": "8e2cdcf10f58feb6cb82a0148a09c17b93c25bafafb24f6c97d10347d1999253"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-001.png",
+        "sha256": "3a8b205146135a4c12d7a2dc25d401dbaaf493027f107d8ebe3e2e4abcc5445e"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-002.png",
+        "sha256": "87b67abd7d704bd6f5d311616a65b1d2e7cbcb4e57611d0524a2a867c0dedf86"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-003.png",
+        "sha256": "936b667adc9e52d8d66b1be02abdd2111e903ebf5f8a5fcd7d3d6ad67ab9bb46"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-004.png",
+        "sha256": "0986ac6ca8c4ab21d07d69be426d18413bf31b2c3fcecb495d40e7965d65eb91"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-005.png",
+        "sha256": "27264cf5d70346024d8f6f1368e2c661acebe734858fa68330e279c671984188"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-006.png",
+        "sha256": "275a4f8c36a88dab886911caa0103ee2b491a84ee5c912d08239c7b7f54115e3"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-007.png",
+        "sha256": "9f04e974a47b1ce8d8455bc793f0e630cedab4dce316bbd50d7a18429c103252"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-008.png",
+        "sha256": "fc61d1f2c0712c580ee8ffc7b9e58f2aeef71df1543cff2c4510a363a92e17e3"
+      },
+      {
+        "path": "godot-sprite3d/action-sphere_of_destruction.json",
+        "sha256": "50a74e049955c892a191d497472150e0430fb1cf36476156aefa893450b1eae5"
+      },
+      {
+        "path": "godot-sprite3d/action-sphere_of_destruction_180ms.json",
+        "sha256": "c251e4b3fc12123243d5d2d1d472077e86dbebb14950b8d906d21cf8996af8e2"
+      },
+      {
+        "path": "godot-sprite3d/action-idle.json",
+        "sha256": "fdb596bacf675a9eae5e8679a0349e1ce7d085da22676b504b7f50c17c62c1a0"
+      },
+      {
+        "path": "godot-sprite3d/sphere_of_destruction.tres",
+        "sha256": "a525b4a37032f6186a35001cda2a1b6172c2873f312cd0cb3c4bdfa6c31bb6d9"
+      },
+      {
+        "path": "godot-sprite3d/sphere_of_destruction.tscn",
+        "sha256": "c6ef030fbdba029cfd82b439164804f875217217aacb32822968fca7f2970b55"
+      },
+      {
+        "path": "godot-sprite3d/bundle.json",
+        "sha256": "a57645928c3cbec79455401c44f45ec92e8a8c1536a72dd852b9412c66e2a948"
+      }
+    ],
+    "tool": {
+      "name": "export_engine.py",
+      "version": "0.4.0"
+    }
+  }
+}
