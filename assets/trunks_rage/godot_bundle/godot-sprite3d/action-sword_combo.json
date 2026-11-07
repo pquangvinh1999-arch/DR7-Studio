@@ -1,0 +1,98 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "sword_combo",
+  "frame_size": [
+    320,
+    256
+  ],
+  "output_origin": [
+    96.0,
+    220.0
+  ],
+  "sprite3d_offset": [
+    64.0,
+    92.0
+  ],
+  "reference_subject_height_px": 58.0,
+  "world_height": 0.58,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.58,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 77,
+  "fps": 12.941176470588236,
+  "frames": [
+    "frames/frame-045.png",
+    "frames/frame-046.png",
+    "frames/frame-047.png",
+    "frames/frame-048.png",
+    "frames/frame-049.png",
+    "frames/frame-050.png",
+    "frames/frame-051.png",
+    "frames/frame-052.png",
+    "frames/frame-053.png",
+    "frames/frame-054.png",
+    "frames/frame-055.png"
+  ],
+  "frame_sha256": [
+    "ac27bef0036370e7a9e08e7419d3a50ef67f438d11e4cd682b585e8b200c9aea",
+    "08456421793504f26c72c33c7ff2775381f094f7b7ed114e4a4d28d345636c59",
+    "6c29fdc83d70c2213ece0381e65718b21e19080fed6f96f8cfcfdbd1b3b52edb",
+    "7029788bf791cf3c5ff19c045c574b1887621e7e63ef1574e3e91a3483492576",
+    "025214e9379aa8748ffeb07e27e4898f8164015ead9eb070739e2c1c398db815",
+    "1e627f8a1b411076e921cc3ffef674a56e1b85f8cb116bbe6a30263e38af5d39",
+    "cdb2e4ea3bfa16f2a7ffc968d6ffd7b32a2a327782ddc2dd42bf907884d5e9f5",
+    "693af744338e9778cef63a044b601c9fcc4494d1e6def61965e533e260f0a0ca",
+    "dde102862875630a7bfd782b15720439497a20b4e1ce54c80857b5e8da553e4a",
+    "4dc7e6108a085992a78197f8e6d252b3b17580b612b8bb0461fa4d72905bf8a1",
+    "338eead8d7ad5213aba542305de01c82379098e022ca3003dd27b0b5f21b776d"
+  ],
+  "durations_ms": [
+    83,
+    67,
+    67,
+    66,
+    84,
+    66,
+    67,
+    67,
+    66,
+    100,
+    117
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": [
+    {
+      "name": "tell",
+      "at_ms": 0,
+      "at": 0,
+      "position": 0
+    },
+    {
+      "name": "hit",
+      "at_ms": 217,
+      "at": 3,
+      "position": 3,
+      "data": {
+        "damage": 210
+      }
+    },
+    {
+      "name": "impact",
+      "at_ms": 633,
+      "at": 9,
+      "position": 9,
+      "data": {
+        "damage": 320
+      }
+    },
+    {
+      "name": "end",
+      "at_ms": 733,
+      "at": 10,
+      "position": 10
+    }
+  ]
+}

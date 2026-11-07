@@ -1,0 +1,63 @@
+{
+  "character_id": "trunks_rage",
+  "raw_sheet_size_px": [
+    1340,
+    2261
+  ],
+  "lossless_exact_pixel_art": true,
+  "unique_frames": 156,
+  "clip_count": 20,
+  "clips": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "guard",
+    "attack_light",
+    "attack_heavy",
+    "spin_kick",
+    "sword_combo",
+    "burning_sword",
+    "power_up",
+    "aura_loop",
+    "ki_blast",
+    "galick_gun",
+    "final_flash",
+    "vanish_blitz",
+    "ultimate_spirit_sword",
+    "hit",
+    "ko",
+    "win"
+  ],
+  "atlas_size_px": [
+    3890,
+    3382
+  ],
+  "canvas_size_px": [
+    320,
+    256
+  ],
+  "foot_anchor_px": [
+    96,
+    220
+  ],
+  "body_only_bbox_px": {
+    "x": 85,
+    "y": 163,
+    "w": 29,
+    "h": 58
+  },
+  "full_fx_bbox_px": {
+    "x": 20,
+    "y": 54,
+    "w": 298,
+    "h": 191
+  },
+  "qa": {
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "alpha_hardness_pct": 100.0,
+    "edge_acutance_sobel": 392.07
+  }
+}

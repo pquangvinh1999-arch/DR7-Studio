@@ -9,3 +9,7 @@ tools/godot/*.zip
 # Python cache
 __pycache__/
 *.py[cod]
+
+# Rust build artifacts
+target/
+**/target/

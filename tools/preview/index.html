@@ -1,0 +1,2064 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DR7-Studio — Trạm Human Test &amp; Đối Chiếu Engine 1:1 (Godot 4 + Rust Core)</title>
+  <style>
+    :root {
+      --bg: #0b0e17;
+      --panel: #131826;
+      --panel2: #1a2133;
+      --border: #28324c;
+      --text: #e6ecff;
+      --muted: #93a1c6;
+      --gold: #facc15;
+      --orange: #fb923c;
+      --green: #22c55e;
+      --cyan: #38bdf8;
+      --amber: #f59e0b;
+      --red: #ef4444;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 13px;
+      line-height: 1.45;
+      overflow-x: hidden;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 16px;
+      background: #0f1422;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .brand { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .brand h1 { font-size: 15px; font-weight: 700; color: #fff; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .badge-ok { background: rgba(34,197,94,0.16); color: #4ade80; border: 1px solid rgba(34,197,94,0.4); }
+    .badge-warn { background: rgba(245,158,11,0.16); color: #fbbf24; border: 1px solid rgba(245,158,11,0.4); }
+    .badge-info { background: rgba(56,189,248,0.15); color: #7dd3fc; border: 1px solid rgba(56,189,248,0.4); }
+    .tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+    .tab-btn {
+      padding: 7px 13px;
+      border-radius: 7px;
+      border: 1px solid var(--border);
+      background: var(--panel);
+      color: var(--muted);
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 12px;
+      transition: 0.15s;
+    }
+    .tab-btn:hover { color: #fff; border-color: #43537d; }
+    .tab-btn.active {
+      background: linear-gradient(135deg, #eab308, #f97316);
+      color: #0b0e17;
+      border-color: transparent;
+    }
+    .btn {
+      padding: 6px 11px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--panel2);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      user-select: none;
+    }
+    .btn:hover { border-color: var(--cyan); color: #fff; }
+    .btn-primary { background: #2563eb; border-color: #3b82f6; color: #fff; }
+    .btn-gold { background: #eab308; border-color: #facc15; color: #0b0e17; }
+    .tab-view { display: none; padding: 12px; }
+    .tab-view.active { display: block; }
+
+    #runtimeErrorBanner {
+      display: none;
+      margin: 8px 12px 0;
+      padding: 8px 12px;
+      border-radius: 8px;
+      background: rgba(239, 68, 68, 0.18);
+      border: 1px solid var(--red);
+      color: #fecaca;
+      font-family: ui-monospace, monospace;
+      font-size: 12px;
+    }
+
+    .workbench {
+      display: grid;
+      grid-template-columns: 330px minmax(480px, 1fr) 360px;
+      gap: 12px;
+      align-items: start;
+    }
+    @media (max-width: 1280px) {
+      .workbench { grid-template-columns: 1fr; }
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+    .card h2 {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--cyan);
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+    }
+    .warn-box {
+      background: rgba(245, 158, 11, 0.11);
+      border: 1px solid rgba(245, 158, 11, 0.45);
+      border-radius: 8px;
+      padding: 9px 10px;
+      color: #fde68a;
+      font-size: 11.5px;
+      margin-top: 8px;
+    }
+    .ok-box {
+      background: rgba(34, 197, 94, 0.10);
+      border: 1px solid rgba(34, 197, 94, 0.40);
+      border-radius: 8px;
+      padding: 8px 10px;
+      color: #bbf7d0;
+      font-size: 11.5px;
+      margin-top: 8px;
+    }
+
+    .roster-toolbar {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+    .roster-filter-row {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+    .filter-pill {
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      border: 1px solid var(--border);
+      background: var(--panel2);
+      color: var(--muted);
+      cursor: pointer;
+    }
+    .filter-pill.active {
+      background: rgba(56,189,248,0.2);
+      color: #fff;
+      border-color: var(--cyan);
+    }
+    .roster-scroll {
+      max-height: 230px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding-right: 2px;
+    }
+    .roster-card {
+      display: flex;
+      gap: 9px;
+      align-items: center;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--panel2);
+      cursor: pointer;
+      transition: 0.15s;
+    }
+    .roster-card:hover { border-color: #4f6596; }
+    .roster-card.active {
+      border-color: var(--gold);
+      background: rgba(250, 204, 21, 0.12);
+    }
+    .roster-avatar {
+      width: 46px;
+      height: 46px;
+      border-radius: 6px;
+      background: #0c101b;
+      border: 1px solid var(--border);
+      flex-shrink: 0;
+      image-rendering: pixelated;
+    }
+    .roster-info { flex: 1; min-width: 0; }
+    .roster-title { font-weight: 700; color: #fff; font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .roster-sub { font-size: 11px; color: var(--muted); }
+    .roster-pills { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 3px; }
+    .mini-pill { font-size: 10px; padding: 1px 5px; border-radius: 4px; background: #0d1322; border: 1px solid var(--border); color: #cbd5e1; }
+
+    .mode-card {
+      padding: 9px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--gold);
+      background: rgba(250, 204, 21, 0.10);
+      margin-bottom: 4px;
+    }
+    .mode-card .title { font-weight: 700; font-size: 12.5px; color: #fff; }
+    .mode-card .desc { font-size: 11px; color: #dbeafe; margin-top: 4px; }
+
+    .clip-list { display: flex; flex-wrap: wrap; gap: 6px; }
+    .clip-chip {
+      padding: 5px 9px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--panel2);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 11.5px;
+      font-weight: 600;
+    }
+    .clip-chip.active { background: var(--cyan); color: #08101d; border-color: transparent; }
+
+    .runtime-strip {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 8px 10px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      background: rgba(56, 189, 248, 0.09);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      font-size: 11.5px;
+    }
+
+    .viewport-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .canvas-stage-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #080b12;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px;
+      overflow: auto;
+    }
+    #inspectorCanvas {
+      cursor: crosshair;
+      image-rendering: pixelated;
+      border-radius: 4px;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.55);
+    }
+    .readout-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 8px;
+      padding: 7px 10px;
+      background: #0d121f;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11.5px;
+    }
+    .swatch {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      border-radius: 3px;
+      border: 1px solid #fff;
+      vertical-align: middle;
+      margin-right: 4px;
+    }
+
+    .scrubber-box {
+      margin-top: 10px;
+      padding: 10px;
+      background: var(--panel2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .scrubber-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    #frameSlider {
+      flex: 1;
+      min-width: 160px;
+      accent-color: var(--gold);
+      cursor: pointer;
+    }
+    .filmstrip {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      padding-top: 6px;
+    }
+    .thumb {
+      flex: 0 0 auto;
+      width: 68px;
+      padding: 4px;
+      border-radius: 6px;
+      background: #0d121f;
+      border: 1px solid var(--border);
+      text-align: center;
+      cursor: pointer;
+      font-size: 10.5px;
+      color: var(--muted);
+    }
+    .thumb.active { border-color: var(--gold); color: var(--gold); background: rgba(250,204,21,0.1); }
+    .thumb canvas { width: 58px; height: auto; image-rendering: pixelated; display: block; margin: 0 auto 3px; }
+
+    .tag-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 8px; }
+    .tag-btn {
+      padding: 6px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--panel2);
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 11.5px;
+      font-weight: 600;
+      text-align: left;
+    }
+    .tag-btn.active { border-color: var(--gold); color: #fff; background: rgba(250,204,21,0.15); }
+    textarea, input[type="text"], select {
+      width: 100%;
+      background: #0c101c;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 7px 9px;
+      font-size: 12px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    .kv-table { width: 100%; border-collapse: collapse; font-size: 11.5px; }
+    .kv-table td { padding: 4px 2px; border-bottom: 1px solid rgba(40,50,76,0.55); }
+    .kv-table td:last-child { text-align: right; font-family: ui-monospace, monospace; color: #fff; }
+
+    .bench-layout { display: grid; grid-template-columns: 1.25fr 1fr; gap: 12px; }
+    @media (max-width: 1100px) { .bench-layout { grid-template-columns: 1fr; } }
+    .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 10px; }
+    .kpi { background: var(--panel2); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; }
+    .kpi .label { font-size: 11px; color: var(--muted); }
+    .kpi .val { font-size: 18px; font-weight: 800; color: var(--gold); font-family: ui-monospace, monospace; }
+    .bench-table { width: 100%; border-collapse: collapse; font-size: 11.5px; margin-top: 6px; }
+    .bench-table th, .bench-table td { padding: 6px 8px; border-bottom: 1px solid var(--border); text-align: left; }
+    .bench-table th { color: var(--cyan); background: #0f1524; }
+    .stress-stage {
+      position: relative;
+      background: #070a11;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    #aoiOverlayBox {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 40%;
+      height: 40%;
+      transform: translate(-50%, -50%);
+      border: 2px dashed rgba(56, 189, 248, 0.85);
+      background: rgba(56, 189, 248, 0.05);
+      pointer-events: none;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 4px 6px;
+      font-size: 10.5px;
+      font-family: ui-monospace, monospace;
+      color: #7dd3fc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>🐉 DR7-Studio — Trạm Human Test &amp; Đối Chiếu Engine 1:1 (Godot 4 + Rust Core)</h1>
+      <span id="parityBadge" class="badge badge-ok">Đang kiểm tra đồng bộ SHA-256...</span>
+    </div>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="tab-human">🎯 1. Human Test &amp; Thước Đo Gửi Agent</button>
+      <button class="tab-btn" data-tab="tab-stress">⚡ 2. Stress Test &gt;2,000 User @ 60FPS (Godot + Rust)</button>
+      <button class="tab-btn" data-tab="tab-arena">⚔️ 3. Sân Tập Gameplay Thực Chiến</button>
+    </div>
+    <div>
+      <a class="btn" href="/api/download-godot-pack.zip">📦 Tải Gói Godot 4 (.zip)</a>
+    </div>
+  </header>
+
+  <div id="runtimeErrorBanner"></div>
+
+  <!-- ===================================================================== -->
+  <!-- TAB 1: HUMAN TEST, MULTI-CHARACTER ROSTER & AGENT COORDINATES         -->
+  <!-- ===================================================================== -->
+  <section id="tab-human" class="tab-view active">
+    <div class="workbench">
+      <!-- LEFT COLUMN: SCALABLE CHARACTER ROSTER + OFFICIAL ARCH + CLIPS -->
+      <div>
+        <div class="card">
+          <h2>
+            <span>👥 Danh Sách Nhân Vật Chính Thức</span>
+            <span class="badge badge-ok" id="rosterCountBadge">1 Hoàn thiện</span>
+          </h2>
+          <div class="roster-toolbar">
+            <input type="text" id="inpSearchChar" placeholder="🔎 Tìm tên, ID, hệ phái (VD: trunks, sword)..." />
+            <div class="roster-filter-row" id="rosterFilters">
+              <button class="filter-pill active" data-filter="all">Tất cả</button>
+              <button class="filter-pill" data-filter="z_fighters">Tướng Chính / Z</button>
+              <button class="filter-pill" data-filter="boss_mob">Boss / Quái</button>
+            </div>
+          </div>
+          <div id="rosterList" class="roster-scroll"></div>
+          <div id="completenessWarning" class="warn-box" style="display:none;"></div>
+          <div id="completenessOkBox" class="ok-box" style="display:none;"></div>
+        </div>
+
+        <div class="card">
+          <h2><span>🏗️ Kiến Trúc Chuẩn Hiến Pháp DR7-Studio</span></h2>
+          <div id="archModeList">
+            <div class="mode-card active" id="cardMode1Layer" data-arch="combined_1layer">
+              <div class="title">✅ Gộp Chung 1 Lớp Nguyên Bản (<code>Combined 1-Layer</code>)</div>
+              <div class="desc">
+                • <b>Engine chính thức</b>: <b>Godot 4</b> (Client Mobile APK/iOS + Scene/UI + <code>MultiMeshInstance2D</code>) + <b>Rust Core</b> (<code>GDExtension</code> / <code>WASM</code> / Spatial-Grid AoI Server) + <b>Supabase</b>.<br/>
+                • <b>1 Quad / 1 Draw Call</b>: Bảo toàn 100% cấu trúc pixel gốc từ Atlas, tuyệt đối không cắt xẻ tách đa lớp làm sai lệch hình ảnh.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>
+            <span>🎞️ Danh Sách Clip Hoạt Ảnh</span>
+            <span class="badge badge-info" id="clipCountBadge">20 clips</span>
+          </h2>
+          <div id="clipList" class="clip-list"></div>
+          <div style="margin-top:8px; font-size:11px; color:var(--muted);" id="clipMetaInfo"></div>
+        </div>
+      </div>
+
+      <!-- CENTER COLUMN: RUNTIME TRANSPARENCY + INSPECTOR CANVAS + SCRUBBER -->
+      <div>
+        <div class="card">
+          <div class="runtime-strip">
+            <div>
+              <b style="color:#fff;">⚙️ Runtime đang chạy ở Tab 1:</b>
+              <span id="tab1RuntimeDesc" style="color:#bae6fd;">Bộ nhịp 60Hz bằng <b>Rust WASM</b> + Vẽ khung đo Pixel bằng <b>Canvas2D</b> (đọc trực tiếp 1:1 <code>.tres</code> &amp; PNG Atlas của Godot 4 / Rust).</span>
+            </div>
+            <label style="white-space:nowrap;">
+              Bộ tính nhịp Frame:
+              <select id="selStepperEngine" style="width:auto; display:inline-block; padding:3px 6px;">
+                <option value="rust_wasm" selected>🦀 Rust 1.99.1 WASM Stepper</option>
+                <option value="godot_spec">🤖 Godot 4 .tres Spec Stepper</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="viewport-toolbar">
+            <div style="display:flex; gap:6px; align-items:center; flex-wrap:wrap;">
+              <label style="font-size:11.5px;">Phóng đại:
+                <select id="selZoom" style="width:auto; display:inline-block; padding:4px 6px;">
+                  <option value="1" id="optZoom1">1× (320×256)</option>
+                  <option value="2" id="optZoom2" selected>2× (640×512 — Khuyên dùng)</option>
+                  <option value="3" id="optZoom3">3× (960×768 — Soi chi tiết pixel)</option>
+                </select>
+              </label>
+              <label style="font-size:11.5px;">Nền:
+                <select id="selBg" style="width:auto; display:inline-block; padding:4px 6px;">
+                  <option value="dark" selected>Tối (#141824)</option>
+                  <option value="checker">Ô cờ Alpha</option>
+                  <option value="light">Sáng (#E5E7EB)</option>
+                  <option value="namek">Cỏ Namek</option>
+                </select>
+              </label>
+            </div>
+            <div style="display:flex; gap:10px; font-size:11.5px; align-items:center; flex-wrap:wrap;">
+              <label><input type="checkbox" id="chkMapGrid" checked /> Lưới Map 32px / 64 PPU</label>
+              <label><input type="checkbox" id="chkBBox" checked /> Khung BBox &amp; Tâm Chân</label>
+              <button class="btn" id="btnClearRect">Xoá vùng chọn</button>
+            </div>
+          </div>
+
+          <div class="canvas-stage-wrap">
+            <canvas id="inspectorCanvas" width="668" height="540"></canvas>
+          </div>
+
+          <div class="readout-bar">
+            <span id="cursorCoord">Canvas: (—, —) | Offset tâm chân: (—, —)</span>
+            <span id="cursorAtlas">Atlas: (—, —)</span>
+            <span><span id="cursorSwatch" class="swatch"></span><span id="cursorRgba">RGBA: (—, —, —, —)</span></span>
+          </div>
+
+          <!-- INTERACTIVE FRAME REFERENCE SLIDER -->
+          <div class="scrubber-box">
+            <div class="scrubber-controls">
+              <button class="btn btn-gold" id="btnPlayPause">⏸ Tạm dừng</button>
+              <button class="btn" id="btnPrevFrame">⏮ -1 Frame</button>
+              <input type="range" id="frameSlider" min="0" max="3" value="0" step="1" />
+              <button class="btn" id="btnNextFrame">+1 Frame ⏭</button>
+              <select id="selSpeed" style="width:auto; padding:4px 7px;">
+                <option value="0.25">0.25× (Soi chậm)</option>
+                <option value="0.5">0.5×</option>
+                <option value="1" selected>1.0× (Chuẩn 60Hz)</option>
+                <option value="1.5">1.5×</option>
+              </select>
+              <label style="font-size:11.5px; white-space:nowrap;" title="Tự động phát lặp lại các đòn đánh/kỹ năng oneshot để tiện kiểm tra">
+                <input type="checkbox" id="chkAutoReplay" checked /> 🔁 Tự lặp clip ngắn
+              </label>
+            </div>
+            <div style="display:flex; justify-content:space-between; font-size:11.5px; color:var(--muted); flex-wrap:wrap; gap:6px;">
+              <span id="scrubberLabel">Frame: 0 / 0</span>
+              <span id="scrubberRegion">Atlas Region: —</span>
+            </div>
+            <div id="filmstrip" class="filmstrip"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: AGENT COORDINATE PROTOCOL + MAP METRICS + PARITY -->
+      <div>
+        <div class="card">
+          <h2><span>📐 Giao Tiếp Toạ Độ Sửa Lỗi Với Agent</span></h2>
+          <p style="font-size:11.5px; color:var(--muted); margin-bottom:8px;">
+            Kéo chuột trực tiếp trên ảnh bên trái để khoanh vùng <code>Rect(x, y, w, h)</code>, chọn mục tiêu chỉnh sửa bên dưới rồi bấm <b>Copy gửi Agent</b>:
+          </p>
+          <div class="tag-grid" id="tagButtons">
+            <button class="tag-btn active" data-tag="CHINH_NET">🔍 Cần chỉnh nét đoạn này</button>
+            <button class="tag-btn" data-tag="LOI_HOAT_ANH">🎞️ Đang bị lỗi hoạt ảnh</button>
+            <button class="tag-btn" data-tag="LUOC_BO">✂️ Cần lược bỏ chi tiết</button>
+            <button class="tag-btn" data-tag="XOA_NEN">🧹 Cần xóa nền / viền bẩn</button>
+          </div>
+          <input type="text" id="inpOwnerNote" placeholder="Ghi chú thêm của anh (VD: căn lại tốc độ đòn chém)..." style="margin-bottom:8px;" />
+          <textarea id="txtAgentSpec" rows="7" readonly></textarea>
+          <div style="display:flex; gap:6px; margin-top:8px;">
+            <button class="btn btn-primary" id="btnCopySpec" style="flex:1; justify-content:center;">📋 Copy Thông Số Gửi Agent</button>
+            <button class="btn" id="btnAddPin" title="Ghim vùng này vào danh sách nhiều điểm">+ Ghim điểm</button>
+          </div>
+          <div id="pinnedList" style="margin-top:8px; font-size:11px; color:var(--muted);"></div>
+        </div>
+
+        <div class="card">
+          <h2><span>🗺️ Kích Thước Đồng Bộ Scene Map &amp; Độ Nét Pixel</span></h2>
+          <table class="kv-table" id="metricsTable"></table>
+        </div>
+
+        <div class="card">
+          <h2><span>🔐 Đối Soát Đồng Bộ Engine ⇄ Localhost (SHA-256)</span></h2>
+          <table class="kv-table" id="parityTable"></table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- TAB 2: >2,000 REAL-TIME COMBAT @ 60FPS STRESS TEST & ENGINE BENCHMARK -->
+  <!-- ===================================================================== -->
+  <section id="tab-stress" class="tab-view">
+    <div class="bench-layout">
+      <div class="card">
+        <h2>
+          <span>⚡ Đấu Trường Thời Gian Thực &gt;2,000 User (Chạy Thật <code>rust_combat_sim.wasm</code> + WebGL2)</span>
+          <span class="badge badge-ok" id="wasmRendererBadge">Đang khởi tạo WASM...</span>
+        </h2>
+        <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px; align-items:center;">
+          <button class="btn stress-count-btn" data-count="500">500 User</button>
+          <button class="btn btn-gold stress-count-btn" data-count="2000">2,000 User (Mục tiêu)</button>
+          <button class="btn stress-count-btn" data-count="3500">3,500 User</button>
+          <button class="btn stress-count-btn" data-count="5000">5,000 User (Cực hạn)</button>
+          <label style="margin-left:auto; font-size:11.5px;"><input type="checkbox" id="chkShowAoI" checked /> Hiển thị Khung Camera Mobile AoI (960×540)</label>
+        </div>
+
+        <div class="kpi-row">
+          <div class="kpi"><div class="label">FPS Trình Duyệt</div><div class="val" id="kpiFps">60</div></div>
+          <div class="kpi"><div class="label">Rust WASM Sim + Grid</div><div class="val" id="kpiSimMs">0.61 ms</div></div>
+          <div class="kpi"><div class="label">GPU Draw Calls</div><div class="val" id="kpiDraws">1</div></div>
+          <div class="kpi"><div class="label">User Trong AoI / Băng Thông</div><div class="val" id="kpiAoI" style="font-size:13.5px;">—</div></div>
+        </div>
+
+        <div class="stress-stage">
+          <canvas id="stressCanvas" width="880" height="495" style="width:100%; height:auto; display:block;"></canvas>
+          <div id="aoiOverlayBox">📱 Mobile Camera AoI (960×540 px) — Chỉ đồng bộ mạng các User trong vùng này</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <h2><span>📊 Số Liệu Đo Thực Nghiệm: Godot 4.7.2 + Rust 1.99.1 (Ngân Sách 60FPS = 16.67ms)</span></h2>
+          <table class="bench-table" id="benchCompareTable">
+            <thead>
+              <tr>
+                <th>Engine &amp; Kiến trúc Render</th>
+                <th>Số User</th>
+                <th>CPU / Frame</th>
+                <th>% Quỹ 60FPS</th>
+                <th>Draw Calls</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div class="card">
+          <h2><span>🧭 Kiến Trúc Chính Thức Đã Chốt Cho Mobile APK/iOS + Supabase (&gt;2,000 CCU)</span></h2>
+          <div style="font-size:12px; color:var(--text); display:flex; flex-direction:column; gap:8px;">
+            <div>
+              <b style="color:var(--gold);">1. Kiến trúc Lớp Duy Nhất — Gộp Chung 1 Lớp Nguyên Bản (<code>Combined 1-Layer</code>):</b><br/>
+              Mỗi nhân vật đóng gói vào <b>1 trang PNG Atlas duy nhất (&le; 4096×4096, lọc Nearest 1:1)</b> và vẽ trên <b>1 Quad duy nhất</b>. Giữ nguyên 100% chi tiết hào quang, kiếm khí, tia chưởng từ sheet gốc và gom toàn bộ <code>2,000–5,000</code> thực thể vào đúng <b>1 lệnh vẽ GPU (<code>1 Draw Call</code>)</b>.
+            </div>
+            <div>
+              <b style="color:var(--cyan);">2. Phân vai tối ưu giữa Godot 4 + Rust Core + Supabase:</b><br/>
+              • <b>Godot 4 (Client Chính Thức)</b>: Dựng Scene, Map, UI cảm ứng, âm thanh, xuất thẳng Android <code>.apk/.aab</code> &amp; iOS <code>.ipa</code> và vẽ đám đông bằng <code>MultiMeshInstance2D</code>.<br/>
+              • <b>Rust Core (GDExtension + Authoritative Server)</b>: Xử lý <code>2,000</code> thực thể giao tranh chỉ tốn <b><code>0.61 ms/frame</code></b> (<b><code>3.69%</code></b> quỹ 60FPS) và lọc mạng Spatial-Grid AoI (~614 kbps @ 20Hz).<br/>
+              • <b>Supabase</b>: Xác thực tài khoản (Auth), lưu trữ Hồ sơ nhân vật, Trang bị &amp; Lịch sử chiến đấu.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- TAB 3: INTERACTIVE 2D GAMEPLAY SANDBOX                                -->
+  <!-- ===================================================================== -->
+  <section id="tab-arena" class="tab-view">
+    <div class="card">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:10px;">
+        <div>
+          <b>⚔️ Sân Tập Thực Chiến (<span id="arenaCharLabel">Future Trunks</span>):</b>
+          <code>A/D</code> Đi bộ • <code>Shift+A/D</code> Chạy nhanh • <code>W/Space</code> Nhảy • <code>J</code> Đấm • <code>U</code> Kiếm Khí • <code>I</code> Burning Sword • <code>K</code> Biến Hình SSJ Rage • <code>L</code> Galick Gun • <code>O</code> Final Flash • <code>P</code> Ultimate Spirit Sword
+        </div>
+        <div style="display:flex; gap:5px; flex-wrap:wrap;">
+          <button class="btn" id="btnMoveLeft">◀ Trái</button>
+          <button class="btn" id="btnJump">⬆ Nhảy</button>
+          <button class="btn" id="btnMoveRight">Phải ▶</button>
+          <button class="btn" id="btnActLight">👊 J: Đấm</button>
+          <button class="btn" id="btnActSword">🗡️ U: Kiếm Khí (320)</button>
+          <button class="btn" id="btnActBurn">⚔️ I: Burning Sword (360)</button>
+          <button class="btn btn-gold" id="btnActPower">🔥 K: SSJ Rage (250)</button>
+          <button class="btn" id="btnActGalick">💜 L: Galick Gun (380)</button>
+          <button class="btn" id="btnActFlash">⚡ O: Final Flash (480)</button>
+          <button class="btn btn-primary" id="btnActSpirit">🌟 P: Spirit Sword (800)</button>
+        </div>
+      </div>
+      <div style="background:#080c14; border:1px solid var(--border); border-radius:8px; text-align:center; overflow:hidden;">
+        <canvas id="arenaCanvas" width="960" height="470" style="width:100%; max-width:960px; height:auto; image-rendering:pixelated; display:block; margin:0 auto;"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // =========================================================================
+    // GLOBAL STATE & DYNAMIC 1-LAYER MULTI-CHARACTER BUNDLE RESOLVER
+    // =========================================================================
+    const RULER_PAD = 28;
+    const state = {
+      api: null,
+      bench: null,
+      wasmExports: null,
+      bundlesById: {},
+      images: {},
+      rosterFilter: 'all',
+      rosterSearch: '',
+      activeChar: null,
+      archMode: 'combined_1layer',
+      stepperEngine: 'rust_wasm',   // 'rust_wasm' | 'godot_spec'
+      activeClipName: 'aura_loop',
+      playing: true,
+      autoReplayOneshot: true,
+      speedMult: 1.0,
+      stepIdx: 0,
+      stepElapsedMs: 0,
+      zoom: 2,
+      bgMode: 'dark',
+      showMapGrid: true,
+      showBBox: true,
+      dragStart: null,
+      selectedRect: null,
+      activeTag: 'CHINH_NET',
+      pinnedSpecs: [],
+      activeTab: 'tab-human',
+    };
+
+    const offscreenCanvas = document.createElement('canvas');
+    offscreenCanvas.width = 320;
+    offscreenCanvas.height = 256;
+    const offCtx = offscreenCanvas.getContext('2d', { willReadFrequently: true });
+
+    function getCanvasSize(ch = state.activeChar) {
+      const sz = ch && ch.map_sync_metrics && ch.map_sync_metrics.canvas_size_px;
+      return (Array.isArray(sz) && sz.length === 2) ? [sz[0], sz[1]] : [320, 256];
+    }
+
+    function ensureOffscreenSize(cw, ch) {
+      if (offscreenCanvas.width !== cw || offscreenCanvas.height !== ch) {
+        offscreenCanvas.width = cw;
+        offscreenCanvas.height = ch;
+      }
+    }
+
+    function showRuntimeError(context, err) {
+      console.error(context, err);
+      const el = document.getElementById('runtimeErrorBanner');
+      if (el) {
+        el.style.display = 'block';
+        el.textContent = `[Lỗi Runtime tại ${context}]: ${err && err.message ? err.message : String(err)}`;
+      }
+    }
+
+    function loadImage(url) {
+      if (state.images[url]) return Promise.resolve(state.images[url]);
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => { state.images[url] = img; resolve(img); };
+        img.onerror = () => reject(new Error(`Không tải được ảnh ${url}`));
+        img.src = url;
+      });
+    }
+
+    function getCharBundle(ch = state.activeChar) {
+      if (!ch || !ch.modes || !ch.modes.combined_1layer) return null;
+      const cId = ch.modes.combined_1layer.bundle_id;
+      return cId ? state.bundlesById[cId] : null;
+    }
+
+    async function initApp() {
+      try {
+        const [bRes, benchRes, wasmBytes] = await Promise.all([
+          fetch('/api/bundles').then(r => r.json()),
+          fetch('/api/benchmarks').then(r => r.ok ? r.json() : null),
+          fetch('/rust_combat_sim.wasm').then(r => r.ok ? r.arrayBuffer() : null).catch(() => null),
+        ]);
+        state.api = bRes;
+        state.bench = benchRes;
+
+        if (wasmBytes) {
+          const mod = await WebAssembly.instantiate(wasmBytes, {});
+          state.wasmExports = mod.instance.exports;
+        }
+
+        for (const b of bRes.bundles) {
+          state.bundlesById[b.id] = b;
+          for (const anim of Object.values(b.animations)) {
+            for (const f of anim.frames) {
+              await loadImage(f.atlas_url);
+            }
+          }
+        }
+
+        setupEventListeners();
+        renderParityHeader();
+        renderBenchmarkTable();
+
+        const firstChar = bRes.roster.characters[0] || null;
+        if (firstChar) {
+          selectCharacter(firstChar.character_id);
+        }
+        initStressRenderer();
+
+        renderInspector();
+        stepAndRenderStressArena(16.67);
+        stepAndRenderArena(16.67);
+
+        requestAnimationFrame(mainLoop);
+      } catch (err) {
+        showRuntimeError('initApp', err);
+      }
+    }
+
+    // =========================================================================
+    // SCALABLE MULTI-CHARACTER ROSTER & DYNAMIC SELECTION
+    // =========================================================================
+    function selectCharacter(charId) {
+      const ch = (state.api.roster.characters || []).find(c => c.character_id === charId);
+      if (!ch) return;
+      state.activeChar = ch;
+      state.archMode = 'combined_1layer';
+
+      const [cw, chPx] = getCanvasSize(ch);
+      ensureOffscreenSize(cw, chPx);
+      const z1 = document.getElementById('optZoom1');
+      const z2 = document.getElementById('optZoom2');
+      const z3 = document.getElementById('optZoom3');
+      if (z1) z1.textContent = `1× (${cw}×${chPx})`;
+      if (z2) z2.textContent = `2× (${cw * 2}×${chPx * 2} — Khuyên dùng)`;
+      if (z3) z3.textContent = `3× (${cw * 3}×${chPx * 3} — Soi chi tiết pixel)`;
+
+      state.stepIdx = 0;
+      state.stepElapsedMs = 0;
+      state.selectedRect = null;
+      state.playing = true;
+
+      document.getElementById('arenaCharLabel').textContent = ch.display_name;
+      renderRosterList();
+      renderCharMetricsAndWarnings();
+      syncClipChoices();
+      updatePlayButtonUI();
+      updateAgentSpecText();
+
+      if (stress.gl) {
+        uploadStressCharacterTexture();
+      }
+      resetStressCount(stress.count);
+    }
+
+    function renderRosterList() {
+      const allChars = state.api.roster.characters || [];
+      document.getElementById('rosterCountBadge').textContent = `${allChars.length} Hoàn thiện`;
+
+      const q = state.rosterSearch.trim().toLowerCase();
+      const filtered = allChars.filter(ch => {
+        if (state.rosterFilter === 'z_fighters' && ch.faction !== 'z_fighters') return false;
+        if (state.rosterFilter === 'boss_mob' && ch.faction === 'z_fighters') return false;
+        if (!q) return true;
+        const hay = `${ch.character_id} ${ch.display_name} ${ch.role_label || ''} ${(ch.tags || []).join(' ')}`.toLowerCase();
+        return hay.includes(q);
+      });
+
+      const listEl = document.getElementById('rosterList');
+      listEl.innerHTML = '';
+      if (filtered.length === 0) {
+        listEl.innerHTML = `<div style="padding:10px; color:var(--muted); font-size:11.5px; text-align:center;">Không có nhân vật nào khớp bộ lọc.</div>`;
+        return;
+      }
+
+      filtered.forEach(ch => {
+        const isAct = state.activeChar && state.activeChar.character_id === ch.character_id;
+        const card = document.createElement('div');
+        card.className = 'roster-card' + (isAct ? ' active' : '');
+
+        const av = document.createElement('canvas');
+        av.width = 48; av.height = 48;
+        av.className = 'roster-avatar';
+        drawCharacterAvatar(av, ch);
+
+        const clipBadge = `${(ch.present_clips || []).length} clips`;
+        const [cw, chPx] = getCanvasSize(ch);
+
+        const info = document.createElement('div');
+        info.className = 'roster-info';
+        info.innerHTML = `
+          <div class="roster-title">${ch.display_name}</div>
+          <div class="roster-sub"><code>${ch.character_id}</code> • ${ch.role_label || 'Fighter'}</div>
+          <div class="roster-pills">
+            <span class="mini-pill">1-Lớp Chuẩn</span>
+            <span class="mini-pill">${cw}×${chPx}</span>
+            <span class="mini-pill">${clipBadge}</span>
+          </div>
+        `;
+        card.appendChild(av);
+        card.appendChild(info);
+        card.onclick = () => selectCharacter(ch.character_id);
+        listEl.appendChild(card);
+      });
+    }
+
+    function drawCharacterAvatar(canvas, ch) {
+      const ctx = canvas.getContext('2d');
+      ctx.imageSmoothingEnabled = false;
+      ctx.fillStyle = '#101626';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      const b = getCharBundle(ch);
+      if (!b) return;
+      const idleAnim = b.animations['idle'] || Object.values(b.animations)[0];
+      const f = idleAnim && idleAnim.frames[0];
+      if (!f) return;
+      const img = state.images[f.atlas_url];
+      if (!img) return;
+      const bb = (ch.map_sync_metrics && ch.map_sync_metrics.body_only_bbox_px) || { x: 80, y: 150, w: 48, h: 64 };
+      const boxSide = Math.max(bb.w, Math.min(bb.h, 54)) + 8;
+      const cx = bb.x + bb.w * 0.5;
+      const sx = f.x + Math.max(0, Math.round(cx - boxSide * 0.5));
+      const sy = f.y + Math.max(0, bb.y - 4);
+      const sw = Math.min(f.w, boxSide);
+      const sh = Math.min(f.h, boxSide);
+      ctx.drawImage(img, sx, sy, sw, sh, 2, 2, 44, 44);
+    }
+
+    function renderParityHeader() {
+      const p = state.api.parity;
+      const badge = document.getElementById('parityBadge');
+      if (p && p.ok) {
+        badge.className = 'badge badge-ok';
+        badge.textContent = `✅ ĐỒNG BỘ 1:1 ENGINE ⇄ LOCALHOST (${p.checked_bundles} gói SHA-256 khớp tuyệt đối)`;
+      } else {
+        badge.className = 'badge badge-warn';
+        badge.textContent = `⚠️ Cảnh báo đồng bộ: ${(p && p.errors.join('; ')) || 'Lỗi'}`;
+      }
+
+      const tbl = document.getElementById('parityTable');
+      tbl.innerHTML = state.api.bundles.map(b => {
+        const atlasHash = Object.values(b.sha256_atlases || {})[0] || '—';
+        return `<tr><td><code>${b.id}</code> (1-Layer Atlas)</td><td>SHA:${atlasHash.slice(0, 12)}…</td></tr>`;
+      }).join('');
+    }
+
+    function renderCharMetricsAndWarnings() {
+      const ch = state.activeChar;
+      if (!ch) return;
+
+      const warnEl = document.getElementById('completenessWarning');
+      const okEl = document.getElementById('completenessOkBox');
+      if (ch.missing_provisional_clips && ch.missing_provisional_clips.length > 0) {
+        warnEl.style.display = 'block';
+        if (okEl) okEl.style.display = 'none';
+        warnEl.innerHTML = `
+          <b>⚠️ Cảnh báo bộ hoạt ảnh chưa đầy đủ (Điều 7 AGENTS.md):</b><br/>
+          • Đã có (<b>${ch.present_clips.length}</b>): <code>${ch.present_clips.join(', ')}</code><br/>
+          • Chưa có (<b>${ch.missing_provisional_clips.length}</b>): <code>${ch.missing_provisional_clips.join(', ')}</code>
+        `;
+      } else {
+        warnEl.style.display = 'none';
+        if (okEl) {
+          okEl.style.display = 'block';
+          okEl.innerHTML = `✅ <b>Đủ 100% bộ hoạt ảnh chiến đấu cốt lõi (${ch.present_clips.length} clips)</b>: Sẵn sàng điều khiển thực chiến trên cả Godot 4 &amp; Rust Core.`;
+        }
+      }
+
+      const m = ch.map_sync_metrics;
+      const s = ch.pixel_sharpness_metrics;
+      const fxBox = m.full_fx_bbox_px || m.full_aura_shock_bbox_px;
+      document.getElementById('metricsTable').innerHTML = `
+        <tr><td>Khung Canvas nhân vật</td><td>${m.canvas_size_px[0]} × ${m.canvas_size_px[1]} px</td></tr>
+        <tr><td>Tâm chân mặt đất (<code>anchor_px</code>)</td><td>(${m.foot_anchor_px[0]}, ${m.foot_anchor_px[1]}) px</td></tr>
+        <tr><td>Kích thước Thân thuần (<code>Body BBox</code>)</td><td>${m.body_only_bbox_px.w} × ${m.body_only_bbox_px.h} px</td></tr>
+        <tr><td>Kích thước Full Kiếm Khí / Chưởng</td><td>${fxBox.w} × ${fxBox.h} px</td></tr>
+        <tr><td>Quy đổi Map @ <code>64 PPU</code> (Thân)</td><td>${m.world_size_at_64ppu_m.body_w_m}m × ${m.world_size_at_64ppu_m.body_h_m}m</td></tr>
+        <tr><td>Quy đổi Map @ <code>64 PPU</code> (Full FX)</td><td>${m.world_size_at_64ppu_m.aura_w_m}m × ${m.world_size_at_64ppu_m.aura_h_m}m</td></tr>
+        <tr><td>Số ô Tile Map <code>32×32 px</code> (Thân)</td><td>${m.tile_32px_span.body_tiles_w} × ${m.tile_32px_span.body_tiles_h} ô</td></tr>
+        <tr><td>Tỷ lệ Texel &amp; Lọc mẫu</td><td>${s.texel_scale_ratio}</td></tr>
+        <tr><td>Độ sắc nét biên (<code>Sobel Acutance</code>)</td><td>${s.edge_acutance_sobel}</td></tr>
+        <tr><td>Độ cứng biên Pixel (<code>Alpha &ge; 245</code>)</td><td>${s.alpha_hardness_pct}%</td></tr>
+        <tr><td>Hốc màu nền kẹt (<code>enclosed_pockets</code>)</td><td>${s.enclosed_key_pockets} px (Sạch 100%)</td></tr>
+        <tr><td>Nhiễu nền đặc / viền ngoài</td><td>${s.opaque_key_px} px / ${s.outer_ring_spill_fraction}</td></tr>
+      `;
+    }
+
+    // =========================================================================
+    // TAB 1: 1-LAYER COMBINED CLIP SYNC, WASM / GODOT STEPPER & INSPECTOR
+    // =========================================================================
+    function getActiveTimelineFrames() {
+      const b = getCharBundle();
+      if (!b) return { animName: 'idle', loop: true, speed_hz: 60.0, frames: [] };
+      const anim = b.animations[state.activeClipName] || Object.values(b.animations)[0];
+      return {
+        animName: anim.name,
+        loop: anim.loop,
+        speed_hz: anim.speed_hz,
+        frames: anim.frames,
+        events_ms: anim.events_ms || [],
+      };
+    }
+
+    function syncWasmTimelineDurations(frames) {
+      if (!state.wasmExports || !state.wasmExports.wasm_clip_set_len) return;
+      state.wasmExports.wasm_clip_set_len(frames.length);
+      frames.forEach((f, idx) => {
+        state.wasmExports.wasm_clip_set_dur(idx, f.duration_ms || 83.33);
+      });
+    }
+
+    function updatePlayButtonUI() {
+      const btn = document.getElementById('btnPlayPause');
+      if (!btn) return;
+      if (state.playing) {
+        btn.textContent = '⏸ Tạm dừng';
+      } else {
+        const tl = getActiveTimelineFrames();
+        const atEnd = !tl.loop && state.stepIdx >= tl.frames.length - 1 && tl.frames.length > 1;
+        btn.textContent = atEnd ? '▶ Phát lại từ đầu' : '▶ Phát tiếp';
+      }
+    }
+
+    function syncClipChoices() {
+      const b = getCharBundle();
+      if (!b) return;
+      const clipChoices = Object.keys(b.animations);
+      const priority = [
+        'power_up', 'aura_loop', 'idle', 'walk', 'run', 'jump', 'guard',
+        'attack_light', 'attack_heavy', 'spin_kick', 'sword_combo', 'burning_sword',
+        'ki_blast', 'galick_gun', 'final_flash', 'vanish_blitz', 'ultimate_spirit_sword',
+        'hit', 'ko', 'win',
+      ];
+      clipChoices.sort((x, y) => {
+        const ix = priority.indexOf(x), iy = priority.indexOf(y);
+        return (ix === -1 ? 99 : ix) - (iy === -1 ? 99 : iy);
+      });
+
+      if (!clipChoices.includes(state.activeClipName)) {
+        state.activeClipName = clipChoices[0] || 'idle';
+      }
+
+      const cntBadge = document.getElementById('clipCountBadge');
+      if (cntBadge) cntBadge.textContent = `${clipChoices.length} clips`;
+
+      const listEl = document.getElementById('clipList');
+      listEl.innerHTML = clipChoices.map(cname => `
+        <button class="clip-chip ${cname === state.activeClipName ? 'active' : ''}" data-clip="${cname}">${cname}</button>
+      `).join('');
+      listEl.querySelectorAll('.clip-chip').forEach(btn => {
+        btn.onclick = () => {
+          state.activeClipName = btn.dataset.clip;
+          state.stepIdx = 0;
+          state.stepElapsedMs = 0;
+          state.playing = true;
+          syncClipChoices();
+          updatePlayButtonUI();
+          updateAgentSpecText();
+        };
+      });
+
+      const tl = getActiveTimelineFrames();
+      syncWasmTimelineDurations(tl.frames);
+
+      const slider = document.getElementById('frameSlider');
+      slider.max = Math.max(0, tl.frames.length - 1);
+      if (state.stepIdx >= tl.frames.length) state.stepIdx = 0;
+      slider.value = state.stepIdx;
+
+      const prefab = state.activeChar.modes.combined_1layer && state.activeChar.modes.combined_1layer.godot_prefab;
+      const staticHint = tl.frames.length === 1 ? ' • <span style="color:var(--gold);">(Tư thế tĩnh 1 frame)</span>' : '';
+      document.getElementById('clipMetaInfo').innerHTML =
+        `Prefab: <code>${prefab || '—'}</code> • Speed: <code>${tl.speed_hz} Hz</code> • Loop gốc: <code>${tl.loop}</code> (${tl.frames.length} frame)${staticHint}`;
+
+      buildFilmstrip(tl);
+    }
+
+    function buildFilmstrip(tl) {
+      const strip = document.getElementById('filmstrip');
+      strip.innerHTML = '';
+      const [cw, ch] = getCanvasSize();
+      const thumbW = 60;
+      const thumbH = Math.max(36, Math.round(thumbW * (ch / cw)));
+      tl.frames.forEach((f, idx) => {
+        const div = document.createElement('div');
+        div.className = 'thumb' + (idx === state.stepIdx ? ' active' : '');
+        const c = document.createElement('canvas');
+        c.width = thumbW;
+        c.height = thumbH;
+        const cx = c.getContext('2d');
+        cx.imageSmoothingEnabled = false;
+        drawCompositeStep(cx, state.activeClipName, idx, thumbW / cw, thumbH / ch);
+        const lbl = document.createElement('div');
+        lbl.textContent = `#${idx} (${Math.round(f.duration_ms)}ms)`;
+        div.appendChild(c);
+        div.appendChild(lbl);
+        div.onclick = () => {
+          state.playing = false;
+          state.stepIdx = idx;
+          state.stepElapsedMs = 0;
+          document.getElementById('frameSlider').value = idx;
+          updatePlayButtonUI();
+          highlightFilmstrip();
+          updateAgentSpecText();
+        };
+        strip.appendChild(div);
+      });
+    }
+
+    function highlightFilmstrip() {
+      document.querySelectorAll('#filmstrip .thumb').forEach((el, i) => {
+        el.classList.toggle('active', i === state.stepIdx);
+      });
+    }
+
+    function getLayerFramesForStep(clipName, stepIdx) {
+      const b = getCharBundle();
+      if (!b) return [];
+      const anim = b.animations[clipName] || Object.values(b.animations)[0];
+      if (!anim || !anim.frames.length) return [];
+      const f = anim.frames[Math.min(stepIdx, anim.frames.length - 1)];
+      return [{ layer: 'Combined1Layer(z=0)', bundle: b.id, frame: f }];
+    }
+
+    function drawCompositeStep(ctx, clipName, stepIdx, scaleX = 1.0, scaleY = scaleX) {
+      const layers = getLayerFramesForStep(clipName, stepIdx);
+      const [cw, ch] = getCanvasSize();
+      ctx.imageSmoothingEnabled = false;
+      for (const item of layers) {
+        const f = item.frame;
+        const img = state.images[f.atlas_url];
+        if (img) {
+          ctx.drawImage(img, f.x, f.y, f.w, f.h, 0, 0, cw * scaleX, ch * scaleY);
+        }
+      }
+      return layers;
+    }
+
+    function stepInspectorAnimation(dtMs) {
+      if (!state.playing || !state.activeChar) return;
+      const tl = getActiveTimelineFrames();
+      if (!tl.frames.length) return;
+
+      const scaledDt = dtMs * state.speedMult;
+      const prevIdx = state.stepIdx;
+      let finishedOneshot = false;
+
+      if (state.stepperEngine === 'rust_wasm' && state.wasmExports && state.wasmExports.wasm_clip_step) {
+        const syncKey = `${state.activeChar.character_id}:${state.activeClipName}:${tl.frames.length}`;
+        if (state._lastWasmClipKey !== syncKey) {
+          syncWasmTimelineDurations(tl.frames);
+          state._lastWasmClipKey = syncKey;
+        }
+        const outPtr = state.wasmExports.wasm_clip_step(
+          state.stepIdx,
+          state.stepElapsedMs,
+          scaledDt,
+          tl.loop ? 1 : 0,
+          state.autoReplayOneshot ? 1 : 0
+        );
+        const res = new Float32Array(state.wasmExports.memory.buffer, outPtr, 3);
+        state.stepIdx = Math.round(res[0]);
+        state.stepElapsedMs = res[1];
+        finishedOneshot = res[2] > 0.5;
+      } else {
+        const curF = tl.frames[state.stepIdx] || tl.frames[0];
+        const dur = Math.max(16.0, curF.duration_ms || 83.33);
+        state.stepElapsedMs += scaledDt;
+        if (state.stepElapsedMs >= dur) {
+          state.stepElapsedMs -= dur;
+          if (state.stepIdx + 1 < tl.frames.length) {
+            state.stepIdx++;
+          } else if (tl.loop || state.autoReplayOneshot) {
+            state.stepIdx = 0;
+          } else {
+            state.stepIdx = tl.frames.length - 1;
+            state.stepElapsedMs = 0;
+            finishedOneshot = true;
+          }
+        }
+      }
+
+      if (finishedOneshot) {
+        state.playing = false;
+        updatePlayButtonUI();
+      }
+      if (state.stepIdx !== prevIdx) {
+        document.getElementById('frameSlider').value = state.stepIdx;
+        highlightFilmstrip();
+        updateAgentSpecText();
+      }
+    }
+
+    function renderInspector() {
+      const canvas = document.getElementById('inspectorCanvas');
+      if (!canvas || !state.activeChar) return;
+      const [cw, ch] = getCanvasSize();
+      ensureOffscreenSize(cw, ch);
+      const z = state.zoom;
+      const viewW = cw * z;
+      const viewH = ch * z;
+      if (canvas.width !== viewW + RULER_PAD || canvas.height !== viewH + RULER_PAD) {
+        canvas.width = viewW + RULER_PAD;
+        canvas.height = viewH + RULER_PAD;
+      }
+      const ctx = canvas.getContext('2d');
+      ctx.imageSmoothingEnabled = false;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      offCtx.clearRect(0, 0, cw, ch);
+      const activeLayers = drawCompositeStep(offCtx, state.activeClipName, state.stepIdx, 1.0, 1.0);
+
+      ctx.save();
+      ctx.translate(RULER_PAD, RULER_PAD);
+      if (state.bgMode === 'dark') {
+        ctx.fillStyle = '#141824';
+        ctx.fillRect(0, 0, viewW, viewH);
+      } else if (state.bgMode === 'light') {
+        ctx.fillStyle = '#e5e7eb';
+        ctx.fillRect(0, 0, viewW, viewH);
+      } else if (state.bgMode === 'namek') {
+        const g = ctx.createLinearGradient(0, 0, 0, viewH);
+        g.addColorStop(0, '#134e4a');
+        g.addColorStop(0.82, '#115e59');
+        g.addColorStop(0.83, '#3f6212');
+        g.addColorStop(1, '#365314');
+        ctx.fillStyle = g;
+        ctx.fillRect(0, 0, viewW, viewH);
+      } else {
+        const sq = 8 * z;
+        for (let y = 0; y < viewH; y += sq) {
+          for (let x = 0; x < viewW; x += sq) {
+            ctx.fillStyle = ((x / sq + y / sq) % 2 === 0) ? '#1f2937' : '#374151';
+            ctx.fillRect(x, y, sq, sq);
+          }
+        }
+      }
+
+      if (state.showMapGrid) {
+        for (let px = 0; px <= cw; px += 32) {
+          const is64 = (px % 64 === 0);
+          ctx.strokeStyle = is64 ? 'rgba(56, 189, 248, 0.25)' : 'rgba(148, 163, 184, 0.12)';
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(px * z + 0.5, 0); ctx.lineTo(px * z + 0.5, viewH);
+          ctx.stroke();
+        }
+        for (let py = 0; py <= ch; py += 32) {
+          const is64 = (py % 64 === 0);
+          ctx.strokeStyle = is64 ? 'rgba(56, 189, 248, 0.25)' : 'rgba(148, 163, 184, 0.12)';
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(0, py * z + 0.5); ctx.lineTo(viewW, py * z + 0.5);
+          ctx.stroke();
+        }
+      }
+
+      const m = state.activeChar.map_sync_metrics;
+      ctx.fillStyle = 'rgba(0,0,0,0.35)';
+      ctx.beginPath();
+      ctx.ellipse(m.foot_anchor_px[0] * z, m.foot_anchor_px[1] * z, 18 * z, 5 * z, 0, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.drawImage(offscreenCanvas, 0, 0, viewW, viewH);
+
+      if (state.showBBox) {
+        const bb = m.body_only_bbox_px;
+        const fb = m.full_fx_bbox_px || m.full_aura_shock_bbox_px;
+        ctx.strokeStyle = 'rgba(34, 197, 94, 0.65)';
+        ctx.setLineDash([4, 3]);
+        ctx.strokeRect(bb.x * z, bb.y * z, bb.w * z, bb.h * z);
+        ctx.strokeStyle = 'rgba(250, 204, 21, 0.45)';
+        ctx.strokeRect(fb.x * z, fb.y * z, fb.w * z, fb.h * z);
+        ctx.setLineDash([]);
+
+        const ax = m.foot_anchor_px[0] * z;
+        const ay = m.foot_anchor_px[1] * z;
+        ctx.strokeStyle = '#ef4444';
+        ctx.lineWidth = 1.5;
+        ctx.beginPath();
+        ctx.moveTo(ax - 8, ay); ctx.lineTo(ax + 8, ay);
+        ctx.moveTo(ax, ay - 8); ctx.lineTo(ax, ay + 8);
+        ctx.stroke();
+      }
+
+      if (state.selectedRect) {
+        const r = state.selectedRect;
+        ctx.fillStyle = 'rgba(239, 68, 68, 0.18)';
+        ctx.fillRect(r.x * z, r.y * z, r.w * z, r.h * z);
+        ctx.strokeStyle = '#fbbf24';
+        ctx.lineWidth = 2;
+        ctx.strokeRect(r.x * z, r.y * z, r.w * z, r.h * z);
+        ctx.fillStyle = '#0b0e17';
+        ctx.fillRect(r.x * z, Math.max(0, r.y * z - 18), 140, 17);
+        ctx.fillStyle = '#facc15';
+        ctx.font = 'bold 11px monospace';
+        ctx.fillText(`Rect(${r.x},${r.y},${r.w},${r.h})`, r.x * z + 4, Math.max(12, r.y * z - 5));
+      }
+      ctx.restore();
+
+      // Pixel coordinate rulers (X: 0..cw, Y: 0..ch)
+      ctx.fillStyle = '#0f1525';
+      ctx.fillRect(0, 0, canvas.width, RULER_PAD);
+      ctx.fillRect(0, 0, RULER_PAD, canvas.height);
+      ctx.strokeStyle = '#28324c';
+      ctx.strokeRect(0, 0, canvas.width, RULER_PAD);
+      ctx.strokeRect(0, 0, RULER_PAD, canvas.height);
+
+      ctx.fillStyle = '#93a1c6';
+      ctx.font = '10px monospace';
+      for (let px = 0; px <= cw; px += 32) {
+        const sx = RULER_PAD + px * z;
+        ctx.beginPath();
+        ctx.moveTo(sx, RULER_PAD - 6); ctx.lineTo(sx, RULER_PAD);
+        ctx.strokeStyle = '#64748b';
+        ctx.stroke();
+        if (px < cw) ctx.fillText(String(px), sx + 2, 14);
+      }
+      for (let py = 0; py <= ch; py += 32) {
+        const sy = RULER_PAD + py * z;
+        ctx.beginPath();
+        ctx.moveTo(RULER_PAD - 6, sy); ctx.lineTo(RULER_PAD, sy);
+        ctx.strokeStyle = '#64748b';
+        ctx.stroke();
+        if (py < ch) {
+          ctx.save();
+          ctx.translate(12, sy + 3);
+          ctx.rotate(-Math.PI / 2);
+          ctx.fillText(String(py), -12, 0);
+          ctx.restore();
+        }
+      }
+
+      const topLayer = activeLayers[activeLayers.length - 1];
+      const tl = getActiveTimelineFrames();
+      if (topLayer) {
+        document.getElementById('scrubberLabel').textContent =
+          `Step: ${state.stepIdx} / ${Math.max(0, tl.frames.length - 1)} (${topLayer.frame.sub_id} • ${topLayer.frame.duration_ms}ms • ${state.stepperEngine === 'rust_wasm' ? 'Rust WASM' : 'Godot Spec'})`;
+        document.getElementById('scrubberRegion').textContent =
+          `Atlas Rect2(${topLayer.frame.x}, ${topLayer.frame.y}, ${topLayer.frame.w}, ${topLayer.frame.h})`;
+      }
+    }
+
+    function updateAgentSpecText() {
+      const ch = state.activeChar;
+      if (!ch) return;
+      const [cw, chPx] = getCanvasSize(ch);
+      const tagLabels = {
+        CHINH_NET: 'CHỈNH NÉT / TĂNG CHI TIẾT PIXEL',
+        LOI_HOAT_ANH: 'SỬA LỖI HOẠT ẢNH / LỆCH NHỊP FRAME',
+        LUOC_BO: 'LƯỢC BỎ CHI TIẾT THỪA',
+        XOA_NEN: 'XÓA NỀN / KHỬ VIỀN MÀU BẨN',
+      };
+      const layers = getLayerFramesForStep(state.activeClipName, state.stepIdx);
+      const layerDesc = layers.map(l => `${l.layer}:${l.frame.sub_id}@Atlas(${l.frame.x},${l.frame.y},${l.frame.w},${l.frame.h})`).join(' + ');
+      const r = state.selectedRect;
+      let rectLine = `Toàn khung Canvas ${cw}x${chPx} (Kéo chuột trên ảnh để khoanh vùng hẹp hơn)`;
+      let pxStats = '';
+      if (r) {
+        const ax = ch.map_sync_metrics.foot_anchor_px[0];
+        const ay = ch.map_sync_metrics.foot_anchor_px[1];
+        rectLine = `Canvas Rect(${r.x}, ${r.y}, ${r.w}, ${r.h}) | Offset từ tâm chân: (${r.x - ax}, ${r.y - ay})`;
+        const imgData = offCtx.getImageData(r.x, r.y, Math.max(1, r.w), Math.max(1, r.h)).data;
+        let nonZero = 0, rSum = 0, gSum = 0, bSum = 0;
+        for (let i = 0; i < imgData.length; i += 4) {
+          if (imgData[i + 3] > 0) {
+            nonZero++;
+            rSum += imgData[i]; gSum += imgData[i + 1]; bSum += imgData[i + 2];
+          }
+        }
+        const avgRgb = nonZero > 0 ? `[${Math.round(rSum/nonZero)}, ${Math.round(gSum/nonZero)}, ${Math.round(bSum/nonZero)}]` : '[0,0,0]';
+        pxStats = `\n- Đo đạc vùng chọn: ${nonZero}/${r.w * r.h} pixel có hình, RGB trung bình=${avgRgb}`;
+      }
+      const note = document.getElementById('inpOwnerNote').value.trim();
+      const spec = [
+        `[DR7-EDIT-SPEC]`,
+        `- Nhân vật: ${ch.character_id} | Kiến trúc: combined_1layer (Godot 4 + Rust Core)`,
+        `- Yêu cầu: ${tagLabels[state.activeTag]}`,
+        `- Clip & Frame: clip="${state.activeClipName}", step=${state.stepIdx}`,
+        `- Lớp & Tọa độ Atlas: ${layerDesc}`,
+        `- Vùng tọa độ cần xử lý: ${rectLine}${pxStats}`,
+        note ? `- Ghi chú của Owner: ${note}` : null,
+      ].filter(Boolean).join('\n');
+      document.getElementById('txtAgentSpec').value = spec;
+    }
+
+    // =========================================================================
+    // TAB 2: RUST WASM + WEBGL2 INSTANCED >2,000 USER REAL-TIME STRESS TEST
+    // =========================================================================
+    const stress = {
+      gl: null,
+      ctx2d: null,
+      prog: null,
+      vao: null,
+      instBuf: null,
+      tex: null,
+      count: 2000,
+      fpsSmooth: 60,
+      simMsSmooth: 0.61,
+    };
+
+    function getActiveCombinedAtlasInfo() {
+      const b = getCharBundle();
+      if (!b) return null;
+      // Combine energetic combat & aura frames for lively 2,000-fighter clashes!
+      const clipPool = ['aura_loop', 'sword_combo', 'walk'];
+      let frames = [];
+      for (const cname of clipPool) {
+        if (b.animations[cname]) {
+          frames.push(...b.animations[cname].frames);
+        }
+      }
+      if (!frames.length) {
+        frames = Object.values(b.animations)[0].frames;
+      }
+      const atlasImg = state.images[frames[0].atlas_url];
+      return { bundle: b, frames, atlasImg };
+    }
+
+    function initStressRenderer() {
+      const info = getActiveCombinedAtlasInfo();
+      if (!info || !info.atlasImg) return;
+
+      const canvas = document.getElementById('stressCanvas');
+      const gl = canvas.getContext('webgl2', { antialias: false, alpha: false });
+      if (gl) {
+        stress.gl = gl;
+        setupWebGL2Instancer(gl, info.atlasImg);
+        document.getElementById('wasmRendererBadge').textContent = '🦀 Rust WASM + WebGL2 Instanced (1 Draw Call)';
+      } else {
+        stress.ctx2d = canvas.getContext('2d');
+        document.getElementById('wasmRendererBadge').textContent = '🦀 Rust WASM + Canvas2D Batch';
+      }
+      resetStressCount(2000);
+    }
+
+    function uploadStressCharacterTexture() {
+      const info = getActiveCombinedAtlasInfo();
+      if (!stress.gl || !stress.tex || !info || !info.atlasImg) return;
+      const gl = stress.gl;
+      gl.bindTexture(gl.TEXTURE_2D, stress.tex);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, info.atlasImg);
+    }
+
+    function resetStressCount(n) {
+      stress.count = n;
+      if (!state.wasmExports) return;
+      const info = getActiveCombinedAtlasInfo();
+      if (!info || !info.atlasImg) return;
+      const aw = info.atlasImg.naturalWidth, ah = info.atlasImg.naturalHeight;
+      state.wasmExports.wasm_init_world(n, info.frames.length);
+      info.frames.forEach((f, idx) => {
+        state.wasmExports.wasm_set_frame_uv(idx, f.x / aw, f.y / ah, f.w / aw, f.h / ah, f.duration_ms || 83.33);
+      });
+    }
+
+    function setupWebGL2Instancer(gl, atlasImg) {
+      const vsSrc = `#version 300 es
+        layout(location=0) in vec2 aQuad;
+        layout(location=1) in vec2 iPos;
+        layout(location=2) in vec4 iUv;
+        layout(location=3) in float iFlip;
+        layout(location=4) in float iFlash;
+        uniform vec2 uArena;
+        uniform vec2 uQuadSize;
+        uniform vec2 uAnchorNorm;
+        out vec2 vUv;
+        out float vFlash;
+        void main() {
+          float qx = iFlip < 0.0 ? (1.0 - aQuad.x) : aQuad.x;
+          vUv = vec2(iUv.x + qx * iUv.z, iUv.y + aQuad.y * iUv.w);
+          vFlash = iFlash;
+          float localX = iFlip < 0.0 ? ((1.0 - uAnchorNorm.x) - aQuad.x) : (aQuad.x - uAnchorNorm.x);
+          vec2 worldPx = iPos + vec2(localX * uQuadSize.x, (aQuad.y - uAnchorNorm.y) * uQuadSize.y);
+          vec2 ndc = (worldPx / uArena) * 2.0 - 1.0;
+          gl_Position = vec4(ndc.x, -ndc.y, 0.0, 1.0);
+        }`;
+      const fsSrc = `#version 300 es
+        precision mediump float;
+        uniform sampler2D uTex;
+        in vec2 vUv;
+        in float vFlash;
+        out vec4 fragColor;
+        void main() {
+          vec4 c = texture(uTex, vUv);
+          if (c.a < 0.05) discard;
+          vec3 rgb = mix(c.rgb, vec3(1.0, 0.98, 0.80), clamp(vFlash, 0.0, 1.0) * 0.55);
+          fragColor = vec4(rgb, c.a);
+        }`;
+      const compile = (type, src) => {
+        const s = gl.createShader(type);
+        gl.shaderSource(s, src);
+        gl.compileShader(s);
+        if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) {
+          throw new Error(gl.getShaderInfoLog(s));
+        }
+        return s;
+      };
+      const prog = gl.createProgram();
+      gl.attachShader(prog, compile(gl.VERTEX_SHADER, vsSrc));
+      gl.attachShader(prog, compile(gl.FRAGMENT_SHADER, fsSrc));
+      gl.linkProgram(prog);
+      stress.prog = prog;
+
+      const quad = new Float32Array([0,0, 1,0, 0,1, 0,1, 1,0, 1,1]);
+      const vao = gl.createVertexArray();
+      gl.bindVertexArray(vao);
+      const qBuf = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, qBuf);
+      gl.bufferData(gl.ARRAY_BUFFER, quad, gl.STATIC_DRAW);
+      gl.enableVertexAttribArray(0);
+      gl.vertexAttribPointer(0, 2, gl.FLOAT, false, 0, 0);
+
+      stress.instBuf = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, stress.instBuf);
+      gl.bufferData(gl.ARRAY_BUFFER, 5000 * 32, gl.DYNAMIC_DRAW);
+      const stride = 32;
+      gl.enableVertexAttribArray(1); gl.vertexAttribPointer(1, 2, gl.FLOAT, false, stride, 0);  gl.vertexAttribDivisor(1, 1);
+      gl.enableVertexAttribArray(2); gl.vertexAttribPointer(2, 4, gl.FLOAT, false, stride, 8);  gl.vertexAttribDivisor(2, 1);
+      gl.enableVertexAttribArray(3); gl.vertexAttribPointer(3, 1, gl.FLOAT, false, stride, 24); gl.vertexAttribDivisor(3, 1);
+      gl.enableVertexAttribArray(4); gl.vertexAttribPointer(4, 1, gl.FLOAT, false, stride, 28); gl.vertexAttribDivisor(4, 1);
+
+      const tex = gl.createTexture();
+      gl.bindTexture(gl.TEXTURE_2D, tex);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, atlasImg);
+      stress.tex = tex;
+      stress.vao = vao;
+    }
+
+    function stepAndRenderStressArena(dtMs) {
+      if (!state.wasmExports) return;
+      const t0 = performance.now();
+      state.wasmExports.wasm_step_world(Math.min(dtMs, 33.33));
+      const simMs = performance.now() - t0;
+      stress.simMsSmooth = stress.simMsSmooth * 0.9 + simMs * 0.1;
+      stress.fpsSmooth = stress.fpsSmooth * 0.92 + (1000 / Math.max(1, dtMs)) * 0.08;
+
+      const ptr = state.wasmExports.wasm_get_instance_ptr();
+      const floats = new Float32Array(state.wasmExports.memory.buffer, ptr, stress.count * 8);
+      const aoiCount = state.wasmExports.wasm_count_aoi(1200, 675, 480, 270);
+      const kbps = ((aoiCount * 10 * 20 * 8) / 1000).toFixed(0);
+
+      document.getElementById('kpiFps').textContent = Math.round(stress.fpsSmooth);
+      document.getElementById('kpiSimMs').textContent = `${stress.simMsSmooth.toFixed(2)} ms`;
+      document.getElementById('kpiAoI').textContent = `${aoiCount} user (${kbps} kbps)`;
+
+      const [cellW, cellH] = getCanvasSize();
+      const anc = (state.activeChar && state.activeChar.map_sync_metrics.foot_anchor_px) || [96, 220];
+      const normAx = anc[0] / cellW;
+      const normAy = anc[1] / cellH;
+      const quadH = 112.0;
+      const quadW = quadH * (cellW / cellH);
+
+      if (stress.gl) {
+        const gl = stress.gl;
+        gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
+        gl.clearColor(0.06, 0.09, 0.15, 1.0);
+        gl.clear(gl.COLOR_BUFFER_BIT);
+        gl.enable(gl.BLEND);
+        gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+        gl.useProgram(stress.prog);
+        gl.uniform2f(gl.getUniformLocation(stress.prog, 'uArena'), 2400.0, 1350.0);
+        gl.uniform2f(gl.getUniformLocation(stress.prog, 'uQuadSize'), quadW, quadH);
+        gl.uniform2f(gl.getUniformLocation(stress.prog, 'uAnchorNorm'), normAx, normAy);
+        gl.bindVertexArray(stress.vao);
+        gl.bindBuffer(gl.ARRAY_BUFFER, stress.instBuf);
+        gl.bufferSubData(gl.ARRAY_BUFFER, 0, floats);
+        gl.drawArraysInstanced(gl.TRIANGLES, 0, 6, stress.count);
+      } else if (stress.ctx2d) {
+        const ctx = stress.ctx2d;
+        const cw = ctx.canvas.width, ch = ctx.canvas.height;
+        ctx.fillStyle = '#0d1422';
+        ctx.fillRect(0, 0, cw, ch);
+        const info = getActiveCombinedAtlasInfo();
+        if (info && info.atlasImg) {
+          const aw = info.atlasImg.naturalWidth, ah = info.atlasImg.naturalHeight;
+          const dw = 40 * (cellW / cellH), dh = 40;
+          for (let i = 0; i < stress.count; i++) {
+            const base = i * 8;
+            const sx = (floats[base] / 2400) * cw;
+            const sy = (floats[base + 1] / 1350) * ch;
+            const u = floats[base + 2] * aw, v = floats[base + 3] * ah;
+            const uw = floats[base + 4] * aw, vh = floats[base + 5] * ah;
+            ctx.drawImage(info.atlasImg, u, v, uw, vh, sx - dw * normAx, sy - dh * normAy, dw, dh);
+          }
+        }
+      }
+    }
+
+    function renderBenchmarkTable() {
+      if (!state.bench) return;
+      const tbody = document.querySelector('#benchCompareTable tbody');
+      const rows = [];
+      for (const r of state.bench.rust_engine.benchmarks) {
+        rows.push(`
+          <tr style="background:rgba(34,197,94,0.08);">
+            <td><b>🦀 Rust 1.99.1 Core (SoA + SpatialHash + Instanced)</b></td>
+            <td><b>${r.fighters.toLocaleString()}</b></td>
+            <td style="color:#4ade80; font-weight:700;">${r.avg_frame_cpu_ms.toFixed(3)} ms</td>
+            <td>${r.budget_60fps_pct.toFixed(2)}%</td>
+            <td>${r.gpu_draw_calls}</td>
+          </tr>
+        `);
+      }
+      for (const g of state.bench.godot_engine.benchmarks) {
+        const warnColor = g.budget_60fps_pct > 30 ? '#fbbf24' : '#e6ecff';
+        rows.push(`
+          <tr>
+            <td>🤖 ${g.mode}</td>
+            <td>${g.fighters.toLocaleString()}</td>
+            <td style="color:${warnColor};">${g.avg_frame_cpu_ms.toFixed(3)} ms</td>
+            <td>${g.budget_60fps_pct.toFixed(1)}%</td>
+            <td>${g.gpu_draw_calls_est.toLocaleString()}</td>
+          </tr>
+        `);
+      }
+      tbody.innerHTML = rows.join('');
+    }
+
+    // =========================================================================
+    // TAB 3: PLAYABLE 2D GAMEPLAY SANDBOX (FULL LOCOMOTION + COMBAT SKILLS)
+    // =========================================================================
+    const SKILL_SPECS = {
+      attack_light: { dmg: 120, range: 170, label: '-120 MELEE COMBO!', shake: 5 },
+      attack_heavy: { dmg: 220, range: 185, label: '-220 HEAVY SMASH!', shake: 7 },
+      sword_combo:  { dmg: 320, range: 230, label: '-320 SHINING SWORD!', shake: 9 },
+      burning_sword:{ dmg: 360, range: 240, label: '-360 BURNING SLASH!', shake: 10 },
+      power_up:     { dmg: 250, range: 380, label: '-250 SSJ RAGE BURST!', shake: 12 },
+      galick_gun:   { dmg: 380, range: 460, label: '-380 GALICK GUN!', shake: 11 },
+      final_flash:  { dmg: 480, range: 520, label: '-480 FINAL FLASH!', shake: 14 },
+      ultimate_spirit_sword: { dmg: 800, range: 520, label: '-800 SWORD OF HOPE!', shake: 16 },
+    };
+
+    const arena = {
+      x: 280, y: 396, groundY: 396, vy: 0,
+      flip: false,
+      rageMode: true,
+      actionClip: null,
+      clip: 'aura_loop',
+      step: 0,
+      elapsed: 0,
+      shake: 0,
+      hitstop: 0,
+      dummyX: 640,
+      dummyHp: 2000,
+      dummyMaxHp: 2000,
+      dummyFlash: 0,
+      dummyClip: 'idle',
+      dummyStep: 0,
+      popups: [],
+      keys: {},
+      holdLeft: false,
+      holdRight: false,
+    };
+
+    function triggerArenaAction(clipName) {
+      const b = getCharBundle();
+      if (!b || !b.animations[clipName]) return;
+      arena.actionClip = clipName;
+      arena.clip = clipName;
+      arena.step = 0;
+      arena.elapsed = 0;
+      if (clipName === 'power_up') {
+        arena.rageMode = true;
+      }
+      const sp = SKILL_SPECS[clipName];
+      if (sp) {
+        arena.shake = sp.shake;
+        arena.hitstop = 45;
+        const dist = Math.abs(arena.x - arena.dummyX);
+        const facingDummy = arena.x <= arena.dummyX ? !arena.flip : arena.flip;
+        if (dist <= sp.range && (clipName === 'power_up' || facingDummy)) {
+          arena.dummyHp = arena.dummyHp <= sp.dmg ? arena.dummyMaxHp : arena.dummyHp - sp.dmg;
+          arena.dummyFlash = 1.0;
+          arena.dummyClip = b.animations['hit'] ? 'hit' : 'idle';
+          arena.dummyStep = 0;
+          arena.popups.push({ x: arena.dummyX, y: arena.groundY - 165, text: sp.label, life: 950 });
+        } else {
+          arena.popups.push({ x: arena.x, y: arena.y - 165, text: clipName.toUpperCase() + '!', life: 700 });
+        }
+      }
+    }
+
+    function triggerArenaJump() {
+      if (arena.y >= arena.groundY - 1) {
+        arena.vy = -0.64;
+        const b = getCharBundle();
+        if (!arena.actionClip && b && b.animations['jump']) {
+          arena.clip = 'jump';
+          arena.step = 0;
+          arena.elapsed = 0;
+        }
+      }
+    }
+
+    function stepAndRenderArena(dtMs) {
+      const canvas = document.getElementById('arenaCanvas');
+      if (!canvas || !state.activeChar) return;
+      const b = getCharBundle();
+      if (!b) return;
+      const ctx = canvas.getContext('2d');
+      ctx.imageSmoothingEnabled = false;
+
+      if (arena.hitstop > 0) {
+        arena.hitstop -= dtMs;
+      } else {
+        const goRight = arena.keys['ArrowRight'] || arena.keys['KeyD'] || arena.holdRight;
+        const goLeft = arena.keys['ArrowLeft'] || arena.keys['KeyA'] || arena.holdLeft;
+        const isRun = Boolean(arena.keys['ShiftLeft'] || arena.keys['ShiftRight']);
+        const dir = (goRight ? 1 : 0) - (goLeft ? 1 : 0);
+        const moveSpeed = arena.actionClip ? 0.08 : (isRun ? 0.44 : 0.27);
+        arena.x = Math.max(80, Math.min(880, arena.x + dir * moveSpeed * dtMs));
+        if (dir !== 0 && !arena.actionClip) arena.flip = dir < 0;
+
+        arena.y += arena.vy * dtMs;
+        if (arena.y < arena.groundY) {
+          arena.vy += 0.0018 * dtMs;
+        } else {
+          arena.y = arena.groundY;
+          arena.vy = 0;
+        }
+
+        // Auto locomotion clip when not executing an active skill
+        if (!arena.actionClip) {
+          let desired = arena.rageMode && b.animations['aura_loop'] ? 'aura_loop' : 'idle';
+          if (arena.y < arena.groundY - 2 && b.animations['jump']) {
+            desired = 'jump';
+          } else if (dir !== 0) {
+            desired = (isRun && b.animations['run']) ? 'run' : (b.animations['walk'] ? 'walk' : desired);
+          }
+          if (arena.clip !== desired) {
+            arena.clip = desired;
+            arena.step = 0;
+            arena.elapsed = 0;
+          }
+        }
+
+        const curAnim = b.animations[arena.clip] || Object.values(b.animations)[0];
+        const curF = curAnim.frames[Math.min(arena.step, curAnim.frames.length - 1)];
+        const dur = Math.max(16.0, (curF && curF.duration_ms) || 83.33);
+        arena.elapsed += dtMs;
+        if (arena.elapsed >= dur) {
+          arena.elapsed -= dur;
+          if (arena.step + 1 < curAnim.frames.length) {
+            arena.step++;
+          } else if (arena.actionClip) {
+            arena.actionClip = null;
+            arena.clip = (arena.rageMode && b.animations['aura_loop']) ? 'aura_loop' : 'idle';
+            arena.step = 0;
+          } else if (curAnim.loop) {
+            arena.step = 0;
+          }
+        }
+
+        if (arena.dummyClip === 'hit' && arena.dummyFlash <= 0.05) {
+          arena.dummyClip = 'idle';
+        }
+      }
+
+      arena.shake = Math.max(0, arena.shake - dtMs * 0.035);
+      arena.dummyFlash = Math.max(0, arena.dummyFlash - dtMs * 0.004);
+      arena.popups = arena.popups.filter(p => {
+        p.life -= dtMs;
+        p.y -= dtMs * 0.04;
+        return p.life > 0;
+      });
+
+      const g = ctx.createLinearGradient(0, 0, 0, canvas.height);
+      g.addColorStop(0, '#0a192f');
+      g.addColorStop(0.74, '#155e75');
+      g.addColorStop(0.76, '#365314');
+      g.addColorStop(1, '#1a2e05');
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.strokeStyle = 'rgba(255,255,255,0.08)';
+      for (let gx = 0; gx < canvas.width; gx += 64) {
+        ctx.beginPath(); ctx.moveTo(gx, 355); ctx.lineTo(gx, canvas.height); ctx.stroke();
+      }
+
+      ctx.save();
+      if (arena.shake > 0) {
+        ctx.translate((Math.random() - 0.5) * arena.shake, (Math.random() - 0.5) * arena.shake);
+      }
+
+      const [cw, chPx] = getCanvasSize();
+      ensureOffscreenSize(cw, chPx);
+      const scale = 2.0;
+      const m = state.activeChar.map_sync_metrics;
+      const ax = m.foot_anchor_px[0], ay = m.foot_anchor_px[1];
+
+      // 1. Draw Sparring Dummy on the right
+      ctx.fillStyle = 'rgba(0,0,0,0.4)';
+      ctx.beginPath(); ctx.ellipse(arena.dummyX, arena.groundY, 32, 8, 0, 0, Math.PI * 2); ctx.fill();
+      offCtx.clearRect(0, 0, cw, chPx);
+      drawCompositeStep(offCtx, arena.dummyClip, arena.dummyStep, 1.0, 1.0);
+      ctx.save();
+      ctx.translate(arena.dummyX, arena.groundY);
+      ctx.scale(-1, 1);
+      if (arena.dummyFlash > 0) ctx.filter = 'brightness(2.2)';
+      ctx.drawImage(offscreenCanvas, -ax * scale, -ay * scale, cw * scale, chPx * scale);
+      ctx.restore();
+
+      // Dummy HP bar
+      ctx.fillStyle = '#0f172a';
+      ctx.fillRect(arena.dummyX - 60, arena.groundY - 145, 120, 10);
+      ctx.fillStyle = '#ef4444';
+      ctx.fillRect(arena.dummyX - 59, arena.groundY - 144, 118 * (arena.dummyHp / arena.dummyMaxHp), 8);
+      ctx.fillStyle = '#cbd5e1';
+      ctx.font = 'bold 11px sans-serif';
+      ctx.fillText(`Mục tiêu Tập (${arena.dummyHp} HP)`, arena.dummyX - 60, arena.groundY - 150);
+
+      // 2. Draw Player Controlled Character
+      ctx.fillStyle = 'rgba(0,0,0,0.45)';
+      ctx.beginPath(); ctx.ellipse(arena.x, arena.groundY, 34, 9, 0, 0, Math.PI * 2); ctx.fill();
+      offCtx.clearRect(0, 0, cw, chPx);
+      drawCompositeStep(offCtx, arena.clip, arena.step, 1.0, 1.0);
+      ctx.save();
+      ctx.translate(arena.x, arena.y);
+      if (arena.flip) ctx.scale(-1, 1);
+      ctx.drawImage(offscreenCanvas, -ax * scale, -ay * scale, cw * scale, chPx * scale);
+      ctx.restore();
+
+      // 3. Floating Damage / Burst Popups
+      for (const p of arena.popups) {
+        ctx.fillStyle = '#facc15';
+        ctx.font = 'bold 15px monospace';
+        ctx.fillText(p.text, p.x - 75, p.y);
+      }
+      ctx.restore();
+
+      ctx.fillStyle = 'rgba(11,14,23,0.78)';
+      ctx.fillRect(10, 10, 680, 26);
+      ctx.fillStyle = '#e6ecff';
+      ctx.font = '12px monospace';
+      ctx.fillText(
+        `Nhân vật: ${state.activeChar.character_id} | 1-Layer Combined | Clip: ${arena.clip} (#${arena.step}) | Pos: (${Math.round(arena.x)}, ${Math.round(arena.y)})`,
+        18, 27
+      );
+    }
+
+    // =========================================================================
+    // CRASH-PROOF MAIN RAF LOOP & EVENT BINDINGS
+    // =========================================================================
+    let prevNow = performance.now();
+    function mainLoop(now) {
+      requestAnimationFrame(mainLoop);
+      const dtMs = Math.min(50, Math.max(1, now - prevNow));
+      prevNow = now;
+
+      try {
+        if (state.activeTab === 'tab-human') {
+          stepInspectorAnimation(dtMs);
+          renderInspector();
+        } else if (state.activeTab === 'tab-stress') {
+          stepAndRenderStressArena(dtMs);
+        } else if (state.activeTab === 'tab-arena') {
+          stepAndRenderArena(dtMs);
+        }
+      } catch (err) {
+        showRuntimeError(state.activeTab, err);
+      }
+    }
+
+    function setupEventListeners() {
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.onclick = () => {
+          document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+          document.querySelectorAll('.tab-view').forEach(v => v.classList.remove('active'));
+          btn.classList.add('active');
+          state.activeTab = btn.dataset.tab;
+          document.getElementById(state.activeTab).classList.add('active');
+          if (state.activeTab === 'tab-human') renderInspector();
+          if (state.activeTab === 'tab-stress') stepAndRenderStressArena(16.67);
+          if (state.activeTab === 'tab-arena') stepAndRenderArena(16.67);
+        };
+      });
+
+      document.getElementById('inpSearchChar').oninput = e => {
+        state.rosterSearch = e.target.value;
+        renderRosterList();
+      };
+      document.querySelectorAll('#rosterFilters .filter-pill').forEach(pill => {
+        pill.onclick = () => {
+          document.querySelectorAll('#rosterFilters .filter-pill').forEach(p => p.classList.remove('active'));
+          pill.classList.add('active');
+          state.rosterFilter = pill.dataset.filter;
+          renderRosterList();
+        };
+      });
+
+      document.getElementById('selStepperEngine').onchange = e => {
+        state.stepperEngine = e.target.value;
+        document.getElementById('tab1RuntimeDesc').innerHTML = state.stepperEngine === 'rust_wasm'
+          ? 'Bộ nhịp 60Hz bằng <b>Rust WASM (<code>rust_combat_sim.wasm</code>)</b> + Vẽ khung đo Pixel bằng <b>Canvas2D</b> (đọc 1:1 <code>.tres</code> &amp; PNG).'
+          : 'Bộ nhịp 60Hz bằng <b>Godot 4 <code>SpriteFrames.tres</code> Spec</b> + Vẽ khung đo Pixel bằng <b>Canvas2D</b> (đọc 1:1 <code>.tres</code> &amp; PNG).';
+      };
+
+      document.getElementById('selZoom').onchange = e => { state.zoom = Number(e.target.value); };
+      document.getElementById('selBg').onchange = e => { state.bgMode = e.target.value; };
+      document.getElementById('chkMapGrid').onchange = e => { state.showMapGrid = e.target.checked; };
+      document.getElementById('chkBBox').onchange = e => { state.showBBox = e.target.checked; };
+      document.getElementById('btnClearRect').onclick = () => { state.selectedRect = null; updateAgentSpecText(); };
+
+      document.getElementById('btnPlayPause').onclick = () => {
+        const tl = getActiveTimelineFrames();
+        if (!state.playing) {
+          if (state.stepIdx >= tl.frames.length - 1) {
+            state.stepIdx = 0;
+          }
+          state.stepElapsedMs = 0;
+          state.playing = true;
+        } else {
+          state.playing = false;
+        }
+        document.getElementById('frameSlider').value = state.stepIdx;
+        highlightFilmstrip();
+        updatePlayButtonUI();
+        updateAgentSpecText();
+      };
+
+      document.getElementById('chkAutoReplay').onchange = e => {
+        state.autoReplayOneshot = e.target.checked;
+      };
+
+      document.getElementById('frameSlider').oninput = e => {
+        state.playing = false;
+        state.stepIdx = Number(e.target.value);
+        state.stepElapsedMs = 0;
+        updatePlayButtonUI();
+        highlightFilmstrip();
+        updateAgentSpecText();
+      };
+      document.getElementById('btnPrevFrame').onclick = () => {
+        state.playing = false;
+        const len = Math.max(1, getActiveTimelineFrames().frames.length);
+        state.stepIdx = (state.stepIdx - 1 + len) % len;
+        state.stepElapsedMs = 0;
+        document.getElementById('frameSlider').value = state.stepIdx;
+        updatePlayButtonUI(); highlightFilmstrip(); updateAgentSpecText();
+      };
+      document.getElementById('btnNextFrame').onclick = () => {
+        state.playing = false;
+        const len = Math.max(1, getActiveTimelineFrames().frames.length);
+        state.stepIdx = (state.stepIdx + 1) % len;
+        state.stepElapsedMs = 0;
+        document.getElementById('frameSlider').value = state.stepIdx;
+        updatePlayButtonUI(); highlightFilmstrip(); updateAgentSpecText();
+      };
+      document.getElementById('selSpeed').onchange = e => { state.speedMult = Number(e.target.value); };
+
+      const canvas = document.getElementById('inspectorCanvas');
+      const toCanvasCoords = (ev) => {
+        const [cw, ch] = getCanvasSize();
+        const rect = canvas.getBoundingClientRect();
+        const sx = (ev.clientX - rect.left) * (canvas.width / rect.width) - RULER_PAD;
+        const sy = (ev.clientY - rect.top) * (canvas.height / rect.height) - RULER_PAD;
+        return {
+          x: Math.max(0, Math.min(cw - 1, Math.floor(sx / state.zoom))),
+          y: Math.max(0, Math.min(ch - 1, Math.floor(sy / state.zoom))),
+        };
+      };
+
+      canvas.addEventListener('mousedown', ev => {
+        const p = toCanvasCoords(ev);
+        state.dragStart = p;
+        state.selectedRect = { x: p.x, y: p.y, w: 1, h: 1 };
+        updateAgentSpecText();
+      });
+      canvas.addEventListener('mousemove', ev => {
+        if (!state.activeChar) return;
+        const p = toCanvasCoords(ev);
+        const px = offCtx.getImageData(p.x, p.y, 1, 1).data;
+        const layers = getLayerFramesForStep(state.activeClipName, state.stepIdx);
+        const topF = layers[layers.length - 1]?.frame;
+        const anc = state.activeChar.map_sync_metrics.foot_anchor_px;
+        document.getElementById('cursorCoord').textContent = `Canvas: (${p.x}, ${p.y}) | Offset chân: (${p.x - anc[0]}, ${p.y - anc[1]})`;
+        if (topF) {
+          document.getElementById('cursorAtlas').textContent = `Atlas: (${topF.x + p.x}, ${topF.y + p.y})`;
+        }
+        document.getElementById('cursorSwatch').style.background = `rgba(${px[0]},${px[1]},${px[2]},${(px[3]/255).toFixed(2)})`;
+        document.getElementById('cursorRgba').textContent = `RGBA: (${px[0]}, ${px[1]}, ${px[2]}, ${px[3]})`;
+
+        if (state.dragStart) {
+          const x0 = Math.min(state.dragStart.x, p.x);
+          const y0 = Math.min(state.dragStart.y, p.y);
+          const x1 = Math.max(state.dragStart.x, p.x);
+          const y1 = Math.max(state.dragStart.y, p.y);
+          state.selectedRect = { x: x0, y: y0, w: x1 - x0 + 1, h: y1 - y0 + 1 };
+          updateAgentSpecText();
+        }
+      });
+      window.addEventListener('mouseup', () => { state.dragStart = null; });
+
+      document.querySelectorAll('#tagButtons .tag-btn').forEach(btn => {
+        btn.onclick = () => {
+          document.querySelectorAll('#tagButtons .tag-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          state.activeTag = btn.dataset.tag;
+          updateAgentSpecText();
+        };
+      });
+      document.getElementById('inpOwnerNote').oninput = updateAgentSpecText;
+      document.getElementById('btnCopySpec').onclick = async () => {
+        const txt = document.getElementById('txtAgentSpec').value;
+        await navigator.clipboard.writeText(txt);
+        const b = document.getElementById('btnCopySpec');
+        b.textContent = '✅ Đã Copy! Dán thẳng cho Agent';
+        setTimeout(() => { b.textContent = '📋 Copy Thông Số Gửi Agent'; }, 1800);
+      };
+      document.getElementById('btnAddPin').onclick = () => {
+        state.pinnedSpecs.push(document.getElementById('txtAgentSpec').value);
+        document.getElementById('pinnedList').innerHTML =
+          `Đã ghim <b>${state.pinnedSpecs.length}</b> điểm chỉnh sửa. <a href="#" id="copyAllPins" style="color:var(--gold);">Copy tất cả (${state.pinnedSpecs.length})</a>`;
+        document.getElementById('copyAllPins').onclick = async (e) => {
+          e.preventDefault();
+          await navigator.clipboard.writeText(state.pinnedSpecs.join('\n\n'));
+          e.target.textContent = '✅ Đã copy toàn bộ!';
+        };
+      };
+
+      document.querySelectorAll('.stress-count-btn').forEach(btn => {
+        btn.onclick = () => {
+          document.querySelectorAll('.stress-count-btn').forEach(b => b.classList.remove('btn-gold'));
+          btn.classList.add('btn-gold');
+          resetStressCount(Number(btn.dataset.count));
+        };
+      });
+      document.getElementById('chkShowAoI').onchange = e => {
+        document.getElementById('aoiOverlayBox').style.display = e.target.checked ? 'flex' : 'none';
+      };
+
+      const bindHold = (id, prop) => {
+        const el = document.getElementById(id);
+        el.onmousedown = el.ontouchstart = () => { arena[prop] = true; };
+        el.onmouseup = el.onmouseleave = el.ontouchend = () => { arena[prop] = false; };
+      };
+      bindHold('btnMoveLeft', 'holdLeft');
+      bindHold('btnMoveRight', 'holdRight');
+      document.getElementById('btnJump').onclick = triggerArenaJump;
+      document.getElementById('btnActLight').onclick = () => triggerArenaAction('attack_light');
+      document.getElementById('btnActSword').onclick = () => triggerArenaAction('sword_combo');
+      document.getElementById('btnActBurn').onclick = () => triggerArenaAction('burning_sword');
+      document.getElementById('btnActPower').onclick = () => triggerArenaAction('power_up');
+      document.getElementById('btnActGalick').onclick = () => triggerArenaAction('galick_gun');
+      document.getElementById('btnActFlash').onclick = () => triggerArenaAction('final_flash');
+      document.getElementById('btnActSpirit').onclick = () => triggerArenaAction('ultimate_spirit_sword');
+
+      window.addEventListener('keydown', ev => {
+        arena.keys[ev.code] = true;
+        if (ev.target.tagName === 'INPUT' || ev.target.tagName === 'TEXTAREA') return;
+        if (ev.code === 'Space' && state.activeTab === 'tab-human') {
+          ev.preventDefault();
+          document.getElementById('btnPlayPause').click();
+        } else if ((ev.code === 'Space' || ev.code === 'KeyW' || ev.code === 'ArrowUp') && state.activeTab === 'tab-arena') {
+          ev.preventDefault();
+          triggerArenaJump();
+        } else if (ev.code === 'KeyE') {
+          arena.rageMode = !arena.rageMode;
+        } else if (ev.code === 'KeyJ') {
+          triggerArenaAction('attack_light');
+        } else if (ev.code === 'KeyU') {
+          triggerArenaAction('sword_combo');
+        } else if (ev.code === 'KeyI') {
+          triggerArenaAction('burning_sword');
+        } else if (ev.code === 'KeyK') {
+          triggerArenaAction('power_up');
+        } else if (ev.code === 'KeyL') {
+          triggerArenaAction('galick_gun');
+        } else if (ev.code === 'KeyO') {
+          triggerArenaAction('final_flash');
+        } else if (ev.code === 'KeyP') {
+          triggerArenaAction('ultimate_spirit_sword');
+        }
+      });
+      window.addEventListener('keyup', ev => { arena.keys[ev.code] = false; });
+    }
+
+    initApp();
+  </script>
+</body>
+</html>

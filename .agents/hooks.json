@@ -1,0 +1,12 @@
+{
+  "dr7-session-bootstrap": {
+    "enabled": true,
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "../loop.sh --agy-session-start",
+        "timeout": 10
+      }
+    ]
+  }
+}

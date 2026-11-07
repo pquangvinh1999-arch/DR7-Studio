@@ -1,0 +1,125 @@
+{
+  "schema": "dr7-studio.state.v1",
+  "updated_at": "2026-11-07T08:45:30Z",
+  "project": {
+    "name": "DR7-Studio — Dragon Ball 2D",
+    "version": "0.3.0",
+    "version_history": [
+      {
+        "version": "0.1.0",
+        "date": "2026-11-07T03:18:30Z",
+        "summary": "Khởi tạo hạ tầng quản trị dự án, state.json, skills.md, lerning.md và loop.sh."
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-11-07T04:12:10Z",
+        "summary": "Hợp nhất AGENTS.md, dựng benchmark >2,000 user @ 60FPS trên Godot 4.7.2 & Rust 1.99.1 và UI Human Test."
+      },
+      {
+        "version": "0.2.1",
+        "date": "2026-11-07T05:00:15Z",
+        "summary": "Sửa dứt điểm export C-ABI wasm_count_aoi, tích hợp Rust WASM 60Hz Stepper vào Tab 1, danh sách N nhân vật động từ roster.json và E2E test Node+WASM."
+      },
+      {
+        "version": "0.3.0",
+        "date": "2026-11-07T08:45:30Z",
+        "summary": "Chốt chính thức kiến trúc Engine (Godot 4 + Rust Core GDExtension/WASM/Server + Supabase) và kiến trúc lớp duy nhất Gộp Chung 1 Lớp Nguyên Bản (Combined 1-Layer, bãi bỏ hoàn toàn Hướng 2 tách đa lớp); xoá sạch Son Goku test cũ & nhân vật tím cũ; bóc tách không suy hao 100% nhân vật khởi đầu Future Trunks (Super Saiyan Rage) từ sheet gốc 1340×2261 (trunks_rage: 155 frame nguồn / 154 vùng Atlas duy nhất, 20 clip trên khung 320×256, anchor [96,220], alpha_hardness_pct=100.0%, 1 trang PNG Atlas 3890×3382); cập nhật thông số kỹ thuật bắt buộc vào AGENTS.md & LRN-007."
+      }
+    ],
+    "genre": "2D Dragon Ball Real-Time Mass Action / RPG",
+    "performance_target": "60 FPS mượt tuyệt đối (<= 16.67 ms/frame) khi > 2,000 user giao tranh thời gian thực",
+    "target_platforms": [
+      "Android Mobile (.apk / .aab)",
+      "iOS Mobile (.ipa)"
+    ],
+    "backend": "Supabase (Auth, PostgreSQL, Inventory, Storage) + Spatial-Grid AoI Binary Delta Sync",
+    "engine_evaluation": {
+      "status": "locked_official_hybrid_godot4_rust_supabase",
+      "candidates": [
+        "CHÍNH THỨC: Godot 4.7.2 Client (Mobile APK/iOS + Touch UI + MultiMeshInstance2D: 2.600 ms/frame @ 2,000 user, 1 Draw Call)",
+        "CHÍNH THỨC: Rust 1.99.1 Core (GDExtension Client + Authoritative AoI Server + Browser WASM: 0.6149 ms/frame @ 2,000 user = 3.69% quỹ 60FPS)",
+        "CHÍNH THỨC: Kiến trúc lớp duy nhất Combined 1-Layer (Single-Page PNG Atlas <= 4096×4096, Nearest 1:1)"
+      ],
+      "rule": "Đồng bộ tuyệt đối 1:1 SHA-256 giữa Godot 4, Rust Core và localhost:8080 trên cùng PNG Atlas + .tres + engine-export.json."
+    },
+    "supported_agents": [
+      "Antigravity CLI (agy)",
+      "OpenAI Codex CLI (codex)"
+    ]
+  },
+  "mandatory_files": {
+    "constitution": "AGENTS.md",
+    "removed_redundant_files": [
+      "agent.md"
+    ],
+    "agent_dir_primary": ".agents",
+    "agent_dir_compat_symlink": ".agent",
+    "state_log": "state.json",
+    "approved_workflows": "skills.md",
+    "error_lessons": "lerning.md",
+    "workflow_runner": "loop.sh",
+    "character_roster": "assets/roster.json",
+    "engine_benchmark_report": "engines/benchmark_report.json",
+    "version_file": "VERSION"
+  },
+  "current_focus": {
+    "active_task_id": "TASK-007",
+    "status": "ready_for_owner_human_test",
+    "summary": "Đã khôi phục hoàn chỉnh phiên bị limit trước đó: nâng cấp bóc tách Future Trunks (Super Saiyan Rage) lên sheet Pixel Art gốc không nén 1340×2261 (alpha_hardness_pct=100.0%, enclosed_key_pockets=0, opaque_key_px=0, edge_acutance_sobel=392.07, 20/20 clip kiểm chứng trực quan trên 3 nền), pass 100% './loop.sh test' (Governance + Python + Node/WASM E2E + Godot 4.7.2 Headless + Rust 1.99.1) và khởi chạy đồng bộ 1:1 SHA-256 trên http://localhost:8080 chờ Owner Human Test."
+  },
+  "open_issues": [],
+  "resolved_issues": [
+    {
+      "id": "ISS-001",
+      "resolved_at": "2026-11-07T04:05:27Z",
+      "resolution": "Xác lập kỷ luật đục thủng enclosed_key_pockets trước khi khử viền màu nền."
+    },
+    {
+      "id": "ISS-002",
+      "resolved_at": "2026-11-07T04:59:30Z",
+      "resolution": "Sửa lỗi thiếu wasm_count_aoi, đồng bộ 8 float GPU instance và thêm E2E test Node+WASM (LRN-005)."
+    },
+    {
+      "id": "ISS-003",
+      "resolved_at": "2026-11-07T06:52:17Z",
+      "resolution": "Loại bỏ hoàn toàn kiến trúc tách đa lớp (Hướng 2) sai cấu trúc và các nhân vật test cũ; bóc tách sạch 100% 20 clip của Trunks Rage bằng 2D Component Ownership Masking + khử viền olive_fringe trên nền #2B3772 + sửa khởi tạo trễ _ensure_nodes() trong CharacterFighter2D.gd (LRN-006)."
+    }
+  ],
+  "task_history": [
+    {
+      "id": "TASK-001",
+      "timestamp": "2026-11-07T02:25:00Z",
+      "status": "completed",
+      "summary": "Xoá sạch tài nguyên nhân vật màu tím cũ khỏi assets/ và cache .godot/."
+    },
+    {
+      "id": "TASK-003",
+      "timestamp": "2026-11-07T03:18:30Z",
+      "status": "completed",
+      "summary": "Thiết lập hệ thống quản trị dự án: AGENTS.md, .agent/.agents, state.json, skills.md (trống), lerning.md, VERSION và loop.sh."
+    },
+    {
+      "id": "TASK-005",
+      "timestamp": "2026-11-07T06:05:32Z",
+      "status": "completed",
+      "summary": "Khôi phục phiên làm việc và kiểm định đồng bộ 3 Tab + Rust WASM."
+    },
+    {
+      "id": "TASK-006",
+      "timestamp": "2026-11-07T06:57:30Z",
+      "status": "completed",
+      "summary": "Chốt kiến trúc Godot 4 + Rust Core + Supabase & Combined 1-Layer (bãi bỏ Hướng 2), xoá sạch Son Goku test cũ & nhân vật tím cũ, cập nhật thông số kỹ thuật bắt buộc vào Hiến pháp AGENTS.md."
+    },
+    {
+      "id": "TASK-007",
+      "timestamp": "2026-11-07T08:45:30Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Khôi phục phiên bị limit: chuyển sang sheet Pixel Art gốc không nén 1340×2261 cho trunks_rage (alpha_hardness_pct=100.0%, 20 clip đầy đủ, ghép liền mạch tia chưởng/cột kiếm khí & cánh sét đôi), sửa lỗi so sánh mảng khác Realm trong Node WASM E2E test (LRN-007), pass 100% './loop.sh test' và khởi động server đồng bộ 1:1 SHA-256 tại http://localhost:8080."
+    }
+  ],
+  "quick_resume_commands": [
+    "./loop.sh status",
+    "./loop.sh check",
+    "./loop.sh test"
+  ]
+}

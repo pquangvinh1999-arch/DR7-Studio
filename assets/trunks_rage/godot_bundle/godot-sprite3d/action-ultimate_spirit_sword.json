@@ -1,0 +1,131 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "ultimate_spirit_sword",
+  "frame_size": [
+    320,
+    256
+  ],
+  "output_origin": [
+    96.0,
+    220.0
+  ],
+  "sprite3d_offset": [
+    64.0,
+    92.0
+  ],
+  "reference_subject_height_px": 58.0,
+  "world_height": 0.58,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.58,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 83,
+  "fps": 12.0,
+  "frames": [
+    "frames/frame-121.png",
+    "frames/frame-122.png",
+    "frames/frame-123.png",
+    "frames/frame-124.png",
+    "frames/frame-125.png",
+    "frames/frame-126.png",
+    "frames/frame-127.png",
+    "frames/frame-128.png",
+    "frames/frame-129.png",
+    "frames/frame-130.png",
+    "frames/frame-131.png",
+    "frames/frame-132.png",
+    "frames/frame-133.png",
+    "frames/frame-134.png",
+    "frames/frame-135.png",
+    "frames/frame-136.png",
+    "frames/frame-137.png",
+    "frames/frame-138.png",
+    "frames/frame-139.png",
+    "frames/frame-140.png",
+    "frames/frame-141.png",
+    "frames/frame-142.png",
+    "frames/frame-143.png",
+    "frames/frame-144.png"
+  ],
+  "frame_sha256": [
+    "7bdc40fcc64a805bbe08d9c5ccff686d8ef6bf31da64f92d853e9be37e8e380e",
+    "2f7aaaf30c3a667558fb477f6332179e4fb2360e241926229bdab37cff8d4a82",
+    "d160a92ddcf89b885c357c4b177f136ee4805decdcd2f00ed792e3d1366f610e",
+    "b36f58cfc56920cd8f39661a647a6e63107a585510cdc99926986cee7be46af6",
+    "14712df551227ce4582a3e5d8b61522afea9ec6d4ffc04ff4b1f898b26f8fd45",
+    "0d0c067089508d0f40bef8510e96c5a162da41fd5174c830c45de9cfe8d9e037",
+    "8f19f22855dc41a676b3a90aef48b8c3ab4aa6de0a352956ae748c94860e58e4",
+    "9dd8a55f45f7220ce30ebb1738b89c69f15caadf9f8aa2b62cad20111f595312",
+    "7252fc26dd327d1cf46a255e4061096a86967822c5da58ae9bb14654a99eeb21",
+    "230ea7e419c3aa5f037172f48ab9eaf7b5ac4d1b85e3fadcee7830aa7fdb7bfa",
+    "a43b6ca67482133af40fd5765a6ef2db4f6ac45d51917a01c1371dc3057fabb1",
+    "a9ef7733f07a94e24ca00ed1d2d79e88faf6fbc4ec029671673caf19285dc994",
+    "1e6e8039b9e9e446fa7fabc1f8b56089187237d1bb1e9c76b82ed39bf1bd980b",
+    "77c4a4e78553e0a500e92a57373be9680686eba448cf86707900653c6c52d114",
+    "1bda4ef98ed06e846ff0fbe94005aea228635a30d0d9eec214a2d445b3194538",
+    "a48b53f3d7a57f2c04e015a24a22ebfa51458dd3946b17840c6d7e64bc4a398c",
+    "5705894795a3f67f00a646bab96aadcb73cdc282d341102bf3574ed21731afb6",
+    "ee28d70fc3d8aed09fbfb87dfdc2ac3058c3b0dbfd82350f30ab1245dabea5a5",
+    "a4a04bd07c31b4375222a969400aa84a04044f5c319a7e147dec598ec7d468b8",
+    "bc9e3973725827e3031f7096a2adfa92525a615c5c37d257e56a788352ad9c97",
+    "e8015097289bef714e846473d90ea89138b8d09f4b45e24cd5920d6f0b4573ee",
+    "622715e93dabb4698bb2cac36224678cd89c8f0af828a135c9869db85520df94",
+    "fd99270c29b51290c1f307864cacead839ab74699786f34ccf85f568c4fbe6fe",
+    "3a549bb7e1470fda68a680860ec9ef5530a67a59470cf98acd51b12a7bab9eb0"
+  ],
+  "durations_ms": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84,
+    83
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": [
+    {
+      "name": "tell",
+      "at_ms": 0,
+      "at": 0,
+      "position": 0
+    },
+    {
+      "name": "hit",
+      "at_ms": 1333,
+      "at": 16,
+      "position": 16,
+      "data": {
+        "damage": 650
+      }
+    },
+    {
+      "name": "impact",
+      "at_ms": 1917,
+      "at": 23,
+      "position": 23,
+      "data": {
+        "damage": 800
+      }
+    }
+  ]
+}

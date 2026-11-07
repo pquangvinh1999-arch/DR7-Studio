@@ -1,0 +1,4 @@
+interface:
+  display_name: "DR7 Governance & Memory Loop"
+  short_description: "Enforce AGENTS.md constitution, Engine-Localhost parity, state.json, lerning.md, and skills.md via loop.sh."
+  default_prompt: "Run ./loop.sh status first, enforce AGENTS.md (zero guessing, mandatory engine verification loop, 100% engine-localhost parity), distinguish skills.md (Owner atlas workflow) from .agents/skills/* (asset tools), check lerning.md before acting, and run ./loop.sh test before finishing."

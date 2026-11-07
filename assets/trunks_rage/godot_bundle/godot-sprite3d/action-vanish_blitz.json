@@ -1,0 +1,86 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "vanish_blitz",
+  "frame_size": [
+    320,
+    256
+  ],
+  "output_origin": [
+    96.0,
+    220.0
+  ],
+  "sprite3d_offset": [
+    64.0,
+    92.0
+  ],
+  "reference_subject_height_px": 58.0,
+  "world_height": 0.58,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.58,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 83,
+  "fps": 12.004801920768307,
+  "frames": [
+    "frames/frame-111.png",
+    "frames/frame-112.png",
+    "frames/frame-113.png",
+    "frames/frame-114.png",
+    "frames/frame-115.png",
+    "frames/frame-116.png",
+    "frames/frame-117.png",
+    "frames/frame-118.png",
+    "frames/frame-119.png",
+    "frames/frame-120.png"
+  ],
+  "frame_sha256": [
+    "1a71878dd9ff012ff10d2afb70b62f134c797e549692e872ba27828482da3f8d",
+    "aa769f4117af2ca79f28cdea54a6fb22bdec393f6e4bc7e63e11c71d22cea59f",
+    "ee4caa04e7ef7b32c429bb8babd6c7561efd5e99cb58d7dd1b5be857766c72b9",
+    "6d85c893798abe55f1fe55f7c7aa82fb68efb188dac0db54a33457914018a45f",
+    "7812ff6a52f0cf7ee099231988da81ec9fc32f7d5d9fd7e625c5f51eb400e02c",
+    "ccaccea981dad29a310e743801dda96aa1278e78db8bdc1fa9e517c72c9e0b58",
+    "e0ba303d7b987b54e5e73099a5ce76ea0733d7fe0651715e7acccdac403c8cbb",
+    "0c031cdc2d23f23acb02a542683ce9f6187e102bf1f160ead69b0090e40984f0",
+    "90fa8846c1964d0a7009a91bfefa390e205af4d5185c6ede0ff45e42e7dd6ffa",
+    "9896315f4ad1bb0b6c975134623d816be9fa00a7c818a9c7b88b480d999a8a5f"
+  ],
+  "durations_ms": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83,
+    84,
+    83,
+    83
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": [
+    {
+      "name": "tell",
+      "at_ms": 0,
+      "at": 0,
+      "position": 0
+    },
+    {
+      "name": "hit",
+      "at_ms": 667,
+      "at": 8,
+      "position": 8,
+      "data": {
+        "damage": 420
+      }
+    },
+    {
+      "name": "end",
+      "at_ms": 750,
+      "at": 9,
+      "position": 9
+    }
+  ]
+}

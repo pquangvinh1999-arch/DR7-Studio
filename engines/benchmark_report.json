@@ -1,0 +1,122 @@
+{
+  "schema": "dr7-studio.engine_benchmark.v1",
+  "generated_at": "2026-11-07T08:45:08Z",
+  "official_architecture": "Godot 4.7.2 (Mobile APK/iOS Client + Scene/UI + MultiMeshInstance2D) + Rust 1.99.1 Core (GDExtension Client & Authoritative AoI Server) + Supabase",
+  "target_requirement": "60 FPS locked (<= 16.6667 ms/frame) with > 2,000 real-time combat entities on Mobile (Android APK / iOS IPA) + Supabase",
+  "shared_asset_under_test": {
+    "bundle_id": "trunks_rage",
+    "atlas_path": "assets/trunks_rage/godot_bundle/godot/trunks_rage-atlas-00.png",
+    "tres_path": "assets/trunks_rage/godot_bundle/godot/trunks_rage.tres",
+    "atlas_size_px": [
+      3890,
+      3382
+    ],
+    "cell_size_px": [
+      320,
+      256
+    ],
+    "foot_anchor_px": [
+      96,
+      220
+    ],
+    "frames_loaded": 154
+  },
+  "rust_engine": {
+    "engine": "Rust 1.99.1 SoA + SpatialHash + Single-Batch GPU Instancing",
+    "wasm_artifact": "/rust_combat_sim.wasm",
+    "benchmarks": [
+      {
+        "fighters": 500,
+        "avg_frame_cpu_ms": 0.0609,
+        "max_theoretical_fps": 16422,
+        "budget_60fps_pct": 0.37,
+        "gpu_draw_calls": 1,
+        "instance_buffer_kb": 15.6,
+        "hits_resolved": 1215,
+        "aoi_entities_in_view": 114,
+        "aoi_net_kbps_per_client_20hz": 182.4
+      },
+      {
+        "fighters": 2000,
+        "avg_frame_cpu_ms": 0.4246,
+        "max_theoretical_fps": 2355,
+        "budget_60fps_pct": 2.55,
+        "gpu_draw_calls": 1,
+        "instance_buffer_kb": 62.5,
+        "hits_resolved": 11260,
+        "aoi_entities_in_view": 384,
+        "aoi_net_kbps_per_client_20hz": 614.4
+      },
+      {
+        "fighters": 5000,
+        "avg_frame_cpu_ms": 1.4583,
+        "max_theoretical_fps": 686,
+        "budget_60fps_pct": 8.75,
+        "gpu_draw_calls": 1,
+        "instance_buffer_kb": 156.2,
+        "hits_resolved": 37490,
+        "aoi_entities_in_view": 999,
+        "aoi_net_kbps_per_client_20hz": 1598.4
+      }
+    ]
+  },
+  "godot_engine": {
+    "benchmarks": [
+      {
+        "avg_frame_cpu_ms": 0.502,
+        "budget_60fps_pct": 3.0,
+        "fighters": 500,
+        "gpu_draw_calls_est": 500,
+        "hits_resolved": 8863,
+        "mode": "Godot 4 Node2D/AnimatedSprite2D (1-Layer Combined)",
+        "total_nodes": 500
+      },
+      {
+        "avg_frame_cpu_ms": 2.736,
+        "budget_60fps_pct": 16.4,
+        "fighters": 2000,
+        "gpu_draw_calls_est": 2000,
+        "hits_resolved": 69353,
+        "mode": "Godot 4 Node2D/AnimatedSprite2D (1-Layer Combined)",
+        "total_nodes": 2000
+      },
+      {
+        "avg_frame_cpu_ms": 11.101,
+        "budget_60fps_pct": 66.6,
+        "fighters": 5000,
+        "gpu_draw_calls_est": 5000,
+        "hits_resolved": 367413,
+        "mode": "Godot 4 Node2D/AnimatedSprite2D (1-Layer Combined)",
+        "total_nodes": 5000
+      },
+      {
+        "avg_frame_cpu_ms": 0.853,
+        "budget_60fps_pct": 5.1,
+        "fighters": 500,
+        "gpu_draw_calls_est": 1,
+        "hits_resolved": 8863,
+        "mode": "Godot 4 MultiMeshInstance2D (1-Layer Combined Atlas)",
+        "total_nodes": 1
+      },
+      {
+        "avg_frame_cpu_ms": 2.76,
+        "budget_60fps_pct": 16.6,
+        "fighters": 2000,
+        "gpu_draw_calls_est": 1,
+        "hits_resolved": 69353,
+        "mode": "Godot 4 MultiMeshInstance2D (1-Layer Combined Atlas)",
+        "total_nodes": 1
+      },
+      {
+        "avg_frame_cpu_ms": 9.18,
+        "budget_60fps_pct": 55.1,
+        "fighters": 5000,
+        "gpu_draw_calls_est": 1,
+        "hits_resolved": 367413,
+        "mode": "Godot 4 MultiMeshInstance2D (1-Layer Combined Atlas)",
+        "total_nodes": 1
+      }
+    ],
+    "engine": "Godot 4.7.2 GDScript (1-Layer Combined Atlas)"
+  }
+}
