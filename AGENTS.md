@@ -27,9 +27,10 @@ Tài liệu `AGENTS.md` này là **Hiến pháp tối cao và duy nhất** ở t
 
 1. **Cổng hỏi bắt buộc khi thiếu thông tin**: Khi Owner đính kèm hoặc trỏ tới một file ảnh / atlas bất kỳ mà chưa nêu rõ mục đích xử lý, Agent **chỉ được phép đo đạc thông số thực tế** (kích thước px, số hàng/frame, nền màu, nhiễu/watermark, bố cục chiêu thức), sau đó **BẮT BUỘC hỏi lại Owner** trước khi xử lý.
 2. **Kiến trúc Lớp Chính Thức Duy Nhất — Gộp Chung 1 Lớp Nguyên Bản (`Combined 1-Layer`)**:
-   - Toàn bộ nhân vật trong dự án **bắt buộc sử dụng duy nhất kiến trúc `combined_1layer` (`1 Quad / 1 Draw Call`)**: giữ nguyên 100% thân nhân vật, hào quang, kiếm khí, tia chưởng trên cùng một lớp hình ảnh nguyên bản.
+   - Toàn bộ nhân vật trong dự án **bắt buộc sử dụng duy nhất kiến trúc `combined_1layer` (`1 Quad / 1 Draw Call`)**: giữ nguyên thân nhân vật một sprite/lớp; các phần FX theo contract Owner dưới đây. `1 Quad / 1 Draw Call` chỉ nói phần thân khi tắt FX.
    - **Bãi bỏ vĩnh viễn hướng bóc tách đa lớp (`layered_3d_depth` / `Hướng 2`)** vì làm sai cấu trúc vẽ gốc của sprite 2D. Hệ thống kiểm thử (`./loop.sh check` và `test_character_bundles.gd`) tự động đánh `FAIL` nếu xuất hiện bất kỳ cấu hình `layered_3d_depth` nào.
    - **Cấm tuyệt đối dùng AI vẽ lại làm biến dạng chi tiết gốc (`Zero AI Redraw`)** khi bóc tách từ sheet của Owner.
+   - **Quy tắc chung mới theo Owner**: Ki/aura phải xuất và điều khiển độc lập để dùng cùng nhiều hoạt ảnh thân, mặc định cho nhân vật có Ki; không hỏi lại. Thân không tách chi/cánh theo chiều sâu. Cùng atlas khi khả thi, contract/anchor/tick đồng bộ Godot và localhost; FX thêm sprite/quad và có chi phí riêng. Sheet đã gộp không tách an toàn thì báo giới hạn, không vẽ lại để nhận bảo toàn pixel.
 3. **Thông Số Kỹ Thuật Bóc Tách, Tách Nền & Đăng Ký Tâm Chân Bắt Buộc (Chuẩn Khởi Đầu Studio từ `trunks_rage`)**:
    - **Phân tách cụm 2D theo mặt nạ sở hữu liên thông (`2D Component Ownership Masking`)**:
      - Cắt từng pose bằng nhãn liên thông 2D (`3×3` / `5×5` ownership mask) thay vì cắt hộp chữ nhật thô theo cột dọc, nhằm **ngăn chặn 100% mũi kiếm chéo hoặc tia lửa của pose kế bên lọt vào khung cắt**.
@@ -92,7 +93,9 @@ Agent tuyệt đối **KHÔNG ĐƯỢC NHẦM LẪN** hai khái niệm sau:
 1. **Điều kiện Kiểm thử Bộ Hoạt Ảnh Nhân Vật (`Character Animation Completeness Gate`)**:
    - Bộ clip tham chiếu chiến đấu cốt lõi gồm: `idle`, `walk`, `run`, `jump`, `guard`, `attack_light`, `attack_heavy`, `power_up`, `aura_loop`, `hit`, `ko`, `win` (cùng các kỹ năng đặc trưng từng tướng như kiếm khí, chưởng lực, tốc biến, chiêu cuối).
    - Hệ thống kiểm thử (`./loop.sh check` và UI `localhost:8080`) kiểm tra danh sách clip của mỗi nhân vật và phát cảnh báo nhắc nhở (`WARN`) rõ ràng nếu nhân vật mới chỉ có một phần hoạt ảnh.
+   - **Owner chốt phạm vi chung**: không tạo `guard` và `win` cho bất kỳ nhân vật nào; không hỏi lại. Giữ WARN tham chiếu nếu có và ghi lý do Owner loại, không tạo clip giả.
 2. **Thông số Kích thước Nhân vật & Độ Nét Pixel Để Đồng Bộ Với Scene Map**:
+   - **Phong cách hệ thống là pixel art**: giữ palette, độ thô pixel và mật độ chi tiết theo mẫu Owner; không tự nâng HD/làm quá nét mất đồng bộ. Review ở kích thước gameplay và nearest nguyên lần.
    - Mọi nhân vật trong `roster.json` bắt buộc đo đạc và công bố đầy đủ:
      - `canvas_size_px` (`[W, H]`), `foot_anchor_px` (`[ax, ay]`).
      - `body_only_bbox_px` (rộng × cao phần thân thuần ở tư thế đứng) và `full_fx_bbox_px` (rộng × cao bao trọn kiếm khí / hào quang / chưởng lực cực đại).
@@ -100,6 +103,13 @@ Agent tuyệt đối **KHÔNG ĐƯỢC NHẦM LẪN** hai khái niệm sau:
      - `pixel_sharpness_metrics` (`texel_scale_ratio`, `edge_acutance_sobel`, `alpha_hardness_pct`, `opaque_key_px == 0`, `enclosed_key_pockets == 0`, `outer_ring_spill_fraction`).
 3. **Chuẩn Giao Tiếp Toạ Độ & Thước Đo Sửa Lỗi Giữa Owner và Agent (`Owner ⇄ Agent Coordinate Protocol`)**:
    - UI Test tại `localhost:8080` bắt buộc hỗ trợ khung kích thước động `[W, H]` theo từng nhân vật, thanh kéo frame (`frame scrubber`), thước đo pixel X/Y, toạ độ con trỏ + mã màu `RGBA`, và khoanh vùng `Rect(x, y, w, h)` xuất chuỗi `[DR7-EDIT-SPEC]` chuẩn xác 100%.
+
+
+4. **Khóa hướng nhìn nhân vật trên Map 2D (`Movement / Facing Contract`)**:
+   - Trước khi sinh bộ atlas theo hướng, ghi rõ trong hồ sơ nhân vật: kiểu nhìn map/camera, tập hướng cần vẽ, hướng di chuyển trên map, hướng thân/mặt, và hướng tác động vũ khí. Không dùng từ “trước/sau” khi chưa xác định nó là trái/phải trên màn hình hay mặt trước/lưng nhân vật.
+   - Không mặc định map 2D đồng nghĩa với nhìn ngang, top-down hoặc 4/8 hướng. Khi Owner chưa nêu rõ ánh xạ, hỏi trước phần sinh frame phụ thuộc hướng.
+   - Lật ngang chỉ đổi trái/phải; không tạo được mặt lưng từ mặt trước. Không dùng flip dọc để giả lập đổi hướng lên/xuống. Các hướng phải giữ cùng nhận diện, tỷ lệ, anchor và thiết kế vũ khí; kiểm tra chi tiết bất đối xứng khi dùng mirror.
+   - Tách vector di chuyển khỏi hướng nhìn khi có lùi/strafe hoặc đánh theo mục tiêu. Với mỗi clip, ghi rõ nhân vật quay về đâu, chân di chuyển thế nào và búa/vũ khí đánh về đâu; không tự suy hướng mặt chỉ từ vị trí trong atlas.
 
 ---
 

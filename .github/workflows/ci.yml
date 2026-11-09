@@ -24,6 +24,8 @@ jobs:
 
       - name: Set up Rust Toolchain
         uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
 
       - name: Run DR7 Governance & Engine-Localhost Parity Check
         run: ./loop.sh check
@@ -33,3 +35,14 @@ jobs:
 
       - name: Run Rust >2,000 Real-Time Combat Core Unit Tests
         run: cargo test --manifest-path engines/rust_combat_sim/Cargo.toml
+
+      - name: Build Rust WASM library
+        run: cargo build --manifest-path engines/rust_combat_sim/Cargo.toml --target wasm32-unknown-unknown --release --lib
+
+      - name: Install verified Godot version
+        run: bash tools/godot/install_godot.sh
+
+      - name: Import textures and verify Godot character bundles
+        run: |
+          ./tools/godot/godot --headless --path . --editor --import
+          timeout 60s ./tools/godot/godot --headless --path . --script res://tests/test_character_bundles.gd

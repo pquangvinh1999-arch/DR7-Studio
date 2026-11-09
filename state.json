@@ -1,6 +1,6 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-09T09:13:32Z",
+  "updated_at": "2026-11-09T15:20:23Z",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
     "version": "0.3.0",
@@ -64,9 +64,9 @@
     "version_file": "VERSION"
   },
   "current_focus": {
-    "active_task_id": "TASK-013",
-    "status": "completed",
-    "summary": "Đã lưu tiến trình và session_resume cho phiên sau: phân tích Vegeta + skill create_atlas hoàn tất, chưa xử lý asset; Rust/Godot chỉ là ứng viên, đánh giá lại khi đủ asset/scene/UI; chờ Owner mô tả bước tiếp theo. Chuẩn bị commit và push main toàn bộ tiến trình hiện có, gồm thay đổi dọn Trunks/roster rỗng từ TASK-008, tài liệu skill và ảnh nguồn Vegeta. Kết quả push xác minh bằng Git sau commit."
+    "active_task_id": "TASK-024",
+    "status": "ready_to_push",
+    "summary": "Đã rà/fetch main, khôngphânkỳ; chuẩn bịcheckpoint sạch0nhânvật0bundle,giữpixelart/Kiđộc lập/no guard-win. Preview xửlýcontractKi-only khôngđạn vàE2Eđãkiểmchứng. ./loop.sh test exit0:13Python/E2E,Godot roster0,2Rust;Godot4.7.2 release/asset CI đãxácminh. Khôngđưa loglocal/binary/cache/assetđãxóa vàoGit. Đang commit/push theoOwner; chưa nhậnremoteđãcậpnhật."
   },
   "open_issues": [],
   "resolved_issues": [
@@ -152,6 +152,79 @@
       "timestamp": "2026-11-09T09:13:32Z",
       "status": "completed",
       "summary": "Đã lưu tiến trình và session_resume cho phiên sau: phân tích Vegeta + skill create_atlas hoàn tất, chưa xử lý asset; Rust/Godot chỉ là ứng viên, đánh giá lại khi đủ asset/scene/UI; chờ Owner mô tả bước tiếp theo. Chuẩn bị commit và push main toàn bộ tiến trình hiện có, gồm thay đổi dọn Trunks/roster rỗng từ TASK-008, tài liệu skill và ảnh nguồn Vegeta. Kết quả push xác minh bằng Git sau commit."
+    },
+    {
+      "id": "TASK-014",
+      "timestamp": "2026-11-09T10:57:18Z",
+      "status": "completed",
+      "summary": "Đã sửa create-atlas theo đính chính Owner: thiết kế bộ hoạt ảnh từ ảnh tĩnh theo giải phẫu, di chuyển, phương tiện tấn công và concept; Vegeta chỉ tham chiếu độ bao phủ, không áp ki/supers/ultimates Saiyan sang nhân vật khác. Thêm bảng chức năng→hành vi, hợp đồng clip và ví dụ khủng long hai chân cắn/phun lửa; giữ bóc tách sheet thành nhánh reference riêng. Validator và links/YAML/symlink exit 0; loop.sh test exit 0 (9 Python, Godot roster rỗng, 2 Rust; WARN 0 nhân vật). Chỉ sửa tài liệu, chưa sinh/cắt/key/export asset hoặc Human Test."
+    },
+    {
+      "id": "TASK-015",
+      "timestamp": "2026-11-09T11:20:24Z",
+      "status": "completed",
+      "summary": "Đã lập docs/characters/hammer-human-concept.md cho ảnh image.png (263x398, SHA256 1f1c9e0c15c81eec27e1c2043ecc68f613c3110b602ea7995a525225766db057): human dùng búa, đi hai chân không bay, không intro/chưởng lực/ultimate, Ki xanh nhạt, super ném búa đi-quay về tay-hồi idle; tên thêm sau. Phần búa khuất cần master review, không nhận đã biết chính xác. Đang hỏi cách thể hiện Ki, đòn búa thường/mạnh, jump/guard/win; góc nhìn/finish và chi tiết clip còn mở. Chỉ tài liệu, không sửa skill chung, chưa sinh ảnh hoặc xử lý asset.",
+      "resolution": "Các lựa chọn đã được Owner chốt trước TASK-018; master được duyệt, hướng trái/phải nhìn ngang, tạo chuỗi frame trực tiếp qua imagegen."
+    },
+    {
+      "id": "TASK-016",
+      "timestamp": "2026-11-09T11:34:04Z",
+      "status": "completed",
+      "summary": "Owner chốt Ki=gồng+aura xanh nhạt; attack_light=vung búa ngang, attack_heavy=bổ trên xuống; không jump/guard/win. Đã cập nhật concept riêng, tạo master candidate tái dựng búa bằng built-in image_gen tại work/characters/hammer-human/master-review-v1/master-candidate.png; lưu prompt và review.json. Chờ Owner review nhận diện và búa trước khóa master/animation; chưa thêm roster.",
+      "resolution": "Các lựa chọn đã được Owner chốt trước TASK-018; master được duyệt, hướng trái/phải nhìn ngang, tạo chuỗi frame trực tiếp qua imagegen."
+    },
+    {
+      "id": "TASK-017",
+      "timestamp": "2026-11-09T11:44:17Z",
+      "status": "completed",
+      "summary": "Owner đã duyệt master và yêu cầu tạo atlas. Đã lưu bản approved-master/approved-original.png bất biến kèm approval.json, SHA256 khớp candidate; bổ sung AGENTS.md Điều 7.4 khóa hướng map/mặt/di chuyển, cập nhật concept riêng. Đang hỏi trước/sau là trái/phải nhìn ngang hay tập 4/8 hướng; chưa tự giả định. Video resolve status=no-route: không cấu hình dịch vụ video và không có Grok CLI; đang hỏi dùng imagegen tạo frame trực tiếp hay kết nối video. Chưa sinh animation, chưa thêm roster.",
+      "resolution": "Các lựa chọn đã được Owner chốt trước TASK-018; master được duyệt, hướng trái/phải nhìn ngang, tạo chuỗi frame trực tiếp qua imagegen."
+    },
+    {
+      "id": "TASK-018",
+      "timestamp": "2026-11-09T12:32:03Z",
+      "status": "completed",
+      "summary": "Đã tạo atlas human dùng búa bằng built-in imagegen: 63 PNG/10 clip, 1 atlas 3106x2082, canvas384x256 anchor[148,240], 60Hz ticks, Nearest, combined_1layer, trái/phải nhìn ngang; tên chờ Owner. Đã xem 10 filmstrip 3 nền/turn-test, sửa missing hammer/halo/leading leg/tick rounding/E2E roster fixture. Builder strict warnings0, exporter1page, standalone Godot63frame/10clip và loop.sh test exit0 (12 Python/E2E, Godot, 2 Rust), WASM release exit0 hash trùng phục vụ. assets/hammer_human và scenes/HammerHuman.tscn đã thêm roster; WARN jump/guard/win vì Owner loại. localhost8080 đã xác minh HTTP PNG SHA256/timing/anchor parity. Gói deliverables/hammer-human-godot4-v1.zip; chờ Owner Human Test, chưa ghi skills.md gốc hoặc đo mobile.",
+      "resolution": "Ghi chép lịch sử: Owner sau đó yêu cầu xóa toàn bộ hammer-human/Crep_Xayda_01 để dọn sạch. Asset, receipt, bundle, bản nháp và ZIP đã xóa; không tự phục hồi."
+    },
+    {
+      "id": "TASK-019",
+      "timestamp": "2026-11-09T13:34:13Z",
+      "status": "completed",
+      "summary": "Đã bàn giao atlas búa v2: walk loop #0–#7 thay #6/#7, bỏ run, heavy#1 cán thẳng; aura/Ki theo ref độc lập, búa vật lý+spin độc lập và quay ngược khi thu; catch#6 hồi#5–#8. 69 PNG (51 thân+18FX), 12 clip (8 thân+4FX), 1 atlas3106x2082, canvas384x256 anchor[148,240]. Standalone Godot69frame và ./loop.sh test exit0 (13 Python/E2E, 2 Rust, Godot), WASM build exit0, HTTP SHA/tick/contract parity khớp. Đã xem12filmstrip3nền và composite. Gói deliverables/hammer-human-godot4-v2.zip, localhost8080; WARN run/jump/guard/win là Owner loại. Chờ Human Test v2, chưa ghi skills.md gốc.",
+      "resolution": "Ghi chép lịch sử: Owner sau đó yêu cầu xóa toàn bộ hammer-human/Crep_Xayda_01 để dọn sạch. Asset, receipt, bundle, bản nháp và ZIP đã xóa; không tự phục hồi."
+    },
+    {
+      "id": "TASK-020",
+      "timestamp": "2026-11-09T13:56:06Z",
+      "status": "completed",
+      "summary": "Owner đã nghiệm thu và đặt tên Crep_Xayda_01 nhóm quái/boss_mob. Roster/receipt/concept/skills.md PIPE-001/state đã cập nhật; giữ technical id hammer_human. Gói tên chính thức deliverables/Crep_Xayda_01-godot4.zip đã CRC/hash-verified, standalone Godot69frame/FX exit0, loop.sh test13Python/E2E+Godot+2Rust exit0. HTTP roster hiển thị tên/nhóm mới. Bundle hoạt ảnh xong; chưa có export_presets.cfg, export templates hiện rỗng, chưa APK/AAB hay test Android; chưa chứng minh gameplay/native Rust/GPU mobile ready.",
+      "resolution": "Ghi chép lịch sử: Owner sau đó yêu cầu xóa toàn bộ hammer-human/Crep_Xayda_01 để dọn sạch. Asset, receipt, bundle, bản nháp và ZIP đã xóa; không tự phục hồi."
+    },
+    {
+      "id": "TASK-021",
+      "timestamp": "2026-11-09T14:53:54Z",
+      "status": "rejected_by_owner",
+      "summary": "Tambourine Trái Đất: master pixel Owner đã duyệt; atlas61PNG/11clip (55thân9clip +Ki4pha,đạn2pha),49vùng/1page3614x2270,canvas512x320 anchor160288. Lưới2×,thân24màu; chỉbay,idle/fly,tay/đá/cánh vừa phải,supermột tay,Ki hồng riêng2phanguồn+1frame nối. Khôngintro/ultimate,walk/run/jump,guard/win. Đã cập nhật mặc định pixel/Kiđộclập/no guard-win vào create-atlas/AGENTS/state. Đã xem11filmstrip3nền+composites. Godot61frame/FX +loop.sh test13Python/E2E+Godot2bundle+2Rust exit0; WASMbuild0; HTTP hash/tick/contract khớp. Gói deliverables/Tambourine-godot4-v1.zip,localhost8080 chọnTambourine. Chờ full Human Test; chưa ghi workflowTambourine vào skills.md.",
+      "resolution": "Owner: Tambourine không đạt yêu cầu; yêu cầu xóa toàn bộ nhân vật, bundle và PNG/.import gốc workspace. Đã loại; không tái tạo hoặc phục hồi khi chưa có yêu cầu mới."
+    },
+    {
+      "id": "TASK-022",
+      "timestamp": "2026-11-09T15:05:59Z",
+      "status": "completed",
+      "summary": "Đã xóa hoàn toàn Tambourine bị Owner loại: roster, assets/bundle, work/master/source/draft, gói Godot+ZIP, scene, concept, script riêng và cache. Đã xóa7PNG+7.import ở gốc workspace; kiểm tra không còn file tên Tambourine/Tabourine. 247 SHA nội dung Crep_Xayda_01 khớp nguyên trạng. Godot reimport +./loop.sh test exit0 (13Python/E2E,Godot1bundle12clip,2Rust). HTTP roster/bundles chỉ còn hammer_human, paritytrue. Giữ mặc định pixel/Ki độc lập/no guard-win; không phục hồi nhân vật bị loại."
+    },
+    {
+      "id": "TASK-023",
+      "timestamp": "2026-11-09T15:12:44Z",
+      "status": "completed",
+      "summary": "Đã xóa toàn bộ hammer-human/Crep_Xayda_01 theo Owner: assets, nguồn/master/frame, draft/work, mọi bundle và gói ZIP/project Godot, scene, concept, script riêng, cache; bỏ workflow/receipt và các test gán cứng nhân vật đã xóa. Roster0, assets chỉ còn roster.json, không file tên nhân vật cũ, không PNG/.import gốc workspace. Godot reimport +./loop.sh test exit0 (13Python/E2E,Godot kiểm tra roster rỗng,2Rust). HTTP xác minh0characters/0bundles,paritytrue. Giữ khung engine, skill và chỉ dẫn chung pixel/Ki độc lập/no guard-win; không phục hồi nhân vật cũ."
+    },
+    {
+      "id": "TASK-024",
+      "timestamp": "2026-11-09T15:20:23Z",
+      "status": "ready_to_push",
+      "summary": "Đã rà/fetch main, khôngphânkỳ; chuẩn bịcheckpoint sạch0nhânvật0bundle,giữpixelart/Kiđộc lập/no guard-win. Preview xửlýcontractKi-only khôngđạn vàE2Eđãkiểmchứng. ./loop.sh test exit0:13Python/E2E,Godot roster0,2Rust;Godot4.7.2 release/asset CI đãxácminh. Khôngđưa loglocal/binary/cache/assetđãxóa vàoGit. Đang commit/push theoOwner; chưa nhậnremoteđãcậpnhật."
     }
   ],
   "quick_resume_commands": [
@@ -160,13 +233,29 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Chờ Owner mô tả bước tiếp theo; đọc skill create-atlas và hồ sơ Vegeta trước khi tiếp tục. Không tự cắt/key/export/setup từ kết quả phân tích.",
-    "source_atlas": "dcejfvj-b1332eb1-d8da-4942-9daf-593546093f9b.png",
-    "source_sha256": "d44688b654bc60c2175c1f7517b2d8bbdb00401dc680626296e9ad2313c4d82a",
+    "next_action": "Workspace đã dọn toàn bộ nhân vật theo Owner. Roster0; không khôi phục Crep_Xayda_01 hoặc Tambourine. Chờ yêu cầu mới. Giữ mặc định pixel art, Ki độc lập, không guard/win.",
+    "source_atlas": null,
+    "source_sha256": null,
     "analysis": ".agents/skills/create_atlas/references/vegeta-ssjb-analysis.md",
     "skill": ".agents/skills/create_atlas/SKILL.md",
     "compatibility": ".agent là symlink tới .agents; hai đường dẫn đọc cùng skill. Chưa thử discovery trực tiếp bằng Antigravity CLI.",
-    "asset_status": "Chỉ phân tích ảnh gốc, chưa xử lý; roster 0 nhân vật; skills.md gốc chưa có quy trình Owner nghiệm thu.",
-    "verification": "loop.sh test exit 0 trong TASK-012: 9 Python, 2 Rust, Godot headless roster rỗng; WARN roster rỗng. Chưa kiểm định asset Vegeta hoặc hiệu năng mobile."
+    "asset_status": "0 nhân vật; không còn asset/bundle/master/source/draft hoặc gói xuất của hai nhân vật đã xóa.",
+    "verification": "TASK-023 cleanup: Godot reimport +./loop.sh test exit0;13Python/E2E,Godot roster0,2Rust. HTTP0characters/0bundles paritytrue. Assets chỉ còn roster.json; không còn nhân vật/bundle cũ hoặc PNG/.import ở gốc workspace.",
+    "atlas_design_rule": "Tách chức năng phổ quát khỏi hành vi riêng nhân vật; generate2dsprite/video2dsprite chỉ là tooling phía sau create-atlas. Sheet có sẵn dùng nhánh bảo toàn nguồn, không AI redraw.",
+    "character_concept": null,
+    "delivery": null,
+    "latest_delivery": null,
+    "active_character_concept": null
+  },
+  "approved_workflows": [],
+  "owner_defaults": {
+    "character_art_style": "pixel_art",
+    "avoid": "HD sharpening/detail inflation",
+    "independent_ki_aura": true,
+    "excluded_clips": [
+      "guard",
+      "win"
+    ],
+    "do_not_reask_excluded_clips": true
   }
 }

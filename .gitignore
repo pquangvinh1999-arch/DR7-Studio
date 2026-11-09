@@ -13,3 +13,6 @@ __pycache__/
 # Rust build artifacts
 target/
 **/target/
+
+# Local task verification logs
+/work/**/*.log

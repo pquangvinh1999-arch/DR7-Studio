@@ -96,7 +96,7 @@ def parse_tres(tres_path: Path) -> dict:
                 anim_name = m_name.group(1)
                 speed_hz = float(m_speed.group(1)) if m_speed else 60.0
                 for idx, f_item in enumerate(frames_list):
-                    f_item["duration_ms"] = round((f_item["duration_ticks"] / speed_hz) * 1000.0, 2)
+                    f_item["duration_ms"] = (f_item["duration_ticks"] / speed_hz) * 1000.0
                     f_item["index"] = idx
                 animations[anim_name] = {
                     "name": anim_name,
@@ -207,6 +207,7 @@ def discover_bundles() -> list[dict]:
             "anchor_px": export_meta.get("anchor_px", [0.0, 0.0]),
             "shadow": export_meta.get("shadow", None),
             "default_clip": export_meta.get("default_clip", ""),
+            "render_contract": export_meta.get("render_contract"),
             "tscn": tscn_data,
             "unique_frames": unique_regions,
             "animations": tres_data["animations"],
@@ -307,7 +308,8 @@ def verify_engine_localhost_parity() -> dict:
             warnings.append(
                 f"Nhân vật '{ch['character_id']}' hiện có {len(ch.get('present_clips', []))} hoạt ảnh "
                 f"({', '.join(ch.get('present_clips', []))}); thiếu các clip tham chiếu tạm thời: "
-                f"{', '.join(missing_clips)} (Chờ Owner bổ sung định mức chuẩn vào AGENTS.md)."
+                f"{', '.join(missing_clips)}. "
+                f"Owner đã loại riêng nhân vật: {', '.join(k for k in missing_clips if k in ch.get('not_applicable_clips', {})) or 'chưa có'}."
             )
 
     stray = sorted(set(by_id.keys()) - referenced_ids)

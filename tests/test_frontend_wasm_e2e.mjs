@@ -189,7 +189,7 @@ const sandbox = {
   },
 };
 
-const instrumentedJs = jsCode + '\n;globalThis.__TEST__ = { state, stress, arena, selectCharacter, stepInspectorAnimation, renderInspector, stepAndRenderStressArena, stepAndRenderArena, triggerArenaAction, getCanvasSize };';
+const instrumentedJs = jsCode + '\n;globalThis.__TEST__ = { state, stress, arena, selectCharacter, stepInspectorAnimation, renderInspector, stepAndRenderStressArena, stepAndRenderArena, triggerArenaAction, getCanvasSize, getLayerFramesForStep };';
 vm.createContext(sandbox);
 vm.runInContext(instrumentedJs, sandbox);
 
@@ -218,6 +218,23 @@ if (apiPayload.roster.characters.length === 0) {
   T.stepAndRenderArena(16.67);
   assert.equal(getEl('runtimeErrorBanner').textContent, '', 'Tab 3 Arena with 0 characters must have ZERO runtime errors');
   tabHumanBtn.click();
+}
+
+// Real assets use the declared body/effect contract; no deleted-character scenarios.
+for (const ch of apiPayload.roster.characters) {
+  T.selectCharacter(ch.character_id);
+  const bundle=T.state.bundlesById[ch.modes.combined_1layer.bundle_id];
+  const contract=bundle.render_contract;
+  if (!contract) continue;
+  const motion=contract.locomotion?.clip||'idle';
+  const aura=bundle.animations[contract.aura.loop_clip];
+  const layers=T.getLayerFramesForStep(motion,0,{auraEnabled:true,fxTicks:0});
+  assert.deepEqual(Array.from(layers,x=>x.layer),['Aura','Body']);
+  assert.equal(layers[0].frame,aura.frames[0]);
+  assert.equal(layers[1].frame,bundle.animations[motion].frames[0]);
+  assert.equal(T.getLayerFramesForStep(motion,0,{auraEnabled:false}).length,1);
+  T.renderInspector();
+  assert.equal(getEl('runtimeErrorBanner').textContent,'');
 }
 
 // Phase B: Inject synthetic 1-Layer Combined characters to verify dynamic multi-character pipeline
@@ -290,6 +307,7 @@ T.state.bundlesById[b1.id] = b1;
 T.state.bundlesById[b2.id] = b2;
 T.state.images[`/assets/${b1.id}/godot_bundle/godot/${b1.id}-atlas-00.png`] = new sandbox.Image();
 T.state.images[`/assets/${b2.id}/godot_bundle/godot/${b2.id}-atlas-00.png`] = new sandbox.Image();
+const expectedRosterCount = T.state.api.roster.characters.length + 2;
 T.state.api.roster.characters.push(
   makeMockChar('hero_alpha_test', 'Hero Alpha (Test)', 288, 256),
   makeMockChar('hero_beta_test', 'Hero Beta (Test)', 320, 256),
@@ -359,6 +377,25 @@ assert.ok(getEl('arenaCanvas')._ctx2d._drawCalls > 10, 'Tab 3 Arena Canvas must 
 T.selectCharacter('hero_beta_test');
 assert.equal(T.state.activeChar.character_id, 'hero_beta_test');
 assert.deepEqual(Array.from(T.getCanvasSize()), [320, 256]);
-assert.equal(getEl('rosterList').children.length, 2, 'Roster list must render all N finalized characters');
+assert.equal(getEl('rosterList').children.length, expectedRosterCount, 'Roster list must render all N finalized characters');
+
+// An independent aura does not require a projectile ability.
+b1.animations.walk={name:'walk',loop:true,speed_hz:60,frames:b1.animations.attack_light.frames.slice(0,2)};
+b1.render_contract = {
+  body_clips: ['idle','walk','attack_light','power_up','hit'],
+  effect_clips: ['aura_loop'],
+  locomotion: {clip:'walk'},
+  aura: {loop_clip:'aura_loop',charge_clip:null,independent_clock:true},
+};
+T.selectCharacter('hero_alpha_test');
+const auraOnly=T.getLayerFramesForStep('walk',0,{auraEnabled:true,fxTicks:4});
+assert.deepEqual(Array.from(auraOnly,x=>x.layer),['Aura','Body']);
+assert.equal(auraOnly[0].frame,b1.animations.aura_loop.frames[1]);
+assert.equal(auraOnly[1].frame,b1.animations.walk.frames[0]);
+assert.equal(T.getLayerFramesForStep('walk',0,{auraEnabled:false}).length,1);
+T.state.activeClipName='walk';
+T.state.auraEnabled=true;
+T.renderInspector();
+assert.equal(getEl('runtimeErrorBanner').textContent,'');
 
 console.log('[OK] Frontend E2E + Rust WASM + 3-Tab Dynamic Canvas (Empty Roster + Multi-Character) PASSED 100%!');

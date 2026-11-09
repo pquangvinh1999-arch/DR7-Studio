@@ -1,4 +1,4 @@
 interface:
   display_name: "DR7 Create Atlas"
-  short_description: "Analyze Owner sprite sheets without redrawing source art"
-  default_prompt: "Use $create-atlas to inspect the supplied sprite sheet, document its structure and uncertainties, and perform only the analysis or processing explicitly requested."
+  short_description: "Design character-specific atlas animations from a still"
+  default_prompt: "Use $create-atlas to plan a complete animation atlas from this character image, adapting movement and attacks to its anatomy and my requirements; use Vegeta only as a coverage reference."

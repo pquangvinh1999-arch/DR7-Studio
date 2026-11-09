@@ -1,4 +1,5 @@
 import io
+import hashlib
 import json
 import pathlib
 import re
@@ -76,8 +77,16 @@ class GovernanceAndPreviewTests(unittest.TestCase):
         skills_txt = (REPO_ROOT / "skills.md").read_text(encoding="utf-8")
         m_sk = re.search(r"<!-- SKILLS_ENTRIES_START -->(.*?)<!-- SKILLS_ENTRIES_END -->", skills_txt, re.S)
         self.assertIsNotNone(m_sk)
-        sk_entries = re.findall(r"^###\s+\[", m_sk.group(1), re.M)
-        self.assertEqual(len(sk_entries), 0, "skills.md must remain empty until Owner confirms Human Test")
+        sk_entries = re.findall(r"^###\s+\[([^]]+)\]", m_sk.group(1), re.M)
+        workflows = json.loads((REPO_ROOT / "state.json").read_text()).get("approved_workflows", [])
+        self.assertEqual(set(sk_entries), {w["id"] for w in workflows}, "Every workflow needs recorded Owner acceptance")
+        for workflow in workflows:
+            receipt = json.loads((REPO_ROOT / workflow["approval_file"]).read_text())
+            self.assertEqual(receipt["status"], "owner_approved")
+            self.assertEqual(receipt["character_id"], workflow["character_id"])
+            self.assertTrue(receipt["owner_message"].strip())
+            atlas = REPO_ROOT / "assets" / receipt["character_id"] / "godot_bundle/godot" / (receipt["character_id"] + "-atlas-00.png")
+            self.assertEqual(hashlib.sha256(atlas.read_bytes()).hexdigest(), receipt["atlas_sha256"])
 
         lerning_txt = (REPO_ROOT / "lerning.md").read_text(encoding="utf-8")
         m_lr = re.search(r"<!-- LERNING_ENTRIES_START -->(.*?)<!-- LERNING_ENTRIES_END -->", lerning_txt, re.S)

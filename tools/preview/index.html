@@ -476,6 +476,7 @@
               <b style="color:#fff;">⚙️ Runtime đang chạy ở Tab 1:</b>
               <span id="tab1RuntimeDesc" style="color:#bae6fd;">Bộ nhịp 60Hz bằng <b>Rust WASM</b> + Vẽ khung đo Pixel bằng <b>Canvas2D</b> (đọc trực tiếp 1:1 <code>.tres</code> &amp; PNG Atlas của Godot 4 / Rust).</span>
             </div>
+            <label><input type="checkbox" id="chkIndependentAura"/> Aura độc lập (E)</label>
             <label style="white-space:nowrap;">
               Bộ tính nhịp Frame:
               <select id="selStepperEngine" style="width:auto; display:inline-block; padding:3px 6px;">
@@ -485,6 +486,7 @@
             </label>
           </div>
 
+          <div id="attachmentRuntimeNote" style="font-size:11px;color:var(--cyan);margin:6px 0;"></div>
           <div class="viewport-toolbar">
             <div style="display:flex; gap:6px; align-items:center; flex-wrap:wrap;">
               <label style="font-size:11.5px;">Phóng đại:
@@ -688,6 +690,8 @@
       archMode: 'combined_1layer',
       stepperEngine: 'rust_wasm',   // 'rust_wasm' | 'godot_spec'
       activeClipName: 'aura_loop',
+      auraEnabled: false,
+      fxTicks: 0,
       playing: true,
       autoReplayOneshot: true,
       speedMult: 1.0,
@@ -825,6 +829,13 @@
       if (!ch) return;
       state.activeChar = ch;
       state.archMode = 'combined_1layer';
+      const independent = getCharBundle(ch)?.render_contract;
+      if(independent) { state.activeClipName='idle'; state.auraEnabled=false; state.fxTicks=0; arena.rageMode=false; }
+      document.getElementById('chkIndependentAura').disabled=!independent;
+      document.getElementById('chkIndependentAura').checked=Boolean(independent && state.auraEnabled);
+      document.getElementById('attachmentRuntimeNote').textContent=independent ? 'Thân và FX độc lập • chung một atlas • có thêm quad khi bật FX. Tab Stress hiện vẽ riêng sprite thân.' : '';
+      document.getElementById('btnJump').disabled=!getCharBundle(ch)?.animations.jump;
+      document.getElementById('arenaControlHint').textContent=independent ? (independent.locomotion?.kind==='flight' ? 'A/D: bay ngang • E: bật/tắt Ki • nút kỹ năng bên phải' : 'A/D: di chuyển • E: bật/tắt Ki • nút kỹ năng bên phải') : 'A/D: đi bộ • Shift: chạy • W/Space: nhảy';
 
       const [cw, chPx] = getCanvasSize(ch);
       ensureOffscreenSize(cw, chPx);
@@ -986,6 +997,7 @@
           <b>⚠️ Cảnh báo bộ hoạt ảnh chưa đầy đủ (Điều 7 AGENTS.md):</b><br/>
           • Đã có (<b>${ch.present_clips.length}</b>): <code>${ch.present_clips.join(', ')}</code><br/>
           • Chưa có (<b>${ch.missing_provisional_clips.length}</b>): <code>${ch.missing_provisional_clips.join(', ')}</code>
+          ${ch.not_applicable_clips ? '<br/>• Owner đã loại khỏi bộ nhân vật này: <code>' + ch.missing_provisional_clips.filter(k => k in ch.not_applicable_clips).join(', ') + '</code>' : ''}
         `;
       } else {
         warnEl.style.display = 'none';
@@ -1002,7 +1014,7 @@
         <tr><td>Khung Canvas nhân vật</td><td>${m.canvas_size_px[0]} × ${m.canvas_size_px[1]} px</td></tr>
         <tr><td>Tâm chân mặt đất (<code>anchor_px</code>)</td><td>(${m.foot_anchor_px[0]}, ${m.foot_anchor_px[1]}) px</td></tr>
         <tr><td>Kích thước Thân thuần (<code>Body BBox</code>)</td><td>${m.body_only_bbox_px.w} × ${m.body_only_bbox_px.h} px</td></tr>
-        <tr><td>Kích thước Full Kiếm Khí / Chưởng</td><td>${fxBox.w} × ${fxBox.h} px</td></tr>
+        <tr><td>Kích thước Toàn thân / Vũ khí / FX</td><td>${fxBox.w} × ${fxBox.h} px</td></tr>
         <tr><td>Quy đổi Map @ <code>64 PPU</code> (Thân)</td><td>${m.world_size_at_64ppu_m.body_w_m}m × ${m.world_size_at_64ppu_m.body_h_m}m</td></tr>
         <tr><td>Quy đổi Map @ <code>64 PPU</code> (Full FX)</td><td>${m.world_size_at_64ppu_m.aura_w_m}m × ${m.world_size_at_64ppu_m.aura_h_m}m</td></tr>
         <tr><td>Số ô Tile Map <code>32×32 px</code> (Thân)</td><td>${m.tile_32px_span.body_tiles_w} × ${m.tile_32px_span.body_tiles_h} ô</td></tr>
@@ -1010,7 +1022,7 @@
         <tr><td>Độ sắc nét biên (<code>Sobel Acutance</code>)</td><td>${s.edge_acutance_sobel}</td></tr>
         <tr><td>Độ cứng biên Pixel (<code>Alpha &ge; 245</code>)</td><td>${s.alpha_hardness_pct}%</td></tr>
         <tr><td>Hốc màu nền kẹt (<code>enclosed_pockets</code>)</td><td>${s.enclosed_key_pockets} px (Sạch 100%)</td></tr>
-        <tr><td>Nhiễu nền đặc / viền ngoài</td><td>${s.opaque_key_px} px / ${s.outer_ring_spill_fraction}</td></tr>
+        <tr><td>Nhiễu nền đặc / viền ngoài</td><td>${s.opaque_key_px} px / ${s.outer_ring_spill_fraction ?? 'chưa đo'}</td></tr>
       `;
     }
 
@@ -1064,7 +1076,7 @@
         document.getElementById('filmstrip').innerHTML = '';
         return;
       }
-      const clipChoices = Object.keys(b.animations);
+      const clipChoices = b.render_contract ? [...b.render_contract.body_clips] : Object.keys(b.animations);
       const priority = [
         'power_up', 'aura_loop', 'idle', 'walk', 'run', 'jump', 'guard',
         'attack_light', 'attack_heavy', 'spin_kick', 'sword_combo', 'burning_sword',
@@ -1080,7 +1092,7 @@
         state.activeClipName = clipChoices[0] || 'idle';
       }
 
-      if (cntBadge) cntBadge.textContent = `${clipChoices.length} clips`;
+      if (cntBadge) cntBadge.textContent = b.render_contract ? `${clipChoices.length} thân · ${b.render_contract.effect_clips.length} FX` : `${clipChoices.length} clips`;
 
       listEl.innerHTML = clipChoices.map(cname => `
         <button class="clip-chip ${cname === state.activeClipName ? 'active' : ''}" data-clip="${cname}">${cname}</button>
@@ -1088,6 +1100,7 @@
       listEl.querySelectorAll('.clip-chip').forEach(btn => {
         btn.onclick = () => {
           state.activeClipName = btn.dataset.clip;
+          if(b.render_contract && ['power_up','aura_loop','ko'].includes(state.activeClipName)) {state.auraEnabled=state.activeClipName!=='ko';document.getElementById('chkIndependentAura').checked=state.auraEnabled;}
           state.stepIdx = 0;
           state.stepElapsedMs = 0;
           state.playing = true;
@@ -1150,27 +1163,96 @@
       });
     }
 
-    function getLayerFramesForStep(clipName, stepIdx) {
-      const b = getCharBundle();
-      if (!b) return [];
-      const anim = b.animations[clipName] || Object.values(b.animations)[0];
-      if (!anim || !anim.frames.length) return [];
-      const f = anim.frames[Math.min(stepIdx, anim.frames.length - 1)];
-      return [{ layer: 'Combined1Layer(z=0)', bundle: b.id, frame: f }];
+    function animationTickLength(anim) {
+      return anim.frames.reduce((s, f) => s + f.duration_ticks * 60 / anim.speed_hz, 0);
     }
-
-    function drawCompositeStep(ctx, clipName, stepIdx, scaleX = 1.0, scaleY = scaleX) {
-      const layers = getLayerFramesForStep(clipName, stepIdx);
-      const [cw, ch] = getCanvasSize();
-      ctx.imageSmoothingEnabled = false;
-      for (const item of layers) {
-        const f = item.frame;
-        const img = state.images[f.atlas_url];
-        if (img) {
-          ctx.drawImage(img, f.x, f.y, f.w, f.h, 0, 0, cw * scaleX, ch * scaleY);
+    function animationFrameTick(anim, index) {
+      return anim.frames.slice(0,index).reduce((s,f)=>s+f.duration_ticks*60/anim.speed_hz,0);
+    }
+    function sampleFxFrame(anim, tick) {
+      const total=animationTickLength(anim);
+      let t=anim.loop ? ((tick%total)+total)%total : Math.min(tick,total-0.000001);
+      for(let i=0;i<anim.frames.length;i++) {
+        const d=anim.frames[i].duration_ticks*60/anim.speed_hz;
+        if(t<d) return anim.frames[i];
+        t-=d;
+      }
+      return anim.frames[anim.frames.length-1];
+    }
+    function getLayerFramesForStep(clipName, stepIdx, options={}) {
+      const b=getCharBundle();
+      if(!b) return [];
+      const contract=b.render_contract;
+      if(!contract) {
+        const anim=b.animations[clipName]||Object.values(b.animations)[0];
+        if(!anim||!anim.frames.length) return [];
+        return [{layer:'Combined1Layer(z=0)',bundle:b.id,frame:anim.frames[Math.min(stepIdx,anim.frames.length-1)]}];
+      }
+      const auraView=clipName==='aura_loop';
+      const bodyName=contract.body_clips.includes(clipName)?clipName:'idle';
+      const anim=b.animations[bodyName];
+      const index=auraView?0:Math.min(stepIdx,anim.frames.length-1);
+      const tick=animationFrameTick(anim,index)+(options.elapsedMs||0)*0.06;
+      const fxTick=options.fxTicks===undefined?state.fxTicks:options.fxTicks;
+      const layers=[];
+      const auraOn=auraView||(options.auraEnabled===undefined?state.auraEnabled:options.auraEnabled);
+      if(auraOn&&bodyName!=='ko') {
+        const charge=b.animations[contract.aura.charge_clip];
+        const effect=charge&&bodyName==='power_up'&&tick<animationTickLength(charge)?charge:b.animations[contract.aura.loop_clip];
+        const frame=auraView?effect.frames[Math.min(stepIdx,effect.frames.length-1)]:sampleFxFrame(effect,effect===charge?tick:fxTick);
+        layers.push({layer:'Aura',bundle:b.id,frame});
+      }
+      layers.push({layer:'Body',bundle:b.id,frame:anim.frames[index]});
+      const p=contract.projectile;
+      if(!p)return layers;
+      if(p.kind==='linear_energy') {
+        if(bodyName===p.body_clip) {
+          const elapsed=tick-animationFrameTick(anim,p.release_frame);
+          if(elapsed>=0&&elapsed<p.lifetime_ticks)layers.push({layer:'Projectile',bundle:b.id,frame:sampleFxFrame(b.animations[p.projectile_clip],elapsed),point:p.origin_canvas_px.map((v,j)=>v+elapsed*p.velocity_px_per_tick[j]),pivot:contract.fx_pivot_px,angle:0});
+        }
+        return layers;
+      }
+      if(bodyName===p.body_clip) {
+        const release=animationFrameTick(anim,p.release_frame),ret=animationFrameTick(anim,p.return_frame),caught=animationFrameTick(anim,p.catch_frame),farTick=animationFrameTick(anim,p.far_frame);
+        if(tick>=release&&tick<caught) {
+          const returning=tick>=ret;
+          const mix=(a,c,k)=>a.map((v,j)=>v+(c[j]-v)*Math.max(0,Math.min(1,k)));
+          const point=returning?mix(p.far_canvas_px,p.catch_canvas_px,(tick-ret)/(caught-ret)):mix(p.start_canvas_px,p.far_canvas_px,(tick-release)/(farTick-release));
+          const angle=returning?2*Math.PI*((ret-release)-(tick-ret))/p.rotation_period_ticks:2*Math.PI*(tick-release)/p.rotation_period_ticks;
+          const phase=returning?3-Math.floor((tick-ret)/p.spin_step_ticks)%4:Math.floor((tick-release)/p.spin_step_ticks)%4;
+          layers.push({layer:'SpinTrail',bundle:b.id,frame:b.animations[p.spin_clip].frames[phase],point,pivot:contract.fx_pivot_px,angle:0});
+          layers.push({layer:'Hammer',bundle:b.id,frame:b.animations[p.hammer_clip].frames[0],point,pivot:contract.fx_pivot_px,angle});
         }
       }
       return layers;
+    }
+    function drawCompositeStep(ctx,clipName,stepIdx,scaleX=1,scaleY=scaleX,options={}) {
+      const layers=getLayerFramesForStep(clipName,stepIdx,options);
+      const [cw,ch]=getCanvasSize();ctx.imageSmoothingEnabled=false;
+      for(const item of layers) {
+        const f=item.frame,img=state.images[f.atlas_url];if(!img)continue;
+        if(item.point) {
+          ctx.save();ctx.translate(item.point[0]*scaleX,item.point[1]*scaleY);ctx.rotate(item.angle);
+          ctx.drawImage(img,f.x,f.y,f.w,f.h,-item.pivot[0]*scaleX,-item.pivot[1]*scaleY,cw*scaleX,ch*scaleY);ctx.restore();
+        } else ctx.drawImage(img,f.x,f.y,f.w,f.h,0,0,cw*scaleX,ch*scaleY);
+      }
+      return layers;
+    }
+    const sourceProbe=document.createElement('canvas');sourceProbe.width=1;sourceProbe.height=1;
+    const sourceProbeCtx=sourceProbe.getContext('2d',{willReadFrequently:true});
+    function atlasPointForLayer(item,x,y) {
+      if(!item.point)return {x:Math.floor(x),y:Math.floor(y)};
+      const dx=x+0.5-item.point[0],dy=y+0.5-item.point[1],c=Math.cos(item.angle),s=Math.sin(item.angle);
+      return {x:Math.floor(c*dx+s*dy+item.pivot[0]),y:Math.floor(-s*dx+c*dy+item.pivot[1])};
+    }
+    function sourceLayerAt(layers,x,y) {
+      for(const item of [...layers].reverse()) {
+        const uv=atlasPointForLayer(item,x,y),f=item.frame,img=state.images[f.atlas_url];
+        if(!img||uv.x<0||uv.y<0||uv.x>=f.w||uv.y>=f.h)continue;
+        sourceProbeCtx.clearRect(0,0,1,1);sourceProbeCtx.drawImage(img,f.x+uv.x,f.y+uv.y,1,1,0,0,1,1);
+        if(sourceProbeCtx.getImageData(0,0,1,1).data[3]>0)return {item,x:f.x+uv.x,y:f.y+uv.y};
+      }
+      return null;
     }
 
     function stepInspectorAnimation(dtMs) {
@@ -1179,6 +1261,7 @@
       if (!tl.frames.length) return;
 
       const scaledDt = dtMs * state.speedMult;
+      state.fxTicks += scaledDt * 0.06;
       const prevIdx = state.stepIdx;
       let finishedOneshot = false;
 
@@ -1246,7 +1329,7 @@
 
       offCtx.clearRect(0, 0, cw, ch);
       const activeLayers = state.activeChar
-        ? drawCompositeStep(offCtx, state.activeClipName, state.stepIdx, 1.0, 1.0)
+        ? drawCompositeStep(offCtx, state.activeClipName, state.stepIdx, 1.0, 1.0, {elapsedMs:state.stepElapsedMs,fxTicks:state.fxTicks})
         : [];
 
       ctx.save();
@@ -1377,7 +1460,7 @@
         }
       }
 
-      const topLayer = activeLayers[activeLayers.length - 1];
+      const topLayer = activeLayers.find(l=>l.layer==='Body') || activeLayers[activeLayers.length - 1];
       const tl = getActiveTimelineFrames();
       if (topLayer) {
         document.getElementById('scrubberLabel').textContent =
@@ -1404,8 +1487,8 @@
         LUOC_BO: 'LƯỢC BỎ CHI TIẾT THỪA',
         XOA_NEN: 'XÓA NỀN / KHỬ VIỀN MÀU BẨN',
       };
-      const layers = getLayerFramesForStep(state.activeClipName, state.stepIdx);
-      const layerDesc = layers.map(l => `${l.layer}:${l.frame.sub_id}@Atlas(${l.frame.x},${l.frame.y},${l.frame.w},${l.frame.h})`).join(' + ');
+      const layers = getLayerFramesForStep(state.activeClipName, state.stepIdx, {elapsedMs:state.stepElapsedMs,fxTicks:state.fxTicks});
+      const layerDesc = layers.map(l => `${l.layer}:${l.frame.sub_id}@Atlas(${l.frame.x},${l.frame.y},${l.frame.w},${l.frame.h})${l.point ? ':pivot='+l.pivot.join(',')+':canvas='+l.point.join(',')+':angle='+l.angle : ''}`).join(' + ');
       const r = state.selectedRect;
       let rectLine = `Toàn khung Canvas ${cw}x${chPx} (Kéo chuột trên ảnh để khoanh vùng hẹp hơn)`;
       let pxStats = '';
@@ -1456,7 +1539,7 @@
       const b = getCharBundle();
       if (!b) return null;
       // Combine energetic combat & aura frames for lively 2,000-fighter clashes!
-      const clipPool = ['aura_loop', 'attack_light', 'walk'];
+      const clipPool = b.render_contract ? ['idle','attack_light',b.render_contract.locomotion?.clip||'walk'] : ['aura_loop','attack_light','walk'];
       let frames = [];
       for (const cname of clipPool) {
         if (b.animations[cname]) {
@@ -1486,7 +1569,7 @@
       if (gl) {
         stress.gl = gl;
         setupWebGL2Instancer(gl, info.atlasImg);
-        document.getElementById('wasmRendererBadge').textContent = '🦀 Rust WASM + WebGL2 Instanced (1 Draw Call)';
+        document.getElementById('wasmRendererBadge').textContent = '🦀 Rust WASM + WebGL2 Instanced (thân: 1 Draw Call)';
       } else {
         stress.ctx2d = canvas.getContext('2d');
         document.getElementById('wasmRendererBadge').textContent = '🦀 Rust WASM + Canvas2D Batch';
@@ -1732,8 +1815,8 @@
         container.appendChild(msg);
         return;
       }
-      const passive = new Set(['idle', 'walk', 'run', 'jump', 'guard', 'aura_loop', 'hit', 'ko', 'win']);
-      const skillNames = Object.keys(b.animations).filter(n => !passive.has(n));
+      const passive = new Set(['idle', 'walk', 'fly', 'run', 'jump', 'guard', 'aura_loop', 'hit', 'ko', 'win']);
+      const skillNames = Object.keys(b.animations).filter(n => !passive.has(n) && (!b.render_contract || b.render_contract.body_clips.includes(n)));
       skillNames.slice(0, ARENA_HOTKEYS.length).forEach((clipName, idx) => {
         const hk = ARENA_HOTKEYS[idx];
         arenaHotkeyClips[hk.code] = clipName;
@@ -1749,6 +1832,7 @@
 
     const arena = {
       x: 280, y: 396, groundY: 396, vy: 0,
+      fxTicks:0,
       rageMode: true,
       flip: false,
       actionClip: null,
@@ -1778,6 +1862,7 @@
       arena.elapsed = 0;
       if (clipName === 'power_up') {
         arena.rageMode = true;
+        if(b.render_contract){state.auraEnabled=true;document.getElementById('chkIndependentAura').checked=true;}
       }
       const sp = SKILL_SPECS[clipName] || {
         dmg: 350,
@@ -1789,7 +1874,7 @@
       arena.hitstop = 45;
       const dist = Math.abs(arena.x - arena.dummyX);
       const facingDummy = arena.x <= arena.dummyX ? !arena.flip : arena.flip;
-      if (dist <= sp.range && (clipName === 'power_up' || facingDummy)) {
+      if (!(b.render_contract && clipName==='power_up') && dist <= sp.range && (clipName === 'power_up' || facingDummy)) {
         arena.dummyHp = arena.dummyHp <= sp.dmg ? arena.dummyMaxHp : arena.dummyHp - sp.dmg;
         arena.dummyFlash = 1.0;
         arena.dummyClip = b.animations['hit'] ? 'hit' : 'idle';
@@ -1801,6 +1886,7 @@
     }
 
     function triggerArenaJump() {
+      if(!getCharBundle()?.animations.jump)return;
       if (arena.y >= arena.groundY - 1) {
         arena.vy = -0.64;
         const b = getCharBundle();
@@ -1834,6 +1920,7 @@
       };
 
       const b = getCharBundle();
+      arena.fxTicks += dtMs*0.06;
       if (!state.activeChar || !b) {
         drawStageBackdrop();
         ctx.fillStyle = 'rgba(11,14,23,0.78)';
@@ -1855,7 +1942,7 @@
       } else {
         const goRight = arena.keys['ArrowRight'] || arena.keys['KeyD'] || arena.holdRight;
         const goLeft = arena.keys['ArrowLeft'] || arena.keys['KeyA'] || arena.holdLeft;
-        const isRun = Boolean(arena.keys['ShiftLeft'] || arena.keys['ShiftRight']);
+        const isRun = Boolean((arena.keys['ShiftLeft'] || arena.keys['ShiftRight']) && b.animations['run']);
         const dir = (goRight ? 1 : 0) - (goLeft ? 1 : 0);
         const moveSpeed = arena.actionClip ? 0.08 : (isRun ? 0.44 : 0.27);
         arena.x = Math.max(80, Math.min(880, arena.x + dir * moveSpeed * dtMs));
@@ -1871,11 +1958,12 @@
 
         // Auto locomotion clip when not executing an active skill
         if (!arena.actionClip) {
-          let desired = arena.rageMode && b.animations['aura_loop'] ? 'aura_loop' : 'idle';
+          let desired = !b.render_contract && arena.rageMode && b.animations['aura_loop'] ? 'aura_loop' : 'idle';
           if (arena.y < arena.groundY - 2 && b.animations['jump']) {
             desired = 'jump';
           } else if (dir !== 0) {
-            desired = (isRun && b.animations['run']) ? 'run' : (b.animations['walk'] ? 'walk' : desired);
+            const motion=b.render_contract?.locomotion?.clip||'walk';
+            desired = (isRun && b.animations['run']) ? 'run' : (b.animations[motion] ? motion : desired);
           }
           if (arena.clip !== desired) {
             arena.clip = desired;
@@ -1894,7 +1982,7 @@
             arena.step++;
           } else if (arena.actionClip) {
             arena.actionClip = null;
-            arena.clip = (arena.rageMode && b.animations['aura_loop']) ? 'aura_loop' : 'idle';
+            arena.clip = (!b.render_contract && arena.rageMode && b.animations['aura_loop']) ? 'aura_loop' : 'idle';
             arena.step = 0;
           } else if (curAnim.loop) {
             arena.step = 0;
@@ -1931,7 +2019,7 @@
       ctx.fillStyle = 'rgba(0,0,0,0.4)';
       ctx.beginPath(); ctx.ellipse(arena.dummyX, arena.groundY, 32, 8, 0, 0, Math.PI * 2); ctx.fill();
       offCtx.clearRect(0, 0, cw, chPx);
-      drawCompositeStep(offCtx, arena.dummyClip, arena.dummyStep, 1.0, 1.0);
+      drawCompositeStep(offCtx, arena.dummyClip, arena.dummyStep, 1.0, 1.0, {auraEnabled:false,fxTicks:arena.fxTicks});
       ctx.save();
       ctx.translate(arena.dummyX, arena.groundY);
       ctx.scale(-1, 1);
@@ -1952,7 +2040,7 @@
       ctx.fillStyle = 'rgba(0,0,0,0.45)';
       ctx.beginPath(); ctx.ellipse(arena.x, arena.groundY, 34, 9, 0, 0, Math.PI * 2); ctx.fill();
       offCtx.clearRect(0, 0, cw, chPx);
-      drawCompositeStep(offCtx, arena.clip, arena.step, 1.0, 1.0);
+      drawCompositeStep(offCtx, arena.clip, arena.step, 1.0, 1.0, {auraEnabled:arena.rageMode,fxTicks:arena.fxTicks,elapsedMs:arena.elapsed});
       ctx.save();
       ctx.translate(arena.x, arena.y);
       if (arena.flip) ctx.scale(-1, 1);
@@ -1972,7 +2060,7 @@
       ctx.fillStyle = '#e6ecff';
       ctx.font = '12px monospace';
       ctx.fillText(
-        `Nhân vật: ${state.activeChar.character_id} | 1-Layer Combined | Clip: ${arena.clip} (#${arena.step}) | Pos: (${Math.round(arena.x)}, ${Math.round(arena.y)})`,
+        `Nhân vật: ${state.activeChar.character_id} | ${b.render_contract?'Thân + FX độc lập':'1-Layer Combined'} | Clip: ${arena.clip} (#${arena.step}) | Pos: (${Math.round(arena.x)}, ${Math.round(arena.y)})`,
         18, 27
       );
     }
@@ -2001,6 +2089,7 @@
     }
 
     function setupEventListeners() {
+      document.getElementById('chkIndependentAura').onchange=e=>{state.auraEnabled=e.target.checked;arena.rageMode=e.target.checked;renderInspector();};
       document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.onclick = () => {
           document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -2111,12 +2200,13 @@
         if (!state.activeChar) return;
         const p = toCanvasCoords(ev);
         const px = offCtx.getImageData(p.x, p.y, 1, 1).data;
-        const layers = getLayerFramesForStep(state.activeClipName, state.stepIdx);
-        const topF = layers[layers.length - 1]?.frame;
+        const layers = getLayerFramesForStep(state.activeClipName, state.stepIdx, {elapsedMs:state.stepElapsedMs,fxTicks:state.fxTicks});
+        const hit = sourceLayerAt(layers,p.x,p.y);
+        const topF = (layers.find(l=>l.layer==='Body')||layers[layers.length-1])?.frame;
         const anc = state.activeChar.map_sync_metrics.foot_anchor_px;
         document.getElementById('cursorCoord').textContent = `Canvas: (${p.x}, ${p.y}) | Offset chân: (${p.x - anc[0]}, ${p.y - anc[1]})`;
         if (topF) {
-          document.getElementById('cursorAtlas').textContent = `Atlas: (${topF.x + p.x}, ${topF.y + p.y})`;
+          document.getElementById('cursorAtlas').textContent = hit ? `Atlas ${hit.item.layer}: (${hit.x}, ${hit.y})` : `Atlas thân: (${topF.x + p.x}, ${topF.y + p.y})`;
         }
         document.getElementById('cursorSwatch').style.background = `rgba(${px[0]},${px[1]},${px[2]},${(px[3]/255).toFixed(2)})`;
         document.getElementById('cursorRgba').textContent = `RGBA: (${px[0]}, ${px[1]}, ${px[2]}, ${px[3]})`;
@@ -2190,6 +2280,7 @@
           triggerArenaJump();
         } else if (ev.code === 'KeyE') {
           arena.rageMode = !arena.rageMode;
+          state.auraEnabled=arena.rageMode;document.getElementById('chkIndependentAura').checked=state.auraEnabled;
         } else if (arenaHotkeyClips[ev.code]) {
           triggerArenaAction(arenaHotkeyClips[ev.code]);
         }

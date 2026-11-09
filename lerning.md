@@ -1,5 +1,8 @@
 # NHẬT KÝ BÀI HỌC SỬA LỖI KỸ THUẬT (`lerning.md`)
 
+> Lưu ý lịch sử: Owner đã yêu cầu xóa toàn bộ nhân vật, nguồn, bundle và gói xuất. Các đường dẫn/tên nhân vật và số đo trong bài học dưới đây chỉ ghi bằng chứng các phiên trước, không phải asset hiện còn hoặc chỉ dẫn phục hồi.
+
+
 > **QUY ĐỊNH BẮT BUỘC (Theo Điều 8 — `AGENTS.md`)**:
 > 1. **Khi nào ĐỌC**: Agent bắt buộc đọc file này trước khi xử lý sprite/atlas, viết script tách nền, đóng gói resource cho Engine (Godot / Rust) hoặc khi gặp lỗi runtime/build để tránh lặp lại vết xe đổ.
 > 2. **Khi nào GHI**: Mỗi khi Agent gặp lỗi trong quá trình làm việc, **sau khi đã tìm ra nguyên nhân gốc (root cause) và sửa thành công có kiểm chứng**, Agent phải ghi ngay 1 mục mới (`### [LRN-XXX] ...`) vào giữa hai thẻ đánh dấu bên dưới.
@@ -94,5 +97,38 @@
 - **Cách sửa đã kiểm chứng**:
   1. Khai báo kiểu tường minh trong `tests/bench_godot_2000.gd`: `var anim: StringName = &"aura_loop" if sf.has_animation(&"aura_loop") else StringName(sf.get_animation_names()[0])`, đồng thời chuẩn bị sẵn `SpriteFrames` rỗng trong bộ nhớ khi `roster.json` có `0` nhân vật.
   2. Tạo các nút chiêu thức động ở `#arenaSkillButtons` trong `tools/preview/index.html` hoàn toàn bằng `document.createElement('button')` + `appendChild()`, và đặt lại vị trí nhân vật vào tầm cận chiến (`dist = 120 <= 170`) khi test `attack_light` trong `tests/test_frontend_wasm_e2e.mjs`.
+
+### [LRN-009] Sheet sinh theo frame phải kiểm tra ownership và alpha thực trước khi đóng gói
+- **Bằng chứng**: super take đầu tại `work/characters/hammer-human/atlas-v1/source/super_hammer_return/sheet-v1-rejected.png` (1983×793), ô thứ ba `Rect(793,0,397,396)` chỉ có cụm bạc lớn nhất 38 px; các ô có đầu búa đo được 2240–3664 px. Take gồng Ki đầu có 1360 pixel alpha ≥128 trên ranh giới ô. Không coi một grid đều hoặc prompt “đủ búa” là bằng chứng pose đúng.
+- **Sửa đã kiểm chứng**: dựng lại super 9 pha, sửa halo, đổi chân dẫn ở nửa sau walk/run, giữ toàn bộ island theo nhãn sở hữu 2D trước crop; giữ một scale mỗi action và truy vết affine trong `registration-report.json`. Kết quả 63 frame/10 clip: builder `--strict` exit 0, warnings=0; exporter một trang exit 0; Godot kiểm tra đủ 63 texture exit 0; mở đủ 10 filmstrip trên sáng/tối/ô cờ.
+- **Alpha / schema**: mẫu background tại (400,250) của take attack_light là RGBA (73,61,35,0): RGB khác đen dưới alpha 0 không phải nền đặc. Chỉ phân tích pixel có alpha và ghi rõ native-alpha không phải chroma QA. Builder từ chối `art_source="built-in image_gen"` với `error: art_source must be one of host_image, api, code, existing, video, mixed.`; dùng enum `host_image`, ghi tên tool thật riêng trong provenance.
+
+### [LRN-010] Xuất Godot bằng tick nguyên, không ép FPS qua milliseconds đã làm tròn
+- **Bằng chứng**: bản `godot-final/godot/hammer_human.tres` được xuất với `--godot-fps 60` có duration walk `7.02`, `6.96` thay vì `7.0`; Godot báo `Assertion failed: Tick duration differs`. Nguyên nhân: nhánh fixed-FPS chuyển preview milliseconds nguyên thành duration, trong khi nguồn đã có ticks 60Hz.
+- **Sửa đã kiểm chứng**: để exporter chọn timing tự động từ ticks; bản bàn giao có `godot.basis="ticks at 60 Hz"`, speed 60, duration walk toàn `7.0`. Godot 4.7.2 nạp/đối chiếu 63 frame, duration, loop, anchor và demo đều exit 0.
+- **Parity localhost**: bỏ phép làm tròn 0.01ms trong `parse_tres`; gửi trực tiếp `duration_ticks / speed_hz * 1000` cho browser/Rust WASM. Test mới kiểm tra timing phân số và tổng timeline; HTTP kiểm tra cùng PNG SHA-256, canvas/anchor và timing, exit 0. Milliseconds nguyên trong preview/JSON không thay thế timeline tick của `.tres`.
+
+### [LRN-011] E2E roster phải tính cả nhân vật thật và fixture tổng hợp
+- **Bằng chứng**: sau khi thêm human dùng búa, `test_frontend_wasm_e2e.mjs:362` thất bại `Roster list must render all N finalized characters`, actual `3`, expected `2`. Dữ liệu kiểm thử đọc roster thật rồi thêm hai fixture, nhưng assertion vẫn cố định 2.
+- **Sửa đã kiểm chứng**: chụp `expectedRosterCount = current roster length + 2` trước khi thêm fixture; không xoá hoặc sửa roster để khớp test. `./loop.sh test` exit 0: 12 Python/E2E, Godot 10 clip và 2 Rust. WASM release build exit 0, SHA-256 trùng artifact đang phục vụ. WARN `jump, guard, win` được giữ, ghi rõ Owner loại ba clip này riêng cho nhân vật.
+
+### [LRN-012] Kiểm định atlas không thay thế kiểm tra chuyển động và contract FX
+- **Bằng chứng**: Owner chỉ ra walk #6/#7 vấp và heavy #1 cán cong trong bản v1 dù kiểm thử file/timing đã qua; screenshot vị trí Atlas(1257,813) thuộc vùng Rect(1167,783,384,256). Xác nhận mới yêu cầu loop đủ #0–#7, bỏ run riêng nhân vật và tách aura/búa.
+- **Sửa đã kiểm chứng**: v2 sửa đúng #6/#7 walk, heavy #1, giữ byte 38 frame không đổi; tách island búa ở #2–#5 (3099/2347/2108/2228 px); body luôn hiện, một búa bay, ẩn khi bắt #6. Godot và browser dùng cùng render_contract: aura clock độc lập, incoming spin 3→2→1→0, hồi #5–#8. Standalone Godot 69 frame/12 clip, ./loop.sh test (13 Python/E2E, 2 Rust) đều exit0; metadata/ticks/PNG HTTP trùng. Chưa coi Owner đã nghiệm thu chuyển động v2.
+- **Phạm vi QA alpha**: raw PNG so với texture Godot có RGB khác dưới alpha0 vì importer lấp màu vô hình; assertion byte-RGBA thô báo `atlas/PNG import differs: idle:0`. So khớp mọi alpha và RGB có alpha>0; checksum PNG vẫn kiểm tra byte nguồn. Không bỏ kiểm tra pixel nhìn thấy. Key nền xám chỉ áp dụng 17 frame FX lấy từ sheet: kết quả 0 residue/0 partial alpha. Búa vật lý có 266 pixel viền tối hợp lệ cùng dải màu xám; không xóa viền búa theo phép dò nền FX.
+- **Chi phí**: thân nguyên một sprite; aura/búa/trail thêm quad theo ngoại lệ Owner đã ghi. Dùng một trang atlas không chứng minh cả tổ hợp chỉ 1 draw call. Không sửa skill chung để biến ngoại lệ của một nhân vật thành mặc định.
+
+### [LRN-013] Gate sổ tay phải dựa vào bằng chứng nghiệm thu
+- Test cũ yêu cầu số mục skills.md luôn bằng0; điều này chỉ đúng trước khi Owner nghiệm thu. Sau Owner xác nhận “ok nhân vật này đã xong”, gate được đổi để mỗi mục PIPE cần receipt owner_approved, đúng character_id và hash atlas đã duyệt. Không bỏ gate hoặc tạo xác nhận thay Owner. ./loop.sh test sau cập nhật exit0 (13 Python/E2E, Godot12clip,2Rust); gói mang tên Crep_Xayda_01 kiểm tra Godot69frame/FX exit0. Nghiệm thu hoạt ảnh không xác nhận Android export/device test.
+
+### [LRN-014] Alpha yêu cầu, nền FX nhiễu và role clip cần kiểm tra trên dữ liệu thật
+- **Alpha nguồn**: dải fly đầu có Canvas(0,0) RGBA(253,253,253,150), alpha136..252 dù yêu cầu transparency; attack_wing alpha230..250. Không threshold128 rồi nhận đã tách nền, cũng không key trắng mọi pixel vì mắt/giày/cánh có trắng thật. Đã tạo take khôi phục alpha cho3dải, giữ nguồn cũ trongwork; ownership mask, palette24màu và lưới2× hoàn thiện61PNG đều binary alpha.
+- **FX super**: source backgroundRGBA(101,101,129,255), tolerance20 còn nhiễu màu quanh đạn. Review20/35/50/65 trên sáng/tối; chọn50, key pocket-first+edgeunmix,32-color shared palette. Phase0 loại1328pixel so bản trước; ví dụ Canvas(72,164) từRGBA(226,86,209,255) thành(0,0,0,0). Hash55frame thân giữ nguyên. Không áp ngưỡng này cho palette thân hoặc sheet khác.
+- **Role khi chạy lại**: lấy `body=list(plan.clips)` sau khi plan đã cóFX khiến admission tìm `source/aura_loop/sheet.png` và FileNotFoundError, tạo bundle dang dở ngoài roster. Sửa lọc `role != fx`; assert tập body/effect rời nhau trong test; stage ngoàiassets, chỉ chuyển vào khi đã đủ nguồn/QA. Bản dở lưu ngoàiassets, roster sạch.
+- **Kiểm chứng**: builder strict warnings0; exporter1page; standaloneGodot61frame/11clip+runtime bay/Ki/đạn exit0; ./loop.sh test13Python/E2E+Godot2bundle+2Rust exit0. HTTP PNG/tick/anchor/contract khớp. Ghi chú lịch sử: master từng được duyệt, nhưng Owner sau đó loại toàn bộ Tambourine vì không đạt; các số PASS kỹ thuật trên không phải nghiệm thu chất lượng. Asset và bundle đã xóa theo yêu cầu Owner.
+
+### [LRN-015] Ki độc lập không bắt buộc nhân vật có đạn
+- **Bằng chứng code**: khi rà checkpoint, renderer đọc `p.kind` ngay sau `const p=contract.projectile`; contract có body/aura nhưng không có projectile chưa được xử lý. Ki độc lập là mặc định Owner, không đồng nghĩa mọi nhân vật phải có chưởng.
+- **Sửa đã kiểm chứng**: trả về các lớp body/aura khi projectile không được khai báo; gợi ý điều khiển không áp bộ đòn/chạy/nhảy của nhân vật cũ cho mọi contract. E2E dùng fixture có walk và aura nhưng không có projectile: aura đổi pha trong khi frame thân giữ nguyên, tắt aura còn thân và renderInspector không báo lỗi. ./loop.sh test exit0:13Python/E2E,Godot roster0,2Rust. Đây là kiểm chứng contract tổng hợp, không phải nghiệm thu một nhân vật mới.
 
 <!-- LERNING_ENTRIES_END -->

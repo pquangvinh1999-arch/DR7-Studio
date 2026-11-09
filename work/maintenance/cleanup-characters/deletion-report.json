@@ -1,0 +1,34 @@
+{
+  "removed_roster_ids": [
+    "hammer_human"
+  ],
+  "removed_paths": [
+    "assets/hammer_human",
+    "work/characters/hammer-human",
+    "deliverables/hammer-human-godot4-v1",
+    "deliverables/hammer-human-godot4-v1.zip",
+    "deliverables/Crep_Xayda_01-godot4.zip",
+    "deliverables/hammer-human-godot4-v2.zip",
+    "deliverables/hammer-human-godot4-v2",
+    "deliverables/Crep_Xayda_01-godot4",
+    "tools/pipeline/prepare_hammer_delivery.py",
+    "tools/pipeline/prepare_hammer_v2_delivery.py",
+    "tools/pipeline/admit_hammer_v2.py",
+    "tools/pipeline/package_hammer_atlas.py",
+    "tools/pipeline/build_hammer_frames.py",
+    "tools/pipeline/prepare_hammer_v2_fx.py",
+    "tools/pipeline/prepare_hammer_v2_bundle.py",
+    "tools/pipeline/review_hammer_v2.py",
+    "tools/pipeline/build_hammer_v2.py",
+    "tools/pipeline/hammer_human",
+    "scenes/HammerHuman.tscn",
+    "docs/characters/hammer-human-concept.md",
+    "work/maintenance/remove-tambourine"
+  ],
+  "removed_caches": [
+    ".godot/imported/hammer_human-atlas-00.png-0987bf1cc50ca9a09c0a6b2cc17a4abb.md5",
+    ".godot/imported/hammer_human-atlas-00.png-0987bf1cc50ca9a09c0a6b2cc17a4abb.ctex",
+    "tools/pipeline/__pycache__/build_hammer_frames.cpython-314.pyc"
+  ],
+  "removed_root_png_import": []
+}

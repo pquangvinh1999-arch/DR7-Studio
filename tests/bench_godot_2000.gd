@@ -22,7 +22,7 @@ func _resolve_bench_sprite_frames() -> Dictionary:
 					var tres_path := "res://assets/%s/godot_bundle/godot/%s.tres" % [bid, bid]
 					var sf: SpriteFrames = load(tres_path)
 					if sf != null and sf.get_animation_names().size() > 0:
-						var anim: StringName = &"aura_loop" if sf.has_animation(&"aura_loop") else StringName(sf.get_animation_names()[0])
+						var anim: StringName = &"walk" if sf.has_animation(&"walk") else (&"idle" if sf.has_animation(&"idle") else StringName(sf.get_animation_names()[0]))
 						return {"sf": sf, "anim": anim}
 	var sf_syn := SpriteFrames.new()
 	var img := Image.create_empty(320, 256, false, Image.FORMAT_RGBA8)

@@ -1,5 +1,10 @@
 # Vegeta SSJB — hồ sơ phân tích nguồn, chưa xử lý
 
+> Ảnh nguồn đã được Owner yêu cầu xóa khỏi workspace khi dọn nhân vật. Hồ sơ này chỉ giữ phân tích lịch sử; không tự phục hồi ảnh hoặc coi nó là asset runtime hiện có.
+
+
+> Phạm vi tham chiếu: chỉ là inventory của Vegeta SSJB. Học độ bao phủ chức năng; không sao bộ chiêu, giải phẫu, palette, FX hoặc bố cục sang nhân vật khác. Thiết kế từ ảnh tĩnh bắt đầu ở `../SKILL.md`.
+
 Ngày phân tích: 2026-11-09. Phạm vi Owner: xem kỹ ảnh, học cấu trúc, viết skill; **không setup, không cắt/key/export**. Đây không phải quy trình được Human Test nghiệm thu.
 
 ## 1. Nguồn và cách đọc tọa độ

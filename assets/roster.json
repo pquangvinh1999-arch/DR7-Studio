@@ -1,6 +1,6 @@
 {
   "schema": "dr7-studio.character_roster.v1",
-  "roster_policy": "Chỉ lưu trữ nhân vật đã hoàn thiện kiểm thử Engine (Godot 4 + Rust Core) trong characters[]. Bắt buộc tuân thủ kiến trúc duy nhất: Gộp Chung 1 Lớp Nguyên Bản (Combined 1-Layer).",
+  "roster_policy": "Chỉ lưu nhân vật đã kiểm thử Engine; thân combined_1layer. Ngoại lệ FX độc lập theo yêu cầu Owner được ghi trong render_contract từng nhân vật.",
   "animation_completeness_standard": {
     "status": "provisional_active_gate",
     "constitutional_note": "Theo Điều 7 AGENTS.md: Kiểm tra bộ hoạt ảnh chiến đấu cốt lõi trên mỗi nhân vật; phát cảnh báo nhắc nhở (WARN) nếu nhân vật còn thiếu clip tham chiếu.",

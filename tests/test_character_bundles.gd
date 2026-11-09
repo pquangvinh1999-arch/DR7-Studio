@@ -81,7 +81,7 @@ func _init() -> void:
 			continue
 
 		var anim_names := sf.get_animation_names()
-		for req_clip in ch.get("present_clips", []):
+		for req_clip in export_meta.get("clips", {}).keys():
 			if not anim_names.has(req_clip):
 				printerr("[FAIL] %s thiếu clip đã khai báo trong roster.json: %s" % [cid, req_clip])
 				failures += 1
@@ -96,6 +96,20 @@ func _init() -> void:
 				printerr("[FAIL] %s clip %s lỗi nạp Texture2D" % [cid, req_clip])
 				failures += 1
 				continue
+			var clip_meta: Dictionary = export_meta.get("clips", {}).get(req_clip, {})
+			var expected_durations: Array = clip_meta.get("godot", {}).get("relative_durations", [])
+			var frame_size: Array = export_meta.get("frame_size", [0, 0])
+			if not is_equal_approx(sf.get_animation_speed(req_clip), 60.0) or expected_durations.size() != fcnt:
+				printerr("[FAIL] %s:%s timing metadata không khớp 60Hz" % [cid, req_clip])
+				failures += 1
+			for frame_idx in range(fcnt):
+				var frame_tex: Texture2D = sf.get_frame_texture(req_clip, frame_idx)
+				if frame_tex == null or frame_tex.get_size() != Vector2(frame_size[0], frame_size[1]):
+					printerr("[FAIL] %s:%s frame %d sai texture/canvas" % [cid, req_clip, frame_idx])
+					failures += 1
+				if frame_idx < expected_durations.size() and not is_equal_approx(sf.get_frame_duration(req_clip, frame_idx), float(expected_durations[frame_idx])):
+					printerr("[FAIL] %s:%s frame %d sai duration tick" % [cid, req_clip, frame_idx])
+					failures += 1
 			print("[OK] %s -> %s frames=%d loop=%s speed=%.1f" % [
 				bid, req_clip, fcnt, str(sf.get_animation_loop(req_clip)), sf.get_animation_speed(req_clip)
 			])
