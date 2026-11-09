@@ -267,12 +267,24 @@ def verify_engine_localhost_parity() -> dict:
     errors: list[str] = []
     warnings: list[str] = []
 
-    if not bundles:
-        errors.append("Không tìm thấy bất kỳ bundle hợp lệ nào trong assets/.")
-    if not roster.get("characters"):
-        errors.append("Danh sách nhân vật đã hoàn thiện (roster.json) đang rỗng.")
+    raw_chars = raw_roster.get("characters", [])
+    finalized_chars = roster.get("characters", [])
 
-    for raw_ch in raw_roster.get("characters", []):
+    if not raw_chars and not bundles:
+        warnings.append(
+            "Danh sách nhân vật (roster.json) hiện đang rỗng (0 nhân vật) — Hệ thống sẵn sàng nhận Atlas mới từ Owner."
+        )
+    else:
+        if len(raw_chars) != len(finalized_chars):
+            finalized_ids = {c.get("character_id") for c in finalized_chars}
+            for rc in raw_chars:
+                rcid = rc.get("character_id", "unknown")
+                if rcid not in finalized_ids and "layered_3d_depth" not in rc.get("modes", {}):
+                    errors.append(
+                        f"Nhân vật '{rcid}' chưa ở trạng thái finalized hoặc thiếu bundle combined_1layer hợp lệ."
+                    )
+
+    for raw_ch in raw_chars:
         if "layered_3d_depth" in raw_ch.get("modes", {}):
             errors.append(
                 f"Nhân vật '{raw_ch.get('character_id')}' chứa cấu hình 'layered_3d_depth' (Hướng 2) đã bị bãi bỏ theo Hiến pháp AGENTS.md!"

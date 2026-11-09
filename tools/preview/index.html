@@ -430,10 +430,10 @@
         <div class="card">
           <h2>
             <span>👥 Danh Sách Nhân Vật Chính Thức</span>
-            <span class="badge badge-ok" id="rosterCountBadge">1 Hoàn thiện</span>
+            <span class="badge badge-ok" id="rosterCountBadge">0 Hoàn thiện</span>
           </h2>
           <div class="roster-toolbar">
-            <input type="text" id="inpSearchChar" placeholder="🔎 Tìm tên, ID, hệ phái (VD: trunks, sword)..." />
+            <input type="text" id="inpSearchChar" placeholder="🔎 Tìm tên, ID, hệ phái (VD: saiyan, z_fighters)..." />
             <div class="roster-filter-row" id="rosterFilters">
               <button class="filter-pill active" data-filter="all">Tất cả</button>
               <button class="filter-pill" data-filter="z_fighters">Tướng Chính / Z</button>
@@ -461,7 +461,7 @@
         <div class="card">
           <h2>
             <span>🎞️ Danh Sách Clip Hoạt Ảnh</span>
-            <span class="badge badge-info" id="clipCountBadge">20 clips</span>
+            <span class="badge badge-info" id="clipCountBadge">0 clips</span>
           </h2>
           <div id="clipList" class="clip-list"></div>
           <div style="margin-top:8px; font-size:11px; color:var(--muted);" id="clipMetaInfo"></div>
@@ -655,20 +655,14 @@
     <div class="card">
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:10px;">
         <div>
-          <b>⚔️ Sân Tập Thực Chiến (<span id="arenaCharLabel">Future Trunks</span>):</b>
-          <code>A/D</code> Đi bộ • <code>Shift+A/D</code> Chạy nhanh • <code>W/Space</code> Nhảy • <code>J</code> Đấm • <code>U</code> Kiếm Khí • <code>I</code> Burning Sword • <code>K</code> Biến Hình SSJ Rage • <code>L</code> Galick Gun • <code>O</code> Final Flash • <code>P</code> Ultimate Spirit Sword
+          <b>⚔️ Sân Tập Thực Chiến (<span id="arenaCharLabel">Chưa có nhân vật</span>):</b>
+          <span id="arenaControlHint"><code>A/D</code> Đi bộ • <code>Shift+A/D</code> Chạy nhanh • <code>W/Space</code> Nhảy • <code>J/U/I/K/L/O/P</code> Tuyệt chiêu nhân vật</span>
         </div>
-        <div style="display:flex; gap:5px; flex-wrap:wrap;">
+        <div id="arenaActionButtons" style="display:flex; gap:5px; flex-wrap:wrap; align-items:center;">
           <button class="btn" id="btnMoveLeft">◀ Trái</button>
           <button class="btn" id="btnJump">⬆ Nhảy</button>
           <button class="btn" id="btnMoveRight">Phải ▶</button>
-          <button class="btn" id="btnActLight">👊 J: Đấm</button>
-          <button class="btn" id="btnActSword">🗡️ U: Kiếm Khí (320)</button>
-          <button class="btn" id="btnActBurn">⚔️ I: Burning Sword (360)</button>
-          <button class="btn btn-gold" id="btnActPower">🔥 K: SSJ Rage (250)</button>
-          <button class="btn" id="btnActGalick">💜 L: Galick Gun (380)</button>
-          <button class="btn" id="btnActFlash">⚡ O: Final Flash (480)</button>
-          <button class="btn btn-primary" id="btnActSpirit">🌟 P: Spirit Sword (800)</button>
+          <span id="arenaSkillButtons" style="display:inline-flex; gap:5px; flex-wrap:wrap;"></span>
         </div>
       </div>
       <div style="background:#080c14; border:1px solid var(--border); border-radius:8px; text-align:center; overflow:hidden;">
@@ -783,6 +777,8 @@
         const firstChar = bRes.roster.characters[0] || null;
         if (firstChar) {
           selectCharacter(firstChar.character_id);
+        } else {
+          renderEmptyStateUI();
         }
         initStressRenderer();
 
@@ -794,6 +790,31 @@
       } catch (err) {
         showRuntimeError('initApp', err);
       }
+    }
+
+    function renderEmptyStateUI() {
+      state.activeChar = null;
+      state.stepIdx = 0;
+      state.stepElapsedMs = 0;
+      state.selectedRect = null;
+      state.playing = false;
+
+      const [cw, chPx] = getCanvasSize(null);
+      ensureOffscreenSize(cw, chPx);
+      const z1 = document.getElementById('optZoom1');
+      const z2 = document.getElementById('optZoom2');
+      const z3 = document.getElementById('optZoom3');
+      if (z1) z1.textContent = `1× (${cw}×${chPx})`;
+      if (z2) z2.textContent = `2× (${cw * 2}×${chPx * 2} — Khuyên dùng)`;
+      if (z3) z3.textContent = `3× (${cw * 3}×${chPx * 3} — Soi chi tiết pixel)`;
+
+      document.getElementById('arenaCharLabel').textContent = 'Chưa có nhân vật';
+      renderRosterList();
+      renderCharMetricsAndWarnings();
+      syncClipChoices();
+      renderArenaControls();
+      updatePlayButtonUI();
+      updateAgentSpecText();
     }
 
     // =========================================================================
@@ -823,11 +844,18 @@
       renderRosterList();
       renderCharMetricsAndWarnings();
       syncClipChoices();
+      renderArenaControls();
       updatePlayButtonUI();
       updateAgentSpecText();
 
       if (stress.gl) {
         uploadStressCharacterTexture();
+      } else {
+        const info = getActiveCombinedAtlasInfo();
+        if (info && info.atlasImg) {
+          initStressRenderer();
+          return;
+        }
       }
       resetStressCount(stress.count);
     }
@@ -835,6 +863,13 @@
     function renderRosterList() {
       const allChars = state.api.roster.characters || [];
       document.getElementById('rosterCountBadge').textContent = `${allChars.length} Hoàn thiện`;
+
+      const listEl = document.getElementById('rosterList');
+      listEl.innerHTML = '';
+      if (allChars.length === 0) {
+        listEl.innerHTML = `<div style="padding:10px; color:var(--muted); font-size:11.5px; text-align:center;">Roster hiện đang trống (0 nhân vật).<br/>Gửi sheet/Atlas cho Agent để thiết lập nhân vật mới.</div>`;
+        return;
+      }
 
       const q = state.rosterSearch.trim().toLowerCase();
       const filtered = allChars.filter(ch => {
@@ -845,8 +880,6 @@
         return hay.includes(q);
       });
 
-      const listEl = document.getElementById('rosterList');
-      listEl.innerHTML = '';
       if (filtered.length === 0) {
         listEl.innerHTML = `<div style="padding:10px; color:var(--muted); font-size:11.5px; text-align:center;">Không có nhân vật nào khớp bộ lọc.</div>`;
         return;
@@ -910,13 +943,19 @@
       const badge = document.getElementById('parityBadge');
       if (p && p.ok) {
         badge.className = 'badge badge-ok';
-        badge.textContent = `✅ ĐỒNG BỘ 1:1 ENGINE ⇄ LOCALHOST (${p.checked_bundles} gói SHA-256 khớp tuyệt đối)`;
+        badge.textContent = p.checked_bundles === 0
+          ? '✅ ĐỒNG BỘ 1:1 ENGINE ⇄ LOCALHOST (0 gói — Roster trống, sẵn sàng nhận Atlas mới)'
+          : `✅ ĐỒNG BỘ 1:1 ENGINE ⇄ LOCALHOST (${p.checked_bundles} gói SHA-256 khớp tuyệt đối)`;
       } else {
         badge.className = 'badge badge-warn';
         badge.textContent = `⚠️ Cảnh báo đồng bộ: ${(p && p.errors.join('; ')) || 'Lỗi'}`;
       }
 
       const tbl = document.getElementById('parityTable');
+      if (!state.api.bundles || state.api.bundles.length === 0) {
+        tbl.innerHTML = '<tr><td><code>Roster rỗng (0 gói)</code></td><td>Đang chờ Atlas mới</td></tr>';
+        return;
+      }
       tbl.innerHTML = state.api.bundles.map(b => {
         const atlasHash = Object.values(b.sha256_atlases || {})[0] || '—';
         return `<tr><td><code>${b.id}</code> (1-Layer Atlas)</td><td>SHA:${atlasHash.slice(0, 12)}…</td></tr>`;
@@ -925,10 +964,21 @@
 
     function renderCharMetricsAndWarnings() {
       const ch = state.activeChar;
-      if (!ch) return;
-
       const warnEl = document.getElementById('completenessWarning');
       const okEl = document.getElementById('completenessOkBox');
+      if (!ch) {
+        warnEl.style.display = 'none';
+        if (okEl) {
+          okEl.style.display = 'block';
+          okEl.innerHTML = `ℹ️ <b>Roster đang trống (0 nhân vật)</b>: Chờ Owner gửi file Atlas gốc để bóc tách 1 lớp chuẩn Hiến pháp.`;
+        }
+        document.getElementById('metricsTable').innerHTML = `
+          <tr><td>Trạng thái Roster</td><td>0 nhân vật (Đang chờ Atlas)</td></tr>
+          <tr><td>Khung Canvas chuẩn mẫu</td><td>Bội số 16 (VD: 256×256, 320×256)</td></tr>
+          <tr><td>Kiến trúc bắt buộc</td><td>Combined 1-Layer (Nearest 1:1)</td></tr>
+        `;
+        return;
+      }
       if (ch.missing_provisional_clips && ch.missing_provisional_clips.length > 0) {
         warnEl.style.display = 'block';
         if (okEl) okEl.style.display = 'none';
@@ -1002,7 +1052,18 @@
 
     function syncClipChoices() {
       const b = getCharBundle();
-      if (!b) return;
+      const cntBadge = document.getElementById('clipCountBadge');
+      const listEl = document.getElementById('clipList');
+      const slider = document.getElementById('frameSlider');
+      if (!b || !state.activeChar) {
+        if (cntBadge) cntBadge.textContent = '0 clips';
+        listEl.innerHTML = '<span style="color:var(--muted); font-size:11.5px;">Chưa có clip hoạt ảnh nào.</span>';
+        document.getElementById('clipMetaInfo').textContent = 'Chưa có nhân vật đang chọn.';
+        slider.max = 0;
+        slider.value = 0;
+        document.getElementById('filmstrip').innerHTML = '';
+        return;
+      }
       const clipChoices = Object.keys(b.animations);
       const priority = [
         'power_up', 'aura_loop', 'idle', 'walk', 'run', 'jump', 'guard',
@@ -1019,10 +1080,8 @@
         state.activeClipName = clipChoices[0] || 'idle';
       }
 
-      const cntBadge = document.getElementById('clipCountBadge');
       if (cntBadge) cntBadge.textContent = `${clipChoices.length} clips`;
 
-      const listEl = document.getElementById('clipList');
       listEl.innerHTML = clipChoices.map(cname => `
         <button class="clip-chip ${cname === state.activeClipName ? 'active' : ''}" data-clip="${cname}">${cname}</button>
       `).join('');
@@ -1041,7 +1100,6 @@
       const tl = getActiveTimelineFrames();
       syncWasmTimelineDurations(tl.frames);
 
-      const slider = document.getElementById('frameSlider');
       slider.max = Math.max(0, tl.frames.length - 1);
       if (state.stepIdx >= tl.frames.length) state.stepIdx = 0;
       slider.value = state.stepIdx;
@@ -1172,7 +1230,7 @@
 
     function renderInspector() {
       const canvas = document.getElementById('inspectorCanvas');
-      if (!canvas || !state.activeChar) return;
+      if (!canvas) return;
       const [cw, ch] = getCanvasSize();
       ensureOffscreenSize(cw, ch);
       const z = state.zoom;
@@ -1187,7 +1245,9 @@
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       offCtx.clearRect(0, 0, cw, ch);
-      const activeLayers = drawCompositeStep(offCtx, state.activeClipName, state.stepIdx, 1.0, 1.0);
+      const activeLayers = state.activeChar
+        ? drawCompositeStep(offCtx, state.activeClipName, state.stepIdx, 1.0, 1.0)
+        : [];
 
       ctx.save();
       ctx.translate(RULER_PAD, RULER_PAD);
@@ -1234,31 +1294,39 @@
         }
       }
 
-      const m = state.activeChar.map_sync_metrics;
-      ctx.fillStyle = 'rgba(0,0,0,0.35)';
-      ctx.beginPath();
-      ctx.ellipse(m.foot_anchor_px[0] * z, m.foot_anchor_px[1] * z, 18 * z, 5 * z, 0, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.drawImage(offscreenCanvas, 0, 0, viewW, viewH);
-
-      if (state.showBBox) {
-        const bb = m.body_only_bbox_px;
-        const fb = m.full_fx_bbox_px || m.full_aura_shock_bbox_px;
-        ctx.strokeStyle = 'rgba(34, 197, 94, 0.65)';
-        ctx.setLineDash([4, 3]);
-        ctx.strokeRect(bb.x * z, bb.y * z, bb.w * z, bb.h * z);
-        ctx.strokeStyle = 'rgba(250, 204, 21, 0.45)';
-        ctx.strokeRect(fb.x * z, fb.y * z, fb.w * z, fb.h * z);
-        ctx.setLineDash([]);
-
-        const ax = m.foot_anchor_px[0] * z;
-        const ay = m.foot_anchor_px[1] * z;
-        ctx.strokeStyle = '#ef4444';
-        ctx.lineWidth = 1.5;
+      if (!state.activeChar) {
+        ctx.fillStyle = state.bgMode === 'light' ? '#334155' : '#94a3b8';
+        ctx.font = 'bold 14px sans-serif';
+        ctx.fillText('Roster đang trống (0 nhân vật)', Math.max(20, viewW * 0.5 - 110), viewH * 0.5 - 10);
+        ctx.font = '12px sans-serif';
+        ctx.fillText('Gửi file sheet/Atlas cho Agent để setup nhân vật mới', Math.max(20, viewW * 0.5 - 155), viewH * 0.5 + 14);
+      } else {
+        const m = state.activeChar.map_sync_metrics;
+        ctx.fillStyle = 'rgba(0,0,0,0.35)';
         ctx.beginPath();
-        ctx.moveTo(ax - 8, ay); ctx.lineTo(ax + 8, ay);
-        ctx.moveTo(ax, ay - 8); ctx.lineTo(ax, ay + 8);
-        ctx.stroke();
+        ctx.ellipse(m.foot_anchor_px[0] * z, m.foot_anchor_px[1] * z, 18 * z, 5 * z, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.drawImage(offscreenCanvas, 0, 0, viewW, viewH);
+
+        if (state.showBBox) {
+          const bb = m.body_only_bbox_px;
+          const fb = m.full_fx_bbox_px || m.full_aura_shock_bbox_px;
+          ctx.strokeStyle = 'rgba(34, 197, 94, 0.65)';
+          ctx.setLineDash([4, 3]);
+          ctx.strokeRect(bb.x * z, bb.y * z, bb.w * z, bb.h * z);
+          ctx.strokeStyle = 'rgba(250, 204, 21, 0.45)';
+          ctx.strokeRect(fb.x * z, fb.y * z, fb.w * z, fb.h * z);
+          ctx.setLineDash([]);
+
+          const ax = m.foot_anchor_px[0] * z;
+          const ay = m.foot_anchor_px[1] * z;
+          ctx.strokeStyle = '#ef4444';
+          ctx.lineWidth = 1.5;
+          ctx.beginPath();
+          ctx.moveTo(ax - 8, ay); ctx.lineTo(ax + 8, ay);
+          ctx.moveTo(ax, ay - 8); ctx.lineTo(ax, ay + 8);
+          ctx.stroke();
+        }
       }
 
       if (state.selectedRect) {
@@ -1316,12 +1384,19 @@
           `Step: ${state.stepIdx} / ${Math.max(0, tl.frames.length - 1)} (${topLayer.frame.sub_id} • ${topLayer.frame.duration_ms}ms • ${state.stepperEngine === 'rust_wasm' ? 'Rust WASM' : 'Godot Spec'})`;
         document.getElementById('scrubberRegion').textContent =
           `Atlas Rect2(${topLayer.frame.x}, ${topLayer.frame.y}, ${topLayer.frame.w}, ${topLayer.frame.h})`;
+      } else {
+        document.getElementById('scrubberLabel').textContent = 'Step: 0 / 0 (Chưa có nhân vật)';
+        document.getElementById('scrubberRegion').textContent = 'Atlas Region: —';
       }
     }
 
     function updateAgentSpecText() {
       const ch = state.activeChar;
-      if (!ch) return;
+      if (!ch) {
+        document.getElementById('txtAgentSpec').value =
+          '[DR7-EDIT-SPEC]\n- Trạng thái: Roster đang trống (0 nhân vật).\n- Hướng dẫn: Gửi file sheet/Atlas cho Agent để setup nhân vật mới.';
+        return;
+      }
       const [cw, chPx] = getCanvasSize(ch);
       const tagLabels = {
         CHINH_NET: 'CHỈNH NÉT / TĂNG CHI TIẾT PIXEL',
@@ -1381,7 +1456,7 @@
       const b = getCharBundle();
       if (!b) return null;
       // Combine energetic combat & aura frames for lively 2,000-fighter clashes!
-      const clipPool = ['aura_loop', 'sword_combo', 'walk'];
+      const clipPool = ['aura_loop', 'attack_light', 'walk'];
       let frames = [];
       for (const cname of clipPool) {
         if (b.animations[cname]) {
@@ -1396,10 +1471,17 @@
     }
 
     function initStressRenderer() {
-      const info = getActiveCombinedAtlasInfo();
-      if (!info || !info.atlasImg) return;
-
       const canvas = document.getElementById('stressCanvas');
+      const info = getActiveCombinedAtlasInfo();
+      if (!info || !info.atlasImg) {
+        stress.gl = null;
+        stress.ctx2d = canvas.getContext('2d');
+        const badge = document.getElementById('wasmRendererBadge');
+        if (badge) badge.textContent = '🦀 Rust WASM + Canvas2D (Chế độ Roster trống)';
+        resetStressCount(stress.count);
+        return;
+      }
+
       const gl = canvas.getContext('webgl2', { antialias: false, alpha: false });
       if (gl) {
         stress.gl = gl;
@@ -1409,7 +1491,7 @@
         stress.ctx2d = canvas.getContext('2d');
         document.getElementById('wasmRendererBadge').textContent = '🦀 Rust WASM + Canvas2D Batch';
       }
-      resetStressCount(2000);
+      resetStressCount(stress.count);
     }
 
     function uploadStressCharacterTexture() {
@@ -1424,7 +1506,13 @@
       stress.count = n;
       if (!state.wasmExports) return;
       const info = getActiveCombinedAtlasInfo();
-      if (!info || !info.atlasImg) return;
+      if (!info || !info.atlasImg) {
+        state.wasmExports.wasm_init_world(n, 8);
+        for (let idx = 0; idx < 8; idx++) {
+          state.wasmExports.wasm_set_frame_uv(idx, (idx % 4) * 0.25, Math.floor(idx / 4) * 0.5, 0.25, 0.5, 83.33);
+        }
+        return;
+      }
       const aw = info.atlasImg.naturalWidth, ah = info.atlasImg.naturalHeight;
       state.wasmExports.wasm_init_world(n, info.frames.length);
       info.frames.forEach((f, idx) => {
@@ -1527,7 +1615,7 @@
       document.getElementById('kpiAoI').textContent = `${aoiCount} user (${kbps} kbps)`;
 
       const [cellW, cellH] = getCanvasSize();
-      const anc = (state.activeChar && state.activeChar.map_sync_metrics.foot_anchor_px) || [96, 220];
+      const anc = (state.activeChar && state.activeChar.map_sync_metrics && state.activeChar.map_sync_metrics.foot_anchor_px) || [96, 220];
       const normAx = anc[0] / cellW;
       const normAy = anc[1] / cellH;
       const quadH = 112.0;
@@ -1565,6 +1653,16 @@
             const uw = floats[base + 4] * aw, vh = floats[base + 5] * ah;
             ctx.drawImage(info.atlasImg, u, v, uw, vh, sx - dw * normAx, sy - dh * normAy, dw, dh);
           }
+        } else {
+          for (let i = 0; i < stress.count; i++) {
+            const base = i * 8;
+            const sx = (floats[base] / 2400) * cw;
+            const sy = (floats[base + 1] / 1350) * ch;
+            const facing = floats[base + 6];
+            const flash = floats[base + 7];
+            ctx.fillStyle = flash > 0.2 ? '#ffffff' : (facing >= 0 ? '#38bdf8' : '#facc15');
+            ctx.fillRect(sx - 2, sy - 4, 4, 6);
+          }
         }
       }
     }
@@ -1600,25 +1698,61 @@
     }
 
     // =========================================================================
-    // TAB 3: PLAYABLE 2D GAMEPLAY SANDBOX (FULL LOCOMOTION + COMBAT SKILLS)
+    // TAB 3: PLAYABLE 2D GAMEPLAY SANDBOX (FULL LOCOMOTION + DYNAMIC SKILLS)
     // =========================================================================
     const SKILL_SPECS = {
-      attack_light: { dmg: 120, range: 170, label: '-120 MELEE COMBO!', shake: 5 },
+      attack_light: { dmg: 120, range: 170, label: '-120 LIGHT ATTACK!', shake: 5 },
       attack_heavy: { dmg: 220, range: 185, label: '-220 HEAVY SMASH!', shake: 7 },
-      sword_combo:  { dmg: 320, range: 230, label: '-320 SHINING SWORD!', shake: 9 },
-      burning_sword:{ dmg: 360, range: 240, label: '-360 BURNING SLASH!', shake: 10 },
-      power_up:     { dmg: 250, range: 380, label: '-250 SSJ RAGE BURST!', shake: 12 },
-      galick_gun:   { dmg: 380, range: 460, label: '-380 GALICK GUN!', shake: 11 },
-      final_flash:  { dmg: 480, range: 520, label: '-480 FINAL FLASH!', shake: 14 },
-      ultimate_spirit_sword: { dmg: 800, range: 520, label: '-800 SWORD OF HOPE!', shake: 16 },
+      power_up:     { dmg: 250, range: 380, label: '-250 POWER SURGE!', shake: 12 },
+      ki_blast:     { dmg: 280, range: 440, label: '-280 KI BLAST!', shake: 10 },
     };
+
+    const ARENA_HOTKEYS = [
+      { code: 'KeyJ', key: 'J' },
+      { code: 'KeyU', key: 'U' },
+      { code: 'KeyI', key: 'I' },
+      { code: 'KeyK', key: 'K' },
+      { code: 'KeyL', key: 'L' },
+      { code: 'KeyO', key: 'O' },
+      { code: 'KeyP', key: 'P' },
+    ];
+    let arenaHotkeyClips = {};
+
+    function renderArenaControls() {
+      const container = document.getElementById('arenaSkillButtons');
+      if (!container) return;
+      container.innerHTML = '';
+      arenaHotkeyClips = {};
+      const b = getCharBundle();
+      if (!state.activeChar || !b) {
+        const msg = document.createElement('span');
+        msg.style.color = 'var(--muted)';
+        msg.style.fontSize = '11.5px';
+        msg.textContent = 'Chờ nhân vật mới để kích hoạt kỹ năng';
+        container.appendChild(msg);
+        return;
+      }
+      const passive = new Set(['idle', 'walk', 'run', 'jump', 'guard', 'aura_loop', 'hit', 'ko', 'win']);
+      const skillNames = Object.keys(b.animations).filter(n => !passive.has(n));
+      skillNames.slice(0, ARENA_HOTKEYS.length).forEach((clipName, idx) => {
+        const hk = ARENA_HOTKEYS[idx];
+        arenaHotkeyClips[hk.code] = clipName;
+        const sp = SKILL_SPECS[clipName] || { dmg: 350 };
+        const btn = document.createElement('button');
+        btn.className = idx === skillNames.length - 1 ? 'btn btn-primary' : 'btn';
+        btn.dataset.clip = clipName;
+        btn.textContent = `${hk.key}: ${clipName} (${sp.dmg})`;
+        btn.onclick = () => triggerArenaAction(clipName);
+        container.appendChild(btn);
+      });
+    }
 
     const arena = {
       x: 280, y: 396, groundY: 396, vy: 0,
-      flip: false,
       rageMode: true,
+      flip: false,
       actionClip: null,
-      clip: 'aura_loop',
+      clip: 'idle',
       step: 0,
       elapsed: 0,
       shake: 0,
@@ -1645,21 +1779,24 @@
       if (clipName === 'power_up') {
         arena.rageMode = true;
       }
-      const sp = SKILL_SPECS[clipName];
-      if (sp) {
-        arena.shake = sp.shake;
-        arena.hitstop = 45;
-        const dist = Math.abs(arena.x - arena.dummyX);
-        const facingDummy = arena.x <= arena.dummyX ? !arena.flip : arena.flip;
-        if (dist <= sp.range && (clipName === 'power_up' || facingDummy)) {
-          arena.dummyHp = arena.dummyHp <= sp.dmg ? arena.dummyMaxHp : arena.dummyHp - sp.dmg;
-          arena.dummyFlash = 1.0;
-          arena.dummyClip = b.animations['hit'] ? 'hit' : 'idle';
-          arena.dummyStep = 0;
-          arena.popups.push({ x: arena.dummyX, y: arena.groundY - 165, text: sp.label, life: 950 });
-        } else {
-          arena.popups.push({ x: arena.x, y: arena.y - 165, text: clipName.toUpperCase() + '!', life: 700 });
-        }
+      const sp = SKILL_SPECS[clipName] || {
+        dmg: 350,
+        range: 380,
+        label: `-350 ${clipName.toUpperCase()}!`,
+        shake: 11,
+      };
+      arena.shake = sp.shake;
+      arena.hitstop = 45;
+      const dist = Math.abs(arena.x - arena.dummyX);
+      const facingDummy = arena.x <= arena.dummyX ? !arena.flip : arena.flip;
+      if (dist <= sp.range && (clipName === 'power_up' || facingDummy)) {
+        arena.dummyHp = arena.dummyHp <= sp.dmg ? arena.dummyMaxHp : arena.dummyHp - sp.dmg;
+        arena.dummyFlash = 1.0;
+        arena.dummyClip = b.animations['hit'] ? 'hit' : 'idle';
+        arena.dummyStep = 0;
+        arena.popups.push({ x: arena.dummyX, y: arena.groundY - 165, text: sp.label, life: 950 });
+      } else {
+        arena.popups.push({ x: arena.x, y: arena.y - 165, text: clipName.toUpperCase() + '!', life: 700 });
       }
     }
 
@@ -1677,11 +1814,41 @@
 
     function stepAndRenderArena(dtMs) {
       const canvas = document.getElementById('arenaCanvas');
-      if (!canvas || !state.activeChar) return;
-      const b = getCharBundle();
-      if (!b) return;
+      if (!canvas) return;
       const ctx = canvas.getContext('2d');
       ctx.imageSmoothingEnabled = false;
+
+      const drawStageBackdrop = () => {
+        const g = ctx.createLinearGradient(0, 0, 0, canvas.height);
+        g.addColorStop(0, '#0a192f');
+        g.addColorStop(0.74, '#155e75');
+        g.addColorStop(0.76, '#365314');
+        g.addColorStop(1, '#1a2e05');
+        ctx.fillStyle = g;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        ctx.strokeStyle = 'rgba(255,255,255,0.08)';
+        for (let gx = 0; gx < canvas.width; gx += 64) {
+          ctx.beginPath(); ctx.moveTo(gx, 355); ctx.lineTo(gx, canvas.height); ctx.stroke();
+        }
+      };
+
+      const b = getCharBundle();
+      if (!state.activeChar || !b) {
+        drawStageBackdrop();
+        ctx.fillStyle = 'rgba(11,14,23,0.78)';
+        ctx.fillRect(10, 10, 680, 26);
+        ctx.fillStyle = '#e6ecff';
+        ctx.font = '12px monospace';
+        ctx.fillText('Nhân vật: Chưa có nhân vật (Roster rỗng) | Sẵn sàng nhận Atlas mới', 18, 27);
+        ctx.fillStyle = '#e2e8f0';
+        ctx.font = 'bold 16px sans-serif';
+        ctx.fillText('Chưa có nhân vật nào trong Roster (0 nhân vật)', canvas.width * 0.5 - 175, canvas.height * 0.45);
+        ctx.fillStyle = '#94a3b8';
+        ctx.font = '13px sans-serif';
+        ctx.fillText('Sân tập thực chiến sẽ tự động kích hoạt khi có nhân vật đầu tiên.', canvas.width * 0.5 - 195, canvas.height * 0.45 + 26);
+        return;
+      }
 
       if (arena.hitstop > 0) {
         arena.hitstop -= dtMs;
@@ -1747,18 +1914,7 @@
         return p.life > 0;
       });
 
-      const g = ctx.createLinearGradient(0, 0, 0, canvas.height);
-      g.addColorStop(0, '#0a192f');
-      g.addColorStop(0.74, '#155e75');
-      g.addColorStop(0.76, '#365314');
-      g.addColorStop(1, '#1a2e05');
-      ctx.fillStyle = g;
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-      ctx.strokeStyle = 'rgba(255,255,255,0.08)';
-      for (let gx = 0; gx < canvas.width; gx += 64) {
-        ctx.beginPath(); ctx.moveTo(gx, 355); ctx.lineTo(gx, canvas.height); ctx.stroke();
-      }
+      drawStageBackdrop();
 
       ctx.save();
       if (arena.shake > 0) {
@@ -1886,6 +2042,7 @@
 
       document.getElementById('btnPlayPause').onclick = () => {
         const tl = getActiveTimelineFrames();
+        if (!tl.frames.length) return;
         if (!state.playing) {
           if (state.stepIdx >= tl.frames.length - 1) {
             state.stepIdx = 0;
@@ -1944,6 +2101,7 @@
       };
 
       canvas.addEventListener('mousedown', ev => {
+        if (!state.activeChar) return;
         const p = toCanvasCoords(ev);
         state.dragStart = p;
         state.selectedRect = { x: p.x, y: p.y, w: 1, h: 1 };
@@ -2020,13 +2178,6 @@
       bindHold('btnMoveLeft', 'holdLeft');
       bindHold('btnMoveRight', 'holdRight');
       document.getElementById('btnJump').onclick = triggerArenaJump;
-      document.getElementById('btnActLight').onclick = () => triggerArenaAction('attack_light');
-      document.getElementById('btnActSword').onclick = () => triggerArenaAction('sword_combo');
-      document.getElementById('btnActBurn').onclick = () => triggerArenaAction('burning_sword');
-      document.getElementById('btnActPower').onclick = () => triggerArenaAction('power_up');
-      document.getElementById('btnActGalick').onclick = () => triggerArenaAction('galick_gun');
-      document.getElementById('btnActFlash').onclick = () => triggerArenaAction('final_flash');
-      document.getElementById('btnActSpirit').onclick = () => triggerArenaAction('ultimate_spirit_sword');
 
       window.addEventListener('keydown', ev => {
         arena.keys[ev.code] = true;
@@ -2039,20 +2190,8 @@
           triggerArenaJump();
         } else if (ev.code === 'KeyE') {
           arena.rageMode = !arena.rageMode;
-        } else if (ev.code === 'KeyJ') {
-          triggerArenaAction('attack_light');
-        } else if (ev.code === 'KeyU') {
-          triggerArenaAction('sword_combo');
-        } else if (ev.code === 'KeyI') {
-          triggerArenaAction('burning_sword');
-        } else if (ev.code === 'KeyK') {
-          triggerArenaAction('power_up');
-        } else if (ev.code === 'KeyL') {
-          triggerArenaAction('galick_gun');
-        } else if (ev.code === 'KeyO') {
-          triggerArenaAction('final_flash');
-        } else if (ev.code === 'KeyP') {
-          triggerArenaAction('ultimate_spirit_sword');
+        } else if (arenaHotkeyClips[ev.code]) {
+          triggerArenaAction(arenaHotkeyClips[ev.code]);
         }
       });
       window.addEventListener('keyup', ev => { arena.keys[ev.code] = false; });

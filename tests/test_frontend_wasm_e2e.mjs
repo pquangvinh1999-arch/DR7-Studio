@@ -15,7 +15,12 @@ const scriptMatch = html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(scriptMatch, 'index.html must contain inline <script>');
 const jsCode = scriptMatch[1];
 
-// 1. Ensure ZERO hardcoded character bundle IDs & ZERO deprecated 3-layer mode in JS
+// 1. Ensure ZERO hardcoded character bundle IDs, Trunks placeholders, or deprecated 3-layer mode in HTML/JS
+assert.equal(
+  html.toLowerCase().includes('trunks'),
+  false,
+  'Frontend HTML/JS must NOT contain deleted Trunks placeholders!'
+);
 assert.equal(
   jsCode.includes('songoku_ssj'),
   false,
@@ -192,20 +197,120 @@ await new Promise(r => setTimeout(r, 60));
 const T = sandbox.__TEST__;
 
 assert.equal(getEl('runtimeErrorBanner').textContent, '', 'initApp must produce ZERO runtime errors');
-assert.equal(T.state.activeChar.character_id, 'trunks_rage');
+
+// Phase A: Empty Roster (0 characters) verification on real /api/bundles
+if (apiPayload.roster.characters.length === 0) {
+  assert.equal(T.state.activeChar, null, 'Empty roster must start with activeChar = null');
+  assert.equal(getEl('rosterCountBadge').textContent, '0 Hoàn thiện');
+  assert.equal(getEl('clipCountBadge').textContent, '0 clips');
+  assert.equal(getEl('arenaCharLabel').textContent, 'Chưa có nhân vật');
+
+  tabStressBtn.click();
+  assert.equal(T.state.activeTab, 'tab-stress');
+  for (let i = 0; i < 5; i++) {
+    T.stepAndRenderStressArena(16.67);
+  }
+  assert.equal(getEl('runtimeErrorBanner').textContent, '', 'Tab 2 Stress Test with 0 characters must have ZERO runtime errors');
+  assert.ok(getEl('stressCanvas')._ctx2d._drawCalls > 2000, 'Tab 2 Stress Canvas must draw all 2,000 Rust WASM entities even when roster is empty');
+  assert.match(getEl('kpiAoI').textContent, /\d+ user \(\d+ kbps\)/, 'Tab 2 AoI KPI must report live user count & kbps');
+
+  tabArenaBtn.click();
+  T.stepAndRenderArena(16.67);
+  assert.equal(getEl('runtimeErrorBanner').textContent, '', 'Tab 3 Arena with 0 characters must have ZERO runtime errors');
+  tabHumanBtn.click();
+}
+
+// Phase B: Inject synthetic 1-Layer Combined characters to verify dynamic multi-character pipeline
+const makeMockBundle = (id, cw, ch) => {
+  const mkFrames = (n, dur = 60.0) => Array.from({ length: n }, (_, idx) => ({
+    sub_id: `${id}_f${idx}`,
+    duration_ticks: 4,
+    duration_ms: dur,
+    atlas_file: `${id}-atlas-00.png`,
+    atlas_url: `/assets/${id}/godot_bundle/godot/${id}-atlas-00.png`,
+    x: idx * cw,
+    y: 0,
+    w: cw,
+    h: ch,
+  }));
+  return {
+    id,
+    name: id,
+    frame_size: [cw, ch],
+    anchor_px: [96, 220],
+    sha256_tres: '0'.repeat(64),
+    sha256_atlases: { [`${id}-atlas-00.png`]: 'a'.repeat(64) },
+    animations: {
+      idle: { name: 'idle', loop: true, speed_hz: 60.0, frames: mkFrames(1, 500.0) },
+      aura_loop: { name: 'aura_loop', loop: true, speed_hz: 60.0, frames: mkFrames(4, 83.33) },
+      power_up: { name: 'power_up', loop: false, speed_hz: 60.0, frames: mkFrames(4, 60.0) },
+      attack_light: { name: 'attack_light', loop: false, speed_hz: 60.0, frames: mkFrames(4, 60.0) },
+      hit: { name: 'hit', loop: false, speed_hz: 60.0, frames: mkFrames(2, 83.33) },
+    },
+  };
+};
+
+const makeMockChar = (id, name, cw, ch) => ({
+  character_id: id,
+  display_name: name,
+  faction: 'z_fighters',
+  role_label: 'Synthetic 1-Layer Test Fighter',
+  tags: ['test'],
+  status: 'finalized_ready_for_human_test',
+  map_sync_metrics: {
+    canvas_size_px: [cw, ch],
+    foot_anchor_px: [96, 220],
+    body_only_bbox_px: { x: 80, y: 160, w: 32, h: 60 },
+    full_fx_bbox_px: { x: 20, y: 50, w: 240, h: 180 },
+    world_size_at_64ppu_m: { body_w_m: 0.5, body_h_m: 0.94, aura_w_m: 3.75, aura_h_m: 2.81 },
+    tile_32px_span: { body_tiles_w: 1.0, body_tiles_h: 1.88, full_fx_tiles_w: 7.5, full_fx_tiles_h: 5.63 },
+  },
+  pixel_sharpness_metrics: {
+    texel_scale_ratio: '1:1 Nearest',
+    edge_acutance_sobel: 380.0,
+    alpha_hardness_pct: 100.0,
+    opaque_key_px: 0,
+    enclosed_key_pockets: 0,
+    outer_ring_spill_fraction: 0.0,
+  },
+  present_clips: ['idle', 'aura_loop', 'power_up', 'attack_light', 'hit'],
+  missing_provisional_clips: [],
+  modes: {
+    combined_1layer: {
+      label: 'Combined 1-Layer',
+      godot_prefab: `res://scenes/${id}.tscn`,
+      bundle_id: id,
+    },
+  },
+});
+
+const b1 = makeMockBundle('hero_alpha_test', 288, 256);
+const b2 = makeMockBundle('hero_beta_test', 320, 256);
+T.state.bundlesById[b1.id] = b1;
+T.state.bundlesById[b2.id] = b2;
+T.state.images[`/assets/${b1.id}/godot_bundle/godot/${b1.id}-atlas-00.png`] = new sandbox.Image();
+T.state.images[`/assets/${b2.id}/godot_bundle/godot/${b2.id}-atlas-00.png`] = new sandbox.Image();
+T.state.api.roster.characters.push(
+  makeMockChar('hero_alpha_test', 'Hero Alpha (Test)', 288, 256),
+  makeMockChar('hero_beta_test', 'Hero Beta (Test)', 320, 256),
+);
+
+T.selectCharacter('hero_alpha_test');
+T.renderInspector();
+assert.equal(T.state.activeChar.character_id, 'hero_alpha_test');
 assert.equal(T.state.archMode, 'combined_1layer');
-assert.deepEqual(Array.from(T.getCanvasSize()), [320, 256], 'Inspector must dynamically adopt 320x256 canvas from roster.json');
-assert.equal(getEl('inspectorCanvas').width, 320 * 2 + 28, 'Inspector canvas at 2x zoom must be 668px wide');
+assert.deepEqual(Array.from(T.getCanvasSize()), [288, 256], 'Inspector must dynamically adopt 288x256 canvas from roster.json');
+assert.equal(getEl('inspectorCanvas').width, 288 * 2 + 28, 'Inspector canvas at 2x zoom must be 604px wide');
 assert.equal(getEl('inspectorCanvas').height, 256 * 2 + 28, 'Inspector canvas at 2x zoom must be 540px high');
 
-// Test 1: Play a oneshot clip ('power_up', 12 frames) with autoReplayOneshot = false until it stops, then click Play!
+// Test 1: Play a oneshot clip ('power_up', 4 frames) with autoReplayOneshot = false until it stops, then click Play!
 T.state.activeClipName = 'power_up';
 T.state.autoReplayOneshot = false;
 T.state.stepIdx = 0;
 T.state.stepElapsedMs = 0;
 T.state.playing = true;
 
-for (let i = 0; i < 40; i++) {
+for (let i = 0; i < 20; i++) {
   T.stepInspectorAnimation(60.0);
 }
 assert.equal(T.state.playing, false, 'Oneshot clip with autoReplay=false must pause cleanly at final frame');
@@ -217,37 +322,43 @@ assert.equal(T.state.stepIdx, 0, 'Clicking Play after oneshot ends MUST rewind s
 T.stepInspectorAnimation(120.0);
 assert.ok(T.state.stepIdx >= 1, 'Animation must advance past frame 0 after clicking Play');
 
-// Test 2: Switch to Tab 2 (>2,000 User Stress Test) & verify draws + AoI telemetry + zero crash!
+// Test 2: Switch to Tab 2 (>2,000 User Stress Test) with character texture & verify draws + AoI telemetry
 tabStressBtn.click();
 assert.equal(T.state.activeTab, 'tab-stress');
 for (let i = 0; i < 5; i++) {
   T.stepAndRenderStressArena(16.67);
 }
 assert.equal(getEl('runtimeErrorBanner').textContent, '', 'Tab 2 Stress Test must run with ZERO runtime errors');
-assert.ok(getEl('stressCanvas')._ctx2d._drawCalls > 2000, 'Tab 2 Stress Canvas must draw all 2,000 Trunks fighters');
+assert.ok(getEl('stressCanvas')._ctx2d._drawCalls > 2000, 'Tab 2 Stress Canvas must draw all 2,000 fighters');
 assert.match(getEl('kpiAoI').textContent, /\d+ user \(\d+ kbps\)/, 'Tab 2 AoI KPI must report live user count & kbps');
 
-// Test 3: Switch to Tab 3 (Sân Tập Gameplay) & verify Ultimate Spirit Sword deals 800 DMG to sparring dummy!
+// Test 3: Switch to Tab 3 (Sân Tập Gameplay) & verify dynamic skill buttons deal DMG to sparring dummy!
 tabArenaBtn.click();
 assert.equal(T.state.activeTab, 'tab-arena');
 const hpBefore = T.arena.dummyHp;
-getEl('btnActSpirit').click();
+const burstBtn = getEl('arenaSkillButtons').children.find(b => b.dataset.clip === 'power_up');
+assert.ok(burstBtn, 'Tab 3 must dynamically render power_up skill button');
+burstBtn.click();
+for (let i = 0; i < 6; i++) {
+  T.stepAndRenderArena(20.0);
+}
+assert.equal(T.arena.dummyHp, hpBefore - 250, 'power_up in Tab 3 must deal 250 DMG to dummy');
+
+T.arena.x = 520;
+const atkBtn = getEl('arenaSkillButtons').children.find(b => b.dataset.clip === 'attack_light');
+assert.ok(atkBtn, 'Tab 3 must dynamically render attack_light skill button');
+atkBtn.click();
 for (let i = 0; i < 6; i++) {
   T.stepAndRenderArena(20.0);
 }
 assert.equal(getEl('runtimeErrorBanner').textContent, '', 'Tab 3 Gameplay Arena must run with ZERO runtime errors');
-assert.equal(T.arena.dummyHp, hpBefore - 800, 'Ultimate Spirit Sword in Tab 3 must deal 800 DMG to dummy');
+assert.equal(T.arena.dummyHp, hpBefore - 250 - 120, 'attack_light at melee range in Tab 3 must deal 120 DMG to dummy');
 assert.ok(getEl('arenaCanvas')._ctx2d._drawCalls > 10, 'Tab 3 Arena Canvas must actively draw stage, dummy, and player');
 
-// Test 4: Verify N-Character Roster Scalability (inject 2nd character with custom 288x256 canvas & switch to it!)
-const mockChar2 = structuredClone(T.state.api.roster.characters[0]);
-mockChar2.character_id = 'vegeta_blue_test_scale';
-mockChar2.display_name = 'Vegeta (SSGSS — Test Scale)';
-mockChar2.map_sync_metrics.canvas_size_px = [288, 256];
-T.state.api.roster.characters.push(mockChar2);
-T.selectCharacter('vegeta_blue_test_scale');
-assert.equal(T.state.activeChar.character_id, 'vegeta_blue_test_scale');
-assert.deepEqual(Array.from(T.getCanvasSize()), [288, 256]);
+// Test 4: Switch to 2nd character & verify dynamic canvas resize + roster list count
+T.selectCharacter('hero_beta_test');
+assert.equal(T.state.activeChar.character_id, 'hero_beta_test');
+assert.deepEqual(Array.from(T.getCanvasSize()), [320, 256]);
 assert.equal(getEl('rosterList').children.length, 2, 'Roster list must render all N finalized characters');
 
-console.log('[OK] Frontend E2E + Rust WASM + 3-Tab Dynamic Canvas + Trunks 20-Clip Combat PASSED 100%!');
+console.log('[OK] Frontend E2E + Rust WASM + 3-Tab Dynamic Canvas (Empty Roster + Multi-Character) PASSED 100%!');

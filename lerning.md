@@ -83,4 +83,16 @@
   2. Hợp nhất cánh sét đôi `R07[3] + R07[4]` cho `aura_loop`, đồng thời dùng `composite_fx_ahead()` ghép liền mạch tia nổ `ki_blast`, chém chữ X `burning_sword` và cột kiếm khí `ultimate_spirit_sword` ngay trước mũi kiếm/bàn tay Trunks trên khung `320×256` (`Combined 1-Layer`), kiểm chứng trực quan 20/20 `filmstrip-*.png`.
   3. Chuẩn hoá mảng qua `Array.from(T.getCanvasSize())` trước khi `assert.deepEqual` khi kiểm thử code chạy trong `vm.runInContext`, đồng thời thêm khóa tự đồng bộ `_lastWasmClipKey` ngay đầu `stepInspectorAnimation()` trong `tools/preview/index.html` để `wasm_clip_set_len` luôn khớp số frame của clip đang phát.
 
+### [LRN-008] Hỗ trợ Roster rỗng (`0` nhân vật), lỗi suy luận kiểu `Variant` trong Godot 4.7.2 GDScript & DOM `appendChild` trong Node VM E2E Test
+- **Bối cảnh**: Xoá sạch nhân vật `trunks_rage` (`assets/trunks_rage/`, `scenes/Trunks_Rage.tscn`, `tools/pipeline/build_trunks_rage.py`, placeholder trong `index.html`/`server.py`/`main.rs`) để đưa dự án về trạng thái sạch `0` nhân vật sẵn sàng nhận Atlas mới, và chạy lại toàn bộ kiểm định engine.
+- **Triệu chứng lỗi**:
+  1. Khi chạy độc lập `./tools/godot/godot --headless --path . --script res://tests/bench_godot_2000.gd`, Godot 4.7.2 báo lỗi biên dịch: `Parse Error: The variable type is being inferred from a Variant value, so it will be typed as Variant. (Warning treated as error.)` tại biểu thức ternary `var anim := &"aura_loop" if ... else sf.get_animation_names()[0]`.
+  2. Ở Tab 3 (`Sân Tập`) khi thay thế các nút chiêu thức tĩnh của Trunks bằng `renderArenaControls()` sinh nút động từ `roster.json`, nếu dùng chuỗi `.innerHTML` + `querySelectorAll` sẽ không tạo nút bấm được trong sandbox `MockElement` của `tests/test_frontend_wasm_e2e.mjs` (vì `MockElement` lưu node qua `appendChild` / `children` và không parse HTML string); ngoài ra kiểm thử đánh cận chiến `attack_light` (`range = 170`) ở khoảng cách mặc định `360px` sẽ đánh trượt bù nhìn nếu không di chuyển nhân vật vào tầm đánh.
+- **Nguyên nhân gốc**:
+  1. Godot 4 coi kết quả ternary giữa `StringName` (`&"aura_loop"`) và phần tử lấy từ `PackedStringArray` (`String`) là kiểu hỗn hợp `Variant`, kích hoạt warning-as-error khi dùng toán tử `:=`.
+  2. Môi trường kiểm thử headless Node `vm` giả lập DOM tối giản qua `document.createElement` + `appendChild`.
+- **Cách sửa đã kiểm chứng**:
+  1. Khai báo kiểu tường minh trong `tests/bench_godot_2000.gd`: `var anim: StringName = &"aura_loop" if sf.has_animation(&"aura_loop") else StringName(sf.get_animation_names()[0])`, đồng thời chuẩn bị sẵn `SpriteFrames` rỗng trong bộ nhớ khi `roster.json` có `0` nhân vật.
+  2. Tạo các nút chiêu thức động ở `#arenaSkillButtons` trong `tools/preview/index.html` hoàn toàn bằng `document.createElement('button')` + `appendChild()`, và đặt lại vị trí nhân vật vào tầm cận chiến (`dist = 120 <= 170`) khi test `attack_light` trong `tests/test_frontend_wasm_e2e.mjs`.
+
 <!-- LERNING_ENTRIES_END -->

@@ -60,11 +60,17 @@ class GovernanceAndPreviewTests(unittest.TestCase):
     def test_old_test_characters_completely_purged(self) -> None:
         assets_dir = REPO_ROOT / "assets"
         scenes_dir = REPO_ROOT / "scenes"
+        tools_dir = REPO_ROOT / "tools"
         for p in list(assets_dir.rglob("*")) + list(scenes_dir.rglob("*")):
             low = p.name.lower()
             self.assertNotIn("songoku", low, f"Old Son Goku test asset must be deleted: {p}")
             self.assertNotIn("sphere_of_destruction", low, f"Old purple test asset must be deleted: {p}")
             self.assertNotIn("modularauracharacter", low, f"Deprecated 3-layer rig script must be deleted: {p}")
+            self.assertNotIn("trunks", low, f"Deleted Trunks asset/scene must not remain: {p}")
+        self.assertFalse(
+            (tools_dir / "pipeline" / "build_trunks_rage.py").exists(),
+            "Deleted Trunks extraction script must not remain",
+        )
 
     def test_skills_md_remains_empty_until_owner_approval_and_lerning_md_populated(self) -> None:
         skills_txt = (REPO_ROOT / "skills.md").read_text(encoding="utf-8")
@@ -89,29 +95,31 @@ class GovernanceAndPreviewTests(unittest.TestCase):
         cargo_txt = (REPO_ROOT / "engines" / "rust_combat_sim" / "Cargo.toml").read_text(encoding="utf-8")
         self.assertIn(f'version = "{ver}"', cargo_txt)
 
-    def test_engine_localhost_zero_drift_parity_and_trunks_rage_metrics(self) -> None:
+    def test_engine_localhost_zero_drift_parity_and_dynamic_roster(self) -> None:
         parity = preview_server.verify_engine_localhost_parity()
         self.assertTrue(parity["ok"], msg=f"Parity errors: {parity['errors']}")
-        self.assertEqual(parity["checked_bundles"], 1, "Must contain exactly 1 official Combined 1-Layer bundle (trunks_rage)")
-        self.assertEqual(parity["finalized_characters"], 1)
-        self.assertEqual(len(parity["warnings"]), 0, "Trunks Rage includes all core combat clips with zero missing warnings")
-
         roster = preview_server.load_finalized_roster()
-        trunks = roster["characters"][0]
-        self.assertEqual(trunks["character_id"], "trunks_rage")
-        self.assertNotIn("layered_3d_depth", trunks["modes"], "Multi-layer mode (Hướng 2) must be removed")
-        self.assertIn("combined_1layer", trunks["modes"])
-        self.assertEqual(trunks["map_sync_metrics"]["canvas_size_px"], [320, 256])
-        self.assertEqual(trunks["map_sync_metrics"]["foot_anchor_px"], [96, 220])
-        self.assertEqual(trunks["pixel_sharpness_metrics"]["enclosed_key_pockets"], 0)
-        self.assertEqual(trunks["pixel_sharpness_metrics"]["opaque_key_px"], 0)
-        self.assertEqual(len(trunks["present_clips"]), 20)
+        chars = roster.get("characters", [])
+        self.assertEqual(parity["finalized_characters"], len(chars))
+        self.assertEqual(parity["checked_bundles"], len(chars))
+
+        if not chars:
+            self.assertEqual(preview_server.discover_bundles(), [])
+            self.assertEqual(preview_server.build_setups([]), [])
+            self.assertGreaterEqual(len(parity["warnings"]), 1, "Empty roster should report readiness warning")
+        else:
+            for ch in chars:
+                self.assertNotIn("layered_3d_depth", ch["modes"], "Multi-layer mode (Hướng 2) must be removed")
+                self.assertIn("combined_1layer", ch["modes"])
+                self.assertEqual(ch["pixel_sharpness_metrics"]["enclosed_key_pockets"], 0)
+                self.assertEqual(ch["pixel_sharpness_metrics"]["opaque_key_px"], 0)
 
     def test_hybrid_engine_benchmark_report_and_wasm_artifact(self) -> None:
         bench_path = REPO_ROOT / "engines" / "benchmark_report.json"
         self.assertTrue(bench_path.is_file())
         bench = json.loads(bench_path.read_text(encoding="utf-8"))
-        self.assertEqual(bench["shared_asset_under_test"]["bundle_id"], "trunks_rage")
+        self.assertIn("shared_asset_under_test", bench)
+        self.assertIsNone(bench["shared_asset_under_test"].get("bundle_id"))
         self.assertGreaterEqual(len(bench["rust_engine"]["benchmarks"]), 3)
         self.assertGreaterEqual(len(bench["godot_engine"]["benchmarks"]), 6)
         wasm_path = REPO_ROOT / "tools" / "preview" / "rust_combat_sim.wasm"
@@ -137,9 +145,12 @@ class GovernanceAndPreviewTests(unittest.TestCase):
     def test_preview_server_zip(self) -> None:
         zbytes = preview_server.build_godot_zip_bytes()
         with zipfile.ZipFile(io.BytesIO(zbytes)) as zf:
-            self.assertIn("project.godot", zf.namelist())
-            self.assertIn("assets/roster.json", zf.namelist())
-            self.assertIn("scenes/Trunks_Rage.tscn", zf.namelist())
+            names = set(zf.namelist())
+            self.assertIn("project.godot", names)
+            self.assertIn("assets/roster.json", names)
+            self.assertIn("scenes/CharacterFighter2D.gd", names)
+            self.assertIn("tests/SkillAnimator2D.gd", names)
+            self.assertNotIn("scenes/Trunks_Rage.tscn", names)
 
     def test_frontend_js_wasm_exports_3tabs_and_n_character_roster(self) -> None:
         res = subprocess.run(

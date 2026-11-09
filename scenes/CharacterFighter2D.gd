@@ -7,8 +7,8 @@ extends Node2D
 signal action_event(event_name: String, frame_index: int, at_ms: int, payload: Dictionary)
 signal action_finished(clip_name: StringName)
 
-@export var character_id: String = "trunks_rage"
-@export_file("*.json") var engine_export_json: String = "res://assets/trunks_rage/godot_bundle/engine-export.json"
+@export var character_id: String = ""
+@export_file("*.json") var engine_export_json: String = ""
 
 var sprite: AnimatedSprite2D = null
 var animator: SkillAnimator2D = null

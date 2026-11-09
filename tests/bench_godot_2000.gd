@@ -11,8 +11,33 @@ const GRID_COLS := 38
 const GRID_ROWS := 22
 const GRID_CELLS := GRID_COLS * GRID_ROWS
 
+func _resolve_bench_sprite_frames() -> Dictionary:
+	var rf := FileAccess.open("res://assets/roster.json", FileAccess.READ)
+	if rf != null:
+		var roster = JSON.parse_string(rf.get_as_text())
+		if typeof(roster) == TYPE_DICTIONARY and roster.has("characters"):
+			for ch in roster["characters"]:
+				var bid: String = ch.get("modes", {}).get("combined_1layer", {}).get("bundle_id", "")
+				if not bid.is_empty():
+					var tres_path := "res://assets/%s/godot_bundle/godot/%s.tres" % [bid, bid]
+					var sf: SpriteFrames = load(tres_path)
+					if sf != null and sf.get_animation_names().size() > 0:
+						var anim: StringName = &"aura_loop" if sf.has_animation(&"aura_loop") else StringName(sf.get_animation_names()[0])
+						return {"sf": sf, "anim": anim}
+	var sf_syn := SpriteFrames.new()
+	var img := Image.create_empty(320, 256, false, Image.FORMAT_RGBA8)
+	var tex := ImageTexture.create_from_image(img)
+	sf_syn.add_animation(&"idle")
+	sf_syn.set_animation_speed(&"idle", 60.0)
+	sf_syn.set_animation_loop(&"idle", true)
+	for _k in range(4):
+		sf_syn.add_frame(&"idle", tex, 5.0)
+	return {"sf": sf_syn, "anim": &"idle"}
+
 func _run_node_tree_bench(count: int, steps: int) -> Dictionary:
-	var sf_comb: SpriteFrames = load("res://assets/trunks_rage/godot_bundle/godot/trunks_rage.tres")
+	var resolved := _resolve_bench_sprite_frames()
+	var sf_comb: SpriteFrames = resolved["sf"]
+	var anim_name: StringName = resolved["anim"]
 	var container := Node2D.new()
 	root.add_child(container)
 	var sprites: Array[AnimatedSprite2D] = []
@@ -33,7 +58,7 @@ func _run_node_tree_bench(count: int, steps: int) -> Dictionary:
 		team[i] = i & 1
 		var root_sp := AnimatedSprite2D.new()
 		root_sp.sprite_frames = sf_comb
-		root_sp.play(&"aura_loop")
+		root_sp.play(anim_name)
 		root_sp.position = Vector2(pos_x[i], pos_y[i])
 		container.add_child(root_sp)
 		sprites.append(root_sp)

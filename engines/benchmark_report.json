@@ -4,22 +4,14 @@
   "official_architecture": "Godot 4.7.2 (Mobile APK/iOS Client + Scene/UI + MultiMeshInstance2D) + Rust 1.99.1 Core (GDExtension Client & Authoritative AoI Server) + Supabase",
   "target_requirement": "60 FPS locked (<= 16.6667 ms/frame) with > 2,000 real-time combat entities on Mobile (Android APK / iOS IPA) + Supabase",
   "shared_asset_under_test": {
-    "bundle_id": "trunks_rage",
-    "atlas_path": "assets/trunks_rage/godot_bundle/godot/trunks_rage-atlas-00.png",
-    "tres_path": "assets/trunks_rage/godot_bundle/godot/trunks_rage.tres",
-    "atlas_size_px": [
-      3890,
-      3382
-    ],
+    "bundle_id": null,
+    "mode": "synthetic_1layer_quad_baseline",
     "cell_size_px": [
       320,
       256
     ],
-    "foot_anchor_px": [
-      96,
-      220
-    ],
-    "frames_loaded": 154
+    "frames_loaded": 8,
+    "note": "Baseline benchmark (>2,000 CCU @ 60FPS) của Godot 4.7.2 + Rust 1.99.1; hiện tại Roster đang trống (0 nhân vật) chờ Atlas mới."
   },
   "rust_engine": {
     "engine": "Rust 1.99.1 SoA + SpatialHash + Single-Batch GPU Instancing",

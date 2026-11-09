@@ -20,8 +20,32 @@ func _init() -> void:
 
 	var chars: Array = roster["characters"]
 	if chars.is_empty():
-		printerr("[FAIL] Danh sách nhân vật roster.json rỗng")
-		quit(1)
+		var fighter_script: GDScript = load("res://scenes/CharacterFighter2D.gd")
+		var anim_script: GDScript = load("res://tests/SkillAnimator2D.gd")
+		if fighter_script == null or anim_script == null:
+			printerr("[FAIL] Không nạp được CharacterFighter2D.gd hoặc SkillAnimator2D.gd")
+			quit(1)
+			return
+		var fighter_inst = fighter_script.new()
+		if fighter_inst == null or not fighter_inst.has_method("play_clip"):
+			printerr("[FAIL] CharacterFighter2D.gd thiếu API play_clip")
+			quit(1)
+			return
+		fighter_inst.free()
+		var assets_dir := DirAccess.open("res://assets")
+		if assets_dir != null:
+			assets_dir.list_dir_begin()
+			var entry := assets_dir.get_next()
+			while entry != "":
+				if assets_dir.current_is_dir() and not entry.begins_with("."):
+					printerr("[FAIL] Phát hiện thư mục nhân vật dư thừa trong assets/ khi roster rỗng: ", entry)
+					assets_dir.list_dir_end()
+					quit(1)
+					return
+				entry = assets_dir.get_next()
+			assets_dir.list_dir_end()
+		print("[OK] Roster rỗng (0 nhân vật) — Đã kiểm chứng CharacterFighter2D.gd & SkillAnimator2D.gd sẵn sàng nhận Atlas mới.")
+		quit(0)
 		return
 
 	var failures := 0

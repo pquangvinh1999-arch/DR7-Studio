@@ -1,6 +1,6 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-07T08:45:30Z",
+  "updated_at": "2026-11-09T09:13:32Z",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
     "version": "0.3.0",
@@ -34,13 +34,14 @@
     ],
     "backend": "Supabase (Auth, PostgreSQL, Inventory, Storage) + Spatial-Grid AoI Binary Delta Sync",
     "engine_evaluation": {
-      "status": "locked_official_hybrid_godot4_rust_supabase",
+      "status": "evaluating_candidates_not_finalized",
       "candidates": [
-        "CHÍNH THỨC: Godot 4.7.2 Client (Mobile APK/iOS + Touch UI + MultiMeshInstance2D: 2.600 ms/frame @ 2,000 user, 1 Draw Call)",
-        "CHÍNH THỨC: Rust 1.99.1 Core (GDExtension Client + Authoritative AoI Server + Browser WASM: 0.6149 ms/frame @ 2,000 user = 3.69% quỹ 60FPS)",
-        "CHÍNH THỨC: Kiến trúc lớp duy nhất Combined 1-Layer (Single-Page PNG Atlas <= 4096×4096, Nearest 1:1)"
+        "Godot 4 + GDScript: baseline ứng viên, chưa chốt engine cuối cùng",
+        "Godot 4 + Rust Core qua GDExtension: ứng viên cho combat, chưa có tích hợp hoàn chỉnh được kiểm chứng",
+        "Godot 4 + C++ qua GDExtension hoặc C#: phương án so sánh, chưa triển khai"
       ],
-      "rule": "Đồng bộ tuyệt đối 1:1 SHA-256 giữa Godot 4, Rust Core và localhost:8080 trên cùng PNG Atlas + .tres + engine-export.json."
+      "rule": "Đồng bộ tuyệt đối 1:1 SHA-256 giữa Godot 4, Rust Core và localhost:8080 trên cùng PNG Atlas + .tres + engine-export.json.",
+      "owner_decision": "Owner xác nhận 2026-11-09: Rust và Godot chỉ là định hướng, chưa quyết định cuối cùng. Đánh giá lại bằng test thực tế sau khi hoàn thiện asset, scene và UI. Ghi chép locked/CHÍNH THỨC trước đây không đại diện quyết định hiện hành."
     },
     "supported_agents": [
       "Antigravity CLI (agy)",
@@ -63,9 +64,9 @@
     "version_file": "VERSION"
   },
   "current_focus": {
-    "active_task_id": "TASK-007",
-    "status": "ready_for_owner_human_test",
-    "summary": "Đã khôi phục hoàn chỉnh phiên bị limit trước đó: nâng cấp bóc tách Future Trunks (Super Saiyan Rage) lên sheet Pixel Art gốc không nén 1340×2261 (alpha_hardness_pct=100.0%, enclosed_key_pockets=0, opaque_key_px=0, edge_acutance_sobel=392.07, 20/20 clip kiểm chứng trực quan trên 3 nền), pass 100% './loop.sh test' (Governance + Python + Node/WASM E2E + Godot 4.7.2 Headless + Rust 1.99.1) và khởi chạy đồng bộ 1:1 SHA-256 trên http://localhost:8080 chờ Owner Human Test."
+    "active_task_id": "TASK-013",
+    "status": "completed",
+    "summary": "Đã lưu tiến trình và session_resume cho phiên sau: phân tích Vegeta + skill create_atlas hoàn tất, chưa xử lý asset; Rust/Godot chỉ là ứng viên, đánh giá lại khi đủ asset/scene/UI; chờ Owner mô tả bước tiếp theo. Chuẩn bị commit và push main toàn bộ tiến trình hiện có, gồm thay đổi dọn Trunks/roster rỗng từ TASK-008, tài liệu skill và ảnh nguồn Vegeta. Kết quả push xác minh bằng Git sau commit."
   },
   "open_issues": [],
   "resolved_issues": [
@@ -115,11 +116,57 @@
       "timestamp": "2026-11-07T08:45:30Z",
       "status": "ready_for_owner_human_test",
       "summary": "Khôi phục phiên bị limit: chuyển sang sheet Pixel Art gốc không nén 1340×2261 cho trunks_rage (alpha_hardness_pct=100.0%, 20 clip đầy đủ, ghép liền mạch tia chưởng/cột kiếm khí & cánh sét đôi), sửa lỗi so sánh mảng khác Realm trong Node WASM E2E test (LRN-007), pass 100% './loop.sh test' và khởi động server đồng bộ 1:1 SHA-256 tại http://localhost:8080."
+    },
+    {
+      "id": "TASK-008",
+      "timestamp": "2026-11-08T04:19:19Z",
+      "status": "completed",
+      "summary": "Đã xoá sạch toàn bộ nhân vật trunks_rage (assets/trunks_rage/, scenes/Trunks_Rage.tscn, tools/pipeline/build_trunks_rage.py, cache .godot/ cũ và mọi placeholder Trunks trong UI/Engine/Tests), giữ nguyên bài học kỹ thuật trong AGENTS.md & lerning.md; nâng cấp Engine, Server & UI 3 Tab hỗ trợ sạch roster rỗng (0 nhân vật) và pass 100% ./loop.sh test, bench_godot_2000.gd & rust_combat_sim."
+    },
+    {
+      "id": "TASK-009",
+      "timestamp": "2026-11-09T08:38:17Z",
+      "status": "completed",
+      "summary": "Đã đọc AGENTS.md, state.json, skills.md, 8 bài học lerning.md và toàn bộ 6 SKILL.md nội bộ; đối chiếu kiến trúc Godot/Rust/WASM, preview 3 tab, roster rỗng và cấu hình CI. Tuân thủ Combined 1-Layer; ghi chép đa lớp cũ không có hiệu lực. Chưa sinh ảnh, chưa sửa code/asset, chưa chạy lại benchmark hay xác nhận hiệu năng mobile; chờ Owner mô tả bước tiếp theo."
+    },
+    {
+      "id": "TASK-010",
+      "timestamp": "2026-11-09T08:39:40Z",
+      "status": "completed",
+      "summary": "Đánh giá Rust/Godot theo mã nguồn và chạy thực tế: loop.sh test exit 0 (9 Python, 2 Rust, Godot roster rỗng); benchmark Rust release exit 0: 2000=0.5446 ms, 5000=1.5040 ms; Godot headless exit 0: 2000 Node=3.663 ms, MultiMesh=4.107 ms CPU. Giới hạn: benchmark không đo GPU/mobile, draw calls ước tính; chưa thấy cầu nối GDExtension; Rust benchmark hardcode atlas 4096 và duration 83.33, combat giới hạn 6 ứng viên, AoI quét toàn bộ N. Chỉ đánh giá, chưa sửa code; chờ Owner chỉ đạo."
+    },
+    {
+      "id": "TASK-011",
+      "timestamp": "2026-11-09T08:43:22Z",
+      "status": "completed",
+      "summary": "Owner đính chính: Rust và Godot chỉ là định hướng ứng viên, CHƯA chốt kiến trúc cuối cùng; chỉ đánh giá khả thi/tương thích GDScript với Rust/C++/C# trong Godot, chờ Owner mô tả bước tiếp theo. Chỉ dẫn mới này thay thế diễn giải locked trong ghi chép cũ. Benchmark trước chưa phải so sánh ngang bằng; không chọn ngôn ngữ hoặc triển khai thay Owner."
+    },
+    {
+      "id": "TASK-012",
+      "timestamp": "2026-11-09T08:58:52Z",
+      "status": "completed",
+      "summary": "Đã phân tích trực quan toàn bộ ảnh Vegeta SSJB gốc 763x2287, RGBA opaque, nền FEBE16, SHA256 d44688b654bc60c2175c1f7517b2d8bbdb00401dc680626296e9ad2313c4d82a; ghi inventory INTRO/STAND/MOVEMENT/ATTACKS/DAMAGE/KI/SUPERS/ULTIMATES, FX rời, annotation, credits và 12 palette. Tạo .agents/skills/create_atlas/SKILL.md, agents/openai.yaml, references/vegeta-ssjb-analysis.md; .agent symlink đọc cùng bản. Validator cả hai đường dẫn exit 0, kiểm tra links/YAML/hash exit 0, loop.sh test exit 0 (WARN roster rỗng). Chỉ phân tích/viết tài liệu; chưa cắt/key/export/setup hay nghiệm thu Human Test. Rust/Godot vẫn là ứng viên, đánh giá thật khi đủ asset/scene/UI."
+    },
+    {
+      "id": "TASK-013",
+      "timestamp": "2026-11-09T09:13:32Z",
+      "status": "completed",
+      "summary": "Đã lưu tiến trình và session_resume cho phiên sau: phân tích Vegeta + skill create_atlas hoàn tất, chưa xử lý asset; Rust/Godot chỉ là ứng viên, đánh giá lại khi đủ asset/scene/UI; chờ Owner mô tả bước tiếp theo. Chuẩn bị commit và push main toàn bộ tiến trình hiện có, gồm thay đổi dọn Trunks/roster rỗng từ TASK-008, tài liệu skill và ảnh nguồn Vegeta. Kết quả push xác minh bằng Git sau commit."
     }
   ],
   "quick_resume_commands": [
     "./loop.sh status",
     "./loop.sh check",
     "./loop.sh test"
-  ]
+  ],
+  "session_resume": {
+    "next_action": "Chờ Owner mô tả bước tiếp theo; đọc skill create-atlas và hồ sơ Vegeta trước khi tiếp tục. Không tự cắt/key/export/setup từ kết quả phân tích.",
+    "source_atlas": "dcejfvj-b1332eb1-d8da-4942-9daf-593546093f9b.png",
+    "source_sha256": "d44688b654bc60c2175c1f7517b2d8bbdb00401dc680626296e9ad2313c4d82a",
+    "analysis": ".agents/skills/create_atlas/references/vegeta-ssjb-analysis.md",
+    "skill": ".agents/skills/create_atlas/SKILL.md",
+    "compatibility": ".agent là symlink tới .agents; hai đường dẫn đọc cùng skill. Chưa thử discovery trực tiếp bằng Antigravity CLI.",
+    "asset_status": "Chỉ phân tích ảnh gốc, chưa xử lý; roster 0 nhân vật; skills.md gốc chưa có quy trình Owner nghiệm thu.",
+    "verification": "loop.sh test exit 0 trong TASK-012: 9 Python, 2 Rust, Godot headless roster rỗng; WARN roster rỗng. Chưa kiểm định asset Vegeta hoặc hiệu năng mobile."
+  }
 }
