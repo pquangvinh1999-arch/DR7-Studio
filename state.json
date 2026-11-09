@@ -1,6 +1,6 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-09T15:20:23Z",
+  "updated_at": "2026-11-09T15:21:59Z",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
     "version": "0.3.0",
@@ -65,8 +65,8 @@
   },
   "current_focus": {
     "active_task_id": "TASK-024",
-    "status": "ready_to_push",
-    "summary": "Đã rà/fetch main, khôngphânkỳ; chuẩn bịcheckpoint sạch0nhânvật0bundle,giữpixelart/Kiđộc lập/no guard-win. Preview xửlýcontractKi-only khôngđạn vàE2Eđãkiểmchứng. ./loop.sh test exit0:13Python/E2E,Godot roster0,2Rust;Godot4.7.2 release/asset CI đãxácminh. Khôngđưa loglocal/binary/cache/assetđãxóa vàoGit. Đang commit/push theoOwner; chưa nhậnremoteđãcậpnhật."
+    "status": "completed",
+    "summary": "Đã commit/push code checkpoint96c7e750316f5ba131016bb5655b1a00d379ea57 lênorigin/main theoOwner. CI GitHub run42643703309 hoàn tất success; local ./loop.sh test exit0 (13Python/E2E,Godot roster0,2Rust),WASMreleasebuild0. Roster0,bundle0;giữpixelart/Kiđộc lập/no guard-win,khôngphụchồiassetđãxóa. Lưu handoff cho phiên ngàymai; loglocal đãignore khỏiGit."
   },
   "open_issues": [],
   "resolved_issues": [
@@ -222,9 +222,9 @@
     },
     {
       "id": "TASK-024",
-      "timestamp": "2026-11-09T15:20:23Z",
-      "status": "ready_to_push",
-      "summary": "Đã rà/fetch main, khôngphânkỳ; chuẩn bịcheckpoint sạch0nhânvật0bundle,giữpixelart/Kiđộc lập/no guard-win. Preview xửlýcontractKi-only khôngđạn vàE2Eđãkiểmchứng. ./loop.sh test exit0:13Python/E2E,Godot roster0,2Rust;Godot4.7.2 release/asset CI đãxácminh. Khôngđưa loglocal/binary/cache/assetđãxóa vàoGit. Đang commit/push theoOwner; chưa nhậnremoteđãcậpnhật."
+      "timestamp": "2026-11-09T15:21:59Z",
+      "status": "completed",
+      "summary": "Đã commit/push code checkpoint96c7e750316f5ba131016bb5655b1a00d379ea57 lênorigin/main theoOwner. CI GitHub run42643703309 hoàn tất success; local ./loop.sh test exit0 (13Python/E2E,Godot roster0,2Rust),WASMreleasebuild0. Roster0,bundle0;giữpixelart/Kiđộc lập/no guard-win,khôngphụchồiassetđãxóa. Lưu handoff cho phiên ngàymai; loglocal đãignore khỏiGit."
     }
   ],
   "quick_resume_commands": [
@@ -233,19 +233,27 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Workspace đã dọn toàn bộ nhân vật theo Owner. Roster0; không khôi phục Crep_Xayda_01 hoặc Tambourine. Chờ yêu cầu mới. Giữ mặc định pixel art, Ki độc lập, không guard/win.",
+    "next_action": "Checkpoint main đã được Owner yêu cầu đồng bộ để tiếp tục ngày mai. Chờ yêu cầu mới; bắt đầu bằng ./loop.sh status. Roster0/bundle0, không phục hồi hai nhân vật đã xóa. Giữ pixel art, Ki/aura độc lập, không guard/win; engine/ngôn ngữ theo quyết định hiện hành của Owner.",
     "source_atlas": null,
     "source_sha256": null,
     "analysis": ".agents/skills/create_atlas/references/vegeta-ssjb-analysis.md",
     "skill": ".agents/skills/create_atlas/SKILL.md",
     "compatibility": ".agent là symlink tới .agents; hai đường dẫn đọc cùng skill. Chưa thử discovery trực tiếp bằng Antigravity CLI.",
     "asset_status": "0 nhân vật; không còn asset/bundle/master/source/draft hoặc gói xuất của hai nhân vật đã xóa.",
-    "verification": "TASK-023 cleanup: Godot reimport +./loop.sh test exit0;13Python/E2E,Godot roster0,2Rust. HTTP0characters/0bundles paritytrue. Assets chỉ còn roster.json; không còn nhân vật/bundle cũ hoặc PNG/.import ở gốc workspace.",
+    "verification": "Code checkpoint96c7e75: ./loop.sh test exit0 (13Python/E2E,Godot roster0,2Rust); WASMreleasebuild exit0; GitHub CI run42643703309 completed/success. Chưa có nhân vật để nghiệm thu hoặc đo GPU/mobile.",
     "atlas_design_rule": "Tách chức năng phổ quát khỏi hành vi riêng nhân vật; generate2dsprite/video2dsprite chỉ là tooling phía sau create-atlas. Sheet có sẵn dùng nhánh bảo toàn nguồn, không AI redraw.",
     "character_concept": null,
     "delivery": null,
     "latest_delivery": null,
-    "active_character_concept": null
+    "active_character_concept": null,
+    "git_checkpoint": {
+      "branch": "main",
+      "remote": "origin",
+      "source_code_commit": "96c7e750316f5ba131016bb5655b1a00d379ea57",
+      "ci_status": "success",
+      "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/42643703309",
+      "note": "This record is committed as a handoff after the verified code checkpoint; use git log for the newest handoff commit."
+    }
   },
   "approved_workflows": [],
   "owner_defaults": {
