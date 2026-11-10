@@ -7,8 +7,8 @@
   },
   "source": {
     "path": "../clips/animation-clips.json",
-    "sha256": "8c06cd391359805af347da5e31c18437a8a4e492be307a819519402c67cc6e5f",
-    "bytes": 126149,
+    "sha256": "d5304cc6b83d6648f7fc18f29203e8dd71696a9fbdad80cf83f8086b33b38394",
+    "bytes": 126147,
     "schema": "generate2dsprite.animation_clips.v2"
   },
   "targets": [
@@ -1064,8 +1064,8 @@
   "files": [
     {
       "path": "aseprite/t_rex.png",
-      "sha256": "67df45fe8d8c517725c90648d461f9f3501db89f1edbf2ad20ef6069ff7c4ea8",
-      "bytes": 204389
+      "sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f",
+      "bytes": 204488
     },
     {
       "path": "aseprite/t_rex.json",
@@ -1074,8 +1074,8 @@
     },
     {
       "path": "godot/t_rex-atlas-00.png",
-      "sha256": "67df45fe8d8c517725c90648d461f9f3501db89f1edbf2ad20ef6069ff7c4ea8",
-      "bytes": 204389
+      "sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f",
+      "bytes": 204488
     },
     {
       "path": "godot/t_rex.tres",
@@ -1089,337 +1089,337 @@
     },
     {
       "path": "godot-sprite3d/frames/frame-000.png",
-      "sha256": "390cd234cd2d9e59adcbce87283f78aac74fa2c3feb3c60f71c28abadb8ed5bc",
-      "bytes": 3982
+      "sha256": "cb59c96e1115b9680630bfed29c305ecd93e0b6fb0c4bb608cda052534c16e0c",
+      "bytes": 3984
     },
     {
       "path": "godot-sprite3d/frames/frame-001.png",
-      "sha256": "195cb7c6b97d6c802fd80e80258526f398c5839f13377dd7f16103185837ea86",
-      "bytes": 3868
+      "sha256": "bf47e76f1ff67a33ebe746b1decc5d7b745b44752e733d34918392520a47ab05",
+      "bytes": 3872
     },
     {
       "path": "godot-sprite3d/frames/frame-002.png",
-      "sha256": "d34640995d2a02cfb8add77bef0ba45befc26ecb76b9221c3df7cc5f3247b2bf",
+      "sha256": "099426e8cb7cb2727c88fab78e95b78b4764b8faf82adf9ab603fd62822ea052",
       "bytes": 3903
     },
     {
       "path": "godot-sprite3d/frames/frame-003.png",
-      "sha256": "c7e031c46d2e86600c2b796cafee351f5d6e750bd01bd1568c65f7c7167a2ecc",
-      "bytes": 3862
+      "sha256": "92e64c200904dada172ef0c167d474cd80cbe2bc2eb5ad74b6da52bfa2029acf",
+      "bytes": 3864
     },
     {
       "path": "godot-sprite3d/frames/frame-004.png",
-      "sha256": "a88466e6981fce04c35cddabf3b8a5b26c935f621b60506e812e4320308e92f1",
-      "bytes": 3959
+      "sha256": "ea06ba04b972b61b17c10e598d8067b3b98730a18620f2aecd033d8dba921659",
+      "bytes": 3961
     },
     {
       "path": "godot-sprite3d/frames/frame-005.png",
-      "sha256": "a48f1ffa0ac57f3a9a0639b2dd7dde638e5f087c480535ebab575eb664225774",
-      "bytes": 3981
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-006.png",
-      "sha256": "95f05bceefd3871ed178ea63190929510e4550826fc3ae8a12d9f084c2501466",
-      "bytes": 3977
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-007.png",
-      "sha256": "523f91c24bcdd756ef54d264dd6191dbb74289b76ec3a9707e3368dca185412a",
-      "bytes": 3974
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-008.png",
-      "sha256": "66b0cbbe9bd19082e0c9301d1a46393e445378656d0b0f50c7dbaeb648b380d0",
-      "bytes": 3874
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-009.png",
-      "sha256": "87d03eaa003dd5ba44a66c3f897e7e3932d5abb5b2318f44b0bf073f51edfa78",
-      "bytes": 3803
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-010.png",
-      "sha256": "45602155f0399e17fcaa32ce29238836e86cf2bb36b9fdd59b81d38f02284b3d",
-      "bytes": 3757
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-011.png",
-      "sha256": "bb1eb6c4e001e4bd6002f6a58d46b6cdf89a92885e704119b388a7b9a625428c",
-      "bytes": 3723
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-012.png",
-      "sha256": "3a28a2aa3d1bd473efa7bd76a6351a6ccc313617733a06061d946ee653dd2e60",
-      "bytes": 3869
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-013.png",
-      "sha256": "e9ef34d4d2527e9b9950bd205fda6ca4d80c9724b3d854c072f9d6cd74c3d9ea",
-      "bytes": 3905
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-014.png",
-      "sha256": "4421d8424c52ecbe69cfaaeee2de38eb0911b9c98155abd66a4105099a951aec",
-      "bytes": 3946
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-015.png",
-      "sha256": "734f7bb9296cc770804a3d9fe73bfd817d0a617e2b29aa47122f8c74aa718928",
-      "bytes": 3917
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-016.png",
-      "sha256": "a44f9e75c22ed52bd9a6a32fda0fbbb599a1fe4ff5f5314c94666b353ef4a55e",
-      "bytes": 4069
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-017.png",
-      "sha256": "6938672767ebff1bff79a683b617f5f2a51966ab8d3d66b940a720a467825f27",
-      "bytes": 3912
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-018.png",
-      "sha256": "31105ff5b3d261f6c1321534336a9749fd22883965d6de67240ff65d22fb8349",
-      "bytes": 3951
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-019.png",
-      "sha256": "6935210b90208b8630a36b8e7ac0c5bec8ce284f0734b53d96777cd245daac1c",
-      "bytes": 3711
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-020.png",
-      "sha256": "e5b88bee661535704a1ed6a9f612d1c07c396fdc3b359c76d395e42c797e71f1",
-      "bytes": 3747
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-021.png",
-      "sha256": "cb6c8c1f99fc39f1254bc691143880b1efd0856f253d4f2e31a9d4c22a8020fd",
-      "bytes": 3776
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-022.png",
-      "sha256": "7022105d85e5e239f81b5fb15a644ed6411a6241d3b19eee5cdebd17b04f4d5b",
-      "bytes": 3888
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-023.png",
-      "sha256": "56c3b7e93a69d4b428e7aa46d58d2dd63f7804b1063c598957ee31692267a236",
-      "bytes": 3896
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-024.png",
-      "sha256": "93f4d05d5d72d3b5934ac1ca024908dcb6258b1296d3a4d3de725068c8ed718a",
+      "sha256": "c93b64b80984c49e2073df4306d934dc2a4b931a958b5e7c337bc7b695660b47",
       "bytes": 3987
     },
     {
+      "path": "godot-sprite3d/frames/frame-006.png",
+      "sha256": "7c61d4924d0070ebc10a7cd1518886fcdb6f72db91cfa5e983a77a8077d71a97",
+      "bytes": 3982
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-007.png",
+      "sha256": "6bddd8118c20057eb01142141e80c82b5fb88c774ffa23362557b2d7937e5240",
+      "bytes": 3982
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-008.png",
+      "sha256": "22d3f0d48848356deb4107718f223c29c586e7bf6746e744fd5c400a56742ae2",
+      "bytes": 3879
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-009.png",
+      "sha256": "df924e0c5cdd8e9122b057a54670ff4a1a607a413e6444e2fb7d807895ee9da9",
+      "bytes": 3802
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-010.png",
+      "sha256": "d7db38763b5cbdc85917c836bbaf94b3e64786d530b5f2f7f45472868df91192",
+      "bytes": 3746
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-011.png",
+      "sha256": "8aa2fdcae55131fad913d0c225d224467af4c155ffefd0cf6b07b4c473d0ec9e",
+      "bytes": 3741
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-012.png",
+      "sha256": "b791bdf63e60bd7beb2d1cb357e29f0cee70da831662ecbcef8d0f2693fee799",
+      "bytes": 3858
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-013.png",
+      "sha256": "c1bc032d0e1423184f48c4c46bf2bd0643e53341652abd567db602f38e38b2c7",
+      "bytes": 3926
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-014.png",
+      "sha256": "18bb91f95beaccd4fc5dd45d8c37506685423257064baf167e18c60600a1a979",
+      "bytes": 3932
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-015.png",
+      "sha256": "21cf760a030571f19b03b228f3389d3ab7afa3b2a82cbdd3154731d8e69686a5",
+      "bytes": 3909
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-016.png",
+      "sha256": "2d847eb244b99da98d0dd2668212cc6e1059145fff0446073b7d0a2c3b8a2ad8",
+      "bytes": 4068
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-017.png",
+      "sha256": "98856298fa57b104c4cbee9696dd7aa601628c3b5327101cf5cacc777c5de900",
+      "bytes": 3915
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-018.png",
+      "sha256": "02e1005e27f3c83a503d0bd667448656ab826b79f7848fe24cfbdff1d63dd4b8",
+      "bytes": 3965
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-019.png",
+      "sha256": "24f1560d41d07290519abc459e21a85d9e00c6797a6656f9cdffe51c965a7199",
+      "bytes": 3693
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-020.png",
+      "sha256": "404f432eb1542f81e06524dfcb33cc9b3b3dbd898b4b8cbacbde18a10320bdbd",
+      "bytes": 3744
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-021.png",
+      "sha256": "9355f48eed2efa6e526eb83202e309db0759cfb3e3e038caceb443404f9a2c36",
+      "bytes": 3759
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-022.png",
+      "sha256": "e9503b322f2ac4081311ea6c8244b475c0dad38b2fb838c0c885644cbcb6c3a7",
+      "bytes": 3896
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-023.png",
+      "sha256": "15d5420189fc430f3e5c23f8638384e3c85d38b0b59c9578d282a8d6b32bbb33",
+      "bytes": 3898
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-024.png",
+      "sha256": "01ead2a149b235ff4374824f23c55719d916acf13ba508fc6144048b78f4d6c2",
+      "bytes": 3983
+    },
+    {
       "path": "godot-sprite3d/frames/frame-025.png",
-      "sha256": "3f8e856b494bc829f0bb017f67c24c078013287d9769d2530c24e931b8e7a6df",
-      "bytes": 4060
+      "sha256": "d2c4bd73a0c87cc4c66046f68e5686940a70a76fef0b8e5a5e4b4f228c86c2bf",
+      "bytes": 4043
     },
     {
       "path": "godot-sprite3d/frames/frame-026.png",
-      "sha256": "f7e77b53341e041571cf3d7c4c85bd5924a49d019665a7b10358236416083da6",
-      "bytes": 4053
+      "sha256": "ec1ee80101c96ff8f3ba133d34ac419e4bc5f8216000b4ba5f8cb4f314f793fd",
+      "bytes": 4058
     },
     {
       "path": "godot-sprite3d/frames/frame-027.png",
-      "sha256": "4d91eb8d047db6d344df585e6cb3269c7215cbef85ce6978616c2a4788521c94",
-      "bytes": 4222
+      "sha256": "ff3756f28518d07fbb0b587618f94a50e8a8a38c19889cf414c1d2f46da0a9fe",
+      "bytes": 4217
     },
     {
       "path": "godot-sprite3d/frames/frame-028.png",
-      "sha256": "aac34c2bccd87e36d647b58694010d99ce5afe3b635978d671201b6e09525bdd",
-      "bytes": 4083
+      "sha256": "7d33d10104802b77b2b51d794a0149ea09bcf3f042c1d90a118d79046bb812a5",
+      "bytes": 4067
     },
     {
       "path": "godot-sprite3d/frames/frame-029.png",
-      "sha256": "61cb094a9355ef6aab681de9869dd5719728d31241691bf54e740c05fd93664b",
-      "bytes": 4135
+      "sha256": "24180ffac2865b763a5e2de9ee2981b03f66a295b4c4a53e77f2c4dbb7a044a7",
+      "bytes": 4124
     },
     {
       "path": "godot-sprite3d/frames/frame-030.png",
-      "sha256": "e780a022770b79501ea317f59b3f687f6060f5c545167ebfaef1a778e1e13a79",
+      "sha256": "9fcbe8eac1dcb6a1c123bd9a7b584d330d9200c1aa39d516ff01a4c5ae647ed7",
       "bytes": 4164
     },
     {
       "path": "godot-sprite3d/frames/frame-031.png",
-      "sha256": "605d0c674e7b411a825a8214a88950a3b6c928e2bcb980c8ef29cc4863a08657",
-      "bytes": 3990
+      "sha256": "d98349a1da80ae2f3afd429cd9da684dcfc41dc7ff80f976586aae7515a06347",
+      "bytes": 3983
     },
     {
       "path": "godot-sprite3d/frames/frame-032.png",
-      "sha256": "274b6472d29b5c72fb75a4adea733ac15d9d1ff25b8c0cb24b84819bc3a0205d",
-      "bytes": 3914
+      "sha256": "ecae269d28f73f4215fabf7ed345ea8cd94bfc66bfb1e7913a073a8bfbb54385",
+      "bytes": 3917
     },
     {
       "path": "godot-sprite3d/frames/frame-033.png",
-      "sha256": "9227978de2382a27ed2c8a0c13bf30ea429deccdc0ff1bfc7e579ca2ed6000e0",
-      "bytes": 3950
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-034.png",
-      "sha256": "3838a787aa5dfffd3487bf27b34bd50b224bd3269b4061dc8a342d1dd6dd0340",
-      "bytes": 4080
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-035.png",
-      "sha256": "8fcdb6c53fe283b7f77825b402954c43f18f1f9ab96f79e0cbae78fb90365021",
-      "bytes": 4029
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-036.png",
-      "sha256": "8afb001648d9c52c2c579b1b7ae884bbf0fbad94af1f98d7b537b958c036c506",
-      "bytes": 3662
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-037.png",
-      "sha256": "339adaa7017b76ba3cfa30d2623eea12551a0316b896a93f0b722562e17209ee",
-      "bytes": 3795
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-038.png",
-      "sha256": "b8bb4b19f4e0da6f8d5a7b0640f76e08508b4508ff7d73b341d1804c393a82c1",
-      "bytes": 4088
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-039.png",
-      "sha256": "80b01d1becf1bc68fd351b8e1298d4f1a23d14c9e5c8d6584a1f9a98743c8f73",
-      "bytes": 3813
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-040.png",
-      "sha256": "f8cac8c79ea92a516ed63cf661b1381f79aee27bb8a713105a4c52df53f0a4d1",
-      "bytes": 3674
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-041.png",
-      "sha256": "a6eb87203b9d2e1902c35ce9532b5297ef757f647ab9ddeb5203892356eb0565",
-      "bytes": 3842
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-042.png",
-      "sha256": "057606ae09b39be4c9204388dc5134363d4852b1b806f1d30ef5bced8d154b89",
-      "bytes": 3945
-    },
-    {
-      "path": "godot-sprite3d/frames/frame-043.png",
-      "sha256": "894317406aabf16df5ea7c205671a32876fa69f50855dd2557b0cc1203fa9638",
+      "sha256": "30c547debc6d0a736c290f317ac77cf72dd63485568cfe0bf565f9e39d486634",
       "bytes": 3954
     },
     {
+      "path": "godot-sprite3d/frames/frame-034.png",
+      "sha256": "0fdf27ec44de9294947fd1f7f689e74829d5837edd9eb7a5f1a6c4927e5d60bf",
+      "bytes": 4081
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-035.png",
+      "sha256": "11b8ccfe9cfbcf653795b9c62fe54610beac867a49fd060997f01548da6425f6",
+      "bytes": 4023
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-036.png",
+      "sha256": "f761c5250f714c62f1f92dbf85818b313c082ae354f01d2d960b30bb998f3a61",
+      "bytes": 3660
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-037.png",
+      "sha256": "58615ab11f41bf4aa98a032fe3c2fe17ff9ffb0518e473a13365389f55c15ccb",
+      "bytes": 3804
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-038.png",
+      "sha256": "89077f8aa0c07fe617e9d0de0973165d2c2b60383c3a16f3480bef8879dac1e2",
+      "bytes": 4096
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-039.png",
+      "sha256": "f7262c335c045250783aaf819e868aba658496b761b27f35f5850164bd783bef",
+      "bytes": 3808
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-040.png",
+      "sha256": "d06a793d0eb117391fbc91a6dd08f109d1415fb20a774f74a721d1285b3cfad4",
+      "bytes": 3678
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-041.png",
+      "sha256": "9e977120c108bd5b1421b382f544279632822489afe35702cdd832a1ec1685c6",
+      "bytes": 3834
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-042.png",
+      "sha256": "c2c6b5b8ebade876c185d920190c54494ca6b2be8123affab3fed4826cca01b4",
+      "bytes": 3943
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-043.png",
+      "sha256": "91abcf88667fa4a727d71b01398418b8a8ae26211f8499045f6f4d2b94e5923b",
+      "bytes": 3957
+    },
+    {
       "path": "godot-sprite3d/frames/frame-044.png",
-      "sha256": "541e4591cb240ea2ac3dcc2b9dc5fe7c7cd37758f6e6dd2f77441b1c9ee31e6c",
-      "bytes": 4147
+      "sha256": "1281859e1cabe41c8d5bb04173ec76efaff6719168b080d6edd144b850c7901f",
+      "bytes": 4136
     },
     {
       "path": "godot-sprite3d/frames/frame-045.png",
-      "sha256": "e08a2ed7e259eda22308c5f258ed7aebad0f53495cf129bbcc1ab1a11c73c9f6",
-      "bytes": 4264
+      "sha256": "3f22f8c41049de42978f76ea059a3ffd13ce03ef174d58e9867d4ba22657c667",
+      "bytes": 4275
     },
     {
       "path": "godot-sprite3d/frames/frame-046.png",
-      "sha256": "31b1ac95c4966be214d1425a660ac53e6adf4c0207dd9bde9152dca372b3b3f1",
-      "bytes": 8497
+      "sha256": "e908b723b7954dd958df37c847a51dc7d01bc0f664b8cc17911728c4836383a8",
+      "bytes": 8503
     },
     {
       "path": "godot-sprite3d/frames/frame-047.png",
-      "sha256": "a74945fe87d1c1516ca38abba23ccb1428520bd0a6eb9cab98e076b155bdd275",
-      "bytes": 7588
+      "sha256": "96bf9bcb7ac4d881bc9e6c85a3ce311527a6652514f430b485645b5b9883cc5d",
+      "bytes": 7582
     },
     {
       "path": "godot-sprite3d/frames/frame-048.png",
-      "sha256": "7d3338a2a48849778deb3d1c938667d01044d60e95502028d7fc5861c2ef6fb9",
+      "sha256": "8ca996b6e8ffe95e3c63054a746c558acfeb613481612621251d01f026b60a19",
       "bytes": 7190
     },
     {
       "path": "godot-sprite3d/frames/frame-049.png",
-      "sha256": "71b3f78cc419cdfda1181036575801861ee1e4d9430430a5956d0ec5f26cb6ac",
-      "bytes": 7338
+      "sha256": "c02bc8bbebd38a004b83c7a89312090fa8261863f4b4e736d26b193536458ef7",
+      "bytes": 7344
     },
     {
       "path": "godot-sprite3d/frames/frame-050.png",
-      "sha256": "60bd2b5539324465e989995bb09ee0933d2049720f6b147f0deaea6666fad6ed",
-      "bytes": 3962
+      "sha256": "d3fe4572b1e9feb38734ca898ccc39a584d6ede3ae9492c431318250ed3833cb",
+      "bytes": 3956
     },
     {
       "path": "godot-sprite3d/frames/frame-051.png",
-      "sha256": "d78903e5309d9ce261a44fbf9a2f53288d0549b2775a738acbc5c62b6587eb8c",
-      "bytes": 3985
+      "sha256": "9c420a44aef79fe323de1517c0bdbf70d71d3901f22e78e58a0208b60e8e7e56",
+      "bytes": 3984
     },
     {
       "path": "godot-sprite3d/frames/frame-052.png",
-      "sha256": "fba01e673133552156b60d68ba5ae6b6c14c153c0c06d4ae40a77f3b42801e25",
-      "bytes": 3933
+      "sha256": "add411080ee06e95c7d47d422e96a5f3eb49775337221ce08b42e2d25eafe53d",
+      "bytes": 3934
     },
     {
       "path": "godot-sprite3d/frames/frame-053.png",
-      "sha256": "e103a35cc7928f5246faa7dfb6739c9a72ac1a42d73e30c32d58cca939b250a2",
+      "sha256": "b76989397d2bbce28c673f89b28323c06e87142a00c3eac11a35a7d68e10af41",
       "bytes": 4135
     },
     {
       "path": "godot-sprite3d/frames/frame-054.png",
-      "sha256": "c576fbc6b777026e8e859656b6c7d28ba227d42b1d49bf2687a1b17192450179",
-      "bytes": 4290
+      "sha256": "8ac5b22124cb075237df0d94995cc98fd8149e5f0bd2d075ad410882e4cc1485",
+      "bytes": 4272
     },
     {
       "path": "godot-sprite3d/frames/frame-055.png",
-      "sha256": "fa9ab47a05d82c99b80b0ec2307ae6505d400eb691d2e39b6bacb92285b95ac2",
-      "bytes": 4174
+      "sha256": "45948ba8ef7dcfdf9e125850a70ecf351ae342a4e81faf09d48c5073c0e10597",
+      "bytes": 4167
     },
     {
       "path": "godot-sprite3d/frames/frame-056.png",
-      "sha256": "774246f910e1b3d3da826ec7dcaf2e0795f076ddb3c03d24c479fcde5346ecbd",
-      "bytes": 4098
+      "sha256": "1760232f404f0bb9af41fa7b6bc6107d2769cdd2331872a89e65eb54398d42ea",
+      "bytes": 4084
     },
     {
       "path": "godot-sprite3d/frames/frame-057.png",
-      "sha256": "4439af06c9cccea3a8692cc878683f0e4d39816cc959b670051324d670af09b0",
-      "bytes": 3993
+      "sha256": "13727c756501591a4b63aeabb4cb2375c06b86cbce59ec494568ea08a3f93cf9",
+      "bytes": 3988
     },
     {
       "path": "godot-sprite3d/frames/frame-058.png",
-      "sha256": "b6e7167372d7643fb22e86974f149464f77718f9363943b295ecc9046f2581d9",
-      "bytes": 3916
+      "sha256": "c69f80c2aaebab1f5c90bcea44d607e1f9b2bfd804a93e852c27ba29348bc9ce",
+      "bytes": 3915
     },
     {
       "path": "godot-sprite3d/frames/frame-059.png",
-      "sha256": "b6c2cd7eb2b6d21c7411f76dcc1973c4e3034819892ebb98790c7ec2a5ba7a9c",
-      "bytes": 4234
+      "sha256": "19799acfddd32426b082cafd24e1846772c12fbbde77faa5924e143a9cb668a4",
+      "bytes": 4249
     },
     {
       "path": "godot-sprite3d/frames/frame-060.png",
-      "sha256": "72b69d5e3e1eab9f5fd5a0663e1686d38420fd3d68652feea7ca6c4a286df4b4",
-      "bytes": 3934
+      "sha256": "696a8847f54dc527913c3980c394bcf255e6fc9ad07108175fe4cd4f652462f2",
+      "bytes": 3927
     },
     {
       "path": "godot-sprite3d/frames/frame-061.png",
-      "sha256": "a1c512c705bdbf7e55ca1d96f89813e824e1b4c0dc86da2c57911fa9b177b3d6",
-      "bytes": 3821
+      "sha256": "e1d0cf32f820de9a965fd4006ab79a234ca03e8e0f8c45764fddcb790f7b534b",
+      "bytes": 3796
     },
     {
       "path": "godot-sprite3d/frames/frame-062.png",
-      "sha256": "9e2698897cd284b9861fe729f11cb519f85749ce12bb42c72dde3c1f2b17ec89",
-      "bytes": 3517
+      "sha256": "8b42bf804d1c21de36724da927dd3ef283cd3de062df79a2e72e41f1c6aa1ead",
+      "bytes": 3509
     },
     {
       "path": "godot-sprite3d/frames/frame-063.png",
-      "sha256": "08d4eca8d32b676f7a78dd35f28a168fda50de77b6e51dc2ddc785e63ba106bb",
-      "bytes": 3345
+      "sha256": "ede5c191d53de32d0773cd6dec921bcb974679bd5a90a4b6b58bb85b28d6a38b",
+      "bytes": 3328
     },
     {
       "path": "godot-sprite3d/frames/frame-064.png",
-      "sha256": "80a69a2db0656f457c259cdbf5da936ed54c6eae0af8804cd07ff0dc180981af",
+      "sha256": "2e495bd2b1bb00b3bb5fcd4922e2c89192ee643e4e16f5642872f34c294f340e",
       "bytes": 3295
     },
     {
       "path": "godot-sprite3d/frames/frame-065.png",
-      "sha256": "a834e8aea25401c11b8c2c5c2e31a7fcbfa3f54f25d726f296db2d1f2d43aefc",
-      "bytes": 3307
+      "sha256": "fa69e1fa28b9fbf6cec8d8e1f5bfc6c2c631499e5612d77793113806e8205592",
+      "bytes": 3305
     },
     {
       "path": "godot-sprite3d/frames/frame-066.png",
-      "sha256": "ec15117b1cfa6fb17e7d2c517097ce8b93b2bb2e8829dd9824b8ecd64689ce22",
+      "sha256": "6bb75cd59c5312839f6d5a5a6ecdcfa9b7047bf8e0903a72fcadd00b0c98d96b",
       "bytes": 3217
     },
     {
@@ -1444,42 +1444,42 @@
     },
     {
       "path": "godot-sprite3d/action-idle.json",
-      "sha256": "40802b7011113e3bc0b8744d786a3f793e9917860b9a47bff38b7d5c25d346f4",
+      "sha256": "e52d8d974c721243d8a023d068dcf778f49d293b75cea47218e86c29e0cee8fe",
       "bytes": 1495
     },
     {
       "path": "godot-sprite3d/action-walk.json",
-      "sha256": "a3795a24f09adf0d5c64030cc0f7abcf8f6b7f5db71cb5a21cba3b68cacd0c2a",
+      "sha256": "0e042aee5e6ad8f22720413a4c12cb054679a21927cccc5dd50d571f90014b5b",
       "bytes": 1887
     },
     {
       "path": "godot-sprite3d/action-run.json",
-      "sha256": "e15a678549628b91820cb45cffcc90aa10fe4ffddd651cd53c2c424e9079805c",
+      "sha256": "0d7bbfbcf5e64571b9a0b18bf9718679826ab4339eff2b4f0198da1fec33111e",
       "bytes": 1672
     },
     {
       "path": "godot-sprite3d/action-attack_light.json",
-      "sha256": "b525fd5bae73d969ab5f1e3e564a736259575d4752e5700ca827c8727d56396f",
+      "sha256": "5026bd1548e3c52927bd7a574ffb91ccf5166af83f4f3c7299b3753da57ed8df",
       "bytes": 1865
     },
     {
       "path": "godot-sprite3d/action-attack_heavy.json",
-      "sha256": "85aa40602bd36a21fb1d35d24e05fc52254d82426d00e0ff3b987cb6e88a3257",
+      "sha256": "1ba9c83e9cacefd76cc0c11dfc251d337e9398646b4da8d77052dd17573f8ca6",
       "bytes": 2080
     },
     {
       "path": "godot-sprite3d/action-power_up.json",
-      "sha256": "b32e6e627805d7987435583fbea05d33f4a70e1466f392f4d137db92fc8ad7bf",
+      "sha256": "ae3daf53c16ced5828e77e8ee72a3a51fd420ab0fc6f0800fab7d0bbb450a60c",
       "bytes": 1934
     },
     {
       "path": "godot-sprite3d/action-hit.json",
-      "sha256": "0b7b450a3de59762f5dda262cf56b436c8341b6c0401f7bf2ad9dccd67458c14",
+      "sha256": "7437071589c12d246ca4890ecef792f57130db9e9f3fe37b44db52157f0e0af3",
       "bytes": 1450
     },
     {
       "path": "godot-sprite3d/action-ko.json",
-      "sha256": "7eeec2615f02b4e9c83888092f3134380400095271baba6813a4af612d33eb1f",
+      "sha256": "1798046a25c908ecdc25a288ce6f9976b5e1c46ebd0464c57d76d037b4274967",
       "bytes": 1761
     },
     {
@@ -1582,361 +1582,361 @@
     "inputs": [
       {
         "path": "../clips/animation-clips.json",
-        "sha256": "8c06cd391359805af347da5e31c18437a8a4e492be307a819519402c67cc6e5f",
-        "bytes": 126149
+        "sha256": "d5304cc6b83d6648f7fc18f29203e8dd71696a9fbdad80cf83f8086b33b38394",
+        "bytes": 126147
       },
       {
-        "path": "../clips/frames/frame-00.png",
-        "sha256": "390cd234cd2d9e59adcbce87283f78aac74fa2c3feb3c60f71c28abadb8ed5bc",
-        "bytes": 3982
+        "path": "../../../../../assets/t_rex/clips/frames/frame-00.png",
+        "sha256": "cb59c96e1115b9680630bfed29c305ecd93e0b6fb0c4bb608cda052534c16e0c",
+        "bytes": 3984
       },
       {
-        "path": "../clips/frames/frame-01.png",
-        "sha256": "195cb7c6b97d6c802fd80e80258526f398c5839f13377dd7f16103185837ea86",
-        "bytes": 3868
+        "path": "../../../../../assets/t_rex/clips/frames/frame-01.png",
+        "sha256": "bf47e76f1ff67a33ebe746b1decc5d7b745b44752e733d34918392520a47ab05",
+        "bytes": 3872
       },
       {
-        "path": "../clips/frames/frame-02.png",
-        "sha256": "d34640995d2a02cfb8add77bef0ba45befc26ecb76b9221c3df7cc5f3247b2bf",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-02.png",
+        "sha256": "099426e8cb7cb2727c88fab78e95b78b4764b8faf82adf9ab603fd62822ea052",
         "bytes": 3903
       },
       {
-        "path": "../clips/frames/frame-03.png",
-        "sha256": "c7e031c46d2e86600c2b796cafee351f5d6e750bd01bd1568c65f7c7167a2ecc",
-        "bytes": 3862
+        "path": "../../../../../assets/t_rex/clips/frames/frame-03.png",
+        "sha256": "92e64c200904dada172ef0c167d474cd80cbe2bc2eb5ad74b6da52bfa2029acf",
+        "bytes": 3864
       },
       {
-        "path": "../clips/frames/frame-04.png",
-        "sha256": "a88466e6981fce04c35cddabf3b8a5b26c935f621b60506e812e4320308e92f1",
-        "bytes": 3959
+        "path": "../../../../../assets/t_rex/clips/frames/frame-04.png",
+        "sha256": "ea06ba04b972b61b17c10e598d8067b3b98730a18620f2aecd033d8dba921659",
+        "bytes": 3961
       },
       {
-        "path": "../clips/frames/frame-05.png",
-        "sha256": "a48f1ffa0ac57f3a9a0639b2dd7dde638e5f087c480535ebab575eb664225774",
-        "bytes": 3981
-      },
-      {
-        "path": "../clips/frames/frame-06.png",
-        "sha256": "95f05bceefd3871ed178ea63190929510e4550826fc3ae8a12d9f084c2501466",
-        "bytes": 3977
-      },
-      {
-        "path": "../clips/frames/frame-07.png",
-        "sha256": "523f91c24bcdd756ef54d264dd6191dbb74289b76ec3a9707e3368dca185412a",
-        "bytes": 3974
-      },
-      {
-        "path": "../clips/frames/frame-08.png",
-        "sha256": "66b0cbbe9bd19082e0c9301d1a46393e445378656d0b0f50c7dbaeb648b380d0",
-        "bytes": 3874
-      },
-      {
-        "path": "../clips/frames/frame-09.png",
-        "sha256": "87d03eaa003dd5ba44a66c3f897e7e3932d5abb5b2318f44b0bf073f51edfa78",
-        "bytes": 3803
-      },
-      {
-        "path": "../clips/frames/frame-10.png",
-        "sha256": "45602155f0399e17fcaa32ce29238836e86cf2bb36b9fdd59b81d38f02284b3d",
-        "bytes": 3757
-      },
-      {
-        "path": "../clips/frames/frame-11.png",
-        "sha256": "bb1eb6c4e001e4bd6002f6a58d46b6cdf89a92885e704119b388a7b9a625428c",
-        "bytes": 3723
-      },
-      {
-        "path": "../clips/frames/frame-12.png",
-        "sha256": "3a28a2aa3d1bd473efa7bd76a6351a6ccc313617733a06061d946ee653dd2e60",
-        "bytes": 3869
-      },
-      {
-        "path": "../clips/frames/frame-13.png",
-        "sha256": "e9ef34d4d2527e9b9950bd205fda6ca4d80c9724b3d854c072f9d6cd74c3d9ea",
-        "bytes": 3905
-      },
-      {
-        "path": "../clips/frames/frame-14.png",
-        "sha256": "4421d8424c52ecbe69cfaaeee2de38eb0911b9c98155abd66a4105099a951aec",
-        "bytes": 3946
-      },
-      {
-        "path": "../clips/frames/frame-15.png",
-        "sha256": "734f7bb9296cc770804a3d9fe73bfd817d0a617e2b29aa47122f8c74aa718928",
-        "bytes": 3917
-      },
-      {
-        "path": "../clips/frames/frame-16.png",
-        "sha256": "a44f9e75c22ed52bd9a6a32fda0fbbb599a1fe4ff5f5314c94666b353ef4a55e",
-        "bytes": 4069
-      },
-      {
-        "path": "../clips/frames/frame-17.png",
-        "sha256": "6938672767ebff1bff79a683b617f5f2a51966ab8d3d66b940a720a467825f27",
-        "bytes": 3912
-      },
-      {
-        "path": "../clips/frames/frame-18.png",
-        "sha256": "31105ff5b3d261f6c1321534336a9749fd22883965d6de67240ff65d22fb8349",
-        "bytes": 3951
-      },
-      {
-        "path": "../clips/frames/frame-19.png",
-        "sha256": "6935210b90208b8630a36b8e7ac0c5bec8ce284f0734b53d96777cd245daac1c",
-        "bytes": 3711
-      },
-      {
-        "path": "../clips/frames/frame-20.png",
-        "sha256": "e5b88bee661535704a1ed6a9f612d1c07c396fdc3b359c76d395e42c797e71f1",
-        "bytes": 3747
-      },
-      {
-        "path": "../clips/frames/frame-21.png",
-        "sha256": "cb6c8c1f99fc39f1254bc691143880b1efd0856f253d4f2e31a9d4c22a8020fd",
-        "bytes": 3776
-      },
-      {
-        "path": "../clips/frames/frame-22.png",
-        "sha256": "7022105d85e5e239f81b5fb15a644ed6411a6241d3b19eee5cdebd17b04f4d5b",
-        "bytes": 3888
-      },
-      {
-        "path": "../clips/frames/frame-23.png",
-        "sha256": "56c3b7e93a69d4b428e7aa46d58d2dd63f7804b1063c598957ee31692267a236",
-        "bytes": 3896
-      },
-      {
-        "path": "../clips/frames/frame-24.png",
-        "sha256": "93f4d05d5d72d3b5934ac1ca024908dcb6258b1296d3a4d3de725068c8ed718a",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-05.png",
+        "sha256": "c93b64b80984c49e2073df4306d934dc2a4b931a958b5e7c337bc7b695660b47",
         "bytes": 3987
       },
       {
-        "path": "../clips/frames/frame-25.png",
-        "sha256": "3f8e856b494bc829f0bb017f67c24c078013287d9769d2530c24e931b8e7a6df",
-        "bytes": 4060
+        "path": "../../../../../assets/t_rex/clips/frames/frame-06.png",
+        "sha256": "7c61d4924d0070ebc10a7cd1518886fcdb6f72db91cfa5e983a77a8077d71a97",
+        "bytes": 3982
       },
       {
-        "path": "../clips/frames/frame-26.png",
-        "sha256": "f7e77b53341e041571cf3d7c4c85bd5924a49d019665a7b10358236416083da6",
-        "bytes": 4053
+        "path": "../../../../../assets/t_rex/clips/frames/frame-07.png",
+        "sha256": "6bddd8118c20057eb01142141e80c82b5fb88c774ffa23362557b2d7937e5240",
+        "bytes": 3982
       },
       {
-        "path": "../clips/frames/frame-27.png",
-        "sha256": "4d91eb8d047db6d344df585e6cb3269c7215cbef85ce6978616c2a4788521c94",
-        "bytes": 4222
+        "path": "../../../../../assets/t_rex/clips/frames/frame-08.png",
+        "sha256": "22d3f0d48848356deb4107718f223c29c586e7bf6746e744fd5c400a56742ae2",
+        "bytes": 3879
       },
       {
-        "path": "../clips/frames/frame-28.png",
-        "sha256": "aac34c2bccd87e36d647b58694010d99ce5afe3b635978d671201b6e09525bdd",
-        "bytes": 4083
+        "path": "../../../../../assets/t_rex/clips/frames/frame-09.png",
+        "sha256": "df924e0c5cdd8e9122b057a54670ff4a1a607a413e6444e2fb7d807895ee9da9",
+        "bytes": 3802
       },
       {
-        "path": "../clips/frames/frame-29.png",
-        "sha256": "61cb094a9355ef6aab681de9869dd5719728d31241691bf54e740c05fd93664b",
-        "bytes": 4135
+        "path": "../../../../../assets/t_rex/clips/frames/frame-10.png",
+        "sha256": "d7db38763b5cbdc85917c836bbaf94b3e64786d530b5f2f7f45472868df91192",
+        "bytes": 3746
       },
       {
-        "path": "../clips/frames/frame-30.png",
-        "sha256": "e780a022770b79501ea317f59b3f687f6060f5c545167ebfaef1a778e1e13a79",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-11.png",
+        "sha256": "8aa2fdcae55131fad913d0c225d224467af4c155ffefd0cf6b07b4c473d0ec9e",
+        "bytes": 3741
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-12.png",
+        "sha256": "b791bdf63e60bd7beb2d1cb357e29f0cee70da831662ecbcef8d0f2693fee799",
+        "bytes": 3858
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-13.png",
+        "sha256": "c1bc032d0e1423184f48c4c46bf2bd0643e53341652abd567db602f38e38b2c7",
+        "bytes": 3926
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-14.png",
+        "sha256": "18bb91f95beaccd4fc5dd45d8c37506685423257064baf167e18c60600a1a979",
+        "bytes": 3932
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-15.png",
+        "sha256": "21cf760a030571f19b03b228f3389d3ab7afa3b2a82cbdd3154731d8e69686a5",
+        "bytes": 3909
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-16.png",
+        "sha256": "2d847eb244b99da98d0dd2668212cc6e1059145fff0446073b7d0a2c3b8a2ad8",
+        "bytes": 4068
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-17.png",
+        "sha256": "98856298fa57b104c4cbee9696dd7aa601628c3b5327101cf5cacc777c5de900",
+        "bytes": 3915
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-18.png",
+        "sha256": "02e1005e27f3c83a503d0bd667448656ab826b79f7848fe24cfbdff1d63dd4b8",
+        "bytes": 3965
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-19.png",
+        "sha256": "24f1560d41d07290519abc459e21a85d9e00c6797a6656f9cdffe51c965a7199",
+        "bytes": 3693
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-20.png",
+        "sha256": "404f432eb1542f81e06524dfcb33cc9b3b3dbd898b4b8cbacbde18a10320bdbd",
+        "bytes": 3744
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-21.png",
+        "sha256": "9355f48eed2efa6e526eb83202e309db0759cfb3e3e038caceb443404f9a2c36",
+        "bytes": 3759
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-22.png",
+        "sha256": "e9503b322f2ac4081311ea6c8244b475c0dad38b2fb838c0c885644cbcb6c3a7",
+        "bytes": 3896
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-23.png",
+        "sha256": "15d5420189fc430f3e5c23f8638384e3c85d38b0b59c9578d282a8d6b32bbb33",
+        "bytes": 3898
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-24.png",
+        "sha256": "01ead2a149b235ff4374824f23c55719d916acf13ba508fc6144048b78f4d6c2",
+        "bytes": 3983
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-25.png",
+        "sha256": "d2c4bd73a0c87cc4c66046f68e5686940a70a76fef0b8e5a5e4b4f228c86c2bf",
+        "bytes": 4043
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-26.png",
+        "sha256": "ec1ee80101c96ff8f3ba133d34ac419e4bc5f8216000b4ba5f8cb4f314f793fd",
+        "bytes": 4058
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-27.png",
+        "sha256": "ff3756f28518d07fbb0b587618f94a50e8a8a38c19889cf414c1d2f46da0a9fe",
+        "bytes": 4217
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-28.png",
+        "sha256": "7d33d10104802b77b2b51d794a0149ea09bcf3f042c1d90a118d79046bb812a5",
+        "bytes": 4067
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-29.png",
+        "sha256": "24180ffac2865b763a5e2de9ee2981b03f66a295b4c4a53e77f2c4dbb7a044a7",
+        "bytes": 4124
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-30.png",
+        "sha256": "9fcbe8eac1dcb6a1c123bd9a7b584d330d9200c1aa39d516ff01a4c5ae647ed7",
         "bytes": 4164
       },
       {
-        "path": "../clips/frames/frame-31.png",
-        "sha256": "605d0c674e7b411a825a8214a88950a3b6c928e2bcb980c8ef29cc4863a08657",
-        "bytes": 3990
+        "path": "../../../../../assets/t_rex/clips/frames/frame-31.png",
+        "sha256": "d98349a1da80ae2f3afd429cd9da684dcfc41dc7ff80f976586aae7515a06347",
+        "bytes": 3983
       },
       {
-        "path": "../clips/frames/frame-32.png",
-        "sha256": "274b6472d29b5c72fb75a4adea733ac15d9d1ff25b8c0cb24b84819bc3a0205d",
-        "bytes": 3914
+        "path": "../../../../../assets/t_rex/clips/frames/frame-32.png",
+        "sha256": "ecae269d28f73f4215fabf7ed345ea8cd94bfc66bfb1e7913a073a8bfbb54385",
+        "bytes": 3917
       },
       {
-        "path": "../clips/frames/frame-33.png",
-        "sha256": "9227978de2382a27ed2c8a0c13bf30ea429deccdc0ff1bfc7e579ca2ed6000e0",
-        "bytes": 3950
-      },
-      {
-        "path": "../clips/frames/frame-34.png",
-        "sha256": "3838a787aa5dfffd3487bf27b34bd50b224bd3269b4061dc8a342d1dd6dd0340",
-        "bytes": 4080
-      },
-      {
-        "path": "../clips/frames/frame-35.png",
-        "sha256": "8fcdb6c53fe283b7f77825b402954c43f18f1f9ab96f79e0cbae78fb90365021",
-        "bytes": 4029
-      },
-      {
-        "path": "../clips/frames/frame-36.png",
-        "sha256": "8afb001648d9c52c2c579b1b7ae884bbf0fbad94af1f98d7b537b958c036c506",
-        "bytes": 3662
-      },
-      {
-        "path": "../clips/frames/frame-37.png",
-        "sha256": "339adaa7017b76ba3cfa30d2623eea12551a0316b896a93f0b722562e17209ee",
-        "bytes": 3795
-      },
-      {
-        "path": "../clips/frames/frame-38.png",
-        "sha256": "b8bb4b19f4e0da6f8d5a7b0640f76e08508b4508ff7d73b341d1804c393a82c1",
-        "bytes": 4088
-      },
-      {
-        "path": "../clips/frames/frame-39.png",
-        "sha256": "80b01d1becf1bc68fd351b8e1298d4f1a23d14c9e5c8d6584a1f9a98743c8f73",
-        "bytes": 3813
-      },
-      {
-        "path": "../clips/frames/frame-40.png",
-        "sha256": "f8cac8c79ea92a516ed63cf661b1381f79aee27bb8a713105a4c52df53f0a4d1",
-        "bytes": 3674
-      },
-      {
-        "path": "../clips/frames/frame-41.png",
-        "sha256": "a6eb87203b9d2e1902c35ce9532b5297ef757f647ab9ddeb5203892356eb0565",
-        "bytes": 3842
-      },
-      {
-        "path": "../clips/frames/frame-42.png",
-        "sha256": "057606ae09b39be4c9204388dc5134363d4852b1b806f1d30ef5bced8d154b89",
-        "bytes": 3945
-      },
-      {
-        "path": "../clips/frames/frame-43.png",
-        "sha256": "894317406aabf16df5ea7c205671a32876fa69f50855dd2557b0cc1203fa9638",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-33.png",
+        "sha256": "30c547debc6d0a736c290f317ac77cf72dd63485568cfe0bf565f9e39d486634",
         "bytes": 3954
       },
       {
-        "path": "../clips/frames/frame-44.png",
-        "sha256": "541e4591cb240ea2ac3dcc2b9dc5fe7c7cd37758f6e6dd2f77441b1c9ee31e6c",
-        "bytes": 4147
+        "path": "../../../../../assets/t_rex/clips/frames/frame-34.png",
+        "sha256": "0fdf27ec44de9294947fd1f7f689e74829d5837edd9eb7a5f1a6c4927e5d60bf",
+        "bytes": 4081
       },
       {
-        "path": "../clips/frames/frame-45.png",
-        "sha256": "e08a2ed7e259eda22308c5f258ed7aebad0f53495cf129bbcc1ab1a11c73c9f6",
-        "bytes": 4264
+        "path": "../../../../../assets/t_rex/clips/frames/frame-35.png",
+        "sha256": "11b8ccfe9cfbcf653795b9c62fe54610beac867a49fd060997f01548da6425f6",
+        "bytes": 4023
       },
       {
-        "path": "../clips/frames/frame-46.png",
-        "sha256": "31b1ac95c4966be214d1425a660ac53e6adf4c0207dd9bde9152dca372b3b3f1",
-        "bytes": 8497
+        "path": "../../../../../assets/t_rex/clips/frames/frame-36.png",
+        "sha256": "f761c5250f714c62f1f92dbf85818b313c082ae354f01d2d960b30bb998f3a61",
+        "bytes": 3660
       },
       {
-        "path": "../clips/frames/frame-47.png",
-        "sha256": "a74945fe87d1c1516ca38abba23ccb1428520bd0a6eb9cab98e076b155bdd275",
-        "bytes": 7588
+        "path": "../../../../../assets/t_rex/clips/frames/frame-37.png",
+        "sha256": "58615ab11f41bf4aa98a032fe3c2fe17ff9ffb0518e473a13365389f55c15ccb",
+        "bytes": 3804
       },
       {
-        "path": "../clips/frames/frame-48.png",
-        "sha256": "7d3338a2a48849778deb3d1c938667d01044d60e95502028d7fc5861c2ef6fb9",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-38.png",
+        "sha256": "89077f8aa0c07fe617e9d0de0973165d2c2b60383c3a16f3480bef8879dac1e2",
+        "bytes": 4096
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-39.png",
+        "sha256": "f7262c335c045250783aaf819e868aba658496b761b27f35f5850164bd783bef",
+        "bytes": 3808
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-40.png",
+        "sha256": "d06a793d0eb117391fbc91a6dd08f109d1415fb20a774f74a721d1285b3cfad4",
+        "bytes": 3678
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-41.png",
+        "sha256": "9e977120c108bd5b1421b382f544279632822489afe35702cdd832a1ec1685c6",
+        "bytes": 3834
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-42.png",
+        "sha256": "c2c6b5b8ebade876c185d920190c54494ca6b2be8123affab3fed4826cca01b4",
+        "bytes": 3943
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-43.png",
+        "sha256": "91abcf88667fa4a727d71b01398418b8a8ae26211f8499045f6f4d2b94e5923b",
+        "bytes": 3957
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-44.png",
+        "sha256": "1281859e1cabe41c8d5bb04173ec76efaff6719168b080d6edd144b850c7901f",
+        "bytes": 4136
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-45.png",
+        "sha256": "3f22f8c41049de42978f76ea059a3ffd13ce03ef174d58e9867d4ba22657c667",
+        "bytes": 4275
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-46.png",
+        "sha256": "e908b723b7954dd958df37c847a51dc7d01bc0f664b8cc17911728c4836383a8",
+        "bytes": 8503
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-47.png",
+        "sha256": "96bf9bcb7ac4d881bc9e6c85a3ce311527a6652514f430b485645b5b9883cc5d",
+        "bytes": 7582
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-48.png",
+        "sha256": "8ca996b6e8ffe95e3c63054a746c558acfeb613481612621251d01f026b60a19",
         "bytes": 7190
       },
       {
-        "path": "../clips/frames/frame-49.png",
-        "sha256": "71b3f78cc419cdfda1181036575801861ee1e4d9430430a5956d0ec5f26cb6ac",
-        "bytes": 7338
+        "path": "../../../../../assets/t_rex/clips/frames/frame-49.png",
+        "sha256": "c02bc8bbebd38a004b83c7a89312090fa8261863f4b4e736d26b193536458ef7",
+        "bytes": 7344
       },
       {
-        "path": "../clips/frames/frame-50.png",
-        "sha256": "60bd2b5539324465e989995bb09ee0933d2049720f6b147f0deaea6666fad6ed",
-        "bytes": 3962
+        "path": "../../../../../assets/t_rex/clips/frames/frame-50.png",
+        "sha256": "d3fe4572b1e9feb38734ca898ccc39a584d6ede3ae9492c431318250ed3833cb",
+        "bytes": 3956
       },
       {
-        "path": "../clips/frames/frame-51.png",
-        "sha256": "d78903e5309d9ce261a44fbf9a2f53288d0549b2775a738acbc5c62b6587eb8c",
-        "bytes": 3985
+        "path": "../../../../../assets/t_rex/clips/frames/frame-51.png",
+        "sha256": "9c420a44aef79fe323de1517c0bdbf70d71d3901f22e78e58a0208b60e8e7e56",
+        "bytes": 3984
       },
       {
-        "path": "../clips/frames/frame-52.png",
-        "sha256": "fba01e673133552156b60d68ba5ae6b6c14c153c0c06d4ae40a77f3b42801e25",
-        "bytes": 3933
-      },
-      {
-        "path": "../clips/frames/frame-53.png",
-        "sha256": "e103a35cc7928f5246faa7dfb6739c9a72ac1a42d73e30c32d58cca939b250a2",
-        "bytes": 4135
-      },
-      {
-        "path": "../clips/frames/frame-54.png",
-        "sha256": "c576fbc6b777026e8e859656b6c7d28ba227d42b1d49bf2687a1b17192450179",
-        "bytes": 4290
-      },
-      {
-        "path": "../clips/frames/frame-55.png",
-        "sha256": "fa9ab47a05d82c99b80b0ec2307ae6505d400eb691d2e39b6bacb92285b95ac2",
-        "bytes": 4174
-      },
-      {
-        "path": "../clips/frames/frame-56.png",
-        "sha256": "774246f910e1b3d3da826ec7dcaf2e0795f076ddb3c03d24c479fcde5346ecbd",
-        "bytes": 4098
-      },
-      {
-        "path": "../clips/frames/frame-57.png",
-        "sha256": "4439af06c9cccea3a8692cc878683f0e4d39816cc959b670051324d670af09b0",
-        "bytes": 3993
-      },
-      {
-        "path": "../clips/frames/frame-58.png",
-        "sha256": "b6e7167372d7643fb22e86974f149464f77718f9363943b295ecc9046f2581d9",
-        "bytes": 3916
-      },
-      {
-        "path": "../clips/frames/frame-59.png",
-        "sha256": "b6c2cd7eb2b6d21c7411f76dcc1973c4e3034819892ebb98790c7ec2a5ba7a9c",
-        "bytes": 4234
-      },
-      {
-        "path": "../clips/frames/frame-60.png",
-        "sha256": "72b69d5e3e1eab9f5fd5a0663e1686d38420fd3d68652feea7ca6c4a286df4b4",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-52.png",
+        "sha256": "add411080ee06e95c7d47d422e96a5f3eb49775337221ce08b42e2d25eafe53d",
         "bytes": 3934
       },
       {
-        "path": "../clips/frames/frame-61.png",
-        "sha256": "a1c512c705bdbf7e55ca1d96f89813e824e1b4c0dc86da2c57911fa9b177b3d6",
-        "bytes": 3821
+        "path": "../../../../../assets/t_rex/clips/frames/frame-53.png",
+        "sha256": "b76989397d2bbce28c673f89b28323c06e87142a00c3eac11a35a7d68e10af41",
+        "bytes": 4135
       },
       {
-        "path": "../clips/frames/frame-62.png",
-        "sha256": "9e2698897cd284b9861fe729f11cb519f85749ce12bb42c72dde3c1f2b17ec89",
-        "bytes": 3517
+        "path": "../../../../../assets/t_rex/clips/frames/frame-54.png",
+        "sha256": "8ac5b22124cb075237df0d94995cc98fd8149e5f0bd2d075ad410882e4cc1485",
+        "bytes": 4272
       },
       {
-        "path": "../clips/frames/frame-63.png",
-        "sha256": "08d4eca8d32b676f7a78dd35f28a168fda50de77b6e51dc2ddc785e63ba106bb",
-        "bytes": 3345
+        "path": "../../../../../assets/t_rex/clips/frames/frame-55.png",
+        "sha256": "45948ba8ef7dcfdf9e125850a70ecf351ae342a4e81faf09d48c5073c0e10597",
+        "bytes": 4167
       },
       {
-        "path": "../clips/frames/frame-64.png",
-        "sha256": "80a69a2db0656f457c259cdbf5da936ed54c6eae0af8804cd07ff0dc180981af",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-56.png",
+        "sha256": "1760232f404f0bb9af41fa7b6bc6107d2769cdd2331872a89e65eb54398d42ea",
+        "bytes": 4084
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-57.png",
+        "sha256": "13727c756501591a4b63aeabb4cb2375c06b86cbce59ec494568ea08a3f93cf9",
+        "bytes": 3988
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-58.png",
+        "sha256": "c69f80c2aaebab1f5c90bcea44d607e1f9b2bfd804a93e852c27ba29348bc9ce",
+        "bytes": 3915
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-59.png",
+        "sha256": "19799acfddd32426b082cafd24e1846772c12fbbde77faa5924e143a9cb668a4",
+        "bytes": 4249
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-60.png",
+        "sha256": "696a8847f54dc527913c3980c394bcf255e6fc9ad07108175fe4cd4f652462f2",
+        "bytes": 3927
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-61.png",
+        "sha256": "e1d0cf32f820de9a965fd4006ab79a234ca03e8e0f8c45764fddcb790f7b534b",
+        "bytes": 3796
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-62.png",
+        "sha256": "8b42bf804d1c21de36724da927dd3ef283cd3de062df79a2e72e41f1c6aa1ead",
+        "bytes": 3509
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-63.png",
+        "sha256": "ede5c191d53de32d0773cd6dec921bcb974679bd5a90a4b6b58bb85b28d6a38b",
+        "bytes": 3328
+      },
+      {
+        "path": "../../../../../assets/t_rex/clips/frames/frame-64.png",
+        "sha256": "2e495bd2b1bb00b3bb5fcd4922e2c89192ee643e4e16f5642872f34c294f340e",
         "bytes": 3295
       },
       {
-        "path": "../clips/frames/frame-65.png",
-        "sha256": "a834e8aea25401c11b8c2c5c2e31a7fcbfa3f54f25d726f296db2d1f2d43aefc",
-        "bytes": 3307
+        "path": "../../../../../assets/t_rex/clips/frames/frame-65.png",
+        "sha256": "fa69e1fa28b9fbf6cec8d8e1f5bfc6c2c631499e5612d77793113806e8205592",
+        "bytes": 3305
       },
       {
-        "path": "../clips/frames/frame-66.png",
-        "sha256": "ec15117b1cfa6fb17e7d2c517097ce8b93b2bb2e8829dd9824b8ecd64689ce22",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-66.png",
+        "sha256": "6bb75cd59c5312839f6d5a5a6ecdcfa9b7047bf8e0903a72fcadd00b0c98d96b",
         "bytes": 3217
       },
       {
-        "path": "../clips/frames/frame-67.png",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-67.png",
         "sha256": "e3db9e0776fb59e8c8ccdc2c8767a317564afa03a72513378dc298e78338b24a",
         "bytes": 5138
       },
       {
-        "path": "../clips/frames/frame-68.png",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-68.png",
         "sha256": "476a946b571b1d5ad97f7bd5f0003a8872b80d355a758db02d29f4be920e8a61",
         "bytes": 4008
       },
       {
-        "path": "../clips/frames/frame-69.png",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-69.png",
         "sha256": "148a2c1a1f2bea56f2ccc26b241ac8eda823e02424f2a3f5ca7643d70efedb4f",
         "bytes": 3672
       },
       {
-        "path": "../clips/frames/frame-70.png",
+        "path": "../../../../../assets/t_rex/clips/frames/frame-70.png",
         "sha256": "4f8bfed820ee34fba32a1bca889f2e333f9afbd9f5d2a163f07cd88397e4ec3b",
         "bytes": 3661
       }
@@ -1944,7 +1944,7 @@
     "outputs": [
       {
         "path": "aseprite/t_rex.png",
-        "sha256": "67df45fe8d8c517725c90648d461f9f3501db89f1edbf2ad20ef6069ff7c4ea8"
+        "sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f"
       },
       {
         "path": "aseprite/t_rex.json",
@@ -1952,7 +1952,7 @@
       },
       {
         "path": "godot/t_rex-atlas-00.png",
-        "sha256": "67df45fe8d8c517725c90648d461f9f3501db89f1edbf2ad20ef6069ff7c4ea8"
+        "sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f"
       },
       {
         "path": "godot/t_rex.tres",
@@ -1964,271 +1964,271 @@
       },
       {
         "path": "godot-sprite3d/frames/frame-000.png",
-        "sha256": "390cd234cd2d9e59adcbce87283f78aac74fa2c3feb3c60f71c28abadb8ed5bc"
+        "sha256": "cb59c96e1115b9680630bfed29c305ecd93e0b6fb0c4bb608cda052534c16e0c"
       },
       {
         "path": "godot-sprite3d/frames/frame-001.png",
-        "sha256": "195cb7c6b97d6c802fd80e80258526f398c5839f13377dd7f16103185837ea86"
+        "sha256": "bf47e76f1ff67a33ebe746b1decc5d7b745b44752e733d34918392520a47ab05"
       },
       {
         "path": "godot-sprite3d/frames/frame-002.png",
-        "sha256": "d34640995d2a02cfb8add77bef0ba45befc26ecb76b9221c3df7cc5f3247b2bf"
+        "sha256": "099426e8cb7cb2727c88fab78e95b78b4764b8faf82adf9ab603fd62822ea052"
       },
       {
         "path": "godot-sprite3d/frames/frame-003.png",
-        "sha256": "c7e031c46d2e86600c2b796cafee351f5d6e750bd01bd1568c65f7c7167a2ecc"
+        "sha256": "92e64c200904dada172ef0c167d474cd80cbe2bc2eb5ad74b6da52bfa2029acf"
       },
       {
         "path": "godot-sprite3d/frames/frame-004.png",
-        "sha256": "a88466e6981fce04c35cddabf3b8a5b26c935f621b60506e812e4320308e92f1"
+        "sha256": "ea06ba04b972b61b17c10e598d8067b3b98730a18620f2aecd033d8dba921659"
       },
       {
         "path": "godot-sprite3d/frames/frame-005.png",
-        "sha256": "a48f1ffa0ac57f3a9a0639b2dd7dde638e5f087c480535ebab575eb664225774"
+        "sha256": "c93b64b80984c49e2073df4306d934dc2a4b931a958b5e7c337bc7b695660b47"
       },
       {
         "path": "godot-sprite3d/frames/frame-006.png",
-        "sha256": "95f05bceefd3871ed178ea63190929510e4550826fc3ae8a12d9f084c2501466"
+        "sha256": "7c61d4924d0070ebc10a7cd1518886fcdb6f72db91cfa5e983a77a8077d71a97"
       },
       {
         "path": "godot-sprite3d/frames/frame-007.png",
-        "sha256": "523f91c24bcdd756ef54d264dd6191dbb74289b76ec3a9707e3368dca185412a"
+        "sha256": "6bddd8118c20057eb01142141e80c82b5fb88c774ffa23362557b2d7937e5240"
       },
       {
         "path": "godot-sprite3d/frames/frame-008.png",
-        "sha256": "66b0cbbe9bd19082e0c9301d1a46393e445378656d0b0f50c7dbaeb648b380d0"
+        "sha256": "22d3f0d48848356deb4107718f223c29c586e7bf6746e744fd5c400a56742ae2"
       },
       {
         "path": "godot-sprite3d/frames/frame-009.png",
-        "sha256": "87d03eaa003dd5ba44a66c3f897e7e3932d5abb5b2318f44b0bf073f51edfa78"
+        "sha256": "df924e0c5cdd8e9122b057a54670ff4a1a607a413e6444e2fb7d807895ee9da9"
       },
       {
         "path": "godot-sprite3d/frames/frame-010.png",
-        "sha256": "45602155f0399e17fcaa32ce29238836e86cf2bb36b9fdd59b81d38f02284b3d"
+        "sha256": "d7db38763b5cbdc85917c836bbaf94b3e64786d530b5f2f7f45472868df91192"
       },
       {
         "path": "godot-sprite3d/frames/frame-011.png",
-        "sha256": "bb1eb6c4e001e4bd6002f6a58d46b6cdf89a92885e704119b388a7b9a625428c"
+        "sha256": "8aa2fdcae55131fad913d0c225d224467af4c155ffefd0cf6b07b4c473d0ec9e"
       },
       {
         "path": "godot-sprite3d/frames/frame-012.png",
-        "sha256": "3a28a2aa3d1bd473efa7bd76a6351a6ccc313617733a06061d946ee653dd2e60"
+        "sha256": "b791bdf63e60bd7beb2d1cb357e29f0cee70da831662ecbcef8d0f2693fee799"
       },
       {
         "path": "godot-sprite3d/frames/frame-013.png",
-        "sha256": "e9ef34d4d2527e9b9950bd205fda6ca4d80c9724b3d854c072f9d6cd74c3d9ea"
+        "sha256": "c1bc032d0e1423184f48c4c46bf2bd0643e53341652abd567db602f38e38b2c7"
       },
       {
         "path": "godot-sprite3d/frames/frame-014.png",
-        "sha256": "4421d8424c52ecbe69cfaaeee2de38eb0911b9c98155abd66a4105099a951aec"
+        "sha256": "18bb91f95beaccd4fc5dd45d8c37506685423257064baf167e18c60600a1a979"
       },
       {
         "path": "godot-sprite3d/frames/frame-015.png",
-        "sha256": "734f7bb9296cc770804a3d9fe73bfd817d0a617e2b29aa47122f8c74aa718928"
+        "sha256": "21cf760a030571f19b03b228f3389d3ab7afa3b2a82cbdd3154731d8e69686a5"
       },
       {
         "path": "godot-sprite3d/frames/frame-016.png",
-        "sha256": "a44f9e75c22ed52bd9a6a32fda0fbbb599a1fe4ff5f5314c94666b353ef4a55e"
+        "sha256": "2d847eb244b99da98d0dd2668212cc6e1059145fff0446073b7d0a2c3b8a2ad8"
       },
       {
         "path": "godot-sprite3d/frames/frame-017.png",
-        "sha256": "6938672767ebff1bff79a683b617f5f2a51966ab8d3d66b940a720a467825f27"
+        "sha256": "98856298fa57b104c4cbee9696dd7aa601628c3b5327101cf5cacc777c5de900"
       },
       {
         "path": "godot-sprite3d/frames/frame-018.png",
-        "sha256": "31105ff5b3d261f6c1321534336a9749fd22883965d6de67240ff65d22fb8349"
+        "sha256": "02e1005e27f3c83a503d0bd667448656ab826b79f7848fe24cfbdff1d63dd4b8"
       },
       {
         "path": "godot-sprite3d/frames/frame-019.png",
-        "sha256": "6935210b90208b8630a36b8e7ac0c5bec8ce284f0734b53d96777cd245daac1c"
+        "sha256": "24f1560d41d07290519abc459e21a85d9e00c6797a6656f9cdffe51c965a7199"
       },
       {
         "path": "godot-sprite3d/frames/frame-020.png",
-        "sha256": "e5b88bee661535704a1ed6a9f612d1c07c396fdc3b359c76d395e42c797e71f1"
+        "sha256": "404f432eb1542f81e06524dfcb33cc9b3b3dbd898b4b8cbacbde18a10320bdbd"
       },
       {
         "path": "godot-sprite3d/frames/frame-021.png",
-        "sha256": "cb6c8c1f99fc39f1254bc691143880b1efd0856f253d4f2e31a9d4c22a8020fd"
+        "sha256": "9355f48eed2efa6e526eb83202e309db0759cfb3e3e038caceb443404f9a2c36"
       },
       {
         "path": "godot-sprite3d/frames/frame-022.png",
-        "sha256": "7022105d85e5e239f81b5fb15a644ed6411a6241d3b19eee5cdebd17b04f4d5b"
+        "sha256": "e9503b322f2ac4081311ea6c8244b475c0dad38b2fb838c0c885644cbcb6c3a7"
       },
       {
         "path": "godot-sprite3d/frames/frame-023.png",
-        "sha256": "56c3b7e93a69d4b428e7aa46d58d2dd63f7804b1063c598957ee31692267a236"
+        "sha256": "15d5420189fc430f3e5c23f8638384e3c85d38b0b59c9578d282a8d6b32bbb33"
       },
       {
         "path": "godot-sprite3d/frames/frame-024.png",
-        "sha256": "93f4d05d5d72d3b5934ac1ca024908dcb6258b1296d3a4d3de725068c8ed718a"
+        "sha256": "01ead2a149b235ff4374824f23c55719d916acf13ba508fc6144048b78f4d6c2"
       },
       {
         "path": "godot-sprite3d/frames/frame-025.png",
-        "sha256": "3f8e856b494bc829f0bb017f67c24c078013287d9769d2530c24e931b8e7a6df"
+        "sha256": "d2c4bd73a0c87cc4c66046f68e5686940a70a76fef0b8e5a5e4b4f228c86c2bf"
       },
       {
         "path": "godot-sprite3d/frames/frame-026.png",
-        "sha256": "f7e77b53341e041571cf3d7c4c85bd5924a49d019665a7b10358236416083da6"
+        "sha256": "ec1ee80101c96ff8f3ba133d34ac419e4bc5f8216000b4ba5f8cb4f314f793fd"
       },
       {
         "path": "godot-sprite3d/frames/frame-027.png",
-        "sha256": "4d91eb8d047db6d344df585e6cb3269c7215cbef85ce6978616c2a4788521c94"
+        "sha256": "ff3756f28518d07fbb0b587618f94a50e8a8a38c19889cf414c1d2f46da0a9fe"
       },
       {
         "path": "godot-sprite3d/frames/frame-028.png",
-        "sha256": "aac34c2bccd87e36d647b58694010d99ce5afe3b635978d671201b6e09525bdd"
+        "sha256": "7d33d10104802b77b2b51d794a0149ea09bcf3f042c1d90a118d79046bb812a5"
       },
       {
         "path": "godot-sprite3d/frames/frame-029.png",
-        "sha256": "61cb094a9355ef6aab681de9869dd5719728d31241691bf54e740c05fd93664b"
+        "sha256": "24180ffac2865b763a5e2de9ee2981b03f66a295b4c4a53e77f2c4dbb7a044a7"
       },
       {
         "path": "godot-sprite3d/frames/frame-030.png",
-        "sha256": "e780a022770b79501ea317f59b3f687f6060f5c545167ebfaef1a778e1e13a79"
+        "sha256": "9fcbe8eac1dcb6a1c123bd9a7b584d330d9200c1aa39d516ff01a4c5ae647ed7"
       },
       {
         "path": "godot-sprite3d/frames/frame-031.png",
-        "sha256": "605d0c674e7b411a825a8214a88950a3b6c928e2bcb980c8ef29cc4863a08657"
+        "sha256": "d98349a1da80ae2f3afd429cd9da684dcfc41dc7ff80f976586aae7515a06347"
       },
       {
         "path": "godot-sprite3d/frames/frame-032.png",
-        "sha256": "274b6472d29b5c72fb75a4adea733ac15d9d1ff25b8c0cb24b84819bc3a0205d"
+        "sha256": "ecae269d28f73f4215fabf7ed345ea8cd94bfc66bfb1e7913a073a8bfbb54385"
       },
       {
         "path": "godot-sprite3d/frames/frame-033.png",
-        "sha256": "9227978de2382a27ed2c8a0c13bf30ea429deccdc0ff1bfc7e579ca2ed6000e0"
+        "sha256": "30c547debc6d0a736c290f317ac77cf72dd63485568cfe0bf565f9e39d486634"
       },
       {
         "path": "godot-sprite3d/frames/frame-034.png",
-        "sha256": "3838a787aa5dfffd3487bf27b34bd50b224bd3269b4061dc8a342d1dd6dd0340"
+        "sha256": "0fdf27ec44de9294947fd1f7f689e74829d5837edd9eb7a5f1a6c4927e5d60bf"
       },
       {
         "path": "godot-sprite3d/frames/frame-035.png",
-        "sha256": "8fcdb6c53fe283b7f77825b402954c43f18f1f9ab96f79e0cbae78fb90365021"
+        "sha256": "11b8ccfe9cfbcf653795b9c62fe54610beac867a49fd060997f01548da6425f6"
       },
       {
         "path": "godot-sprite3d/frames/frame-036.png",
-        "sha256": "8afb001648d9c52c2c579b1b7ae884bbf0fbad94af1f98d7b537b958c036c506"
+        "sha256": "f761c5250f714c62f1f92dbf85818b313c082ae354f01d2d960b30bb998f3a61"
       },
       {
         "path": "godot-sprite3d/frames/frame-037.png",
-        "sha256": "339adaa7017b76ba3cfa30d2623eea12551a0316b896a93f0b722562e17209ee"
+        "sha256": "58615ab11f41bf4aa98a032fe3c2fe17ff9ffb0518e473a13365389f55c15ccb"
       },
       {
         "path": "godot-sprite3d/frames/frame-038.png",
-        "sha256": "b8bb4b19f4e0da6f8d5a7b0640f76e08508b4508ff7d73b341d1804c393a82c1"
+        "sha256": "89077f8aa0c07fe617e9d0de0973165d2c2b60383c3a16f3480bef8879dac1e2"
       },
       {
         "path": "godot-sprite3d/frames/frame-039.png",
-        "sha256": "80b01d1becf1bc68fd351b8e1298d4f1a23d14c9e5c8d6584a1f9a98743c8f73"
+        "sha256": "f7262c335c045250783aaf819e868aba658496b761b27f35f5850164bd783bef"
       },
       {
         "path": "godot-sprite3d/frames/frame-040.png",
-        "sha256": "f8cac8c79ea92a516ed63cf661b1381f79aee27bb8a713105a4c52df53f0a4d1"
+        "sha256": "d06a793d0eb117391fbc91a6dd08f109d1415fb20a774f74a721d1285b3cfad4"
       },
       {
         "path": "godot-sprite3d/frames/frame-041.png",
-        "sha256": "a6eb87203b9d2e1902c35ce9532b5297ef757f647ab9ddeb5203892356eb0565"
+        "sha256": "9e977120c108bd5b1421b382f544279632822489afe35702cdd832a1ec1685c6"
       },
       {
         "path": "godot-sprite3d/frames/frame-042.png",
-        "sha256": "057606ae09b39be4c9204388dc5134363d4852b1b806f1d30ef5bced8d154b89"
+        "sha256": "c2c6b5b8ebade876c185d920190c54494ca6b2be8123affab3fed4826cca01b4"
       },
       {
         "path": "godot-sprite3d/frames/frame-043.png",
-        "sha256": "894317406aabf16df5ea7c205671a32876fa69f50855dd2557b0cc1203fa9638"
+        "sha256": "91abcf88667fa4a727d71b01398418b8a8ae26211f8499045f6f4d2b94e5923b"
       },
       {
         "path": "godot-sprite3d/frames/frame-044.png",
-        "sha256": "541e4591cb240ea2ac3dcc2b9dc5fe7c7cd37758f6e6dd2f77441b1c9ee31e6c"
+        "sha256": "1281859e1cabe41c8d5bb04173ec76efaff6719168b080d6edd144b850c7901f"
       },
       {
         "path": "godot-sprite3d/frames/frame-045.png",
-        "sha256": "e08a2ed7e259eda22308c5f258ed7aebad0f53495cf129bbcc1ab1a11c73c9f6"
+        "sha256": "3f22f8c41049de42978f76ea059a3ffd13ce03ef174d58e9867d4ba22657c667"
       },
       {
         "path": "godot-sprite3d/frames/frame-046.png",
-        "sha256": "31b1ac95c4966be214d1425a660ac53e6adf4c0207dd9bde9152dca372b3b3f1"
+        "sha256": "e908b723b7954dd958df37c847a51dc7d01bc0f664b8cc17911728c4836383a8"
       },
       {
         "path": "godot-sprite3d/frames/frame-047.png",
-        "sha256": "a74945fe87d1c1516ca38abba23ccb1428520bd0a6eb9cab98e076b155bdd275"
+        "sha256": "96bf9bcb7ac4d881bc9e6c85a3ce311527a6652514f430b485645b5b9883cc5d"
       },
       {
         "path": "godot-sprite3d/frames/frame-048.png",
-        "sha256": "7d3338a2a48849778deb3d1c938667d01044d60e95502028d7fc5861c2ef6fb9"
+        "sha256": "8ca996b6e8ffe95e3c63054a746c558acfeb613481612621251d01f026b60a19"
       },
       {
         "path": "godot-sprite3d/frames/frame-049.png",
-        "sha256": "71b3f78cc419cdfda1181036575801861ee1e4d9430430a5956d0ec5f26cb6ac"
+        "sha256": "c02bc8bbebd38a004b83c7a89312090fa8261863f4b4e736d26b193536458ef7"
       },
       {
         "path": "godot-sprite3d/frames/frame-050.png",
-        "sha256": "60bd2b5539324465e989995bb09ee0933d2049720f6b147f0deaea6666fad6ed"
+        "sha256": "d3fe4572b1e9feb38734ca898ccc39a584d6ede3ae9492c431318250ed3833cb"
       },
       {
         "path": "godot-sprite3d/frames/frame-051.png",
-        "sha256": "d78903e5309d9ce261a44fbf9a2f53288d0549b2775a738acbc5c62b6587eb8c"
+        "sha256": "9c420a44aef79fe323de1517c0bdbf70d71d3901f22e78e58a0208b60e8e7e56"
       },
       {
         "path": "godot-sprite3d/frames/frame-052.png",
-        "sha256": "fba01e673133552156b60d68ba5ae6b6c14c153c0c06d4ae40a77f3b42801e25"
+        "sha256": "add411080ee06e95c7d47d422e96a5f3eb49775337221ce08b42e2d25eafe53d"
       },
       {
         "path": "godot-sprite3d/frames/frame-053.png",
-        "sha256": "e103a35cc7928f5246faa7dfb6739c9a72ac1a42d73e30c32d58cca939b250a2"
+        "sha256": "b76989397d2bbce28c673f89b28323c06e87142a00c3eac11a35a7d68e10af41"
       },
       {
         "path": "godot-sprite3d/frames/frame-054.png",
-        "sha256": "c576fbc6b777026e8e859656b6c7d28ba227d42b1d49bf2687a1b17192450179"
+        "sha256": "8ac5b22124cb075237df0d94995cc98fd8149e5f0bd2d075ad410882e4cc1485"
       },
       {
         "path": "godot-sprite3d/frames/frame-055.png",
-        "sha256": "fa9ab47a05d82c99b80b0ec2307ae6505d400eb691d2e39b6bacb92285b95ac2"
+        "sha256": "45948ba8ef7dcfdf9e125850a70ecf351ae342a4e81faf09d48c5073c0e10597"
       },
       {
         "path": "godot-sprite3d/frames/frame-056.png",
-        "sha256": "774246f910e1b3d3da826ec7dcaf2e0795f076ddb3c03d24c479fcde5346ecbd"
+        "sha256": "1760232f404f0bb9af41fa7b6bc6107d2769cdd2331872a89e65eb54398d42ea"
       },
       {
         "path": "godot-sprite3d/frames/frame-057.png",
-        "sha256": "4439af06c9cccea3a8692cc878683f0e4d39816cc959b670051324d670af09b0"
+        "sha256": "13727c756501591a4b63aeabb4cb2375c06b86cbce59ec494568ea08a3f93cf9"
       },
       {
         "path": "godot-sprite3d/frames/frame-058.png",
-        "sha256": "b6e7167372d7643fb22e86974f149464f77718f9363943b295ecc9046f2581d9"
+        "sha256": "c69f80c2aaebab1f5c90bcea44d607e1f9b2bfd804a93e852c27ba29348bc9ce"
       },
       {
         "path": "godot-sprite3d/frames/frame-059.png",
-        "sha256": "b6c2cd7eb2b6d21c7411f76dcc1973c4e3034819892ebb98790c7ec2a5ba7a9c"
+        "sha256": "19799acfddd32426b082cafd24e1846772c12fbbde77faa5924e143a9cb668a4"
       },
       {
         "path": "godot-sprite3d/frames/frame-060.png",
-        "sha256": "72b69d5e3e1eab9f5fd5a0663e1686d38420fd3d68652feea7ca6c4a286df4b4"
+        "sha256": "696a8847f54dc527913c3980c394bcf255e6fc9ad07108175fe4cd4f652462f2"
       },
       {
         "path": "godot-sprite3d/frames/frame-061.png",
-        "sha256": "a1c512c705bdbf7e55ca1d96f89813e824e1b4c0dc86da2c57911fa9b177b3d6"
+        "sha256": "e1d0cf32f820de9a965fd4006ab79a234ca03e8e0f8c45764fddcb790f7b534b"
       },
       {
         "path": "godot-sprite3d/frames/frame-062.png",
-        "sha256": "9e2698897cd284b9861fe729f11cb519f85749ce12bb42c72dde3c1f2b17ec89"
+        "sha256": "8b42bf804d1c21de36724da927dd3ef283cd3de062df79a2e72e41f1c6aa1ead"
       },
       {
         "path": "godot-sprite3d/frames/frame-063.png",
-        "sha256": "08d4eca8d32b676f7a78dd35f28a168fda50de77b6e51dc2ddc785e63ba106bb"
+        "sha256": "ede5c191d53de32d0773cd6dec921bcb974679bd5a90a4b6b58bb85b28d6a38b"
       },
       {
         "path": "godot-sprite3d/frames/frame-064.png",
-        "sha256": "80a69a2db0656f457c259cdbf5da936ed54c6eae0af8804cd07ff0dc180981af"
+        "sha256": "2e495bd2b1bb00b3bb5fcd4922e2c89192ee643e4e16f5642872f34c294f340e"
       },
       {
         "path": "godot-sprite3d/frames/frame-065.png",
-        "sha256": "a834e8aea25401c11b8c2c5c2e31a7fcbfa3f54f25d726f296db2d1f2d43aefc"
+        "sha256": "fa69e1fa28b9fbf6cec8d8e1f5bfc6c2c631499e5612d77793113806e8205592"
       },
       {
         "path": "godot-sprite3d/frames/frame-066.png",
-        "sha256": "ec15117b1cfa6fb17e7d2c517097ce8b93b2bb2e8829dd9824b8ecd64689ce22"
+        "sha256": "6bb75cd59c5312839f6d5a5a6ecdcfa9b7047bf8e0903a72fcadd00b0c98d96b"
       },
       {
         "path": "godot-sprite3d/frames/frame-067.png",
@@ -2248,35 +2248,35 @@
       },
       {
         "path": "godot-sprite3d/action-idle.json",
-        "sha256": "40802b7011113e3bc0b8744d786a3f793e9917860b9a47bff38b7d5c25d346f4"
+        "sha256": "e52d8d974c721243d8a023d068dcf778f49d293b75cea47218e86c29e0cee8fe"
       },
       {
         "path": "godot-sprite3d/action-walk.json",
-        "sha256": "a3795a24f09adf0d5c64030cc0f7abcf8f6b7f5db71cb5a21cba3b68cacd0c2a"
+        "sha256": "0e042aee5e6ad8f22720413a4c12cb054679a21927cccc5dd50d571f90014b5b"
       },
       {
         "path": "godot-sprite3d/action-run.json",
-        "sha256": "e15a678549628b91820cb45cffcc90aa10fe4ffddd651cd53c2c424e9079805c"
+        "sha256": "0d7bbfbcf5e64571b9a0b18bf9718679826ab4339eff2b4f0198da1fec33111e"
       },
       {
         "path": "godot-sprite3d/action-attack_light.json",
-        "sha256": "b525fd5bae73d969ab5f1e3e564a736259575d4752e5700ca827c8727d56396f"
+        "sha256": "5026bd1548e3c52927bd7a574ffb91ccf5166af83f4f3c7299b3753da57ed8df"
       },
       {
         "path": "godot-sprite3d/action-attack_heavy.json",
-        "sha256": "85aa40602bd36a21fb1d35d24e05fc52254d82426d00e0ff3b987cb6e88a3257"
+        "sha256": "1ba9c83e9cacefd76cc0c11dfc251d337e9398646b4da8d77052dd17573f8ca6"
       },
       {
         "path": "godot-sprite3d/action-power_up.json",
-        "sha256": "b32e6e627805d7987435583fbea05d33f4a70e1466f392f4d137db92fc8ad7bf"
+        "sha256": "ae3daf53c16ced5828e77e8ee72a3a51fd420ab0fc6f0800fab7d0bbb450a60c"
       },
       {
         "path": "godot-sprite3d/action-hit.json",
-        "sha256": "0b7b450a3de59762f5dda262cf56b436c8341b6c0401f7bf2ad9dccd67458c14"
+        "sha256": "7437071589c12d246ca4890ecef792f57130db9e9f3fe37b44db52157f0e0af3"
       },
       {
         "path": "godot-sprite3d/action-ko.json",
-        "sha256": "7eeec2615f02b4e9c83888092f3134380400095271baba6813a4af612d33eb1f"
+        "sha256": "1798046a25c908ecdc25a288ce6f9976b5e1c46ebd0464c57d76d037b4274967"
       },
       {
         "path": "godot-sprite3d/action-fireball_fx.json",

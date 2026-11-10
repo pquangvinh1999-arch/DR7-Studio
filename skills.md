@@ -14,7 +14,7 @@
 
 <!-- SKILLS_ENTRIES_START -->
 ### [PIPE-001] Quy Trình Dựng Atlas & Godot 4 Bundle Từ Master Pixel Art + Sheet FX Của Owner (`T-rex` / `t_rex`)
-- **Trạng thái nghiệm thu**: `owner_approved` (`2026-11-10T04:32:34Z`) — Biên nhận: `assets/t_rex/owner_approval.json` (`atlas_sha256: 67df45fe8d8c517725c90648d461f9f3501db89f1edbf2ad20ef6069ff7c4ea8`).
+- **Trạng thái nghiệm thu**: `owner_approved` (`2026-11-10T08:03:00Z` — Owner chốt đạt chuẩn toàn bộ bundle sau khi tinh chỉnh nét vòm đùi) — Biên nhận: `assets/t_rex/owner_approval.json` (`atlas_sha256: 90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f`).
 - **Thông số gốc & Khung chuẩn**:
   - Master tĩnh đã duyệt: `work/characters/t_rex/approved-master/approved-original.png` (`1024×1024`, lưới pixel logic gốc `100×100` texel, phóng `2:1 Nearest` lên khung gameplay `384 × 256 px`, tâm chân `foot_anchor_px = [176, 224]`).
   - Sheet FX lửa của Owner: `work/characters/t_rex/approved-master/fire_fx_source.png` (`400×250`, nền `RGB(14, 14, 14)`, gồm 4 cụm lửa đọc theo thứ tự từ phải sang trái `Cụm 4 -> Cụm 3 -> Cụm 2 -> Cụm 1` và lật ngang sang phải `+X`).
@@ -30,4 +30,6 @@
      - Frame `0–1` (`p0..p1`): `T-rex` ngửa cổ lấy đà, mở hàm nén luồng khói nâu-vàng và lõi lửa sáng ngay trong vòm họng.
      - Frame `2–5` (`p2..p5`): `T-rex` lao đầu về trước và khạc 4 cụm lửa từ mẫu của Owner (đọc từ phải sang trái `Cụm 4 -> Cụm 3 -> Cụm 2 -> Cụm 1`, tách nền `diff > 32` + khử lem biên + lật ngang `+X`) tiến dần từ `x = 266` tới `x = 382` trên trục miệng `y = 138`, đồng thời xuất `fireball_fx` (`4 frame`, `[5, 5, 5, 5]` ticks) đồng bộ toạ độ qua `render_contract.projectile`.
      - Frame `6–8` (`p6..p8`): Khói tàn ở chóp mũi và khép hàm hồi về `idle`.
+  4. **Khối đùi hòa nhập tự nhiên theo Master Pixel Art (`Seamless Natural Master`)**:
+     - Triệt tiêu hoàn toàn vạch đen nhân tạo cắt ngang ở đỉnh đùi `y = 77` (`y = 154..155` gameplay); giữ nguyên 100% màu sắc và mảng sáng khối cơ đùi từ master kết hợp viền đen 2 mép trước/sau để khối đùi nổi rõ trên thân tự nhiên mà không bị thô cứng.
 <!-- SKILLS_ENTRIES_END -->

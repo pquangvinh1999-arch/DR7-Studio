@@ -4,10 +4,10 @@
   "workflow_id": "PIPE-001",
   "character_id": "t_rex",
   "display_name": "T-rex",
-  "approved_at": "2026-11-10T04:32:34Z",
-  "owner_message": "ok nhân vật này đạt điều kiện chốt giúp anh, để bắt đầu nhân vật tiếp theo",
+  "approved_at": "2026-11-10T08:03:00Z",
+  "owner_message": "ok nhân vật dặt chuẩn chốt T-rex để qua nhân vật tiếp theo.",
   "atlas_path": "assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png",
-  "atlas_sha256": "67df45fe8d8c517725c90648d461f9f3501db89f1edbf2ad20ef6069ff7c4ea8",
+  "atlas_sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f",
   "tres_path": "assets/t_rex/godot_bundle/godot/t_rex.tres",
   "prefab_path": "scenes/TRex.tscn",
   "canvas_size_px": [

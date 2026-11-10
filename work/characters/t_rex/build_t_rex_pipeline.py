@@ -619,7 +619,24 @@ class TRexBuilder:
             near_leg_buf,
             warp_part(self.near_foot, (40.0, 75.0), n_ankle_dst, p.n_foot_angle, outline=False),
         )
-        composite_over(canvas, add_pixel_outline(near_leg_buf))
+        op_leg = near_leg_buf[:, :, 3] > 0
+        struct4 = np.array([[0, 1, 0], [1, 1, 1], [0, 1, 0]], dtype=bool)
+        eroded_leg = ndimage.binary_erosion(op_leg, structure=struct4, border_value=0)
+        border_leg = op_leg & ~eroded_leg
+        leg_outlined = near_leg_buf.copy()
+        leg_outlined[border_leg] = OUTLINE_RGBA
+
+        # Seamless natural hip blend approved by Owner (eliminates harsh black horizontal seam at thigh top)
+        above_is_empty = np.pad(op_leg, ((1, 0), (0, 0)))[:-1, :] == False
+        top_cut = border_leg & above_is_empty & (np.arange(LOGICAL_H)[:, None] <= n_hip_dst[1] + 2)
+        t_ys, t_xs = np.where(top_cut)
+        if len(t_xs) > 0:
+            xmin, xmax = t_xs.min(), t_xs.max()
+            for y, x in zip(t_ys, t_xs):
+                if x > xmin and x < xmax:
+                    leg_outlined[y, x] = near_leg_buf[y, x]
+
+        composite_over(canvas, leg_outlined)
 
         # 5. Near Arm: Shoulder (63, 48)
         n_arm_dst = body_joint(63.0, 48.0)
@@ -1593,6 +1610,78 @@ def main() -> None:
     if res.returncode != 0:
         print("build_animation_clips stderr:", res.stderr.strip(), file=sys.stderr)
         sys.exit(res.returncode)
+
+    # 10. Copy built clips to assets/t_rex/clips
+    assets_clips_dir = REPO_ROOT / "assets" / "t_rex" / "clips"
+    if assets_clips_dir.exists():
+        shutil.rmtree(assets_clips_dir)
+    shutil.copytree(built_clips_dir, assets_clips_dir)
+    (assets_clips_dir / ".gdignore").touch()
+
+    # 11. Run export_engine to build Godot 4 / Aseprite bundle
+    exported_bundle_dir = stage_dir / "exported_bundle"
+    if exported_bundle_dir.exists():
+        shutil.rmtree(exported_bundle_dir)
+    export_script = REPO_ROOT / ".agent" / "skills" / "generate2dsprite" / "scripts" / "export_engine.py"
+    exp_res = subprocess.run(
+        [
+            sys.executable,
+            str(export_script),
+            "--clips",
+            str(assets_clips_dir / "animation-clips.json"),
+            "--target",
+            "all",
+            "--output-dir",
+            str(exported_bundle_dir),
+            "--name",
+            "t_rex",
+        ],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    print("export_engine stdout:", exp_res.stdout.strip())
+    if exp_res.returncode != 0:
+        print("export_engine stderr:", exp_res.stderr.strip(), file=sys.stderr)
+        sys.exit(exp_res.returncode)
+
+    # 12. Inject render_contract and fix source relative path in engine-export.json
+    engine_export_path = exported_bundle_dir / "engine-export.json"
+    ee_data = json.loads(engine_export_path.read_text(encoding="utf-8"))
+    ee_data["source"]["path"] = "../clips/animation-clips.json"
+    ee_data["render_contract"] = {
+        "body_clips": [
+            "idle",
+            "walk",
+            "run",
+            "attack_light",
+            "attack_heavy",
+            "power_up",
+            "hit",
+            "ko",
+        ],
+        "effect_clips": ["fireball_fx"],
+        "locomotion": {"kind": "ground", "clip": "walk"},
+        "aura": {"loop_clip": None, "charge_clip": None, "independent_clock": True},
+        "fx_pivot_px": [176, 128],
+        "projectile": {
+            "kind": "linear_energy",
+            "body_clip": "power_up",
+            "projectile_clip": "fireball_fx",
+            "release_frame": 2,
+            "lifetime_ticks": 20,
+            "origin_canvas_px": [304, 138],
+            "velocity_px_per_tick": [0.0, 0.0],
+        },
+    }
+    engine_export_path.write_text(json.dumps(ee_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    # 13. Deploy to assets/t_rex/godot_bundle
+    final_bundle_dir = REPO_ROOT / "assets" / "t_rex" / "godot_bundle"
+    if final_bundle_dir.exists():
+        shutil.rmtree(final_bundle_dir)
+    shutil.copytree(exported_bundle_dir, final_bundle_dir)
+    print("Successfully built and deployed new T-rex bundle to", final_bundle_dir)
 
 
 if __name__ == "__main__":
