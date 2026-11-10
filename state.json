@@ -1,6 +1,6 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-09T15:21:59Z",
+  "updated_at": "2026-11-10T04:14:46Z",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
     "version": "0.3.0",
@@ -64,9 +64,9 @@
     "version_file": "VERSION"
   },
   "current_focus": {
-    "active_task_id": "TASK-024",
+    "active_task_id": "TASK-025",
     "status": "completed",
-    "summary": "Đã commit/push code checkpoint96c7e750316f5ba131016bb5655b1a00d379ea57 lênorigin/main theoOwner. CI GitHub run42643703309 hoàn tất success; local ./loop.sh test exit0 (13Python/E2E,Godot roster0,2Rust),WASMreleasebuild0. Roster0,bundle0;giữpixelart/Kiđộc lập/no guard-win,khôngphụchồiassetđãxóa. Lưu handoff cho phiên ngàymai; loglocal đãignore khỏiGit."
+    "summary": "Owner đã nghiệm thu và chốt nhân vật T-rex (t_rex: 8 clip thân + 1 clip FX lửa 4 pha từ mẫu Owner theo chiều phải sang trái Cụm 4->1 lật ngang +X, đồng bộ frame 0-1 chuẩn bị khạc lửa ở power_up). Đã ghi PIPE-001 vào skills.md và biên nhận assets/t_rex/owner_approval.json; sẵn sàng bắt đầu nhân vật tiếp theo."
   },
   "open_issues": [],
   "resolved_issues": [
@@ -225,6 +225,12 @@
       "timestamp": "2026-11-09T15:21:59Z",
       "status": "completed",
       "summary": "Đã commit/push code checkpoint96c7e750316f5ba131016bb5655b1a00d379ea57 lênorigin/main theoOwner. CI GitHub run42643703309 hoàn tất success; local ./loop.sh test exit0 (13Python/E2E,Godot roster0,2Rust),WASMreleasebuild0. Roster0,bundle0;giữpixelart/Kiđộc lập/no guard-win,khôngphụchồiassetđãxóa. Lưu handoff cho phiên ngàymai; loglocal đãignore khỏiGit."
+    },
+    {
+      "id": "TASK-025",
+      "timestamp": "2026-11-10T04:32:34Z",
+      "status": "completed",
+      "summary": "Owner đã nghiệm thu và chốt nhân vật T-rex (t_rex: 8 clip thân + 1 clip FX lửa 4 pha từ mẫu Owner theo chiều phải sang trái Cụm 4->1 lật ngang +X, đồng bộ frame 0-1 chuẩn bị khạc lửa ở power_up). Đã ghi PIPE-001 vào skills.md và biên nhận assets/t_rex/owner_approval.json; sẵn sàng bắt đầu nhân vật tiếp theo."
     }
   ],
   "quick_resume_commands": [
@@ -233,19 +239,19 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Checkpoint main đã được Owner yêu cầu đồng bộ để tiếp tục ngày mai. Chờ yêu cầu mới; bắt đầu bằng ./loop.sh status. Roster0/bundle0, không phục hồi hai nhân vật đã xóa. Giữ pixel art, Ki/aura độc lập, không guard/win; engine/ngôn ngữ theo quyết định hiện hành của Owner.",
-    "source_atlas": null,
-    "source_sha256": null,
-    "analysis": ".agents/skills/create_atlas/references/vegeta-ssjb-analysis.md",
+    "next_action": "Nhân vật T-rex (t_rex) đã được Owner nghiệm thu và chốt hoàn tất (PIPE-001). Chờ Owner cung cấp hình ảnh / yêu cầu cho nhân vật tiếp theo.",
+    "source_atlas": "work/characters/t_rex/approved-master/approved-original.png",
+    "source_sha256": "a2059008470a9c4e63f85b67963e72d2268021d7e1632b7a73c09775",
+    "analysis": "docs/characters/t-rex-concept.md",
     "skill": ".agents/skills/create_atlas/SKILL.md",
-    "compatibility": ".agent là symlink tới .agents; hai đường dẫn đọc cùng skill. Chưa thử discovery trực tiếp bằng Antigravity CLI.",
-    "asset_status": "0 nhân vật; không còn asset/bundle/master/source/draft hoặc gói xuất của hai nhân vật đã xóa.",
-    "verification": "Code checkpoint96c7e75: ./loop.sh test exit0 (13Python/E2E,Godot roster0,2Rust); WASMreleasebuild exit0; GitHub CI run42643703309 completed/success. Chưa có nhân vật để nghiệm thu hoặc đo GPU/mobile.",
+    "compatibility": ".agent là symlink tới .agents; hai đường dẫn đọc cùng skill.",
+    "asset_status": "1 nhân vật hoàn thiện đã được Owner nghiệm thu: T-rex (t_rex, 9 clip / 71 frame, 1 trang Atlas 3494x2082).",
+    "verification": "./loop.sh test exit 0 (13 Python/E2E, Godot 4.7.2 Headless 9 clip / 71 frame, 2 Rust).",
     "atlas_design_rule": "Tách chức năng phổ quát khỏi hành vi riêng nhân vật; generate2dsprite/video2dsprite chỉ là tooling phía sau create-atlas. Sheet có sẵn dùng nhánh bảo toàn nguồn, không AI redraw.",
-    "character_concept": null,
-    "delivery": null,
-    "latest_delivery": null,
-    "active_character_concept": null,
+    "character_concept": "docs/characters/t-rex-concept.md",
+    "delivery": "assets/t_rex/godot_bundle",
+    "latest_delivery": "assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png",
+    "active_character_concept": "docs/characters/t-rex-concept.md",
     "git_checkpoint": {
       "branch": "main",
       "remote": "origin",
@@ -255,7 +261,16 @@
       "note": "This record is committed as a handoff after the verified code checkpoint; use git log for the newest handoff commit."
     }
   },
-  "approved_workflows": [],
+  "approved_workflows": [
+    {
+      "id": "PIPE-001",
+      "character_id": "t_rex",
+      "display_name": "T-rex",
+      "approved_at": "2026-11-10T04:32:34Z",
+      "approval_file": "assets/t_rex/owner_approval.json",
+      "atlas_sha256": "67df45fe8d8c517725c90648d461f9f3501db89f1edbf2ad20ef6069ff7c4ea8"
+    }
+  ],
   "owner_defaults": {
     "character_art_style": "pixel_art",
     "avoid": "HD sharpening/detail inflation",

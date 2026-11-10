@@ -830,12 +830,13 @@
       state.activeChar = ch;
       state.archMode = 'combined_1layer';
       const independent = getCharBundle(ch)?.render_contract;
+      const hasAura = Boolean(independent?.aura?.loop_clip && getCharBundle(ch)?.animations[independent.aura.loop_clip]);
       if(independent) { state.activeClipName='idle'; state.auraEnabled=false; state.fxTicks=0; arena.rageMode=false; }
-      document.getElementById('chkIndependentAura').disabled=!independent;
-      document.getElementById('chkIndependentAura').checked=Boolean(independent && state.auraEnabled);
+      document.getElementById('chkIndependentAura').disabled=!hasAura;
+      document.getElementById('chkIndependentAura').checked=Boolean(hasAura && state.auraEnabled);
       document.getElementById('attachmentRuntimeNote').textContent=independent ? 'Thân và FX độc lập • chung một atlas • có thêm quad khi bật FX. Tab Stress hiện vẽ riêng sprite thân.' : '';
       document.getElementById('btnJump').disabled=!getCharBundle(ch)?.animations.jump;
-      document.getElementById('arenaControlHint').textContent=independent ? (independent.locomotion?.kind==='flight' ? 'A/D: bay ngang • E: bật/tắt Ki • nút kỹ năng bên phải' : 'A/D: di chuyển • E: bật/tắt Ki • nút kỹ năng bên phải') : 'A/D: đi bộ • Shift: chạy • W/Space: nhảy';
+      document.getElementById('arenaControlHint').textContent=independent ? (independent.locomotion?.kind==='flight' ? 'A/D: bay ngang • E: bật/tắt Ki • nút kỹ năng bên phải' : (hasAura ? 'A/D: di chuyển • E: bật/tắt Ki • nút kỹ năng bên phải' : 'A/D: đi bộ • Shift: chạy • nút kỹ năng bên phải')) : 'A/D: đi bộ • Shift: chạy • W/Space: nhảy';
 
       const [cw, chPx] = getCanvasSize(ch);
       ensureOffscreenSize(cw, chPx);
@@ -1100,7 +1101,8 @@
       listEl.querySelectorAll('.clip-chip').forEach(btn => {
         btn.onclick = () => {
           state.activeClipName = btn.dataset.clip;
-          if(b.render_contract && ['power_up','aura_loop','ko'].includes(state.activeClipName)) {state.auraEnabled=state.activeClipName!=='ko';document.getElementById('chkIndependentAura').checked=state.auraEnabled;}
+          const hasAura = Boolean(b.render_contract?.aura?.loop_clip && b.animations[b.render_contract.aura.loop_clip]);
+          if(hasAura && ['power_up','aura_loop','ko'].includes(state.activeClipName)) {state.auraEnabled=state.activeClipName!=='ko';document.getElementById('chkIndependentAura').checked=state.auraEnabled;}
           state.stepIdx = 0;
           state.stepElapsedMs = 0;
           state.playing = true;
@@ -1195,7 +1197,8 @@
       const tick=animationFrameTick(anim,index)+(options.elapsedMs||0)*0.06;
       const fxTick=options.fxTicks===undefined?state.fxTicks:options.fxTicks;
       const layers=[];
-      const auraOn=auraView||(options.auraEnabled===undefined?state.auraEnabled:options.auraEnabled);
+      const hasAuraLoop=Boolean(contract.aura?.loop_clip&&b.animations[contract.aura.loop_clip]);
+      const auraOn=hasAuraLoop&&(auraView||(options.auraEnabled===undefined?state.auraEnabled:options.auraEnabled));
       if(auraOn&&bodyName!=='ko') {
         const charge=b.animations[contract.aura.charge_clip];
         const effect=charge&&bodyName==='power_up'&&tick<animationTickLength(charge)?charge:b.animations[contract.aura.loop_clip];
@@ -1207,7 +1210,8 @@
       if(!p)return layers;
       if(p.kind==='linear_energy') {
         if(bodyName===p.body_clip) {
-          const elapsed=tick-animationFrameTick(anim,p.release_frame);
+          const baseTick=(p.velocity_px_per_tick[0]===0&&p.velocity_px_per_tick[1]===0)?animationFrameTick(anim,index):tick;
+          const elapsed=baseTick-animationFrameTick(anim,p.release_frame);
           if(elapsed>=0&&elapsed<p.lifetime_ticks)layers.push({layer:'Projectile',bundle:b.id,frame:sampleFxFrame(b.animations[p.projectile_clip],elapsed),point:p.origin_canvas_px.map((v,j)=>v+elapsed*p.velocity_px_per_tick[j]),pivot:contract.fx_pivot_px,angle:0});
         }
         return layers;
@@ -1860,9 +1864,10 @@
       arena.clip = clipName;
       arena.step = 0;
       arena.elapsed = 0;
+      const hasAuraLoop = Boolean(b.render_contract?.aura?.loop_clip && b.animations[b.render_contract.aura.loop_clip]);
       if (clipName === 'power_up') {
         arena.rageMode = true;
-        if(b.render_contract){state.auraEnabled=true;document.getElementById('chkIndependentAura').checked=true;}
+        if(hasAuraLoop){state.auraEnabled=true;document.getElementById('chkIndependentAura').checked=true;}
       }
       const sp = SKILL_SPECS[clipName] || {
         dmg: 350,
@@ -1874,7 +1879,8 @@
       arena.hitstop = 45;
       const dist = Math.abs(arena.x - arena.dummyX);
       const facingDummy = arena.x <= arena.dummyX ? !arena.flip : arena.flip;
-      if (!(b.render_contract && clipName==='power_up') && dist <= sp.range && (clipName === 'power_up' || facingDummy)) {
+      const powerUpIsPassiveAura = Boolean(hasAuraLoop && b.render_contract?.projectile?.body_clip !== 'power_up');
+      if (!(powerUpIsPassiveAura && clipName==='power_up') && dist <= sp.range && (clipName === 'power_up' || facingDummy)) {
         arena.dummyHp = arena.dummyHp <= sp.dmg ? arena.dummyMaxHp : arena.dummyHp - sp.dmg;
         arena.dummyFlash = 1.0;
         arena.dummyClip = b.animations['hit'] ? 'hit' : 'idle';

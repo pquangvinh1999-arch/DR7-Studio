@@ -227,11 +227,23 @@ for (const ch of apiPayload.roster.characters) {
   const contract=bundle.render_contract;
   if (!contract) continue;
   const motion=contract.locomotion?.clip||'idle';
-  const aura=bundle.animations[contract.aura.loop_clip];
-  const layers=T.getLayerFramesForStep(motion,0,{auraEnabled:true,fxTicks:0});
-  assert.deepEqual(Array.from(layers,x=>x.layer),['Aura','Body']);
-  assert.equal(layers[0].frame,aura.frames[0]);
-  assert.equal(layers[1].frame,bundle.animations[motion].frames[0]);
+  if (contract.aura?.loop_clip && bundle.animations[contract.aura.loop_clip]) {
+    const aura=bundle.animations[contract.aura.loop_clip];
+    const layers=T.getLayerFramesForStep(motion,0,{auraEnabled:true,fxTicks:0});
+    assert.deepEqual(Array.from(layers,x=>x.layer),['Aura','Body']);
+    assert.equal(layers[0].frame,aura.frames[0]);
+    assert.equal(layers[1].frame,bundle.animations[motion].frames[0]);
+  } else {
+    const layers=T.getLayerFramesForStep(motion,0,{auraEnabled:true,fxTicks:0});
+    assert.deepEqual(Array.from(layers,x=>x.layer),['Body']);
+    assert.equal(layers[0].frame,bundle.animations[motion].frames[0]);
+  }
+  if (contract.projectile?.kind === 'linear_energy') {
+    const p = contract.projectile;
+    const projLayers = T.getLayerFramesForStep(p.body_clip, p.release_frame, {auraEnabled:false, fxTicks:0});
+    assert.deepEqual(Array.from(projLayers, x => x.layer), ['Body', 'Projectile']);
+    assert.equal(projLayers[1].frame, bundle.animations[p.projectile_clip].frames[0]);
+  }
   assert.equal(T.getLayerFramesForStep(motion,0,{auraEnabled:false}).length,1);
   T.renderInspector();
   assert.equal(getEl('runtimeErrorBanner').textContent,'');

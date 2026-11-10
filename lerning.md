@@ -131,4 +131,14 @@
 - **Bằng chứng code**: khi rà checkpoint, renderer đọc `p.kind` ngay sau `const p=contract.projectile`; contract có body/aura nhưng không có projectile chưa được xử lý. Ki độc lập là mặc định Owner, không đồng nghĩa mọi nhân vật phải có chưởng.
 - **Sửa đã kiểm chứng**: trả về các lớp body/aura khi projectile không được khai báo; gợi ý điều khiển không áp bộ đòn/chạy/nhảy của nhân vật cũ cho mọi contract. E2E dùng fixture có walk và aura nhưng không có projectile: aura đổi pha trong khi frame thân giữ nguyên, tắt aura còn thân và renderInspector không báo lỗi. ./loop.sh test exit0:13Python/E2E,Godot roster0,2Rust. Đây là kiểm chứng contract tổng hợp, không phải nghiệm thu một nhân vật mới.
 
+### [LRN-016] Lọc liên thông từng bộ phận giải phẫu, xử lý render_contract không có aura_loop và đồng bộ sheet FX đảo chiều
+- **Bằng chứng**:
+  1. Ở bản `stage_v1` của `t_rex`, mặt nạ `far_leg_all` (`xx >= 53`) không chặn biên phải `xx <= 69` nên lấy nhầm 2 pixel móng tay `far_arm` tại toạ độ nguồn `(77, 57)` và `(79, 57)` (`components=3`), tạo 2 chấm đen trôi dưới tay ở `idle` p7 và `hit` p0.
+  2. `tools/preview/index.html` và `tests/test_frontend_wasm_e2e.mjs` mặc định nhân vật có `render_contract` luôn có `contract.aura.loop_clip`, gây lỗi khi nhân vật đặc biệt (`t_rex`) chỉ có `projectile` (`fireball_fx`) và Owner loại `aura_loop`.
+  3. Sheet lửa đính kèm (`400×250`, nền `RGB(14,14,14)`) của Owner có thứ tự bắt đầu->kết thúc từ phải sang trái (`Cụm 4 -> Cụm 3 -> Cụm 2 -> Cụm 1`) và hướng đạn gốc bay sang trái (`-X`).
+- **Sửa đã kiểm chứng**:
+  1. Thêm kiểm lọc thành phần liên thông chính (`ndimage.label`) trong `extract_part_with_cap` và khoá biên `xx <= 69` cho `far_leg_all`, đảm bảo cả 12 bộ phận của `t_rex` đều đạt `components == 1` và 0 hạt nhiễu rời trên toàn bộ 71 frame.
+  2. Cập nhật `tools/preview/index.html` và `tests/test_frontend_wasm_e2e.mjs` kiểm tra `Boolean(contract.aura?.loop_clip && animations[contract.aura.loop_clip])` trước khi bật lớp `Aura`, đồng thời cho phép `power_up` gây sát thương trong Sân Tập khi `power_up` là đòn bắn `projectile`.
+  3. Tách 4 cụm lửa từ phải sang trái (`x=295..400`, `195..295`, `98..195`, `0..98`), khử nền `RGB(14,14,14)` 2 giai đoạn (`diff > 32` + edge unmixing + viền `1px`), lật ngang hướng `+X` và đồng bộ khớp 1:1 với miệng `t_rex` ở `power_up` (`p0..p1` lấy đà nén lửa trong họng -> `p2..p5` khạc 4 cụm lửa tiến dần từ `x=266` tới `x=382` -> `p6..p8` hồi chiêu). Kiểm thử `./loop.sh test` (13 Python/E2E, Godot 4.7.2 Headless 9 clip / 71 frame, 2 Rust) đạt `exit code 0`.
+
 <!-- LERNING_ENTRIES_END -->

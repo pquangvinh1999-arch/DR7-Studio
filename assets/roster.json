@@ -19,5 +19,142 @@
       "win"
     ]
   },
-  "characters": []
+  "characters": [
+    {
+      "character_id": "t_rex",
+      "display_name": "T-rex",
+      "faction": "special_beasts",
+      "role_label": "Bipedal Dinosaur Fighter (Jaw Bite VFX / Spin Tail Sweep / Spinning Fireball)",
+      "tags": [
+        "dinosaur",
+        "bipedal",
+        "pixel_art",
+        "projectile_fx"
+      ],
+      "status": "finalized_owner_approved",
+      "facing_contract": {
+        "camera_view": "side_view_2d",
+        "default_atlas_facing": "right (+X)",
+        "left_facing_rule": "horizontal_flip_around_foot_anchor_x (flip_h = true, anchor_x = 176)",
+        "locomotion_vector_rule": "Bipedal 2-hind-leg walk/run along horizontal ground axis; attack_heavy performs a 360-degree body spin to whip the tail forward (+X)."
+      },
+      "map_sync_metrics": {
+        "canvas_size_px": [
+          384,
+          256
+        ],
+        "foot_anchor_px": [
+          176.0,
+          224.0
+        ],
+        "body_only_bbox_px": {
+          "x": 78,
+          "y": 94,
+          "w": 186,
+          "h": 134
+        },
+        "full_fx_bbox_px": {
+          "x": 66,
+          "y": 76,
+          "w": 316,
+          "h": 156
+        },
+        "world_size_at_64ppu_m": {
+          "body_w_m": 2.91,
+          "body_h_m": 2.09,
+          "aura_w_m": 4.94,
+          "aura_h_m": 2.44
+        },
+        "tile_32px_span": {
+          "body_tiles_w": 5.81,
+          "body_tiles_h": 4.19,
+          "full_fx_tiles_w": 9.88,
+          "full_fx_tiles_h": 4.88
+        }
+      },
+      "pixel_sharpness_metrics": {
+        "texel_scale_ratio": "2:1 Nearest (100x100 logical master -> 384x256 gameplay canvas)",
+        "edge_acutance_sobel": 201.3,
+        "alpha_hardness_pct": 100.0,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0
+      },
+      "present_clips": [
+        "idle",
+        "walk",
+        "run",
+        "attack_light",
+        "attack_heavy",
+        "power_up",
+        "hit",
+        "ko"
+      ],
+      "effect_clips": [
+        "fireball_fx"
+      ],
+      "missing_provisional_clips": [
+        "jump",
+        "guard",
+        "aura_loop",
+        "win"
+      ],
+      "not_applicable_clips": {
+        "jump": "Owner khóa đặc tả nhân vật T-rex: khủng long di chuyển bằng 2 chân trên mặt đất, không có hoạt ảnh jump (không được setup).",
+        "aura_loop": "Owner khóa đặc tả nhân vật T-rex: không có aura_loop; power_up là phun 1 hạt lửa xoay nhiều frame về phía trước (fireball_fx).",
+        "guard": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo guard cho bất kỳ nhân vật nào.",
+        "win": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo win cho bất kỳ nhân vật nào."
+      },
+      "render_contract": {
+        "body_clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "attack_heavy",
+          "power_up",
+          "hit",
+          "ko"
+        ],
+        "effect_clips": [
+          "fireball_fx"
+        ],
+        "locomotion": {
+          "kind": "ground",
+          "clip": "walk"
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": null,
+          "independent_clock": true
+        },
+        "fx_pivot_px": [
+          176,
+          128
+        ],
+        "projectile": {
+          "kind": "linear_energy",
+          "body_clip": "power_up",
+          "projectile_clip": "fireball_fx",
+          "release_frame": 2,
+          "lifetime_ticks": 20,
+          "origin_canvas_px": [
+            304,
+            138
+          ],
+          "velocity_px_per_tick": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "modes": {
+        "combined_1layer": {
+          "label": "Gộp Chung 1 Lớp Nguyên Bản (1 Quad / 1 Draw Call + Independent Projectile FX)",
+          "godot_prefab": "res://scenes/TRex.tscn",
+          "bundle_id": "t_rex"
+        }
+      }
+    }
+  ]
 }

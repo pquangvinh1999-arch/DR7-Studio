@@ -1,0 +1,18 @@
+{
+  "character_id": "t_rex",
+  "display_name": "T-rex",
+  "status": "owner_approved_master",
+  "approved_at": "2026-11-10T02:18:20Z",
+  "source_file": "work/trex_pixel_sample.png",
+  "sha256": "a2059008470a9c4e63f85b67963e72d2268021d7e1049da7e1632b7a73c09775",
+  "size_px": [
+    1024,
+    1024
+  ],
+  "logical_grid_px": [
+    100,
+    100
+  ],
+  "art_source": "host_image",
+  "route": "image-generator (built-in host_image)"
+}
