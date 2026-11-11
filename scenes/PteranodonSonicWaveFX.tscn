@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="SpriteFrames" path="res://assets/pteranodon/godot_bundle/godot/pteranodon.tres" id="1_frames"]
+
+[node name="PteranodonSonicWaveFX" type="AnimatedSprite2D"]
+texture_filter = 1
+sprite_frames = ExtResource("1_frames")
+animation = &"sonic_screech_fx"
+autoplay = "sonic_screech_fx"
+centered = false
+offset = Vector2(-176.0, -128.0)

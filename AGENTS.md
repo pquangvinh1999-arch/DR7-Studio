@@ -94,8 +94,12 @@ Agent tuyệt đối **KHÔNG ĐƯỢC NHẦM LẪN** hai khái niệm sau:
    - Bộ clip tham chiếu chiến đấu cốt lõi gồm: `idle`, `walk`, `run`, `jump`, `guard`, `attack_light`, `attack_heavy`, `power_up`, `aura_loop`, `hit`, `ko`, `win` (cùng các kỹ năng đặc trưng từng tướng như kiếm khí, chưởng lực, tốc biến, chiêu cuối).
    - Hệ thống kiểm thử (`./loop.sh check` và UI `localhost:8080`) kiểm tra danh sách clip của mỗi nhân vật và phát cảnh báo nhắc nhở (`WARN`) rõ ràng nếu nhân vật mới chỉ có một phần hoạt ảnh.
    - **Owner chốt phạm vi chung**: không tạo `guard` và `win` cho bất kỳ nhân vật nào; không hỏi lại. Giữ WARN tham chiếu nếu có và ghi lý do Owner loại, không tạo clip giả.
-2. **Thông số Kích thước Nhân vật & Độ Nét Pixel Để Đồng Bộ Với Scene Map**:
-   - **Phong cách hệ thống là pixel art**: giữ palette, độ thô pixel và mật độ chi tiết theo mẫu Owner; không tự nâng HD/làm quá nét mất đồng bộ. Review ở kích thước gameplay và nearest nguyên lần.
+2. **Thông số Kích thước Nhân vật, Mốc Chuẩn Pixel Art & Phong Cách Chung Mặc Định**:
+   - **Mốc Chuẩn Pixel Art & Độ Sắc Nét Studio (Chuẩn `100×100` Texel & `Sobel Acutance = 201.3` từ `T-rex`)**:
+     - Toàn bộ nhân vật và quái thú bắt buộc bám sát mốc chuẩn độ thô và độ nét pixel của `T-rex`: lưới logic gốc `100×100` texel phóng `2:1 Nearest` lên khung gameplay `384×256 px` (hoặc canvas chuẩn của lớp thực thể), bảng màu tinh giản `<= 16` màu sắc nét, mảng pixel to rõ (chunky pixels), không dither hạt mịn hay chi tiết vi mô gây nặng tải đồ họa, đảm bảo mượt 60 FPS cho bài toán >2,000 thực thể chiến đấu.
+     - **Khoá chuẩn thông số độ nét `T-rex` cho mọi nhân vật tiếp theo** (để không bị làm quá nét lẫn quá nhòe): `texel_scale_ratio = "2:1 Nearest (100x100 logical master -> 384x256 gameplay canvas)"`, `edge_acutance_sobel = 201.3` (tương phản rõ giữa viền tối `1px` và các dải khối cơ/vảy/cánh nội vùng, không bệt màu tối vào viền), `alpha_hardness_pct = 100.0%`, `opaque_key_px == 0`, `enclosed_key_pockets == 0`, `outer_ring_spill_fraction == 0.0`.
+   - **Phong cách thẩm mỹ chung mặc định**:
+     - Toàn bộ quái thú / sinh vật mặc định mang phong cách **"Hung tợn"** (hàm răng nanh/răng cưa nhọn hoắt tạo cảm giác đáng sợ, ánh mắt sắt lẹm hung dữ, móng vuốt sắc bén uy lực, tông màu đậm chắc sẫm) — trừ khi Owner có yêu cầu đặc thù riêng cho từng nhân vật.
    - Mọi nhân vật trong `roster.json` bắt buộc đo đạc và công bố đầy đủ:
      - `canvas_size_px` (`[W, H]`), `foot_anchor_px` (`[ax, ay]`).
      - `body_only_bbox_px` (rộng × cao phần thân thuần ở tư thế đứng) và `full_fx_bbox_px` (rộng × cao bao trọn kiếm khí / hào quang / chưởng lực cực đại).

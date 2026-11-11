@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scenes/CharacterFighter2D.gd" id="1_fighter"]
+[ext_resource type="SpriteFrames" path="res://assets/pteranodon/godot_bundle/godot/pteranodon.tres" id="2_frames"]
+[ext_resource type="Script" path="res://tests/SkillAnimator2D.gd" id="3_anim"]
+
+[node name="Pteranodon" type="Node2D"]
+script = ExtResource("1_fighter")
+character_id = "pteranodon"
+engine_export_json = "res://assets/pteranodon/godot_bundle/engine-export.json"
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = ExtResource("2_frames")
+animation = &"idle"
+autoplay = "idle"
+centered = false
+offset = Vector2(-176.0, -200.0)
+
+[node name="ProjectileFX" type="AnimatedSprite2D" parent="."]
+visible = false
+texture_filter = 1
+sprite_frames = ExtResource("2_frames")
+animation = &"sonic_screech_fx"
+centered = false
+offset = Vector2(-74.0, -200.0)
+
+[node name="SkillAnimator" type="Node2D" parent="."]
+script = ExtResource("3_anim")

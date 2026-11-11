@@ -11,6 +11,7 @@ signal action_finished(clip_name: StringName)
 @export_file("*.json") var engine_export_json: String = ""
 
 var sprite: AnimatedSprite2D = null
+var projectile_sprite: AnimatedSprite2D = null
 var animator: SkillAnimator2D = null
 
 func _ready() -> void:
@@ -19,6 +20,10 @@ func _ready() -> void:
 func _ensure_nodes() -> void:
 	if sprite == null:
 		sprite = get_node_or_null("Sprite") as AnimatedSprite2D
+	if projectile_sprite == null:
+		projectile_sprite = get_node_or_null("ProjectileFX") as AnimatedSprite2D
+		if projectile_sprite != null and not projectile_sprite.animation_finished.is_connected(_on_projectile_finished):
+			projectile_sprite.animation_finished.connect(_on_projectile_finished)
 	if animator == null:
 		animator = get_node_or_null("SkillAnimator") as SkillAnimator2D
 	if animator != null and sprite != null:
@@ -36,6 +41,9 @@ func play_clip(clip_name: StringName) -> bool:
 		return false
 	if not sprite.sprite_frames.has_animation(clip_name):
 		return false
+	if projectile_sprite != null:
+		projectile_sprite.visible = false
+		projectile_sprite.stop()
 	if animator != null:
 		animator.play_skill(clip_name)
 	else:
@@ -53,7 +61,17 @@ func list_clips() -> PackedStringArray:
 	return sprite.sprite_frames.get_animation_names()
 
 func _on_skill_event(event_name: String, frame_index: int, at_ms: int, payload: Dictionary) -> void:
+	if projectile_sprite != null and payload.has("projectile"):
+		var proj_clip := StringName(String(payload["projectile"]))
+		if projectile_sprite.sprite_frames != null and projectile_sprite.sprite_frames.has_animation(proj_clip):
+			projectile_sprite.visible = true
+			projectile_sprite.frame = 0
+			projectile_sprite.play(proj_clip)
 	action_event.emit(event_name, frame_index, at_ms, payload)
+
+func _on_projectile_finished() -> void:
+	if projectile_sprite != null:
+		projectile_sprite.visible = false
 
 func _on_skill_finished(clip_name: StringName) -> void:
 	action_finished.emit(clip_name)

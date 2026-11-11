@@ -1,0 +1,41 @@
+{
+  "schema": "dr7-studio.owner_approval_receipt.v1",
+  "status": "owner_approved",
+  "workflow_id": "PIPE-002",
+  "character_id": "pteranodon",
+  "display_name": "Pteranodon",
+  "approved_at": "2026-11-11T08:33:19.680871+00:00",
+  "owner_message": "ok nhân vật này chuẩn rồi. chốt nhân vật này giúp anh nhé. thực hiện các qui tình chốt theo đúng hiến pháp sau đó push code lên main giúp anh để anh bắt đầu với nhân vật sau",
+  "approved_revision": "v8",
+  "atlas_path": "assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png",
+  "atlas_sha256": "1dfc61d34a41a02cfcc7a048c5310618950d71972953904cad19cf241d1d041a",
+  "tres_path": "assets/pteranodon/godot_bundle/godot/pteranodon.tres",
+  "prefab_path": "scenes/Pteranodon.tscn",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176.0,
+    200.0
+  ],
+  "present_clips": [
+    "idle",
+    "walk",
+    "run",
+    "attack_light",
+    "power_up",
+    "hit",
+    "ko"
+  ],
+  "effect_clips": [
+    "sonic_screech_fx"
+  ],
+  "excluded_clips": [
+    "jump",
+    "attack_heavy",
+    "aura_loop",
+    "guard",
+    "win"
+  ]
+}

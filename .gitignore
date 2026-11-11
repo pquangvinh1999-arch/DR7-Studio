@@ -16,3 +16,12 @@ target/
 
 # Local task verification logs
 /work/**/*.log
+
+# Pteranodon local iterations; approved sources, builder, receipt and QA are tracked
+/work/characters/pteranodon/master-review/
+/work/characters/pteranodon/filmstrips/
+/work/characters/pteranodon/stage/
+/work/characters/pteranodon/revision-v7/
+/work/characters/pteranodon/revision-v8/
+/work/characters/pteranodon/review-references/
+/work/doctor.json

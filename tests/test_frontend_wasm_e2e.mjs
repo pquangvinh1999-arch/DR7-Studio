@@ -75,6 +75,7 @@ function makeMockCtx2d(canvas) {
     fillRect() { drawCalls++; },
     strokeRect() { drawCalls++; },
     beginPath() {},
+    closePath() {},
     moveTo() {},
     lineTo() {},
     stroke() { drawCalls++; },
@@ -189,7 +190,7 @@ const sandbox = {
   },
 };
 
-const instrumentedJs = jsCode + '\n;globalThis.__TEST__ = { state, stress, arena, selectCharacter, stepInspectorAnimation, renderInspector, stepAndRenderStressArena, stepAndRenderArena, triggerArenaAction, getCanvasSize, getLayerFramesForStep };';
+const instrumentedJs = jsCode + '\n;globalThis.__TEST__ = { state, stress, arena, selectCharacter, stepInspectorAnimation, renderInspector, stepAndRenderStressArena, stepAndRenderArena, triggerArenaAction, getCanvasSize, getLayerFramesForStep, selectionPixelRuns, updateAgentSpecText, offCtx };';
 vm.createContext(sandbox);
 vm.runInContext(instrumentedJs, sandbox);
 
@@ -409,5 +410,55 @@ T.state.activeClipName='walk';
 T.state.auraEnabled=true;
 T.renderInspector();
 assert.equal(getEl('runtimeErrorBanner').textContent,'');
+
+// Freehand selection: exercise real pointer handlers with CSS-scaled canvas,
+// concave mask, exact exported runs, and pixels excluded from RGB statistics.
+const inspector = getEl('inspectorCanvas');
+inspector.getBoundingClientRect = () => ({left:17,top:23,width:inspector.width/2,height:inspector.height/2});
+const emitPointer = (type,x,y) => {
+  const ev = {type, pointerId:1, button:0, preventDefault() {},
+    clientX:17+(28+x*T.state.zoom)/2, clientY:23+(28+y*T.state.zoom)/2};
+  for (const fn of inspector._listeners[type] || []) fn(ev);
+};
+const oldRead = T.offCtx.getImageData;
+T.offCtx.getImageData = (x,y,w,h) => {
+  const data = new Uint8ClampedArray(w*h*4);
+  for (let row=0;row<h;row++) for (let col=0;col<w;col++) {
+    const excluded = x+col>=14 && y+row>=14;
+    data.set(excluded ? [250,0,0,255] : [20,40,60,255], (row*w+col)*4);
+  }
+  return {data};
+};
+getEl('selSelectionMode').onchange({target:{value:'lasso'}});
+T.state.playing=true;
+emitPointer('pointerdown',10,10);
+for (const [x,y] of [[20,10],[20,14],[14,14],[14,20]]) emitPointer('pointermove',x,y);
+emitPointer('pointerup',10,20); // final point must be included even without move
+assert.equal(T.state.playing,false,'Selection freezes the displayed pose');
+const runs=Array.from(T.selectionPixelRuns(T.state.selectedRect,T.state.selectedPolygon),r=>Array.from(r));
+assert.equal(runs.reduce((n,r)=>n+r[2],0),64,'Concave lasso excludes the 6x6 notch');
+assert.equal(runs.some(([y,x,len])=>y>=14 && x+len>14),false);
+let text=getEl('txtAgentSpec').value;
+assert.match(text,/Canvas Lasso/);
+assert.match(text,/64\/64 pixel có hình, RGB trung bình=\[20, 40, 60\]/);
+const copiedRuns=JSON.parse(text.match(/PixelRuns Canvas \[y,x,length\] \(mặt nạ chính xác\): (.*)/)[1]);
+assert.deepEqual(copiedRuns,runs,'Copy must preserve the exact mask used by statistics');
+T.renderInspector(); // closed freehand overlay must render without canvas errors
+getEl('btnAddPin').click();
+assert.equal(T.state.pinnedSpecs.at(-1),text,'Pins preserve the freehand mask');
+getEl('selSelectionMode').onchange({target:{value:'rect'}});
+emitPointer('pointerdown',20,20); emitPointer('pointerup',10,10);
+assert.equal(T.state.selectedPolygon,null);
+assert.deepEqual(JSON.parse(JSON.stringify(T.state.selectedRect)),{x:10,y:10,w:11,h:11});
+assert.match(getEl('txtAgentSpec').value,/Canvas Rect\(10, 10, 11, 11\)/);
+assert.match(getEl('txtAgentSpec').value,/121\/121 pixel có hình/);
+getEl('btnClearRect').click();
+assert.equal(T.state.selectedRect,null);
+getEl('selSelectionMode').onchange({target:{value:'lasso'}});
+emitPointer('pointerdown',10,10); emitPointer('pointerup',10,10);
+assert.equal(T.state.selectedRect,null,'Degenerate lasso must clear instead of selecting bbox');
+emitPointer('pointerdown',10,10); emitPointer('pointermove',20,20); emitPointer('pointercancel',20,20);
+assert.equal(T.state.selectedRect,null,'Cancelled touch gestures clear their unfinished selection');
+T.offCtx.getImageData=oldRead;
 
 console.log('[OK] Frontend E2E + Rust WASM + 3-Tab Dynamic Canvas (Empty Roster + Multi-Character) PASSED 100%!');

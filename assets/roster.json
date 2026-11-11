@@ -155,6 +155,143 @@
           "bundle_id": "t_rex"
         }
       }
+    },
+    {
+      "character_id": "pteranodon",
+      "display_name": "Pteranodon",
+      "faction": "special_beasts",
+      "role_label": "Predatory Flying Pterosaur (Biomechanical Wingbeat / Beak Strike / 7-Phase Sonic Screech)",
+      "tags": [
+        "dinosaur",
+        "pterosaur",
+        "flying",
+        "pixel_art",
+        "projectile_fx"
+      ],
+      "status": "finalized",
+      "facing_contract": {
+        "camera_view": "side_view_2d",
+        "default_atlas_facing": "right (+X)",
+        "left_facing_rule": "horizontal_flip_around_foot_anchor_x (flip_h = true, anchor_x = 176)",
+        "locomotion_vector_rule": "Aerial flight locomotion with full vertical wingbeat excursion (upstroke V above back -> horizontal camber sweep -> deep power downstroke below belly); attack_light thrusts beak straight forward (+X)."
+      },
+      "map_sync_metrics": {
+        "canvas_size_px": [
+          384,
+          256
+        ],
+        "foot_anchor_px": [
+          176.0,
+          200.0
+        ],
+        "body_only_bbox_px": {
+          "x": 80,
+          "y": 74,
+          "w": 194,
+          "h": 132
+        },
+        "full_fx_bbox_px": {
+          "x": 36,
+          "y": 56,
+          "w": 330,
+          "h": 180
+        },
+        "world_size_at_64ppu_m": {
+          "body_w_m": 3.03,
+          "body_h_m": 2.06,
+          "aura_w_m": 5.16,
+          "aura_h_m": 2.81
+        },
+        "tile_32px_span": {
+          "body_tiles_w": 6.06,
+          "body_tiles_h": 4.12,
+          "full_fx_tiles_w": 10.31,
+          "full_fx_tiles_h": 5.62
+        }
+      },
+      "pixel_sharpness_metrics": {
+        "texel_scale_ratio": "2:1 Nearest (100x100 logical master -> 384x256 gameplay canvas)",
+        "edge_acutance_sobel": 201.3,
+        "alpha_hardness_pct": 100.0,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0
+      },
+      "present_clips": [
+        "idle",
+        "walk",
+        "run",
+        "attack_light",
+        "power_up",
+        "hit",
+        "ko"
+      ],
+      "effect_clips": [
+        "sonic_screech_fx"
+      ],
+      "missing_provisional_clips": [
+        "jump",
+        "guard",
+        "attack_heavy",
+        "aura_loop",
+        "win"
+      ],
+      "not_applicable_clips": {
+        "jump": "Owner khóa đặc tả nhân vật Pteranodon: dực long bay lượn liên tục trên không, không cần hoạt ảnh jump.",
+        "attack_heavy": "Owner khóa đặc tả riêng nhân vật Pteranodon: bỏ đòn tấn công nặng (attack_heavy); chỉ sử dụng đòn mỏ tấn công nhẹ về trước (attack_light) và chiêu sóng âm (power_up).",
+        "aura_loop": "Owner khóa đặc tả nhân vật Pteranodon: sinh vật tự nhiên không có Ki Saiyan / aura_loop; power_up phát sóng âm siêu thanh 7 pha từ mẫu của Owner (sonic_screech_fx).",
+        "guard": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo guard cho bất kỳ nhân vật nào.",
+        "win": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo win cho bất kỳ nhân vật nào."
+      },
+      "render_contract": {
+        "body_clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "power_up",
+          "hit",
+          "ko"
+        ],
+        "effect_clips": [
+          "sonic_screech_fx"
+        ],
+        "locomotion": {
+          "kind": "flight",
+          "clip": "walk"
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": null,
+          "independent_clock": true
+        },
+        "fx_pivot_px": [
+          176,
+          128
+        ],
+        "projectile": {
+          "kind": "linear_energy",
+          "body_clip": "power_up",
+          "projectile_clip": "sonic_screech_fx",
+          "release_frame": 2,
+          "lifetime_ticks": 14,
+          "origin_canvas_px": [
+            278,
+            128
+          ],
+          "velocity_px_per_tick": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "modes": {
+        "combined_1layer": {
+          "label": "Gộp Chung 1 Lớp Nguyên Bản (1 Quad / 1 Draw Call + Independent Sonic Screech FX)",
+          "godot_prefab": "res://scenes/Pteranodon.tscn",
+          "bundle_id": "pteranodon"
+        }
+      }
     }
   ]
 }

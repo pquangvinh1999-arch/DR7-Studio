@@ -14,7 +14,9 @@ import io
 import json
 import os
 import re
+import socket
 import sys
+import threading
 import zipfile
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -371,7 +373,11 @@ class PreviewHandler(BaseHTTPRequestHandler):
             for k, v in extra_headers.items():
                 self.send_header(k, v)
         self.end_headers()
-        self.wfile.write(data)
+        if getattr(self, "command", "GET") != "HEAD":
+            self.wfile.write(data)
+
+    def do_HEAD(self) -> None:
+        self.do_GET()
 
     def do_GET(self) -> None:
         parsed = urlparse(self.path)
@@ -440,9 +446,39 @@ class PreviewHandler(BaseHTTPRequestHandler):
         self._send_bytes(404, "text/plain; charset=utf-8", b"Not found")
 
 
+class IPv4Server(ThreadingHTTPServer):
+    address_family = socket.AF_INET
+    allow_reuse_address = True
+    daemon_threads = True
+
+
+class IPv6OnlyServer(ThreadingHTTPServer):
+    address_family = socket.AF_INET6
+    allow_reuse_address = True
+    daemon_threads = True
+
+    def server_bind(self) -> None:
+        try:
+            self.socket.setsockopt(socket.IPPROTO_IPV6, socket.IPV6_V6ONLY, 1)
+        except OSError:
+            pass
+        super().server_bind()
+
+
+def create_server(port: int) -> ThreadingHTTPServer:
+    ipv4_server = IPv4Server(("0.0.0.0", port), PreviewHandler)
+    try:
+        ipv6_server = IPv6OnlyServer(("::", port), PreviewHandler)
+        t6 = threading.Thread(target=ipv6_server.serve_forever, name="preview-ipv6", daemon=True)
+        t6.start()
+    except OSError:
+        pass
+    return ipv4_server
+
+
 def main() -> None:
     port = int(os.environ.get("PORT", "8080"))
-    server = ThreadingHTTPServer(("0.0.0.0", port), PreviewHandler)
+    server = create_server(port)
     print(f"DR7-Studio Engine Parity & Human-Test Server listening on http://localhost:{port}", flush=True)
     try:
         server.serve_forever()

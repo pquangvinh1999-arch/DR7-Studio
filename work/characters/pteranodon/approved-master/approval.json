@@ -1,0 +1,14 @@
+{
+  "character_id": "pteranodon",
+  "display_name": "Pteranodon",
+  "status": "owner_approved_master",
+  "approved_at": "2026-11-10T13:24:50.289660+00:00",
+  "source_file": "work/characters/pteranodon/master-review/candidate-ferocious-02.png",
+  "sha256": "267c73d7ae35f9498d347cf96e78fe104202fbfdca469050c702b0ab03078353",
+  "size_px": [
+    1024,
+    1024
+  ],
+  "art_source": "host_image",
+  "route": "image-generator (built-in host_image)"
+}

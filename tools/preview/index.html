@@ -553,13 +553,22 @@
         <div class="card">
           <h2><span>📐 Giao Tiếp Toạ Độ Sửa Lỗi Với Agent</span></h2>
           <p style="font-size:11.5px; color:var(--muted); margin-bottom:8px;">
-            Kéo chuột trực tiếp trên ảnh bên trái để khoanh vùng <code>Rect(x, y, w, h)</code>, chọn mục tiêu chỉnh sửa bên dưới rồi bấm <b>Copy gửi Agent</b>:
+            Chọn kiểu khoanh vùng rồi kéo trên ảnh bên trái. Với <b>Tự do (Lasso)</b>, kéo theo đường bao và thả để khép vùng; chỉ pixel bên trong được đo và gửi Agent. Khung hình tự tạm dừng khi bắt đầu chọn.
           </p>
+          <div style="display:flex; gap:8px; align-items:center; margin-bottom:8px;">
+            <label for="selSelectionMode">Khoanh vùng</label>
+            <select id="selSelectionMode">
+              <option value="rect">Hình chữ nhật</option>
+              <option value="lasso">Tự do (Lasso)</option>
+            </select>
+          </div>
           <div class="tag-grid" id="tagButtons">
             <button class="tag-btn active" data-tag="CHINH_NET">🔍 Cần chỉnh nét đoạn này</button>
             <button class="tag-btn" data-tag="LOI_HOAT_ANH">🎞️ Đang bị lỗi hoạt ảnh</button>
             <button class="tag-btn" data-tag="LUOC_BO">✂️ Cần lược bỏ chi tiết</button>
             <button class="tag-btn" data-tag="XOA_NEN">🧹 Cần xóa nền / viền bẩn</button>
+            <button class="tag-btn" data-tag="LOI_MAU_SAC">🎨 Lỗi màu sắc</button>
+            <button class="tag-btn" data-tag="MAT_CHI_TIET">🧩 Mất chi tiết</button>
           </div>
           <input type="text" id="inpOwnerNote" placeholder="Ghi chú thêm của anh (VD: căn lại tốc độ đòn chém)..." style="margin-bottom:8px;" />
           <textarea id="txtAgentSpec" rows="7" readonly></textarea>
@@ -703,6 +712,9 @@
       showBBox: true,
       dragStart: null,
       selectedRect: null,
+      selectedPolygon: null,
+      selectionMode: 'rect',
+      selectionPointerId: null,
       activeTag: 'CHINH_NET',
       pinnedSpecs: [],
       activeTab: 'tab-human',
@@ -801,6 +813,7 @@
       state.stepIdx = 0;
       state.stepElapsedMs = 0;
       state.selectedRect = null;
+      state.selectedPolygon = null;
       state.playing = false;
 
       const [cw, chPx] = getCanvasSize(null);
@@ -850,6 +863,7 @@
       state.stepIdx = 0;
       state.stepElapsedMs = 0;
       state.selectedRect = null;
+      state.selectedPolygon = null;
       state.playing = true;
 
       document.getElementById('arenaCharLabel').textContent = ch.display_name;
@@ -1077,7 +1091,9 @@
         document.getElementById('filmstrip').innerHTML = '';
         return;
       }
-      const clipChoices = b.render_contract ? [...b.render_contract.body_clips] : Object.keys(b.animations);
+      const clipChoices = b.render_contract
+        ? [...b.render_contract.body_clips, ...(b.render_contract.effect_clips || []).filter(c => !b.render_contract.body_clips.includes(c))]
+        : Object.keys(b.animations);
       const priority = [
         'power_up', 'aura_loop', 'idle', 'walk', 'run', 'jump', 'guard',
         'attack_light', 'attack_heavy', 'spin_kick', 'sword_combo', 'burning_sword',
@@ -1093,7 +1109,7 @@
         state.activeClipName = clipChoices[0] || 'idle';
       }
 
-      if (cntBadge) cntBadge.textContent = b.render_contract ? `${clipChoices.length} thân · ${b.render_contract.effect_clips.length} FX` : `${clipChoices.length} clips`;
+      if (cntBadge) cntBadge.textContent = b.render_contract ? `${b.render_contract.body_clips.length} thân · ${b.render_contract.effect_clips.length} FX` : `${clipChoices.length} clips`;
 
       listEl.innerHTML = clipChoices.map(cname => `
         <button class="clip-chip ${cname === state.activeClipName ? 'active' : ''}" data-clip="${cname}">${cname}</button>
@@ -1190,6 +1206,11 @@
         if(!anim||!anim.frames.length) return [];
         return [{layer:'Combined1Layer(z=0)',bundle:b.id,frame:anim.frames[Math.min(stepIdx,anim.frames.length-1)]}];
       }
+      if(contract.effect_clips?.includes(clipName)&&!contract.body_clips.includes(clipName)&&clipName!=='aura_loop') {
+        const fxAnim=b.animations[clipName];
+        if(!fxAnim||!fxAnim.frames.length)return [];
+        return [{layer:'Projectile',bundle:b.id,frame:fxAnim.frames[Math.min(stepIdx,fxAnim.frames.length-1)]}];
+      }
       const auraView=clipName==='aura_loop';
       const bodyName=contract.body_clips.includes(clipName)?clipName:'idle';
       const anim=b.animations[bodyName];
@@ -1210,7 +1231,7 @@
       if(!p)return layers;
       if(p.kind==='linear_energy') {
         if(bodyName===p.body_clip) {
-          const baseTick=(p.velocity_px_per_tick[0]===0&&p.velocity_px_per_tick[1]===0)?animationFrameTick(anim,index):tick;
+          const baseTick=tick;
           const elapsed=baseTick-animationFrameTick(anim,p.release_frame);
           if(elapsed>=0&&elapsed<p.lifetime_ticks)layers.push({layer:'Projectile',bundle:b.id,frame:sampleFxFrame(b.animations[p.projectile_clip],elapsed),point:p.origin_canvas_px.map((v,j)=>v+elapsed*p.velocity_px_per_tick[j]),pivot:contract.fx_pivot_px,angle:0});
         }
@@ -1419,15 +1440,24 @@
       if (state.selectedRect) {
         const r = state.selectedRect;
         ctx.fillStyle = 'rgba(239, 68, 68, 0.18)';
-        ctx.fillRect(r.x * z, r.y * z, r.w * z, r.h * z);
         ctx.strokeStyle = '#fbbf24';
         ctx.lineWidth = 2;
-        ctx.strokeRect(r.x * z, r.y * z, r.w * z, r.h * z);
+        if (state.selectedPolygon) {
+          ctx.beginPath();
+          state.selectedPolygon.forEach((p, i) => {
+            if (i === 0) ctx.moveTo(p.x * z, p.y * z);
+            else ctx.lineTo(p.x * z, p.y * z);
+          });
+          ctx.closePath(); ctx.fill('evenodd'); ctx.stroke();
+        } else {
+          ctx.fillRect(r.x * z, r.y * z, r.w * z, r.h * z);
+          ctx.strokeRect(r.x * z, r.y * z, r.w * z, r.h * z);
+        }
         ctx.fillStyle = '#0b0e17';
         ctx.fillRect(r.x * z, Math.max(0, r.y * z - 18), 140, 17);
         ctx.fillStyle = '#facc15';
         ctx.font = 'bold 11px monospace';
-        ctx.fillText(`Rect(${r.x},${r.y},${r.w},${r.h})`, r.x * z + 4, Math.max(12, r.y * z - 5));
+        ctx.fillText(`${state.selectedPolygon ? "Lasso" : "Rect"}(${r.x},${r.y},${r.w},${r.h})`, r.x * z + 4, Math.max(12, r.y * z - 5));
       }
       ctx.restore();
 
@@ -1477,6 +1507,28 @@
       }
     }
 
+    // Pixel-center even/odd rasterization, shared by statistics and copied masks.
+    // A run is [canvasY, startCanvasX, length]; bbox is descriptive only for lasso.
+    function selectionPixelRuns(rect, polygon = null) {
+      if (!rect) return [];
+      const runs = [];
+      for (let y = rect.y; y < rect.y + rect.h; y++) {
+        if (!polygon) { runs.push([y, rect.x, rect.w]); continue; }
+        const crossings = [], py = y + 0.5;
+        for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+          const a = polygon[i], b = polygon[j];
+          if ((a.y > py) !== (b.y > py)) crossings.push((b.x - a.x) * (py - a.y) / (b.y - a.y) + a.x);
+        }
+        crossings.sort((a,b) => a-b);
+        for (let i = 0; i + 1 < crossings.length; i += 2) {
+          const start = Math.max(rect.x, Math.ceil(crossings[i] - 0.5));
+          const end = Math.min(rect.x + rect.w, Math.ceil(crossings[i+1] - 0.5));
+          if (end > start) runs.push([y, start, end - start]);
+        }
+      }
+      return runs;
+    }
+
     function updateAgentSpecText() {
       const ch = state.activeChar;
       if (!ch) {
@@ -1490,6 +1542,8 @@
         LOI_HOAT_ANH: 'SỬA LỖI HOẠT ẢNH / LỆCH NHỊP FRAME',
         LUOC_BO: 'LƯỢC BỎ CHI TIẾT THỪA',
         XOA_NEN: 'XÓA NỀN / KHỬ VIỀN MÀU BẨN',
+        LOI_MAU_SAC: 'LỖI MÀU SẮC',
+        MAT_CHI_TIET: 'MẤT CHI TIẾT',
       };
       const layers = getLayerFramesForStep(state.activeClipName, state.stepIdx, {elapsedMs:state.stepElapsedMs,fxTicks:state.fxTicks});
       const layerDesc = layers.map(l => `${l.layer}:${l.frame.sub_id}@Atlas(${l.frame.x},${l.frame.y},${l.frame.w},${l.frame.h})${l.point ? ':pivot='+l.pivot.join(',')+':canvas='+l.point.join(',')+':angle='+l.angle : ''}`).join(' + ');
@@ -1501,15 +1555,25 @@
         const ay = ch.map_sync_metrics.foot_anchor_px[1];
         rectLine = `Canvas Rect(${r.x}, ${r.y}, ${r.w}, ${r.h}) | Offset từ tâm chân: (${r.x - ax}, ${r.y - ay})`;
         const imgData = offCtx.getImageData(r.x, r.y, Math.max(1, r.w), Math.max(1, r.h)).data;
-        let nonZero = 0, rSum = 0, gSum = 0, bSum = 0;
-        for (let i = 0; i < imgData.length; i += 4) {
-          if (imgData[i + 3] > 0) {
-            nonZero++;
-            rSum += imgData[i]; gSum += imgData[i + 1]; bSum += imgData[i + 2];
+        const runs = selectionPixelRuns(r, state.selectedPolygon);
+        let selectedCount = 0, nonZero = 0, rSum = 0, gSum = 0, bSum = 0;
+        for (const [y, x, length] of runs) {
+          selectedCount += length;
+          for (let px = x; px < x + length; px++) {
+            const i = ((y - r.y) * r.w + px - r.x) * 4;
+            if (imgData[i + 3] > 0) {
+              nonZero++;
+              rSum += imgData[i]; gSum += imgData[i + 1]; bSum += imgData[i + 2];
+            }
           }
         }
+        if (state.selectedPolygon) {
+          rectLine = `Canvas Lasso (bbox Rect(${r.x}, ${r.y}, ${r.w}, ${r.h}) chỉ để định vị; chỉ sửa pixel trong mặt nạ) | Offset từ tâm chân: (${r.x - ax}, ${r.y - ay})`;
+          rectLine += `\n- Polygon Canvas (khép kín, even-odd, tâm pixel): ${JSON.stringify(state.selectedPolygon.map(p => [p.x, p.y]))}`;
+          rectLine += `\n- PixelRuns Canvas [y,x,length] (mặt nạ chính xác): ${JSON.stringify(runs)}`;
+        }
         const avgRgb = nonZero > 0 ? `[${Math.round(rSum/nonZero)}, ${Math.round(gSum/nonZero)}, ${Math.round(bSum/nonZero)}]` : '[0,0,0]';
-        pxStats = `\n- Đo đạc vùng chọn: ${nonZero}/${r.w * r.h} pixel có hình, RGB trung bình=${avgRgb}`;
+        pxStats = `\n- Đo đạc vùng chọn: ${nonZero}/${selectedCount} pixel có hình, RGB trung bình=${avgRgb}`;
       }
       const note = document.getElementById('inpOwnerNote').value.trim();
       const spec = [
@@ -2133,7 +2197,8 @@
       document.getElementById('selBg').onchange = e => { state.bgMode = e.target.value; };
       document.getElementById('chkMapGrid').onchange = e => { state.showMapGrid = e.target.checked; };
       document.getElementById('chkBBox').onchange = e => { state.showBBox = e.target.checked; };
-      document.getElementById('btnClearRect').onclick = () => { state.selectedRect = null; updateAgentSpecText(); };
+      document.getElementById('btnClearRect').onclick = () => { state.selectedRect = null; state.selectedPolygon = null; state.dragStart = null; updateAgentSpecText(); };
+      document.getElementById('selSelectionMode').onchange = e => { state.selectionMode = e.target.value; state.selectedRect = null; state.selectedPolygon = null; state.dragStart = null; updateAgentSpecText(); };
 
       document.getElementById('btnPlayPause').onclick = () => {
         const tl = getActiveTimelineFrames();
@@ -2195,14 +2260,21 @@
         };
       };
 
-      canvas.addEventListener('mousedown', ev => {
-        if (!state.activeChar) return;
+      canvas.style.touchAction = 'none';
+      canvas.addEventListener('pointerdown', ev => {
+        if (!state.activeChar || state.dragStart || (ev.button !== undefined && ev.button !== 0)) return;
+        ev.preventDefault();
+        canvas.setPointerCapture?.(ev.pointerId);
+        state.selectionPointerId = ev.pointerId;
+        state.playing = false; updatePlayButtonUI();
+        renderInspector(); // measure the paused pose, including independent FX
         const p = toCanvasCoords(ev);
+        state.selectedPolygon = state.selectionMode === 'lasso' ? [p] : null;
         state.dragStart = p;
         state.selectedRect = { x: p.x, y: p.y, w: 1, h: 1 };
         updateAgentSpecText();
       });
-      canvas.addEventListener('mousemove', ev => {
+      const moveSelection = ev => {
         if (!state.activeChar) return;
         const p = toCanvasCoords(ev);
         const px = offCtx.getImageData(p.x, p.y, 1, 1).data;
@@ -2217,16 +2289,42 @@
         document.getElementById('cursorSwatch').style.background = `rgba(${px[0]},${px[1]},${px[2]},${(px[3]/255).toFixed(2)})`;
         document.getElementById('cursorRgba').textContent = `RGBA: (${px[0]}, ${px[1]}, ${px[2]}, ${px[3]})`;
 
-        if (state.dragStart) {
-          const x0 = Math.min(state.dragStart.x, p.x);
-          const y0 = Math.min(state.dragStart.y, p.y);
-          const x1 = Math.max(state.dragStart.x, p.x);
-          const y1 = Math.max(state.dragStart.y, p.y);
-          state.selectedRect = { x: x0, y: y0, w: x1 - x0 + 1, h: y1 - y0 + 1 };
+        if (state.dragStart && ev.pointerId === state.selectionPointerId) {
+          if (state.selectedPolygon) {
+            const last = state.selectedPolygon[state.selectedPolygon.length - 1];
+            if (last.x !== p.x || last.y !== p.y) state.selectedPolygon.push(p);
+            let x = p.x, y = p.y, right = p.x, bottom = p.y;
+            for (const q of state.selectedPolygon) {
+              x = Math.min(x,q.x); y = Math.min(y,q.y);
+              right = Math.max(right,q.x); bottom = Math.max(bottom,q.y);
+            }
+            state.selectedRect = {x, y, w: right-x+1, h: bottom-y+1};
+          } else {
+            const x0 = Math.min(state.dragStart.x, p.x);
+            const y0 = Math.min(state.dragStart.y, p.y);
+            const x1 = Math.max(state.dragStart.x, p.x);
+            const y1 = Math.max(state.dragStart.y, p.y);
+            state.selectedRect = { x: x0, y: y0, w: x1 - x0 + 1, h: y1 - y0 + 1 };
+          }
           updateAgentSpecText();
         }
+      };
+      canvas.addEventListener('pointermove', moveSelection);
+      const finishSelection = ev => {
+        if (ev.pointerId !== state.selectionPointerId) return;
+        if (ev.type !== 'pointercancel') moveSelection(ev);
+        state.dragStart = null; state.selectionPointerId = null;
+        if (state.selectedPolygon && !selectionPixelRuns(state.selectedRect, state.selectedPolygon).length) {
+          state.selectedPolygon = null; state.selectedRect = null;
+        }
+        updateAgentSpecText();
+      };
+      canvas.addEventListener('pointerup', finishSelection);
+      canvas.addEventListener('pointercancel', ev => {
+        if (ev.pointerId !== state.selectionPointerId) return;
+        state.selectedPolygon = null; state.selectedRect = null;
+        finishSelection(ev);
       });
-      window.addEventListener('mouseup', () => { state.dragStart = null; });
 
       document.querySelectorAll('#tagButtons .tag-btn').forEach(btn => {
         btn.onclick = () => {

@@ -1,9 +1,9 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-10T07:58:00Z",
+  "updated_at": "2026-11-11T08:33:19.680871+00:00",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "version_history": [
       {
         "version": "0.1.0",
@@ -24,6 +24,11 @@
         "version": "0.3.0",
         "date": "2026-11-07T08:45:30Z",
         "summary": "Chốt chính thức kiến trúc Engine (Godot 4 + Rust Core GDExtension/WASM/Server + Supabase) và kiến trúc lớp duy nhất Gộp Chung 1 Lớp Nguyên Bản (Combined 1-Layer, bãi bỏ hoàn toàn Hướng 2 tách đa lớp); xoá sạch Son Goku test cũ & nhân vật tím cũ; bóc tách không suy hao 100% nhân vật khởi đầu Future Trunks (Super Saiyan Rage) từ sheet gốc 1340×2261 (trunks_rage: 155 frame nguồn / 154 vùng Atlas duy nhất, 20 clip trên khung 320×256, anchor [96,220], alpha_hardness_pct=100.0%, 1 trang PNG Atlas 3890×3382); cập nhật thông số kỹ thuật bắt buộc vào AGENTS.md & LRN-007."
+      },
+      {
+        "version": "0.4.0",
+        "date": "2026-11-11T08:33:19.680871+00:00",
+        "summary": "Owner nghiệm thu Pteranodon v8; PIPE-002, bundle sóng âm độc lập và công cụ chọn vùng Lasso."
       }
     ],
     "genre": "2D Dragon Ball Real-Time Mass Action / RPG",
@@ -64,9 +69,9 @@
     "version_file": "VERSION"
   },
   "current_focus": {
-    "active_task_id": "TASK-026",
-    "status": "completed",
-    "summary": "Owner đã nghiệm thu và chốt hoàn tất nhân vật T-rex sau khi tinh chỉnh vòm đùi theo mẫu chốt (Seamless Natural Master, atlas SHA256 90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f). Đã dọn sạch các ảnh sinh ra để human test khỏi work/, bảo toàn 100% tài nguyên Godot 4 bundle; cập nhật PIPE-001 trong skills.md và assets/t_rex/owner_approval.json; sẵn sàng bắt đầu nhân vật tiếp theo."
+    "active_task_id": "TASK-034",
+    "status": "ready_to_push",
+    "summary": "Pteranodon v8 đã Owner nghiệm thu; receipt và PIPE-002 hoàn tất. Bản0.4.0 đã qua loop.sh test(13Python/E2E,Godot2bundle,2Rust),WASMreleasebuild và E2E với WASMmới exit0; HTTPatlas/receipt khớp. Chuẩn bịcommit/pushmain."
   },
   "open_issues": [],
   "resolved_issues": [
@@ -237,6 +242,55 @@
       "timestamp": "2026-11-10T08:03:00Z",
       "status": "completed",
       "summary": "Owner đã nghiệm thu và chốt hoàn tất nhân vật T-rex sau khi tinh chỉnh vòm đùi theo mẫu chốt (Seamless Natural Master, atlas SHA256 90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f). Đã dọn sạch các ảnh sinh ra để human test khỏi work/, bảo toàn 100% tài nguyên Godot 4 bundle; cập nhật PIPE-001 trong skills.md và assets/t_rex/owner_approval.json; sẵn sàng bắt đầu nhân vật tiếp theo."
+    },
+    {
+      "id": "TASK-027",
+      "timestamp": "2026-11-11T01:26:50Z",
+      "status": "completed",
+      "summary": "Làm lại toàn bộ bộ hoạt ảnh và atlas Pteranodon (pteranodon v2: 7 clip thân idle, walk, run, attack_light, power_up, hit, ko + 1 clip FX độc lập sonic_screech_fx 7 pha, 63 frame, 1 trang Atlas 3106x2082 SHA256 7083b83752db94696811ec8afc29ef650ac23ffd732bd07157f8ca0aba7222e6) theo đúng chỉ đạo của Owner: giữ mẫu tĩnh approved-original.png và KO; đập cánh sinh học 4 pha qua trục thân; attack_light lao cổ dùng mỏ tấn công về trước liền mạch; bỏ attack_heavy riêng nhân vật; power_up & sonic_screech_fx dùng mẫu sóng âm 7 pha (sonic_fx_source.png) của Owner. Đã pass 100% './loop.sh check' & './loop.sh test' và đồng bộ 1:1 lên localhost:8080 chờ Owner Human Test."
+    },
+    {
+      "id": "TASK-028",
+      "timestamp": "2026-11-11T02:24:30Z",
+      "status": "superseded_by_owner_feedback",
+      "summary": "Xử lý [DR7-EDIT-SPEC] cho Pteranodon (pteranodon v3, SHA256 e2297182ec26468b65cdfbf87df48053b0a2173923ebb054aae918fed34a99b2): nối khớp vai tại Canvas Rect(156, 131, 49, 16), chuẩn hóa Sobel Acutance 201.3 và đổi sóng âm sang Đỏ Đô.",
+      "resolution": "Owner chỉ ra phần nối giữa đầu, cánh và thân ở walk step=4 Rect(154,103,84,43) bị phồng to biến dạng cơ thể (2858/3612 px) và yêu cầu tách riêng sóng âm ra 1 asset để chỉ tăng tốc độ sóng âm chứ không tăng tốc độ toàn bộ dực long. Đã sửa triệt để trong TASK-029."
+    },
+    {
+      "id": "TASK-029",
+      "timestamp": "2026-11-11T04:17:00Z",
+      "status": "completed",
+      "summary": "Hoàn tất [DR7-EDIT-SPEC] cho Pteranodon (pteranodon v4, 61 frame / 8 clip, SHA256 8eeb32dde9b7940b53d31c20b8e5ea327036ecb4a43c18a1f8ff5d8191c5a43e): loại bỏ khối phồng biến dạng vai-cổ-lưng tại walk step=4 Canvas Rect(154, 103, 84, 43) từ 2858/3612 px xuống 1870/3612 px (-988 px thừa) giữ đúng giải phẫu cổ/lưng gốc và 0 khe hở khớp vai; tách riêng hoàn toàn sóng âm ra asset độc lập sonic_screech_fx (7 frame, ticks=[2,2,2,2,2,2,2] = 233ms, kèm prefab scenes/PteranodonSonicWaveFX.tscn) và giữ power_up (8 frame thân thuần, ticks=[5,5,5,5,4,5,5,6] = 667ms) ở tốc độ thân chuẩn. Đã pass './loop.sh check' & './loop.sh test' và đồng bộ 1:1 lên localhost:8080."
+    },
+    {
+      "id": "TASK-030",
+      "timestamp": "2026-11-11T05:01:00Z",
+      "status": "completed",
+      "summary": "Hoàn tất 4 mục [DR7-EDIT-SPEC] tiếp theo cho Pteranodon (pteranodon v5, 61 frame / 8 clip, SHA256 29bf8fd92fab926a172461138b9cab025ba9652eab0659cf53f3aba79a9a3f53): (1) Nối liền gốc cánh trái vào thân ở walk step=0 Rect(175,108,35,42) từ 630/1470 px lên 1390/1470 px; (2) Xóa sạch lem màu đỏ từ màng cánh lên cánh tay ở idle step=0 Rect(143,75,41,80) (2318/3280 px, 0 px đỏ trên cánh tay); (3) Chuẩn hóa màu mặt trên (da than chì) và mặt dưới (đỏ đô) cho cả 2 cánh ở idle step=4 Rect(103,127,95,93) (4310/8835 px), khử răng cưa khi chạy frame bằng smooth_warped_layer và thêm 2 mục 'Lỗi màu sắc', 'Mất chi tiết' vào UI Giao Tiếp Toạ Độ; (4) Lấp đầy khấc hở cổ dưới sau hàm ở run step=4 Rect(223,131,14,22) từ 156/308 px lên 220/308 px. Đã pass './loop.sh check' & './loop.sh test' và đồng bộ 1:1 lên localhost:8080."
+    },
+    {
+      "id": "TASK-031",
+      "timestamp": "2026-11-11T06:46:00Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Hoàn tất 2 mục [DR7-EDIT-SPEC] tiếp theo cho Pteranodon (pteranodon v6, 61 frame / 8 clip, SHA256 2cd82a1f480da92b5ff6ad795e1edd2c568a22905aa3d457e5babd6920a46395): (1) Đồng bộ nhịp đập đối xứng của 2 cánh ở pha đập xuống tại walk step=2 Canvas Rect(176, 129, 69, 79) (2587/5451 px, NEAR y=[136..178] ⇄ FAR y=[134..176]); (2) Chuyển khoang trong cánh bị dính màu da tại run step=0 Canvas Rect(97, 76, 54, 36) sang màu đỏ mặt trong cánh (1260/1944 px, RGB trung bình từ [83, 63, 70] sang [147, 40, 47]). Đã pass './loop.sh check' & './loop.sh test' và đồng bộ 1:1 lên localhost:8080."
+    },
+    {
+      "id": "TASK-032",
+      "timestamp": "2026-11-11T08:12:10.460744+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Pteranodon v7: sửa lem đỏ cẳng tay cánh xa idle step=0 Rect(180,101,49,43), pixel (210,108) RGBA đỏ [236,78,84,255] -> da [163,141,151,255]; sửa downstroke idle step=3 Rect(166,145,85,71) bằng xoay cánh xa về +X với elevation dương, cẳng tay dẫn về mỏ và màng cánh phía dưới. 61 frame/8 clip/1 atlas3106x2082, SHA256 f05caca1a3880f7a59dae34c296a0ae88aa5d58a24e5dcec0396d375b029a266; KO8frame không đổi pixel, FX nguồn không đổi. ./loop.sh test exit0 (13Python/E2E,Godot2bundle,2Rust); WASM release build exit0; HTTP atlas hash/rect/tick/anchor parity ok. Đã xem8filmstrip trên3nền. WARN clip tham chiếu bị Owner loại còn nguyên trong revision-v7/tests.log. Chờ Owner Human Test, chưa nghiệm thu."
+    },
+    {
+      "id": "TASK-033",
+      "timestamp": "2026-11-11T08:24:08.463468+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Pteranodon v8: bảo vệ màu da gốc cẳng tay cánh xa, idle step0 Canvas Rect(176,112,22,30) giữ660/660pixel đục, đỏ140->0, RGB[107.25,66.35,73.73]->[97.15,82.81,90.93]; pixel(192,118) RGBA[236,78,84,255]->[163,141,151,255]. Bbox thay đổi màu idle[180,118,18,20] nằm trong vùng Owner. Không đổi alpha tất cả54frame thân; downstroke/KO không đổi pixel so v7. Atlas61frame/8clip/1page SHA256 1dfc61d34a41a02cfcc7a048c5310618950d71972953904cad19cf241d1d041a. Thêm Tự do(Lasso) bên cạnh rectangle, pointer mouse/touch, tự pause; stats chỉ tính mask, copy/pin Polygon+PixelRuns[y,x,length]. Test concave64pixel loại36pixel trongbbox, RGB không nhiễm vùng bị loại, CSSscale,rect kéo ngược,cancel,degenerate và điểm cuối pointerup. ./loop.sh test exit0(13Python/E2E,Godot2bundle,2Rust), selection E2E exit0,WASMbuild0; HTTP HTML/atlas đúng disk,paritytrue. Đã xem8filmstrip3nền. WARN clip Owner loại còn nguyên tests.log. Chờ Human Testv8, chưa nghiệm thu."
+    },
+    {
+      "id": "TASK-034",
+      "timestamp": "2026-11-11T08:33:19.680871+00:00",
+      "status": "ready_to_push",
+      "summary": "Pteranodon v8 đã Owner nghiệm thu; receipt và PIPE-002 hoàn tất. Bản0.4.0 đã qua loop.sh test(13Python/E2E,Godot2bundle,2Rust),WASMreleasebuild và E2E với WASMmới exit0; HTTPatlas/receipt khớp. Chuẩn bịcommit/pushmain."
     }
   ],
   "quick_resume_commands": [
@@ -245,19 +299,21 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Nhân vật T-rex (t_rex) đã hoàn thiện và được Owner nghiệm thu, chốt chính thức (PIPE-001). Sẵn sàng bắt đầu nhân vật tiếp theo khi Owner cung cấp ảnh master / yêu cầu mới.",
-    "source_atlas": "work/characters/t_rex/approved-master/approved-original.png",
-    "source_sha256": "a2059008470a9c4e63f85b67963e72d2268021d7e1049da7e1632b7a73c09775",
-    "analysis": "docs/characters/t-rex-concept.md",
+    "next_action": "Hoàn tất kiểm thử,commit/pushmain theo Owner; sau đó sẵn sàng nhận nhân vật tiếp theo. Pteranodonv8 vàT-rex đều đã nghiệm thu.",
+    "source_atlas": "work/characters/pteranodon/approved-master/approved-original.png",
+    "source_sha256": "267c73d7ae35f9498d347cf96e78fe104202fbfdca469050c702b0ab03078353",
+    "sonic_fx_source": "work/characters/pteranodon/approved-master/sonic_fx_source.png",
+    "sonic_fx_source_sha256": "f9950880f4a6f06cb1dd012d76787be4a0346e45603d8089dae772fdebc38e03",
+    "analysis": "docs/characters/pteranodon-concept.md",
     "skill": ".agents/skills/create_atlas/SKILL.md",
     "compatibility": ".agent là symlink tới .agents; hai đường dẫn đọc cùng skill.",
-    "asset_status": "1 nhân vật hoàn thiện đã cập nhật chỉnh nét vòm đùi theo mẫu chốt của Owner: T-rex (t_rex, 9 clip / 71 frame, 1 trang Atlas 3494x2082, SHA256 90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f).",
-    "verification": "./loop.sh test exit 0 (13 Python/E2E, Godot 4.7.2 Headless 9 clip / 71 frame, 2 Rust).",
+    "asset_status": "2 nhân vật đã nghiệm thu: T-rex vàPteranodonv8 (atlasSHA256 1dfc61d34a41a02cfcc7a048c5310618950d71972953904cad19cf241d1d041a).",
+    "verification": "Bản0.4.0: ./loop.sh test exit0 (13Python/E2E,Godot2bundle,2Rust),WASMreleasebuildexit0,NodeE2EvớiWASMbảnmới exit0; receipt/HTTPatlas/enginehash khớp. WARN chỉ cácclip Owner loại.",
     "atlas_design_rule": "Tách chức năng phổ quát khỏi hành vi riêng nhân vật; generate2dsprite/video2dsprite chỉ là tooling phía sau create-atlas. Sheet có sẵn dùng nhánh bảo toàn nguồn, không AI redraw.",
-    "character_concept": "docs/characters/t-rex-concept.md",
-    "delivery": "assets/t_rex/godot_bundle",
-    "latest_delivery": "assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png",
-    "active_character_concept": "docs/characters/t-rex-concept.md",
+    "character_concept": "docs/characters/pteranodon-concept.md",
+    "delivery": "assets/pteranodon/godot_bundle",
+    "latest_delivery": "assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png",
+    "active_character_concept": "docs/characters/pteranodon-concept.md",
     "git_checkpoint": {
       "branch": "main",
       "remote": "origin",
@@ -265,7 +321,9 @@
       "ci_status": "success",
       "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/42643703309",
       "note": "This record is committed as a handoff after the verified code checkpoint; use git log for the newest handoff commit."
-    }
+    },
+    "review_evidence": "docs/characters/pteranodon-v8-qa.json",
+    "preview_server": "Khởi động lại server bằng subprocess start_new_session=True, stdin DEVNULL, log work/characters/pteranodon/revision-v7/preview-server.log. HTTP / và /api/bundles trả200; parity=true. Codespaces URL https://bookish-giggle-4jp6vvw5vvx5c7rgw-8080.app.github.dev"
   },
   "approved_workflows": [
     {
@@ -275,6 +333,14 @@
       "approved_at": "2026-11-10T04:32:34Z",
       "approval_file": "assets/t_rex/owner_approval.json",
       "atlas_sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f"
+    },
+    {
+      "id": "PIPE-002",
+      "character_id": "pteranodon",
+      "display_name": "Pteranodon",
+      "approved_at": "2026-11-11T08:33:19.680871+00:00",
+      "approval_file": "assets/pteranodon/owner_approval.json",
+      "atlas_sha256": "1dfc61d34a41a02cfcc7a048c5310618950d71972953904cad19cf241d1d041a"
     }
   ],
   "owner_defaults": {
