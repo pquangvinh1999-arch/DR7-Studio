@@ -5,6 +5,29 @@ description: Make game-ready 2D characters, creatures, props, icons and FX as ma
 
 # Generate 2D Sprite
 
+## DR7 Owner override — complete-body keyframes and motion gate
+
+DR7 character art uses the Owner-selected upgraded T-rex sharpness standard:
+open the [fixed reference PNG](../../../docs/art-standards/t-rex-sharpness-reference.png)
+and [measured contract](../../../docs/art-standards/character-pixel-sharpness.json)
+before generation. Match native1px gameplay detail with Nearest and hard body alpha;
+reference Sobel245.516 is measured, not a scalar to force or a fabricated tolerance.
+Measure using `tools/art/measure_pixel_sharpness.py`; review at1x and integer Nearest zoom.
+This supersedes old100texel/2x/16color/201.3 defaults, not character-specific sizes
+or motion acceptance. Soft FX alpha is allowed. Do not rebuild approved peers.
+
+For this project, when Owner explicitly selects imagegen keyframes (2026-11-12),
+generate complete-body poses per action from the approved master. A review sheet
+may contain those generated whole poses; slice whole frames only. This overrides
+the default video-only character-motion routing below for that selected branch.
+Never cut limbs/body/head from a still and rotate/warp/patch them into animation.
+Anatomical tearing, detached organs, exposed patches, or a flipped card standing
+in for a turn is motion_quality FAIL regardless of texture/tick/hash test results.
+Review whole sequences at actual timing on light/dark/checker before packaging;
+preserve camera/identity/scale/anchor. Spin and facing changes need genuine
+intermediate whole-body views, correct occlusion, weight and accelerated impact.
+Report imagegen-generated poses as such, never as video-generated motion.
+
 Make the smallest asset bundle the game needs, at its real display size, camera and style.
 Game logic (collision, damage, timing) stays independent of the art.
 
@@ -104,3 +127,8 @@ Sheets (FX, icons, props): `sheet_qc.py spill` on the raw sheet, then `generate2
 ## References
 
 [processing.md](references/processing.md) (process flags, legacy switches), [modes.md](references/modes.md), [prompt-rules.md](references/prompt-rules.md), [action-recipes.md](references/action-recipes.md), [character-animation.md](references/character-animation.md) (animation index), [frames-and-clips.md](references/frames-and-clips.md), [palette-and-pixels.md](references/palette-and-pixels.md), [engine-export.md](references/engine-export.md), [runtime-integration.md](references/runtime-integration.md), [video-handoff.md](references/video-handoff.md); data contracts in `references/schemas/sprite.schema.json`.
+
+### Chu kỳ walk/run theo Owner (2026-11-12)
+- Thiết kế một vòng tiến pha đầy đủ 0..N−1 rồi về0; không ping-pong hay đảo7..1 để vá loop. Không trùng pose đầu/cuối; lấy mẫu pha trong [0,360°). Review cả cuối→đầu, hai chân đổi vai trò trụ/vung, không chỉ xem pixel/hash khác nhau. Gần trùng pose hoặc lò cò = motion FAIL, phải sửa nguyên pose nguồn.
+- Run: walk chỉ làm tham khảo concept/giải phẫu, không copy frame và tăng playback để làmrun. Theo Owner làm rõ2026-11-12, sinh pose chạy toàn thân riêng (sải/chúi thân/đẩy chân/thu chân/tiếp đất), kiểm vòng0..N−1→0 riêng. Quy định dùng chung frame/duration0.5 trước đây bị thay thế; không dùng làm mặc định nữa.
+- Turn chỉ có khi thực sự nối đổi hướng trong runtime; nêu nơi dùng và timing, không sửa đòn xoay đã đạt chỉ vì thêm turn.

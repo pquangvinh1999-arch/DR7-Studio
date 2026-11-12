@@ -20,8 +20,8 @@
   "scale_source": "Godot default pixel size",
   "billboard": "enabled",
   "texture_filter": "nearest",
-  "duration_ms": 77,
-  "fps": 13.03780964797914,
+  "duration_ms": 49,
+  "fps": 20.58319039451115,
   "frames": [
     "frames/frame-034.png",
     "frames/frame-035.png",
@@ -32,30 +32,36 @@
     "frames/frame-040.png",
     "frames/frame-041.png",
     "frames/frame-042.png",
-    "frames/frame-043.png"
+    "frames/frame-043.png",
+    "frames/frame-044.png",
+    "frames/frame-045.png"
   ],
   "frame_sha256": [
-    "0fdf27ec44de9294947fd1f7f689e74829d5837edd9eb7a5f1a6c4927e5d60bf",
-    "11b8ccfe9cfbcf653795b9c62fe54610beac867a49fd060997f01548da6425f6",
-    "f761c5250f714c62f1f92dbf85818b313c082ae354f01d2d960b30bb998f3a61",
-    "58615ab11f41bf4aa98a032fe3c2fe17ff9ffb0518e473a13365389f55c15ccb",
-    "89077f8aa0c07fe617e9d0de0973165d2c2b60383c3a16f3480bef8879dac1e2",
-    "f7262c335c045250783aaf819e868aba658496b761b27f35f5850164bd783bef",
-    "d06a793d0eb117391fbc91a6dd08f109d1415fb20a774f74a721d1285b3cfad4",
-    "9e977120c108bd5b1421b382f544279632822489afe35702cdd832a1ec1685c6",
-    "c2c6b5b8ebade876c185d920190c54494ca6b2be8123affab3fed4826cca01b4",
-    "91abcf88667fa4a727d71b01398418b8a8ae26211f8499045f6f4d2b94e5923b"
+    "0ad240348028fe6a3886822a0ad186007abd84b6750d129df39d0b8918b3034f",
+    "650c9e6337b22e8622b77a3bda374b39955eecb9dae413fd501abbe115c945dc",
+    "622b848cd48356bc60efc7bf6994a8b1f54ab9d68c096fc48f55498f50a4324e",
+    "1387be91914056cc00f0adf99164aa6a56395d7575ff091ed39578fe9e0a4d2c",
+    "9cd84d44db5b02e4541d8a44da35cab58019692025d2d6e87d9c02013e51270a",
+    "404f9907437ad4946a1bb25b395adecd44d88e90b21c205423975c94e31db0f7",
+    "328d05ee6cdf90997ac21458e8e54aea38054e72cd7a5e5734e48c6adfcecb4f",
+    "0588ea75197571f6bfe22f89c860cdd6a45f14ce9d10e22ced3d9d68868552de",
+    "aa3a1809033b374b59cccce0d557ebbd0d672ecb150debecc2104ab2a7f21ef2",
+    "5d70ee7305950baa720c3c52631509728f8f778d36ae1f5f71650b860a44696b",
+    "824ebdbc803b53abfd76652a8a68b18008573f09534ea7ff783377bb8cc17603",
+    "8108b26cf005d415e4d2d592fa86d61b59746cea0df0fc77c57a6e230da307e6"
   ],
   "durations_ms": [
     83,
-    84,
-    66,
     67,
-    67,
-    66,
+    33,
+    17,
+    17,
+    16,
+    17,
+    33,
+    50,
     67,
     83,
-    84,
     100
   ],
   "loop": false,
@@ -69,21 +75,21 @@
     },
     {
       "name": "hit",
-      "at_ms": 300,
-      "at": 4,
-      "position": 4
-    },
-    {
-      "name": "active_end",
-      "at_ms": 367,
+      "at_ms": 217,
       "at": 5,
       "position": 5
     },
     {
+      "name": "active_end",
+      "at_ms": 250,
+      "at": 7,
+      "position": 7
+    },
+    {
       "name": "end",
-      "at_ms": 667,
-      "at": 9,
-      "position": 9
+      "at_ms": 483,
+      "at": 11,
+      "position": 11
     }
   ]
 }

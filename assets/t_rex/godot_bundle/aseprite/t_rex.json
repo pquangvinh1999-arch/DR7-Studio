@@ -790,7 +790,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 84
+      "duration": 67
     },
     {
       "filename": "36",
@@ -812,7 +812,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 66
+      "duration": 33
     },
     {
       "filename": "37",
@@ -834,7 +834,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 67
+      "duration": 17
     },
     {
       "filename": "38",
@@ -856,7 +856,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 67
+      "duration": 17
     },
     {
       "filename": "39",
@@ -878,7 +878,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 66
+      "duration": 16
     },
     {
       "filename": "40",
@@ -900,7 +900,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 67
+      "duration": 17
     },
     {
       "filename": "41",
@@ -922,7 +922,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 83
+      "duration": 33
     },
     {
       "filename": "42",
@@ -944,7 +944,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 84
+      "duration": 50
     },
     {
       "filename": "43",
@@ -966,7 +966,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 100
+      "duration": 67
     },
     {
       "filename": "44",
@@ -1010,7 +1010,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 84
+      "duration": 100
     },
     {
       "filename": "46",
@@ -1054,7 +1054,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 83
+      "duration": 84
     },
     {
       "filename": "48",
@@ -1076,7 +1076,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 84
+      "duration": 83
     },
     {
       "filename": "49",
@@ -1120,7 +1120,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 83
+      "duration": 84
     },
     {
       "filename": "51",
@@ -1142,7 +1142,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 84
+      "duration": 83
     },
     {
       "filename": "52",
@@ -1164,7 +1164,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 100
+      "duration": 83
     },
     {
       "filename": "53",
@@ -1186,7 +1186,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 67
+      "duration": 84
     },
     {
       "filename": "54",
@@ -1208,7 +1208,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 66
+      "duration": 100
     },
     {
       "filename": "55",
@@ -1230,7 +1230,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 84
+      "duration": 67
     },
     {
       "filename": "56",
@@ -1252,7 +1252,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 83
+      "duration": 66
     },
     {
       "filename": "57",
@@ -1274,7 +1274,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 83
+      "duration": 84
     },
     {
       "filename": "58",
@@ -1296,7 +1296,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 84
+      "duration": 83
     },
     {
       "filename": "59",
@@ -1384,7 +1384,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 83
+      "duration": 84
     },
     {
       "filename": "63",
@@ -1406,7 +1406,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 84
+      "duration": 83
     },
     {
       "filename": "64",
@@ -1428,7 +1428,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 100
+      "duration": 83
     },
     {
       "filename": "65",
@@ -1450,7 +1450,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 100
+      "duration": 84
     },
     {
       "filename": "66",
@@ -1472,7 +1472,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 250
+      "duration": 100
     },
     {
       "filename": "67",
@@ -1494,7 +1494,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 83
+      "duration": 100
     },
     {
       "filename": "68",
@@ -1516,7 +1516,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 84
+      "duration": 250
     },
     {
       "filename": "69",
@@ -1560,6 +1560,50 @@
         "w": 384,
         "h": 256
       },
+      "duration": 84
+    },
+    {
+      "filename": "71",
+      "frame": {
+        "x": 3107,
+        "y": 1823,
+        "w": 384,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 256
+      },
+      "duration": 83
+    },
+    {
+      "filename": "72",
+      "frame": {
+        "x": 3,
+        "y": 2083,
+        "w": 384,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 256
+      },
       "duration": 83
     }
   ],
@@ -1570,7 +1614,7 @@
     "format": "RGBA8888",
     "size": {
       "w": 3494,
-      "h": 2082
+      "h": 2342
     },
     "scale": "1",
     "frameTags": [
@@ -1609,43 +1653,43 @@
       {
         "name": "attack_heavy",
         "from": 34,
-        "to": 43,
+        "to": 45,
         "direction": "forward",
         "color": "#000000ff",
         "repeat": "1",
-        "data": "{\"events\":[{\"name\":\"tell\",\"frame\":35,\"at_ms\":83},{\"name\":\"hit\",\"frame\":38,\"at_ms\":300},{\"name\":\"active_end\",\"frame\":39,\"at_ms\":367},{\"name\":\"end\",\"frame\":43,\"at_ms\":667}]}"
+        "data": "{\"events\":[{\"name\":\"tell\",\"frame\":35,\"at_ms\":83},{\"name\":\"hit\",\"frame\":39,\"at_ms\":217},{\"name\":\"active_end\",\"frame\":41,\"at_ms\":250},{\"name\":\"end\",\"frame\":45,\"at_ms\":483}]}"
       },
       {
         "name": "power_up",
-        "from": 44,
-        "to": 52,
+        "from": 46,
+        "to": 54,
         "direction": "forward",
         "color": "#000000ff",
         "repeat": "1",
-        "data": "{\"events\":[{\"name\":\"tell\",\"frame\":45,\"at_ms\":83},{\"name\":\"hit\",\"frame\":46,\"at_ms\":167},{\"name\":\"end\",\"frame\":52,\"at_ms\":667}]}"
+        "data": "{\"events\":[{\"name\":\"tell\",\"frame\":47,\"at_ms\":83},{\"name\":\"hit\",\"frame\":48,\"at_ms\":167},{\"name\":\"end\",\"frame\":54,\"at_ms\":667}]}"
       },
       {
         "name": "hit",
-        "from": 53,
-        "to": 58,
+        "from": 55,
+        "to": 60,
         "direction": "forward",
         "color": "#000000ff",
         "repeat": "1",
-        "data": "{\"events\":[{\"name\":\"in\",\"frame\":53,\"at_ms\":0},{\"name\":\"end\",\"frame\":58,\"at_ms\":383}]}"
+        "data": "{\"events\":[{\"name\":\"in\",\"frame\":55,\"at_ms\":0},{\"name\":\"end\",\"frame\":60,\"at_ms\":383}]}"
       },
       {
         "name": "ko",
-        "from": 59,
-        "to": 66,
+        "from": 61,
+        "to": 68,
         "direction": "forward",
         "color": "#000000ff",
         "repeat": "1",
-        "data": "{\"events\":[{\"name\":\"in\",\"frame\":59,\"at_ms\":0},{\"name\":\"impact\",\"frame\":63,\"at_ms\":333},{\"name\":\"hold\",\"frame\":66,\"at_ms\":617}]}"
+        "data": "{\"events\":[{\"name\":\"in\",\"frame\":61,\"at_ms\":0},{\"name\":\"impact\",\"frame\":65,\"at_ms\":333},{\"name\":\"hold\",\"frame\":68,\"at_ms\":617}]}"
       },
       {
         "name": "fireball_fx",
-        "from": 67,
-        "to": 70,
+        "from": 69,
+        "to": 72,
         "direction": "forward",
         "color": "#000000ff",
         "repeat": "1"
@@ -1734,42 +1778,44 @@
       "40",
       "41",
       "42",
-      "43"
+      "43",
+      "44",
+      "45"
     ],
     "power_up": [
-      "44",
-      "45",
       "46",
       "47",
       "48",
       "49",
       "50",
       "51",
-      "52"
+      "52",
+      "53",
+      "54"
     ],
     "hit": [
-      "53",
-      "54",
       "55",
       "56",
       "57",
-      "58"
+      "58",
+      "59",
+      "60"
     ],
     "ko": [
-      "59",
-      "60",
       "61",
       "62",
       "63",
       "64",
       "65",
-      "66"
+      "66",
+      "67",
+      "68"
     ],
     "fireball_fx": [
-      "67",
-      "68",
       "69",
-      "70"
+      "70",
+      "71",
+      "72"
     ]
   }
 }

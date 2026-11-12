@@ -29,6 +29,34 @@ BENCHMARK_JSON = REPO_ROOT / "engines" / "benchmark_report.json"
 ROSTER_JSON = ASSETS_DIR / "roster.json"
 
 
+def verify_motion_quality() -> dict:
+    """Keep anatomical acceptance separate from technical parity."""
+    try:
+        from .motion_quality import assess_motion_quality
+    except ImportError:
+        from motion_quality import assess_motion_quality
+    roster = json.loads(ROSTER_JSON.read_text())
+    records = {}
+    errors = []
+    for ch in roster.get("characters", []):
+        cid = ch["character_id"]
+        bid = ch["modes"]["combined_1layer"]["bundle_id"]
+        atlas = ASSETS_DIR / bid / "godot_bundle" / "godot" / (bid + "-atlas-00.png")
+        digest = sha256_file(atlas) if atlas.is_file() else "missing"
+        receipt = ASSETS_DIR / bid / "owner_approval.json"
+        approval = json.loads(receipt.read_text()) if receipt.is_file() else {}
+        if (not ch.get("motion_quality") and approval.get("status") == "owner_approved"
+                and approval.get("atlas_sha256") == digest):
+            result = {"ok_for_human_test": True, "release_approved": True,
+                      "status": "owner_approved", "errors": []}
+        else:
+            result = assess_motion_quality(ch.get("motion_quality"), digest)
+        records[cid] = result
+        errors.extend(cid + ": " + e for e in result["errors"])
+    return {"ok_for_human_test": not errors, "release_approved": all(
+        r["release_approved"] for r in records.values()), "characters": records, "errors": errors}
+
+
 def sha256_file(path: Path) -> str:
     h = hashlib.sha256()
     with path.open("rb") as f:
@@ -406,6 +434,7 @@ class PreviewHandler(BaseHTTPRequestHandler):
                 "roster": roster,
                 "setups": build_setups(bundles, roster),
                 "parity": parity,
+                "motion_quality": verify_motion_quality(),
             }
             data = json.dumps(payload, ensure_ascii=False, indent=2).encode("utf-8")
             self._send_bytes(200, "application/json; charset=utf-8", data)

@@ -191,6 +191,14 @@
       "file": "raw_frames/attack_heavy_09.png"
     },
     {
+      "name": "attack_heavy_10",
+      "file": "raw_frames/attack_heavy_10.png"
+    },
+    {
+      "name": "attack_heavy_11",
+      "file": "raw_frames/attack_heavy_11.png"
+    },
+    {
       "name": "power_up_00",
       "file": "raw_frames/power_up_00.png"
     },
@@ -470,17 +478,21 @@
         "attack_heavy_06",
         "attack_heavy_07",
         "attack_heavy_08",
-        "attack_heavy_09"
+        "attack_heavy_09",
+        "attack_heavy_10",
+        "attack_heavy_11"
       ],
       "ticks": [
         5,
-        5,
         4,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
         4,
-        4,
-        4,
-        4,
-        5,
         5,
         6
       ],
@@ -489,9 +501,9 @@
       "keys": {
         "wind_start": 0,
         "wind_peak": 1,
-        "strike": 4,
-        "recover": 6,
-        "end": 9
+        "strike": 5,
+        "recover": 8,
+        "end": 11
       },
       "events": [
         {
@@ -499,15 +511,15 @@
           "name": "tell"
         },
         {
-          "at": 4,
+          "at": 5,
           "name": "hit"
         },
         {
-          "at": 5,
+          "at": 7,
           "name": "active_end"
         },
         {
-          "at": 9,
+          "at": 11,
           "name": "end"
         }
       ]

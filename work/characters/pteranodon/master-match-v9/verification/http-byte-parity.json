@@ -1,0 +1,47 @@
+{
+  "atlas": {
+    "http": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
+    "disk": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005"
+  },
+  "wasm": {
+    "http": "8231427ad2fd4177af9c6a908dfcea157822bf0d5ecad3a2498ed0a336fb1fae",
+    "disk": "8231427ad2fd4177af9c6a908dfcea157822bf0d5ecad3a2498ed0a336fb1fae"
+  },
+  "html_matches_disk": true,
+  "parity": {
+    "ok": true,
+    "checked_bundles": 3,
+    "finalized_characters": 3,
+    "errors": [],
+    "warnings": [
+      "Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+      "Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+      "Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win."
+    ]
+  },
+  "motion_quality": {
+    "ok_for_human_test": true,
+    "release_approved": false,
+    "characters": {
+      "spinosaurus": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "t_rex": {
+        "ok_for_human_test": true,
+        "release_approved": false,
+        "status": "reviewed_pending_owner",
+        "errors": []
+      },
+      "pteranodon": {
+        "ok_for_human_test": true,
+        "release_approved": false,
+        "status": "reviewed_pending_owner",
+        "errors": []
+      }
+    },
+    "errors": []
+  }
+}

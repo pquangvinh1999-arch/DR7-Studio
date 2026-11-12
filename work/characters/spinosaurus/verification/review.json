@@ -1,0 +1,87 @@
+{
+  "atlas_sha256": "c806c25d0cdec58f989f18cd524287f38f34c55236554fcba55cea5c7b6f62b7",
+  "filmstrips": [
+    {
+      "path": "work/characters/spinosaurus/review-v1/filmstrip-attack_heavy.png",
+      "sha256": "08b39a1533de4514afa5d192769fa3704273b278e680a3ea6d2ede31eeda8aed",
+      "backgrounds": [
+        "light",
+        "dark",
+        "checker"
+      ]
+    },
+    {
+      "path": "work/characters/spinosaurus/review-v1/filmstrip-attack_light.png",
+      "sha256": "90803664730917cc3370497b84e0cb06001fb0056424e87d6775b65df56dd005",
+      "backgrounds": [
+        "light",
+        "dark",
+        "checker"
+      ]
+    },
+    {
+      "path": "work/characters/spinosaurus/review-v1/filmstrip-fireball_fx.png",
+      "sha256": "31d39770d50dc7102b520692d823ac2751e854a9595279488bc495b0808904fe",
+      "backgrounds": [
+        "light",
+        "dark",
+        "checker"
+      ]
+    },
+    {
+      "path": "work/characters/spinosaurus/review-v1/filmstrip-hit.png",
+      "sha256": "820067c18508e82f6b24dc98e87887dc43d0f4dd4c0db39a28b90ab93b15aa5d",
+      "backgrounds": [
+        "light",
+        "dark",
+        "checker"
+      ]
+    },
+    {
+      "path": "work/characters/spinosaurus/review-v1/filmstrip-idle.png",
+      "sha256": "421d12ecd2b3fed2b14abe26979b5845e7c9bde42da630b42885e5317ceb4a88",
+      "backgrounds": [
+        "light",
+        "dark",
+        "checker"
+      ]
+    },
+    {
+      "path": "work/characters/spinosaurus/review-v1/filmstrip-ko.png",
+      "sha256": "adc911aa10c8ccbb9218dc4e01f21bbd3bd53b626d866a883bd4220b2603a056",
+      "backgrounds": [
+        "light",
+        "dark",
+        "checker"
+      ]
+    },
+    {
+      "path": "work/characters/spinosaurus/review-v1/filmstrip-power_up.png",
+      "sha256": "85cff4005e06e5f4c7ca76c33b9e1f4b3d2263c6ad824b7f662283815fb90a22",
+      "backgrounds": [
+        "light",
+        "dark",
+        "checker"
+      ]
+    },
+    {
+      "path": "work/characters/spinosaurus/review-v1/filmstrip-run.png",
+      "sha256": "53e7f561c09ed8109161b3b0e76c6537aa85420322f14933fab10fe4af2e097f",
+      "backgrounds": [
+        "light",
+        "dark",
+        "checker"
+      ]
+    },
+    {
+      "path": "work/characters/spinosaurus/review-v1/filmstrip-walk.png",
+      "sha256": "5128ed3d7bbb7433d228d7d821d7fbc716843383d5a6272840bc82746d997556",
+      "backgrounds": [
+        "light",
+        "dark",
+        "checker"
+      ]
+    }
+  ],
+  "status": "awaiting_owner_human_test"
+}

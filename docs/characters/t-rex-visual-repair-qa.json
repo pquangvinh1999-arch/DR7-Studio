@@ -1,0 +1,123 @@
+{
+  "character_id": "t_rex",
+  "status": "reviewed_pending_owner",
+  "motion_quality": {
+    "status": "reviewed_pending_owner",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "616ad71fb609acb7238a5e3bf502ec6a97f2575326234b1e91ac81d610c2d9c7",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": true,
+      "three_backgrounds": true
+    },
+    "review_evidence": "work/characters/t_rex/sharpness-repair/review/keyframe-review.json",
+    "unresolved_structural_failures": [],
+    "owner_approved": false,
+    "previous_revision_atlas_sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f"
+  },
+  "baseline_measurements": "work/characters/t_rex/sharpness-repair/analysis.json",
+  "registered_pose_evidence": "work/characters/t_rex/sharpness-repair/registration.json",
+  "body_only_bbox_px": {
+    "x": 78,
+    "y": 94,
+    "w": 186,
+    "h": 134
+  },
+  "full_fx_bbox_px": {
+    "x": 66,
+    "y": 76,
+    "w": 316,
+    "h": 156
+  },
+  "pixel_sharpness_metrics": {
+    "texel_scale_ratio": "Native single-pixel complete restored poses; whole-pose Nearest registration at unchanged gameplay size",
+    "edge_acutance_sobel": 245.516,
+    "alpha_hardness_pct": 100.0,
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "reference_note": "Measured idle00 with BT709 gray and unnormalized scipy Sobel on inner alpha boundary; no forced target scalar."
+  },
+  "atlas_sha256": "616ad71fb609acb7238a5e3bf502ec6a97f2575326234b1e91ac81d610c2d9c7",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3494,
+          2082
+        ],
+        "cells": 71,
+        "clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "attack_heavy",
+          "power_up",
+          "hit",
+          "ko",
+          "fireball_fx"
+        ]
+      }
+    ]
+  },
+  "frames": 71,
+  "clips": 9,
+  "preservation": {
+    "frame_count_order_ticks_events": true,
+    "fireball_fx_four_original_pngs": true,
+    "canvas": [
+      384,
+      256
+    ],
+    "anchor": [
+      176,
+      224
+    ],
+    "small_contour_variations_pending_human_test": true
+  },
+  "power_up_fix": "Round charge embers in frames0/1; baked departing fire removed from body2..5, original independent FX rendered once with same origin/timing.",
+  "executed_checks": {
+    "loop_test": {
+      "exit_code": 0,
+      "log": "work/characters/t_rex/sharpness-repair/verification/loop-test-after-import.log",
+      "python_e2e_tests": 25,
+      "godot_bundles": 3,
+      "rust_tests": 2
+    },
+    "first_loop_test": {
+      "exit_code": 1,
+      "log": "work/characters/t_rex/sharpness-repair/verification/loop-test.log",
+      "cause": "Godot missing texture import; repaired and rerun"
+    },
+    "godot_import": {
+      "exit_code": 0,
+      "log": "work/characters/t_rex/sharpness-repair/verification/godot-import.log"
+    },
+    "wasm_release_build": {
+      "exit_code": 0
+    },
+    "http_byte_parity": {
+      "atlas": {
+        "status": 200,
+        "http_sha256": "616ad71fb609acb7238a5e3bf502ec6a97f2575326234b1e91ac81d610c2d9c7",
+        "file_sha256": "616ad71fb609acb7238a5e3bf502ec6a97f2575326234b1e91ac81d610c2d9c7",
+        "matches": true
+      },
+      "wasm": {
+        "status": 200,
+        "http_sha256": "8231427ad2fd4177af9c6a908dfcea157822bf0d5ecad3a2498ed0a336fb1fae",
+        "file_sha256": "8231427ad2fd4177af9c6a908dfcea157822bf0d5ecad3a2498ed0a336fb1fae",
+        "matches": true
+      }
+    },
+    "protected_peer_files": 500
+  },
+  "updated_at": "2026-11-12T06:04:38.072531+00:00"
+}

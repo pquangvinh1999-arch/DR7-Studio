@@ -1,0 +1,35 @@
+{
+  "status": "owner_approved",
+  "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
+  "observations": [
+    "All9 filmstrips opened over light/dark/checker; walk0 remains exact source PNG.",
+    "Heavy0/1→4 lowers center of mass and changes bent-knee contact;5 strikes with torso lowered;6/7 lift trailing foot;8/9 catch-step and tail recovery. See per-frame Canvas bboxes in registration.json.",
+    "Body palette, cream jaw/throat, sparse scale highlights matched against walk0; identity/shading final judgment remains with Owner.",
+    "Timing and hit events retained; playback WebP available for each action. No subjective naturalness PASS is implied by technical verification."
+  ],
+  "naturalness": "pending_owner_real_time_review",
+  "owner_approved": true,
+  "artifacts": {
+    "playback-attack_light.webp": "966b873efa762c2b1cde39945fd0eb35c0448cb8388295ce0674c25d5b920d01",
+    "filmstrip-attack_light.png": "ea4a63ddbd65eee5c78854ad5bca7a9f342f22b541eaa59d773f8d550b811d12",
+    "playback-power_up-composite.webp": "00ed05002d6381082c62953fee4431374aa4c55098a5317653f35602807022c7",
+    "filmstrip-attack_heavy.png": "bbf3c3b215852b59eeb5fb976e2427a2419c555ca99303562a16d89e0ae23030",
+    "playback-walk.webp": "a3776ddc06c405e8753b521586ef409fbc458da67b8fb4494238fa66a5b84513",
+    "playback-ko.webp": "6add40e8ba11889f6b303ece2e28e27e8bbce4d2ea233dca814b1a602d424a58",
+    "playback-attack_heavy.webp": "1f47d6d81f56807c964b163d502cc94dc2125cec70300cea08da0d27a0170ab8",
+    "filmstrip-hit.png": "7b4ac9e156d2e6a2398959651248aecca61509c94f0f1ad9490bc0ef3b26cbb8",
+    "playback-fireball_fx.webp": "a7b21c92636dd1323d0449dda7fa35e282e7cf553a08d5f45ab1257263fd7724",
+    "filmstrip-fireball_fx.png": "f299933c4800b19b8cc15c77d51fe6feb909fc5bcc534562038cc6207d67aee9",
+    "playback-hit.webp": "b12f8131257a49414c45fe8125b84e2c417097cfe597c9dc1872f0311a6e8a3d",
+    "filmstrip-power_up.png": "bce20fb76592322db34eb28b9b0722f80a7116d6c38955301cb2f3c7215b9301",
+    "filmstrip-ko.png": "1aac5d43b480a4c5ba6571fa06891b2585d4469ad0096b4ce32ce2271f787238",
+    "filmstrip-idle.png": "455de6f852579b34f2806692ad85d6dcab595cfbfb54402eaa2fe8b4ab9f8cd8",
+    "playback-power_up.webp": "d60e8df8b8bdd0b7c11e3215704187bcf6ae91093efa36d7933390de0bf5539b",
+    "playback-idle.webp": "86e3ba7f0a1c7cc5853b28a5e75437bb86076f8c1fd2eddb215bdbe123a1a0b2",
+    "filmstrip-walk.png": "21b63a2ad555c72cab9277376e0cb76d0335f40790737f426192cc86cd4a7969",
+    "filmstrip-run.png": "38b2340525a46e07a80321f53b1450df1a06134ff03a43bfdf9c206f37607322",
+    "playback-run.webp": "269dabaf43f5d7f29c80dcffb150334c322047ad35b651ce62aed8dc87b5938d",
+    "filmstrip-power_up-composite.png": "adda83a2df3a7c9f58e7ac210d9d1e131b3581c4c8ca89a107bf90e78b0f2366"
+  },
+  "owner_approval_file": "assets/t_rex/owner_approval.json"
+}

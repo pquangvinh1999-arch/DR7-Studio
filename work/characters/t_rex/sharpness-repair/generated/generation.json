@@ -1,0 +1,47 @@
+{
+  "idle": {
+    "source": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-679585df-fe1a-4cbd-87a4-2606c112ea80.png",
+    "prompt_file": "idle-prompt.txt",
+    "method": "imagegen_complete_body_keyframes"
+  },
+  "walk": {
+    "source": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-00a58661-5fc5-477a-8e21-d3630854d2fa.png",
+    "prompt_file": "walk-prompt.txt",
+    "method": "imagegen_complete_body_keyframes"
+  },
+  "run": {
+    "source": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-b44d9e8c-7d57-4683-a041-909f5dc2098a.png",
+    "prompt_file": "run-prompt.txt",
+    "method": "imagegen_complete_body_keyframes"
+  },
+  "attack_light": {
+    "source": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-a1059f7c-6212-4d0c-bb69-fb48f7528058.png",
+    "prompt_file": "attack_light-prompt.txt",
+    "method": "imagegen_complete_body_keyframes"
+  },
+  "attack_heavy": {
+    "source": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-14162933-eedf-41b1-a0fb-10b5f28f98a1.png",
+    "prompt_file": "attack_heavy-prompt.txt",
+    "method": "imagegen_complete_body_keyframes"
+  },
+  "power_up": {
+    "source": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-4ad1c33f-3189-471b-98f7-df54bd8bdbac.png",
+    "prompt_file": "power_up-prompt.txt",
+    "method": "imagegen_complete_body_keyframes",
+    "refinement": {
+      "source": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-e77cb682-89f8-4a0a-b360-be60ccb06f9b.png",
+      "prompt": "Edit this T-rex nine-frame power_up sprite sheet. Preserve absolutely all nine T-rex poses, positions, dimensions, colors, anatomy, foot positions, mouth angles and exact 4-column layout; bottom row only first cell occupied. Keep the tiny round orange charge embers INSIDE the mouths in frame0 and frame1. REMOVE ONLY THE EXTERNAL FIRE PROJECTILE from frames2,3,4,5 (cells row1 col3,col4 and row2 col1,col2). Leave these open mouths anatomically complete and fully visible: reconstruct any throat, tongue, jaw or teeth covered by the departing fire, matching each original pose. Outgoing fire is handled on a separate engine FX sprite and MUST NOT be drawn in body frames. Do not remove mouth-internal embers frame0/1. Other cells unchanged. No redesign or new motion, no additional dinosaurs. Crisp native single-pixel game sprite rendering, fully transparent background, no shadows/halos/glows outside sprites, same1536x1024 canvas. Complete coherent body poses, no body-part cutting or pasted seams.",
+      "reason": "Remove departing fire from body to prevent duplicate independent FX"
+    }
+  },
+  "hit": {
+    "source": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-bb212495-d886-479f-8485-7e92d0b2e08c.png",
+    "prompt_file": "hit-prompt.txt",
+    "method": "imagegen_complete_body_keyframes"
+  },
+  "ko": {
+    "source": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-d7644e01-7143-4c11-a859-d335d3d37a4a.png",
+    "prompt_file": "ko-prompt.txt",
+    "method": "imagegen_complete_body_keyframes"
+  }
+}

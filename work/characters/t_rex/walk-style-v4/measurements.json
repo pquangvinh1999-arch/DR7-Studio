@@ -1,0 +1,1827 @@
+[
+  {
+    "clip": "idle",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-00.png",
+    "file_sha256": "234ea04b8acb9120e4b17802b24741874f4bebfa6006bd0e252af8692634da39",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      93,
+      187,
+      135
+    ],
+    "visible_pixels": 9395,
+    "rgb_colors": 7029,
+    "edge_acutance_sobel": 144.02,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9892276203813423,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-01.png",
+    "file_sha256": "c532ade6a3cf8e0fe28dbae16ba5a9099b9ed20fac11abb0564b5f4b6d8801b1",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      97,
+      187,
+      131
+    ],
+    "visible_pixels": 9177,
+    "rgb_colors": 6853,
+    "edge_acutance_sobel": 156.967,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.989416822842024,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-02.png",
+    "file_sha256": "d0e0abad7deb4e00e2ac3ed64cf2916a3f0546be955b55ffae37ed7e3e01230c",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      101,
+      188,
+      129
+    ],
+    "visible_pixels": 9115,
+    "rgb_colors": 6813,
+    "edge_acutance_sobel": 156.336,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9883320368929881,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-03.png",
+    "file_sha256": "b811af6e0a46dd9d0038c1d3310064acd2aab0071efd51abe533bdee2e82ca48",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      98,
+      187,
+      130
+    ],
+    "visible_pixels": 9086,
+    "rgb_colors": 6782,
+    "edge_acutance_sobel": 157.701,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9878443180550909,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-04.png",
+    "file_sha256": "f8fca2a7ebbf2256e17ce4d0836b4cff54734d3b1da7797a90d9da716be8c74e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      93,
+      186,
+      135
+    ],
+    "visible_pixels": 9225,
+    "rgb_colors": 6878,
+    "edge_acutance_sobel": 149.87,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9901239986831998,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-05.png",
+    "file_sha256": "df04968e5889cefe2c516e612ce00cbb607239d78ea6aed343a794b0aab1f9da",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      90,
+      187,
+      138
+    ],
+    "visible_pixels": 9330,
+    "rgb_colors": 7108,
+    "edge_acutance_sobel": 154.518,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9904679376083189,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-06.png",
+    "file_sha256": "03a7965770035785c54fbc7eb3307919dc03efdfff229f22e30fcc2846964115",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      87,
+      186,
+      139
+    ],
+    "visible_pixels": 9323,
+    "rgb_colors": 6822,
+    "edge_acutance_sobel": 140.705,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9893640112871717,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-07.png",
+    "file_sha256": "6878ce93fd2e33d81f99470229987cb61499e9cca117f5f02fc9dc861c302636",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      90,
+      187,
+      138
+    ],
+    "visible_pixels": 9321,
+    "rgb_colors": 6906,
+    "edge_acutance_sobel": 144.684,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.989357080799305,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-08.png",
+    "file_sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      102,
+      188,
+      122
+    ],
+    "visible_pixels": 8355,
+    "rgb_colors": 6763,
+    "edge_acutance_sobel": 230.524,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9934861278648974,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-09.png",
+    "file_sha256": "8f4e83419b79625e8307d3e3c666f22f22b59b781dd3e92c6cba4d8cc6bd1af0",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      103,
+      195,
+      119
+    ],
+    "visible_pixels": 8829,
+    "rgb_colors": 7089,
+    "edge_acutance_sobel": 161.134,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9941873717802598,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-10.png",
+    "file_sha256": "4ac77ed7ccd7ee6651403237e2190cc60b67c397c73ba5c0c8ca81b4b1afda00",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      99,
+      193,
+      127
+    ],
+    "visible_pixels": 8404,
+    "rgb_colors": 6611,
+    "edge_acutance_sobel": 171.688,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9929222648752399,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-11.png",
+    "file_sha256": "eddd5198744f3c3fada3c11c8e9a463ed9024284fbd0fa647d319c8bbc511030",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      94,
+      190,
+      136
+    ],
+    "visible_pixels": 8548,
+    "rgb_colors": 6881,
+    "edge_acutance_sobel": 179.347,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9918574463063489,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-12.png",
+    "file_sha256": "724f01efdc66a878c71bfdbb16be18b86cc3bf9a30af3169e908491a40a09102",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      76,
+      93,
+      189,
+      137
+    ],
+    "visible_pixels": 8798,
+    "rgb_colors": 6832,
+    "edge_acutance_sobel": 172.338,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9926597086821883,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-13.png",
+    "file_sha256": "b6727ae59002766986455cce41c23bb8e6cdd4306cb195ee7be08463f58cc004",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      76,
+      99,
+      190,
+      129
+    ],
+    "visible_pixels": 9219,
+    "rgb_colors": 7313,
+    "edge_acutance_sobel": 163.236,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9931140015302219,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-14.png",
+    "file_sha256": "dfce6753967078aeeb322cc88d8f9c1e9e6aa9642f2d12d96452e4efdd8099a5",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      76,
+      101,
+      193,
+      123
+    ],
+    "visible_pixels": 9385,
+    "rgb_colors": 7347,
+    "edge_acutance_sobel": 159.589,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9937721464619349,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-15.png",
+    "file_sha256": "fde0950ae32cc07cd75326fd380b609ce7b0ed7a2555d753cc3a7b1d8179fae7",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      76,
+      98,
+      194,
+      124
+    ],
+    "visible_pixels": 9555,
+    "rgb_colors": 7452,
+    "edge_acutance_sobel": 169.927,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9927146024707,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 8,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-16.png",
+    "file_sha256": "9544dabcd9e4a111caa57e711718e7ddda1b2dc53697ee0914eb3b932451f551",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      95,
+      191,
+      131
+    ],
+    "visible_pixels": 9613,
+    "rgb_colors": 7718,
+    "edge_acutance_sobel": 160.748,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9931837248322147,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 9,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-17.png",
+    "file_sha256": "c646d21219d060d7c7da5b9b4fdad1b346b3eeae1fc7c488b870d941b0b8d13d",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      94,
+      191,
+      132
+    ],
+    "visible_pixels": 9614,
+    "rgb_colors": 7607,
+    "edge_acutance_sobel": 161.973,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9927597061909759,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-18.png",
+    "file_sha256": "2e54afabf418bc5bfdcdd025778d63330703e568bf5b859cc267a07fb0260358",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      86,
+      108,
+      197,
+      118
+    ],
+    "visible_pixels": 8768,
+    "rgb_colors": 6876,
+    "edge_acutance_sobel": 171.707,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9925304527694783,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-19.png",
+    "file_sha256": "4426e8bc250d173cbf8d6ca2cbf212dc18c8b03fe6e5a9631ae851aaa3a20573",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      86,
+      112,
+      202,
+      112
+    ],
+    "visible_pixels": 8432,
+    "rgb_colors": 6786,
+    "edge_acutance_sobel": 186.967,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9941541398234311,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-20.png",
+    "file_sha256": "a871c866ec51355cc5fb69b34bd30cd6ae34d381573f3f969e71aaae4cefefdb",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      82,
+      106,
+      199,
+      124
+    ],
+    "visible_pixels": 8577,
+    "rgb_colors": 6776,
+    "edge_acutance_sobel": 174.961,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9941348973607038,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-21.png",
+    "file_sha256": "e88026a64d9526bc50ca4527a14c3f46a5b3adc7b6c48d11039ae5053a7e72fa",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      82,
+      102,
+      193,
+      130
+    ],
+    "visible_pixels": 8294,
+    "rgb_colors": 6430,
+    "edge_acutance_sobel": 199.613,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9958827803342214,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-22.png",
+    "file_sha256": "3e6c90892dcfb5a254042ee97f76979370829fc97d26116a1cd66403942ec2bd",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      108,
+      200,
+      122
+    ],
+    "visible_pixels": 8906,
+    "rgb_colors": 6954,
+    "edge_acutance_sobel": 180.809,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9921830746573015,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-23.png",
+    "file_sha256": "f153ea2bb3dc474d464d488e71cc52eb9f480cee0a1f71a02578cb07c1f7e531",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      82,
+      112,
+      204,
+      110
+    ],
+    "visible_pixels": 9386,
+    "rgb_colors": 7240,
+    "edge_acutance_sobel": 172.806,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9946415175222377,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-24.png",
+    "file_sha256": "217e1aac0cc16bac2f9efb61ea2c30b55cf2737effd5a092fa09ab4ffd8afa8e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      82,
+      105,
+      202,
+      123
+    ],
+    "visible_pixels": 9451,
+    "rgb_colors": 7290,
+    "edge_acutance_sobel": 163.834,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9925293489861259,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-25.png",
+    "file_sha256": "a8fe833d9737af7c54b51048d3f0bfe8ffafb8d89f02d35c7ab8c7f70636898e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      84,
+      99,
+      197,
+      129
+    ],
+    "visible_pixels": 9278,
+    "rgb_colors": 7170,
+    "edge_acutance_sobel": 187.307,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9952329360780064,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-26.png",
+    "file_sha256": "300b70285c5aa4e361aa19dccd8e691397bd0d09ca12925e6fcf10072b0420b4",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      72,
+      88,
+      181,
+      140
+    ],
+    "visible_pixels": 9355,
+    "rgb_colors": 7816,
+    "edge_acutance_sobel": 187.451,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9961369245627213,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-27.png",
+    "file_sha256": "3d3d9b113be63d32be3c1f5f53986d89addd9ad98e78163533777687660e5946",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      68,
+      84,
+      174,
+      144
+    ],
+    "visible_pixels": 9621,
+    "rgb_colors": 8046,
+    "edge_acutance_sobel": 178.268,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.996244131455399,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-28.png",
+    "file_sha256": "e7a57a2d4ddeb1d0ab8fa3e131e0585c24b7cc871e9bb85baf0ecf87921aa2ef",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      92,
+      108,
+      217,
+      122
+    ],
+    "visible_pixels": 9046,
+    "rgb_colors": 7553,
+    "edge_acutance_sobel": 237.716,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9966718437985356,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-29.png",
+    "file_sha256": "4de08876062d94f7c85ac73ce8d5fa59ffdc3964e63969f15e7c37c63b907290",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      104,
+      115,
+      234,
+      115
+    ],
+    "visible_pixels": 9243,
+    "rgb_colors": 7907,
+    "edge_acutance_sobel": 292.583,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.997069994574064,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-30.png",
+    "file_sha256": "b7d0babc2b00ec3d31ba9fa2b1398cbb8d0d1387712dcfd8268989261772a913",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      100,
+      115,
+      244,
+      117
+    ],
+    "visible_pixels": 9149,
+    "rgb_colors": 7549,
+    "edge_acutance_sobel": 251.125,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9968201754385965,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-31.png",
+    "file_sha256": "68745a6b3cc105f8a90861a4a643ee069952b6818c45b4376894311de2ecf1f1",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      90,
+      106,
+      245,
+      124
+    ],
+    "visible_pixels": 9336,
+    "rgb_colors": 7582,
+    "edge_acutance_sobel": 170.769,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9952627045650302,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-32.png",
+    "file_sha256": "344c45a0f0d2d6e3766d38864333c3bf19add1f9aa473040f4636c191b36ac9d",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      84,
+      100,
+      193,
+      130
+    ],
+    "visible_pixels": 9268,
+    "rgb_colors": 7545,
+    "edge_acutance_sobel": 187.171,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9958816516744338,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-33.png",
+    "file_sha256": "d2972b65fbc8032edc09d0a0b66236e817a12c977016174be6c073fba2b00968",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      95,
+      188,
+      133
+    ],
+    "visible_pixels": 9163,
+    "rgb_colors": 7508,
+    "edge_acutance_sobel": 180.435,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9962751971954426,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-34.png",
+    "file_sha256": "0ad240348028fe6a3886822a0ad186007abd84b6750d129df39d0b8918b3034f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      76,
+      106,
+      191,
+      120
+    ],
+    "visible_pixels": 8611,
+    "rgb_colors": 5849,
+    "edge_acutance_sobel": 182.172,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9825436408977556,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-35.png",
+    "file_sha256": "650c9e6337b22e8622b77a3bda374b39955eecb9dae413fd501abbe115c945dc",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      87,
+      127,
+      182,
+      99
+    ],
+    "visible_pixels": 8602,
+    "rgb_colors": 5606,
+    "edge_acutance_sobel": 152.172,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9812380497131931,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-36.png",
+    "file_sha256": "622b848cd48356bc60efc7bf6994a8b1f54ab9d68c096fc48f55498f50a4324e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      93,
+      113,
+      144,
+      113
+    ],
+    "visible_pixels": 7601,
+    "rgb_colors": 5410,
+    "edge_acutance_sobel": 171.833,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9844357976653697,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-37.png",
+    "file_sha256": "1387be91914056cc00f0adf99164aa6a56395d7575ff091ed39578fe9e0a4d2c",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      98,
+      98,
+      138,
+      128
+    ],
+    "visible_pixels": 8529,
+    "rgb_colors": 6083,
+    "edge_acutance_sobel": 153.971,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9854084439660328,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-38.png",
+    "file_sha256": "9cd84d44db5b02e4541d8a44da35cab58019692025d2d6e87d9c02013e51270a",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      96,
+      95,
+      142,
+      131
+    ],
+    "visible_pixels": 7872,
+    "rgb_colors": 5865,
+    "edge_acutance_sobel": 180.231,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9860392967942089,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-39.png",
+    "file_sha256": "404f9907437ad4946a1bb25b395adecd44d88e90b21c205423975c94e31db0f7",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      71,
+      122,
+      218,
+      104
+    ],
+    "visible_pixels": 8888,
+    "rgb_colors": 5569,
+    "edge_acutance_sobel": 189.606,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9782987118486712,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-40.png",
+    "file_sha256": "328d05ee6cdf90997ac21458e8e54aea38054e72cd7a5e5734e48c6adfcecb4f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      96,
+      111,
+      187,
+      115
+    ],
+    "visible_pixels": 7466,
+    "rgb_colors": 4799,
+    "edge_acutance_sobel": 170.605,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9753462603878116,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-41.png",
+    "file_sha256": "0588ea75197571f6bfe22f89c860cdd6a45f14ce9d10e22ced3d9d68868552de",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      114,
+      104,
+      155,
+      122
+    ],
+    "visible_pixels": 6500,
+    "rgb_colors": 4206,
+    "edge_acutance_sobel": 128.014,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.981798037353593,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 8,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-42.png",
+    "file_sha256": "aa3a1809033b374b59cccce0d557ebbd0d672ecb150debecc2104ab2a7f21ef2",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      100,
+      104,
+      161,
+      122
+    ],
+    "visible_pixels": 8302,
+    "rgb_colors": 4844,
+    "edge_acutance_sobel": 152.561,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9761609138316365,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 9,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-43.png",
+    "file_sha256": "5d70ee7305950baa720c3c52631509728f8f778d36ae1f5f71650b860a44696b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      79,
+      138,
+      197,
+      88
+    ],
+    "visible_pixels": 9012,
+    "rgb_colors": 5398,
+    "edge_acutance_sobel": 164.843,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9783728115345005,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 10,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-44.png",
+    "file_sha256": "824ebdbc803b53abfd76652a8a68b18008573f09534ea7ff783377bb8cc17603",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      70,
+      115,
+      200,
+      111
+    ],
+    "visible_pixels": 8578,
+    "rgb_colors": 5568,
+    "edge_acutance_sobel": 158.755,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9807093218308172,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 11,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-45.png",
+    "file_sha256": "8108b26cf005d415e4d2d592fa86d61b59746cea0df0fc77c57a6e230da307e6",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      73,
+      109,
+      196,
+      117
+    ],
+    "visible_pixels": 8705,
+    "rgb_colors": 5929,
+    "edge_acutance_sobel": 185.76,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9842981017108039,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-46.png",
+    "file_sha256": "06fbdb56780ddbda3688306d8620d1c8f11f90fcba816c3465d64991b40e3a0f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      74,
+      82,
+      180,
+      144
+    ],
+    "visible_pixels": 9837,
+    "rgb_colors": 7736,
+    "edge_acutance_sobel": 117.606,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9910493827160494,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-47.png",
+    "file_sha256": "8d7bf5eed706de6c3979302ec4dc44cedf58f5754e8bb7784e2016bfbade0f14",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      68,
+      75,
+      178,
+      149
+    ],
+    "visible_pixels": 10327,
+    "rgb_colors": 8207,
+    "edge_acutance_sobel": 128.158,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9944281524926686,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-48.png",
+    "file_sha256": "3ab1c6b3e5fb732a0fbed98038dddec9589c1fa1d3784420bf1813539e26f26c",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      92,
+      108,
+      194,
+      122
+    ],
+    "visible_pixels": 9149,
+    "rgb_colors": 7161,
+    "edge_acutance_sobel": 127.128,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9944909651828999,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-49.png",
+    "file_sha256": "b590db65605f268302654c21eb4adef00b97ea55162e991e1466de837cc77a32",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      88,
+      106,
+      199,
+      124
+    ],
+    "visible_pixels": 9577,
+    "rgb_colors": 7195,
+    "edge_acutance_sobel": 122.11,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.992619926199262,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-50.png",
+    "file_sha256": "0839cbedc38ac39a85297c61f2391c128a3d0286b070ddf343b20ae659bd66be",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      86,
+      104,
+      197,
+      126
+    ],
+    "visible_pixels": 9981,
+    "rgb_colors": 7817,
+    "edge_acutance_sobel": 120.6,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9916894699503395,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-51.png",
+    "file_sha256": "381b4e31fbc677b7238440211269ff691c9ac8fe1d79d77b72bb6286d2f878a0",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      84,
+      103,
+      195,
+      127
+    ],
+    "visible_pixels": 9839,
+    "rgb_colors": 7663,
+    "edge_acutance_sobel": 115.017,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9926969759308785,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-52.png",
+    "file_sha256": "f380f6046c212e654b15a065a01e50aca82b3c9dff41ddebc1c2fc5e64168445",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      82,
+      100,
+      196,
+      130
+    ],
+    "visible_pixels": 9937,
+    "rgb_colors": 7659,
+    "edge_acutance_sobel": 113.532,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9913494809688581,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-53.png",
+    "file_sha256": "d3a856fe35f1e78b5f2e9e286df5f2cc4382300121a0cf7a390bedbd6b64f792",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      97,
+      192,
+      131
+    ],
+    "visible_pixels": 9635,
+    "rgb_colors": 7522,
+    "edge_acutance_sobel": 122.364,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9912714270690924,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 8,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-54.png",
+    "file_sha256": "b078fc3c9511cf1819a0ec293a8da05175083923ccb84e2c597b9b66beddf940",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      94,
+      190,
+      134
+    ],
+    "visible_pixels": 9857,
+    "rgb_colors": 7716,
+    "edge_acutance_sobel": 113.81,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9910558239950653,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-55.png",
+    "file_sha256": "c45b0ad52a145169c80a903348bec5e3134817738c2496a06c2608c7e158076f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      72,
+      82,
+      180,
+      146
+    ],
+    "visible_pixels": 9839,
+    "rgb_colors": 7041,
+    "edge_acutance_sobel": 121.483,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9858456452112822,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-56.png",
+    "file_sha256": "268811b39d5ec8495e24dfcd6e6af6685ca77c2a4666cd5365bfcb961348684b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      66,
+      76,
+      175,
+      152
+    ],
+    "visible_pixels": 10097,
+    "rgb_colors": 7189,
+    "edge_acutance_sobel": 123.408,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9850956696878147,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-57.png",
+    "file_sha256": "795b87bed39a05ab002e28aa5c66e03f492814a00afc1171ed662791a1a0673e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      68,
+      81,
+      179,
+      147
+    ],
+    "visible_pixels": 10057,
+    "rgb_colors": 7069,
+    "edge_acutance_sobel": 116.789,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9852346278317152,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-58.png",
+    "file_sha256": "f4fc85472a71769d048ea4951ab044b974608030219802ff7236dd8f4137347e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      72,
+      86,
+      184,
+      142
+    ],
+    "visible_pixels": 9686,
+    "rgb_colors": 7006,
+    "edge_acutance_sobel": 119.998,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9866806502359727,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-59.png",
+    "file_sha256": "c24e136fcdb9d1933d4026a282770a7d484671fc6b5db6cc2f7c7d678292e4e0",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      76,
+      91,
+      187,
+      137
+    ],
+    "visible_pixels": 9698,
+    "rgb_colors": 6824,
+    "edge_acutance_sobel": 110.806,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.986475152023485,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-60.png",
+    "file_sha256": "f164db9477810e60ec0d6833125deafaa1010f88f5cc905624adafa8451d89fc",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      94,
+      192,
+      134
+    ],
+    "visible_pixels": 9739,
+    "rgb_colors": 6804,
+    "edge_acutance_sobel": 118.286,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.987611909223402,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-61.png",
+    "file_sha256": "d0cb3d5b4cd57f1e084dd489badcad9d6ba71bcabfa2d58cbdb8abf28e55b268",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      70,
+      77,
+      175,
+      151
+    ],
+    "visible_pixels": 9932,
+    "rgb_colors": 8084,
+    "edge_acutance_sobel": 135.782,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.993505834601725,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-62.png",
+    "file_sha256": "47e7a2f84cbc5d5fe7a583732b807fbf605c2091b9b431e01bff08c0d283bbc9",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      72,
+      107,
+      194,
+      121
+    ],
+    "visible_pixels": 9242,
+    "rgb_colors": 7458,
+    "edge_acutance_sobel": 155.331,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9918104389604717,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-63.png",
+    "file_sha256": "c37b7b3957a65a104d4c05eccff1be11e06f48450c6f65133f1032a66af12903",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      76,
+      115,
+      196,
+      113
+    ],
+    "visible_pixels": 9179,
+    "rgb_colors": 7112,
+    "edge_acutance_sobel": 162.907,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9937458854509545,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-64.png",
+    "file_sha256": "9d886a1c1b59cdbed15584c15176578cff64b19d3bcef8c474c5bf2a3ed734a9",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      125,
+      201,
+      103
+    ],
+    "visible_pixels": 8938,
+    "rgb_colors": 7191,
+    "edge_acutance_sobel": 171.997,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9947083990092321,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-65.png",
+    "file_sha256": "c3162c81f3b64d7033c7e824907151cfb8df38e3493fb2e723191fc6f463bba1",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      84,
+      138,
+      201,
+      90
+    ],
+    "visible_pixels": 8544,
+    "rgb_colors": 7000,
+    "edge_acutance_sobel": 187.864,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9957681909016104,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-66.png",
+    "file_sha256": "1a891cc3b12daf0aff9506fa7070db715aca961c7419f18c0c4fe30a1390506d",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      84,
+      137,
+      202,
+      91
+    ],
+    "visible_pixels": 8572,
+    "rgb_colors": 7017,
+    "edge_acutance_sobel": 193.36,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9956618595380466,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-67.png",
+    "file_sha256": "4f79be252d54d93c6bc8a181a3d9efdcd5e4c622a22bd457efbf9a9d4ae2deab",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      86,
+      142,
+      202,
+      86
+    ],
+    "visible_pixels": 8355,
+    "rgb_colors": 6782,
+    "edge_acutance_sobel": 196.979,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9939795304033715,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-68.png",
+    "file_sha256": "cfadafffacc4a642273f39b470b9d971bd630b908d9982eaf9964ea682b0864b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      86,
+      141,
+      202,
+      87
+    ],
+    "visible_pixels": 8331,
+    "rgb_colors": 6926,
+    "edge_acutance_sobel": 203.83,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9937167713871435,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "fireball_fx",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-69.png",
+    "file_sha256": "e3db9e0776fb59e8c8ccdc2c8767a317564afa03a72513378dc298e78338b24a",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      138,
+      101,
+      77,
+      50
+    ],
+    "visible_pixels": 1586,
+    "rgb_colors": 964,
+    "edge_acutance_sobel": 363.676,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.8878990348923533,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "fireball_fx",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-70.png",
+    "file_sha256": "476a946b571b1d5ad97f7bd5f0003a8872b80d355a758db02d29f4be920e8a61",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      150,
+      111,
+      82,
+      32
+    ],
+    "visible_pixels": 1206,
+    "rgb_colors": 807,
+    "edge_acutance_sobel": 506.328,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.8943731490621916,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "fireball_fx",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-71.png",
+    "file_sha256": "148a2c1a1f2bea56f2ccc26b241ac8eda823e02424f2a3f5ca7643d70efedb4f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      164,
+      113,
+      78,
+      29
+    ],
+    "visible_pixels": 1023,
+    "rgb_colors": 706,
+    "edge_acutance_sobel": 556.335,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9138702460850112,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "fireball_fx",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/stage/clips/frames/frame-72.png",
+    "file_sha256": "4f8bfed820ee34fba32a1bca889f2e333f9afbd9f5d2a163f07cd88397e4ec3b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      178,
+      106,
+      76,
+      42
+    ],
+    "visible_pixels": 1165,
+    "rgb_colors": 778,
+    "edge_acutance_sobel": 512.88,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9050567595459237,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  }
+]

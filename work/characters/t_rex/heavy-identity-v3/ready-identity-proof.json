@@ -1,0 +1,23 @@
+{
+  "canonical_visible_rgba_sha256": "cea412dd07cf69800fdaeb87cd570ae4d0874235136b834a69b87e0ae62db7e3",
+  "ready_frames": {
+    "0": {
+      "matches_canonical_visible_rgba": true,
+      "bbox": [
+        78,
+        92,
+        264,
+        226
+      ]
+    },
+    "11": {
+      "matches_canonical_visible_rgba": true,
+      "bbox": [
+        78,
+        92,
+        264,
+        226
+      ]
+    }
+  }
+}

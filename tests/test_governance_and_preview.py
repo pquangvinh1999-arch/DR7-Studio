@@ -86,7 +86,17 @@ class GovernanceAndPreviewTests(unittest.TestCase):
             self.assertEqual(receipt["character_id"], workflow["character_id"])
             self.assertTrue(receipt["owner_message"].strip())
             atlas = REPO_ROOT / "assets" / receipt["character_id"] / "godot_bundle/godot" / (receipt["character_id"] + "-atlas-00.png")
-            self.assertEqual(hashlib.sha256(atlas.read_bytes()).hexdigest(), receipt["atlas_sha256"])
+            approved_atlas = REPO_ROOT / workflow["approved_atlas_path"] if workflow.get("approved_atlas_path") else atlas
+            self.assertEqual(hashlib.sha256(approved_atlas.read_bytes()).hexdigest(), receipt["atlas_sha256"])
+            if approved_atlas != atlas:
+                # An accepted historical revision must not approve unseen new art.
+                ch = next(c for c in json.loads((REPO_ROOT / "assets/roster.json").read_text())["characters"]
+                          if c["character_id"] == receipt["character_id"])
+                review = ch["motion_quality"]
+                self.assertEqual(review["status"], "reviewed_pending_owner")
+                self.assertEqual(review["atlas_sha256"], hashlib.sha256(atlas.read_bytes()).hexdigest())
+                self.assertFalse(review["owner_approved"])
+                self.assertEqual(review["previous_revision_atlas_sha256"], receipt["atlas_sha256"])
 
         lerning_txt = (REPO_ROOT / "lerning.md").read_text(encoding="utf-8")
         m_lr = re.search(r"<!-- LERNING_ENTRIES_START -->(.*?)<!-- LERNING_ENTRIES_END -->", lerning_txt, re.S)

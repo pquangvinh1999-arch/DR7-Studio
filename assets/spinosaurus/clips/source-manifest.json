@@ -1,0 +1,594 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "pixel_art": true,
+  "sampling": "nearest",
+  "anchor_px": [
+    176,
+    224
+  ],
+  "shadow": {
+    "rx": 36,
+    "ry": 9,
+    "opacity": 0.35
+  },
+  "states": {
+    "idle": "idle",
+    "moving": "walk",
+    "attack_light": "attack_light",
+    "attack_heavy": "attack_heavy",
+    "power_up": "power_up",
+    "hit": "hit",
+    "ko": "ko"
+  },
+  "art_source": "host_image",
+  "frames": [
+    {
+      "name": "idle_00",
+      "file": "raw_frames/idle_00.png"
+    },
+    {
+      "name": "idle_01",
+      "file": "raw_frames/idle_01.png"
+    },
+    {
+      "name": "idle_02",
+      "file": "raw_frames/idle_02.png"
+    },
+    {
+      "name": "idle_03",
+      "file": "raw_frames/idle_03.png"
+    },
+    {
+      "name": "idle_04",
+      "file": "raw_frames/idle_04.png"
+    },
+    {
+      "name": "idle_05",
+      "file": "raw_frames/idle_05.png"
+    },
+    {
+      "name": "idle_06",
+      "file": "raw_frames/idle_06.png"
+    },
+    {
+      "name": "idle_07",
+      "file": "raw_frames/idle_07.png"
+    },
+    {
+      "name": "idle_08",
+      "file": "raw_frames/idle_08.png"
+    },
+    {
+      "name": "idle_09",
+      "file": "raw_frames/idle_09.png"
+    },
+    {
+      "name": "idle_10",
+      "file": "raw_frames/idle_10.png"
+    },
+    {
+      "name": "idle_11",
+      "file": "raw_frames/idle_11.png"
+    },
+    {
+      "name": "walk_00",
+      "file": "raw_frames/walk_00.png"
+    },
+    {
+      "name": "walk_01",
+      "file": "raw_frames/walk_01.png"
+    },
+    {
+      "name": "walk_02",
+      "file": "raw_frames/walk_02.png"
+    },
+    {
+      "name": "walk_03",
+      "file": "raw_frames/walk_03.png"
+    },
+    {
+      "name": "walk_04",
+      "file": "raw_frames/walk_04.png"
+    },
+    {
+      "name": "walk_05",
+      "file": "raw_frames/walk_05.png"
+    },
+    {
+      "name": "walk_06",
+      "file": "raw_frames/walk_06.png"
+    },
+    {
+      "name": "walk_07",
+      "file": "raw_frames/walk_07.png"
+    },
+    {
+      "name": "attack_light_00",
+      "file": "raw_frames/attack_light_00.png"
+    },
+    {
+      "name": "attack_light_01",
+      "file": "raw_frames/attack_light_01.png"
+    },
+    {
+      "name": "attack_light_02",
+      "file": "raw_frames/attack_light_02.png"
+    },
+    {
+      "name": "attack_light_03",
+      "file": "raw_frames/attack_light_03.png"
+    },
+    {
+      "name": "attack_light_04",
+      "file": "raw_frames/attack_light_04.png"
+    },
+    {
+      "name": "attack_light_05",
+      "file": "raw_frames/attack_light_05.png"
+    },
+    {
+      "name": "attack_light_06",
+      "file": "raw_frames/attack_light_06.png"
+    },
+    {
+      "name": "attack_light_07",
+      "file": "raw_frames/attack_light_07.png"
+    },
+    {
+      "name": "attack_heavy_00",
+      "file": "raw_frames/attack_heavy_00.png"
+    },
+    {
+      "name": "attack_heavy_01",
+      "file": "raw_frames/attack_heavy_01.png"
+    },
+    {
+      "name": "attack_heavy_02",
+      "file": "raw_frames/attack_heavy_02.png"
+    },
+    {
+      "name": "attack_heavy_03",
+      "file": "raw_frames/attack_heavy_03.png"
+    },
+    {
+      "name": "attack_heavy_04",
+      "file": "raw_frames/attack_heavy_04.png"
+    },
+    {
+      "name": "attack_heavy_05",
+      "file": "raw_frames/attack_heavy_05.png"
+    },
+    {
+      "name": "attack_heavy_06",
+      "file": "raw_frames/attack_heavy_06.png"
+    },
+    {
+      "name": "attack_heavy_07",
+      "file": "raw_frames/attack_heavy_07.png"
+    },
+    {
+      "name": "attack_heavy_08",
+      "file": "raw_frames/attack_heavy_08.png"
+    },
+    {
+      "name": "attack_heavy_09",
+      "file": "raw_frames/attack_heavy_09.png"
+    },
+    {
+      "name": "attack_heavy_10",
+      "file": "raw_frames/attack_heavy_10.png"
+    },
+    {
+      "name": "attack_heavy_11",
+      "file": "raw_frames/attack_heavy_11.png"
+    },
+    {
+      "name": "power_up_00",
+      "file": "raw_frames/power_up_00.png"
+    },
+    {
+      "name": "power_up_01",
+      "file": "raw_frames/power_up_01.png"
+    },
+    {
+      "name": "power_up_02",
+      "file": "raw_frames/power_up_02.png"
+    },
+    {
+      "name": "power_up_03",
+      "file": "raw_frames/power_up_03.png"
+    },
+    {
+      "name": "power_up_04",
+      "file": "raw_frames/power_up_04.png"
+    },
+    {
+      "name": "power_up_05",
+      "file": "raw_frames/power_up_05.png"
+    },
+    {
+      "name": "power_up_06",
+      "file": "raw_frames/power_up_06.png"
+    },
+    {
+      "name": "power_up_07",
+      "file": "raw_frames/power_up_07.png"
+    },
+    {
+      "name": "power_up_08",
+      "file": "raw_frames/power_up_08.png"
+    },
+    {
+      "name": "hit_00",
+      "file": "raw_frames/hit_00.png"
+    },
+    {
+      "name": "hit_01",
+      "file": "raw_frames/hit_01.png"
+    },
+    {
+      "name": "hit_02",
+      "file": "raw_frames/hit_02.png"
+    },
+    {
+      "name": "hit_03",
+      "file": "raw_frames/hit_03.png"
+    },
+    {
+      "name": "hit_04",
+      "file": "raw_frames/hit_04.png"
+    },
+    {
+      "name": "hit_05",
+      "file": "raw_frames/hit_05.png"
+    },
+    {
+      "name": "ko_00",
+      "file": "raw_frames/ko_00.png"
+    },
+    {
+      "name": "ko_01",
+      "file": "raw_frames/ko_01.png"
+    },
+    {
+      "name": "ko_02",
+      "file": "raw_frames/ko_02.png"
+    },
+    {
+      "name": "ko_03",
+      "file": "raw_frames/ko_03.png"
+    },
+    {
+      "name": "ko_04",
+      "file": "raw_frames/ko_04.png"
+    },
+    {
+      "name": "ko_05",
+      "file": "raw_frames/ko_05.png"
+    },
+    {
+      "name": "ko_06",
+      "file": "raw_frames/ko_06.png"
+    },
+    {
+      "name": "ko_07",
+      "file": "raw_frames/ko_07.png"
+    },
+    {
+      "name": "turn_00",
+      "file": "raw_frames/turn_00.png"
+    },
+    {
+      "name": "turn_01",
+      "file": "raw_frames/turn_01.png"
+    },
+    {
+      "name": "turn_02",
+      "file": "raw_frames/turn_02.png"
+    },
+    {
+      "name": "turn_03",
+      "file": "raw_frames/turn_03.png"
+    },
+    {
+      "name": "fireball_fx_00",
+      "file": "raw_frames/fireball_fx_00.png"
+    },
+    {
+      "name": "fireball_fx_01",
+      "file": "raw_frames/fireball_fx_01.png"
+    },
+    {
+      "name": "fireball_fx_02",
+      "file": "raw_frames/fireball_fx_02.png"
+    },
+    {
+      "name": "fireball_fx_03",
+      "file": "raw_frames/fireball_fx_03.png"
+    }
+  ],
+  "clips": {
+    "idle": {
+      "role": "player",
+      "frames": [
+        "idle_00",
+        "idle_01",
+        "idle_02",
+        "idle_03",
+        "idle_04",
+        "idle_05",
+        "idle_06",
+        "idle_07",
+        "idle_08",
+        "idle_09",
+        "idle_10",
+        "idle_11"
+      ],
+      "ticks": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "loop_policy": "cycle"
+    },
+    "walk": {
+      "role": "player",
+      "frames": [
+        "walk_00",
+        "walk_01",
+        "walk_02",
+        "walk_03",
+        "walk_04",
+        "walk_05",
+        "walk_06",
+        "walk_07"
+      ],
+      "ticks": [
+        7,
+        8,
+        7,
+        8,
+        7,
+        8,
+        7,
+        8
+      ],
+      "loop_policy": "cycle",
+      "stride_px_per_frame": 5.5,
+      "events": [
+        {
+          "at": 0,
+          "name": "step_r"
+        },
+        {
+          "at": 4,
+          "name": "step_l"
+        }
+      ]
+    },
+    "attack_light": {
+      "role": "player",
+      "frames": [
+        "attack_light_00",
+        "attack_light_01",
+        "attack_light_02",
+        "attack_light_03",
+        "attack_light_04",
+        "attack_light_05",
+        "attack_light_06",
+        "attack_light_07"
+      ],
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "hitstop_ticks": 4,
+      "events": [
+        {
+          "at": 1,
+          "name": "tell"
+        },
+        {
+          "at": 3,
+          "name": "hit"
+        },
+        {
+          "at": 4,
+          "name": "active_end"
+        },
+        {
+          "at": 7,
+          "name": "end"
+        }
+      ]
+    },
+    "attack_heavy": {
+      "role": "player",
+      "frames": [
+        "attack_heavy_00",
+        "attack_heavy_01",
+        "attack_heavy_02",
+        "attack_heavy_03",
+        "attack_heavy_04",
+        "attack_heavy_05",
+        "attack_heavy_06",
+        "attack_heavy_07",
+        "attack_heavy_08",
+        "attack_heavy_09",
+        "attack_heavy_10",
+        "attack_heavy_11"
+      ],
+      "ticks": [
+        5,
+        4,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "hitstop_ticks": 6,
+      "events": [
+        {
+          "at": 1,
+          "name": "tell"
+        },
+        {
+          "at": 5,
+          "name": "hit"
+        },
+        {
+          "at": 7,
+          "name": "active_end"
+        },
+        {
+          "at": 11,
+          "name": "end"
+        }
+      ]
+    },
+    "power_up": {
+      "role": "player",
+      "frames": [
+        "power_up_00",
+        "power_up_01",
+        "power_up_02",
+        "power_up_03",
+        "power_up_04",
+        "power_up_05",
+        "power_up_06",
+        "power_up_07",
+        "power_up_08"
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "hitstop_ticks": 4,
+      "events": [
+        {
+          "at": 1,
+          "name": "tell"
+        },
+        {
+          "at": 2,
+          "name": "hit",
+          "data": {
+            "projectile": "fireball_fx"
+          }
+        },
+        {
+          "at": 8,
+          "name": "end"
+        }
+      ]
+    },
+    "hit": {
+      "role": "player",
+      "frames": [
+        "hit_00",
+        "hit_01",
+        "hit_02",
+        "hit_03",
+        "hit_04",
+        "hit_05"
+      ],
+      "ticks": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "loop_policy": "oneshot"
+    },
+    "ko": {
+      "role": "player",
+      "frames": [
+        "ko_00",
+        "ko_01",
+        "ko_02",
+        "ko_03",
+        "ko_04",
+        "ko_05",
+        "ko_06",
+        "ko_07"
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        15
+      ],
+      "loop_policy": "oneshot"
+    },
+    "turn": {
+      "role": "player",
+      "loop_policy": "oneshot",
+      "frames": [
+        "turn_00",
+        "turn_01",
+        "turn_02",
+        "turn_03"
+      ],
+      "ticks": [
+        6,
+        4,
+        4,
+        6
+      ]
+    },
+    "fireball_fx": {
+      "role": "fx",
+      "frames": [
+        "fireball_fx_00",
+        "fireball_fx_01",
+        "fireball_fx_02",
+        "fireball_fx_03"
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "loop_policy": "oneshot"
+    }
+  },
+  "body_height_px": 74
+}

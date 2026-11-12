@@ -1,0 +1,1110 @@
+{
+  "status": "self_reviewed_pending_owner",
+  "method": "imagegen_complete_body_keyframes",
+  "review_scope": "Complete keyframe filmstrips viewed on light/dark/checker; timeline phase inspection; automated timed runtime check required separately. No claim of human video playback review.",
+  "artifacts": {
+    "filmstrip-attack_heavy.png": "422986a89e15e9db61a88d0912f66b6efa0a852ac372fbb15e56a025663049a1",
+    "filmstrip-attack_light.png": "ffc55ee2171a602178d00cec99c9aa7d3680c920c11b8241ffd28fdcc0878c6e",
+    "filmstrip-fireball_fx.png": "3034384857f4102f939d95a3fef3fd01e26d209ddcf268ae48d734dfaf7f2f74",
+    "filmstrip-hit.png": "7ceb24c810fedae9350269e1d14b4cafd32c1f8722269276699875131758b00d",
+    "filmstrip-idle.png": "494af49c3c6418c2d1d587c19407a3f86f3e4101596a7c70eb7396460751ac85",
+    "filmstrip-ko.png": "9fb94ce8737174e976d8c7f13e7f63c204d2a99542f74ab606a3e49075ace476",
+    "filmstrip-power_up.png": "f977ff0e59a5b49fe87a39c512e849471a36896b4776f3b81160735d724c7041",
+    "filmstrip-run.png": "23b221e7914e5d88d31ffc0afb15155b054cb3d031d9274364e5d92d27c5944d",
+    "filmstrip-turn.png": "67270a5a4d9d17d4f4eee6ef95cfc2f0d7644d0db277860b5e344a29f9fc29fd",
+    "filmstrip-walk.png": "214023459759c5c4ce2fa20169c754c653c7b0f13670b102eba4698894df9f57",
+    "playback-attack_heavy.webp": "079ae95e8627dc2cb4e7f87b672a833baaa136db966992c6359ee5160ccf5b50",
+    "playback-attack_light.webp": "e5e622b0c3d55f048360483fc374b8e6cc784fe0a98623d0bec8f8d843505803",
+    "playback-fireball_fx.webp": "2dae0f1eb6128b187dae12b831b721ac29bb92e6f6d58a92ac65b4f8670f6817",
+    "playback-hit.webp": "0eda2468c3711325e348399921bd1b441a721f6351cdea8213917cfac29cbe4e",
+    "playback-idle.webp": "a5cd07cbafe0d90455989017e883ebbc07b50aae54965e3e000d4bcab474bbac",
+    "playback-ko.webp": "d7c20060299956860ec74bc6982ba8bc7cb44e09886f7646fe172193b3550768",
+    "playback-power_up.webp": "dcc26e136db2aa7a824e822a4f116674edf0eaae12a95cad4a58a0ddd82caa1c",
+    "playback-run.webp": "1685eaadb906691eef6926c07baf8cd11fcfdf35818d1af61920ea9accd25f42",
+    "playback-turn.webp": "1445ab88bed50ba823c84042f09a06df10d332a726148c702913a51ec925c020",
+    "playback-walk.webp": "85a89c133ba2f5b83a365cd806ef384b98ce3c620659b824210adb692f23d8b0"
+  },
+  "source_poses": {
+    "idle": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          0,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9996308503625577
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          512,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9997880120833113
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          1024,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998147167813658
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          0,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998141066496707
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          512,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998952413377681
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          1024,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9997647304857008
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          0,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998937526561836
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          512,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999894722989867
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          1024,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998421509563021
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          0,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999760790984478
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          512,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          1024,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998665919581632
+      }
+    ],
+    "walk": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk-seam-v6/sheet.png",
+        "sheet_sha256": "02b8b516af5a1f0d8337c88472d63a25fd06b034fc9f41c29e821aefdfd1d305",
+        "cell_rect_px": [
+          887,
+          0,
+          887,
+          887
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999734586087002,
+        "replaces_walk_index": 0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          627,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998633848675972
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          0,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9996996511332393
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          627,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998409560811579
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          0,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998380679189415
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          627,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999765214124718
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          0,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999091817273635
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk-seam-v6/sheet.png",
+        "sheet_sha256": "02b8b516af5a1f0d8337c88472d63a25fd06b034fc9f41c29e821aefdfd1d305",
+        "cell_rect_px": [
+          0,
+          0,
+          887,
+          887
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999912788669504,
+        "replaces_walk_index": 7
+      }
+    ],
+    "run": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          23,
+          80,
+          392,
+          210
+        ],
+        "source_row_ground_y": 290,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          34
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999676029416529
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          427,
+          80,
+          393,
+          210
+        ],
+        "source_row_ground_y": 290,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          34
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999672249352692
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          831,
+          81,
+          394,
+          209
+        ],
+        "source_row_ground_y": 290,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          35
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998994368463395
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          22,
+          369,
+          393,
+          210
+        ],
+        "source_row_ground_y": 579,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          34
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          429,
+          370,
+          391,
+          207
+        ],
+        "source_row_ground_y": 579,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          35
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          832,
+          370,
+          393,
+          190
+        ],
+        "source_row_ground_y": 579,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          35
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998971052270544
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          20,
+          657,
+          396,
+          212
+        ],
+        "source_row_ground_y": 869,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          32
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          426,
+          660,
+          394,
+          209
+        ],
+        "source_row_ground_y": 869,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          35
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          831,
+          658,
+          394,
+          211
+        ],
+        "source_row_ground_y": 869,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          33
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999661990873754
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          20,
+          945,
+          395,
+          212
+        ],
+        "source_row_ground_y": 1157,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          32
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998993457473578
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          427,
+          948,
+          393,
+          209
+        ],
+        "source_row_ground_y": 1157,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          35
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999321366767331
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/run-v8/sheet.png",
+        "sheet_sha256": "5447b5cdb65e47085d46c706ee66c6c6f28a5a39b2816e74aebe6b2322ce1123",
+        "cell_rect_px": [
+          830,
+          947,
+          395,
+          193
+        ],
+        "source_row_ground_y": 1157,
+        "whole_pose_canvas_px": [
+          440,
+          260
+        ],
+        "whole_pose_position_px": [
+          16,
+          34
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999319056211909
+      }
+    ],
+    "attack_light": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          0,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          627,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999188361098147
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          0,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          627,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999603394939319
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          0,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999803598083117
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          627,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999406985708356
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          0,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999806404150695
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          627,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999814656929977
+      }
+    ],
+    "attack_heavy": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999871402484504
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          512,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999260701347988
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          1024,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999256652956043
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          512,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999261393012778
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          1024,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999917131650185
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999686363066115
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          512,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998627127951675
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          1024,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999650031497165
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998629423535539
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          512,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999494489940349
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          1024,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999750287169755
+      }
+    ],
+    "power_up": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          0,
+          0,
+          591,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9997672253258846
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          591,
+          0,
+          592,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999473684210526
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          1183,
+          0,
+          591,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999240544782543
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          0,
+          296,
+          591,
+          295
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999205760881076
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          591,
+          296,
+          592,
+          295
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9995040200480317
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          1183,
+          296,
+          591,
+          295
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9997889237750983
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          0,
+          591,
+          591,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999946504038945
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          591,
+          591,
+          592,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999920731385087
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          1183,
+          591,
+          591,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998426930942268
+      }
+    ],
+    "hit": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          0,
+          0,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999850341968601
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          724,
+          0,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999849585608351
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          0,
+          362,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          724,
+          362,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999543316436041
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          0,
+          724,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999540441176471
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          724,
+          724,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      }
+    ],
+    "ko": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          0,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999836108561688
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          627,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999837970089278
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          0,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999187203329215
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          627,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999448782728525
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          0,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999407149773729
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          627,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999027691350342
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          0,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999792285482832
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          627,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999065813442944
+      }
+    ],
+    "turn": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999871402484504,
+        "reused_complete_pose_from": "attack_heavy#0"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0,
+        "reused_complete_pose_from": "attack_heavy#3"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          512,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999261393012778,
+        "reused_complete_pose_from": "attack_heavy#4"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          1024,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999917131650185,
+        "reused_complete_pose_from": "attack_heavy#5"
+      }
+    ]
+  },
+  "owner_animation_approved": false
+}

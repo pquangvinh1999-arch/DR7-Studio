@@ -1,0 +1,717 @@
+{
+  "source_sha256": "91d18310a0cd68578f4ffda300db97d4780b7f544ba1af69ed511d1816d51c80",
+  "source_bbox_px": [
+    13,
+    21,
+    1751,
+    855
+  ],
+  "frame_count": 87,
+  "clips": {
+    "idle": {
+      "frames": 24,
+      "ticks": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    "walk": {
+      "frames": 10,
+      "ticks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    "run": {
+      "frames": 8,
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "attack_light": {
+      "frames": 8,
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ]
+    },
+    "attack_heavy": {
+      "frames": 10,
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ]
+    },
+    "power_up": {
+      "frames": 9,
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6
+      ]
+    },
+    "hit": {
+      "frames": 6,
+      "ticks": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "ko": {
+      "frames": 8,
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        15
+      ]
+    },
+    "fireball_fx": {
+      "frames": 4,
+      "ticks": [
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  },
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176,
+    224
+  ],
+  "body_only_bbox_px": {
+    "x": 107,
+    "y": 148,
+    "w": 157,
+    "h": 76
+  },
+  "full_fx_bbox_px": {
+    "x": 98,
+    "y": 104,
+    "w": 270,
+    "h": 123
+  },
+  "visible_fit_limit_px": [
+    158,
+    114
+  ],
+  "reference_body_bbox_px": [
+    186,
+    134
+  ],
+  "palette_colors": 13137,
+  "palette_brightness_gain": 1.0,
+  "native_source_size_px": [
+    1738,
+    834
+  ],
+  "rest_reference_comparison": {
+    "reference": "work/characters/spinosaurus/source-gameplay-reference.png",
+    "changed_pixels": 1,
+    "mean_abs_rgba_error": 0.0006968180338541666
+  },
+  "attack_light_jaw": {
+    "0": {
+      "jaw_rotation_deg": -2.0,
+      "tip_gap_px": 13.550248660575487
+    },
+    "1": {
+      "jaw_rotation_deg": 8.0,
+      "tip_gap_px": 17.29251049916507
+    },
+    "2": {
+      "jaw_rotation_deg": 2.0,
+      "tip_gap_px": 15.06062077516119
+    },
+    "3": {
+      "jaw_rotation_deg": -30.0,
+      "tip_gap_px": 2.7436845936603604
+    },
+    "4": {
+      "jaw_rotation_deg": -28.0,
+      "tip_gap_px": 3.497715067129765
+    },
+    "5": {
+      "jaw_rotation_deg": -17.0,
+      "tip_gap_px": 7.768302501431218
+    },
+    "6": {
+      "jaw_rotation_deg": -8.0,
+      "tip_gap_px": 11.25632185317778
+    },
+    "7": {
+      "jaw_rotation_deg": -1.0,
+      "tip_gap_px": 13.929380508767931
+    }
+  },
+  "pixel_sharpness_metrics": {
+    "texel_scale_ratio": "Native demo-v2 raster -> final gameplay pixel with a single Nearest sample; rig coordinates are normalized but not rasterized",
+    "edge_acutance_sobel": 214.064,
+    "edge_acutance_method": "BT709 grayscale, scipy.ndimage.sobel X/Y (unnormalized), mean magnitude on inner alpha boundary; transparent RGB=0",
+    "alpha_hardness_pct": 99.99953229765326,
+    "visible_alpha_hardness_pct": 99.98891748792698,
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "studio_reference_sobel": 201.3,
+    "reference_note": "Latest Owner overrides coarse grid/palette/calibrated201.3 with demo-v2 fidelity. Keep measured value; no forced LUT to match scalar score."
+  },
+  "mouths_canvas_px": {
+    "idle": [
+      [
+        260.4744396846272,
+        179.1027509645737
+      ],
+      [
+        260.9222720464122,
+        182.71765150882416
+      ],
+      [
+        260.6495718995756,
+        184.59649877556157
+      ],
+      [
+        259.852414877247,
+        183.63827251123115
+      ],
+      [
+        258.990466015263,
+        180.41305617428475
+      ],
+      [
+        258.5325602748932,
+        176.81064759929342
+      ],
+      [
+        258.75402390745427,
+        174.93285683990416
+      ],
+      [
+        259.5612545567465,
+        175.878592461522
+      ],
+      [
+        260.4744396846272,
+        179.1027509645737
+      ],
+      [
+        260.9222720464122,
+        182.71765150882416
+      ],
+      [
+        260.6495718995756,
+        184.59649877556157
+      ],
+      [
+        259.852414877247,
+        183.63827251123115
+      ],
+      [
+        258.990466015263,
+        180.41305617428475
+      ],
+      [
+        258.5325602748932,
+        176.81064759929342
+      ],
+      [
+        258.75402390745427,
+        174.93285683990416
+      ],
+      [
+        259.5612545567465,
+        175.878592461522
+      ],
+      [
+        260.4744396846272,
+        179.1027509645737
+      ],
+      [
+        260.9222720464122,
+        182.71765150882416
+      ],
+      [
+        260.6495718995756,
+        184.59649877556157
+      ],
+      [
+        259.852414877247,
+        183.63827251123115
+      ],
+      [
+        258.990466015263,
+        180.41305617428475
+      ],
+      [
+        258.5325602748932,
+        176.81064759929342
+      ],
+      [
+        258.75402390745427,
+        174.93285683990416
+      ],
+      [
+        259.5612545567465,
+        175.878592461522
+      ]
+    ],
+    "walk": [
+      [
+        260.88030057200746,
+        186.3036390008071
+      ],
+      [
+        262.31497988227943,
+        190.05763895734236
+      ],
+      [
+        261.90724228092415,
+        187.07366452044576
+      ],
+      [
+        259.5055396119843,
+        181.48953350980318
+      ],
+      [
+        257.6256947717044,
+        181.0230884755918
+      ],
+      [
+        258.28030057200743,
+        186.3036390008071
+      ],
+      [
+        260.21153569690455,
+        190.05763895734236
+      ],
+      [
+        261.1037980955493,
+        187.07366452044576
+      ],
+      [
+        260.3089837973592,
+        181.48953350980318
+      ],
+      [
+        259.7291389570793,
+        181.0230884755918
+      ]
+    ],
+    "run": [
+      [
+        267.4378902311313,
+        197.17996813525633
+      ],
+      [
+        268.07191494206444,
+        202.33133880001085
+      ],
+      [
+        265.8778902311313,
+        194.93996813525632
+      ],
+      [
+        263.5240678616241,
+        189.79927209365226
+      ],
+      [
+        264.3178902311313,
+        197.17996813525633
+      ],
+      [
+        265.8657417847624,
+        202.33133880001085
+      ],
+      [
+        265.8778902311313,
+        194.93996813525632
+      ],
+      [
+        265.7302410189261,
+        189.79927209365226
+      ]
+    ],
+    "attack_light": [
+      [
+        252.6619864208917,
+        172.95913282324864
+      ],
+      [
+        246.2073668122427,
+        168.70238487091368
+      ],
+      [
+        272.18723309812253,
+        195.22545927841202
+      ],
+      [
+        282.37538395274413,
+        198.19016020885746
+      ],
+      [
+        279.5638572446004,
+        197.33192906060646
+      ],
+      [
+        272.0497203105482,
+        189.85903049269072
+      ],
+      [
+        265.25374802106387,
+        184.34809481495017
+      ],
+      [
+        259.76943124050035,
+        181.03980226467615
+      ]
+    ],
+    "attack_heavy": [
+      [
+        254.90041019376153,
+        172.0456381101174
+      ],
+      [
+        239.9570992780877,
+        169.76509401439634
+      ],
+      [
+        119.76032853773819,
+        187.16823313123237
+      ],
+      [
+        107.27499390935415,
+        192.3548261566769
+      ],
+      [
+        102.91762337491491,
+        196.72540076794243
+      ],
+      [
+        111.87105429529812,
+        191.3125736388952
+      ],
+      [
+        243.54169750604714,
+        190.48132410230036
+      ],
+      [
+        260.96343393328493,
+        189.23713688217356
+      ],
+      [
+        261.9801505973264,
+        184.77616059800755
+      ],
+      [
+        260.46977964015275,
+        180.4359693476358
+      ]
+    ],
+    "power_up": [
+      [
+        254.0385051798615,
+        168.55121210912276
+      ],
+      [
+        248.17916112177664,
+        159.62559500630147
+      ],
+      [
+        271.95735956686957,
+        194.687572055773
+      ],
+      [
+        269.7526676240257,
+        192.49027913652696
+      ],
+      [
+        267.60681497118907,
+        189.76452605809052
+      ],
+      [
+        265.56513220511874,
+        187.3235268674597
+      ],
+      [
+        263.5900434458822,
+        184.75484174285535
+      ],
+      [
+        261.56162756956627,
+        182.18986789722726
+      ],
+      [
+        260.0797796401527,
+        180.4359693476358
+      ]
+    ],
+    "hit": [
+      [
+        251.67577541847078,
+        166.60246365426815
+      ],
+      [
+        243.94532546167773,
+        158.39805570184393
+      ],
+      [
+        247.06753957773827,
+        163.0378153917375
+      ],
+      [
+        252.40153953949735,
+        169.9663500215884
+      ],
+      [
+        256.7975540800521,
+        175.84543187966082
+      ],
+      [
+        259.2643245271036,
+        179.08475259106754
+      ]
+    ],
+    "ko": [
+      [
+        248.98005977298445,
+        161.37076474384395
+      ],
+      [
+        256.7307385201148,
+        187.2270153106884
+      ],
+      [
+        258.7855814904457,
+        197.55716851527578
+      ],
+      [
+        257.99423094154946,
+        207.3382750670744
+      ],
+      [
+        257.47038112609255,
+        219.1924278647475
+      ],
+      [
+        259.0885452917995,
+        213.05336695225424
+      ],
+      [
+        257.7587571695836,
+        220.85849808124607
+      ],
+      [
+        257.6608185769772,
+        222.799775169707
+      ]
+    ]
+  },
+  "review_status": "engine_verified_awaiting_owner_human_test",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3882,
+          2342
+        ],
+        "cells": 87,
+        "clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "attack_heavy",
+          "power_up",
+          "hit",
+          "ko",
+          "fireball_fx"
+        ]
+      }
+    ]
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "run",
+      "attack_light",
+      "attack_heavy",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "fireball_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk"
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "fireball_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 20,
+      "origin_canvas_px": [
+        302,
+        198
+      ],
+      "velocity_px_per_tick": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "atlas_sha256": "f0c02328ace49f6dcdd26f516911631c4dacd57d2ef21ccec37075bf9783cdec",
+  "revision": 2,
+  "owner_animation_approved": false,
+  "visual_review": {
+    "filmstrips": "work/characters/spinosaurus/review-v2/filmstrip-*.png",
+    "backgrounds": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "source": "demo-v2; native colors and one final Nearest sample",
+    "sha256": {
+      "filmstrip-attack_heavy.png": "cc44c1762c7b14ca663353f41f891faf1222711f42681f422d04296fc13af95c",
+      "filmstrip-attack_light.png": "e0125490d16254952a5f51bba2ae68d26a9195874107db59828831acd713d50b",
+      "filmstrip-fireball_fx.png": "31d39770d50dc7102b520692d823ac2751e854a9595279488bc495b0808904fe",
+      "filmstrip-hit.png": "a81e508b47d590468ed473099bd9c583c2656c3f3150133e83a59c2fc198a057",
+      "filmstrip-idle.png": "7ebc8bc21aa3a1b990aadca6eed46bf5e7d268728695a450886972c32528e7bd",
+      "filmstrip-ko.png": "547a5644ca0f3c58d25283cd101b91dc34fcb8e63b6efaea7de670b6d8fdd56d",
+      "filmstrip-power_up.png": "9fd2a29b5a56987e4360a24fae66c7fdb0a06c3b7fd9b253376467d05a116122",
+      "filmstrip-run.png": "087a9cbd6c060e5656f2b260239cc06bb711c1d55866a215488ae3e73761d7f2",
+      "filmstrip-walk.png": "efeb5b195d0609f6827e7e8187f5a720c0b8b11d6b0604e693c8c28bf42f7cc3"
+    }
+  },
+  "owner_visual_override": "Owner requires demo-v2 detail/color fidelity instead of coarse100texel/16color/gain201.3; body hard alpha, small translucent bite VFX.",
+  "unchanged_fireball_phase_pixel_differences": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "verification": {
+    "loop_sh_test": {
+      "exit_code": 0,
+      "python_e2e_tests": 17,
+      "godot_bundles": 3,
+      "rust_tests": 2,
+      "log": "work/characters/spinosaurus/verification-v2/tests.log"
+    },
+    "standalone_godot": {
+      "exit_code": 0,
+      "frames": 87,
+      "clips": 9,
+      "log": "work/characters/spinosaurus/verification-v2/standalone.log"
+    },
+    "wasm_release_build": {
+      "exit_code": 0,
+      "sha256": "286e7932d30ce483d0cdd3f49c179aaee1a3ca45108c99ad1d896fb3aa29dc8a"
+    },
+    "http": {
+      "api_status": 200,
+      "atlas_status": 200,
+      "atlas_sha256": "f0c02328ace49f6dcdd26f516911631c4dacd57d2ef21ccec37075bf9783cdec",
+      "atlas_disk_equal": true,
+      "wasm_disk_equal": true,
+      "parity_ok": true
+    },
+    "unchanged_peer_files": 500,
+    "owner_animation_approved": false
+  },
+  "warnings": [
+    "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win."
+  ],
+  "source_comparison_image": "work/characters/spinosaurus/verification-v2/source-comparison.png",
+  "superseded_by": "docs/characters/spinosaurus-v3-qa.json",
+  "owner_motion_result": "rejected_structural_tearing",
+  "historical_technical_results_do_not_imply_motion_approval": true
+}

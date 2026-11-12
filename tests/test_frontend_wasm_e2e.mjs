@@ -190,7 +190,7 @@ const sandbox = {
   },
 };
 
-const instrumentedJs = jsCode + '\n;globalThis.__TEST__ = { state, stress, arena, selectCharacter, stepInspectorAnimation, renderInspector, stepAndRenderStressArena, stepAndRenderArena, triggerArenaAction, getCanvasSize, getLayerFramesForStep, selectionPixelRuns, updateAgentSpecText, offCtx };';
+const instrumentedJs = jsCode + '\n;globalThis.__TEST__ = { initApp, state, stress, arena, selectCharacter, stepInspectorAnimation, renderInspector, stepAndRenderStressArena, stepAndRenderArena, triggerArenaAction, getCanvasSize, getLayerFramesForStep, selectionPixelRuns, updateAgentSpecText, offCtx };';
 vm.createContext(sandbox);
 vm.runInContext(instrumentedJs, sandbox);
 
@@ -246,6 +246,70 @@ for (const ch of apiPayload.roster.characters) {
     assert.equal(projLayers[1].frame, bundle.animations[p.projectile_clip].frames[0]);
   }
   assert.equal(T.getLayerFramesForStep(motion,0,{auraEnabled:false}).length,1);
+  if (contract.locomotion?.kind==='ground' && !bundle.animations.run) {
+    assert.equal(contract.locomotion.clip,'walk');
+    assert.equal(getEl('arenaControlHint').textContent.includes('Shift'),false);
+    T.arena.flip=false;T.arena.actionClip=null;T.arena.turnTargetFlip=null;T.arena.hitstop=0;
+    T.arena.holdLeft=false;T.arena.holdRight=false;T.arena.keys={KeyD:true};T.arena.x=280;
+    T.stepAndRenderArena(1000/60);const plain=T.arena.x-280;
+    const x=T.arena.x;T.arena.keys.ShiftLeft=true;T.stepAndRenderArena(1000/60);
+    assert.ok(Math.abs(T.arena.x-x-plain)<1e-9,'Shift must keep walk speed when run is excluded');
+    assert.equal(T.arena.clip,'walk');T.arena.keys={};
+  }
+  if (contract.turning?.clip) {
+    if (contract.locomotion?.run_pose_source==='independent_generated_run_poses') {
+      const walk=bundle.animations.walk,run=bundle.animations.run;
+      assert.equal(contract.locomotion.run_uses_walk_frames,false);
+      assert.ok(run.frames.some((f,i)=>!walk.frames[i]||f.x!==walk.frames[i].x||f.y!==walk.frames[i].y),'Run must use distinct authored poses');
+      if(contract.locomotion.run_step_intervals_ticks){
+        const tickAt=i=>run.frames.slice(0,i).reduce((s,f)=>s+f.duration_ticks,0);
+        const [a,b]=contract.locomotion.run_contact_frames;const total=run.frames.reduce((s,f)=>s+f.duration_ticks,0);
+        assert.deepEqual([tickAt(b)-tickAt(a),total-tickAt(b)+tickAt(a)],[21,21]);
+      }
+      for(const name of ['walk','run']){
+        T.state.activeClipName=name;T.state.stepIdx=0;T.state.stepElapsedMs=0;T.state.playing=true;T.state.speedMult=1;
+        const order=[0];const anim=bundle.animations[name];
+        const ticks=anim.frames.reduce((s,f)=>s+f.duration_ticks,0);
+        for(let t=0;t<ticks*3+2;t++){
+          T.stepInspectorAnimation(1000/60);
+          if(order.at(-1)!==T.state.stepIdx)order.push(T.state.stepIdx);
+        }
+        assert.ok(order.length>=anim.frames.length*3,'Must traverse three complete gait cycles');
+        order.forEach((index,i)=>assert.equal(index,i%anim.frames.length,'Only forward cyclic playback, including 7→0'));
+      }
+    }
+    for (const clipName of contract.body_clips) {
+      const anim=bundle.animations[clipName];
+      T.state.activeClipName=clipName; T.state.stepIdx=0; T.state.stepElapsedMs=0;
+      T.state.playing=true; T.state.speedMult=1; T.state.autoReplayOneshot=false;
+      const seen=new Set([0]);
+      const totalMs=anim.frames.reduce((s,f)=>s+f.duration_ms,0);
+      for(let ms=0;ms<totalMs+34;ms+=1000/60){
+        T.stepInspectorAnimation(1000/60);
+        if(!seen.has(T.state.stepIdx)){seen.add(T.state.stepIdx);T.renderInspector();}
+      }
+      assert.equal(seen.size,anim.frames.length,clipName+' must play every whole pose on the runtime clock');
+    }
+    T.arena.flip=false; T.arena.keys={KeyA:true}; T.arena.hitstop=0;
+    const beforeX=T.arena.x;
+    T.stepAndRenderArena(1000/60);
+    assert.equal(T.arena.clip,contract.turning.clip);
+    assert.equal(T.arena.flip,false,'Keep orientation until perspective poses finish');
+    assert.equal(T.arena.x,beforeX,'Plant the turn pivot');
+    T.triggerArenaAction('attack_light');
+    assert.equal(T.arena.clip,contract.turning.clip,'Do not interrupt pending orientation');
+    const visited=new Set([T.arena.step]);
+    for(let i=0;i<contract.turning.duration_ticks+2;i++){T.stepAndRenderArena(1000/60);if(T.arena.clip===contract.turning.clip)visited.add(T.arena.step);}
+    assert.deepEqual([...visited],[0,1,2,3]);
+    assert.equal(T.arena.flip,true);
+    T.arena.keys={KeyD:true};
+    T.stepAndRenderArena(1000/60);
+    assert.equal(T.arena.clip,contract.turning.clip);
+    assert.equal(T.arena.flip,true);
+    for(let i=0;i<contract.turning.duration_ticks+2;i++)T.stepAndRenderArena(1000/60);
+    assert.equal(T.arena.flip,false);
+    T.arena.keys={};
+  }
   T.renderInspector();
   assert.equal(getEl('runtimeErrorBanner').textContent,'');
 }
@@ -460,5 +524,23 @@ assert.equal(T.state.selectedRect,null,'Degenerate lasso must clear instead of s
 emitPointer('pointerdown',10,10); emitPointer('pointermove',20,20); emitPointer('pointercancel',20,20);
 assert.equal(T.state.selectedRect,null,'Cancelled touch gestures clear their unfinished selection');
 T.offCtx.getImageData=oldRead;
+
+// Review links select an actual character/clip/frame and pause without advancing it.
+const reviewCharacter=apiPayload.roster.characters.find(ch =>
+  T.state.bundlesById[ch.modes.combined_1layer.bundle_id]?.animations.walk);
+if (reviewCharacter) {
+  sandbox.URLSearchParams=URLSearchParams;
+  sandbox.location={search:`?character=${encodeURIComponent(reviewCharacter.character_id)}&clip=walk&frame=0&paused=1`};
+  await T.initApp();
+  assert.equal(T.state.activeChar.character_id,reviewCharacter.character_id);
+  assert.equal(T.state.activeClipName,'walk');
+  assert.equal(T.state.stepIdx,0);
+  assert.equal(T.state.playing,false);
+  sandbox.location.search=`?character=${encodeURIComponent(reviewCharacter.character_id)}&clip=walk&frame=999&paused=1`;
+  await T.initApp();
+  const animation=T.state.bundlesById[reviewCharacter.modes.combined_1layer.bundle_id].animations.walk;
+  assert.equal(T.state.stepIdx,animation.frames.length-1,'Review frame must clamp to the selected animation');
+  assert.equal(getEl('runtimeErrorBanner').textContent,'');
+}
 
 console.log('[OK] Frontend E2E + Rust WASM + 3-Tab Dynamic Canvas (Empty Roster + Multi-Character) PASSED 100%!');

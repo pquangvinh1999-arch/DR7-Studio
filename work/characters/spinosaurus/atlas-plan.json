@@ -1,0 +1,370 @@
+{
+  "status": "owner_approved",
+  "version": "0.5.0",
+  "master": "work/characters/spinosaurus/approved-master/approved-original.png",
+  "frozen_frames": "work/characters/spinosaurus/approved-final-frames",
+  "receipt": "assets/spinosaurus/owner_approval.json",
+  "workflow": "PIPE-003",
+  "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "clips": {
+    "idle": {
+      "role": "player",
+      "frames": [
+        "idle_00",
+        "idle_01",
+        "idle_02",
+        "idle_03",
+        "idle_04",
+        "idle_05",
+        "idle_06",
+        "idle_07",
+        "idle_08",
+        "idle_09",
+        "idle_10",
+        "idle_11"
+      ],
+      "ticks": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "loop_policy": "cycle"
+    },
+    "walk": {
+      "role": "player",
+      "frames": [
+        "walk_00",
+        "walk_01",
+        "walk_02",
+        "walk_03",
+        "walk_04",
+        "walk_05",
+        "walk_06",
+        "walk_07"
+      ],
+      "ticks": [
+        7,
+        8,
+        7,
+        8,
+        7,
+        8,
+        7,
+        8
+      ],
+      "loop_policy": "cycle",
+      "stride_px_per_frame": 5.5,
+      "events": [
+        {
+          "at": 0,
+          "name": "step_r"
+        },
+        {
+          "at": 4,
+          "name": "step_l"
+        }
+      ]
+    },
+    "attack_light": {
+      "role": "player",
+      "frames": [
+        "attack_light_00",
+        "attack_light_01",
+        "attack_light_02",
+        "attack_light_03",
+        "attack_light_04",
+        "attack_light_05",
+        "attack_light_06",
+        "attack_light_07"
+      ],
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "hitstop_ticks": 4,
+      "events": [
+        {
+          "at": 1,
+          "name": "tell"
+        },
+        {
+          "at": 3,
+          "name": "hit"
+        },
+        {
+          "at": 4,
+          "name": "active_end"
+        },
+        {
+          "at": 7,
+          "name": "end"
+        }
+      ]
+    },
+    "attack_heavy": {
+      "role": "player",
+      "frames": [
+        "attack_heavy_00",
+        "attack_heavy_01",
+        "attack_heavy_02",
+        "attack_heavy_03",
+        "attack_heavy_04",
+        "attack_heavy_05",
+        "attack_heavy_06",
+        "attack_heavy_07",
+        "attack_heavy_08",
+        "attack_heavy_09",
+        "attack_heavy_10",
+        "attack_heavy_11"
+      ],
+      "ticks": [
+        5,
+        4,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "hitstop_ticks": 6,
+      "events": [
+        {
+          "at": 1,
+          "name": "tell"
+        },
+        {
+          "at": 5,
+          "name": "hit"
+        },
+        {
+          "at": 7,
+          "name": "active_end"
+        },
+        {
+          "at": 11,
+          "name": "end"
+        }
+      ]
+    },
+    "power_up": {
+      "role": "player",
+      "frames": [
+        "power_up_00",
+        "power_up_01",
+        "power_up_02",
+        "power_up_03",
+        "power_up_04",
+        "power_up_05",
+        "power_up_06",
+        "power_up_07",
+        "power_up_08"
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "hitstop_ticks": 4,
+      "events": [
+        {
+          "at": 1,
+          "name": "tell"
+        },
+        {
+          "at": 2,
+          "name": "hit",
+          "data": {
+            "projectile": "fireball_fx"
+          }
+        },
+        {
+          "at": 8,
+          "name": "end"
+        }
+      ]
+    },
+    "hit": {
+      "role": "player",
+      "frames": [
+        "hit_00",
+        "hit_01",
+        "hit_02",
+        "hit_03",
+        "hit_04",
+        "hit_05"
+      ],
+      "ticks": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "loop_policy": "oneshot"
+    },
+    "ko": {
+      "role": "player",
+      "frames": [
+        "ko_00",
+        "ko_01",
+        "ko_02",
+        "ko_03",
+        "ko_04",
+        "ko_05",
+        "ko_06",
+        "ko_07"
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        15
+      ],
+      "loop_policy": "oneshot"
+    },
+    "turn": {
+      "role": "player",
+      "loop_policy": "oneshot",
+      "frames": [
+        "turn_00",
+        "turn_01",
+        "turn_02",
+        "turn_03"
+      ],
+      "ticks": [
+        6,
+        4,
+        4,
+        6
+      ]
+    },
+    "fireball_fx": {
+      "role": "fx",
+      "frames": [
+        "fireball_fx_00",
+        "fireball_fx_01",
+        "fireball_fx_02",
+        "fireball_fx_03"
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "loop_policy": "oneshot"
+    }
+  },
+  "excluded_clips": [
+    "run",
+    "jump",
+    "guard",
+    "aura_loop",
+    "win"
+  ],
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_light",
+      "attack_heavy",
+      "power_up",
+      "hit",
+      "ko",
+      "turn"
+    ],
+    "effect_clips": [
+      "fireball_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "fireball_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 20,
+      "origin_canvas_px": [
+        295,
+        173
+      ],
+      "velocity_px_per_tick": [
+        0.0,
+        0.0
+      ]
+    },
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 20,
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true
+    }
+  },
+  "qa_report": "docs/characters/spinosaurus-final-qa.json",
+  "rule": "Preserve approved PNGs/timing/events. No run alias, only walk; future visual changes need Owner approval."
+}

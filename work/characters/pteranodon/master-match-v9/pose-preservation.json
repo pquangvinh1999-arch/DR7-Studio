@@ -1,0 +1,2041 @@
+[
+  {
+    "clip": "idle",
+    "index": 0,
+    "sha256": "bd735e944d2dfec6b47fb5544c5fdf0289aff96f968331c6bb53a42c594aa4ee",
+    "source_cell": [
+      0,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      82,
+      74,
+      274,
+      206
+    ],
+    "candidate_bbox": [
+      79,
+      73,
+      272,
+      204
+    ],
+    "bbox_edge_delta_px": [
+      -3,
+      -1,
+      -2,
+      -2
+    ],
+    "silhouette_iou": 0.8544103992571959,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "idle",
+    "index": 1,
+    "sha256": "34d7da0e4af3809be8cb5694c155aef5cd3ecda154307cd59d46ae4977b75312",
+    "source_cell": [
+      384,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      74,
+      100,
+      274,
+      204
+    ],
+    "candidate_bbox": [
+      69,
+      100,
+      272,
+      200
+    ],
+    "bbox_edge_delta_px": [
+      -5,
+      0,
+      -2,
+      -4
+    ],
+    "silhouette_iou": 0.7798295454545454,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "idle",
+    "index": 2,
+    "sha256": "a83e536b879a72b18cd79fcc2ec1ab20330d23a2c8d3b9ea30e2d0aa430387c2",
+    "source_cell": [
+      768,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      94,
+      100,
+      274,
+      200
+    ],
+    "candidate_bbox": [
+      89,
+      100,
+      272,
+      199
+    ],
+    "bbox_edge_delta_px": [
+      -5,
+      0,
+      -2,
+      -1
+    ],
+    "silhouette_iou": 0.8078864353312303,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "idle",
+    "index": 3,
+    "sha256": "da70fc65a2be818f320909293f9085bca2887b6d7380d161596b92c26ea83b9f",
+    "source_cell": [
+      1152,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      108,
+      92,
+      274,
+      212
+    ],
+    "candidate_bbox": [
+      104,
+      93,
+      273,
+      210
+    ],
+    "bbox_edge_delta_px": [
+      -4,
+      1,
+      -1,
+      -2
+    ],
+    "silhouette_iou": 0.7786213179471606,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "idle",
+    "index": 4,
+    "sha256": "9f49671c5c6b24103d5296a886f1b4121f163506568500e95c661d17a5095650",
+    "source_cell": [
+      0,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      108,
+      94,
+      274,
+      208
+    ],
+    "candidate_bbox": [
+      104,
+      94,
+      272,
+      212
+    ],
+    "bbox_edge_delta_px": [
+      -4,
+      0,
+      -2,
+      4
+    ],
+    "silhouette_iou": 0.7695826186392224,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "idle",
+    "index": 5,
+    "sha256": "424bf99bb9e389c773a64c362fd5f2bcedc3d8ef3fe4e07f2251d4e8de09090b",
+    "source_cell": [
+      384,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      106,
+      100,
+      274,
+      202
+    ],
+    "candidate_bbox": [
+      89,
+      100,
+      272,
+      200
+    ],
+    "bbox_edge_delta_px": [
+      -17,
+      0,
+      -2,
+      -2
+    ],
+    "silhouette_iou": 0.7414166408908135,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "idle",
+    "index": 6,
+    "sha256": "0ffa12a0d8fd210fda773b864474c006a05f062ced6bf35f15bd998f6d5a273e",
+    "source_cell": [
+      768,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      92,
+      106,
+      274,
+      204
+    ],
+    "candidate_bbox": [
+      80,
+      104,
+      272,
+      201
+    ],
+    "bbox_edge_delta_px": [
+      -12,
+      -2,
+      -2,
+      -3
+    ],
+    "silhouette_iou": 0.750478377344049,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "idle",
+    "index": 7,
+    "sha256": "c5a3388a0114fc2b51b8d5bdbcc2333a2c2d08ced05f1ab654be948d620c20fc",
+    "source_cell": [
+      1152,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      90,
+      86,
+      274,
+      206
+    ],
+    "candidate_bbox": [
+      85,
+      84,
+      272,
+      203
+    ],
+    "bbox_edge_delta_px": [
+      -5,
+      -2,
+      -2,
+      -3
+    ],
+    "silhouette_iou": 0.8341188524590164,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "walk",
+    "index": 0,
+    "sha256": "c8a9193cb289b33264f4258ddbb84b482bfe1707dc2df4c2a7be5cc4e47b6af4",
+    "source_cell": [
+      0,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      80,
+      68,
+      274,
+      208
+    ],
+    "candidate_bbox": [
+      81,
+      68,
+      270,
+      204
+    ],
+    "bbox_edge_delta_px": [
+      1,
+      0,
+      -4,
+      -4
+    ],
+    "silhouette_iou": 0.7862642711744402,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "walk",
+    "index": 1,
+    "sha256": "30aa07200ff37f36643c83ac88f09c073b8c6d6c42d9508373c18e686f1f41fe",
+    "source_cell": [
+      384,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      78,
+      102,
+      276,
+      204
+    ],
+    "candidate_bbox": [
+      76,
+      101,
+      273,
+      203
+    ],
+    "bbox_edge_delta_px": [
+      -2,
+      -1,
+      -3,
+      -1
+    ],
+    "silhouette_iou": 0.8400852878464818,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "walk",
+    "index": 2,
+    "sha256": "dba2aebb451b74362726fb96d1f534ae76a95f0e9683eafb15aa94937483fe35",
+    "source_cell": [
+      768,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      96,
+      100,
+      280,
+      202
+    ],
+    "candidate_bbox": [
+      96,
+      103,
+      281,
+      200
+    ],
+    "bbox_edge_delta_px": [
+      0,
+      3,
+      1,
+      -2
+    ],
+    "silhouette_iou": 0.8008273326183545,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "walk",
+    "index": 3,
+    "sha256": "6b7613fc9eed33a7ac2e3b374a21c68a3c8a09632dc62015075a48a0430834ee",
+    "source_cell": [
+      1152,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      116,
+      92,
+      284,
+      218
+    ],
+    "candidate_bbox": [
+      117,
+      94,
+      281,
+      218
+    ],
+    "bbox_edge_delta_px": [
+      1,
+      2,
+      -3,
+      0
+    ],
+    "silhouette_iou": 0.8506564011450005,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "walk",
+    "index": 4,
+    "sha256": "18e9a20c4cfe54129189b96d1f30f98712e1bdf4bdeb8a56d4ae106f759a7001",
+    "source_cell": [
+      0,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      114,
+      94,
+      282,
+      210
+    ],
+    "candidate_bbox": [
+      112,
+      97,
+      279,
+      212
+    ],
+    "bbox_edge_delta_px": [
+      -2,
+      3,
+      -3,
+      2
+    ],
+    "silhouette_iou": 0.854004576659039,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "walk",
+    "index": 5,
+    "sha256": "534781c63a42febcc2f969ce2b3ca9ba8becbe46afc0659a2b01c6b7f4b72e4f",
+    "source_cell": [
+      384,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      108,
+      102,
+      278,
+      202
+    ],
+    "candidate_bbox": [
+      104,
+      104,
+      276,
+      203
+    ],
+    "bbox_edge_delta_px": [
+      -4,
+      2,
+      -2,
+      1
+    ],
+    "silhouette_iou": 0.8381112984822934,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "walk",
+    "index": 6,
+    "sha256": "fd9b2ad9bec33894d2ad5db9b65cd9711fe551b3ffba41afc8467091581a3bd8",
+    "source_cell": [
+      768,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      98,
+      108,
+      276,
+      204
+    ],
+    "candidate_bbox": [
+      96,
+      109,
+      275,
+      204
+    ],
+    "bbox_edge_delta_px": [
+      -2,
+      1,
+      -1,
+      0
+    ],
+    "silhouette_iou": 0.8305875892366832,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "walk",
+    "index": 7,
+    "sha256": "b8dcc2877cb02bc12a65d4d650dcb813f5e8b3b911957c7b1324f9f6eeed3d52",
+    "source_cell": [
+      1152,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      90,
+      82,
+      274,
+      206
+    ],
+    "candidate_bbox": [
+      84,
+      80,
+      273,
+      207
+    ],
+    "bbox_edge_delta_px": [
+      -6,
+      -2,
+      -1,
+      1
+    ],
+    "silhouette_iou": 0.8521338409136445,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "run",
+    "index": 0,
+    "sha256": "e525ded90b9befb6dbe3c0966d734cf52d48e47581cfd551853a317a0d668c41",
+    "source_cell": [
+      0,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      94,
+      70,
+      286,
+      206
+    ],
+    "candidate_bbox": [
+      90,
+      70,
+      280,
+      204
+    ],
+    "bbox_edge_delta_px": [
+      -4,
+      0,
+      -6,
+      -2
+    ],
+    "silhouette_iou": 0.7393674052894925,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "run",
+    "index": 1,
+    "sha256": "18bc1243621d1406db6d435ba8aa7e21c15ea6a321a417e61c6288f23b4bf8fc",
+    "source_cell": [
+      384,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      90,
+      100,
+      288,
+      202
+    ],
+    "candidate_bbox": [
+      81,
+      104,
+      286,
+      201
+    ],
+    "bbox_edge_delta_px": [
+      -9,
+      4,
+      -2,
+      -1
+    ],
+    "silhouette_iou": 0.7385441378449245,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "run",
+    "index": 2,
+    "sha256": "a4dceee5010de7ebcadba3bb46cd99734d21cdfd4e2888f618c94681f1ffb17d",
+    "source_cell": [
+      768,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      104,
+      102,
+      292,
+      200
+    ],
+    "candidate_bbox": [
+      99,
+      101,
+      288,
+      195
+    ],
+    "bbox_edge_delta_px": [
+      -5,
+      -1,
+      -4,
+      -5
+    ],
+    "silhouette_iou": 0.7722058823529412,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "run",
+    "index": 3,
+    "sha256": "bdde4c5be1ca0036a2e4891ff99f896344a89f25303525656d3d2a25a95cc2a7",
+    "source_cell": [
+      1152,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      120,
+      96,
+      294,
+      220
+    ],
+    "candidate_bbox": [
+      122,
+      98,
+      292,
+      221
+    ],
+    "bbox_edge_delta_px": [
+      2,
+      2,
+      -2,
+      1
+    ],
+    "silhouette_iou": 0.8213658536585365,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "run",
+    "index": 4,
+    "sha256": "d1a04375cd25155207e18d7ff23fa5c414eb5bf5d8e6cf2be57b68107ac774a6",
+    "source_cell": [
+      0,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      116,
+      98,
+      292,
+      206
+    ],
+    "candidate_bbox": [
+      118,
+      101,
+      291,
+      207
+    ],
+    "bbox_edge_delta_px": [
+      2,
+      3,
+      -1,
+      1
+    ],
+    "silhouette_iou": 0.7832806462943449,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "run",
+    "index": 5,
+    "sha256": "97f5e81feb5b1d1822f58d02203b0f1788cfe22c025a54e17aef070f5a3b91ce",
+    "source_cell": [
+      384,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      110,
+      104,
+      290,
+      200
+    ],
+    "candidate_bbox": [
+      106,
+      105,
+      288,
+      197
+    ],
+    "bbox_edge_delta_px": [
+      -4,
+      1,
+      -2,
+      -3
+    ],
+    "silhouette_iou": 0.7480830670926517,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "run",
+    "index": 6,
+    "sha256": "2e6c28de796d60ddda3bfbcae73ba13ae88733e20d3d1662d227a04e4d7317a0",
+    "source_cell": [
+      768,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      102,
+      110,
+      286,
+      204
+    ],
+    "candidate_bbox": [
+      77,
+      109,
+      283,
+      204
+    ],
+    "bbox_edge_delta_px": [
+      -25,
+      -1,
+      -3,
+      0
+    ],
+    "silhouette_iou": 0.6246285510519434,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "run",
+    "index": 7,
+    "sha256": "7bb35d5bb4dec8b02ca2b71a792aaf9beaed43d90e7a49087609c31060c5bcee",
+    "source_cell": [
+      1152,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      100,
+      86,
+      286,
+      206
+    ],
+    "candidate_bbox": [
+      97,
+      83,
+      286,
+      205
+    ],
+    "bbox_edge_delta_px": [
+      -3,
+      -3,
+      0,
+      -1
+    ],
+    "silhouette_iou": 0.7305242528172464,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 0,
+    "sha256": "1f71b47922be57d90c2178f741fa03ba6de62f1a27a04538d904ed52ac7db0c3",
+    "source_cell": [
+      0,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      58,
+      66,
+      260,
+      198
+    ],
+    "candidate_bbox": [
+      55,
+      71,
+      257,
+      199
+    ],
+    "bbox_edge_delta_px": [
+      -3,
+      5,
+      -3,
+      1
+    ],
+    "silhouette_iou": 0.8333178912257945,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 1,
+    "sha256": "982e4111ff58e1877ee129459a7e8d364d0b0a84eb53af739a092cee50fb5a4f",
+    "source_cell": [
+      384,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      38,
+      52,
+      246,
+      196
+    ],
+    "candidate_bbox": [
+      32,
+      57,
+      247,
+      197
+    ],
+    "bbox_edge_delta_px": [
+      -6,
+      5,
+      1,
+      1
+    ],
+    "silhouette_iou": 0.800052388020606,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 2,
+    "sha256": "0a1b3f2b4d3cde93f04d0449003868e462a5b251c4c435c1b6a409b757d0fff7",
+    "source_cell": [
+      768,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      108,
+      110,
+      318,
+      206
+    ],
+    "candidate_bbox": [
+      108,
+      107,
+      309,
+      205
+    ],
+    "bbox_edge_delta_px": [
+      0,
+      -3,
+      -9,
+      -1
+    ],
+    "silhouette_iou": 0.7830061844581877,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 3,
+    "sha256": "cc98ce2ad47b3defd71f4c696ae7b7812b43c31ef04d5756e3e6264c2d5ac160",
+    "source_cell": [
+      1152,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      122,
+      112,
+      350,
+      224
+    ],
+    "candidate_bbox": [
+      118,
+      108,
+      336,
+      223
+    ],
+    "bbox_edge_delta_px": [
+      -4,
+      -4,
+      -14,
+      -1
+    ],
+    "silhouette_iou": 0.8152719245434478,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 4,
+    "sha256": "57c89ea8619be3dea8b70064876d237d42f8c436fe2618feb0cac3f783f5b8d5",
+    "source_cell": [
+      0,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      118,
+      110,
+      344,
+      206
+    ],
+    "candidate_bbox": [
+      111,
+      107,
+      340,
+      202
+    ],
+    "bbox_edge_delta_px": [
+      -7,
+      -3,
+      -4,
+      -4
+    ],
+    "silhouette_iou": 0.752724630661177,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 5,
+    "sha256": "123eba391165d18dc8717b5d36d30bf7857722a42c910b3d416592fcaa168639",
+    "source_cell": [
+      384,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      112,
+      106,
+      294,
+      202
+    ],
+    "candidate_bbox": [
+      111,
+      103,
+      293,
+      201
+    ],
+    "bbox_edge_delta_px": [
+      -1,
+      -3,
+      -1,
+      -1
+    ],
+    "silhouette_iou": 0.8216733067729084,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 6,
+    "sha256": "1621b900c91d6933516566df331cf05284ab4791ee0961216f13edb5710482fb",
+    "source_cell": [
+      768,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      98,
+      106,
+      280,
+      204
+    ],
+    "candidate_bbox": [
+      89,
+      106,
+      276,
+      202
+    ],
+    "bbox_edge_delta_px": [
+      -9,
+      0,
+      -4,
+      -2
+    ],
+    "silhouette_iou": 0.8252047889098929,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 7,
+    "sha256": "0f28613dea46cb533530621abe4a6d33ce9ad3158fb583fa12c1de8fd0a237f5",
+    "source_cell": [
+      1152,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      84,
+      76,
+      274,
+      204
+    ],
+    "candidate_bbox": [
+      79,
+      75,
+      273,
+      203
+    ],
+    "bbox_edge_delta_px": [
+      -5,
+      -1,
+      -1,
+      -1
+    ],
+    "silhouette_iou": 0.8706049149338374,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "power_up",
+    "index": 0,
+    "sha256": "4d410f0c77197a00e362f5d0554cc683f846de769a020746838ac9f4735fcaaf",
+    "source_cell": [
+      0,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      64,
+      70,
+      260,
+      200
+    ],
+    "candidate_bbox": [
+      64,
+      70,
+      261,
+      197
+    ],
+    "bbox_edge_delta_px": [
+      0,
+      0,
+      1,
+      -3
+    ],
+    "silhouette_iou": 0.847191903155388,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "power_up",
+    "index": 1,
+    "sha256": "d812e4658a8430b46e27c5ae1d4bd8fbf1632ce9ea2e49fd81732b09c863d782",
+    "source_cell": [
+      384,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      42,
+      54,
+      248,
+      198
+    ],
+    "candidate_bbox": [
+      43,
+      54,
+      248,
+      198
+    ],
+    "bbox_edge_delta_px": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "silhouette_iou": 0.8297522172442169,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "power_up",
+    "index": 2,
+    "sha256": "7af9f7d25b5d47172ae9103266b7c97707dbc547fe84a5cb243dec2c7326a8ed",
+    "source_cell": [
+      768,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      108,
+      98,
+      298,
+      202
+    ],
+    "candidate_bbox": [
+      96,
+      97,
+      297,
+      200
+    ],
+    "bbox_edge_delta_px": [
+      -12,
+      -1,
+      -1,
+      -2
+    ],
+    "silhouette_iou": 0.7091957923311842,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "power_up",
+    "index": 3,
+    "sha256": "fec5ee47d46221bab1b0997f634a4dcdf7ce6e77ef5cadb485b60faf5fd54f29",
+    "source_cell": [
+      1152,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      122,
+      96,
+      296,
+      220
+    ],
+    "candidate_bbox": [
+      118,
+      97,
+      296,
+      219
+    ],
+    "bbox_edge_delta_px": [
+      -4,
+      1,
+      0,
+      -1
+    ],
+    "silhouette_iou": 0.7777985074626865,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "power_up",
+    "index": 4,
+    "sha256": "d96f240d00fca13edf4bb814efda4880093fb184791d4feedce2326a8ff2e97f",
+    "source_cell": [
+      0,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      116,
+      100,
+      292,
+      202
+    ],
+    "candidate_bbox": [
+      109,
+      99,
+      297,
+      201
+    ],
+    "bbox_edge_delta_px": [
+      -7,
+      -1,
+      5,
+      -1
+    ],
+    "silhouette_iou": 0.7326232418407757,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "power_up",
+    "index": 5,
+    "sha256": "0302132d76aecbdc2fe9d30a4a29d1107826ff5a3a3060515a024dfab0eccc81",
+    "source_cell": [
+      384,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      104,
+      102,
+      288,
+      202
+    ],
+    "candidate_bbox": [
+      98,
+      100,
+      288,
+      201
+    ],
+    "bbox_edge_delta_px": [
+      -6,
+      -2,
+      0,
+      -1
+    ],
+    "silhouette_iou": 0.7986013986013986,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "power_up",
+    "index": 6,
+    "sha256": "85d01d2e077152768c8821efd938da72393c1f93a1e38e6e0e8d753d20eefd25",
+    "source_cell": [
+      768,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      92,
+      86,
+      280,
+      202
+    ],
+    "candidate_bbox": [
+      76,
+      76,
+      280,
+      202
+    ],
+    "bbox_edge_delta_px": [
+      -16,
+      -10,
+      0,
+      0
+    ],
+    "silhouette_iou": 0.7770548272892546,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "power_up",
+    "index": 7,
+    "sha256": "2b06f896519d2bde126fc17c642f435dc4e71a09aedf23ca7cb294d0eb6de993",
+    "source_cell": [
+      1152,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      84,
+      70,
+      274,
+      204
+    ],
+    "candidate_bbox": [
+      80,
+      67,
+      276,
+      203
+    ],
+    "bbox_edge_delta_px": [
+      -4,
+      -3,
+      2,
+      -1
+    ],
+    "silhouette_iou": 0.8408009338241896,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "hit",
+    "index": 0,
+    "sha256": "7318403b96bbe00efd10db7b932b2a0b96fa3790e8497768d762dbc1d424b3fa",
+    "source_cell": [
+      0,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      46,
+      60,
+      246,
+      198
+    ],
+    "candidate_bbox": [
+      48,
+      62,
+      246,
+      196
+    ],
+    "bbox_edge_delta_px": [
+      2,
+      2,
+      0,
+      -2
+    ],
+    "silhouette_iou": 0.7860262008733624,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "hit",
+    "index": 1,
+    "sha256": "7c307e823aaa0019810d47345eede077d5205d26eb0fd89160bc09e1140ba158",
+    "source_cell": [
+      384,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      88,
+      74,
+      228,
+      216
+    ],
+    "candidate_bbox": [
+      93,
+      75,
+      229,
+      218
+    ],
+    "bbox_edge_delta_px": [
+      5,
+      1,
+      1,
+      2
+    ],
+    "silhouette_iou": 0.7777949590227308,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "hit",
+    "index": 2,
+    "sha256": "08e63a1fe00ffb999caf35161485f8293e607ddb77ab7fa5be8a00a9adc1d3cc",
+    "source_cell": [
+      768,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      92,
+      94,
+      246,
+      228
+    ],
+    "candidate_bbox": [
+      96,
+      98,
+      242,
+      226
+    ],
+    "bbox_edge_delta_px": [
+      4,
+      4,
+      -4,
+      -2
+    ],
+    "silhouette_iou": 0.8221464676149054,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "hit",
+    "index": 3,
+    "sha256": "134d42240b75ec460e4e269acd96705ba85c9a3c1b9856001ba4791d7af37c29",
+    "source_cell": [
+      1152,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      84,
+      102,
+      260,
+      204
+    ],
+    "candidate_bbox": [
+      84,
+      106,
+      258,
+      202
+    ],
+    "bbox_edge_delta_px": [
+      0,
+      4,
+      -2,
+      -2
+    ],
+    "silhouette_iou": 0.7818261633011413,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "hit",
+    "index": 4,
+    "sha256": "a373d936a0edb7b15f386c7b0f66167169d0cfe8868925deb0820313af76eaac",
+    "source_cell": [
+      0,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      82,
+      88,
+      270,
+      204
+    ],
+    "candidate_bbox": [
+      80,
+      88,
+      269,
+      203
+    ],
+    "bbox_edge_delta_px": [
+      -2,
+      0,
+      -1,
+      -1
+    ],
+    "silhouette_iou": 0.8471162001696353,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "hit",
+    "index": 5,
+    "sha256": "adf2f64a1b44f8cc7fad66f7785a33274f74ff8009e69455889bfe77790eb1a4",
+    "source_cell": [
+      384,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      84,
+      72,
+      274,
+      204
+    ],
+    "candidate_bbox": [
+      77,
+      71,
+      274,
+      203
+    ],
+    "bbox_edge_delta_px": [
+      -7,
+      -1,
+      0,
+      -1
+    ],
+    "silhouette_iou": 0.8704036298326874,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "ko",
+    "index": 0,
+    "sha256": "91395d36fb07bc3036d7764f32da8943da080d3a946dcb1b650780f71f8d8a09",
+    "source_cell": [
+      0,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      72,
+      104,
+      258,
+      208
+    ],
+    "candidate_bbox": [
+      67,
+      105,
+      253,
+      205
+    ],
+    "bbox_edge_delta_px": [
+      -5,
+      1,
+      -5,
+      -3
+    ],
+    "silhouette_iou": 0.7242656449553001,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "ko",
+    "index": 1,
+    "sha256": "2d1a81dab8831553174c00c302d016151c78b0aa9f47e94385f12b3bf76b65e7",
+    "source_cell": [
+      384,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      88,
+      102,
+      242,
+      236
+    ],
+    "candidate_bbox": [
+      83,
+      107,
+      237,
+      233
+    ],
+    "bbox_edge_delta_px": [
+      -5,
+      5,
+      -5,
+      -3
+    ],
+    "silhouette_iou": 0.754438717067583,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "ko",
+    "index": 2,
+    "sha256": "312255e329d54db7e2b7614c14e5135d5e482b5543f8e631c1e219fad5798b8d",
+    "source_cell": [
+      768,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      120,
+      58,
+      222,
+      210
+    ],
+    "candidate_bbox": [
+      113,
+      64,
+      219,
+      216
+    ],
+    "bbox_edge_delta_px": [
+      -7,
+      6,
+      -3,
+      6
+    ],
+    "silhouette_iou": 0.6774391177822024,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "ko",
+    "index": 3,
+    "sha256": "accee2c21b26925289ebb92982c1d6a503db1d205ac064033e0766aa57783dc3",
+    "source_cell": [
+      1152,
+      32,
+      384,
+      256
+    ],
+    "original_bbox": [
+      120,
+      68,
+      194,
+      210
+    ],
+    "candidate_bbox": [
+      123,
+      73,
+      193,
+      230
+    ],
+    "bbox_edge_delta_px": [
+      3,
+      5,
+      -1,
+      20
+    ],
+    "silhouette_iou": 0.6904848046309696,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "ko",
+    "index": 4,
+    "sha256": "847905a7a44f59eb7537532889951cc65d71fb499544c8bfc29bf176de9ab7ae",
+    "source_cell": [
+      0,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      118,
+      64,
+      190,
+      210
+    ],
+    "candidate_bbox": [
+      119,
+      70,
+      191,
+      232
+    ],
+    "bbox_edge_delta_px": [
+      1,
+      6,
+      1,
+      22
+    ],
+    "silhouette_iou": 0.7039194915254238,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "ko",
+    "index": 5,
+    "sha256": "83d514317dd8cc8286bed9a2ab69c2b9fbdd864aa9095d0fee4109446d8a8774",
+    "source_cell": [
+      384,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      116,
+      66,
+      192,
+      210
+    ],
+    "candidate_bbox": [
+      119,
+      73,
+      195,
+      231
+    ],
+    "bbox_edge_delta_px": [
+      3,
+      7,
+      3,
+      21
+    ],
+    "silhouette_iou": 0.7098090116818098,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "ko",
+    "index": 6,
+    "sha256": "dd05f275a209d1be759b9a92f1decfa37837cb742f3c176d195af9811ff86b13",
+    "source_cell": [
+      768,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      116,
+      70,
+      194,
+      210
+    ],
+    "candidate_bbox": [
+      118,
+      74,
+      195,
+      226
+    ],
+    "bbox_edge_delta_px": [
+      2,
+      4,
+      1,
+      16
+    ],
+    "silhouette_iou": 0.7558794946550048,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "ko",
+    "index": 7,
+    "sha256": "d5ec10c9662e83bd3ee3f0b5988df87c0b326c95c1b184213652e4b46b3ab593",
+    "source_cell": [
+      1152,
+      352,
+      384,
+      256
+    ],
+    "original_bbox": [
+      118,
+      72,
+      192,
+      210
+    ],
+    "candidate_bbox": [
+      120,
+      75,
+      198,
+      222
+    ],
+    "bbox_edge_delta_px": [
+      2,
+      3,
+      6,
+      12
+    ],
+    "silhouette_iou": 0.753562945368171,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": false
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "index": 0,
+    "sha256": "9cbcad1dba7deaf8d150a4499afca77e57553cd776cbb4febe302f217d4ad6fd",
+    "source_cell": null,
+    "original_bbox": [
+      176,
+      110,
+      192,
+      147
+    ],
+    "candidate_bbox": [
+      176,
+      110,
+      192,
+      147
+    ],
+    "bbox_edge_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "silhouette_iou": 1.0,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": true
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "index": 1,
+    "sha256": "5e90335611d3a71239dd24030e6332362b4c3dde04bc53d26c85180a4a8fe90d",
+    "source_cell": null,
+    "original_bbox": [
+      190,
+      103,
+      213,
+      154
+    ],
+    "candidate_bbox": [
+      190,
+      103,
+      213,
+      154
+    ],
+    "bbox_edge_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "silhouette_iou": 1.0,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": true
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "index": 2,
+    "sha256": "34655f3c0974feadefb1cb27e76c83ed0596fcdb6d344665df17a70f69341152",
+    "source_cell": null,
+    "original_bbox": [
+      204,
+      100,
+      231,
+      157
+    ],
+    "candidate_bbox": [
+      204,
+      100,
+      231,
+      157
+    ],
+    "bbox_edge_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "silhouette_iou": 1.0,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": true
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "index": 3,
+    "sha256": "c4c3e0207a7f08686dd4819695d283cd55f6a301d3771c2369745536e1b69d1f",
+    "source_cell": null,
+    "original_bbox": [
+      218,
+      98,
+      250,
+      159
+    ],
+    "candidate_bbox": [
+      218,
+      98,
+      250,
+      159
+    ],
+    "bbox_edge_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "silhouette_iou": 1.0,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": true
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "index": 4,
+    "sha256": "a02ca5b5e02b97fdd624a233cb8ceb93edef6c7e20b9f837f1947976ea441cb7",
+    "source_cell": null,
+    "original_bbox": [
+      232,
+      94,
+      265,
+      162
+    ],
+    "candidate_bbox": [
+      232,
+      94,
+      265,
+      162
+    ],
+    "bbox_edge_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "silhouette_iou": 1.0,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": true
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "index": 5,
+    "sha256": "234879785723b2b997d2eec7a64bc856e301b50ab766e5a815ba939dab456012",
+    "source_cell": null,
+    "original_bbox": [
+      246,
+      93,
+      273,
+      163
+    ],
+    "candidate_bbox": [
+      246,
+      93,
+      273,
+      163
+    ],
+    "bbox_edge_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "silhouette_iou": 1.0,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": true
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "index": 6,
+    "sha256": "ad76a2b3b01d31e0852aaa2606e12155362fb975eb3ad63570bc83ef8899babb",
+    "source_cell": null,
+    "original_bbox": [
+      258,
+      94,
+      276,
+      162
+    ],
+    "candidate_bbox": [
+      258,
+      94,
+      276,
+      162
+    ],
+    "bbox_edge_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "silhouette_iou": 1.0,
+    "animation_metadata_unchanged": true,
+    "whole_frame_scale": 1,
+    "anatomical_part_transforms": false,
+    "original_fx_preserved": true
+  }
+]

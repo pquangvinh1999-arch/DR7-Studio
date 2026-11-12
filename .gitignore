@@ -25,3 +25,26 @@ target/
 /work/characters/pteranodon/revision-v8/
 /work/characters/pteranodon/review-references/
 /work/doctor.json
+
+# Spinosaurus reproducible intermediate frames / standalone import project
+/work/characters/spinosaurus/stage/
+/work/characters/spinosaurus/logical-inspect.png
+/work/characters/spinosaurus/logical-source-review.png
+/work/characters/spinosaurus/revision-v1-original/
+/work/characters/spinosaurus/revision-v2-original/
+
+/work/characters/spinosaurus/revision-v3-original/
+
+/work/characters/spinosaurus/revision-v4-original/
+
+/work/characters/spinosaurus/revision-v5-original/
+
+/work/characters/spinosaurus/revision-v6-original/
+
+/work/characters/spinosaurus/revision-v7-original/
+
+/work/characters/spinosaurus/revision-v8-original/
+
+# Superseded staging/baseline snapshots are not release sources
+/work/**/baseline/
+/work/**/stage/

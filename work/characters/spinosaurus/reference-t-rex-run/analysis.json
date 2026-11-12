@@ -1,0 +1,118 @@
+{
+  "reference_character": "t_rex",
+  "reference_source": "assets/t_rex/clips/animation-clips.json",
+  "reference_frames": 8,
+  "reference_ticks": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "reference_step_ticks": [
+    5,
+    25
+  ],
+  "reference_step_interval_ticks": [
+    20,
+    20
+  ],
+  "reference_kinematic_observation": "Read build_all_clip_poses.run_leg: near/far leg phase offset pi, body bob at2*phase; observed actual run filmstrip. No code/masks/pixels reused to render Spino.",
+  "previous_spino_marker_ticks": [
+    0,
+    15,
+    20,
+    23,
+    40
+  ],
+  "scope": "motion rhythm reference only; do not copy T-rex frames, anatomy, masks or rig; new full-body Spino art. Demo proposal, not approved.",
+  "observed_spino_contact_indices": [
+    1,
+    6
+  ],
+  "adapted_spino_ticks": [
+    3,
+    4,
+    4,
+    5,
+    4,
+    4,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "adapted_spino_contact_ticks": [
+    3,
+    24
+  ],
+  "adapted_spino_step_intervals_ticks": [
+    21,
+    21
+  ],
+  "adaptation_note": "Use actual generated full-foot contact at1/6, not prompt intent1/7. Separate far/near stance samples have different densities; retime two footfalls to equal21ticks. Whole-frame trajectory max2px airborne lift; no limb edits or T-rex pose copy.",
+  "historical_prompt_intent": {
+    "proposed_spino_phase_count": 12,
+    "proposed_ticks": [
+      4,
+      3,
+      4,
+      3,
+      4,
+      3,
+      4,
+      3,
+      4,
+      3,
+      4,
+      3
+    ],
+    "proposed_contact_indices": [
+      1,
+      7
+    ],
+    "proposed_contact_ticks": [
+      4,
+      25
+    ],
+    "proposed_step_interval_ticks": [
+      21,
+      21
+    ]
+  },
+  "demo_candidate": {
+    "phase_count": 12,
+    "ticks": [
+      3,
+      4,
+      4,
+      5,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "contact_indices": [
+      1,
+      6
+    ],
+    "contact_ticks": [
+      3,
+      24
+    ],
+    "step_intervals_ticks": [
+      21,
+      21
+    ],
+    "approved": false
+  }
+}

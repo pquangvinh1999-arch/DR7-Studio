@@ -1,0 +1,24 @@
+{
+  "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/walk-00-reference.png",
+  "file_sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "body_bbox_px": [
+    80,
+    102,
+    188,
+    122
+  ],
+  "visible_pixels": 8355,
+  "rgb_colors": 6763,
+  "edge_acutance_sobel": 230.524,
+  "alpha_hardness_pct": 100.0,
+  "visible_alpha_hardness_pct": 100.0,
+  "minimum_horizontal_constant_rgba_run_px": 1,
+  "single_pixel_run_fraction": 0.9934861278648974,
+  "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+  "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+  "role": "Owner selected T-rex walk0; body art style/shading reference, not a new global standard for approved peers"
+}

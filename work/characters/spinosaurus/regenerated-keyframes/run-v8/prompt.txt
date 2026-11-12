@@ -1,0 +1,21 @@
+Create a NEW cohesive 12-frame IN-PLACE RUN CYCLE for the exact Spinosaurus in the approved reference. This is a single continuous animation, not twelve unrelated poses. Transparent pixel art sheet EXACTLY3COLUMNS x4ROWS read left-to-right then top-to-bottom. All12 frames same exact creature design, scale, camera, fixed hip x and ground baseline; RIGHT profile throughout. Charcoal grey hide, cream underside, amber eye, long narrow crocodilian snout with teeth, BURGUNDY sharply pointed dorsal sail, long sharp-spined tail and pointed tip, two hind legs and two small clawed forearms. FULL connected body including snout/tail/sail/feet must fit every cell with safe padding; no clipping. Keep approved body/head/sail shapes consistent across all frames. Hard crisp opaque pixel-art edges, no glow, shadow, dirt, FX, labels, borders or floor.
+Motion quality: ONE whole alternating two-leg cycle. Near foreground leg is lighter grey and visibly connects to near hip; far background leg dark charcoal connects behind hip. Each leg completes forward reach -> actual foot touchdown -> compress/support -> extend backward/push -> fold/lift -> swing forward. The second leg is HALF A CYCLE behind the first. NEVER alternate a leg from forward to backward without intervening contact/support. No repeated 3/4-frame mini-cycle. No added random landing pauses. Foot contact/support progression occupies multiple consecutive poses. This is running with a low stable forward-leaning trunk, short flight phases, modest knee lift and long smooth stride, NOT a rabbit hop. Head stays remarkably stable, torso bob slight, tail softly counters stride. Arms tucked. Do not invent extra legs, detach joints, or slice parts.
+Exact phase plan, rows have specific roles:
+ROW1 frames0,1,2 = NEAR LEG LANDING/SUPPORT:
+0 near foot forward of hip approaching ground, heel slightly above ground; far leg behind finishing toe-off.
+1 NEAR foot forward PLANTED FLAT and knee softly bends accepting body weight; far heel lifts behind.
+2 NEAR foot now vertically UNDER HIP on ground as body passes over it; FAR knee swings forward underneath belly.
+ROW2 frames3,4,5 = NEAR PUSH-OFF + FAR REACH:
+3 NEAR foot moves BEHIND hip still on ground pushing backward, FAR knee/foot is raised and moving forward.
+4 NEAR foot stretched behind with only toes touching ground, heel raised; FAR shin opens forward reaching for landing.
+5 SHORT FLIGHT: NEAR toes leave ground behind, near knee starts folding; FAR leg extends forward but its heel remains raised just above ground.
+ROW3 frames6,7,8 = FAR LEG LANDING/SUPPORT (OPPOSITE ROW1):
+6 FAR dark foot forward of hip approaching ground; NEAR leg behind folded/lifting.
+7 FAR dark foot forward PLANTED FLAT with bent knee absorbing weight; NEAR foot lifted behind, near knee begins forward swing.
+8 FAR foot directly UNDER HIP on ground supporting weight; NEAR knee swings forward under belly.
+ROW4 frames9,10,11 = FAR PUSH-OFF + NEAR REACH (OPPOSITE ROW2):
+9 FAR foot BEHIND hip on ground pushing, NEAR knee raised and moving forward.
+10 FAR rear foot only toes grounded with heel up, NEAR shin opens forward for next landing.
+11 SHORT FLIGHT: FAR toes leave ground behind, NEAR knee opens and foot reaches forward slightly ABOVE ground, then frame0 continues lowering it. Do not duplicate0 as11:11 is earlier in flight,0 is late reach before1contact.
+Thus frames1..4 visibly show near support moving front -> under hip -> behind; frames7..10 visibly show FAR support moving front -> under hip -> behind. Opposite leg folds, passes underneath and reaches forward progressively. Build a genuine front-to-back supporting foot path and back-to-front airborne return, not legs shuffling in place. Keep hip/body centered and feet moving relative to it. 12 evenly spaced phases over[0,360), never duplicate360. Same ground y across all cells; contact feet all on it, flight feet above it.
+Composition suggestion for each512x256 cell: full body about430px wide, low crouched long silhouette, snout near right safe margin and tail near left safe margin; hip near center-right, ground near bottom with padding. Avoid sail, snout or tail touching boundaries. Preserve source aspect; no HD texture or smooth shading. Regenerate every whole pose as coherent pixel art.

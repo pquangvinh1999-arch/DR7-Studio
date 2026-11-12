@@ -1,0 +1,46 @@
+{
+  "http_atlas_matches": true,
+  "http_wasm_matches": true,
+  "parity": true,
+  "run_frames": 12,
+  "run_total_ticks": 42,
+  "run_contact_indices": [
+    1,
+    6
+  ],
+  "run_step_intervals_ticks": [
+    21,
+    21
+  ],
+  "no_reused_trex_run_frames": true,
+  "trex_input_to_imagegen": false,
+  "non_run_frames_unchanged": 71,
+  "protected_peer_files_unchanged": 500,
+  "atlas_sha256": "578912e9e23d4e486052c76c10b302fd925b1e0194f084814e57e5447b9635aa",
+  "motion": {
+    "ok_for_human_test": true,
+    "release_approved": false,
+    "characters": {
+      "spinosaurus": {
+        "ok_for_human_test": true,
+        "release_approved": false,
+        "status": "reviewed_pending_owner",
+        "errors": []
+      },
+      "t_rex": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "pteranodon": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      }
+    },
+    "errors": []
+  },
+  "atlas_is_demo_unapproved": true
+}

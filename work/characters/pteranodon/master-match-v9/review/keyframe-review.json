@@ -1,0 +1,42 @@
+{
+  "status": "owner_approved",
+  "atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
+  "reference_sha256": "7c9d71fe2033b0be2644bb8df1bb8d3cd5e5d38a7a0a71e3b7833c84a0e9e702",
+  "observations": [
+    "All8 filmstrips reviewed over light/dark/checker against source action sheets.",
+    "Near/far wing face follows baseline pose: charcoal skin/outer surface; burgundy inner membrane; connected shoulder/elbow/wrist/fingers. No rig/part deformation used.",
+    "KO pitch progression, beak thrust, mouth opening and wingbeat phase are compared to the same original frame indices; all timeline/state/event data is equal.",
+    "Fine crest/teeth/membrane details change silhouettes locally. Identical metadata is not proof that rendered motion is pixel-identical; final visual match remains pending Owner."
+  ],
+  "source_pose_evidence": "work/characters/pteranodon/master-match-v9/pose-preservation.json",
+  "artifacts": {
+    "pose-comparison-walk.png": "daf3ed5551f4fa73c9d6fb1540a90ba1b2af1ec1aa0c9185f0c7e67d32985e38",
+    "playback-attack_light.webp": "96dc766a59a744c9115a83c8aaaf08f04b4f85e5427f56805d6a19f729a79167",
+    "pose-comparison-attack_light.png": "82847372925643006f9abb3104132c6c58ad56a99c2437ca77875861ab4b9af6",
+    "filmstrip-attack_light.png": "e44d70679902370ddc75222906f39b4900df33b38603e23ce91514fc7593760c",
+    "playback-power_up-composite.webp": "4fe8579d36a2b435333b18fc55fa2739f774f3e77cf7903be6ef0dca242f4b5f",
+    "filmstrip-sonic_screech_fx.png": "34799aaf6e3fd26013cf034f8a7ef18ccf70627d59f5f86eab3c00fab1bc198e",
+    "reference-lineup.png": "0a193601a00819ad1cc581eed251603d291dbafa27e6f8990c2dede53d1af95a",
+    "playback-walk.webp": "08e7543141771275fde7815aafec02517c08f31dfe246cfedbd685532c7986bf",
+    "playback-ko.webp": "a62344feb8703f9bf4af6f43fa8fb9687fd51d989e1c69792ead535e5c304ce9",
+    "filmstrip-hit.png": "25cf2d5b0b9fd07b07ee8de17c8a2cfe24414466a9c84b5e3c031cdb6f865161",
+    "playback-sonic_screech_fx.webp": "4c05690dcd5bf35656294dd0f25d721dbe30dddb4db10f2233a083388a2b404d",
+    "pose-comparison-ko.png": "0b216326d3c53b65e850fc0aff79d08e96323cc24f1492465d530cc10a3a8e3a",
+    "pose-comparison-hit.png": "c3d5f186aa97065cdfeb4042391af0477dc8058607fa99b80661338462fcb3f4",
+    "playback-hit.webp": "bd6a6c1067a943b14ea00911b269bbaa9f4c2d22a9fe10fda7552db985c37983",
+    "filmstrip-power_up.png": "54fbc56b396fc2f7247c96684834c59456c0c83824c2cf7f022da09dc525aaa4",
+    "filmstrip-ko.png": "02a5055da29c36f81b8173456a5b06ad481c34b4c97184b6d174e2fc4ecdde5f",
+    "filmstrip-idle.png": "015185bedd709e297b6be27f2c9fe0334682fbf00eed1459535beb825934f544",
+    "playback-power_up.webp": "d3d1f2a3cc515d835ff0f46f743a52b215aeaafa86e1e666b295d0120baeda0a",
+    "playback-idle.webp": "d170db8b132c405ae9ec6f13d0c20e6563c87c5528de7463e0c5f08f9fb42a71",
+    "pose-comparison-run.png": "fd27c4dc8d94b60de3dd96d4bb54b0c4e08a1058e3d49e741159926c15fa5e64",
+    "filmstrip-walk.png": "6844307cfd5e7ac8a2d5665a59c2bebebf7fcee3325540a18368e0b40e9a0111",
+    "filmstrip-run.png": "99c2776397d46c9023bee30ad8c72e573e3df35bc9d9f1151de96686e5527d5f",
+    "pose-comparison-idle.png": "e4471646f53a8ba24371000e46d317bb0c38fc1c79084fe2413ef8d20696f610",
+    "pose-comparison-power_up.png": "068cb28e27a7be3df8be0394c850cf4e3ad5df7aed34f7f4214e18e2f1e4f9d6",
+    "playback-run.webp": "35a00c63e6ae1cbcc2a8d7eaf4225aecd6f62a8bc8afb77917f4489ac1c26fe7",
+    "filmstrip-power_up-composite.png": "41d6cf0b1924d4b47e280d3c7cdbaaf280208889cd93d5fd0027f59a71feb576"
+  },
+  "owner_approved": true,
+  "owner_approval_file": "assets/pteranodon/owner_approval.json"
+}

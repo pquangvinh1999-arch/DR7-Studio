@@ -1,0 +1,19 @@
+{
+  "status": "awaiting_owner_master_human_test",
+  "art_source": "host_image",
+  "route": "image_gen.imagegen",
+  "image": "work/characters/spinosaurus/demo-v2/spinosaurus-demo.png",
+  "size_px": [
+    1774,
+    887
+  ],
+  "mode": "RGBA",
+  "sha256": "91d18310a0cd68578f4ffda300db97d4780b7f544ba1af69ed511d1816d51c80",
+  "source": "work/characters/spinosaurus/demo-v1/spinosaurus-demo.png",
+  "prompt": "work/characters/spinosaurus/demo-v2/prompt.txt",
+  "owner_changes": [
+    "Gai dài sắc nhọn dọc đuôi, chóp đuôi nhọn",
+    "Mỗi đốt buồm vuốt nhọn, giữ màng buồm nối liền"
+  ],
+  "scope": "Chỉ demo tĩnh; chờ Owner duyệt trước atlas."
+}

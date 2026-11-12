@@ -1,0 +1,26 @@
+{
+  "status": "awaiting_owner_master_human_test",
+  "art_source": "host_image",
+  "route": "image_gen.imagegen",
+  "image": "work/characters/spinosaurus/demo-v1/spinosaurus-demo.png",
+  "size_px": [
+    1774,
+    887
+  ],
+  "mode": "RGBA",
+  "sha256": "4cef9d8928049f17386494d1a601c03dde6bcd3611cd7de9dcdaa177f2b53c04",
+  "prompt": "work/characters/spinosaurus/demo-v1/prompt.txt",
+  "references": [
+    {
+      "path": "work/characters/t_rex/approved-master/approved-original.png",
+      "sha256": "a2059008470a9c4e63f85b67963e72d2268021d7e1049da7e1632b7a73c09775"
+    },
+    {
+      "path": "work/characters/pteranodon/approved-master/approved-original.png",
+      "sha256": "267c73d7ae35f9498d347cf96e78fe104202fbfdca469050c702b0ab03078353"
+    }
+  ],
+  "scope": "Single static concept demo only. No atlas, animation, engine export or roster admission until Owner approves.",
+  "visual_review": "Viewed generated image: side view facing screen right, long jaws, red dorsal sail, charcoal body, two hind legs and clawed forearms. Owner approval pending.",
+  "pixel_metrics_status": "Not certified as final gameplay sprite; palette, logical grid, alpha and Sobel targets require later measured finishing after concept approval."
+}

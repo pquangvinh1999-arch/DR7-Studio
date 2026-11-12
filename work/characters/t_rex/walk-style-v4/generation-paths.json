@@ -1,0 +1,10 @@
+{
+  "idle": "/home/codespace/.codex/generated_images/01a1bf72-ab94-7430-b66f-7449a7c00fa4/exec-9862cae5-c1df-49ae-bf14-f78845f70fe4.png",
+  "walk": "/home/codespace/.codex/generated_images/01a1bf72-ab94-7430-b66f-7449a7c00fa4/exec-f5adaad0-37d0-47f3-bc79-0cb6a6a9ab94.png",
+  "run": "/home/codespace/.codex/generated_images/01a1bf72-ab94-7430-b66f-7449a7c00fa4/exec-94f2941b-5ac2-445c-838c-11de3c553ec4.png",
+  "attack_light": "/home/codespace/.codex/generated_images/01a1bf72-ab94-7430-b66f-7449a7c00fa4/exec-059a7c53-a05e-4b2c-93fc-0a7b92cdc45f.png",
+  "power_up": "/home/codespace/.codex/generated_images/01a1bf72-ab94-7430-b66f-7449a7c00fa4/exec-8ebe4586-8ed5-4395-9980-ff3281fac3a0.png",
+  "hit": "/home/codespace/.codex/generated_images/01a1bf72-ab94-7430-b66f-7449a7c00fa4/exec-9c464d8a-5d93-47e1-9b92-5e95e9dc5840.png",
+  "ko": "/home/codespace/.codex/generated_images/01a1bf72-ab94-7430-b66f-7449a7c00fa4/exec-6798bb06-37da-4a5a-b3e1-0c2b121ab83b.png",
+  "attack_heavy": "/home/codespace/.codex/generated_images/01a1bf72-ab94-7430-b66f-7449a7c00fa4/exec-d5bf1a8c-4af1-4c75-a1c1-03ee54f30cc4.png"
+}

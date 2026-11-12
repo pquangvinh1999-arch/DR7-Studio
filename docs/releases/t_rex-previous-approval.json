@@ -1,0 +1,40 @@
+{
+  "schema": "dr7-studio.owner_approval_receipt.v1",
+  "status": "owner_approved",
+  "workflow_id": "PIPE-001",
+  "character_id": "t_rex",
+  "display_name": "T-rex",
+  "approved_at": "2026-11-10T08:03:00Z",
+  "owner_message": "ok nhân vật dặt chuẩn chốt T-rex để qua nhân vật tiếp theo.",
+  "atlas_path": "assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png",
+  "atlas_sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f",
+  "tres_path": "assets/t_rex/godot_bundle/godot/t_rex.tres",
+  "prefab_path": "scenes/TRex.tscn",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176.0,
+    224.0
+  ],
+  "present_clips": [
+    "idle",
+    "walk",
+    "run",
+    "attack_light",
+    "attack_heavy",
+    "power_up",
+    "hit",
+    "ko"
+  ],
+  "effect_clips": [
+    "fireball_fx"
+  ],
+  "excluded_clips": [
+    "jump",
+    "aura_loop",
+    "guard",
+    "win"
+  ]
+}

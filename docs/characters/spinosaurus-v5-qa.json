@@ -1,0 +1,2585 @@
+{
+  "revision": 5,
+  "run_source": "walk_shared_frames",
+  "run_frame_duration_ratio": 0.5,
+  "walk_rollback_revision": 3,
+  "owner_freeze_after_rollback": true,
+  "tail_impact": {
+    "source": "work/characters/spinosaurus/regenerated-keyframes/tail-impact-v4/sheet.png",
+    "source_sha256": "4c10ad9a40f9fa519a774417bbcb0847a481e6b017bb49dd2558672fbfa4b5f0",
+    "contact_frame": 5,
+    "tip_canvas_px": [
+      270,
+      187
+    ],
+    "phases": [
+      {
+        "frame": 5,
+        "offset_px": [
+          266,
+          171
+        ],
+        "size_px": [
+          26,
+          32
+        ],
+        "body_rgba_sha256": "fbd46ecae9ed2425c7edd55ed51df88722cb711b7a93ae4ddd0b216f63644069",
+        "effect_pixels": 255
+      },
+      {
+        "frame": 6,
+        "offset_px": [
+          266,
+          169
+        ],
+        "size_px": [
+          26,
+          37
+        ],
+        "body_rgba_sha256": "a11e59f8fa8c0527be9905d45b2068e9105827ba4ad8818b01d2e592f470aaf9",
+        "effect_pixels": 167
+      },
+      {
+        "frame": 7,
+        "offset_px": [
+          266,
+          170
+        ],
+        "size_px": [
+          26,
+          34
+        ],
+        "body_rgba_sha256": "fabdaa7fce9dacf59080964dc662a508470ae6d093a8c50b3f47c5d77302e077",
+        "effect_pixels": 82
+      }
+    ],
+    "body_pixels_preserved": true
+  },
+  "motion_method": "imagegen_complete_body_keyframes",
+  "source_sha256": "91d18310a0cd68578f4ffda300db97d4780b7f544ba1af69ed511d1816d51c80",
+  "frame_count": 79,
+  "clips": {
+    "idle": {
+      "frames": 12,
+      "ticks": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "walk": {
+      "frames": 8,
+      "ticks": [
+        7,
+        8,
+        7,
+        8,
+        7,
+        8,
+        7,
+        8
+      ]
+    },
+    "attack_light": {
+      "frames": 8,
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ]
+    },
+    "attack_heavy": {
+      "frames": 12,
+      "ticks": [
+        5,
+        4,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "power_up": {
+      "frames": 9,
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6
+      ]
+    },
+    "hit": {
+      "frames": 6,
+      "ticks": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "ko": {
+      "frames": 8,
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        15
+      ]
+    },
+    "run": {
+      "frames": 8,
+      "ticks": [
+        7,
+        8,
+        7,
+        8,
+        7,
+        8,
+        7,
+        8
+      ]
+    },
+    "turn": {
+      "frames": 4,
+      "ticks": [
+        6,
+        4,
+        4,
+        6
+      ]
+    },
+    "fireball_fx": {
+      "frames": 4,
+      "ticks": [
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  },
+  "source_poses": {
+    "idle": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          0,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9996308503625577
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          512,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9997880120833113
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          1024,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998147167813658
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          0,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998141066496707
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          512,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998952413377681
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          1024,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9997647304857008
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          0,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998937526561836
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          512,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999894722989867
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          1024,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998421509563021
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          0,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999760790984478
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          512,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/idle/sheet.png",
+        "sheet_sha256": "ed3b8d828788a14fb4cc474bfbc5db0e8220d672b6e2763baf84a6073b442eb1",
+        "cell_rect_px": [
+          1024,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998665919581632
+      }
+    ],
+    "walk": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          0,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999955853787745
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          627,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998633848675972
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          0,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9996996511332393
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          627,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998409560811579
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          0,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998380679189415
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          627,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999765214124718
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          0,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999091817273635
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          627,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998192049537843
+      }
+    ],
+    "attack_light": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          0,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          627,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999188361098147
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          0,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          627,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999603394939319
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          0,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999803598083117
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          627,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999406985708356
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          0,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999806404150695
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_light/sheet.png",
+        "sheet_sha256": "26a9ba27e775fa0cddaf142a56b4d09479c71bec77d6b07b0bfffaf7cf2bcfe5",
+        "cell_rect_px": [
+          627,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999814656929977
+      }
+    ],
+    "attack_heavy": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999871402484504
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          512,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999260701347988
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          1024,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999256652956043
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          512,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999261393012778
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          1024,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999917131650185
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999686363066115
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          512,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998627127951675
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          1024,
+          512,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999650031497165
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998629423535539
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          512,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999494489940349
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          1024,
+          768,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999750287169755
+      }
+    ],
+    "power_up": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          0,
+          0,
+          591,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9997672253258846
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          591,
+          0,
+          592,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999473684210526
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          1183,
+          0,
+          591,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999240544782543
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          0,
+          296,
+          591,
+          295
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999205760881076
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          591,
+          296,
+          592,
+          295
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9995040200480317
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          1183,
+          296,
+          591,
+          295
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9997889237750983
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          0,
+          591,
+          591,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999946504038945
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          591,
+          591,
+          592,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999920731385087
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/power_up/sheet.png",
+        "sheet_sha256": "54db129e4c54d6a9fef171c330ea68448432ae97b4aaf14c49cab0d2b95b6969",
+        "cell_rect_px": [
+          1183,
+          591,
+          591,
+          296
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998426930942268
+      }
+    ],
+    "hit": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          0,
+          0,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999850341968601
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          724,
+          0,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999849585608351
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          0,
+          362,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          724,
+          362,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999543316436041
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          0,
+          724,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999540441176471
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/hit/sheet.png",
+        "sheet_sha256": "f4041c20af4a348a74e8fb2490038c2ff7b064e6a47bbc3526bb185dc03751dc",
+        "cell_rect_px": [
+          724,
+          724,
+          724,
+          362
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0
+      }
+    ],
+    "ko": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          0,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999836108561688
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          627,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999837970089278
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          0,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999187203329215
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          627,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999448782728525
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          0,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999407149773729
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          627,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999027691350342
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          0,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999792285482832
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/ko/sheet.png",
+        "sheet_sha256": "34d3a9005c2df839db91e2dea8c606945fd719faff0ac04f8146fa75259b4ec2",
+        "cell_rect_px": [
+          627,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999065813442944
+      }
+    ],
+    "run": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          0,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999955853787745,
+        "reused_complete_pose_from": "walk#0"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          627,
+          0,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998633848675972,
+        "reused_complete_pose_from": "walk#1"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          0,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9996996511332393,
+        "reused_complete_pose_from": "walk#2"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          627,
+          314,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998409560811579,
+        "reused_complete_pose_from": "walk#3"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          0,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998380679189415,
+        "reused_complete_pose_from": "walk#4"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          627,
+          627,
+          627,
+          313
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999765214124718,
+        "reused_complete_pose_from": "walk#5"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          0,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999091817273635,
+        "reused_complete_pose_from": "walk#6"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/walk/sheet.png",
+        "sheet_sha256": "a9251970c911f5eb0f800660d00aba18d44812c46f71240d5aa5630f53e39169",
+        "cell_rect_px": [
+          627,
+          940,
+          627,
+          314
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9998192049537843,
+        "reused_complete_pose_from": "walk#7"
+      }
+    ],
+    "turn": [
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          0,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999871402484504,
+        "reused_complete_pose_from": "attack_heavy#0"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          0,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 1.0,
+        "reused_complete_pose_from": "attack_heavy#3"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          512,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.9999261393012778,
+        "reused_complete_pose_from": "attack_heavy#4"
+      },
+      {
+        "sheet": "work/characters/spinosaurus/regenerated-keyframes/attack_heavy/sheet.png",
+        "sheet_sha256": "f8064665b682eea0fa40b67009ee2442e90e0f072ade0199cfa13c0a07b3f947",
+        "cell_rect_px": [
+          1024,
+          256,
+          512,
+          256
+        ],
+        "complete_body_generated": true,
+        "largest_component_fraction": 0.999917131650185,
+        "reused_complete_pose_from": "attack_heavy#5"
+      }
+    ]
+  },
+  "registrations": {
+    "idle": [
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          89,
+          142
+        ],
+        "root_source_px": [
+          255.0,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          89,
+          142
+        ],
+        "root_source_px": [
+          257.0,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          88,
+          142
+        ],
+        "root_source_px": [
+          257.5,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          88,
+          142
+        ],
+        "root_source_px": [
+          257.5,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          88,
+          142
+        ],
+        "root_source_px": [
+          257.5,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          88,
+          142
+        ],
+        "root_source_px": [
+          258.0,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          88,
+          142
+        ],
+        "root_source_px": [
+          258.0,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          88,
+          142
+        ],
+        "root_source_px": [
+          257.5,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          88,
+          142
+        ],
+        "root_source_px": [
+          257.5,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          88,
+          142
+        ],
+        "root_source_px": [
+          258.0,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          88,
+          142
+        ],
+        "root_source_px": [
+          257.5,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.33984375,
+          0.33984375
+        ],
+        "offset_px": [
+          89,
+          142
+        ],
+        "root_source_px": [
+          256.5,
+          241.0
+        ]
+      }
+    ],
+    "walk": [
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28662420382165604
+        ],
+        "offset_px": [
+          85,
+          146
+        ],
+        "root_source_px": [
+          315.5,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28662420382165604
+        ],
+        "offset_px": [
+          82,
+          146
+        ],
+        "root_source_px": [
+          326.5,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          87,
+          146
+        ],
+        "root_source_px": [
+          310.0,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          82,
+          146
+        ],
+        "root_source_px": [
+          327.5,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          77,
+          146
+        ],
+        "root_source_px": [
+          345.0,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          88,
+          146
+        ],
+        "root_source_px": [
+          305.5,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28662420382165604
+        ],
+        "offset_px": [
+          87,
+          146
+        ],
+        "root_source_px": [
+          309.0,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28662420382165604
+        ],
+        "offset_px": [
+          83,
+          146
+        ],
+        "root_source_px": [
+          322.5,
+          271.0
+        ]
+      }
+    ],
+    "attack_light": [
+      {
+        "scale_xy": [
+          0.2886762360446571,
+          0.2898089171974522
+        ],
+        "offset_px": [
+          84,
+          140
+        ],
+        "root_source_px": [
+          317.0,
+          290.3
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2886762360446571,
+          0.2898089171974522
+        ],
+        "offset_px": [
+          96,
+          140
+        ],
+        "root_source_px": [
+          276.0,
+          290.3
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2886762360446571,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          93,
+          141
+        ],
+        "root_source_px": [
+          288.0,
+          290.3
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2886762360446571,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          95,
+          141
+        ],
+        "root_source_px": [
+          280.5,
+          290.3
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2886762360446571,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          93,
+          141
+        ],
+        "root_source_px": [
+          288.0,
+          290.3
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2886762360446571,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          95,
+          141
+        ],
+        "root_source_px": [
+          281.0,
+          290.3
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2886762360446571,
+          0.2898089171974522
+        ],
+        "offset_px": [
+          88,
+          140
+        ],
+        "root_source_px": [
+          305.0,
+          290.3
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2886762360446571,
+          0.2898089171974522
+        ],
+        "offset_px": [
+          89,
+          140
+        ],
+        "root_source_px": [
+          302.5,
+          290.3
+        ]
+      }
+    ],
+    "attack_heavy": [
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          93,
+          142
+        ],
+        "root_source_px": [
+          247.0,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          83,
+          142
+        ],
+        "root_source_px": [
+          274.0,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          92,
+          142
+        ],
+        "root_source_px": [
+          249.0,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          75,
+          142
+        ],
+        "root_source_px": [
+          299.5,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          91,
+          142
+        ],
+        "root_source_px": [
+          253.0,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          106,
+          142
+        ],
+        "root_source_px": [
+          207.0,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          101,
+          142
+        ],
+        "root_source_px": [
+          222.0,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          104,
+          142
+        ],
+        "root_source_px": [
+          212.5,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          103,
+          142
+        ],
+        "root_source_px": [
+          216.5,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          98,
+          142
+        ],
+        "root_source_px": [
+          230.5,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          92,
+          142
+        ],
+        "root_source_px": [
+          247.5,
+          241.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.337890625,
+          0.33984375
+        ],
+        "offset_px": [
+          91,
+          142
+        ],
+        "root_source_px": [
+          251.0,
+          241.0
+        ]
+      }
+    ],
+    "power_up": [
+      {
+        "scale_xy": [
+          0.34856175972927245,
+          0.34797297297297297
+        ],
+        "offset_px": [
+          70,
+          132
+        ],
+        "root_source_px": [
+          304.0,
+          263.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.34797297297297297,
+          0.34797297297297297
+        ],
+        "offset_px": [
+          74,
+          132
+        ],
+        "root_source_px": [
+          293.0,
+          263.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.34856175972927245,
+          0.34797297297297297
+        ],
+        "offset_px": [
+          79,
+          132
+        ],
+        "root_source_px": [
+          277.0,
+          263.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.34856175972927245,
+          0.34915254237288135
+        ],
+        "offset_px": [
+          73,
+          132
+        ],
+        "root_source_px": [
+          295.5,
+          263.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.34797297297297297,
+          0.34915254237288135
+        ],
+        "offset_px": [
+          76,
+          132
+        ],
+        "root_source_px": [
+          288.5,
+          263.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.34856175972927245,
+          0.34915254237288135
+        ],
+        "offset_px": [
+          78,
+          132
+        ],
+        "root_source_px": [
+          280.0,
+          263.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.34856175972927245,
+          0.34797297297297297
+        ],
+        "offset_px": [
+          71,
+          132
+        ],
+        "root_source_px": [
+          302.5,
+          263.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.34797297297297297,
+          0.34797297297297297
+        ],
+        "offset_px": [
+          74,
+          132
+        ],
+        "root_source_px": [
+          293.0,
+          263.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.34856175972927245,
+          0.34797297297297297
+        ],
+        "offset_px": [
+          76,
+          132
+        ],
+        "root_source_px": [
+          287.0,
+          263.0
+        ]
+      }
+    ],
+    "hit": [
+      {
+        "scale_xy": [
+          0.27209944751381215,
+          0.27071823204419887
+        ],
+        "offset_px": [
+          75,
+          130
+        ],
+        "root_source_px": [
+          371.0,
+          346.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.27209944751381215,
+          0.27071823204419887
+        ],
+        "offset_px": [
+          75,
+          130
+        ],
+        "root_source_px": [
+          371.5,
+          346.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.27209944751381215,
+          0.27071823204419887
+        ],
+        "offset_px": [
+          75,
+          130
+        ],
+        "root_source_px": [
+          372.5,
+          346.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.27209944751381215,
+          0.27071823204419887
+        ],
+        "offset_px": [
+          76,
+          130
+        ],
+        "root_source_px": [
+          369.0,
+          346.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.27209944751381215,
+          0.27071823204419887
+        ],
+        "offset_px": [
+          77,
+          130
+        ],
+        "root_source_px": [
+          363.0,
+          346.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.27209944751381215,
+          0.27071823204419887
+        ],
+        "offset_px": [
+          77,
+          130
+        ],
+        "root_source_px": [
+          363.0,
+          346.0
+        ]
+      }
+    ],
+    "ko": [
+      {
+        "scale_xy": [
+          0.2743221690590112,
+          0.27388535031847133
+        ],
+        "offset_px": [
+          95,
+          141
+        ],
+        "root_source_px": [
+          297.0,
+          303
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2743221690590112,
+          0.27388535031847133
+        ],
+        "offset_px": [
+          81,
+          142
+        ],
+        "root_source_px": [
+          346.5,
+          301
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2743221690590112,
+          0.2747603833865815
+        ],
+        "offset_px": [
+          84,
+          145
+        ],
+        "root_source_px": [
+          334.0,
+          288
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2743221690590112,
+          0.2747603833865815
+        ],
+        "offset_px": [
+          97,
+          146
+        ],
+        "root_source_px": [
+          288.42,
+          285
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2743221690590112,
+          0.2747603833865815
+        ],
+        "offset_px": [
+          97,
+          147
+        ],
+        "root_source_px": [
+          288.42,
+          282
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2743221690590112,
+          0.2747603833865815
+        ],
+        "offset_px": [
+          97,
+          146
+        ],
+        "root_source_px": [
+          288.42,
+          284
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2743221690590112,
+          0.27388535031847133
+        ],
+        "offset_px": [
+          97,
+          148
+        ],
+        "root_source_px": [
+          288.42,
+          276
+        ]
+      },
+      {
+        "scale_xy": [
+          0.2743221690590112,
+          0.27388535031847133
+        ],
+        "offset_px": [
+          97,
+          149
+        ],
+        "root_source_px": [
+          288.42,
+          275
+        ]
+      }
+    ],
+    "run": [
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28662420382165604
+        ],
+        "offset_px": [
+          85,
+          146
+        ],
+        "root_source_px": [
+          315.5,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28662420382165604
+        ],
+        "offset_px": [
+          82,
+          146
+        ],
+        "root_source_px": [
+          326.5,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          87,
+          146
+        ],
+        "root_source_px": [
+          310.0,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          82,
+          146
+        ],
+        "root_source_px": [
+          327.5,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          77,
+          146
+        ],
+        "root_source_px": [
+          345.0,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28753993610223644
+        ],
+        "offset_px": [
+          88,
+          146
+        ],
+        "root_source_px": [
+          305.5,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28662420382165604
+        ],
+        "offset_px": [
+          87,
+          146
+        ],
+        "root_source_px": [
+          309.0,
+          271.0
+        ]
+      },
+      {
+        "scale_xy": [
+          0.28708133971291866,
+          0.28662420382165604
+        ],
+        "offset_px": [
+          83,
+          146
+        ],
+        "root_source_px": [
+          322.5,
+          271.0
+        ]
+      }
+    ]
+  },
+  "mouths_canvas_px": {
+    "idle": [
+      [
+        254.50390625,
+        177.34375
+      ],
+      [
+        254.1640625,
+        176.494140625
+      ],
+      [
+        253.84375,
+        174.794921875
+      ],
+      [
+        253.84375,
+        172.755859375
+      ],
+      [
+        254.18359375,
+        168.5078125
+      ],
+      [
+        253.84375,
+        166.46875
+      ],
+      [
+        253.84375,
+        167.998046875
+      ],
+      [
+        254.18359375,
+        172.416015625
+      ],
+      [
+        253.84375,
+        175.64453125
+      ],
+      [
+        253.50390625,
+        177.173828125
+      ],
+      [
+        253.1640625,
+        179.04296875
+      ],
+      [
+        254.84375,
+        178.873046875
+      ]
+    ],
+    "walk": [
+      [
+        254.95215311004785,
+        186.55732484076432
+      ],
+      [
+        252.23923444976077,
+        188.70700636942675
+      ],
+      [
+        257.81339712918657,
+        186.2555910543131
+      ],
+      [
+        252.52631578947367,
+        184.6741214057508
+      ],
+      [
+        247.23923444976077,
+        183.9552715654952
+      ],
+      [
+        258.2392344497608,
+        187.98083067092654
+      ],
+      [
+        257.2392344497608,
+        188.13375796178343
+      ],
+      [
+        253.52631578947367,
+        186.12738853503186
+      ]
+    ],
+    "attack_light": [
+      [
+        251.4322169059011,
+        190.13694267515922
+      ],
+      [
+        259.10207336523126,
+        161.30095541401275
+      ],
+      [
+        262.16427432216904,
+        160.40894568690095
+      ],
+      [
+        269.64912280701753,
+        184.13099041533548
+      ],
+      [
+        266.2057416267943,
+        184.4185303514377
+      ],
+      [
+        266.4736842105263,
+        180.5367412140575
+      ],
+      [
+        257.16427432216904,
+        177.96496815286625
+      ],
+      [
+        258.45295055821373,
+        177.96496815286625
+      ]
+    ],
+    "attack_heavy": [
+      [
+        256.876953125,
+        175.474609375
+      ],
+      [
+        245.1875,
+        181.591796875
+      ],
+      [
+        245.064453125,
+        190.427734375
+      ],
+      [
+        220.630859375,
+        182.78125
+      ],
+      [
+        216.01953125,
+        208.609375
+      ],
+      [
+        270.21484375,
+        187.87890625
+      ],
+      [
+        260.822265625,
+        188.21875
+      ],
+      [
+        249.29296875,
+        192.296875
+      ],
+      [
+        231.060546875,
+        173.9453125
+      ],
+      [
+        248.69921875,
+        174.455078125
+      ],
+      [
+        251.484375,
+        175.984375
+      ],
+      [
+        254.5390625,
+        176.154296875
+      ]
+    ],
+    "power_up": [
+      [
+        249.5093062605753,
+        153.22635135135135
+      ],
+      [
+        246.59459459459458,
+        160.53378378378378
+      ],
+      [
+        265.1319796954315,
+        169.5810810810811
+      ],
+      [
+        259.48054145516073,
+        166.04237288135593
+      ],
+      [
+        259.72972972972974,
+        169.7084745762712
+      ],
+      [
+        254.72081218274113,
+        170.05762711864406
+      ],
+      [
+        251.20642978003386,
+        170.79898648648648
+      ],
+      [
+        252.8581081081081,
+        176.0185810810811
+      ],
+      [
+        254.81218274111677,
+        176.36655405405406
+      ]
+    ],
+    "hit": [
+      [
+        241.52486187845304,
+        154.9060773480663
+      ],
+      [
+        235.810773480663,
+        145.70165745856355
+      ],
+      [
+        244.24585635359117,
+        154.5
+      ],
+      [
+        250.6878453038674,
+        166.41160220994476
+      ],
+      [
+        253.04834254143645,
+        170.33701657458562
+      ],
+      [
+        256.31353591160223,
+        167.22375690607734
+      ]
+    ],
+    "ko": [
+      [
+        258.49601275917064,
+        172.4968152866242
+      ],
+      [
+        248.33652312599682,
+        191.43630573248407
+      ],
+      [
+        252.9824561403509,
+        195.69329073482427
+      ],
+      [
+        264.88516746411483,
+        207.13418530351439
+      ],
+      [
+        265.43381180223287,
+        206.76038338658148
+      ],
+      [
+        265.15948963317385,
+        197.38019169329073
+      ],
+      [
+        265.43381180223287,
+        209.48726114649682
+      ],
+      [
+        263.7878787878788,
+        220.34713375796179
+      ]
+    ],
+    "run": [
+      [
+        254.95215311004785,
+        186.55732484076432
+      ],
+      [
+        252.23923444976077,
+        188.70700636942675
+      ],
+      [
+        257.81339712918657,
+        186.2555910543131
+      ],
+      [
+        252.52631578947367,
+        184.6741214057508
+      ],
+      [
+        247.23923444976077,
+        183.9552715654952
+      ],
+      [
+        258.2392344497608,
+        187.98083067092654
+      ],
+      [
+        257.2392344497608,
+        188.13375796178343
+      ],
+      [
+        253.52631578947367,
+        186.12738853503186
+      ]
+    ]
+  },
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176,
+    224
+  ],
+  "body_only_bbox_px": {
+    "x": 98,
+    "y": 150,
+    "w": 157,
+    "h": 74
+  },
+  "review_status": "reviewed_pending_owner",
+  "heavy_total_ticks": 35,
+  "rejected_legacy_method": "cut_part_warp_and_patch",
+  "rejected_source_sheets": [
+    "walk/sheet-rejected-clipped.png",
+    "power_up/sheet-rejected-clipped.png"
+  ],
+  "full_fx_bbox_px": {
+    "x": 87,
+    "y": 104,
+    "w": 274,
+    "h": 120
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "run",
+      "attack_light",
+      "attack_heavy",
+      "power_up",
+      "hit",
+      "ko",
+      "turn"
+    ],
+    "effect_clips": [
+      "fireball_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "run_uses_walk_frames": true,
+      "run_duration_ratio": 0.5,
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "fireball_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 20,
+      "origin_canvas_px": [
+        295,
+        173
+      ],
+      "velocity_px_per_tick": [
+        0.0,
+        0.0
+      ]
+    },
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 20,
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true
+    }
+  },
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3494,
+          2082
+        ],
+        "cells": 68,
+        "clips": [
+          "idle",
+          "walk",
+          "attack_light",
+          "attack_heavy",
+          "power_up",
+          "hit",
+          "ko",
+          "run",
+          "turn",
+          "fireball_fx"
+        ]
+      }
+    ]
+  },
+  "palette_colors": 35830,
+  "pixel_sharpness_metrics": {
+    "texel_scale_ratio": "Imagegen complete native keyframes -> gameplay with one Nearest resize; no blur/palette/gain",
+    "edge_acutance_sobel": 271.574,
+    "alpha_hardness_pct": 99.99300799792326,
+    "visible_alpha_hardness_pct": 99.82825857995465,
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "reference_note": "Actual measurements; no scalar forced to T-rex 201.3. New whole poses preserve approved concept, not pixel identity to master."
+  },
+  "atlas_sha256": "3603fd263602d6b780fed57e6eb61e5e0c805f0776861445b90990b0c616fbf7",
+  "motion_quality": {
+    "status": "reviewed_pending_owner",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "3603fd263602d6b780fed57e6eb61e5e0c805f0776861445b90990b0c616fbf7",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": true,
+      "three_backgrounds": true
+    },
+    "review_evidence": "work/characters/spinosaurus/review-v5/keyframe-review.json",
+    "unresolved_structural_failures": [],
+    "owner_approved": false,
+    "previous_revision_atlas_sha256": "dc6bd7e5afb0a96ba43639965f57a556e222b72244243bddec8fb4936c9bf9f2"
+  },
+  "rollback_scope": "Owner requested exact r3 walk restore + run from same frames at2x; no other visual/timing edits. No claim old gait defects fixed. Freeze until next Owner Human Test."
+}

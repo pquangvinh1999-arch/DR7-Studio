@@ -1,0 +1,19 @@
+{
+  "status": "reviewed_pending_owner",
+  "atlas_sha256": "7cdc28601c3f8ac7867409d4bd6c036e78c5091ffd3d45751a7db1f12798d7e7",
+  "scope": "12 new heavy poses plus entry/return poses; all61 other frames unchanged",
+  "observations": [
+    "Whole-body pose4 faces camera with chest/belly; pose7 shows back of skull/neck/hips, no copied front face.",
+    "Frames2/3/6/8 have differing chest/back/limb occlusion and tail foreshortening; true views rather than horizontal flips.",
+    "All12 complete poses reviewed on light/dark/checker. Ground225 and pelvis reference176 remain common; natural perspective widths retained.",
+    "Ticks5/4 anticipation then2/1/1/1/1/2 accelerated turn/impact, recovery3/4/5/6; tiny amber slash5, fading6, dissipated7.",
+    "Naturalness/feel remains pending Owner Human Test."
+  ],
+  "artifacts": {
+    "filmstrip-attack_heavy.png": "5295eac2d5ec20a8d66024b28d581891c5e1a24ce6ba19b9ab979a8c7cb2ea3e",
+    "playback-attack_heavy.webp": "5ecaac27d94138a6d6a32546fb74f1d425e94165e37d2413f70bfe611d9c492e",
+    "timeline-60hz.png": "6ab315a37b9eb2cb19f5a6d7ddef54d8f6671d94a5221b44fc815c8bed8ee4d2"
+  },
+  "owner_approved": false,
+  "rendering": "Selected native gameplay sheet; whole-pose translation and alpha cleanup only; no resize"
+}

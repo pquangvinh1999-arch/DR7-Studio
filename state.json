@@ -1,9 +1,9 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-11T08:35:25.258034+00:00",
+  "updated_at": "2026-11-12T07:38:36.605057+00:00",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
-    "version": "0.4.0",
+    "version": "0.6.0",
     "version_history": [
       {
         "version": "0.1.0",
@@ -29,6 +29,16 @@
         "version": "0.4.0",
         "date": "2026-11-11T08:33:19.680871+00:00",
         "summary": "Owner nghiệm thu Pteranodon v8; PIPE-002, bundle sóng âm độc lập và công cụ chọn vùng Lasso."
+      },
+      {
+        "version": "0.5.0",
+        "date": "2026-11-12T05:31:01.316193+00:00",
+        "summary": "Owner chốt Spinosaurus sau khi loại run; walk-only,71frames/9clips,giữmọiảnh/timingcònlại."
+      },
+      {
+        "version": "0.6.0",
+        "date": "2026-11-12T07:38:36.605057+00:00",
+        "summary": "Owner nghiệm thu T-rex walk-style-v4, Pteranodon master-match-v9 và Spinosaurus; chốt 3 receipt SHA, dọn PNG nháp và giữ nguồn/filmstrip cuối."
       }
     ],
     "genre": "2D Dragon Ball Real-Time Mass Action / RPG",
@@ -69,9 +79,9 @@
     "version_file": "VERSION"
   },
   "current_focus": {
-    "active_task_id": "TASK-034",
-    "status": "completed",
-    "summary": "Đã chốt Pteranodon v8 theo Owner: receipt assets/pteranodon/owner_approval.json + PIPE-002 trong skills.md, version0.4.0 đồng bộ. Bundle/nguồn/script tái dựng vàLasso đãcommit c5dbd532ec31c18dec7db34ca2744012dca1f3c1, pushorigin/main thànhcông. CI42988121963 completed/success (Governance,Python/E2E,Rust,WASM,Godot). Localtests exit0; atlasreceipt/HTTP/engineSHA khớp. Đã lưu bảnthử/ảnhfeedback ngoàiGit. Sẵn sàng nhận nhân vật tiếp theo."
+    "active_task_id": "TASK-053",
+    "status": "verified_ready_to_push",
+    "summary": "Owner chốt 3 nhân vật, v0.6.0; đã dọn 2971 PNG/231.32 MiB, giữ nguồn cuối/runtime/filmstrip. loop test26Python/E2E+3Godotbundle+2Rust exit0; WASM build/E2E exit0; HTTP/parity khớp. Chuẩn bị commit/push main."
   },
   "open_issues": [],
   "resolved_issues": [
@@ -291,6 +301,132 @@
       "timestamp": "2026-11-11T08:35:25.258034+00:00",
       "status": "completed",
       "summary": "Đã chốt Pteranodon v8 theo Owner: receipt assets/pteranodon/owner_approval.json + PIPE-002 trong skills.md, version0.4.0 đồng bộ. Bundle/nguồn/script tái dựng vàLasso đãcommit c5dbd532ec31c18dec7db34ca2744012dca1f3c1, pushorigin/main thànhcông. CI42988121963 completed/success (Governance,Python/E2E,Rust,WASM,Godot). Localtests exit0; atlasreceipt/HTTP/engineSHA khớp. Đã lưu bảnthử/ảnhfeedback ngoàiGit. Sẵn sàng nhận nhân vật tiếp theo."
+    },
+    {
+      "id": "TASK-035",
+      "timestamp": "2026-11-11T09:03:39.623363+00:00",
+      "status": "removed_by_owner",
+      "summary": "Owner chọn đềxuất: Attack_nomal thànhtrangtest riêng,timeline60Hz giữ4ticks/pose. Đãghép18pose(8+7+3),72ticks=1.2s,1atlas[1942, 1042],canvas384x256,anchor[176,224],SHA9cc4d6aba9d88f753e7ee7baa003c5666879b15c92e889cc07f8f29c635c7872; alpha binary100%,opaque_key_px0. Giữđảo/tungngười theo baselinehàngnguồn,khôngsinhframe. Trang/experiments/attack-normal/ cóplay/pause,restart,scrub,loop,hold1–12tick,flip,nền3loại vàSHAPNGcheck. EngineGodotstandaloneexit0,loop.shtest15Python/E2E+Godot2bundle+2Rustexit0,WASMbuild0,HTTP200HTML/JS/JSON/PNG vàhashkhớp. Đãxemfilmstrip3nền. T-rex/Pteranodon/roster/bundleđãchốt khôngđổi. ChờOwnerHumanTest bảnthử,chưathêmnhânvậtmới/chưaghiskills.md,chưacommit/push.",
+      "resolution": "Owner yêu cầu xóa nguồn và toàn bộ demo test ngày 2026-11-12. Đã xóa; bản ghi chỉ là lịch sử, không phục hồi."
+    },
+    {
+      "id": "TASK-036",
+      "timestamp": "2026-11-12T00:56:28.804713+00:00",
+      "status": "awaiting_owner_master_human_test",
+      "summary": "Đã đọc skills.md/lerning.md, concept và xem master T-rex/Pteranodon; tạo demo tĩnh Spinosaurus hung tợn bằng host image_gen. Da than chì, buồm đỏ đô, mõm dài, mắt vàng, móng sắc, nhìn ngang sang phải. File work/characters/spinosaurus/demo-v1/spinosaurus-demo.png RGBA1774x887 SHA2564cef9d8928049f17386494d1a601c03dde6bcd3611cd7de9dcdaa177f2b53c04. Prompt và metadata lưu cùng thư mục. Chờ Owner Human Test mẫu tĩnh; chưa tạo atlas/clip, chưa thêm roster, chưa chứng nhận thông số sprite gameplay."
+    },
+    {
+      "id": "TASK-037",
+      "timestamp": "2026-11-12T01:04:42.643396+00:00",
+      "status": "awaiting_owner_master_human_test",
+      "summary": "Sửa demo Spinosaurus v2 bằng image_gen theo Owner: hàng gai dài sắc dọc đuôi, chóp đuôi nhọn, từng đốt buồm nhọn giữ màng đỏ đô. File work/characters/spinosaurus/demo-v2/spinosaurus-demo.png SHA256 91d18310a0cd68578f4ffda300db97d4780b7f544ba1af69ed511d1816d51c80. Đã xóa nguồn Attack_nomal, output work/experiments/attack-normal, tooling/trang demo/test riêng và route server. Chờ Owner Human Test mẫu tĩnh, chưa tạo atlas."
+    },
+    {
+      "id": "TASK-038",
+      "timestamp": "2026-11-12T01:11:48.930659+00:00",
+      "status": "superseded",
+      "summary": "Owner đã duyệt master Spinosaurus v2; lưu approved-master/approved-original.png và approval.json. Yêu cầu bộ động tác giống T-rex, thân nhỏ hơn15%, idle vẫy đuôi chậm; đã lập atlas-plan.json theo clip/tick T-rex. Đang chờ chốt cách đo85% vì tỷ lệ Spino khác T-rex: vừa khung158x114 hoặc cao114 giữ tỷ lệ. Chưa sinh frame/atlas khi kích thước chưa rõ.",
+      "resolution": "Owner cho bắt đầu; đã chọn fit158x114 giữ tỷ lệ và hoàn tất kỹ thuật trong TASK-039."
+    },
+    {
+      "id": "TASK-039",
+      "timestamp": "2026-11-12T01:41:57.869611+00:00",
+      "status": "superseded_by_owner_feedback",
+      "summary": "Spinosaurus v2 master Owner đã duyệt; dựng atlas v1 chờ Human Test: 8clip thân giống T-rex +fireball_fx riêng,87frame/9clip,1page3882x2342 SHA256 c806c25d0cdec58f989f18cd524287f38f34c55236554fcba55cea5c7b6f62b7. Canvas384x256 anchor176224,fit158x114 giữ tỷ lệ; rest156x72px. Idle24pose192tick=3.2s vẫy đuôi chậm/chân cố định; cácclip khác giữ tick/sựkiện T-rex. Palette16,alpha100%,opaque_key0,pockets0,spill0,Sobel201.314(201.3 một chữ số; phương pháp/gain trong QA). Đã xem9filmstrip3nền; standaloneGodot87frame exit0; loop.sh test16Python/E2E+Godot3bundle+2Rust exit0,WASMreleasebuild0; HTTP200/atlas&WASMhash/paritytrue. Đã sửa ownership/socket/đợi Godot import trước test,ghiLRN024. 498file hai nhân vật cũ không đổi. Roster đưa Spino đầu danh sách cho demo; chưa Owner nghiệm thu atlas/chưa ghi skills.md/chưa commit/push.",
+      "resolution": "Owner yêu cầu nét giống demo-v2, thở nhưT-rex, cắn khép miệng vàVFX tinh tế. Đã sửa trongTASK-040; QA v1 chỉ là lịch sử."
+    },
+    {
+      "id": "TASK-040",
+      "timestamp": "2026-11-12T02:29:59.755541+00:00",
+      "status": "owner_rejected_motion",
+      "summary": "Spinosaurus atlas revision2 sửa theo Human Test: giữ nét/màu demo-v2 bằng native1738x834->gameplay1lầnNearest, bỏ coarse100x48/79x38 và16color/gain ởthân; rest157x76 lệch1pixel so native cùngscale. Idle3nhịp thởT-rex56tick trong1vòngđuôi168tick=2.8s, chân cốđịnh. attack_lightpose3/4 khép hàm−30/−28độ, tipgap17.29->2.74px; biteFX1px/radius5..8/alpha110->72->30 saucắn. Fireball4phase0pixelđổi,500filepeer khôngđổi. 87frame/9clip/1atlas3882x2342 SHA256 f0c02328ace49f6dcdd26f516911631c4dacd57d2ef21ccec37075bf9783cdec. StandaloneGodotexit0; loop.sh test17Python/E2E+Godot3bundle+2Rustexit0,WASMbuild0; HTTP200/atlas&WASMsha/paritytrue. Đãxem9filmstrip3nền,ghiLRN025. Chờ Owner Human Testv2, chưaghi skills.md/chưacommitpush.",
+      "resolution": "Owner báo xé hình và fake flip; technical exit0 lịch sử không phải motion approval. Thay bằng TASK-041."
+    },
+    {
+      "id": "TASK-041",
+      "timestamp": "2026-11-12T03:25:56.758835+00:00",
+      "status": "owner_requested_revision",
+      "summary": "Spinosaurus revision3: Owner chọn imagegen toàn thân, thay rig xé hình;8action generated/79frame refs/10clip/1page3494x2342 SHA dc6bd7e5afb0a96ba43639965f57a556e222b72244243bddec8fb4936c9bf9f2. Lõi tròn0/1, biteFX cam-vàng alpha145/100/45; heavy35tick, turn10tick A/D/Godot. Hiến pháp+3skill và motion gate độc lập; self-review chưa Owner nghiệm thu. 21Python/E2E+Godot3bundle+2Rust exit0, standalone79frame0,WASMbuild0,HTTPatlas/WASMsha/paritytrue,500peerfile không đổi. Đã xem10filmstrip3nền và test runtime mọi pose. Chờ Human Test,khôngghi skills.md.",
+      "owner_feedback": "Heavy được đánh giá chuẩn; cần VFX#5, walk/run lò cò, giải thích turn. Chưa nghiệm thu toàn bộ."
+    },
+    {
+      "id": "TASK-042",
+      "timestamp": "2026-11-12T03:54:00.356336+00:00",
+      "status": "owner_rejected_walk_run",
+      "summary": "Spinosaurus r4 theo Owner: walk8pose mới vòng0..7 liên tục; rootXchung; run dùng nguyên frame/rectwalk,tick4so8=duration0.5,khôngsinhảnhRun. Heavygiữbody/timing35tick,thêmimpactVFX#5tan6/7. TurnnốiA/Dgiữ4posegiãnthành20tick333ms. Hiếnpháp+3skillquyđịnhlooptiếnpha,khôngtrùngendpoint/lòcò/runreuse. 79refs/10clip/68cell/1page3494x2082 SHA 5a053dc6aa9265765fad9bb71fdb9e957d1126607384363f7737c39c01b412a9. 23Python/E2E+Godot3bundle+2Rustexit0,WASMbuild0,standalone79frame0,HTTPatlas/WASMhash/paritytrue,500peerfileunchanged. ChờHumanTest,khôngghi skills.md.",
+      "resolution": "Owner báo walk/run lỗi hoàn toàn, không cần agent tự phân tích/sửa tiếp. Yêu cầu undo walk về bản trước rồi phát triểnrun từwalkđó; đóngbăng sauđó."
+    },
+    {
+      "id": "TASK-043",
+      "timestamp": "2026-11-12T04:02:47.096926+00:00",
+      "status": "owner_requested_gait_revision",
+      "summary": "Owner yêu cầu undo walk r4 về r3; đã khôi phục chính xác8PNG/SHA,thứtự,căntâm vàtiming7/8tick. Run dùngđúngframe/rectwalk ở2xtốcđộ,relative3.5/4ticktrênGodot60Hz.63framehoạtảnhkhácvàtiming/eventsgiữnguyên;500peerfilekhôngđổi. Khôngsinhảnh,khôngchỉnhpose.79refs/10clip/68cell/1page3494x2082 SHA 3603fd263602d6b780fed57e6eb61e5e0c805f0776861445b90990b0c616fbf7.24Python/E2E+Godot3bundle+2Rustexit0,WASMbuild0,HTTPatlas/WASMhash/paritytrue. ĐÓNG BĂNG mọi chỉnhsửa thêm chờ Owner Human Test; không tuyên bố gaitđãhếtlỗi,khôngghi skills.md.",
+      "resolution": "Owner làmrõ: undođúngnhưngwalkvẫnphảisửaloopart0..7→0;runphảiposechạyriêng,walkchỉthamkhảo.Khôngápdụngrunreuse/2xplaybacknữa.Freezeđượcmởlạiriêngwalk/run."
+    },
+    {
+      "id": "TASK-044",
+      "timestamp": "2026-11-12T04:15:16.880461+00:00",
+      "status": "owner_requested_run_contact_revision",
+      "summary": "Owner làm rõ walk phải artcycle0..7→0, run làposechạyriêng chỉthamkhảowalk. R6 táitạo2wholeposewalk7/0,giữ1..6;run8wholeposemới,tick5/frame40tick60Hz,khôngreusewalk/tăngplayback.63frame+timing/events8clipkhácgiữnguyên;500peerfilekhôngđổi. Hiếnpháp+3skillthayquytắcrunreusebằngdángchạyriêng.79refs/10clip/76cell/1page3494x2342 SHA 56481c92893a9364c16ea327f3e582fe97c959e8d0627db01f9bc60a46a59b4d.24Python/E2E+Godot3bundle+2Rustexit0,standalone79frame0,WASMbuild0,HTTPatlas/WASMhash/paritytrue.Đãxemwalk/run3nền+seam6→7→0→1;runtime3vòngtiến0..7;độtựnhiênchờOwnerHumanTest,khôngghi skills.md.",
+      "owner_feedback": "Run0–2và4–6đượcOwnerđánhgiáchuẩn;thiếucontactold2→3,3→4,7→0.Walkkhôngsửatrongvòngnày,khôngnghiệmthutổngthể."
+    },
+    {
+      "id": "TASK-045",
+      "timestamp": "2026-11-12T04:35:12.844082+00:00",
+      "status": "owner_requested_coherent_run_reference",
+      "summary": "Run r7 theoOwner:chèn3wholeposechạmđấtởkhoảngold2→3,3→4,7→0;newindices3/5/10.CùnggroundCanvas y223,RGBAopaque.8runposecũgiữpixel;đoạnold0–2/4–6giữ5tick,old3/7bay2tick,newcontact3tick50ms.Tổngrun11frame43tick≈717ms,vòng0..10→0.71frame/timing/eventsngoàirungiữnguyên,500peerfileunchanged.82refs/10clip/79cell/1page3494x2342 SHA d21fcc47c74fcb43caf547b075ba7605bdbc1ba4bb50b679e55049ee9923cccd.25Python/E2E+Godot3bundle+2Rustexit0,standalone82frame0,WASMbuild0,HTTPatlas/WASMhash/paritytrue.Mởcontacttransitions3nền,Node3vòngtiến;độtựnhiênchờOwnerHumanTest.Khôngghi skills.md.",
+      "owner_feedback": "Owner thấy run càng sửa càng lỗi; yêu cầu thamkhảoT-rexrunmượt nhưngkhôngsaochép, chỉsửaSpino run. TấtcảSpinoatlasvẫndemo,chưachốtđiềugì."
+    },
+    {
+      "id": "TASK-046",
+      "timestamp": "2026-11-12T04:59:13.339792+00:00",
+      "status": "closed_by_owner_excluding_run",
+      "summary": "ChỉsửaSpino runr8 theoOwnerthamkhảoT-rex khôngsaochép:nghiêncứuT-rex8pose40tick/step20-20,khôngdùngảnh/mask/rigT-rex. Imagegen1sheetSpino12wholepose mới,cropbằng12completecomponentvìgutterkhôngđều;run42tick700ms,contact1/6tạitick3/24,step21-21đều.Stance1..4/6..10soleđitrướcrasau,air0/5/11;wholeposedymax2pxkhôngcắtchi.71framenonrun/timing/eventsgiữnguyên,500peerfileunchanged.83refs/10clip/80cell/1page3494x2342 SHA 578912e9e23d4e486052c76c10b302fd925b1e0194f084814e57e5447b9635aa.25Python/E2E+Godot3bundle+2Rustexit0,standalone83frame0,WASMbuild0,HTTPatlas/WASMhashparitytrue. TẤTCẢATLASSpiroVẪNDEMO,chưachốt/chưanghiệmthu,chờHumanTesttiếp,khôngghi skills.md.",
+      "resolution": "Owner bỏrunvàchốttấtcảhoạtảnhcònlại;runr8khôngđượcnghiệmthu."
+    },
+    {
+      "id": "TASK-047",
+      "timestamp": "2026-11-12T05:35:32.990132+00:00",
+      "status": "complete",
+      "summary": "Spinosaurus ĐÃOWNERCHỐT saukhiloạirun. Walk-only;8bodyclip+fireballFX=9clip/71refs/68cell/1page3494x2082 SHA 89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4.71PNG/tick/events giữnguyên so bảnOwnertest,Shiftkhôngđổiwalkspeed,runremovedmanifest/states/atlas/tres/export/UI. Receiptassets/spinosaurus/owner_approval.json,PIPE003skills.md,nguồnfrozenapproved-final-frames.25Python/E2E+Godot3bundle+2Rustexit0,standalone71frame0,WASMrelease0;HTTPfinalatlas/WASM/parityđúng,71framehash/500peerfilekhớp,Ownerapprovaltrue. Version0.5.0. Khôngsinhảnhmới,chờnhânvậttiếptheo."
+    },
+    {
+      "id": "TASK-048",
+      "timestamp": "2026-11-12T06:04:38.072531+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "T-rex demo phục hồi 67 pose toàn thân bằng imagegen theo ảnh cũ; giữ71frame/9clip, thứ tự/ticks/duration/loop/events, canvas384x256/anchor176224 và4PNG fireballFX. Native1px thay2px, bbox186x134 giữ nguyên, Sobel thực182.074→245.516 (Spino271.574), alpha100%. Power_up0/1 lõi tròn; body2..5 không vẽ trùng FX độc lập. Atlas3494x2082 SHA616ad71fb609acb7238a5e3bf502ec6a97f2575326234b1e91ac81d610c2d9c7. Loop test lần đầu FAIL thiếu Godot import; đã sửa installer/import, chạy lại25Python/E2E+Godot3bundle+2Rust exit0; WASM build0, HTTPatlas/WASMhash/paritytrue,500peerfile không đổi. Đã xem toàn bộ filmstrip3nền. Revision MỚI CHỜ OWNER HUMAN TEST, không tự nghiệm thu; PIPE001/bản cũ lưu baseline, không ghi skills.md.",
+      "owner_feedback": "Owner yêu cầu sửa riêng attack_heavy vì cảm giác ảnh lật; tiếp tụcTASK049. Mốc độ nét idle được chọn làm chuẩn chung, chưa nghiệm thu toàn bộ T-rex."
+    },
+    {
+      "id": "TASK-049",
+      "timestamp": "2026-11-12T06:29:06.079512+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Chỉ nâng cấp T-rex attack_heavy theo Owner:12wholepose có front4/back7/gócchéo, quật đuôi+X ở5,35tick583ms, tinyamberFX5/6. Khôngflip/warp chi.61PNG/timing/events ngoàiheavy và500peerfile giữSHA.73frame/9clip/1page3494x2342 SHA7cdc28601c3f8ac7867409d4bd6c036e78c5091ffd3d45751a7db1f12798d7e7. Nativeheavy0Sobel236.143, mẫuidle245.516 khôngđổi. Owner chọn mốc nét T-rex cho nhân vật sau: docs/art-standards PNG/JSON/tool đo, cập nhật AGENTS/3skill thay2×/100texel/16màu/201.3. AGENTS quá24k đãrút23834byte; final25Python/E2E+Godot3bundle+2Rust exit0,WASM0,HTTPPNG/WASMhash/paritytrue,3skillvalidate0. T-rexVẪNDEMO chờHumanTest, khôngghi skills.md.",
+      "owner_feedback": "Owner xác nhận động tác đuôi chuẩn nhưng tạo hình heavy là nhân vật khác so mẫu ảnh5; sửa identity tạiTASK050. Không nghiệm thu tạo hình hoặc toàn atlas."
+    },
+    {
+      "id": "TASK-050",
+      "timestamp": "2026-11-12T07:04:56.818361+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Owner duyệt động tác heavy nhưng loại identity ảnh4 khác mẫu ảnh5. Sửa CHỈtạo hình heavy theo canonicalidle0/SHA8c46b31...565311:10wholepose imagegen từ master duy nhất, ready0/11 reuse nguyên master dịch[0,-2], cropRGBAhash trùng100%. Giữ12pha/35ticks/events/keys/loop/hitstop và61PNG nonheavy;500peerfile không đổi.73refs/72cell/1page3494x2082 SHA74393d80a74588ed5cce2189bf5d41976939bf633f99780fe0f6998e6498eacb. Xem12pose3nền+identitycomparison;looptest26Python/E2E+Godot3bundle+2Rust exit0,WASM0,HTTPPNG/WASMhash/paritytrue,skillvalidate0. Gate chặn identity=false dù technical0; previewserver247531 nạp gate mới. T-rex tạo hình mới VẪNDEMO chờHumanTest;motion Owneraccepted,khôngghi skills.md hoặc tự chốt toàn atlas."
+    },
+    {
+      "id": "TASK-051",
+      "timestamp": "2026-11-12T07:16:52Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "T-rex walk0 khóa SHA d4dc74e...208e69 làm identity/nét/shading cho8bodyclip; giữPNGwalk0+4FX và500peerfiles. Built-in imagegen68wholeposebody mới;heavy12pose cócrouch/footpivot/tailcoil-lag/catchstep,giữ35tick/hit/events. Backgroundheavybánđụcđãloại,extractionlạialpha0.73refs/9clip/1pageatlasSHAd78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7. Builder/exporter/import0;looptest26Python/E2E+3Godotbundle+2Rust0,WASM0,HTTPPNG/WASM/HTMLhashkhớp/paritytrue. Previewlink chọnT-rexwalk0pausecóE2E. Filmstrip9clip+powercomposite xem3nền;motionnaturalness pendingOwner,khôngtựnghiệmthu/ghi skills.md. Hồsơ docs/characters/t-rex-walk-style-v4.md;nguồn work/characters/t_rex/walk-style-v4."
+    },
+    {
+      "id": "TASK-052",
+      "timestamp": "2026-11-12T07:32:25Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Pteranodon appearance-only theo Image1 test_scaled_canvas.png SHA7c9d71fe...a0e9e702. Built-inimagegen54wholepose/7bodyclip,giữ7sonicFXPNG.61refs/8clip/1page3106x2082 SHA8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005. Fixedcellcrop384x256/inset32,khôngresize/đăngkýtừngpose/rigwarp;mọiframeorder,ticks,duration/events/keys/loop/state/anchor/rendercontract bằngbaseline.540peerfileT-rex/Spino khôngđổi. Builder/exporter/import0;looptest26Python/E2E+3Godotbundle+2Rust0,WASMbuild0,HTTPPNG/WASM/HTMLhash/paritytrue. Xem8filmstrip3nền+soniccomposite;contourhìnhtáitạokhôngpixelidentical,cóposepreservationJSON,visualpendingOwner. PIPE002receipt/atlasoldđượcarchivebaseline,khôngghi skills.md. Docs/QA pteranodon-master-match-v9;previewlinkđúngPtera idle0."
+    },
+    {
+      "id": "TASK-053",
+      "timestamp": "2026-11-12T07:38:36.605057+00:00",
+      "status": "verified_ready_to_push",
+      "summary": "Owner chốt 3 nhân vật, v0.6.0; đã dọn 2971 PNG/231.32 MiB, giữ nguồn cuối/runtime/filmstrip. loop test26Python/E2E+3Godotbundle+2Rust exit0; WASM build/E2E exit0; HTTP/parity khớp. Chuẩn bị commit/push main."
     }
   ],
   "quick_resume_commands": [
@@ -299,48 +435,41 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Chờ Owner cung cấp nhân vật tiếp theo; không chỉnh sửa T-rex hoặcPteranodon đã nghiệm thu khi chưa có yêu cầu. ĐọcAGENTS/state/skills/lerning vàchạyloopstatus đầuphiên.",
-    "source_atlas": "work/characters/pteranodon/approved-master/approved-original.png",
-    "source_sha256": "267c73d7ae35f9498d347cf96e78fe104202fbfdca469050c702b0ab03078353",
-    "sonic_fx_source": "work/characters/pteranodon/approved-master/sonic_fx_source.png",
-    "sonic_fx_source_sha256": "f9950880f4a6f06cb1dd012d76787be4a0346e45603d8089dae772fdebc38e03",
-    "analysis": "docs/characters/pteranodon-concept.md",
-    "skill": ".agents/skills/create_atlas/SKILL.md",
-    "compatibility": ".agent là symlink tới .agents; hai đường dẫn đọc cùng skill.",
-    "asset_status": "2 nhân vật đã nghiệm thu: T-rex vàPteranodonv8 (atlasSHA256 1dfc61d34a41a02cfcc7a048c5310618950d71972953904cad19cf241d1d041a).",
-    "verification": "Bản0.4.0: ./loop.sh test exit0 (13Python/E2E,Godot2bundle,2Rust),WASMreleasebuildexit0,NodeE2EvớiWASMbảnmới exit0; receipt/HTTPatlas/enginehash khớp. WARN chỉ cácclip Owner loại.",
-    "atlas_design_rule": "Tách chức năng phổ quát khỏi hành vi riêng nhân vật; generate2dsprite/video2dsprite chỉ là tooling phía sau create-atlas. Sheet có sẵn dùng nhánh bảo toàn nguồn, không AI redraw.",
-    "character_concept": "docs/characters/pteranodon-concept.md",
-    "delivery": "assets/pteranodon/godot_bundle",
-    "latest_delivery": "assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png",
-    "active_character_concept": "docs/characters/pteranodon-concept.md",
+    "next_action": "Hoàn tất kiểm thử và push v0.6.0 main; sau đó chờ Owner mô tả bước tiếp theo.",
+    "asset_status": "Cả 3 nhân vật owner_approved; atlas giữ nguyên byte.",
+    "approval_file": "docs/releases/v0.6.0-owner-approval.json",
+    "cleanup_report": "docs/releases/v0.6.0-png-cleanup.json",
+    "verification": "docs/releases/v0.6.0-verification.json",
     "git_checkpoint": {
       "branch": "main",
       "remote": "origin",
-      "source_code_commit": "c5dbd532ec31c18dec7db34ca2744012dca1f3c1",
-      "ci_status": "success",
-      "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/42988121963",
-      "note": "Source checkpoint đãpush vàCIđạt; bản ghi này đượccommit tiếp làm handoff. Dùnggitlog đểxem commitmới nhất."
-    },
-    "review_evidence": "docs/characters/pteranodon-v8-qa.json",
-    "preview_server": "Khởi động lại server bằng subprocess start_new_session=True, stdin DEVNULL, log work/characters/pteranodon/revision-v7/preview-server.log. HTTP / và /api/bundles trả200; parity=true. Codespaces URL https://bookish-giggle-4jp6vvw5vvx5c7rgw-8080.app.github.dev"
+      "note": "Release work in progress; use git log for final commit."
+    }
   },
   "approved_workflows": [
     {
       "id": "PIPE-001",
       "character_id": "t_rex",
       "display_name": "T-rex",
-      "approved_at": "2026-11-10T04:32:34Z",
+      "approved_at": "2026-11-12T07:38:36.605057+00:00",
       "approval_file": "assets/t_rex/owner_approval.json",
-      "atlas_sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f"
+      "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7"
     },
     {
       "id": "PIPE-002",
       "character_id": "pteranodon",
       "display_name": "Pteranodon",
-      "approved_at": "2026-11-11T08:33:19.680871+00:00",
+      "approved_at": "2026-11-12T07:38:36.605057+00:00",
       "approval_file": "assets/pteranodon/owner_approval.json",
-      "atlas_sha256": "1dfc61d34a41a02cfcc7a048c5310618950d71972953904cad19cf241d1d041a"
+      "atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005"
+    },
+    {
+      "id": "PIPE-003",
+      "character_id": "spinosaurus",
+      "display_name": "Spinosaurus",
+      "approved_at": "2026-11-12T07:38:36.605057+00:00",
+      "approval_file": "assets/spinosaurus/owner_approval.json",
+      "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4"
     }
   ],
   "owner_defaults": {
@@ -351,6 +480,15 @@
       "guard",
       "win"
     ],
-    "do_not_reask_excluded_clips": true
+    "do_not_reask_excluded_clips": true,
+    "character_sharpness_standard": {
+      "path": "docs/art-standards/character-pixel-sharpness.json",
+      "reference_png": "docs/art-standards/t-rex-sharpness-reference.png",
+      "reference_png_sha256": "8c46b31b6fd328fef3b5b4bd8a1d1ebbd30d51f4d5720c673b3f2437ad565311",
+      "gameplay_detail_pitch_px": 1,
+      "reference_sobel": 245.516,
+      "scope": "Owner-selected sharpness standard for future characters; animation approval independent"
+    },
+    "character_identity_rule": "One canonical identity master/SHA per character for every action. Rejected-action artwork is motion guide only; compare proportions/palette/shading independently from sharpness/motion. character_identity=false blocks delivery."
   }
 }

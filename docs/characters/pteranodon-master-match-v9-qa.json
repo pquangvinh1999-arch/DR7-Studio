@@ -1,0 +1,115 @@
+{
+  "character_id": "pteranodon",
+  "status": "owner_approved",
+  "atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3106,
+          2082
+        ],
+        "cells": 61,
+        "clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "power_up",
+          "hit",
+          "ko",
+          "sonic_screech_fx"
+        ]
+      }
+    ]
+  },
+  "frames": 61,
+  "body_frames": 54,
+  "clips": 8,
+  "original_fx_frames": 7,
+  "reference": {
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/master-match-v9/reference.png",
+    "file_sha256": "7c9d71fe2033b0be2644bb8df1bb8d3cd5e5d38a7a0a71e3b7833c84a0e9e702",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      60,
+      45,
+      220,
+      150
+    ],
+    "visible_pixels": 12908,
+    "rgb_colors": 8543,
+    "edge_acutance_sobel": 151.428,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9795593732601606,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  "motion_quality": {
+    "status": "owner_approved",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
+    "previous_revision_atlas_sha256": "1dfc61d34a41a02cfcc7a048c5310618950d71972953904cad19cf241d1d041a",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true
+    },
+    "review_evidence": "work/characters/pteranodon/master-match-v9/review/keyframe-review.json",
+    "unresolved_structural_failures": [],
+    "owner_approved": true,
+    "owner_feedback": "ok anh thấy chuẩn rồi chốt 3 character theo qui trình rồi xóa những png không còn dùng theo qui định hiến pháp để giảm tải bộ nhớ repo sau đó push ver này lên main",
+    "naturalness_verdict": "owner_approved",
+    "approved_at": "2026-11-12T07:38:36.605057+00:00"
+  },
+  "technical_checks": {
+    "status": "pass",
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 26,
+    "godot_bundle_count": 3,
+    "rust_tests": 2,
+    "wasm_build_exit_code": 0,
+    "http_byte_parity": true,
+    "warnings": [
+      "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+      "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+      "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+      "[WARN] t_rex: motion=reviewed_pending_owner; Owner Human Test chưa nghiệm thu.",
+      "[WARN] pteranodon: motion=reviewed_pending_owner; Owner Human Test chưa nghiệm thu."
+    ],
+    "log": "work/characters/pteranodon/master-match-v9/verification/tests.log"
+  },
+  "animation_metadata_equal_to_baseline": true,
+  "body_part_transforms": false,
+  "canvas": [
+    384,
+    256
+  ],
+  "anchor": [
+    176,
+    200
+  ],
+  "render_contract_unchanged": true,
+  "pose_preservation": "work/characters/pteranodon/master-match-v9/pose-preservation.json",
+  "measurement_report": "work/characters/pteranodon/master-match-v9/measurements.json",
+  "owner_visual_approval": true,
+  "art_source": "built-in imagegen whole-pose appearance editing",
+  "limitations": "No claim of pixel-identical pose silhouettes after a new design; fine morphology/contours need Owner visual review. No new animation timing or movement design.",
+  "motion_visual_approval": "owner_approved",
+  "owner_animation_approved": true,
+  "owner_approval_file": "assets/pteranodon/owner_approval.json",
+  "release_version": "0.6.0",
+  "release_verification": "docs/releases/v0.6.0-verification.json"
+}

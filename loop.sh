@@ -187,6 +187,11 @@ if not parity["ok"]:
         errors.append(f"Lỗi đồng bộ Engine ⇄ Localhost: {pe}")
 for w in parity.get("warnings", []):
     print(f"[WARN] {w}")
+motion = preview_server.verify_motion_quality()
+errors.extend(motion["errors"])
+for cid, record in motion["characters"].items():
+    if not record["release_approved"]:
+        print(f"[WARN] {cid}: motion={record['status']}; Owner Human Test chưa nghiệm thu.")
 
 # 6. Validate AGY SessionStart hook execution & JSON output contract
 res = subprocess.run(
@@ -212,7 +217,7 @@ if errors:
         print(f"[FAIL] {e}", file=sys.stderr)
     sys.exit(1)
 
-print(f"[OK] Hiến pháp AGENTS.md, .agent/.agents, Đồng bộ Engine ⇄ Localhost ({parity['checked_bundles']} gói SHA-256) & VERSION v{ver_txt} HỢP LỆ 100%!")
+print(f"[OK] Kiểm tra kỹ thuật / Hiến pháp / Engine ⇄ Localhost ({parity['checked_bundles']} gói SHA-256), VERSION v{ver_txt}. Nghiệm thu Owner theo motion_quality riêng.")
 PY
     ;;
 
@@ -272,7 +277,7 @@ PY
       echo "[loop.sh] Đang chạy Rust 1.99.1 Real-Time >2,000 Combat Engine Unit Tests..."
       cargo test --manifest-path "$ROOT_DIR/engines/rust_combat_sim/Cargo.toml"
     fi
-    echo "[OK] Toàn bộ quy trình kiểm định './loop.sh test' (Governance + Python + Godot 4 + Rust) ĐẠT 100%!"
+    echo "[OK] Kiểm thử kỹ thuật './loop.sh test' (Governance + Python + Godot 4 + Rust) exit 0. Nghiệm thu chuyển động theo motion_quality và Owner Human Test riêng."
     ;;
 
   *)

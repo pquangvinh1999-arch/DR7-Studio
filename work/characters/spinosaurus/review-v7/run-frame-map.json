@@ -1,0 +1,113 @@
+{
+  "order": [
+    0,
+    1,
+    2,
+    "contact0",
+    3,
+    "contact1",
+    4,
+    5,
+    6,
+    7,
+    "contact2"
+  ],
+  "contacts": [
+    {
+      "new_index": 3,
+      "old_gap": [
+        2,
+        3
+      ],
+      "support_leg": "left per Owner",
+      "phase": "touchdown and weight acceptance"
+    },
+    {
+      "new_index": 5,
+      "old_gap": [
+        3,
+        4
+      ],
+      "support_leg": "right per Owner",
+      "phase": "touchdown and weight acceptance"
+    },
+    {
+      "new_index": 10,
+      "old_gap": [
+        7,
+        0
+      ],
+      "support_leg": "loop handoff per Owner",
+      "phase": "touchdown before loop0"
+    }
+  ],
+  "ticks": [
+    5,
+    5,
+    5,
+    3,
+    2,
+    3,
+    5,
+    5,
+    5,
+    2,
+    3
+  ],
+  "measurements": [
+    {
+      "new_index": 3,
+      "ground_canvas_y": 223,
+      "forward_sole_span_x": [
+        181,
+        202
+      ],
+      "sample_canvas_xy": [
+        192,
+        223
+      ],
+      "sample_rgba": [
+        4,
+        5,
+        5,
+        255
+      ]
+    },
+    {
+      "new_index": 5,
+      "ground_canvas_y": 223,
+      "forward_sole_span_x": [
+        178,
+        202
+      ],
+      "sample_canvas_xy": [
+        190,
+        223
+      ],
+      "sample_rgba": [
+        3,
+        2,
+        2,
+        255
+      ]
+    },
+    {
+      "new_index": 10,
+      "ground_canvas_y": 223,
+      "forward_sole_span_x": [
+        176,
+        196
+      ],
+      "sample_canvas_xy": [
+        186,
+        223
+      ],
+      "sample_rgba": [
+        0,
+        1,
+        0,
+        255
+      ]
+    }
+  ]
+}

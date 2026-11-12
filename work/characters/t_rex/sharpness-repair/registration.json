@@ -1,0 +1,1677 @@
+[
+  {
+    "clip": "idle",
+    "position": 0,
+    "original_bbox": [
+      78,
+      94,
+      264,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      78,
+      96,
+      263,
+      227
+    ],
+    "registered_bbox": [
+      78,
+      94,
+      264,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "e12ba3a2cef3b24be61d2a81dcc2f6745bc7edf06a1a207c3b96f8f2c4d0774f",
+    "frame_sha256": "8c46b31b6fd328fef3b5b4bd8a1d1ebbd30d51f4d5720c673b3f2437ad565311"
+  },
+  {
+    "clip": "idle",
+    "position": 1,
+    "original_bbox": [
+      78,
+      100,
+      266,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      77,
+      101,
+      265,
+      228
+    ],
+    "registered_bbox": [
+      78,
+      100,
+      266,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "e12ba3a2cef3b24be61d2a81dcc2f6745bc7edf06a1a207c3b96f8f2c4d0774f",
+    "frame_sha256": "370f377d3cbbdafa0eb4ae69bf45764171f4007c9382ac1e6b0664abd309d09a"
+  },
+  {
+    "clip": "idle",
+    "position": 2,
+    "original_bbox": [
+      78,
+      102,
+      266,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      77,
+      103,
+      265,
+      229
+    ],
+    "registered_bbox": [
+      78,
+      102,
+      266,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "e12ba3a2cef3b24be61d2a81dcc2f6745bc7edf06a1a207c3b96f8f2c4d0774f",
+    "frame_sha256": "b41a65c813bf9837bc91f75edc82f3b3d8b670db2e8fcff570a9bfeb7c0f185a"
+  },
+  {
+    "clip": "idle",
+    "position": 3,
+    "original_bbox": [
+      78,
+      100,
+      266,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      78,
+      101,
+      265,
+      228
+    ],
+    "registered_bbox": [
+      78,
+      100,
+      266,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "e12ba3a2cef3b24be61d2a81dcc2f6745bc7edf06a1a207c3b96f8f2c4d0774f",
+    "frame_sha256": "d067ae2d44cc1df25104ad3e801e45befb983a039ce14184d4afc5c66a8f32ac"
+  },
+  {
+    "clip": "idle",
+    "position": 4,
+    "original_bbox": [
+      78,
+      96,
+      264,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      78,
+      97,
+      263,
+      227
+    ],
+    "registered_bbox": [
+      78,
+      96,
+      264,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "e12ba3a2cef3b24be61d2a81dcc2f6745bc7edf06a1a207c3b96f8f2c4d0774f",
+    "frame_sha256": "298affa59b1d2468e0951b7ec7a8e1912d98d56fc78515c83aee37e5808eeec2"
+  },
+  {
+    "clip": "idle",
+    "position": 5,
+    "original_bbox": [
+      78,
+      92,
+      262,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      77,
+      93,
+      262,
+      227
+    ],
+    "registered_bbox": [
+      78,
+      92,
+      262,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "e12ba3a2cef3b24be61d2a81dcc2f6745bc7edf06a1a207c3b96f8f2c4d0774f",
+    "frame_sha256": "ffb8c8f6ebfed5928dbf93a3db0ba2274a7ec6c1c937af3905f0e86db622048e"
+  },
+  {
+    "clip": "idle",
+    "position": 6,
+    "original_bbox": [
+      78,
+      90,
+      262,
+      226
+    ],
+    "generated_bbox_in_cell": [
+      77,
+      91,
+      262,
+      226
+    ],
+    "registered_bbox": [
+      78,
+      90,
+      262,
+      226
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "e12ba3a2cef3b24be61d2a81dcc2f6745bc7edf06a1a207c3b96f8f2c4d0774f",
+    "frame_sha256": "acb464892222f5888e5f58168ab9474caffe8ff9b6b3669f5fdd35fceaae7727"
+  },
+  {
+    "clip": "idle",
+    "position": 7,
+    "original_bbox": [
+      78,
+      92,
+      264,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      77,
+      93,
+      262,
+      227
+    ],
+    "registered_bbox": [
+      78,
+      92,
+      264,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "e12ba3a2cef3b24be61d2a81dcc2f6745bc7edf06a1a207c3b96f8f2c4d0774f",
+    "frame_sha256": "35b713f17763087aa98038961f2601e87d7af940ebe28b34f537a0517417f7f2"
+  },
+  {
+    "clip": "walk",
+    "position": 0,
+    "original_bbox": [
+      80,
+      102,
+      268,
+      224
+    ],
+    "generated_bbox_in_cell": [
+      79,
+      103,
+      268,
+      224
+    ],
+    "registered_bbox": [
+      80,
+      102,
+      268,
+      224
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "a0d78235698278d9f594b49701a04c27eb031f8812282669016cf7c6bc40accd",
+    "frame_sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69"
+  },
+  {
+    "clip": "walk",
+    "position": 1,
+    "original_bbox": [
+      80,
+      104,
+      272,
+      222
+    ],
+    "generated_bbox_in_cell": [
+      78,
+      106,
+      272,
+      222
+    ],
+    "registered_bbox": [
+      80,
+      104,
+      272,
+      222
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "a0d78235698278d9f594b49701a04c27eb031f8812282669016cf7c6bc40accd",
+    "frame_sha256": "4877b27249eb7e32b08eb23f00ed707ea6d86dd848bc9fd7212630c722305398"
+  },
+  {
+    "clip": "walk",
+    "position": 2,
+    "original_bbox": [
+      78,
+      102,
+      270,
+      226
+    ],
+    "generated_bbox_in_cell": [
+      79,
+      103,
+      270,
+      227
+    ],
+    "registered_bbox": [
+      78,
+      102,
+      270,
+      226
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "a0d78235698278d9f594b49701a04c27eb031f8812282669016cf7c6bc40accd",
+    "frame_sha256": "7cdc75611ed5394de240ea5e76db90bf289d6166f683e9b9231dd03cfeb7d7bd"
+  },
+  {
+    "clip": "walk",
+    "position": 3,
+    "original_bbox": [
+      78,
+      96,
+      266,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      77,
+      97,
+      265,
+      229
+    ],
+    "registered_bbox": [
+      78,
+      96,
+      266,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "a0d78235698278d9f594b49701a04c27eb031f8812282669016cf7c6bc40accd",
+    "frame_sha256": "6e605533481842d97bb810319e8110b2632738076e971ff0229a57ac30700697"
+  },
+  {
+    "clip": "walk",
+    "position": 4,
+    "original_bbox": [
+      76,
+      96,
+      262,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      75,
+      98,
+      262,
+      228
+    ],
+    "registered_bbox": [
+      76,
+      96,
+      262,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "a0d78235698278d9f594b49701a04c27eb031f8812282669016cf7c6bc40accd",
+    "frame_sha256": "24dbdb3ebc0307f722a7d536070083e8fa3d4cb0d00d39459f75d471084752e9"
+  },
+  {
+    "clip": "walk",
+    "position": 5,
+    "original_bbox": [
+      76,
+      102,
+      264,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      76,
+      103,
+      264,
+      227
+    ],
+    "registered_bbox": [
+      76,
+      102,
+      264,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "a0d78235698278d9f594b49701a04c27eb031f8812282669016cf7c6bc40accd",
+    "frame_sha256": "bfa3e970e7fe53c578e1306cf12553fdfd70952bd670c1e54a3e25aa8b745aa5"
+  },
+  {
+    "clip": "walk",
+    "position": 6,
+    "original_bbox": [
+      76,
+      104,
+      268,
+      224
+    ],
+    "generated_bbox_in_cell": [
+      76,
+      106,
+      267,
+      222
+    ],
+    "registered_bbox": [
+      76,
+      104,
+      268,
+      224
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "a0d78235698278d9f594b49701a04c27eb031f8812282669016cf7c6bc40accd",
+    "frame_sha256": "2a38eab2d34ce142fd5f654f6c180d1e69ce10db69aa839d49e180cd737abe79"
+  },
+  {
+    "clip": "walk",
+    "position": 7,
+    "original_bbox": [
+      76,
+      102,
+      270,
+      222
+    ],
+    "generated_bbox_in_cell": [
+      77,
+      104,
+      269,
+      221
+    ],
+    "registered_bbox": [
+      76,
+      102,
+      270,
+      222
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "a0d78235698278d9f594b49701a04c27eb031f8812282669016cf7c6bc40accd",
+    "frame_sha256": "26e399142c7b467a97ef1abb4b49e972fa5b38e3a83ce5109d17b35fda7e3ce5"
+  },
+  {
+    "clip": "walk",
+    "position": 8,
+    "original_bbox": [
+      78,
+      96,
+      266,
+      226
+    ],
+    "generated_bbox_in_cell": [
+      78,
+      97,
+      266,
+      224
+    ],
+    "registered_bbox": [
+      78,
+      96,
+      266,
+      226
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "a0d78235698278d9f594b49701a04c27eb031f8812282669016cf7c6bc40accd",
+    "frame_sha256": "9272e2db1c1501729c7aaa378cee2a23e8964471cd35beced573807c7ff8e761"
+  },
+  {
+    "clip": "walk",
+    "position": 9,
+    "original_bbox": [
+      80,
+      96,
+      266,
+      226
+    ],
+    "generated_bbox_in_cell": [
+      77,
+      97,
+      266,
+      224
+    ],
+    "registered_bbox": [
+      80,
+      96,
+      266,
+      226
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "a0d78235698278d9f594b49701a04c27eb031f8812282669016cf7c6bc40accd",
+    "frame_sha256": "6bb2cf34574b2cb3959205959c64070674d1c64bc3cceea5e0fbda051d90a9bd"
+  },
+  {
+    "clip": "run",
+    "position": 0,
+    "original_bbox": [
+      86,
+      110,
+      282,
+      226
+    ],
+    "generated_bbox_in_cell": [
+      86,
+      111,
+      281,
+      226
+    ],
+    "registered_bbox": [
+      86,
+      110,
+      282,
+      226
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "287606ff9c26c40462d3010c14fa855e5c571331b90486def1542c39bb846061",
+    "frame_sha256": "6e91aa87e6ebb25c0c5d094a1f87be334631518ffa69c23f4ab7e5e37cbaf382"
+  },
+  {
+    "clip": "run",
+    "position": 1,
+    "original_bbox": [
+      86,
+      116,
+      284,
+      224
+    ],
+    "generated_bbox_in_cell": [
+      86,
+      117,
+      283,
+      224
+    ],
+    "registered_bbox": [
+      86,
+      116,
+      284,
+      224
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "287606ff9c26c40462d3010c14fa855e5c571331b90486def1542c39bb846061",
+    "frame_sha256": "981205d5a7801eef06f6ea68c6dbf64a221f801d4111f45f0ab8572a10540fc4"
+  },
+  {
+    "clip": "run",
+    "position": 2,
+    "original_bbox": [
+      82,
+      108,
+      280,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      85,
+      108,
+      279,
+      230
+    ],
+    "registered_bbox": [
+      82,
+      108,
+      280,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "287606ff9c26c40462d3010c14fa855e5c571331b90486def1542c39bb846061",
+    "frame_sha256": "a2b050b05403bf83aedd31a3441882021137fbb5bd067125c12d365de4f4085e"
+  },
+  {
+    "clip": "run",
+    "position": 3,
+    "original_bbox": [
+      82,
+      102,
+      274,
+      232
+    ],
+    "generated_bbox_in_cell": [
+      82,
+      102,
+      274,
+      231
+    ],
+    "registered_bbox": [
+      82,
+      102,
+      274,
+      232
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "287606ff9c26c40462d3010c14fa855e5c571331b90486def1542c39bb846061",
+    "frame_sha256": "b6c49c3a811454478fdf4708b922fc0d612d4affdb06b811c0aa12f9628ccd69"
+  },
+  {
+    "clip": "run",
+    "position": 4,
+    "original_bbox": [
+      80,
+      110,
+      278,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      80,
+      110,
+      277,
+      230
+    ],
+    "registered_bbox": [
+      80,
+      110,
+      278,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "287606ff9c26c40462d3010c14fa855e5c571331b90486def1542c39bb846061",
+    "frame_sha256": "a9a1ba8ca111d1ec1f964be26fe658142f3b3a21819603539c89076b340436f5"
+  },
+  {
+    "clip": "run",
+    "position": 5,
+    "original_bbox": [
+      82,
+      116,
+      282,
+      222
+    ],
+    "generated_bbox_in_cell": [
+      80,
+      116,
+      281,
+      221
+    ],
+    "registered_bbox": [
+      82,
+      116,
+      282,
+      222
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "287606ff9c26c40462d3010c14fa855e5c571331b90486def1542c39bb846061",
+    "frame_sha256": "64c21939d1e26c30c1c38db6558e0a32b2ad14b3052f16405da9f546cb0ab176"
+  },
+  {
+    "clip": "run",
+    "position": 6,
+    "original_bbox": [
+      82,
+      108,
+      280,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      82,
+      108,
+      279,
+      226
+    ],
+    "registered_bbox": [
+      82,
+      108,
+      280,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "287606ff9c26c40462d3010c14fa855e5c571331b90486def1542c39bb846061",
+    "frame_sha256": "4459211c568c3e66a983bf28f8f86659c9233a477bf310fee99970954cc2f14e"
+  },
+  {
+    "clip": "run",
+    "position": 7,
+    "original_bbox": [
+      84,
+      102,
+      278,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      84,
+      103,
+      277,
+      226
+    ],
+    "registered_bbox": [
+      84,
+      102,
+      278,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "287606ff9c26c40462d3010c14fa855e5c571331b90486def1542c39bb846061",
+    "frame_sha256": "be982baf190c570c653fa06ceb3c6e9fb75c7e50754757aad098e445f9365fda"
+  },
+  {
+    "clip": "attack_light",
+    "position": 0,
+    "original_bbox": [
+      72,
+      88,
+      252,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      71,
+      92,
+      250,
+      230
+    ],
+    "registered_bbox": [
+      72,
+      88,
+      252,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "271a8225d22c06b3e234015a50f0a3ca76747f0e9aa19997c7f814521b3c923b",
+    "frame_sha256": "4e789d403813dbc5fc99be2fe6b72447c5bc315f4126289de68cba2cd2a56a83"
+  },
+  {
+    "clip": "attack_light",
+    "position": 1,
+    "original_bbox": [
+      68,
+      84,
+      242,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      67,
+      89,
+      241,
+      230
+    ],
+    "registered_bbox": [
+      68,
+      84,
+      242,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "271a8225d22c06b3e234015a50f0a3ca76747f0e9aa19997c7f814521b3c923b",
+    "frame_sha256": "9692c339aae45444e47d73f9f54b25d4afae9f5f988d38ea9b10a1db90e3a659"
+  },
+  {
+    "clip": "attack_light",
+    "position": 2,
+    "original_bbox": [
+      92,
+      108,
+      310,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      90,
+      110,
+      309,
+      231
+    ],
+    "registered_bbox": [
+      92,
+      108,
+      310,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "271a8225d22c06b3e234015a50f0a3ca76747f0e9aa19997c7f814521b3c923b",
+    "frame_sha256": "7d870d13d308352b4d0c070c6541c708bef7266536e7a036a0b73120c8a921e4"
+  },
+  {
+    "clip": "attack_light",
+    "position": 3,
+    "original_bbox": [
+      104,
+      114,
+      338,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      102,
+      117,
+      335,
+      231
+    ],
+    "registered_bbox": [
+      104,
+      114,
+      338,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "271a8225d22c06b3e234015a50f0a3ca76747f0e9aa19997c7f814521b3c923b",
+    "frame_sha256": "8f1539d18f01a5894f80a3cc1b7ea58c54257b1dd17f71c0a9668642606e8628"
+  },
+  {
+    "clip": "attack_light",
+    "position": 4,
+    "original_bbox": [
+      100,
+      114,
+      342,
+      232
+    ],
+    "generated_bbox_in_cell": [
+      97,
+      116,
+      337,
+      232
+    ],
+    "registered_bbox": [
+      100,
+      114,
+      342,
+      232
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "271a8225d22c06b3e234015a50f0a3ca76747f0e9aa19997c7f814521b3c923b",
+    "frame_sha256": "2c4dd2f1b699b6b1a4f810646546b861156cb5fcfd5b4ed942f5ef48aab8d1fe"
+  },
+  {
+    "clip": "attack_light",
+    "position": 5,
+    "original_bbox": [
+      90,
+      106,
+      332,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      89,
+      107,
+      332,
+      229
+    ],
+    "registered_bbox": [
+      90,
+      106,
+      332,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "271a8225d22c06b3e234015a50f0a3ca76747f0e9aa19997c7f814521b3c923b",
+    "frame_sha256": "12e045c7a7712d497509f1d6d93bfe8c2887f709ec24f70e6d2a6dad828f2c14"
+  },
+  {
+    "clip": "attack_light",
+    "position": 6,
+    "original_bbox": [
+      84,
+      100,
+      274,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      84,
+      102,
+      273,
+      229
+    ],
+    "registered_bbox": [
+      84,
+      100,
+      274,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "271a8225d22c06b3e234015a50f0a3ca76747f0e9aa19997c7f814521b3c923b",
+    "frame_sha256": "a7af7226b11f0243fe1339735a960c438d43bd4e0d9541fdee32a4c6a1e1f32d"
+  },
+  {
+    "clip": "attack_light",
+    "position": 7,
+    "original_bbox": [
+      78,
+      96,
+      266,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      78,
+      98,
+      265,
+      228
+    ],
+    "registered_bbox": [
+      78,
+      96,
+      266,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "271a8225d22c06b3e234015a50f0a3ca76747f0e9aa19997c7f814521b3c923b",
+    "frame_sha256": "21538d84728e90e7db809a4de3ab8befbda7ce3f832c2b235c608311589ddd94"
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 0,
+    "original_bbox": [
+      74,
+      90,
+      254,
+      226
+    ],
+    "generated_bbox_in_cell": [
+      75,
+      92,
+      254,
+      226
+    ],
+    "registered_bbox": [
+      74,
+      90,
+      254,
+      226
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "b371a597ab34bae64f6b2d7e9c7e4178bd23632ab9c3d753b13a82b675c04aef",
+    "frame_sha256": "1aa0daf7b4c5fae27df162d8c42bf20afaec0c0d584a42e8e6805f588cd80b44"
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 1,
+    "original_bbox": [
+      82,
+      88,
+      236,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      81,
+      92,
+      233,
+      227
+    ],
+    "registered_bbox": [
+      82,
+      88,
+      236,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "b371a597ab34bae64f6b2d7e9c7e4178bd23632ab9c3d753b13a82b675c04aef",
+    "frame_sha256": "73ec2571270cd61df28bc0d63c32fea01920eef122e2580d1275e4e6778840d8"
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 2,
+    "original_bbox": [
+      102,
+      104,
+      260,
+      232
+    ],
+    "generated_bbox_in_cell": [
+      101,
+      105,
+      258,
+      231
+    ],
+    "registered_bbox": [
+      102,
+      104,
+      260,
+      232
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "b371a597ab34bae64f6b2d7e9c7e4178bd23632ab9c3d753b13a82b675c04aef",
+    "frame_sha256": "5d561f142cce046c2c2e9d67013ca46b60b861045e8ee96a163f453fa85c62ad"
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 3,
+    "original_bbox": [
+      88,
+      108,
+      278,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      88,
+      108,
+      276,
+      230
+    ],
+    "registered_bbox": [
+      88,
+      108,
+      278,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "b371a597ab34bae64f6b2d7e9c7e4178bd23632ab9c3d753b13a82b675c04aef",
+    "frame_sha256": "5b97c1f66330d469fdba5cdda645f119007f836cf8d8d484add0df6986e6c8e8"
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 4,
+    "original_bbox": [
+      82,
+      112,
+      304,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      82,
+      111,
+      297,
+      231
+    ],
+    "registered_bbox": [
+      82,
+      112,
+      304,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "b371a597ab34bae64f6b2d7e9c7e4178bd23632ab9c3d753b13a82b675c04aef",
+    "frame_sha256": "2dec29eacd22e6da9c223eb7ec6abf9c2fc61ed33ccddb766a528b80537cee0c"
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 5,
+    "original_bbox": [
+      94,
+      108,
+      276,
+      232
+    ],
+    "generated_bbox_in_cell": [
+      93,
+      108,
+      275,
+      231
+    ],
+    "registered_bbox": [
+      94,
+      108,
+      276,
+      232
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "b371a597ab34bae64f6b2d7e9c7e4178bd23632ab9c3d753b13a82b675c04aef",
+    "frame_sha256": "57805935d4a0584f2d1c256d9ddd35a9c2b51aa3addb35c739453ee81302323d"
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 6,
+    "original_bbox": [
+      100,
+      106,
+      256,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      99,
+      108,
+      254,
+      227
+    ],
+    "registered_bbox": [
+      100,
+      106,
+      256,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "b371a597ab34bae64f6b2d7e9c7e4178bd23632ab9c3d753b13a82b675c04aef",
+    "frame_sha256": "4bcd387c2cdc728bdca165ab2c91cd6419e25ae548c67e4db72b15a71221606c"
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 7,
+    "original_bbox": [
+      88,
+      104,
+      272,
+      232
+    ],
+    "generated_bbox_in_cell": [
+      89,
+      105,
+      272,
+      231
+    ],
+    "registered_bbox": [
+      88,
+      104,
+      272,
+      232
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "b371a597ab34bae64f6b2d7e9c7e4178bd23632ab9c3d753b13a82b675c04aef",
+    "frame_sha256": "365faf6285de9f99faf9c1c7ec3f8c48c0b94aae6e441ae3e64eafa0b83a7442"
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 8,
+    "original_bbox": [
+      82,
+      100,
+      270,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      85,
+      101,
+      271,
+      229
+    ],
+    "registered_bbox": [
+      82,
+      100,
+      270,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "b371a597ab34bae64f6b2d7e9c7e4178bd23632ab9c3d753b13a82b675c04aef",
+    "frame_sha256": "511fff920a10f57e2597d3546058d907fff35b6c050dea1bfdbb96429fd5ff61"
+  },
+  {
+    "clip": "attack_heavy",
+    "position": 9,
+    "original_bbox": [
+      78,
+      96,
+      266,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      79,
+      98,
+      267,
+      229
+    ],
+    "registered_bbox": [
+      78,
+      96,
+      266,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "b371a597ab34bae64f6b2d7e9c7e4178bd23632ab9c3d753b13a82b675c04aef",
+    "frame_sha256": "a41d9abc4c69abda87f3fb493da84a5695f6d01a5d9f119ee30e1d1218abde99"
+  },
+  {
+    "clip": "power_up",
+    "position": 0,
+    "original_bbox": [
+      74,
+      84,
+      252,
+      226
+    ],
+    "generated_bbox_in_cell": [
+      70,
+      81,
+      252,
+      227
+    ],
+    "registered_bbox": [
+      74,
+      84,
+      252,
+      226
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "3b0a75e222acc7df4fe5560374716cebc2d031d82e2583750d069ff62d54472b",
+    "frame_sha256": "e1c8a9f53abd154351dc74dad3515abb6964b2a8b1ba74eeeda27dc5830782be"
+  },
+  {
+    "clip": "power_up",
+    "position": 1,
+    "original_bbox": [
+      68,
+      76,
+      244,
+      224
+    ],
+    "generated_bbox_in_cell": [
+      64,
+      77,
+      240,
+      225
+    ],
+    "registered_bbox": [
+      68,
+      76,
+      244,
+      224
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "3b0a75e222acc7df4fe5560374716cebc2d031d82e2583750d069ff62d54472b",
+    "frame_sha256": "bc892950b0f00f07debfabb955e8408cdc887acb8566358d5c7a4023cd909eed"
+  },
+  {
+    "clip": "power_up",
+    "position": 2,
+    "original_bbox": [
+      92,
+      108,
+      281,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      87,
+      107,
+      282,
+      231
+    ],
+    "registered_bbox": [
+      92,
+      108,
+      281,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "3b0a75e222acc7df4fe5560374716cebc2d031d82e2583750d069ff62d54472b",
+    "frame_sha256": "c2c9da1b46a22fd5df07279c59126b8547f19ffb6ec081688ae0def8bf8b8f34"
+  },
+  {
+    "clip": "power_up",
+    "position": 3,
+    "original_bbox": [
+      88,
+      106,
+      284,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      83,
+      106,
+      283,
+      231
+    ],
+    "registered_bbox": [
+      88,
+      106,
+      284,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "3b0a75e222acc7df4fe5560374716cebc2d031d82e2583750d069ff62d54472b",
+    "frame_sha256": "28f16907de4e0decf7a91c4ee56114338c3ad547e6588fccae42fd8f970b2623"
+  },
+  {
+    "clip": "power_up",
+    "position": 4,
+    "original_bbox": [
+      86,
+      104,
+      280,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      82,
+      102,
+      278,
+      230
+    ],
+    "registered_bbox": [
+      86,
+      104,
+      280,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "3b0a75e222acc7df4fe5560374716cebc2d031d82e2583750d069ff62d54472b",
+    "frame_sha256": "5628d3abfe0a2216eeffaf8e8949992a836db9a0d389fcdfe0eff968978dca2e"
+  },
+  {
+    "clip": "power_up",
+    "position": 5,
+    "original_bbox": [
+      84,
+      102,
+      276,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      80,
+      100,
+      276,
+      229
+    ],
+    "registered_bbox": [
+      84,
+      102,
+      276,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "3b0a75e222acc7df4fe5560374716cebc2d031d82e2583750d069ff62d54472b",
+    "frame_sha256": "7c98b475d5ca93d8156329b73a454334618d0d7f3a2ba3c94db3dfaca50669f2"
+  },
+  {
+    "clip": "power_up",
+    "position": 6,
+    "original_bbox": [
+      82,
+      100,
+      272,
+      230
+    ],
+    "generated_bbox_in_cell": [
+      80,
+      100,
+      272,
+      229
+    ],
+    "registered_bbox": [
+      82,
+      100,
+      272,
+      230
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "3b0a75e222acc7df4fe5560374716cebc2d031d82e2583750d069ff62d54472b",
+    "frame_sha256": "16f91b7845365ebb512c7c2970cbd20b797cc166a9338c73f9ac93cc6383a55e"
+  },
+  {
+    "clip": "power_up",
+    "position": 7,
+    "original_bbox": [
+      80,
+      98,
+      268,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      79,
+      96,
+      270,
+      228
+    ],
+    "registered_bbox": [
+      80,
+      98,
+      268,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "3b0a75e222acc7df4fe5560374716cebc2d031d82e2583750d069ff62d54472b",
+    "frame_sha256": "2c0ca321d82ec74dca078c3eb88e30d63e19039ab1dc005f5dbac4d4f4b88a01"
+  },
+  {
+    "clip": "power_up",
+    "position": 8,
+    "original_bbox": [
+      78,
+      96,
+      264,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      76,
+      94,
+      270,
+      229
+    ],
+    "registered_bbox": [
+      78,
+      96,
+      264,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "3b0a75e222acc7df4fe5560374716cebc2d031d82e2583750d069ff62d54472b",
+    "frame_sha256": "05b8ddd0e82c38747e10d11424df7cd7fed776d8dc0164a1b62b575a8999073a"
+  },
+  {
+    "clip": "hit",
+    "position": 0,
+    "original_bbox": [
+      72,
+      84,
+      248,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      70,
+      84,
+      261,
+      228
+    ],
+    "registered_bbox": [
+      72,
+      84,
+      248,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "8de9b7184a63a417ab5b926800075bc4816fcd5f3e992335d5a506fe1ab19e9d",
+    "frame_sha256": "66caf57f7dd92e0890b139cb4b86a9360b3b517176355fdf616f7d0194452139"
+  },
+  {
+    "clip": "hit",
+    "position": 1,
+    "original_bbox": [
+      66,
+      78,
+      234,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      65,
+      78,
+      238,
+      228
+    ],
+    "registered_bbox": [
+      66,
+      78,
+      234,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "8de9b7184a63a417ab5b926800075bc4816fcd5f3e992335d5a506fe1ab19e9d",
+    "frame_sha256": "49619a58db6e4064b3f50f32a9f4bd2eeafa82dc744d9c17e3bdcdc06fd38a06"
+  },
+  {
+    "clip": "hit",
+    "position": 2,
+    "original_bbox": [
+      68,
+      82,
+      240,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      65,
+      84,
+      244,
+      228
+    ],
+    "registered_bbox": [
+      68,
+      82,
+      240,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "8de9b7184a63a417ab5b926800075bc4816fcd5f3e992335d5a506fe1ab19e9d",
+    "frame_sha256": "98158f1a89d88aec0dad2f5651222ad499b65111c72f1ee9595faf709198bb6b"
+  },
+  {
+    "clip": "hit",
+    "position": 3,
+    "original_bbox": [
+      72,
+      88,
+      250,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      66,
+      89,
+      254,
+      228
+    ],
+    "registered_bbox": [
+      72,
+      88,
+      250,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "8de9b7184a63a417ab5b926800075bc4816fcd5f3e992335d5a506fe1ab19e9d",
+    "frame_sha256": "eaa73cdf1feed1c745e144cedd29ca21c7c851b2589b21aa46da0c94a2f2a74f"
+  },
+  {
+    "clip": "hit",
+    "position": 4,
+    "original_bbox": [
+      76,
+      92,
+      258,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      74,
+      93,
+      264,
+      229
+    ],
+    "registered_bbox": [
+      76,
+      92,
+      258,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "8de9b7184a63a417ab5b926800075bc4816fcd5f3e992335d5a506fe1ab19e9d",
+    "frame_sha256": "a74105aa74821fbc878194ff16a9753c881caff887f4e72e1cae44be25a23ea0"
+  },
+  {
+    "clip": "hit",
+    "position": 5,
+    "original_bbox": [
+      78,
+      96,
+      264,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      75,
+      96,
+      268,
+      228
+    ],
+    "registered_bbox": [
+      78,
+      96,
+      264,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "8de9b7184a63a417ab5b926800075bc4816fcd5f3e992335d5a506fe1ab19e9d",
+    "frame_sha256": "ff45cc8e5db7f5dbcbd54b3b9e4699cd320035ffc2513f1c26972894c7f69dad"
+  },
+  {
+    "clip": "ko",
+    "position": 0,
+    "original_bbox": [
+      70,
+      80,
+      242,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      69,
+      84,
+      239,
+      229
+    ],
+    "registered_bbox": [
+      70,
+      80,
+      242,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "1bf55944e89c3198d7418c8e5e46c60f83f41b91e60cb2573f511568cd5084a8",
+    "frame_sha256": "bd1bd8d49488be404493a4f096d9cd2e769d6a7ca5c3b732e56f687cbf822bdc"
+  },
+  {
+    "clip": "ko",
+    "position": 1,
+    "original_bbox": [
+      72,
+      108,
+      262,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      73,
+      110,
+      261,
+      229
+    ],
+    "registered_bbox": [
+      72,
+      108,
+      262,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "1bf55944e89c3198d7418c8e5e46c60f83f41b91e60cb2573f511568cd5084a8",
+    "frame_sha256": "03fc0fffa0fe651474c08e08d7295b41d09e5ee373e4f7a7fe9c21441ce7afb3"
+  },
+  {
+    "clip": "ko",
+    "position": 2,
+    "original_bbox": [
+      76,
+      112,
+      274,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      76,
+      114,
+      272,
+      227
+    ],
+    "registered_bbox": [
+      76,
+      112,
+      274,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "1bf55944e89c3198d7418c8e5e46c60f83f41b91e60cb2573f511568cd5084a8",
+    "frame_sha256": "2beec1c8483325e33f7396d14fb8967462ad2626bb037c9c95b99fd7a4b4d64d"
+  },
+  {
+    "clip": "ko",
+    "position": 3,
+    "original_bbox": [
+      80,
+      128,
+      278,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      81,
+      133,
+      279,
+      228
+    ],
+    "registered_bbox": [
+      80,
+      128,
+      278,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "1bf55944e89c3198d7418c8e5e46c60f83f41b91e60cb2573f511568cd5084a8",
+    "frame_sha256": "e8ef0c4a5076516617a9f80da1dc38807add5769bde096d7b31bce00f0692128"
+  },
+  {
+    "clip": "ko",
+    "position": 4,
+    "original_bbox": [
+      84,
+      140,
+      282,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      81,
+      144,
+      283,
+      228
+    ],
+    "registered_bbox": [
+      84,
+      140,
+      282,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "1bf55944e89c3198d7418c8e5e46c60f83f41b91e60cb2573f511568cd5084a8",
+    "frame_sha256": "e87e9afeb95ff3243cdd7f5b512a0e12bd2a16bddb0886f731f96861febfc247"
+  },
+  {
+    "clip": "ko",
+    "position": 5,
+    "original_bbox": [
+      84,
+      138,
+      284,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      82,
+      141,
+      283,
+      228
+    ],
+    "registered_bbox": [
+      84,
+      138,
+      284,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "1bf55944e89c3198d7418c8e5e46c60f83f41b91e60cb2573f511568cd5084a8",
+    "frame_sha256": "1103b775c7fd7f2de562a5d5ea29f7d6b112322d0fabd81f7411ff1a152708df"
+  },
+  {
+    "clip": "ko",
+    "position": 6,
+    "original_bbox": [
+      86,
+      142,
+      284,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      84,
+      144,
+      283,
+      228
+    ],
+    "registered_bbox": [
+      86,
+      142,
+      284,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "1bf55944e89c3198d7418c8e5e46c60f83f41b91e60cb2573f511568cd5084a8",
+    "frame_sha256": "a6bf7a0f2743956933c57e4a3d2b43668f797fdc604ab2111a8e8310a93f5b5b"
+  },
+  {
+    "clip": "ko",
+    "position": 7,
+    "original_bbox": [
+      86,
+      142,
+      284,
+      228
+    ],
+    "generated_bbox_in_cell": [
+      85,
+      145,
+      283,
+      228
+    ],
+    "registered_bbox": [
+      86,
+      142,
+      284,
+      228
+    ],
+    "processing": "complete pose only; alpha128 threshold, one Nearest registration",
+    "source_sheet_sha256": "1bf55944e89c3198d7418c8e5e46c60f83f41b91e60cb2573f511568cd5084a8",
+    "frame_sha256": "eee506777c64b37cda44b7ccf0deaa8e034bf5342e7b209da0133468de0e2f19"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "file": "/workspaces/DR7-Studio/work/characters/pteranodon/master-match-v9/reference.png",
+  "file_sha256": "7c9d71fe2033b0be2644bb8df1bb8d3cd5e5d38a7a0a71e3b7833c84a0e9e702",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "body_bbox_px": [
+    60,
+    45,
+    220,
+    150
+  ],
+  "visible_pixels": 12908,
+  "rgb_colors": 8543,
+  "edge_acutance_sobel": 151.428,
+  "alpha_hardness_pct": 100.0,
+  "visible_alpha_hardness_pct": 100.0,
+  "minimum_horizontal_constant_rgba_run_px": 1,
+  "single_pixel_run_fraction": 0.9795593732601606,
+  "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+  "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+}

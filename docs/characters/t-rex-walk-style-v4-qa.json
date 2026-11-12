@@ -1,0 +1,126 @@
+{
+  "character_id": "t_rex",
+  "status": "owner_approved",
+  "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
+  "reference": {
+    "file": "/workspaces/DR7-Studio/work/characters/t_rex/walk-style-v4/walk-00-reference.png",
+    "file_sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      102,
+      188,
+      122
+    ],
+    "visible_pixels": 8355,
+    "rgb_colors": 6763,
+    "edge_acutance_sobel": 230.524,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9934861278648974,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  "frames": 73,
+  "clips": 9,
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3494,
+          2342
+        ],
+        "cells": 73,
+        "clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "attack_heavy",
+          "power_up",
+          "hit",
+          "ko",
+          "fireball_fx"
+        ]
+      }
+    ]
+  },
+  "motion_quality": {
+    "status": "owner_approved",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true
+    },
+    "review_evidence": "work/characters/t_rex/walk-style-v4/review/keyframe-review.json",
+    "unresolved_structural_failures": [],
+    "owner_approved": true,
+    "previous_revision_atlas_sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f",
+    "prior_demo_atlas_sha256": "7cdc28601c3f8ac7867409d4bd6c036e78c5091ffd3d45751a7db1f12798d7e7",
+    "owner_feedback": "ok anh thấy chuẩn rồi chốt 3 character theo qui trình rồi xóa những png không còn dùng theo qui định hiến pháp để giảm tải bộ nhớ repo sau đó push ver này lên main",
+    "owner_accepted_motion": true,
+    "canonical_identity_sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+    "identity_owner_approved": true,
+    "naturalness_verdict": "owner_approved",
+    "approved_at": "2026-11-12T07:38:36.605057+00:00"
+  },
+  "technical_checks": {
+    "status": "pass",
+    "loop_test_exit_code": 0,
+    "python_tests": 26,
+    "rust_tests": 2,
+    "godot_bundle_tests": 3,
+    "wasm_build_exit_code": 0,
+    "http_byte_parity": true,
+    "log": "work/characters/t_rex/walk-style-v4/verification/tests.log",
+    "warnings": [
+      "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+      "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+      "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+      "[WARN] t_rex: motion=reviewed_pending_owner; Owner Human Test chưa nghiệm thu."
+    ]
+  },
+  "motion_naturalness": "owner_approved",
+  "measurements": "work/characters/t_rex/walk-style-v4/measurements.json",
+  "frame_registration": "work/characters/t_rex/walk-style-v4/registration.json",
+  "preserved": [
+    "walk0 exact PNG",
+    "4 independent fireball PNGs",
+    "all tick/event/loop metadata",
+    "500 Spinosaurus/Pteranodon files"
+  ],
+  "art_source": "built-in imagegen; whole-body keyframe generation/style editing",
+  "limits": "Image generation cannot guarantee exact pose/identity preservation; review candidate against locked walk0. No automatic aesthetic score or GPU/mobile claim.",
+  "source_generation_background_issue": {
+    "rejected": "generated/attack_heavy-raw-background-rejected.png",
+    "pixel": [
+      0,
+      0
+    ],
+    "RGBA": [
+      252,
+      253,
+      253,
+      194
+    ],
+    "fix": "Separate imagegen extraction edit produced genuine alpha0 background before whole-frame slicing; no white-key removal applied to teeth/body."
+  },
+  "sharpness_note": "Measured per pose in measurements.json; reference230.524 is not a scalar target. Different silhouettes/outline values yield different Sobel. Style fidelity and temporal naturalness remain Owner review.",
+  "owner_animation_approved": true,
+  "owner_approval_file": "assets/t_rex/owner_approval.json",
+  "release_version": "0.6.0",
+  "release_verification": "docs/releases/v0.6.0-verification.json"
+}

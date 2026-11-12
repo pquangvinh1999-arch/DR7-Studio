@@ -1,0 +1,10 @@
+{
+  "character_id": "spinosaurus",
+  "display_name": "Spinosaurus",
+  "status": "owner_approved_master",
+  "approved_at": "2026-11-12T01:11:48.930659+00:00",
+  "owner_message": "ok mẫu này đã chốt giúp anh dựa theo thông số kích thước của t-rex thiết kế atlat nhân vật này với kích thước nhỏ hơn 15%. hoạt ảnh tĩnh có hiệu ứng đuôi vãy 1 cách tự nhiên chậm rãi. hoạt ảnh của spino giống hệt với t-rex. xong giúp anh thử demo atlas sau đó để anh human test nhé",
+  "source_file": "work/characters/spinosaurus/demo-v2/spinosaurus-demo.png",
+  "sha256": "91d18310a0cd68578f4ffda300db97d4780b7f544ba1af69ed511d1816d51c80",
+  "scope": "Duyệt mẫu tĩnh v2; atlas và chuyển động vẫn cần Human Test."
+}

@@ -1,0 +1,117 @@
+{
+  "spinosaurus": {
+    "frame": "idle_00",
+    "file": "assets/spinosaurus/clips/frames/frame-00.png",
+    "canvas_px": [
+      384,
+      256
+    ],
+    "bbox_px": [
+      98,
+      150,
+      157,
+      74
+    ],
+    "visible_pixels": 4375,
+    "rgb_colors": 2677,
+    "inner_boundary_sobel_mean": 271.5740449682244,
+    "hard_alpha_percent": 100.0,
+    "visible_2x2_blocks": 1199,
+    "exact_constant_2x2_blocks_fraction": 0.0,
+    "horizontal_rgb_run_min_px": 1,
+    "horizontal_rgb_run_odd_fraction": 0.9787084698175011,
+    "horizontal_rgb_run_1px_fraction": 0.9775386055217595
+  },
+  "t_rex": {
+    "frame": "idle_00",
+    "file": "assets/t_rex/clips/frames/frame-00.png",
+    "canvas_px": [
+      384,
+      256
+    ],
+    "bbox_px": [
+      78,
+      94,
+      186,
+      134
+    ],
+    "visible_pixels": 8692,
+    "rgb_colors": 12,
+    "inner_boundary_sobel_mean": 182.0740469826651,
+    "hard_alpha_percent": 100.0,
+    "visible_2x2_blocks": 2173,
+    "exact_constant_2x2_blocks_fraction": 1.0,
+    "horizontal_rgb_run_min_px": 2,
+    "horizontal_rgb_run_odd_fraction": 0.0,
+    "horizontal_rgb_run_1px_fraction": 0.0
+  },
+  "screenshot_match_top5": [
+    {
+      "clip": "idle",
+      "step": 7,
+      "offset": [
+        -117,
+        -92
+      ],
+      "exact_rgb_fraction": 0.9577172991807138,
+      "samples": 31857
+    },
+    {
+      "clip": "idle",
+      "step": 5,
+      "offset": [
+        -117,
+        -92
+      ],
+      "exact_rgb_fraction": 0.8639415046172272,
+      "samples": 31729
+    },
+    {
+      "clip": "idle",
+      "step": 7,
+      "offset": [
+        -116,
+        -92
+      ],
+      "exact_rgb_fraction": 0.8295168595873176,
+      "samples": 31792
+    },
+    {
+      "clip": "idle",
+      "step": 7,
+      "offset": [
+        -118,
+        -92
+      ],
+      "exact_rgb_fraction": 0.8283315581730468,
+      "samples": 31922
+    },
+    {
+      "clip": "idle",
+      "step": 7,
+      "offset": [
+        -117,
+        -91
+      ],
+      "exact_rgb_fraction": 0.8197035964884679,
+      "samples": 31781
+    }
+  ],
+  "density_recommendation": {
+    "current_spino_render_pitch_px": 1,
+    "current_trex_render_pitch_px": 2,
+    "target_trex_render_pitch_px": 1,
+    "target_trex_logical_bbox_px": [
+      186,
+      134
+    ],
+    "linear_sample_density_multiplier": 2,
+    "sample_area_density_multiplier": 4,
+    "at_64ppu_texels_per_meter": {
+      "spino": 64,
+      "trex_current": 32,
+      "trex_target": 64
+    },
+    "caution": "Single gameplay pixels and Sobel are measurements, not a guarantee of anatomical continuity. Enlarging existing2px texels cannot create new detail."
+  }
+}

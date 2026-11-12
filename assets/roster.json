@@ -21,6 +21,194 @@
   },
   "characters": [
     {
+      "character_id": "spinosaurus",
+      "display_name": "Spinosaurus",
+      "faction": "special_beasts",
+      "role_label": "Spined Sail Dinosaur — Bite / Spin Tail Sweep / Fireball",
+      "tags": [
+        "dinosaur",
+        "bipedal",
+        "pixel_art",
+        "projectile_fx"
+      ],
+      "status": "finalized_owner_approved",
+      "facing_contract": {
+        "camera_view": "side_view_2d",
+        "default_atlas_facing": "right (+X)",
+        "left_facing_rule": "Play whole-body perspective turn for20ticks(333ms), then commit facing; reverse mirrors complete sequence.",
+        "locomotion_vector_rule": "Bipedal walk only along horizontal ground axis; perspective turn on facing change. All other approved attack/FX behavior retained."
+      },
+      "map_sync_metrics": {
+        "canvas_size_px": [
+          384,
+          256
+        ],
+        "foot_anchor_px": [
+          176.0,
+          224.0
+        ],
+        "body_only_bbox_px": {
+          "x": 98,
+          "y": 150,
+          "w": 157,
+          "h": 74
+        },
+        "full_fx_bbox_px": {
+          "x": 87,
+          "y": 104,
+          "w": 274,
+          "h": 120
+        },
+        "world_size_at_64ppu_m": {
+          "body_w_m": 2.453,
+          "body_h_m": 1.156,
+          "aura_w_m": 4.281,
+          "aura_h_m": 1.875
+        },
+        "tile_32px_span": {
+          "body_tiles_w": 4.906,
+          "body_tiles_h": 2.312,
+          "full_fx_tiles_w": 8.562,
+          "full_fx_tiles_h": 3.75
+        },
+        "reference_ppu_64": 64
+      },
+      "pixel_sharpness_metrics": {
+        "texel_scale_ratio": "Imagegen complete native keyframes -> gameplay with one Nearest resize; no blur/palette/gain",
+        "edge_acutance_sobel": 271.574,
+        "alpha_hardness_pct": 99.99222016670335,
+        "visible_alpha_hardness_pct": 99.81147404382969,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "reference_note": "Actual measurements; no scalar forced to T-rex 201.3. New whole poses preserve approved concept, not pixel identity to master."
+      },
+      "present_clips": [
+        "idle",
+        "walk",
+        "attack_light",
+        "attack_heavy",
+        "power_up",
+        "hit",
+        "ko",
+        "turn"
+      ],
+      "effect_clips": [
+        "fireball_fx"
+      ],
+      "missing_provisional_clips": [
+        "run",
+        "jump",
+        "guard",
+        "aura_loop",
+        "win"
+      ],
+      "not_applicable_clips": {
+        "jump": "Owner yêu cầu hoạt ảnh giống T-rex; loại jump như T-rex.",
+        "aura_loop": "Owner yêu cầu hoạt ảnh giống T-rex; loại aura_loop như T-rex.",
+        "guard": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo guard cho bất kỳ nhân vật nào.",
+        "win": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo win cho bất kỳ nhân vật nào.",
+        "run": "Owner chốt Spinosaurus: bỏ run, di chuyển chỉ dùng walk; giữ nguyên toàn bộ hoạt ảnh khác."
+      },
+      "render_contract": {
+        "body_clips": [
+          "idle",
+          "walk",
+          "attack_light",
+          "attack_heavy",
+          "power_up",
+          "hit",
+          "ko",
+          "turn"
+        ],
+        "effect_clips": [
+          "fireball_fx"
+        ],
+        "locomotion": {
+          "kind": "ground",
+          "clip": "walk",
+          "walk_cycle_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": null,
+          "independent_clock": true
+        },
+        "fx_pivot_px": [
+          176,
+          128
+        ],
+        "projectile": {
+          "kind": "linear_energy",
+          "body_clip": "power_up",
+          "projectile_clip": "fireball_fx",
+          "release_frame": 2,
+          "lifetime_ticks": 20,
+          "origin_canvas_px": [
+            295,
+            173
+          ],
+          "velocity_px_per_tick": [
+            0.0,
+            0.0
+          ]
+        },
+        "turning": {
+          "clip": "turn",
+          "from": "right",
+          "to": "left",
+          "duration_ticks": 20,
+          "method": "complete_perspective_poses",
+          "mirror_sequence_for_reverse": true
+        }
+      },
+      "modes": {
+        "combined_1layer": {
+          "label": "Gộp Chung 1 Lớp Nguyên Bản (1 Quad / 1 Draw Call + Independent Projectile FX)",
+          "godot_prefab": "res://scenes/Spinosaurus.tscn",
+          "bundle_id": "spinosaurus"
+        }
+      },
+      "owner_master_approval": "work/characters/spinosaurus/approved-master/approval.json",
+      "owner_animation_approval": {
+        "status": "owner_approved",
+        "approved_at": "2026-11-12T07:38:36.605057+00:00",
+        "approval_file": "assets/spinosaurus/owner_approval.json",
+        "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4"
+      },
+      "qa_report": "docs/characters/spinosaurus-final-qa.json",
+      "owner_visual_override": "Owner requires demo-v2 detail/color fidelity instead of coarse100texel/16color/gain201.3; body hard alpha, small translucent bite VFX.",
+      "motion_quality": {
+        "status": "owner_approved",
+        "method": "existing_complete_source_frames",
+        "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+        "checks": {
+          "body_connections": true,
+          "whole_pose_sequence": true,
+          "perspective_turns": true,
+          "phase_timing": true,
+          "three_backgrounds": true
+        },
+        "review_evidence": "work/characters/spinosaurus/review-final/keyframe-review.json",
+        "unresolved_structural_failures": [],
+        "owner_approved": true,
+        "previous_revision_atlas_sha256": "578912e9e23d4e486052c76c10b302fd925b1e0194f084814e57e5447b9635aa",
+        "owner_feedback": "ok anh thấy chuẩn rồi chốt 3 character theo qui trình rồi xóa những png không còn dùng theo qui định hiến pháp để giảm tải bộ nhớ repo sau đó push ver này lên main",
+        "naturalness_verdict": "owner_approved",
+        "approved_at": "2026-11-12T07:38:36.605057+00:00"
+      },
+      "atlas_stage": "finalized_owner_approved"
+    },
+    {
       "character_id": "t_rex",
       "display_name": "T-rex",
       "faction": "special_beasts",
@@ -36,7 +224,7 @@
         "camera_view": "side_view_2d",
         "default_atlas_facing": "right (+X)",
         "left_facing_rule": "horizontal_flip_around_foot_anchor_x (flip_h = true, anchor_x = 176)",
-        "locomotion_vector_rule": "Bipedal 2-hind-leg walk/run along horizontal ground axis; attack_heavy performs a 360-degree body spin to whip the tail forward (+X)."
+        "locomotion_vector_rule": "Bipedal two-hind-leg walk/run unchanged; attack_heavy uses complete front/three-quarter/rear poses for a360degree planted tail whip toward screen+X."
       },
       "map_sync_metrics": {
         "canvas_size_px": [
@@ -49,36 +237,38 @@
         ],
         "body_only_bbox_px": {
           "x": 78,
-          "y": 94,
-          "w": 186,
-          "h": 134
+          "y": 93,
+          "w": 187,
+          "h": 135
         },
         "full_fx_bbox_px": {
           "x": 66,
-          "y": 76,
+          "y": 75,
           "w": 316,
-          "h": 156
+          "h": 157
         },
         "world_size_at_64ppu_m": {
-          "body_w_m": 2.91,
-          "body_h_m": 2.09,
-          "aura_w_m": 4.94,
-          "aura_h_m": 2.44
+          "body_w_m": 2.922,
+          "body_h_m": 2.109,
+          "aura_w_m": 4.938,
+          "aura_h_m": 2.453
         },
         "tile_32px_span": {
-          "body_tiles_w": 5.81,
-          "body_tiles_h": 4.19,
-          "full_fx_tiles_w": 9.88,
-          "full_fx_tiles_h": 4.88
-        }
+          "body_tiles_w": 5.844,
+          "body_tiles_h": 4.219,
+          "full_fx_tiles_w": 9.875,
+          "full_fx_tiles_h": 4.906
+        },
+        "reference_ppu_64": 64
       },
       "pixel_sharpness_metrics": {
-        "texel_scale_ratio": "2:1 Nearest (100x100 logical master -> 384x256 gameplay canvas)",
-        "edge_acutance_sobel": 201.3,
+        "texel_scale_ratio": "Native single-pixel complete restored poses; whole-pose Nearest registration at unchanged gameplay size",
+        "edge_acutance_sobel": 144.02,
         "alpha_hardness_pct": 100.0,
         "opaque_key_px": 0,
         "enclosed_key_pockets": 0,
-        "outer_ring_spill_fraction": 0.0
+        "outer_ring_spill_fraction": 0.0,
+        "reference_note": "Walk0 canonical reference230.524; current idle measured separately. Native alpha source, no target Sobel fitting."
       },
       "present_clips": [
         "idle",
@@ -154,6 +344,45 @@
           "godot_prefab": "res://scenes/TRex.tscn",
           "bundle_id": "t_rex"
         }
+      },
+      "atlas_stage": "finalized_owner_approved",
+      "owner_animation_approval": {
+        "status": "owner_approved",
+        "approved_at": "2026-11-12T07:38:36.605057+00:00",
+        "approval_file": "assets/t_rex/owner_approval.json",
+        "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7"
+      },
+      "owner_visual_override": "T-rex walk0 selected 2026-11-12; all body clips style-matched, walk0 PNG preserved; no separate material/gloss shader added.",
+      "motion_quality": {
+        "status": "owner_approved",
+        "method": "imagegen_complete_body_keyframes",
+        "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
+        "checks": {
+          "body_connections": true,
+          "whole_pose_sequence": true,
+          "perspective_turns": true,
+          "phase_timing": true,
+          "three_backgrounds": true,
+          "character_identity": true
+        },
+        "review_evidence": "work/characters/t_rex/walk-style-v4/review/keyframe-review.json",
+        "unresolved_structural_failures": [],
+        "owner_approved": true,
+        "previous_revision_atlas_sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f",
+        "prior_demo_atlas_sha256": "7cdc28601c3f8ac7867409d4bd6c036e78c5091ffd3d45751a7db1f12798d7e7",
+        "owner_feedback": "ok anh thấy chuẩn rồi chốt 3 character theo qui trình rồi xóa những png không còn dùng theo qui định hiến pháp để giảm tải bộ nhớ repo sau đó push ver này lên main",
+        "owner_accepted_motion": true,
+        "canonical_identity_sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+        "identity_owner_approved": true,
+        "naturalness_verdict": "owner_approved",
+        "approved_at": "2026-11-12T07:38:36.605057+00:00"
+      },
+      "qa_report": "docs/characters/t-rex-walk-style-v4-qa.json",
+      "canonical_identity": {
+        "reference": "work/characters/t_rex/walk-style-v4/walk-00-reference.png",
+        "sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+        "owner_reference": "T-rex walk frame0",
+        "source_roles": "Walk0 alone determines identity, pixel detail and baked shading; other sheets are original pose-layout references."
       }
     },
     {
@@ -168,7 +397,7 @@
         "pixel_art",
         "projectile_fx"
       ],
-      "status": "finalized",
+      "status": "finalized_owner_approved",
       "facing_contract": {
         "camera_view": "side_view_2d",
         "default_atlas_facing": "right (+X)",
@@ -185,37 +414,38 @@
           200.0
         ],
         "body_only_bbox_px": {
-          "x": 80,
-          "y": 74,
-          "w": 194,
-          "h": 132
+          "x": 79,
+          "y": 73,
+          "w": 193,
+          "h": 131
         },
         "full_fx_bbox_px": {
-          "x": 36,
-          "y": 56,
-          "w": 330,
-          "h": 180
+          "x": 32,
+          "y": 54,
+          "w": 343,
+          "h": 179
         },
         "world_size_at_64ppu_m": {
-          "body_w_m": 3.03,
-          "body_h_m": 2.06,
-          "aura_w_m": 5.16,
-          "aura_h_m": 2.81
+          "body_w_m": 3.016,
+          "body_h_m": 2.047,
+          "aura_w_m": 5.359,
+          "aura_h_m": 2.797
         },
         "tile_32px_span": {
-          "body_tiles_w": 6.06,
-          "body_tiles_h": 4.12,
-          "full_fx_tiles_w": 10.31,
-          "full_fx_tiles_h": 5.62
+          "body_tiles_w": 6.031,
+          "body_tiles_h": 4.094,
+          "full_fx_tiles_w": 10.719,
+          "full_fx_tiles_h": 5.594
         }
       },
       "pixel_sharpness_metrics": {
-        "texel_scale_ratio": "2:1 Nearest (100x100 logical master -> 384x256 gameplay canvas)",
-        "edge_acutance_sobel": 201.3,
+        "texel_scale_ratio": "Fixed native-size complete pose cells, no resize; Nearest sampling",
+        "edge_acutance_sobel": 194.606,
         "alpha_hardness_pct": 100.0,
         "opaque_key_px": 0,
         "enclosed_key_pockets": 0,
-        "outer_ring_spill_fraction": 0.0
+        "outer_ring_spill_fraction": 0.0,
+        "reference_note": "Owner image1 master appearance; measured per pose, no sharpening/LUT or forced Sobel target. Native alpha source, no chroma-key generation."
       },
       "present_clips": [
         "idle",
@@ -291,6 +521,39 @@
           "godot_prefab": "res://scenes/Pteranodon.tscn",
           "bundle_id": "pteranodon"
         }
+      },
+      "atlas_stage": "finalized_owner_approved",
+      "owner_animation_approval": {
+        "status": "owner_approved",
+        "approved_at": "2026-11-12T07:38:36.605057+00:00",
+        "approval_file": "assets/pteranodon/owner_approval.json",
+        "atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005"
+      },
+      "motion_quality": {
+        "status": "owner_approved",
+        "method": "imagegen_complete_body_keyframes",
+        "atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
+        "previous_revision_atlas_sha256": "1dfc61d34a41a02cfcc7a048c5310618950d71972953904cad19cf241d1d041a",
+        "checks": {
+          "body_connections": true,
+          "whole_pose_sequence": true,
+          "perspective_turns": true,
+          "phase_timing": true,
+          "three_backgrounds": true,
+          "character_identity": true
+        },
+        "review_evidence": "work/characters/pteranodon/master-match-v9/review/keyframe-review.json",
+        "unresolved_structural_failures": [],
+        "owner_approved": true,
+        "owner_feedback": "ok anh thấy chuẩn rồi chốt 3 character theo qui trình rồi xóa những png không còn dùng theo qui định hiến pháp để giảm tải bộ nhớ repo sau đó push ver này lên main",
+        "naturalness_verdict": "owner_approved",
+        "approved_at": "2026-11-12T07:38:36.605057+00:00"
+      },
+      "qa_report": "docs/characters/pteranodon-master-match-v9-qa.json",
+      "canonical_identity": {
+        "path": "work/characters/pteranodon/master-match-v9/reference.png",
+        "sha256": "7c9d71fe2033b0be2644bb8df1bb8d3cd5e5d38a7a0a71e3b7833c84a0e9e702",
+        "owner_input": "work/characters/pteranodon/master-review/test_scaled_canvas.png"
       }
     }
   ]

@@ -1,0 +1,23 @@
+{
+  "file": "work/characters/t_rex/heavy-spin-v2/stage/raw_frames/attack_heavy_00.png",
+  "file_sha256": "acba97c600d0935ebe43b477321d892536d90fd9487e035e29b09e3e16ad214e",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "body_bbox_px": [
+    75,
+    93,
+    192,
+    133
+  ],
+  "visible_pixels": 10231,
+  "rgb_colors": 8676,
+  "edge_acutance_sobel": 236.143,
+  "alpha_hardness_pct": 100.0,
+  "visible_alpha_hardness_pct": 100.0,
+  "minimum_horizontal_constant_rgba_run_px": 1,
+  "single_pixel_run_fraction": 0.9981390793339863,
+  "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+  "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+}

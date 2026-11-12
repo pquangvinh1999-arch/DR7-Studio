@@ -1,0 +1,11 @@
+{
+  "idle": true,
+  "walk": true,
+  "attack_light": true,
+  "attack_heavy": true,
+  "power_up": true,
+  "hit": true,
+  "ko": true,
+  "turn": true,
+  "fireball_fx": true
+}

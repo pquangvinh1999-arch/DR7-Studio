@@ -23,26 +23,26 @@
   "duration_ms": 85,
   "fps": 11.734028683181226,
   "frames": [
-    "frames/frame-044.png",
-    "frames/frame-045.png",
     "frames/frame-046.png",
     "frames/frame-047.png",
     "frames/frame-048.png",
     "frames/frame-049.png",
     "frames/frame-050.png",
     "frames/frame-051.png",
-    "frames/frame-052.png"
+    "frames/frame-052.png",
+    "frames/frame-053.png",
+    "frames/frame-054.png"
   ],
   "frame_sha256": [
-    "1281859e1cabe41c8d5bb04173ec76efaff6719168b080d6edd144b850c7901f",
-    "3f22f8c41049de42978f76ea059a3ffd13ce03ef174d58e9867d4ba22657c667",
-    "e908b723b7954dd958df37c847a51dc7d01bc0f664b8cc17911728c4836383a8",
-    "96bf9bcb7ac4d881bc9e6c85a3ce311527a6652514f430b485645b5b9883cc5d",
-    "8ca996b6e8ffe95e3c63054a746c558acfeb613481612621251d01f026b60a19",
-    "c02bc8bbebd38a004b83c7a89312090fa8261863f4b4e736d26b193536458ef7",
-    "d3fe4572b1e9feb38734ca898ccc39a584d6ede3ae9492c431318250ed3833cb",
-    "9c420a44aef79fe323de1517c0bdbf70d71d3901f22e78e58a0208b60e8e7e56",
-    "add411080ee06e95c7d47d422e96a5f3eb49775337221ce08b42e2d25eafe53d"
+    "06fbdb56780ddbda3688306d8620d1c8f11f90fcba816c3465d64991b40e3a0f",
+    "8d7bf5eed706de6c3979302ec4dc44cedf58f5754e8bb7784e2016bfbade0f14",
+    "3ab1c6b3e5fb732a0fbed98038dddec9589c1fa1d3784420bf1813539e26f26c",
+    "b590db65605f268302654c21eb4adef00b97ea55162e991e1466de837cc77a32",
+    "0839cbedc38ac39a85297c61f2391c128a3d0286b070ddf343b20ae659bd66be",
+    "381b4e31fbc677b7238440211269ff691c9ac8fe1d79d77b72bb6286d2f878a0",
+    "f380f6046c212e654b15a065a01e50aca82b3c9dff41ddebc1c2fc5e64168445",
+    "d3a856fe35f1e78b5f2e9e286df5f2cc4382300121a0cf7a390bedbd6b64f792",
+    "b078fc3c9511cf1819a0ec293a8da05175083923ccb84e2c597b9b66beddf940"
   ],
   "durations_ms": [
     83,

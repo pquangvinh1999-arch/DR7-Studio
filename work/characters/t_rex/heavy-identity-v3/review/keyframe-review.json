@@ -1,0 +1,19 @@
+{
+  "status": "reviewed_pending_owner",
+  "atlas_sha256": "74393d80a74588ed5cce2189bf5d41976939bf633f99780fe0f6998e6498eacb",
+  "scope": "Identity correction only:10 generated whole views and2 reused complete master ready poses; all61 other frames unchanged",
+  "observations": [
+    "Identity comparison checks angular head/jaw, tall neck, lean torso/long shins, dark farleg, flat olive/beige color planes against canonical idle at gameplay scale.",
+    "Whole-body pose4 faces camera with chest/belly; pose7 shows back of skull/neck/hips, no copied front face.",
+    "Frames2/3/6/8 have differing chest/back/limb occlusion and tail foreshortening; true views rather than horizontal flips.",
+    "All12 complete poses reviewed on light/dark/checker. Ground225 and pelvis reference176 remain common; natural perspective widths retained.",
+    "Ticks5/4 anticipation then2/1/1/1/1/2 accelerated turn/impact, recovery3/4/5/6; tiny amber slash5, fading6, dissipated7.",
+    "Naturalness/feel remains pending Owner Human Test."
+  ],
+  "artifacts": {
+    "filmstrip-attack_heavy.png": "bbb7cac52fe304334a0b6674eec62427ccba4656ad37df48b8c446d10b381c49",
+    "identity-comparison.png": "844afd705d48ce02181b78922ad4dffa40a750534946387966b0da346d50d33d",
+    "playback-attack_heavy.webp": "1d4da6972b7bd6f389b3270abfa73d770808b51a598a93fff0d212a3ffd5788d"
+  },
+  "owner_approved": false
+}

@@ -1,0 +1,85 @@
+{
+  "clips": {
+    "idle": {
+      "frames": true,
+      "ticks": true,
+      "duration_ms": true,
+      "events_ms": true,
+      "keys": true,
+      "loop": true,
+      "loop_policy": true,
+      "hitstop_ticks": true
+    },
+    "walk": {
+      "frames": true,
+      "ticks": true,
+      "duration_ms": true,
+      "events_ms": true,
+      "keys": true,
+      "loop": true,
+      "loop_policy": true,
+      "hitstop_ticks": true
+    },
+    "run": {
+      "frames": true,
+      "ticks": true,
+      "duration_ms": true,
+      "events_ms": true,
+      "keys": true,
+      "loop": true,
+      "loop_policy": true,
+      "hitstop_ticks": true
+    },
+    "attack_light": {
+      "frames": true,
+      "ticks": true,
+      "duration_ms": true,
+      "events_ms": true,
+      "keys": true,
+      "loop": true,
+      "loop_policy": true,
+      "hitstop_ticks": true
+    },
+    "power_up": {
+      "frames": true,
+      "ticks": true,
+      "duration_ms": true,
+      "events_ms": true,
+      "keys": true,
+      "loop": true,
+      "loop_policy": true,
+      "hitstop_ticks": true
+    },
+    "hit": {
+      "frames": true,
+      "ticks": true,
+      "duration_ms": true,
+      "events_ms": true,
+      "keys": true,
+      "loop": true,
+      "loop_policy": true,
+      "hitstop_ticks": true
+    },
+    "ko": {
+      "frames": true,
+      "ticks": true,
+      "duration_ms": true,
+      "events_ms": true,
+      "keys": true,
+      "loop": true,
+      "loop_policy": true,
+      "hitstop_ticks": true
+    },
+    "sonic_screech_fx": {
+      "frames": true,
+      "ticks": true,
+      "duration_ms": true,
+      "events_ms": true,
+      "keys": true,
+      "loop": true,
+      "loop_policy": true,
+      "hitstop_ticks": true
+    }
+  },
+  "peer_files_unchanged": 540
+}

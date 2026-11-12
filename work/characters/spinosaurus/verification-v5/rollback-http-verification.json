@@ -1,0 +1,37 @@
+{
+  "http_atlas_matches": true,
+  "http_wasm_matches": true,
+  "api_parity": true,
+  "walk_original_hashes_match": 8,
+  "other_frames_unchanged": 63,
+  "peer_files_unchanged": 500,
+  "run_shared_rects": true,
+  "run_duration_ratio": 0.5,
+  "atlas_sha256": "3603fd263602d6b780fed57e6eb61e5e0c805f0776861445b90990b0c616fbf7",
+  "motion": {
+    "ok_for_human_test": true,
+    "release_approved": false,
+    "characters": {
+      "spinosaurus": {
+        "ok_for_human_test": true,
+        "release_approved": false,
+        "status": "reviewed_pending_owner",
+        "errors": []
+      },
+      "t_rex": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "pteranodon": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      }
+    },
+    "errors": []
+  },
+  "freeze_until_owner_human_test": true
+}

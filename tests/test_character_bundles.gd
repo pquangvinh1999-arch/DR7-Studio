@@ -149,6 +149,26 @@ func _init() -> void:
 			printerr("[FAIL] Prefab %s không chạy được play_clip('idle')" % prefab_path)
 			failures += 1
 		print("[OK] Combined 1-Layer Prefab verified: %s (%d clips)" % [prefab_path, anim_names.size()])
+		if ch.get("not_applicable_clips", {}).has("run"):
+			if sf.has_animation(&"run") or prefab_inst.has_clip(&"run") or prefab_inst.play_clip(&"run"):
+				printerr("[FAIL] Owner-excluded run remains available")
+				failures += 1
+		if export_meta.get("render_contract", {}).has("turning"):
+			if not prefab_inst.set_facing_left(true) or prefab_inst.scale.x < 0.0:
+				printerr("[FAIL] Facing must start perspective turn without immediate flip")
+				failures += 1
+			if prefab_inst.play_clip(&"attack_light"):
+				printerr("[FAIL] Skill interrupted pending perspective turn")
+				failures += 1
+			prefab_inst._on_skill_finished(&"turn")
+			if prefab_inst.scale.x >= 0.0 or not prefab_inst.set_facing_left(false):
+				printerr("[FAIL] Facing did not commit after perspective turn")
+				failures += 1
+			prefab_inst._on_skill_finished(&"turn")
+			if prefab_inst.scale.x <= 0.0:
+				printerr("[FAIL] Reverse turn did not restore right facing")
+				failures += 1
+			print("[OK] Perspective facing transition commits after turn, both directions")
 		prefab_inst.free()
 
 	if failures > 0:

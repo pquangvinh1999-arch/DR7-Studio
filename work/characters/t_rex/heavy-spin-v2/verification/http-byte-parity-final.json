@@ -1,0 +1,15 @@
+{
+  "atlas": {
+    "status": 200,
+    "http_sha256": "7cdc28601c3f8ac7867409d4bd6c036e78c5091ffd3d45751a7db1f12798d7e7",
+    "file_sha256": "7cdc28601c3f8ac7867409d4bd6c036e78c5091ffd3d45751a7db1f12798d7e7",
+    "matches": true
+  },
+  "wasm": {
+    "status": 200,
+    "http_sha256": "8231427ad2fd4177af9c6a908dfcea157822bf0d5ecad3a2498ed0a336fb1fae",
+    "file_sha256": "8231427ad2fd4177af9c6a908dfcea157822bf0d5ecad3a2498ed0a336fb1fae",
+    "matches": true
+  },
+  "protected_peer_files_unchanged": 500
+}

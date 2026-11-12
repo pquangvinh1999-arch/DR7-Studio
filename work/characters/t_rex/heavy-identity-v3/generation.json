@@ -1,0 +1,14 @@
+{
+  "trex_identity_result": {
+    "path": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-0b3b4db1-d790-44fe-927e-b26d765b5f3c.png",
+    "status": "rejected_motion_guide_identity_bias"
+  },
+  "trex_identity_anchor_result": {
+    "path": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-f8daf157-a199-44f9-b235-1f10f32b9c3b.png",
+    "status": "rejected_motion_guide_identity_bias"
+  },
+  "trex_identity_master_only_result": {
+    "path": "/home/codespace/.codex/generated_images/01a1cd3d-86b7-71f0-aaa3-a956b84c1d7b/exec-93ea8e8f-8865-4c0d-9a50-5580152f45bc.png",
+    "status": "selected_canonical_only"
+  }
+}

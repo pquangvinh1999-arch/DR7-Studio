@@ -5,6 +5,26 @@ description: Turn one approved master still into a character's whole animated sp
 
 # Video to 2D Animation
 
+## DR7 motion acceptance and selected imagegen branch
+
+For DR7 output sharpness, use the [upgraded T-rex reference PNG](../../../docs/art-standards/t-rex-sharpness-reference.png)
+and [measured contract](../../../docs/art-standards/character-pixel-sharpness.json):
+native1px gameplay detail, Nearest registration, hard body alpha, measured reference
+Sobel245.516. Compare at gameplay1x and integer zoom; report actual measurements
+with `tools/art/measure_pixel_sharpness.py`, never force a target scalar/tolerance.
+Old100texel/2x/16color/201.3 defaults no longer govern new character creation.
+Character scale and motion QA remain separate; soft FX alpha is allowed.
+
+Owner explicitly selected full-body imagegen keyframes as the alternative when
+video routes are unavailable (2026-11-12); use create_atlas for that branch and
+generate2dsprite to package whole frames. Do not call it image-to-video output.
+No route is permission to cut a still into limbs and warp/recombine it as motion.
+For either route, detached anatomy, joint tears, exposed patches or card-flip
+spins/facing changes are motion_quality FAIL, even when engine tests exit0.
+Review every transition at real speed and loop closure on three backgrounds.
+Turns need consistent perspective/occlusion/weight; impact accelerates and settles
+in60Hz ticks. Preserve master identity and a single render body layer.
+
 An approved still sets identity and geometry, a video model supplies motion, and deterministic
 tools prepare it for the engine. Video is not promised to be smaller, seamless or cheaper than sheets.
 
@@ -106,3 +126,8 @@ Finish every registered action before packaging. Finished frames keep the source
 - Inspect at game scale: face and silhouette stability, contact, moving alpha edges over light and dark, loop seam, readability. Verify real iPhone playback before claiming alpha or frame rate; compare bytes and decode cost before replacing sheets.
 
 Data contracts: `references/schemas/video.schema.json`.
+
+### Chu kỳ walk/run theo Owner (2026-11-12)
+- Thiết kế một vòng tiến pha đầy đủ 0..N−1 rồi về0; không ping-pong hay đảo7..1 để vá loop. Không trùng pose đầu/cuối; lấy mẫu pha trong [0,360°). Review cả cuối→đầu, hai chân đổi vai trò trụ/vung, không chỉ xem pixel/hash khác nhau. Gần trùng pose hoặc lò cò = motion FAIL, phải sửa nguyên pose nguồn.
+- Run: walk chỉ làm tham khảo concept/giải phẫu, không copy frame và tăng playback để làmrun. Theo Owner làm rõ2026-11-12, sinh pose chạy toàn thân riêng (sải/chúi thân/đẩy chân/thu chân/tiếp đất), kiểm vòng0..N−1→0 riêng. Quy định dùng chung frame/duration0.5 trước đây bị thay thế; không dùng làm mặc định nữa.
+- Turn chỉ có khi thực sự nối đổi hướng trong runtime; nêu nơi dùng và timing, không sửa đòn xoay đã đạt chỉ vì thêm turn.

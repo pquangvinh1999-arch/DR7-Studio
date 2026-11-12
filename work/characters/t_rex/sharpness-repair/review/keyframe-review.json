@@ -1,0 +1,33 @@
+{
+  "status": "reviewed_pending_owner",
+  "atlas_sha256": "616ad71fb609acb7238a5e3bf502ec6a97f2575326234b1e91ac81d610c2d9c7",
+  "observations": [
+    "Reviewed all71 frames on light/dark/checker backgrounds. Complete poses retain source action phases; no detached throat/limbs observed.",
+    "idle7 throat/jaw region Canvas(214,123,49,22) reviewed against Owner screenshot.",
+    "power_up0/1 round orange charge; body2..5 reconstructed without departing projectile; original independent four-phase FX retained.",
+    "attack_heavy retains original left/right pose sequence and timing per Owner no-motion-change request; no turn redesign."
+  ],
+  "artifacts": {
+    "filmstrip-attack_heavy.png": "bc7c54564a81cb3d8f07f9afdfa3f381cd94f2e19b26f6ceb4270a122de59c8c",
+    "filmstrip-attack_light.png": "fd7d60cf19c0466f3945ccfd545be4ec9780e0d88de4d4d13cadf0950d5c2244",
+    "filmstrip-fireball_fx.png": "f299933c4800b19b8cc15c77d51fe6feb909fc5bcc534562038cc6207d67aee9",
+    "filmstrip-hit.png": "6636f5ffbab93ed9e3401a0747a3726ca8909f9509a4c0f8d8858909d4d71c84",
+    "filmstrip-idle.png": "af3b2541702a3a0fc0fc1c990c846db356f4f5be1bdf088d0133d06689362e92",
+    "filmstrip-ko.png": "dbbc7e941ba05c35728541a11daea0cdfaea4a87fd8f7d800eb0c4d3a29f7118",
+    "filmstrip-power_up-composite.png": "855ffa18a3e7ad1153ddf4fecf322c97f8afd8bb51960cd7a2b94bb63449e81f",
+    "filmstrip-power_up.png": "666a6b5a906ca230a83187163ca5740d6af5579691666135f9649909391b8869",
+    "filmstrip-run.png": "5d748f07d0822c97befb68216658980a877c61dbb4beeee715f679e151898bb3",
+    "filmstrip-walk.png": "ba42867df1464447b8e1aa304e31dade607264bc7ef5322a503714bb9a2914c3",
+    "playback-attack_heavy.webp": "00f19cf7dc69cc75d5c44609b97e81f251d1567b0b801ba048f90bad9c0a9e91",
+    "playback-attack_light.webp": "eed814d9288c0d99d5d43c63212a73bfd0c2c95e158c76e52879ae612b6662fc",
+    "playback-fireball_fx.webp": "a7b21c92636dd1323d0449dda7fa35e282e7cf553a08d5f45ab1257263fd7724",
+    "playback-hit.webp": "ab5f8c4d7d796591dfd34fbd94a8ea55a8392f437a6c6271adbfc4a2a50e294f",
+    "playback-idle.webp": "b3525e05c8f469ad3f04e65e4e13a3ea2f1273a8c36dd1bbbc6cad36733ec291",
+    "playback-ko.webp": "06ff8b5cdcad48536005dc3f1ef05fe1781eb38252111db150f2c296975c5ec8",
+    "playback-power_up-composite.webp": "953f8c02e1f977d2b3bd621ad15d728307a74c768d285f532017aae1bc1797b3",
+    "playback-power_up.webp": "fc21b063e160d6b425d741d00959275dac24009b68578858052054346453a316",
+    "playback-run.webp": "dac01b3d7ce67d0a2940666f8302288ca944f0a4171a98f074dcb7a7fb37a425",
+    "playback-walk.webp": "3f39c19d9cb9c65f76988a2057a4b98dbeca1eb256a44829cab152561adf71c7"
+  },
+  "owner_approved": false
+}

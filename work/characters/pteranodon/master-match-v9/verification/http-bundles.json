@@ -1,0 +1,5734 @@
+{
+  "project_name": "DR7-Studio — Engine Parity & Human Test Workbench",
+  "bundles": [
+    {
+      "id": "pteranodon",
+      "priority": 1,
+      "title": "pteranodon — Gộp Chung 1 Lớp Nguyên Bản",
+      "name": "pteranodon",
+      "bundle_dir": "res://assets/pteranodon/godot_bundle",
+      "scene_2d": "res://assets/pteranodon/godot_bundle/godot/pteranodon.tscn",
+      "frames_2d": "res://assets/pteranodon/godot_bundle/godot/pteranodon.tres",
+      "export_json": "res://assets/pteranodon/godot_bundle/engine-export.json",
+      "sha256_tres": "7a61c7826866860c6565bfc4ccb6e1bcc5973c8860e4a2d4f556f52dae67e7ec",
+      "sha256_atlases": {
+        "pteranodon-atlas-00.png": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005"
+      },
+      "frame_size": [
+        384,
+        256
+      ],
+      "anchor_px": [
+        176.0,
+        200.0
+      ],
+      "shadow": {
+        "rx": 36,
+        "ry": 9,
+        "opacity": 0.35
+      },
+      "default_clip": "idle",
+      "render_contract": {
+        "body_clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "power_up",
+          "hit",
+          "ko"
+        ],
+        "effect_clips": [
+          "sonic_screech_fx"
+        ],
+        "locomotion": {
+          "kind": "flight",
+          "clip": "walk"
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": null,
+          "independent_clock": true
+        },
+        "fx_pivot_px": [
+          176,
+          128
+        ],
+        "projectile": {
+          "kind": "linear_energy",
+          "body_clip": "power_up",
+          "projectile_clip": "sonic_screech_fx",
+          "release_frame": 2,
+          "lifetime_ticks": 14,
+          "origin_canvas_px": [
+            278,
+            128
+          ],
+          "velocity_px_per_tick": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "tscn": {
+        "offset": [
+          -176.0,
+          -200.0
+        ],
+        "centered": false,
+        "autoplay": "idle",
+        "texture_filter": 1
+      },
+      "unique_frames": [
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 3.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c0",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 391.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c1",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 779.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c10",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1167.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c11",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1555.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c12",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1943.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c13",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2331.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c14",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2719.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c15",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 3.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c16",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 391.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c17",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 779.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c18",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1167.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c19",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 779.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c2",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1555.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c20",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1943.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c21",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2331.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c22",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2719.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c23",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 3.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c24",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 391.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c25",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 779.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c26",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1167.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c27",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1555.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c28",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1943.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c29",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1167.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c3",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2331.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c30",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2719.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c31",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 3.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c32",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 391.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c33",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 779.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c34",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1167.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c35",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1555.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c36",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1943.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c37",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2331.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c38",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2719.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c39",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1555.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c4",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 3.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c40",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 391.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c41",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 779.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c42",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1167.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c43",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1555.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c44",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1943.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c45",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2331.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c46",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2719.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c47",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 3.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c48",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 391.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c49",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1943.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c5",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 779.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c50",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1167.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c51",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1555.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c52",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1943.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c53",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2331.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c54",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2719.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c55",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 3.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c56",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 391.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c57",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 779.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c58",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1167.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c59",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2331.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c6",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 1555.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c60",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 2719.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c7",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 3.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c8",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        },
+        {
+          "atlas_file": "pteranodon-atlas-00.png",
+          "x": 391.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c9",
+          "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+        }
+      ],
+      "animations": {
+        "idle": {
+          "name": "idle",
+          "loop": true,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c0",
+              "duration_ticks": 7.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 3.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 117.0,
+              "index": 0,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c1",
+              "duration_ticks": 6.96,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 391.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 116.0,
+              "index": 1,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c2",
+              "duration_ticks": 7.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 779.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 117.0,
+              "index": 2,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c3",
+              "duration_ticks": 7.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1167.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 117.0,
+              "index": 3,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c4",
+              "duration_ticks": 6.96,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1555.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 116.0,
+              "index": 4,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c5",
+              "duration_ticks": 7.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1943.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 117.0,
+              "index": 5,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c6",
+              "duration_ticks": 7.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2331.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 117.0,
+              "index": 6,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c7",
+              "duration_ticks": 6.96,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2719.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 116.0,
+              "index": 7,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            }
+          ],
+          "events_ms": [],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "walk": {
+          "name": "walk",
+          "loop": true,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c8",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 3.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 0,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c9",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 391.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 1,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c10",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 779.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 2,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c11",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1167.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 3,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c12",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1555.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 4,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c13",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1943.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 5,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c14",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2331.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 6,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c15",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2719.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 7,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "step_r",
+              "at_ms": 300,
+              "at": 3,
+              "position": 3
+            },
+            {
+              "name": "step_l",
+              "at_ms": 700,
+              "at": 7,
+              "position": 7
+            }
+          ],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "run": {
+          "name": "run",
+          "loop": true,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c16",
+              "duration_ticks": 4.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 3.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 0,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c17",
+              "duration_ticks": 3.96,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 391.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.0,
+              "index": 1,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c18",
+              "duration_ticks": 4.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 779.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 2,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c19",
+              "duration_ticks": 4.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1167.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 3,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c20",
+              "duration_ticks": 3.96,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1555.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.0,
+              "index": 4,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c21",
+              "duration_ticks": 4.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1943.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 5,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c22",
+              "duration_ticks": 4.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2331.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 6,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c23",
+              "duration_ticks": 3.96,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2719.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.0,
+              "index": 7,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "step_r",
+              "at_ms": 200,
+              "at": 3,
+              "position": 3
+            },
+            {
+              "name": "step_l",
+              "at_ms": 467,
+              "at": 7,
+              "position": 7
+            }
+          ],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "attack_light": {
+          "name": "attack_light",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c24",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 3.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 0,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c25",
+              "duration_ticks": 5.04,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 391.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 1,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c26",
+              "duration_ticks": 3.96,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 779.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.0,
+              "index": 2,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c27",
+              "duration_ticks": 4.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1167.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 3,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c28",
+              "duration_ticks": 4.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1555.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 4,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c29",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1943.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 5,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c30",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2331.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 6,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c31",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2719.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 7,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "tell",
+              "at_ms": 83,
+              "at": 1,
+              "position": 1
+            },
+            {
+              "name": "hit",
+              "at_ms": 233,
+              "at": 3,
+              "position": 3
+            },
+            {
+              "name": "active_end",
+              "at_ms": 300,
+              "at": 4,
+              "position": 4
+            },
+            {
+              "name": "end",
+              "at_ms": 533,
+              "at": 7,
+              "position": 7
+            }
+          ],
+          "hitstop_ms": 67,
+          "role": "player"
+        },
+        "power_up": {
+          "name": "power_up",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c32",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 3.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 0,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c33",
+              "duration_ticks": 5.04,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 391.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 1,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c34",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 779.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 2,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c35",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1167.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 3,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c36",
+              "duration_ticks": 4.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1555.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 4,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c37",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1943.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 5,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c38",
+              "duration_ticks": 5.04,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2331.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 6,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c39",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2719.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 7,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "tell",
+              "at_ms": 83,
+              "at": 1,
+              "position": 1
+            },
+            {
+              "name": "hit",
+              "at_ms": 167,
+              "at": 2,
+              "position": 2,
+              "data": {
+                "projectile": "sonic_screech_fx"
+              }
+            },
+            {
+              "name": "end",
+              "at_ms": 567,
+              "at": 7,
+              "position": 7
+            }
+          ],
+          "hitstop_ms": 67,
+          "role": "player"
+        },
+        "hit": {
+          "name": "hit",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c40",
+              "duration_ticks": 4.02,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 3.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 0,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c41",
+              "duration_ticks": 3.96,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 391.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.0,
+              "index": 1,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c42",
+              "duration_ticks": 5.04,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 779.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 2,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c43",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1167.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 3,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c44",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1555.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 4,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c45",
+              "duration_ticks": 5.04,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1943.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 5,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "in",
+              "at_ms": 0,
+              "at": 0,
+              "position": 0
+            },
+            {
+              "name": "end",
+              "at_ms": 383,
+              "at": 5,
+              "position": 5
+            }
+          ],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "ko": {
+          "name": "ko",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c46",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2331.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 0,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c47",
+              "duration_ticks": 5.04,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2719.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 1,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c48",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 3.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 2,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c49",
+              "duration_ticks": 4.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 391.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 3,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c50",
+              "duration_ticks": 5.04,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 779.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 4,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c51",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1167.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 5,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c52",
+              "duration_ticks": 6.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1555.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 6,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c53",
+              "duration_ticks": 15.0,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1943.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 250.0,
+              "index": 7,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "in",
+              "at_ms": 0,
+              "at": 0,
+              "position": 0
+            },
+            {
+              "name": "impact",
+              "at_ms": 250,
+              "at": 3,
+              "position": 3
+            },
+            {
+              "name": "hold",
+              "at_ms": 617,
+              "at": 7,
+              "position": 7
+            }
+          ],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "sonic_screech_fx": {
+          "name": "sonic_screech_fx",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c54",
+              "duration_ticks": 1.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2331.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 33.0,
+              "index": 0,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c55",
+              "duration_ticks": 2.04,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 2719.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 34.0,
+              "index": 1,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c56",
+              "duration_ticks": 1.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 3.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 33.0,
+              "index": 2,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c57",
+              "duration_ticks": 1.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 391.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 33.0,
+              "index": 3,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c58",
+              "duration_ticks": 2.04,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 779.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 34.0,
+              "index": 4,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c59",
+              "duration_ticks": 1.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1167.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 33.0,
+              "index": 5,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c60",
+              "duration_ticks": 1.98,
+              "atlas_file": "pteranodon-atlas-00.png",
+              "x": 1555.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 33.0,
+              "index": 6,
+              "atlas_url": "/assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png"
+            }
+          ],
+          "events_ms": [],
+          "hitstop_ms": 0,
+          "role": "fx"
+        }
+      }
+    },
+    {
+      "id": "spinosaurus",
+      "priority": 1,
+      "title": "spinosaurus — Gộp Chung 1 Lớp Nguyên Bản",
+      "name": "spinosaurus",
+      "bundle_dir": "res://assets/spinosaurus/godot_bundle",
+      "scene_2d": "res://assets/spinosaurus/godot_bundle/godot/spinosaurus.tscn",
+      "frames_2d": "res://assets/spinosaurus/godot_bundle/godot/spinosaurus.tres",
+      "export_json": "res://assets/spinosaurus/godot_bundle/engine-export.json",
+      "sha256_tres": "a52e696181b7da00fc5e126623fcb9b35a4fbbca56eff799df6797b4fda21da3",
+      "sha256_atlases": {
+        "spinosaurus-atlas-00.png": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4"
+      },
+      "frame_size": [
+        384,
+        256
+      ],
+      "anchor_px": [
+        176.0,
+        224.0
+      ],
+      "shadow": {
+        "rx": 36,
+        "ry": 9,
+        "opacity": 0.35
+      },
+      "default_clip": "idle",
+      "render_contract": {
+        "body_clips": [
+          "idle",
+          "walk",
+          "attack_light",
+          "attack_heavy",
+          "power_up",
+          "hit",
+          "ko",
+          "turn"
+        ],
+        "effect_clips": [
+          "fireball_fx"
+        ],
+        "locomotion": {
+          "kind": "ground",
+          "clip": "walk",
+          "walk_cycle_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": null,
+          "independent_clock": true
+        },
+        "fx_pivot_px": [
+          176,
+          128
+        ],
+        "projectile": {
+          "kind": "linear_energy",
+          "body_clip": "power_up",
+          "projectile_clip": "fireball_fx",
+          "release_frame": 2,
+          "lifetime_ticks": 20,
+          "origin_canvas_px": [
+            295,
+            173
+          ],
+          "velocity_px_per_tick": [
+            0.0,
+            0.0
+          ]
+        },
+        "turning": {
+          "clip": "turn",
+          "from": "right",
+          "to": "left",
+          "duration_ticks": 20,
+          "method": "complete_perspective_poses",
+          "mirror_sequence_for_reverse": true
+        }
+      },
+      "tscn": {
+        "offset": [
+          -176.0,
+          -224.0
+        ],
+        "centered": false,
+        "autoplay": "idle",
+        "texture_filter": 1
+      },
+      "unique_frames": [
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c0",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 391.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c1",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 391.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c10",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 779.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c11",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1167.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c12",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1555.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c13",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1943.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c14",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2331.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c15",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2719.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c16",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3107.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c17",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c18",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 391.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c19",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 779.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c2",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 779.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c20",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1167.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c21",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1555.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c22",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1943.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c23",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2331.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c24",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2719.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c25",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3107.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c26",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c27",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 391.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c28",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 779.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c29",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1167.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c3",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1167.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c30",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1555.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c31",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1943.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c32",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2331.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c33",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2719.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c34",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3107.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c35",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c36",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 391.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c37",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 779.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c38",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1167.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c39",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1555.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c4",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1555.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c40",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1943.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c41",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2331.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c42",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2719.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c43",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3107.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c44",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c45",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 391.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c46",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 779.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c47",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1167.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c48",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1555.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c49",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1943.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c5",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1943.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c50",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2331.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c51",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2719.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c52",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3107.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c53",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c54",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 391.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c55",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 779.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c56",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1167.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c57",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1555.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c58",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1943.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c59",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2331.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c6",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2331.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c60",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2719.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c61",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3107.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c62",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c63",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 391.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c64",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 779.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c65",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1167.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c66",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 1555.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c67",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 2719.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c7",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3107.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c8",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        },
+        {
+          "atlas_file": "spinosaurus-atlas-00.png",
+          "x": 3.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c9",
+          "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+        }
+      ],
+      "animations": {
+        "idle": {
+          "name": "idle",
+          "loop": true,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c0",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 0,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c1",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 391.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 1,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c2",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 779.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 2,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c3",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1167.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 3,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c4",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1555.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 4,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c5",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1943.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 5,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c6",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2331.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 6,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c7",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2719.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 7,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c8",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3107.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 8,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c9",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 9,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c10",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 391.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 10,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c11",
+              "duration_ticks": 10.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 779.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 166.66666666666666,
+              "index": 11,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            }
+          ],
+          "events_ms": [],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "walk": {
+          "name": "walk",
+          "loop": true,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c12",
+              "duration_ticks": 7.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1167.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 116.66666666666667,
+              "index": 0,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c13",
+              "duration_ticks": 8.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1555.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 133.33333333333334,
+              "index": 1,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c14",
+              "duration_ticks": 7.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1943.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 116.66666666666667,
+              "index": 2,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c15",
+              "duration_ticks": 8.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2331.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 133.33333333333334,
+              "index": 3,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c16",
+              "duration_ticks": 7.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2719.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 116.66666666666667,
+              "index": 4,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c17",
+              "duration_ticks": 8.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3107.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 133.33333333333334,
+              "index": 5,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c18",
+              "duration_ticks": 7.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 116.66666666666667,
+              "index": 6,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c19",
+              "duration_ticks": 8.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 391.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 133.33333333333334,
+              "index": 7,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "step_r",
+              "at_ms": 0,
+              "at": 0,
+              "position": 0
+            },
+            {
+              "name": "step_l",
+              "at_ms": 500,
+              "at": 4,
+              "position": 4
+            }
+          ],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "attack_light": {
+          "name": "attack_light",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c20",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 779.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 0,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c21",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1167.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 1,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c22",
+              "duration_ticks": 4.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1555.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.66666666666667,
+              "index": 2,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c23",
+              "duration_ticks": 4.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1943.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.66666666666667,
+              "index": 3,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c24",
+              "duration_ticks": 4.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2331.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.66666666666667,
+              "index": 4,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c25",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2719.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 5,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c26",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3107.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 6,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c27",
+              "duration_ticks": 6.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 7,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "tell",
+              "at_ms": 83,
+              "at": 1,
+              "position": 1
+            },
+            {
+              "name": "hit",
+              "at_ms": 233,
+              "at": 3,
+              "position": 3
+            },
+            {
+              "name": "active_end",
+              "at_ms": 300,
+              "at": 4,
+              "position": 4
+            },
+            {
+              "name": "end",
+              "at_ms": 533,
+              "at": 7,
+              "position": 7
+            }
+          ],
+          "hitstop_ms": 67,
+          "role": "player"
+        },
+        "attack_heavy": {
+          "name": "attack_heavy",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c28",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 391.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 0,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c29",
+              "duration_ticks": 4.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 779.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.66666666666667,
+              "index": 1,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c30",
+              "duration_ticks": 2.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1167.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 33.333333333333336,
+              "index": 2,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c31",
+              "duration_ticks": 1.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1555.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 16.666666666666668,
+              "index": 3,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c32",
+              "duration_ticks": 1.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1943.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 16.666666666666668,
+              "index": 4,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c33",
+              "duration_ticks": 1.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2331.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 16.666666666666668,
+              "index": 5,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c34",
+              "duration_ticks": 1.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2719.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 16.666666666666668,
+              "index": 6,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c35",
+              "duration_ticks": 2.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3107.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 33.333333333333336,
+              "index": 7,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c36",
+              "duration_ticks": 3.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 50.0,
+              "index": 8,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c37",
+              "duration_ticks": 4.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 391.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.66666666666667,
+              "index": 9,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c38",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 779.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 10,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c39",
+              "duration_ticks": 6.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1167.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 11,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "tell",
+              "at_ms": 83,
+              "at": 1,
+              "position": 1
+            },
+            {
+              "name": "hit",
+              "at_ms": 217,
+              "at": 5,
+              "position": 5
+            },
+            {
+              "name": "active_end",
+              "at_ms": 250,
+              "at": 7,
+              "position": 7
+            },
+            {
+              "name": "end",
+              "at_ms": 483,
+              "at": 11,
+              "position": 11
+            }
+          ],
+          "hitstop_ms": 100,
+          "role": "player"
+        },
+        "power_up": {
+          "name": "power_up",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c40",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1555.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 0,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c41",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1943.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 1,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c42",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2331.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 2,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c43",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2719.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 3,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c44",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3107.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 4,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c45",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 5,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c46",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 391.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 6,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c47",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 779.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 7,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c48",
+              "duration_ticks": 6.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1167.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 8,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "tell",
+              "at_ms": 83,
+              "at": 1,
+              "position": 1
+            },
+            {
+              "name": "hit",
+              "at_ms": 167,
+              "at": 2,
+              "position": 2,
+              "data": {
+                "projectile": "fireball_fx"
+              }
+            },
+            {
+              "name": "end",
+              "at_ms": 667,
+              "at": 8,
+              "position": 8
+            }
+          ],
+          "hitstop_ms": 67,
+          "role": "player"
+        },
+        "hit": {
+          "name": "hit",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c49",
+              "duration_ticks": 4.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1555.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.66666666666667,
+              "index": 0,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c50",
+              "duration_ticks": 4.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1943.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.66666666666667,
+              "index": 1,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c51",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2331.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 2,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c52",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2719.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 3,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c53",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3107.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 4,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c54",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 5,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            }
+          ],
+          "events_ms": [],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "ko": {
+          "name": "ko",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c55",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 391.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 0,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c56",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 779.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 1,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c57",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1167.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 2,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c58",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1555.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 3,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c59",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1943.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 4,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c60",
+              "duration_ticks": 6.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2331.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 5,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c61",
+              "duration_ticks": 6.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 2719.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 6,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c62",
+              "duration_ticks": 15.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3107.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 250.0,
+              "index": 7,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            }
+          ],
+          "events_ms": [],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "turn": {
+          "name": "turn",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c28",
+              "duration_ticks": 6.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 391.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 0,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c31",
+              "duration_ticks": 4.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1555.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.66666666666667,
+              "index": 1,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c32",
+              "duration_ticks": 4.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1943.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.66666666666667,
+              "index": 2,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c63",
+              "duration_ticks": 6.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 3.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 3,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            }
+          ],
+          "events_ms": [],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "fireball_fx": {
+          "name": "fireball_fx",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c64",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 391.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 0,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c65",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 779.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 1,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c66",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1167.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 2,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c67",
+              "duration_ticks": 5.0,
+              "atlas_file": "spinosaurus-atlas-00.png",
+              "x": 1555.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.33333333333333,
+              "index": 3,
+              "atlas_url": "/assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png"
+            }
+          ],
+          "events_ms": [],
+          "hitstop_ms": 0,
+          "role": "fx"
+        }
+      }
+    },
+    {
+      "id": "t_rex",
+      "priority": 1,
+      "title": "t_rex — Gộp Chung 1 Lớp Nguyên Bản",
+      "name": "t_rex",
+      "bundle_dir": "res://assets/t_rex/godot_bundle",
+      "scene_2d": "res://assets/t_rex/godot_bundle/godot/t_rex.tscn",
+      "frames_2d": "res://assets/t_rex/godot_bundle/godot/t_rex.tres",
+      "export_json": "res://assets/t_rex/godot_bundle/engine-export.json",
+      "sha256_tres": "4c95e9d7a983cd42b7cb8ec7b3569451ee208371641a7d46e353964b699d73b9",
+      "sha256_atlases": {
+        "t_rex-atlas-00.png": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7"
+      },
+      "frame_size": [
+        384,
+        256
+      ],
+      "anchor_px": [
+        176.0,
+        224.0
+      ],
+      "shadow": {
+        "rx": 36,
+        "ry": 9,
+        "opacity": 0.35
+      },
+      "default_clip": "idle",
+      "render_contract": {
+        "body_clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "attack_heavy",
+          "power_up",
+          "hit",
+          "ko"
+        ],
+        "effect_clips": [
+          "fireball_fx"
+        ],
+        "locomotion": {
+          "kind": "ground",
+          "clip": "walk"
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": null,
+          "independent_clock": true
+        },
+        "fx_pivot_px": [
+          176,
+          128
+        ],
+        "projectile": {
+          "kind": "linear_energy",
+          "body_clip": "power_up",
+          "projectile_clip": "fireball_fx",
+          "release_frame": 2,
+          "lifetime_ticks": 20,
+          "origin_canvas_px": [
+            304,
+            138
+          ],
+          "velocity_px_per_tick": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "tscn": {
+        "offset": [
+          -176.0,
+          -224.0
+        ],
+        "centered": false,
+        "autoplay": "idle",
+        "texture_filter": 1
+      },
+      "unique_frames": [
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c0",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 391.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c1",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 391.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c10",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 779.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c11",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1167.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c12",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1555.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c13",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1943.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c14",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2331.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c15",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2719.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c16",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3107.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c17",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c18",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 391.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c19",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 779.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c2",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 779.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c20",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1167.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c21",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1555.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c22",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1943.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c23",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2331.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c24",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2719.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c25",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3107.0,
+          "y": 523.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c26",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c27",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 391.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c28",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 779.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c29",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1167.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c3",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1167.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c30",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1555.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c31",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1943.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c32",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2331.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c33",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2719.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c34",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3107.0,
+          "y": 783.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c35",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c36",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 391.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c37",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 779.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c38",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1167.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c39",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1555.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c4",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1555.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c40",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1943.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c41",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2331.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c42",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2719.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c43",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3107.0,
+          "y": 1043.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c44",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c45",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 391.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c46",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 779.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c47",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1167.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c48",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1555.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c49",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1943.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c5",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1943.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c50",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2331.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c51",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2719.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c52",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3107.0,
+          "y": 1303.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c53",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c54",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 391.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c55",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 779.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c56",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1167.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c57",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1555.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c58",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1943.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c59",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2331.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c6",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2331.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c60",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2719.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c61",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3107.0,
+          "y": 1563.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c62",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c63",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 391.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c64",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 779.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c65",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1167.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c66",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1555.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c67",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 1943.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c68",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2331.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c69",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2719.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c7",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 2719.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c70",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3107.0,
+          "y": 1823.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c71",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3.0,
+          "y": 2083.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c72",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3107.0,
+          "y": 3.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c8",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        },
+        {
+          "atlas_file": "t_rex-atlas-00.png",
+          "x": 3.0,
+          "y": 263.0,
+          "w": 384.0,
+          "h": 256.0,
+          "sub_id": "AtlasTexture_p0c9",
+          "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+        }
+      ],
+      "animations": {
+        "idle": {
+          "name": "idle",
+          "loop": true,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c0",
+              "duration_ticks": 7.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 117.0,
+              "index": 0,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c1",
+              "duration_ticks": 6.96,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 391.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 116.0,
+              "index": 1,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c2",
+              "duration_ticks": 7.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 779.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 117.0,
+              "index": 2,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c3",
+              "duration_ticks": 7.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1167.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 117.0,
+              "index": 3,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c4",
+              "duration_ticks": 6.96,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1555.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 116.0,
+              "index": 4,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c5",
+              "duration_ticks": 7.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1943.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 117.0,
+              "index": 5,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c6",
+              "duration_ticks": 7.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2331.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 117.0,
+              "index": 6,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c7",
+              "duration_ticks": 6.96,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2719.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 116.0,
+              "index": 7,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            }
+          ],
+          "events_ms": [],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "walk": {
+          "name": "walk",
+          "loop": true,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c8",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3107.0,
+              "y": 3.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 0,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c9",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 1,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c10",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 391.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 2,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c11",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 779.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 3,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c12",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1167.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 4,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c13",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1555.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 5,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c14",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1943.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 6,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c15",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2331.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 7,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c16",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2719.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 8,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c17",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3107.0,
+              "y": 263.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 9,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "step_r",
+              "at_ms": 200,
+              "at": 2,
+              "position": 2
+            },
+            {
+              "name": "step_l",
+              "at_ms": 700,
+              "at": 7,
+              "position": 7
+            }
+          ],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "run": {
+          "name": "run",
+          "loop": true,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c18",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 0,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c19",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 391.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 1,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c20",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 779.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 2,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c21",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1167.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 3,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c22",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1555.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 4,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c23",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1943.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 5,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c24",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2331.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 6,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c25",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2719.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 7,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "step_r",
+              "at_ms": 83,
+              "at": 1,
+              "position": 1
+            },
+            {
+              "name": "step_l",
+              "at_ms": 417,
+              "at": 5,
+              "position": 5
+            }
+          ],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "attack_light": {
+          "name": "attack_light",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c26",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3107.0,
+              "y": 523.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 0,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c27",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 1,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c28",
+              "duration_ticks": 3.96,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 391.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.0,
+              "index": 2,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c29",
+              "duration_ticks": 4.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 779.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 3,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c30",
+              "duration_ticks": 4.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1167.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 4,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c31",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1555.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 5,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c32",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1943.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 6,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c33",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2331.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 7,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "tell",
+              "at_ms": 83,
+              "at": 1,
+              "position": 1
+            },
+            {
+              "name": "hit",
+              "at_ms": 233,
+              "at": 3,
+              "position": 3
+            },
+            {
+              "name": "active_end",
+              "at_ms": 300,
+              "at": 4,
+              "position": 4
+            },
+            {
+              "name": "end",
+              "at_ms": 533,
+              "at": 7,
+              "position": 7
+            }
+          ],
+          "hitstop_ms": 67,
+          "role": "player"
+        },
+        "attack_heavy": {
+          "name": "attack_heavy",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c34",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2719.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 0,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c35",
+              "duration_ticks": 4.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3107.0,
+              "y": 783.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 1,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c36",
+              "duration_ticks": 1.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 33.0,
+              "index": 2,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c37",
+              "duration_ticks": 1.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 391.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 17.0,
+              "index": 3,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c38",
+              "duration_ticks": 1.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 779.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 17.0,
+              "index": 4,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c39",
+              "duration_ticks": 0.96,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1167.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 16.0,
+              "index": 5,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c40",
+              "duration_ticks": 1.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1555.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 17.0,
+              "index": 6,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c41",
+              "duration_ticks": 1.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1943.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 33.0,
+              "index": 7,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c42",
+              "duration_ticks": 3.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2331.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 50.0,
+              "index": 8,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c43",
+              "duration_ticks": 4.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2719.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 9,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c44",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3107.0,
+              "y": 1043.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 10,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c45",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 11,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "tell",
+              "at_ms": 83,
+              "at": 1,
+              "position": 1
+            },
+            {
+              "name": "hit",
+              "at_ms": 217,
+              "at": 5,
+              "position": 5
+            },
+            {
+              "name": "active_end",
+              "at_ms": 250,
+              "at": 7,
+              "position": 7
+            },
+            {
+              "name": "end",
+              "at_ms": 483,
+              "at": 11,
+              "position": 11
+            }
+          ],
+          "hitstop_ms": 100,
+          "role": "player"
+        },
+        "power_up": {
+          "name": "power_up",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c46",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 391.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 0,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c47",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 779.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 1,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c48",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1167.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 2,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c49",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1555.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 3,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c50",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1943.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 4,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c51",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2331.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 5,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c52",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2719.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 6,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c53",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3107.0,
+              "y": 1303.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 7,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c54",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 8,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "tell",
+              "at_ms": 83,
+              "at": 1,
+              "position": 1
+            },
+            {
+              "name": "hit",
+              "at_ms": 167,
+              "at": 2,
+              "position": 2,
+              "data": {
+                "projectile": "fireball_fx"
+              }
+            },
+            {
+              "name": "end",
+              "at_ms": 667,
+              "at": 8,
+              "position": 8
+            }
+          ],
+          "hitstop_ms": 67,
+          "role": "player"
+        },
+        "hit": {
+          "name": "hit",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c55",
+              "duration_ticks": 4.02,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 391.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.99999999999999,
+              "index": 0,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c56",
+              "duration_ticks": 3.96,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 779.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 66.0,
+              "index": 1,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c57",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1167.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 2,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c58",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1555.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 3,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c59",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1943.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 4,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c60",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2331.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 5,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "in",
+              "at_ms": 0,
+              "at": 0,
+              "position": 0
+            },
+            {
+              "name": "end",
+              "at_ms": 383,
+              "at": 5,
+              "position": 5
+            }
+          ],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "ko": {
+          "name": "ko",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c61",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2719.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 0,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c62",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3107.0,
+              "y": 1563.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 1,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c63",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 2,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c64",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 391.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 3,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c65",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 779.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 4,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c66",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1167.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 5,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c67",
+              "duration_ticks": 6.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1555.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 100.0,
+              "index": 6,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c68",
+              "duration_ticks": 15.0,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 1943.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 250.0,
+              "index": 7,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            }
+          ],
+          "events_ms": [
+            {
+              "name": "in",
+              "at_ms": 0,
+              "at": 0,
+              "position": 0
+            },
+            {
+              "name": "impact",
+              "at_ms": 333,
+              "at": 4,
+              "position": 4
+            },
+            {
+              "name": "hold",
+              "at_ms": 617,
+              "at": 7,
+              "position": 7
+            }
+          ],
+          "hitstop_ms": 0,
+          "role": "player"
+        },
+        "fireball_fx": {
+          "name": "fireball_fx",
+          "loop": false,
+          "speed_hz": 60.0,
+          "frames": [
+            {
+              "sub_id": "AtlasTexture_p0c69",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2331.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 0,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c70",
+              "duration_ticks": 5.04,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 2719.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 84.0,
+              "index": 1,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c71",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3107.0,
+              "y": 1823.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 2,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            },
+            {
+              "sub_id": "AtlasTexture_p0c72",
+              "duration_ticks": 4.98,
+              "atlas_file": "t_rex-atlas-00.png",
+              "x": 3.0,
+              "y": 2083.0,
+              "w": 384.0,
+              "h": 256.0,
+              "duration_ms": 83.0,
+              "index": 3,
+              "atlas_url": "/assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png"
+            }
+          ],
+          "events_ms": [],
+          "hitstop_ms": 0,
+          "role": "fx"
+        }
+      }
+    }
+  ],
+  "roster": {
+    "schema": "dr7-studio.character_roster.v1",
+    "roster_policy": "Chỉ lưu nhân vật đã kiểm thử Engine; thân combined_1layer. Ngoại lệ FX độc lập theo yêu cầu Owner được ghi trong render_contract từng nhân vật.",
+    "animation_completeness_standard": {
+      "status": "provisional_active_gate",
+      "constitutional_note": "Theo Điều 7 AGENTS.md: Kiểm tra bộ hoạt ảnh chiến đấu cốt lõi trên mỗi nhân vật; phát cảnh báo nhắc nhở (WARN) nếu nhân vật còn thiếu clip tham chiếu.",
+      "provisional_reference_clips": [
+        "idle",
+        "walk",
+        "run",
+        "jump",
+        "guard",
+        "attack_light",
+        "attack_heavy",
+        "power_up",
+        "aura_loop",
+        "hit",
+        "ko",
+        "win"
+      ]
+    },
+    "characters": [
+      {
+        "character_id": "spinosaurus",
+        "display_name": "Spinosaurus",
+        "faction": "special_beasts",
+        "role_label": "Spined Sail Dinosaur — Bite / Spin Tail Sweep / Fireball",
+        "tags": [
+          "dinosaur",
+          "bipedal",
+          "pixel_art",
+          "projectile_fx"
+        ],
+        "status": "finalized_owner_approved",
+        "facing_contract": {
+          "camera_view": "side_view_2d",
+          "default_atlas_facing": "right (+X)",
+          "left_facing_rule": "Play whole-body perspective turn for20ticks(333ms), then commit facing; reverse mirrors complete sequence.",
+          "locomotion_vector_rule": "Bipedal walk only along horizontal ground axis; perspective turn on facing change. All other approved attack/FX behavior retained."
+        },
+        "map_sync_metrics": {
+          "canvas_size_px": [
+            384,
+            256
+          ],
+          "foot_anchor_px": [
+            176.0,
+            224.0
+          ],
+          "body_only_bbox_px": {
+            "x": 98,
+            "y": 150,
+            "w": 157,
+            "h": 74
+          },
+          "full_fx_bbox_px": {
+            "x": 87,
+            "y": 104,
+            "w": 274,
+            "h": 120
+          },
+          "world_size_at_64ppu_m": {
+            "body_w_m": 2.453,
+            "body_h_m": 1.156,
+            "aura_w_m": 4.281,
+            "aura_h_m": 1.875
+          },
+          "tile_32px_span": {
+            "body_tiles_w": 4.906,
+            "body_tiles_h": 2.312,
+            "full_fx_tiles_w": 8.562,
+            "full_fx_tiles_h": 3.75
+          },
+          "reference_ppu_64": 64
+        },
+        "pixel_sharpness_metrics": {
+          "texel_scale_ratio": "Imagegen complete native keyframes -> gameplay with one Nearest resize; no blur/palette/gain",
+          "edge_acutance_sobel": 271.574,
+          "alpha_hardness_pct": 99.99222016670335,
+          "visible_alpha_hardness_pct": 99.81147404382969,
+          "opaque_key_px": 0,
+          "enclosed_key_pockets": 0,
+          "outer_ring_spill_fraction": 0.0,
+          "reference_note": "Actual measurements; no scalar forced to T-rex 201.3. New whole poses preserve approved concept, not pixel identity to master."
+        },
+        "present_clips": [
+          "idle",
+          "walk",
+          "attack_light",
+          "attack_heavy",
+          "power_up",
+          "hit",
+          "ko",
+          "turn"
+        ],
+        "effect_clips": [
+          "fireball_fx"
+        ],
+        "missing_provisional_clips": [
+          "run",
+          "jump",
+          "guard",
+          "aura_loop",
+          "win"
+        ],
+        "not_applicable_clips": {
+          "jump": "Owner yêu cầu hoạt ảnh giống T-rex; loại jump như T-rex.",
+          "aura_loop": "Owner yêu cầu hoạt ảnh giống T-rex; loại aura_loop như T-rex.",
+          "guard": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo guard cho bất kỳ nhân vật nào.",
+          "win": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo win cho bất kỳ nhân vật nào.",
+          "run": "Owner chốt Spinosaurus: bỏ run, di chuyển chỉ dùng walk; giữ nguyên toàn bộ hoạt ảnh khác."
+        },
+        "render_contract": {
+          "body_clips": [
+            "idle",
+            "walk",
+            "attack_light",
+            "attack_heavy",
+            "power_up",
+            "hit",
+            "ko",
+            "turn"
+          ],
+          "effect_clips": [
+            "fireball_fx"
+          ],
+          "locomotion": {
+            "kind": "ground",
+            "clip": "walk",
+            "walk_cycle_order": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "aura": {
+            "loop_clip": null,
+            "charge_clip": null,
+            "independent_clock": true
+          },
+          "fx_pivot_px": [
+            176,
+            128
+          ],
+          "projectile": {
+            "kind": "linear_energy",
+            "body_clip": "power_up",
+            "projectile_clip": "fireball_fx",
+            "release_frame": 2,
+            "lifetime_ticks": 20,
+            "origin_canvas_px": [
+              295,
+              173
+            ],
+            "velocity_px_per_tick": [
+              0.0,
+              0.0
+            ]
+          },
+          "turning": {
+            "clip": "turn",
+            "from": "right",
+            "to": "left",
+            "duration_ticks": 20,
+            "method": "complete_perspective_poses",
+            "mirror_sequence_for_reverse": true
+          }
+        },
+        "modes": {
+          "combined_1layer": {
+            "label": "Gộp Chung 1 Lớp Nguyên Bản (1 Quad / 1 Draw Call + Independent Projectile FX)",
+            "godot_prefab": "res://scenes/Spinosaurus.tscn",
+            "bundle_id": "spinosaurus"
+          }
+        },
+        "owner_master_approval": "work/characters/spinosaurus/approved-master/approval.json",
+        "owner_animation_approval": "pending",
+        "qa_report": "docs/characters/spinosaurus-final-qa.json",
+        "owner_visual_override": "Owner requires demo-v2 detail/color fidelity instead of coarse100texel/16color/gain201.3; body hard alpha, small translucent bite VFX.",
+        "motion_quality": {
+          "status": "owner_approved",
+          "method": "existing_complete_source_frames",
+          "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+          "checks": {
+            "body_connections": true,
+            "whole_pose_sequence": true,
+            "perspective_turns": true,
+            "phase_timing": true,
+            "three_backgrounds": true
+          },
+          "review_evidence": "work/characters/spinosaurus/review-final/keyframe-review.json",
+          "unresolved_structural_failures": [],
+          "owner_approved": true,
+          "previous_revision_atlas_sha256": "578912e9e23d4e486052c76c10b302fd925b1e0194f084814e57e5447b9635aa"
+        },
+        "atlas_stage": "owner_approved"
+      },
+      {
+        "character_id": "t_rex",
+        "display_name": "T-rex",
+        "faction": "special_beasts",
+        "role_label": "Bipedal Dinosaur Fighter (Jaw Bite VFX / Spin Tail Sweep / Spinning Fireball)",
+        "tags": [
+          "dinosaur",
+          "bipedal",
+          "pixel_art",
+          "projectile_fx"
+        ],
+        "status": "finalized_engine_verified_demo_pending_owner",
+        "facing_contract": {
+          "camera_view": "side_view_2d",
+          "default_atlas_facing": "right (+X)",
+          "left_facing_rule": "horizontal_flip_around_foot_anchor_x (flip_h = true, anchor_x = 176)",
+          "locomotion_vector_rule": "Bipedal two-hind-leg walk/run unchanged; attack_heavy uses complete front/three-quarter/rear poses for a360degree planted tail whip toward screen+X."
+        },
+        "map_sync_metrics": {
+          "canvas_size_px": [
+            384,
+            256
+          ],
+          "foot_anchor_px": [
+            176.0,
+            224.0
+          ],
+          "body_only_bbox_px": {
+            "x": 78,
+            "y": 93,
+            "w": 187,
+            "h": 135
+          },
+          "full_fx_bbox_px": {
+            "x": 66,
+            "y": 75,
+            "w": 316,
+            "h": 157
+          },
+          "world_size_at_64ppu_m": {
+            "body_w_m": 2.922,
+            "body_h_m": 2.109,
+            "aura_w_m": 4.938,
+            "aura_h_m": 2.453
+          },
+          "tile_32px_span": {
+            "body_tiles_w": 5.844,
+            "body_tiles_h": 4.219,
+            "full_fx_tiles_w": 9.875,
+            "full_fx_tiles_h": 4.906
+          },
+          "reference_ppu_64": 64
+        },
+        "pixel_sharpness_metrics": {
+          "texel_scale_ratio": "Native single-pixel complete restored poses; whole-pose Nearest registration at unchanged gameplay size",
+          "edge_acutance_sobel": 144.02,
+          "alpha_hardness_pct": 100.0,
+          "opaque_key_px": 0,
+          "enclosed_key_pockets": 0,
+          "outer_ring_spill_fraction": 0.0,
+          "reference_note": "Walk0 canonical reference230.524; current idle measured separately. Native alpha source, no target Sobel fitting."
+        },
+        "present_clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "attack_heavy",
+          "power_up",
+          "hit",
+          "ko"
+        ],
+        "effect_clips": [
+          "fireball_fx"
+        ],
+        "missing_provisional_clips": [
+          "jump",
+          "guard",
+          "aura_loop",
+          "win"
+        ],
+        "not_applicable_clips": {
+          "jump": "Owner khóa đặc tả nhân vật T-rex: khủng long di chuyển bằng 2 chân trên mặt đất, không có hoạt ảnh jump (không được setup).",
+          "aura_loop": "Owner khóa đặc tả nhân vật T-rex: không có aura_loop; power_up là phun 1 hạt lửa xoay nhiều frame về phía trước (fireball_fx).",
+          "guard": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo guard cho bất kỳ nhân vật nào.",
+          "win": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo win cho bất kỳ nhân vật nào."
+        },
+        "render_contract": {
+          "body_clips": [
+            "idle",
+            "walk",
+            "run",
+            "attack_light",
+            "attack_heavy",
+            "power_up",
+            "hit",
+            "ko"
+          ],
+          "effect_clips": [
+            "fireball_fx"
+          ],
+          "locomotion": {
+            "kind": "ground",
+            "clip": "walk"
+          },
+          "aura": {
+            "loop_clip": null,
+            "charge_clip": null,
+            "independent_clock": true
+          },
+          "fx_pivot_px": [
+            176,
+            128
+          ],
+          "projectile": {
+            "kind": "linear_energy",
+            "body_clip": "power_up",
+            "projectile_clip": "fireball_fx",
+            "release_frame": 2,
+            "lifetime_ticks": 20,
+            "origin_canvas_px": [
+              304,
+              138
+            ],
+            "velocity_px_per_tick": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "modes": {
+          "combined_1layer": {
+            "label": "Gộp Chung 1 Lớp Nguyên Bản (1 Quad / 1 Draw Call + Independent Projectile FX)",
+            "godot_prefab": "res://scenes/TRex.tscn",
+            "bundle_id": "t_rex"
+          }
+        },
+        "atlas_stage": "demo_pending_owner",
+        "owner_animation_approval": "pending",
+        "owner_visual_override": "T-rex walk0 selected 2026-11-12; all body clips style-matched, walk0 PNG preserved; no separate material/gloss shader added.",
+        "motion_quality": {
+          "status": "reviewed_pending_owner",
+          "method": "imagegen_complete_body_keyframes",
+          "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
+          "checks": {
+            "body_connections": true,
+            "whole_pose_sequence": true,
+            "perspective_turns": true,
+            "phase_timing": true,
+            "three_backgrounds": true,
+            "character_identity": true
+          },
+          "review_evidence": "work/characters/t_rex/walk-style-v4/review/keyframe-review.json",
+          "unresolved_structural_failures": [],
+          "owner_approved": false,
+          "previous_revision_atlas_sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f",
+          "prior_demo_atlas_sha256": "7cdc28601c3f8ac7867409d4bd6c036e78c5091ffd3d45751a7db1f12798d7e7",
+          "owner_feedback": "Walk0 chosen as style reference; previous rigid turntable heavy rejected. New whole-body crouch/pivot/counterbalance candidate requires new Human Test.",
+          "owner_accepted_motion": false,
+          "canonical_identity_sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+          "identity_owner_approved": false,
+          "naturalness_verdict": "pending_owner_real_time_review"
+        },
+        "qa_report": "docs/characters/t-rex-walk-style-v4-qa.json",
+        "canonical_demo_identity": {
+          "reference": "work/characters/t_rex/walk-style-v4/walk-00-reference.png",
+          "sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+          "owner_reference": "T-rex walk frame0",
+          "source_roles": "Walk0 alone determines identity, pixel detail and baked shading; other sheets are original pose-layout references."
+        }
+      },
+      {
+        "character_id": "pteranodon",
+        "display_name": "Pteranodon",
+        "faction": "special_beasts",
+        "role_label": "Predatory Flying Pterosaur (Biomechanical Wingbeat / Beak Strike / 7-Phase Sonic Screech)",
+        "tags": [
+          "dinosaur",
+          "pterosaur",
+          "flying",
+          "pixel_art",
+          "projectile_fx"
+        ],
+        "status": "finalized_engine_verified_demo_pending_owner",
+        "facing_contract": {
+          "camera_view": "side_view_2d",
+          "default_atlas_facing": "right (+X)",
+          "left_facing_rule": "horizontal_flip_around_foot_anchor_x (flip_h = true, anchor_x = 176)",
+          "locomotion_vector_rule": "Aerial flight locomotion with full vertical wingbeat excursion (upstroke V above back -> horizontal camber sweep -> deep power downstroke below belly); attack_light thrusts beak straight forward (+X)."
+        },
+        "map_sync_metrics": {
+          "canvas_size_px": [
+            384,
+            256
+          ],
+          "foot_anchor_px": [
+            176.0,
+            200.0
+          ],
+          "body_only_bbox_px": {
+            "x": 79,
+            "y": 73,
+            "w": 193,
+            "h": 131
+          },
+          "full_fx_bbox_px": {
+            "x": 32,
+            "y": 54,
+            "w": 343,
+            "h": 179
+          },
+          "world_size_at_64ppu_m": {
+            "body_w_m": 3.016,
+            "body_h_m": 2.047,
+            "aura_w_m": 5.359,
+            "aura_h_m": 2.797
+          },
+          "tile_32px_span": {
+            "body_tiles_w": 6.031,
+            "body_tiles_h": 4.094,
+            "full_fx_tiles_w": 10.719,
+            "full_fx_tiles_h": 5.594
+          }
+        },
+        "pixel_sharpness_metrics": {
+          "texel_scale_ratio": "Fixed native-size complete pose cells, no resize; Nearest sampling",
+          "edge_acutance_sobel": 194.606,
+          "alpha_hardness_pct": 100.0,
+          "opaque_key_px": 0,
+          "enclosed_key_pockets": 0,
+          "outer_ring_spill_fraction": 0.0,
+          "reference_note": "Owner image1 master appearance; measured per pose, no sharpening/LUT or forced Sobel target. Native alpha source, no chroma-key generation."
+        },
+        "present_clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "power_up",
+          "hit",
+          "ko"
+        ],
+        "effect_clips": [
+          "sonic_screech_fx"
+        ],
+        "missing_provisional_clips": [
+          "jump",
+          "guard",
+          "attack_heavy",
+          "aura_loop",
+          "win"
+        ],
+        "not_applicable_clips": {
+          "jump": "Owner khóa đặc tả nhân vật Pteranodon: dực long bay lượn liên tục trên không, không cần hoạt ảnh jump.",
+          "attack_heavy": "Owner khóa đặc tả riêng nhân vật Pteranodon: bỏ đòn tấn công nặng (attack_heavy); chỉ sử dụng đòn mỏ tấn công nhẹ về trước (attack_light) và chiêu sóng âm (power_up).",
+          "aura_loop": "Owner khóa đặc tả nhân vật Pteranodon: sinh vật tự nhiên không có Ki Saiyan / aura_loop; power_up phát sóng âm siêu thanh 7 pha từ mẫu của Owner (sonic_screech_fx).",
+          "guard": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo guard cho bất kỳ nhân vật nào.",
+          "win": "Owner chốt phạm vi toàn dự án (Điều 7.1 AGENTS.md): không tạo win cho bất kỳ nhân vật nào."
+        },
+        "render_contract": {
+          "body_clips": [
+            "idle",
+            "walk",
+            "run",
+            "attack_light",
+            "power_up",
+            "hit",
+            "ko"
+          ],
+          "effect_clips": [
+            "sonic_screech_fx"
+          ],
+          "locomotion": {
+            "kind": "flight",
+            "clip": "walk"
+          },
+          "aura": {
+            "loop_clip": null,
+            "charge_clip": null,
+            "independent_clock": true
+          },
+          "fx_pivot_px": [
+            176,
+            128
+          ],
+          "projectile": {
+            "kind": "linear_energy",
+            "body_clip": "power_up",
+            "projectile_clip": "sonic_screech_fx",
+            "release_frame": 2,
+            "lifetime_ticks": 14,
+            "origin_canvas_px": [
+              278,
+              128
+            ],
+            "velocity_px_per_tick": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "modes": {
+          "combined_1layer": {
+            "label": "Gộp Chung 1 Lớp Nguyên Bản (1 Quad / 1 Draw Call + Independent Sonic Screech FX)",
+            "godot_prefab": "res://scenes/Pteranodon.tscn",
+            "bundle_id": "pteranodon"
+          }
+        },
+        "atlas_stage": "demo_pending_owner",
+        "owner_animation_approval": "pending",
+        "motion_quality": {
+          "status": "reviewed_pending_owner",
+          "method": "imagegen_complete_body_keyframes",
+          "atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
+          "previous_revision_atlas_sha256": "1dfc61d34a41a02cfcc7a048c5310618950d71972953904cad19cf241d1d041a",
+          "checks": {
+            "body_connections": true,
+            "whole_pose_sequence": true,
+            "perspective_turns": true,
+            "phase_timing": true,
+            "three_backgrounds": true,
+            "character_identity": true
+          },
+          "review_evidence": "work/characters/pteranodon/master-match-v9/review/keyframe-review.json",
+          "unresolved_structural_failures": [],
+          "owner_approved": false,
+          "owner_feedback": "Owner requests reference-image appearance for all existing actions without redesigning animation. Original v8 motion is baseline; new rendered appearance is pending Human Test.",
+          "naturalness_verdict": "Original action phases retained; visual continuity of regenerated surfaces pending Owner review."
+        },
+        "qa_report": "docs/characters/pteranodon-master-match-v9-qa.json",
+        "canonical_demo_identity": {
+          "path": "work/characters/pteranodon/master-match-v9/reference.png",
+          "sha256": "7c9d71fe2033b0be2644bb8df1bb8d3cd5e5d38a7a0a71e3b7833c84a0e9e702",
+          "owner_input": "work/characters/pteranodon/master-review/test_scaled_canvas.png"
+        }
+      }
+    ]
+  },
+  "setups": [
+    {
+      "character_id": "spinosaurus",
+      "key": "combined_1layer",
+      "arch": "combined",
+      "title": "Gộp Chung 1 Lớp Nguyên Bản (1 Quad / 1 Draw Call + Independent Projectile FX)",
+      "prefab_scene": "res://scenes/Spinosaurus.tscn",
+      "combined_id": "spinosaurus"
+    },
+    {
+      "character_id": "t_rex",
+      "key": "combined_1layer",
+      "arch": "combined",
+      "title": "Gộp Chung 1 Lớp Nguyên Bản (1 Quad / 1 Draw Call + Independent Projectile FX)",
+      "prefab_scene": "res://scenes/TRex.tscn",
+      "combined_id": "t_rex"
+    },
+    {
+      "character_id": "pteranodon",
+      "key": "combined_1layer",
+      "arch": "combined",
+      "title": "Gộp Chung 1 Lớp Nguyên Bản (1 Quad / 1 Draw Call + Independent Sonic Screech FX)",
+      "prefab_scene": "res://scenes/Pteranodon.tscn",
+      "combined_id": "pteranodon"
+    }
+  ],
+  "parity": {
+    "ok": true,
+    "checked_bundles": 3,
+    "finalized_characters": 3,
+    "errors": [],
+    "warnings": [
+      "Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+      "Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+      "Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win."
+    ]
+  },
+  "motion_quality": {
+    "ok_for_human_test": true,
+    "release_approved": false,
+    "characters": {
+      "spinosaurus": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "t_rex": {
+        "ok_for_human_test": true,
+        "release_approved": false,
+        "status": "reviewed_pending_owner",
+        "errors": []
+      },
+      "pteranodon": {
+        "ok_for_human_test": true,
+        "release_approved": false,
+        "status": "reviewed_pending_owner",
+        "errors": []
+      }
+    },
+    "errors": []
+  }
+}

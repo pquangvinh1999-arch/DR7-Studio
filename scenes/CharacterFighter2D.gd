@@ -13,6 +13,25 @@ signal action_finished(clip_name: StringName)
 var sprite: AnimatedSprite2D = null
 var projectile_sprite: AnimatedSprite2D = null
 var animator: SkillAnimator2D = null
+var _turn_pending := false
+var _turn_target_left := false
+var _turn_clip: StringName = &""
+
+func set_facing_left(target_left: bool) -> bool:
+	_ensure_nodes()
+	if _turn_pending:
+		return false
+	if (scale.x < 0.0) == target_left:
+		return true
+	var meta = JSON.parse_string(FileAccess.get_file_as_string(engine_export_json))
+	if not meta is Dictionary:
+		return false
+	_turn_clip = StringName(String(meta.get("render_contract", {}).get("turning", {}).get("clip", "")))
+	if _turn_clip == &"" or not has_clip(_turn_clip):
+		return false
+	_turn_target_left = target_left
+	_turn_pending = true
+	return play_clip(_turn_clip)
 
 func _ready() -> void:
 	_ensure_nodes()
@@ -36,6 +55,8 @@ func _ensure_nodes() -> void:
 			animator.skill_finished.connect(_on_skill_finished)
 
 func play_clip(clip_name: StringName) -> bool:
+	if _turn_pending and clip_name != _turn_clip:
+		return false
 	_ensure_nodes()
 	if sprite == null or sprite.sprite_frames == null:
 		return false
@@ -74,4 +95,8 @@ func _on_projectile_finished() -> void:
 		projectile_sprite.visible = false
 
 func _on_skill_finished(clip_name: StringName) -> void:
+	if _turn_pending and clip_name == _turn_clip:
+		scale.x = -absf(scale.x) if _turn_target_left else absf(scale.x)
+		_turn_pending = false
+		play_clip(&"idle")
 	action_finished.emit(clip_name)

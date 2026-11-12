@@ -1,0 +1,652 @@
+{
+  "source_sha256": "91d18310a0cd68578f4ffda300db97d4780b7f544ba1af69ed511d1816d51c80",
+  "source_bbox_px": [
+    13,
+    21,
+    1751,
+    855
+  ],
+  "frame_count": 87,
+  "clips": {
+    "idle": {
+      "frames": 24,
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    "walk": {
+      "frames": 10,
+      "ticks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    "run": {
+      "frames": 8,
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "attack_light": {
+      "frames": 8,
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ]
+    },
+    "attack_heavy": {
+      "frames": 10,
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ]
+    },
+    "power_up": {
+      "frames": 9,
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6
+      ]
+    },
+    "hit": {
+      "frames": 6,
+      "ticks": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "ko": {
+      "frames": 8,
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        15
+      ]
+    },
+    "fireball_fx": {
+      "frames": 4,
+      "ticks": [
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  },
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176,
+    224
+  ],
+  "body_only_bbox_px": {
+    "x": 108,
+    "y": 152,
+    "w": 156,
+    "h": 72
+  },
+  "full_fx_bbox_px": {
+    "x": 100,
+    "y": 104,
+    "w": 268,
+    "h": 128
+  },
+  "visible_fit_limit_px": [
+    158,
+    114
+  ],
+  "reference_body_bbox_px": [
+    186,
+    134
+  ],
+  "palette_colors": 16,
+  "palette_brightness_gain": 1.228260869719088,
+  "pixel_sharpness_metrics": {
+    "texel_scale_ratio": "2:1 Nearest; 100x100 logical source, aspect-preserving 79-texel body width on 384x256 canvas",
+    "edge_acutance_sobel": 201.314,
+    "edge_acutance_method": "BT709 grayscale, scipy.ndimage.sobel X/Y (unnormalized), mean magnitude on inner alpha boundary; transparent RGB=0",
+    "alpha_hardness_pct": 100.0,
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "studio_reference_sobel": 201.3,
+    "reference_note": "Measured to 201.3 using the documented method and shared brightness LUT; no assertion about the unrecorded historical T-rex measurement method."
+  },
+  "mouths_canvas_px": {
+    "idle": [
+      [
+        259.74,
+        181.34
+      ],
+      [
+        259.7527759487336,
+        181.5189484406177
+      ],
+      [
+        259.76455323960704,
+        181.68571734193316
+      ],
+      [
+        259.77456806731556,
+        181.8289368569349
+      ],
+      [
+        259.7821909565104,
+        181.93884039154096
+      ],
+      [
+        259.7869554503752,
+        182.00793187999642
+      ],
+      [
+        259.7885756829176,
+        182.0314982693229
+      ],
+      [
+        259.7869554503752,
+        182.00793187999642
+      ],
+      [
+        259.7821909565104,
+        181.93884039154096
+      ],
+      [
+        259.77456806731556,
+        181.8289368569349
+      ],
+      [
+        259.76455323960704,
+        181.68571734193316
+      ],
+      [
+        259.7527759487336,
+        181.5189484406177
+      ],
+      [
+        259.74,
+        181.34
+      ],
+      [
+        259.72708186985983,
+        181.16106896935042
+      ],
+      [
+        259.71491613238163,
+        180.99434763292535
+      ],
+      [
+        259.704370677268,
+        180.85119309270794
+      ],
+      [
+        259.69621716127403,
+        180.74135453281195
+      ],
+      [
+        259.6910642220168,
+        180.6723106090984
+      ],
+      [
+        259.6893018086739,
+        180.64876162966587
+      ],
+      [
+        259.6910642220168,
+        180.6723106090984
+      ],
+      [
+        259.69621716127403,
+        180.74135453281195
+      ],
+      [
+        259.704370677268,
+        180.85119309270794
+      ],
+      [
+        259.71491613238163,
+        180.99434763292535
+      ],
+      [
+        259.72708186985983,
+        181.16106896935042
+      ]
+    ],
+    "walk": [
+      [
+        260.88030057200746,
+        187.88363900080708
+      ],
+      [
+        262.31497988227943,
+        191.63763895734235
+      ],
+      [
+        261.90724228092415,
+        188.65366452044574
+      ],
+      [
+        259.5055396119843,
+        183.06953350980316
+      ],
+      [
+        257.6256947717044,
+        182.6030884755918
+      ],
+      [
+        258.28030057200743,
+        187.88363900080708
+      ],
+      [
+        260.21153569690455,
+        191.63763895734235
+      ],
+      [
+        261.1037980955493,
+        188.65366452044574
+      ],
+      [
+        260.3089837973592,
+        183.06953350980316
+      ],
+      [
+        259.7291389570793,
+        182.6030884755918
+      ]
+    ],
+    "run": [
+      [
+        267.4378902311313,
+        198.75996813525632
+      ],
+      [
+        268.07191494206444,
+        203.91133880001084
+      ],
+      [
+        265.8778902311313,
+        196.5199681352563
+      ],
+      [
+        263.5240678616241,
+        191.37927209365225
+      ],
+      [
+        264.3178902311313,
+        198.75996813525632
+      ],
+      [
+        265.8657417847624,
+        203.91133880001084
+      ],
+      [
+        265.8778902311313,
+        196.5199681352563
+      ],
+      [
+        265.7302410189261,
+        191.37927209365225
+      ]
+    ],
+    "attack_light": [
+      [
+        253.2033151158384,
+        174.0348957515716
+      ],
+      [
+        247.26749825090403,
+        167.76849237862092
+      ],
+      [
+        273.31923355211177,
+        195.8013035016738
+      ],
+      [
+        280.41415300287287,
+        204.50076709851018
+      ],
+      [
+        277.7694347137056,
+        203.27493698589964
+      ],
+      [
+        271.3254671265174,
+        193.81430742321422
+      ],
+      [
+        265.3303085839999,
+        186.6274073527419
+      ],
+      [
+        260.46977964015275,
+        182.01596934763577
+      ]
+    ],
+    "attack_heavy": [
+      [
+        254.90041019376153,
+        173.6256381101174
+      ],
+      [
+        239.9570992780877,
+        171.34509401439632
+      ],
+      [
+        119.76032853773819,
+        188.74823313123235
+      ],
+      [
+        107.27499390935415,
+        193.93482615667688
+      ],
+      [
+        102.91762337491491,
+        198.30540076794242
+      ],
+      [
+        111.87105429529812,
+        192.8925736388952
+      ],
+      [
+        243.54169750604714,
+        192.06132410230035
+      ],
+      [
+        260.96343393328493,
+        190.81713688217354
+      ],
+      [
+        261.9801505973264,
+        186.35616059800753
+      ],
+      [
+        260.46977964015275,
+        182.01596934763577
+      ]
+    ],
+    "power_up": [
+      [
+        254.0385051798615,
+        170.13121210912274
+      ],
+      [
+        248.17916112177664,
+        161.20559500630145
+      ],
+      [
+        271.95735956686957,
+        196.26757205577297
+      ],
+      [
+        269.7526676240257,
+        194.07027913652695
+      ],
+      [
+        267.60681497118907,
+        191.3445260580905
+      ],
+      [
+        265.56513220511874,
+        188.90352686745968
+      ],
+      [
+        263.5900434458822,
+        186.33484174285533
+      ],
+      [
+        261.56162756956627,
+        183.76986789722724
+      ],
+      [
+        260.0797796401527,
+        182.01596934763577
+      ]
+    ],
+    "hit": [
+      [
+        251.67577541847078,
+        168.18246365426813
+      ],
+      [
+        243.94532546167773,
+        159.9780557018439
+      ],
+      [
+        247.06753957773827,
+        164.61781539173748
+      ],
+      [
+        252.40153953949735,
+        171.54635002158838
+      ],
+      [
+        256.7975540800521,
+        177.4254318796608
+      ],
+      [
+        259.2643245271036,
+        180.66475259106753
+      ]
+    ],
+    "ko": [
+      [
+        248.98005977298445,
+        162.95076474384393
+      ],
+      [
+        256.7307385201148,
+        186.80701531068837
+      ],
+      [
+        258.7855814904457,
+        197.13716851527576
+      ],
+      [
+        257.99423094154946,
+        207.91827506707438
+      ],
+      [
+        257.47038112609255,
+        220.77242786474747
+      ],
+      [
+        259.0885452917995,
+        214.63336695225422
+      ],
+      [
+        257.7587571695836,
+        222.43849808124605
+      ],
+      [
+        257.6608185769772,
+        224.379775169707
+      ]
+    ]
+  },
+  "review_status": "engine_verified_awaiting_owner_human_test",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3882,
+          2342
+        ],
+        "cells": 87,
+        "clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "attack_heavy",
+          "power_up",
+          "hit",
+          "ko",
+          "fireball_fx"
+        ]
+      }
+    ]
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "run",
+      "attack_light",
+      "attack_heavy",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "fireball_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk"
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "fireball_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 20,
+      "origin_canvas_px": [
+        302,
+        199
+      ],
+      "velocity_px_per_tick": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "visual_review": {
+    "filmstrips": "work/characters/spinosaurus/review-v1/filmstrip-*.png",
+    "backgrounds": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "scope": "All9 clips; power_up includes runtime FX composite. Master approval does not approve these animations."
+  },
+  "atlas_sha256": "c806c25d0cdec58f989f18cd524287f38f34c55236554fcba55cea5c7b6f62b7",
+  "godot_standalone_log": "work/characters/spinosaurus/verification/standalone.log",
+  "verification": {
+    "loop_sh_test": {
+      "exit_code": 0,
+      "python_e2e_tests": 16,
+      "godot_bundles": 3,
+      "rust_tests": 2,
+      "log": "work/characters/spinosaurus/verification/tests.log"
+    },
+    "standalone_godot": {
+      "exit_code": 0,
+      "frames": 87,
+      "clips": 9,
+      "log": "work/characters/spinosaurus/verification/standalone.log"
+    },
+    "wasm_release_build": {
+      "exit_code": 0,
+      "sha256": "286e7932d30ce483d0cdd3f49c179aaee1a3ca45108c99ad1d896fb3aa29dc8a"
+    },
+    "http": {
+      "root": 200,
+      "bundles": 200,
+      "atlas": 200,
+      "atlas_disk_sha_match": true,
+      "wasm_disk_sha_match": true,
+      "engine_localhost_parity": true
+    },
+    "owner_animation_approved": false
+  },
+  "warnings": [
+    "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win."
+  ],
+  "superseded_by": "docs/characters/spinosaurus-v3-qa.json",
+  "owner_motion_result": "rejected_structural_tearing",
+  "historical_technical_results_do_not_imply_motion_approval": true
+}

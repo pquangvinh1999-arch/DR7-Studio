@@ -1,0 +1,9 @@
+{
+  "status": "owner_rejected_character_identity",
+  "motion_status": "owner_accepted_tail_spin_motion",
+  "owner_message": "anh thấy hoạt ảnh tấn công đuôi đã chuẩn rồi nhưng có 1 vấn đề lớn là đồng bộ về 1 mẫu chung khi attack_heavy tái tạo thành 1 character khác hoàn toàn với những hoạt ảnh khác.",
+  "bad_reference": "image copy 4.png",
+  "canonical_reference": "image copy 5.png",
+  "prior_atlas_sha256": "7cdc28601c3f8ac7867409d4bd6c036e78c5091ffd3d45751a7db1f12798d7e7",
+  "constraints": "Correct identity only; retain12pose phase order/35ticks/events/pelvis/ground; nonheavy61PNG unchanged."
+}

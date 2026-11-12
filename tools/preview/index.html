@@ -443,6 +443,7 @@
           <div id="rosterList" class="roster-scroll"></div>
           <div id="completenessWarning" class="warn-box" style="display:none;"></div>
           <div id="completenessOkBox" class="ok-box" style="display:none;"></div>
+          <div id="motionQualityBox" class="warn-box" style="display:none;"></div>
         </div>
 
         <div class="card">
@@ -790,9 +791,24 @@
         renderParityHeader();
         renderBenchmarkTable();
 
-        const firstChar = bRes.roster.characters[0] || null;
+        const reviewQuery = typeof URLSearchParams === 'function'
+          ? new URLSearchParams(globalThis.location?.search || '') : null;
+        const firstChar = bRes.roster.characters.find(c => c.character_id === reviewQuery?.get('character'))
+          || bRes.roster.characters[0] || null;
         if (firstChar) {
           selectCharacter(firstChar.character_id);
+          const reviewClip = reviewQuery?.get('clip');
+          const reviewAnimation = getCharBundle(firstChar)?.animations[reviewClip];
+          if (reviewAnimation) {
+            state.activeClipName = reviewClip;
+            const requestedFrame = Number(reviewQuery.get('frame') || 0);
+            state.stepIdx = Number.isFinite(requestedFrame)
+              ? Math.max(0, Math.min(reviewAnimation.frames.length - 1, Math.floor(requestedFrame))) : 0;
+            state.stepElapsedMs = 0;
+            state.playing = reviewQuery.get('paused') !== '1';
+            syncClipChoices();
+            updatePlayButtonUI();
+          }
         } else {
           renderEmptyStateUI();
         }
@@ -841,6 +857,7 @@
       const ch = (state.api.roster.characters || []).find(c => c.character_id === charId);
       if (!ch) return;
       state.activeChar = ch;
+      arena.actionClip=null; arena.turnTargetFlip=null; arena.clip='idle'; arena.step=0; arena.elapsed=0;
       state.archMode = 'combined_1layer';
       const independent = getCharBundle(ch)?.render_contract;
       const hasAura = Boolean(independent?.aura?.loop_clip && getCharBundle(ch)?.animations[independent.aura.loop_clip]);
@@ -849,7 +866,7 @@
       document.getElementById('chkIndependentAura').checked=Boolean(hasAura && state.auraEnabled);
       document.getElementById('attachmentRuntimeNote').textContent=independent ? 'Thân và FX độc lập • chung một atlas • có thêm quad khi bật FX. Tab Stress hiện vẽ riêng sprite thân.' : '';
       document.getElementById('btnJump').disabled=!getCharBundle(ch)?.animations.jump;
-      document.getElementById('arenaControlHint').textContent=independent ? (independent.locomotion?.kind==='flight' ? 'A/D: bay ngang • E: bật/tắt Ki • nút kỹ năng bên phải' : (hasAura ? 'A/D: di chuyển • E: bật/tắt Ki • nút kỹ năng bên phải' : 'A/D: đi bộ • Shift: chạy • nút kỹ năng bên phải')) : 'A/D: đi bộ • Shift: chạy • W/Space: nhảy';
+      document.getElementById('arenaControlHint').textContent=independent ? (independent.locomotion?.kind==='flight' ? 'A/D: bay ngang • E: bật/tắt Ki • nút kỹ năng bên phải' : (hasAura ? 'A/D: di chuyển • E: bật/tắt Ki • nút kỹ năng bên phải' : (getCharBundle(ch)?.animations.run ? 'A/D: đi bộ • Shift: chạy • nút kỹ năng bên phải' : 'A/D: đi bộ • nút kỹ năng bên phải'))) : 'A/D: đi bộ • Shift: chạy • W/Space: nhảy';
 
       const [cw, chPx] = getCanvasSize(ch);
       ensureOffscreenSize(cw, chPx);
@@ -991,6 +1008,11 @@
     function renderCharMetricsAndWarnings() {
       const ch = state.activeChar;
       const warnEl = document.getElementById('completenessWarning');
+      const motionEl = document.getElementById('motionQualityBox');
+      const mq = state.api.motion_quality?.characters?.[ch?.character_id];
+      motionEl.style.display = mq ? 'block' : 'none';
+      if (mq) motionEl.textContent = mq.release_approved ? 'Hoạt ảnh đã được Owner nghiệm thu.' :
+        (mq.ok_for_human_test ? 'Bộ keyframe đã tự rà soát; đang chờ Owner Human Test. Kiểm tra kỹ thuật không thay thế nghiệm thu chuyển động.' : 'Motion FAIL / chưa đủ review: '+mq.errors.join(' • '));
       const okEl = document.getElementById('completenessOkBox');
       if (!ch) {
         warnEl.style.display = 'none';
@@ -1883,7 +1905,7 @@
         container.appendChild(msg);
         return;
       }
-      const passive = new Set(['idle', 'walk', 'fly', 'run', 'jump', 'guard', 'aura_loop', 'hit', 'ko', 'win']);
+      const passive = new Set(['idle', 'walk', 'fly', 'run', 'jump', 'guard', 'aura_loop', 'hit', 'ko', 'win', 'turn']);
       const skillNames = Object.keys(b.animations).filter(n => !passive.has(n) && (!b.render_contract || b.render_contract.body_clips.includes(n)));
       skillNames.slice(0, ARENA_HOTKEYS.length).forEach((clipName, idx) => {
         const hk = ARENA_HOTKEYS[idx];
@@ -1904,6 +1926,7 @@
       rageMode: true,
       flip: false,
       actionClip: null,
+      turnTargetFlip: null,
       clip: 'idle',
       step: 0,
       elapsed: 0,
@@ -1922,6 +1945,7 @@
     };
 
     function triggerArenaAction(clipName) {
+      if (arena.turnTargetFlip !== null) return;
       const b = getCharBundle();
       if (!b || !b.animations[clipName]) return;
       arena.actionClip = clipName;
@@ -2014,9 +2038,15 @@
         const goLeft = arena.keys['ArrowLeft'] || arena.keys['KeyA'] || arena.holdLeft;
         const isRun = Boolean((arena.keys['ShiftLeft'] || arena.keys['ShiftRight']) && b.animations['run']);
         const dir = (goRight ? 1 : 0) - (goLeft ? 1 : 0);
-        const moveSpeed = arena.actionClip ? 0.08 : (isRun ? 0.44 : 0.27);
+        const turnClip=b.render_contract?.turning?.clip;
+        if (dir !== 0 && !arena.actionClip && arena.flip !== (dir < 0)) {
+          if (turnClip && b.animations[turnClip]) {
+            arena.turnTargetFlip=dir<0;
+            arena.actionClip=turnClip; arena.clip=turnClip; arena.step=0; arena.elapsed=0;
+          } else arena.flip=dir<0;
+        }
+        const moveSpeed = arena.turnTargetFlip !== null ? 0 : (arena.actionClip ? 0.08 : (isRun ? 0.44 : 0.27));
         arena.x = Math.max(80, Math.min(880, arena.x + dir * moveSpeed * dtMs));
-        if (dir !== 0 && !arena.actionClip) arena.flip = dir < 0;
 
         arena.y += arena.vy * dtMs;
         if (arena.y < arena.groundY) {
@@ -2051,6 +2081,9 @@
           if (arena.step + 1 < curAnim.frames.length) {
             arena.step++;
           } else if (arena.actionClip) {
+            if (arena.turnTargetFlip !== null) {
+              arena.flip=arena.turnTargetFlip; arena.turnTargetFlip=null;
+            }
             arena.actionClip = null;
             arena.clip = (!b.render_contract && arena.rageMode && b.animations['aura_loop']) ? 'aura_loop' : 'idle';
             arena.step = 0;

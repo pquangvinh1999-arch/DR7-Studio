@@ -1,0 +1,46 @@
+{
+  "schema": "dr7-studio.character_sharpness_standard.v1",
+  "status": "owner_selected_visual_standard",
+  "owner_message": "sau đó lấy độ nét vừa nâng cấp của rex là độ nét chung cho các nhân vật sau để khi tạo agent có mốc dựa theo để tạo được đồng bộ.",
+  "scope": "Sharpness/density only; does not approve T-rex animation candidate",
+  "reference_frame": "t_rex idle0 after TASK048 restoration",
+  "reference_atlas_sha256": "616ad71fb609acb7238a5e3bf502ec6a97f2575326234b1e91ac81d610c2d9c7",
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "gameplay_detail_pitch_px": 1,
+  "reference_ppu": 64,
+  "texels_per_meter_at_reference_ppu": 64,
+  "metrics": {
+    "file": "docs/art-standards/t-rex-sharpness-reference.png",
+    "file_sha256": "8c46b31b6fd328fef3b5b4bd8a1d1ebbd30d51f4d5720c673b3f2437ad565311",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      94,
+      186,
+      134
+    ],
+    "visible_pixels": 8604,
+    "rgb_colors": 5795,
+    "edge_acutance_sobel": 245.516,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9665697674418605,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  "supersedes": "100x100 logical master / 2xNearest / forced16colors / declaredSobel201.3",
+  "rules": [
+    "Use native1px detail at intended gameplay scale; Nearest only.",
+    "Match actual reference appearance and measure same method; no forced scalar or invented numeric tolerance.",
+    "Body hard alpha100%; VFX may use soft alpha.",
+    "Anatomical connectivity and perspective animation require independent review.",
+    "Do not alter approved characters without Owner scope."
+  ]
+}
