@@ -1,6 +1,6 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-12T07:38:36.605057+00:00",
+  "updated_at": "2026-11-12T07:41:44.161679+00:00",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
     "version": "0.6.0",
@@ -80,8 +80,8 @@
   },
   "current_focus": {
     "active_task_id": "TASK-053",
-    "status": "verified_ready_to_push",
-    "summary": "Owner chốt 3 nhân vật, v0.6.0; đã dọn 2971 PNG/231.32 MiB, giữ nguồn cuối/runtime/filmstrip. loop test26Python/E2E+3Godotbundle+2Rust exit0; WASM build/E2E exit0; HTTP/parity khớp. Chuẩn bị commit/push main."
+    "status": "completed",
+    "summary": "Đã chốt T-rex walk-style-v4, Pteranodon master-match-v9 và Spinosaurus theo Owner; version0.6.0, receipt/PIPE001-003 ràng buộc đúng SHA. Dọn2971PNG/231.32MiB; giữ152PNG nguồn/review và toàn bộ runtime. loop test26Python/E2E+3Godotbundle+2Rust exit0; WASM build/E2E exit0; HTTP paritytrue. Release commit f051b3f đã push main, CI43177028684 completed/success. Chờ Owner mô tả bước tiếp theo."
   },
   "open_issues": [],
   "resolved_issues": [
@@ -424,9 +424,9 @@
     },
     {
       "id": "TASK-053",
-      "timestamp": "2026-11-12T07:38:36.605057+00:00",
-      "status": "verified_ready_to_push",
-      "summary": "Owner chốt 3 nhân vật, v0.6.0; đã dọn 2971 PNG/231.32 MiB, giữ nguồn cuối/runtime/filmstrip. loop test26Python/E2E+3Godotbundle+2Rust exit0; WASM build/E2E exit0; HTTP/parity khớp. Chuẩn bị commit/push main."
+      "timestamp": "2026-11-12T07:41:44.161679+00:00",
+      "status": "completed",
+      "summary": "Đã chốt T-rex walk-style-v4, Pteranodon master-match-v9 và Spinosaurus theo Owner; version0.6.0, receipt/PIPE001-003 ràng buộc đúng SHA. Dọn2971PNG/231.32MiB; giữ152PNG nguồn/review và toàn bộ runtime. loop test26Python/E2E+3Godotbundle+2Rust exit0; WASM build/E2E exit0; HTTP paritytrue. Release commit f051b3f đã push main, CI43177028684 completed/success. Chờ Owner mô tả bước tiếp theo."
     }
   ],
   "quick_resume_commands": [
@@ -435,7 +435,7 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Hoàn tất kiểm thử và push v0.6.0 main; sau đó chờ Owner mô tả bước tiếp theo.",
+    "next_action": "Chờ Owner mô tả bước tiếp theo; cả 3 nhân vật hiện hành đã nghiệm thu, không tự sửa art/timing.",
     "asset_status": "Cả 3 nhân vật owner_approved; atlas giữ nguyên byte.",
     "approval_file": "docs/releases/v0.6.0-owner-approval.json",
     "cleanup_report": "docs/releases/v0.6.0-png-cleanup.json",
@@ -443,7 +443,10 @@
     "git_checkpoint": {
       "branch": "main",
       "remote": "origin",
-      "note": "Release work in progress; use git log for final commit."
+      "source_code_commit": "f051b3f1e8097d5613bcfe0d38745e8a717ce90a",
+      "ci_status": "success",
+      "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43177028684",
+      "note": "Release source đã push và CI thành công; bản ghi handoff được commit tiếp. Xem git log và origin/main để lấy HEAD cuối."
     }
   },
   "approved_workflows": [

@@ -1,0 +1,73 @@
+Refreshing run status every 10 seconds. Press Ctrl+C to quit.
+
+* main DR7-Studio Governance, Engine Parity & Unit Tests · 43177028684
+Triggered via push less than a minute ago
+
+JOBS
+* verify (ID 131043660404)
+  ✓ Set up job
+  ✓ Checkout repository
+  ✓ Set up Python
+  ✓ Set up Node.js for Frontend + WASM E2E Test
+  ✓ Install pixel asset verification dependencies
+  ✓ Set up Rust Toolchain
+  ✓ Run DR7 Governance & Engine-Localhost Parity Check
+  * Run Python & Frontend WASM E2E Unit Tests
+  * Run Rust >2,000 Real-Time Combat Core Unit Tests
+  * Build Rust WASM library
+  * Install verified Godot version
+  * Import textures and verify Godot character bundles
+  * Post Set up Node.js for Frontend + WASM E2E Test
+  * Post Set up Python
+  * Post Checkout repository
+Refreshing run status every 10 seconds. Press Ctrl+C to quit.
+
+* main DR7-Studio Governance, Engine Parity & Unit Tests · 43177028684
+Triggered via push less than a minute ago
+
+JOBS
+* verify (ID 131043660404)
+  ✓ Set up job
+  ✓ Checkout repository
+  ✓ Set up Python
+  ✓ Set up Node.js for Frontend + WASM E2E Test
+  ✓ Install pixel asset verification dependencies
+  ✓ Set up Rust Toolchain
+  ✓ Run DR7 Governance & Engine-Localhost Parity Check
+  ✓ Run Python & Frontend WASM E2E Unit Tests
+  ✓ Run Rust >2,000 Real-Time Combat Core Unit Tests
+  ✓ Build Rust WASM library
+  ✓ Install verified Godot version
+  * Import textures and verify Godot character bundles
+  * Post Set up Node.js for Frontend + WASM E2E Test
+  * Post Set up Python
+  * Post Checkout repository
+✓ main DR7-Studio Governance, Engine Parity & Unit Tests · 43177028684
+Triggered via push less than a minute ago
+
+JOBS
+✓ verify in 34s (ID 131043660404)
+  ✓ Set up job
+  ✓ Checkout repository
+  ✓ Set up Python
+  ✓ Set up Node.js for Frontend + WASM E2E Test
+  ✓ Install pixel asset verification dependencies
+  ✓ Set up Rust Toolchain
+  ✓ Run DR7 Governance & Engine-Localhost Parity Check
+  ✓ Run Python & Frontend WASM E2E Unit Tests
+  ✓ Run Rust >2,000 Real-Time Combat Core Unit Tests
+  ✓ Build Rust WASM library
+  ✓ Install verified Godot version
+  ✓ Import textures and verify Godot character bundles
+  ✓ Post Set up Node.js for Frontend + WASM E2E Test
+  ✓ Post Set up Python
+  ✓ Post Checkout repository
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+verify: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+verify: .github#1
+
