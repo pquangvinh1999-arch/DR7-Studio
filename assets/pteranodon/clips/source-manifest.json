@@ -3,14 +3,14 @@
   "art_source": "host_image",
   "pixel_art": true,
   "sampling": "nearest",
-  "body_height_px": 132,
+  "body_height_px": 107,
   "anchor_px": [
     176.0,
     200.0
   ],
   "shadow": {
-    "rx": 36,
-    "ry": 9,
+    "rx": 29,
+    "ry": 7,
     "opacity": 0.35
   },
   "frames": [

@@ -1,0 +1,190 @@
+[
+  {
+    "index": 0,
+    "kind": "owner_source",
+    "sheet_sha256": "2772a0e7e7b6cef7062cb47221c8c55b84d1311d19f0ee29b404a3745079c5ee",
+    "source_center_px": [
+      551,
+      40
+    ],
+    "source_owned_bbox_xyxy": [
+      514,
+      4,
+      589,
+      78
+    ],
+    "source_interior_rgb_unchanged": true,
+    "source_foreground_rgb_unchanged": false,
+    "edge_unmix_only_px": 168,
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "key_rgb": [
+      0,
+      0,
+      128
+    ],
+    "key_threshold_max_channel": 16,
+    "newly_generated": false
+  },
+  {
+    "index": 1,
+    "kind": "owner_source",
+    "sheet_sha256": "2772a0e7e7b6cef7062cb47221c8c55b84d1311d19f0ee29b404a3745079c5ee",
+    "source_center_px": [
+      449,
+      40
+    ],
+    "source_owned_bbox_xyxy": [
+      412,
+      4,
+      487,
+      78
+    ],
+    "source_interior_rgb_unchanged": true,
+    "source_foreground_rgb_unchanged": false,
+    "edge_unmix_only_px": 446,
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "key_rgb": [
+      0,
+      0,
+      128
+    ],
+    "key_threshold_max_channel": 16,
+    "newly_generated": false
+  },
+  {
+    "index": 2,
+    "kind": "owner_source",
+    "sheet_sha256": "2772a0e7e7b6cef7062cb47221c8c55b84d1311d19f0ee29b404a3745079c5ee",
+    "source_center_px": [
+      350,
+      41
+    ],
+    "source_owned_bbox_xyxy": [
+      313,
+      4,
+      388,
+      79
+    ],
+    "source_interior_rgb_unchanged": true,
+    "source_foreground_rgb_unchanged": false,
+    "edge_unmix_only_px": 573,
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "key_rgb": [
+      0,
+      0,
+      128
+    ],
+    "key_threshold_max_channel": 16,
+    "newly_generated": false
+  },
+  {
+    "index": 3,
+    "kind": "owner_source",
+    "sheet_sha256": "2772a0e7e7b6cef7062cb47221c8c55b84d1311d19f0ee29b404a3745079c5ee",
+    "source_center_px": [
+      248,
+      41
+    ],
+    "source_owned_bbox_xyxy": [
+      211,
+      4,
+      286,
+      79
+    ],
+    "source_interior_rgb_unchanged": true,
+    "source_foreground_rgb_unchanged": false,
+    "edge_unmix_only_px": 308,
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "key_rgb": [
+      0,
+      0,
+      128
+    ],
+    "key_threshold_max_channel": 16,
+    "newly_generated": false
+  },
+  {
+    "index": 4,
+    "kind": "owner_source",
+    "sheet_sha256": "2772a0e7e7b6cef7062cb47221c8c55b84d1311d19f0ee29b404a3745079c5ee",
+    "source_center_px": [
+      143,
+      41
+    ],
+    "source_owned_bbox_xyxy": [
+      106,
+      4,
+      181,
+      79
+    ],
+    "source_interior_rgb_unchanged": true,
+    "source_foreground_rgb_unchanged": false,
+    "edge_unmix_only_px": 216,
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "key_rgb": [
+      0,
+      0,
+      128
+    ],
+    "key_threshold_max_channel": 16,
+    "newly_generated": false
+  },
+  {
+    "index": 5,
+    "kind": "owner_source",
+    "sheet_sha256": "2772a0e7e7b6cef7062cb47221c8c55b84d1311d19f0ee29b404a3745079c5ee",
+    "source_center_px": [
+      44,
+      40
+    ],
+    "source_owned_bbox_xyxy": [
+      10,
+      7,
+      79,
+      75
+    ],
+    "source_interior_rgb_unchanged": true,
+    "source_foreground_rgb_unchanged": false,
+    "edge_unmix_only_px": 192,
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "key_rgb": [
+      0,
+      0,
+      128
+    ],
+    "key_threshold_max_channel": 16,
+    "newly_generated": false
+  },
+  {
+    "index": 6,
+    "kind": "imagegen_new_bridge",
+    "source_sha256": "d047158fb96f531011affcfe9bfebf80953ae3123a3c86527b1bd0eb7d5e4b69",
+    "source_crop_xywh": [
+      292,
+      382,
+      292,
+      292
+    ],
+    "normalization": "wholeFX292->75nearest",
+    "newly_generated": true
+  },
+  {
+    "index": 7,
+    "kind": "imagegen_new_bridge",
+    "source_sha256": "d047158fb96f531011affcfe9bfebf80953ae3123a3c86527b1bd0eb7d5e4b69",
+    "source_crop_xywh": [
+      950,
+      380,
+      292,
+      292
+    ],
+    "normalization": "wholeFX292->75nearest",
+    "newly_generated": true
+  }
+]

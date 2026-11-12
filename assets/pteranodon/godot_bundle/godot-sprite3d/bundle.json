@@ -1,7 +1,7 @@
 {
   "schema": "generate2dsprite.godot_sprite3d_bundle.v1",
   "default_action": "idle",
-  "world_height": 1.32,
+  "world_height": 1.07,
   "world_height_max_drift": 0.0,
   "pixel_size": 0.01,
   "pixel_size_max_drift": 0.0,

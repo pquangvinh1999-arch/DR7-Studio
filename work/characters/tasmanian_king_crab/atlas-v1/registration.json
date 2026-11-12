@@ -1,0 +1,1290 @@
+[
+  {
+    "clip": "idle",
+    "index": 0,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/idle.png",
+    "source_sha256": "91cd3fe2485b5f75cd3c09f2cfd6c8c64301be7cda0a271e00ed285ba79bf79b",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_owned_bbox_xyxy": [
+      104,
+      193,
+      272,
+      272
+    ],
+    "source_row_ground_y": 273,
+    "shared_action_scale": 0.7916666666666666,
+    "source_root_x": 188.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      110,
+      160,
+      243,
+      224
+    ],
+    "frame_sha256": "5c93785ff07a1578c9c504cd5ca683da0df50bb9075bb877301efc38b62722ea"
+  },
+  {
+    "clip": "idle",
+    "index": 1,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/idle.png",
+    "source_sha256": "91cd3fe2485b5f75cd3c09f2cfd6c8c64301be7cda0a271e00ed285ba79bf79b",
+    "ownership_component_ids": [
+      3,
+      5
+    ],
+    "source_owned_bbox_xyxy": [
+      488,
+      189,
+      657,
+      273
+    ],
+    "source_row_ground_y": 273,
+    "shared_action_scale": 0.7916666666666666,
+    "source_root_x": 572.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      110,
+      157,
+      243,
+      224
+    ],
+    "frame_sha256": "22a9b0d10a5220e2fad7da281bebdd36c04bc772c4a12d8dbba3e0f1d59d104e"
+  },
+  {
+    "clip": "idle",
+    "index": 2,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/idle.png",
+    "source_sha256": "91cd3fe2485b5f75cd3c09f2cfd6c8c64301be7cda0a271e00ed285ba79bf79b",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_owned_bbox_xyxy": [
+      872,
+      184,
+      1042,
+      271
+    ],
+    "source_row_ground_y": 273,
+    "shared_action_scale": 0.7916666666666666,
+    "source_root_x": 956.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      154,
+      244,
+      222
+    ],
+    "frame_sha256": "7dcd2d25094ee3902ecf12171ab99ede5c25210daf2e2a4a7240102727ed5f8c"
+  },
+  {
+    "clip": "idle",
+    "index": 3,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/idle.png",
+    "source_sha256": "91cd3fe2485b5f75cd3c09f2cfd6c8c64301be7cda0a271e00ed285ba79bf79b",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_owned_bbox_xyxy": [
+      1257,
+      181,
+      1426,
+      271
+    ],
+    "source_row_ground_y": 273,
+    "shared_action_scale": 0.7916666666666666,
+    "source_root_x": 1340.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      110,
+      151,
+      244,
+      222
+    ],
+    "frame_sha256": "a6840c07c64bc2f66b616fdfd0deb39c776496ab6888e1e589525d3fca21d0eb"
+  },
+  {
+    "clip": "idle",
+    "index": 4,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/idle.png",
+    "source_sha256": "91cd3fe2485b5f75cd3c09f2cfd6c8c64301be7cda0a271e00ed285ba79bf79b",
+    "ownership_component_ids": [
+      6
+    ],
+    "source_owned_bbox_xyxy": [
+      103,
+      493,
+      274,
+      578
+    ],
+    "source_row_ground_y": 578,
+    "shared_action_scale": 0.7916666666666666,
+    "source_root_x": 188.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      157,
+      244,
+      224
+    ],
+    "frame_sha256": "bb0cc3c73edc78b675a524698cb06ce3c104e75dca6a26829d190be933aff4bc"
+  },
+  {
+    "clip": "idle",
+    "index": 5,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/idle.png",
+    "source_sha256": "91cd3fe2485b5f75cd3c09f2cfd6c8c64301be7cda0a271e00ed285ba79bf79b",
+    "ownership_component_ids": [
+      9
+    ],
+    "source_owned_bbox_xyxy": [
+      485,
+      501,
+      658,
+      578
+    ],
+    "source_row_ground_y": 578,
+    "shared_action_scale": 0.7916666666666666,
+    "source_root_x": 572.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      107,
+      163,
+      244,
+      224
+    ],
+    "frame_sha256": "ef19ffe7a60d6a56aa7524815070d8af89d5c004f811cb4d6719097b1e23e929"
+  },
+  {
+    "clip": "idle",
+    "index": 6,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/idle.png",
+    "source_sha256": "91cd3fe2485b5f75cd3c09f2cfd6c8c64301be7cda0a271e00ed285ba79bf79b",
+    "ownership_component_ids": [
+      7,
+      10
+    ],
+    "source_owned_bbox_xyxy": [
+      871,
+      497,
+      1043,
+      578
+    ],
+    "source_row_ground_y": 578,
+    "shared_action_scale": 0.7916666666666666,
+    "source_root_x": 956.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      160,
+      245,
+      224
+    ],
+    "frame_sha256": "0c49486f84dae6fd1295e6f80bb7eb37b4c116541761873ea15c508cfdee12f0"
+  },
+  {
+    "clip": "idle",
+    "index": 7,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/idle.png",
+    "source_sha256": "91cd3fe2485b5f75cd3c09f2cfd6c8c64301be7cda0a271e00ed285ba79bf79b",
+    "ownership_component_ids": [
+      8
+    ],
+    "source_owned_bbox_xyxy": [
+      1255,
+      497,
+      1427,
+      578
+    ],
+    "source_row_ground_y": 578,
+    "shared_action_scale": 0.7916666666666666,
+    "source_root_x": 1340.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      160,
+      245,
+      224
+    ],
+    "frame_sha256": "be3066e78568bba2b0afc02b8fcbff6fade63a5424bc23e760edf8f010592402"
+  },
+  {
+    "clip": "walk",
+    "index": 0,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/walk.png",
+    "source_sha256": "73a95f8340fc6ddbbd161d2338356a8cb4dd4a592bfc3411d1217de0c6cbb9c8",
+    "ownership_component_ids": [
+      1,
+      6,
+      7
+    ],
+    "source_owned_bbox_xyxy": [
+      104,
+      191,
+      276,
+      271
+    ],
+    "source_row_ground_y": 271,
+    "shared_action_scale": 0.7732558139534884,
+    "source_root_x": 190.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      110,
+      162,
+      243,
+      224
+    ],
+    "frame_sha256": "96519a5f5b14cc858a6f0489769cc4b758c44b6cf8e0d46509a2f3fc36593843"
+  },
+  {
+    "clip": "walk",
+    "index": 1,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/walk.png",
+    "source_sha256": "73a95f8340fc6ddbbd161d2338356a8cb4dd4a592bfc3411d1217de0c6cbb9c8",
+    "ownership_component_ids": [
+      2,
+      5
+    ],
+    "source_owned_bbox_xyxy": [
+      490,
+      191,
+      660,
+      270
+    ],
+    "source_row_ground_y": 271,
+    "shared_action_scale": 0.7732558139534884,
+    "source_root_x": 574.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      111,
+      162,
+      242,
+      223
+    ],
+    "frame_sha256": "594e43ecd82456a705371231f881a187dd4a8da67b7796370c725155c76682ff"
+  },
+  {
+    "clip": "walk",
+    "index": 2,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/walk.png",
+    "source_sha256": "73a95f8340fc6ddbbd161d2338356a8cb4dd4a592bfc3411d1217de0c6cbb9c8",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_owned_bbox_xyxy": [
+      871,
+      191,
+      1048,
+      271
+    ],
+    "source_row_ground_y": 271,
+    "shared_action_scale": 0.7732558139534884,
+    "source_root_x": 958.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      162,
+      246,
+      224
+    ],
+    "frame_sha256": "c0e2e4c2b6e82b414be503508b35e9686d37a1fa2fd433b2532c3cf33e0b5abb"
+  },
+  {
+    "clip": "walk",
+    "index": 3,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/walk.png",
+    "source_sha256": "73a95f8340fc6ddbbd161d2338356a8cb4dd4a592bfc3411d1217de0c6cbb9c8",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_owned_bbox_xyxy": [
+      1264,
+      191,
+      1433,
+      271
+    ],
+    "source_row_ground_y": 271,
+    "shared_action_scale": 0.7732558139534884,
+    "source_root_x": 1342.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      116,
+      162,
+      246,
+      224
+    ],
+    "frame_sha256": "3ec1c0e2e555346cf327a7d126acdd5ef480dac1cf0f29d0817a26d34586a286"
+  },
+  {
+    "clip": "walk",
+    "index": 4,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/walk.png",
+    "source_sha256": "73a95f8340fc6ddbbd161d2338356a8cb4dd4a592bfc3411d1217de0c6cbb9c8",
+    "ownership_component_ids": [
+      8,
+      12
+    ],
+    "source_owned_bbox_xyxy": [
+      110,
+      511,
+      281,
+      591
+    ],
+    "source_row_ground_y": 591,
+    "shared_action_scale": 0.7732558139534884,
+    "source_root_x": 190.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      114,
+      162,
+      246,
+      224
+    ],
+    "frame_sha256": "3a277df01ee6c65dfb2a79e3145fa05571694d09e92adfd21224276e555d411a"
+  },
+  {
+    "clip": "walk",
+    "index": 5,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/walk.png",
+    "source_sha256": "73a95f8340fc6ddbbd161d2338356a8cb4dd4a592bfc3411d1217de0c6cbb9c8",
+    "ownership_component_ids": [
+      10
+    ],
+    "source_owned_bbox_xyxy": [
+      493,
+      512,
+      670,
+      591
+    ],
+    "source_row_ground_y": 591,
+    "shared_action_scale": 0.7732558139534884,
+    "source_root_x": 574.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      113,
+      163,
+      250,
+      224
+    ],
+    "frame_sha256": "b0ffe3bc86286be681149c1a0b84c72c1e771e4228bfa8a0be29a34f446ae1fc"
+  },
+  {
+    "clip": "walk",
+    "index": 6,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/walk.png",
+    "source_sha256": "73a95f8340fc6ddbbd161d2338356a8cb4dd4a592bfc3411d1217de0c6cbb9c8",
+    "ownership_component_ids": [
+      9
+    ],
+    "source_owned_bbox_xyxy": [
+      878,
+      511,
+      1053,
+      591
+    ],
+    "source_row_ground_y": 591,
+    "shared_action_scale": 0.7732558139534884,
+    "source_root_x": 958.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      114,
+      162,
+      249,
+      224
+    ],
+    "frame_sha256": "6f1cba749bd65a7e9893e41598d83fb03a6e4297644439b69482012c909829c8"
+  },
+  {
+    "clip": "walk",
+    "index": 7,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/walk.png",
+    "source_sha256": "73a95f8340fc6ddbbd161d2338356a8cb4dd4a592bfc3411d1217de0c6cbb9c8",
+    "ownership_component_ids": [
+      11
+    ],
+    "source_owned_bbox_xyxy": [
+      1259,
+      512,
+      1430,
+      591
+    ],
+    "source_row_ground_y": 591,
+    "shared_action_scale": 0.7732558139534884,
+    "source_root_x": 1342.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      112,
+      163,
+      244,
+      224
+    ],
+    "frame_sha256": "e9a54bd732200010b72d2ec2d49e689c7495fa8d97e1c924ea1ad1b5b0a0c9e7"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 0,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/attack_nomal-v2.png",
+    "source_sha256": "50482b7562234ac0dda5c249df31b5de05c1a5c4295219b776940ceb280debec",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_owned_bbox_xyxy": [
+      87,
+      188,
+      281,
+      281
+    ],
+    "source_row_ground_y": 284,
+    "shared_action_scale": 0.6855670103092784,
+    "source_root_x": 184.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      158,
+      242,
+      222
+    ],
+    "frame_sha256": "2b46fa2e3525017977b6e9f9c888ed62f2f3a79154972a300c8c68b6afe0dc58"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 1,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/attack_nomal-v2.png",
+    "source_sha256": "50482b7562234ac0dda5c249df31b5de05c1a5c4295219b776940ceb280debec",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_owned_bbox_xyxy": [
+      456,
+      190,
+      665,
+      282
+    ],
+    "source_row_ground_y": 284,
+    "shared_action_scale": 0.6855670103092784,
+    "source_root_x": 568.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      99,
+      160,
+      242,
+      222
+    ],
+    "frame_sha256": "dac2e7428e0580b758b3d49d139ab4a4871ceca913e4552f89bba22534ad4ed5"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 2,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/attack_nomal-v2.png",
+    "source_sha256": "50482b7562234ac0dda5c249df31b5de05c1a5c4295219b776940ceb280debec",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_owned_bbox_xyxy": [
+      841,
+      187,
+      1048,
+      280
+    ],
+    "source_row_ground_y": 284,
+    "shared_action_scale": 0.6855670103092784,
+    "source_root_x": 952.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      100,
+      157,
+      242,
+      221
+    ],
+    "frame_sha256": "3914072b720e07947bd640fe4e429a21f38817a9d1f49f3a984cdd409af01956"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 3,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/attack_nomal-v2.png",
+    "source_sha256": "50482b7562234ac0dda5c249df31b5de05c1a5c4295219b776940ceb280debec",
+    "ownership_component_ids": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "source_owned_bbox_xyxy": [
+      1213,
+      190,
+      1470,
+      284
+    ],
+    "source_row_ground_y": 284,
+    "shared_action_scale": 0.6855670103092784,
+    "source_root_x": 1336.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      92,
+      160,
+      268,
+      224
+    ],
+    "frame_sha256": "91fa3efa51523bf69256afe16e15eff48be698e055bd4cb897725dda4175d819"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 4,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/attack_nomal-v2.png",
+    "source_sha256": "50482b7562234ac0dda5c249df31b5de05c1a5c4295219b776940ceb280debec",
+    "ownership_component_ids": [
+      43,
+      49,
+      50,
+      52,
+      53,
+      55,
+      56,
+      58,
+      59,
+      60,
+      62,
+      65,
+      67,
+      69,
+      70,
+      71,
+      73,
+      75,
+      77,
+      80,
+      82,
+      83
+    ],
+    "source_owned_bbox_xyxy": [
+      79,
+      509,
+      340,
+      599
+    ],
+    "source_row_ground_y": 602,
+    "shared_action_scale": 0.6855670103092784,
+    "source_root_x": 184.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      104,
+      160,
+      283,
+      222
+    ],
+    "frame_sha256": "3d4d12d208af171a27c1a8de86cf4cb8fee06103b61568e9c451cc2a08209935"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 5,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/attack_nomal-v2.png",
+    "source_sha256": "50482b7562234ac0dda5c249df31b5de05c1a5c4295219b776940ceb280debec",
+    "ownership_component_ids": [
+      46,
+      47,
+      48,
+      51,
+      54,
+      57,
+      61,
+      63,
+      64,
+      66,
+      68,
+      72,
+      74,
+      76,
+      78,
+      79,
+      81
+    ],
+    "source_owned_bbox_xyxy": [
+      463,
+      511,
+      712,
+      596
+    ],
+    "source_row_ground_y": 602,
+    "shared_action_scale": 0.6855670103092784,
+    "source_root_x": 568.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      104,
+      162,
+      275,
+      220
+    ],
+    "frame_sha256": "b772544e6021c00aec847c57a7487001d2b0950d543ecc40251787a476132908"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 6,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/attack_nomal-v2.png",
+    "source_sha256": "50482b7562234ac0dda5c249df31b5de05c1a5c4295219b776940ceb280debec",
+    "ownership_component_ids": [
+      44
+    ],
+    "source_owned_bbox_xyxy": [
+      845,
+      510,
+      1050,
+      599
+    ],
+    "source_row_ground_y": 602,
+    "shared_action_scale": 0.6855670103092784,
+    "source_root_x": 952.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      103,
+      161,
+      243,
+      222
+    ],
+    "frame_sha256": "90a31316994bb519dc44bbb49202725d2f2012f19ba5864810a9157a8406a4bf"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 7,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/attack_nomal-v2.png",
+    "source_sha256": "50482b7562234ac0dda5c249df31b5de05c1a5c4295219b776940ceb280debec",
+    "ownership_component_ids": [
+      45
+    ],
+    "source_owned_bbox_xyxy": [
+      1236,
+      510,
+      1435,
+      602
+    ],
+    "source_row_ground_y": 602,
+    "shared_action_scale": 0.6855670103092784,
+    "source_root_x": 1336.0,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      107,
+      161,
+      244,
+      224
+    ],
+    "frame_sha256": "051816331f20f27fcc6d9ddce6dcb1f0974b551380dd0b4b57fb2c9ee3d9bc74"
+  },
+  {
+    "clip": "power_up",
+    "index": 0,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/power_up.png",
+    "source_sha256": "5a7c5ad5c8093ccbbc564cad5d179fcbcf9a9a1187e64fd9e4d7f0eff83a2b23",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_owned_bbox_xyxy": [
+      102,
+      198,
+      263,
+      272
+    ],
+    "source_row_ground_y": 272,
+    "shared_action_scale": 0.8260869565217391,
+    "source_root_x": 182.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      163,
+      242,
+      224
+    ],
+    "frame_sha256": "92a60fd958cf303d7f7a113cc3d51e42fc5a75f83418e6b9130f91730e6f9616"
+  },
+  {
+    "clip": "power_up",
+    "index": 1,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/power_up.png",
+    "source_sha256": "5a7c5ad5c8093ccbbc564cad5d179fcbcf9a9a1187e64fd9e4d7f0eff83a2b23",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_owned_bbox_xyxy": [
+      486,
+      154,
+      648,
+      271
+    ],
+    "source_row_ground_y": 272,
+    "shared_action_scale": 0.8260869565217391,
+    "source_root_x": 566.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      127,
+      243,
+      223
+    ],
+    "frame_sha256": "26de15a67e4c9633253f5a1b461e7fb4276b6ff9c205511c5705cff0d7193c51"
+  },
+  {
+    "clip": "power_up",
+    "index": 2,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/power_up.png",
+    "source_sha256": "5a7c5ad5c8093ccbbc564cad5d179fcbcf9a9a1187e64fd9e4d7f0eff83a2b23",
+    "ownership_component_ids": [
+      2,
+      5
+    ],
+    "source_owned_bbox_xyxy": [
+      866,
+      168,
+      1077,
+      269
+    ],
+    "source_row_ground_y": 272,
+    "shared_action_scale": 0.8260869565217391,
+    "source_root_x": 950.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      106,
+      138,
+      281,
+      222
+    ],
+    "frame_sha256": "4a84f4d23cedabf18f850199175289a5657f58211443cf69fb82fee742ece871"
+  },
+  {
+    "clip": "power_up",
+    "index": 3,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/power_up.png",
+    "source_sha256": "5a7c5ad5c8093ccbbc564cad5d179fcbcf9a9a1187e64fd9e4d7f0eff83a2b23",
+    "ownership_component_ids": [
+      3,
+      6
+    ],
+    "source_owned_bbox_xyxy": [
+      1251,
+      173,
+      1468,
+      269
+    ],
+    "source_row_ground_y": 272,
+    "shared_action_scale": 0.8260869565217391,
+    "source_root_x": 1334.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      107,
+      142,
+      286,
+      222
+    ],
+    "frame_sha256": "5da96e68ab2064d6cf9f30613f891288fee46a6fe3f6e9b1a482976966eb8e04"
+  },
+  {
+    "clip": "power_up",
+    "index": 4,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/power_up.png",
+    "source_sha256": "5a7c5ad5c8093ccbbc564cad5d179fcbcf9a9a1187e64fd9e4d7f0eff83a2b23",
+    "ownership_component_ids": [
+      7
+    ],
+    "source_owned_bbox_xyxy": [
+      100,
+      482,
+      304,
+      581
+    ],
+    "source_row_ground_y": 582,
+    "shared_action_scale": 0.8260869565217391,
+    "source_root_x": 182.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      108,
+      141,
+      276,
+      223
+    ],
+    "frame_sha256": "c324e5c764b2e683db4baa3aae949ec6d81247d089013106733b5f2e9be72673"
+  },
+  {
+    "clip": "power_up",
+    "index": 5,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/power_up.png",
+    "source_sha256": "5a7c5ad5c8093ccbbc564cad5d179fcbcf9a9a1187e64fd9e4d7f0eff83a2b23",
+    "ownership_component_ids": [
+      8
+    ],
+    "source_owned_bbox_xyxy": [
+      484,
+      498,
+      663,
+      581
+    ],
+    "source_row_ground_y": 582,
+    "shared_action_scale": 0.8260869565217391,
+    "source_root_x": 566.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      108,
+      155,
+      256,
+      223
+    ],
+    "frame_sha256": "581ec98f7ad5adbccfe3f3efcaa2f4aa37c76365aed9dfba8520994aeda2d8bc"
+  },
+  {
+    "clip": "power_up",
+    "index": 6,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/power_up.png",
+    "source_sha256": "5a7c5ad5c8093ccbbc564cad5d179fcbcf9a9a1187e64fd9e4d7f0eff83a2b23",
+    "ownership_component_ids": [
+      9
+    ],
+    "source_owned_bbox_xyxy": [
+      870,
+      505,
+      1034,
+      581
+    ],
+    "source_row_ground_y": 582,
+    "shared_action_scale": 0.8260869565217391,
+    "source_root_x": 950.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      160,
+      245,
+      223
+    ],
+    "frame_sha256": "5f78032a565a007b346f12631db1c080c918de0bc71bfe44af5d02612f8f7f7c"
+  },
+  {
+    "clip": "power_up",
+    "index": 7,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/power_up.png",
+    "source_sha256": "5a7c5ad5c8093ccbbc564cad5d179fcbcf9a9a1187e64fd9e4d7f0eff83a2b23",
+    "ownership_component_ids": [
+      10,
+      11
+    ],
+    "source_owned_bbox_xyxy": [
+      1254,
+      507,
+      1418,
+      582
+    ],
+    "source_row_ground_y": 582,
+    "shared_action_scale": 0.8260869565217391,
+    "source_root_x": 1334.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      110,
+      162,
+      245,
+      224
+    ],
+    "frame_sha256": "9c52408dcec2dfedf744814cfe976b1f5a93e2dc171f34782f0f18c59b75c06a"
+  },
+  {
+    "clip": "hit",
+    "index": 0,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/hit.png",
+    "source_sha256": "6873230eb9029c82b44132f866660c5f18ae5c9a1ef4da10d5d282c483497297",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_owned_bbox_xyxy": [
+      93,
+      178,
+      284,
+      270
+    ],
+    "source_row_ground_y": 270,
+    "shared_action_scale": 0.6963350785340314,
+    "source_root_x": 188.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      160,
+      243,
+      224
+    ],
+    "frame_sha256": "fd4c260ec40df1bfb886098c685540e46f4dee90d373854fdbe661c7feeb0a68"
+  },
+  {
+    "clip": "hit",
+    "index": 1,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/hit.png",
+    "source_sha256": "6873230eb9029c82b44132f866660c5f18ae5c9a1ef4da10d5d282c483497297",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_owned_bbox_xyxy": [
+      464,
+      172,
+      653,
+      269
+    ],
+    "source_row_ground_y": 270,
+    "shared_action_scale": 0.6963350785340314,
+    "source_root_x": 572.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      100,
+      156,
+      232,
+      223
+    ],
+    "frame_sha256": "84a1e1d2043869189e635466884ea8c27a9e73378d1f3ef533be82461c579f3e"
+  },
+  {
+    "clip": "hit",
+    "index": 2,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/hit.png",
+    "source_sha256": "6873230eb9029c82b44132f866660c5f18ae5c9a1ef4da10d5d282c483497297",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_owned_bbox_xyxy": [
+      848,
+      168,
+      1036,
+      268
+    ],
+    "source_row_ground_y": 270,
+    "shared_action_scale": 0.6963350785340314,
+    "source_root_x": 956.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      100,
+      153,
+      231,
+      223
+    ],
+    "frame_sha256": "bcc7e764f6dc5497cd3dd5ac32ef71cc2ef2d82fd7322ac56331dc5e10149946"
+  },
+  {
+    "clip": "hit",
+    "index": 3,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/hit.png",
+    "source_sha256": "6873230eb9029c82b44132f866660c5f18ae5c9a1ef4da10d5d282c483497297",
+    "ownership_component_ids": [
+      4,
+      5
+    ],
+    "source_owned_bbox_xyxy": [
+      1241,
+      184,
+      1414,
+      269
+    ],
+    "source_row_ground_y": 270,
+    "shared_action_scale": 0.6963350785340314,
+    "source_root_x": 1340.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      107,
+      164,
+      227,
+      223
+    ],
+    "frame_sha256": "29ef3209c6770444789356802bc659aa9bfcb7c14ed502aabe3e4afcf1a97822"
+  },
+  {
+    "clip": "hit",
+    "index": 4,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/hit.png",
+    "source_sha256": "6873230eb9029c82b44132f866660c5f18ae5c9a1ef4da10d5d282c483497297",
+    "ownership_component_ids": [
+      6,
+      9
+    ],
+    "source_owned_bbox_xyxy": [
+      89,
+      504,
+      284,
+      592
+    ],
+    "source_row_ground_y": 592,
+    "shared_action_scale": 0.6963350785340314,
+    "source_root_x": 188.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      107,
+      163,
+      243,
+      224
+    ],
+    "frame_sha256": "a4053d2d023dab7081d3d63862f9ae88c7386942073ce54361b1bfacb7e8f0a4"
+  },
+  {
+    "clip": "hit",
+    "index": 5,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/hit.png",
+    "source_sha256": "6873230eb9029c82b44132f866660c5f18ae5c9a1ef4da10d5d282c483497297",
+    "ownership_component_ids": [
+      8,
+      7
+    ],
+    "source_owned_bbox_xyxy": [
+      477,
+      504,
+      667,
+      592
+    ],
+    "source_row_ground_y": 592,
+    "shared_action_scale": 0.6963350785340314,
+    "source_root_x": 572.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      163,
+      242,
+      224
+    ],
+    "frame_sha256": "2a739642e8fac4b20a64bedaf68f675bd3180451f6725de1f296e5649fd331e4"
+  },
+  {
+    "clip": "ko",
+    "index": 0,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/ko.png",
+    "source_sha256": "397693b85562be502dc12400822cce4214c8ce1c66faf3d10fc6ac8378acb32c",
+    "ownership_component_ids": [
+      1,
+      3,
+      5
+    ],
+    "source_owned_bbox_xyxy": [
+      92,
+      165,
+      285,
+      268
+    ],
+    "source_row_ground_y": 274,
+    "shared_action_scale": 0.689119170984456,
+    "source_root_x": 188.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      109,
+      149,
+      243,
+      220
+    ],
+    "frame_sha256": "20c0289d711cf4bf260a9e0dcb72edfe97690e31807124425d9ec5e6e1e35c8e"
+  },
+  {
+    "clip": "ko",
+    "index": 1,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/ko.png",
+    "source_sha256": "397693b85562be502dc12400822cce4214c8ce1c66faf3d10fc6ac8378acb32c",
+    "ownership_component_ids": [
+      2,
+      6
+    ],
+    "source_owned_bbox_xyxy": [
+      479,
+      170,
+      670,
+      271
+    ],
+    "source_row_ground_y": 274,
+    "shared_action_scale": 0.689119170984456,
+    "source_root_x": 572.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      112,
+      152,
+      243,
+      222
+    ],
+    "frame_sha256": "80f493448adb675c4131905c505d47518f6660cc499dfed56f6e002c15645570"
+  },
+  {
+    "clip": "ko",
+    "index": 2,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/ko.png",
+    "source_sha256": "397693b85562be502dc12400822cce4214c8ce1c66faf3d10fc6ac8378acb32c",
+    "ownership_component_ids": [
+      4,
+      7,
+      8
+    ],
+    "source_owned_bbox_xyxy": [
+      863,
+      178,
+      1056,
+      274
+    ],
+    "source_row_ground_y": 274,
+    "shared_action_scale": 0.689119170984456,
+    "source_root_x": 956.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      112,
+      158,
+      245,
+      224
+    ],
+    "frame_sha256": "91850436bb9795cc47e563a7b4e24cf4d01d8b0f97b1591d5e59b9633409aa1e"
+  },
+  {
+    "clip": "ko",
+    "index": 3,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/ko.png",
+    "source_sha256": "397693b85562be502dc12400822cce4214c8ce1c66faf3d10fc6ac8378acb32c",
+    "ownership_component_ids": [
+      9
+    ],
+    "source_owned_bbox_xyxy": [
+      1247,
+      186,
+      1437,
+      274
+    ],
+    "source_row_ground_y": 274,
+    "shared_action_scale": 0.689119170984456,
+    "source_root_x": 1340.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      112,
+      164,
+      242,
+      224
+    ],
+    "frame_sha256": "9d151c57e781da1c3dceb15b111a271c51a3be224f89b2999126b89cf2ff69af"
+  },
+  {
+    "clip": "ko",
+    "index": 4,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/ko.png",
+    "source_sha256": "397693b85562be502dc12400822cce4214c8ce1c66faf3d10fc6ac8378acb32c",
+    "ownership_component_ids": [
+      10
+    ],
+    "source_owned_bbox_xyxy": [
+      95,
+      523,
+      287,
+      608
+    ],
+    "source_row_ground_y": 608,
+    "shared_action_scale": 0.689119170984456,
+    "source_root_x": 188.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      112,
+      165,
+      244,
+      224
+    ],
+    "frame_sha256": "2d9d2363c6150fc785083b469e1e22c80b6d1e0e06a26cb7162b7ee76db21329"
+  },
+  {
+    "clip": "ko",
+    "index": 5,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/ko.png",
+    "source_sha256": "397693b85562be502dc12400822cce4214c8ce1c66faf3d10fc6ac8378acb32c",
+    "ownership_component_ids": [
+      11
+    ],
+    "source_owned_bbox_xyxy": [
+      479,
+      528,
+      672,
+      608
+    ],
+    "source_row_ground_y": 608,
+    "shared_action_scale": 0.689119170984456,
+    "source_root_x": 572.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      112,
+      169,
+      245,
+      224
+    ],
+    "frame_sha256": "a1906c8bfafd2ec052921b29b50bf6c5941cc377bdc93a701e6d9b0a1c0d99b8"
+  },
+  {
+    "clip": "ko",
+    "index": 6,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/ko.png",
+    "source_sha256": "397693b85562be502dc12400822cce4214c8ce1c66faf3d10fc6ac8378acb32c",
+    "ownership_component_ids": [
+      12
+    ],
+    "source_owned_bbox_xyxy": [
+      864,
+      532,
+      1057,
+      607
+    ],
+    "source_row_ground_y": 608,
+    "shared_action_scale": 0.689119170984456,
+    "source_root_x": 956.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      112,
+      172,
+      245,
+      223
+    ],
+    "frame_sha256": "260959782174174ca26d3374599d40cfbf10d5eb8f9d877ec58f847f5cdca770"
+  },
+  {
+    "clip": "ko",
+    "index": 7,
+    "source_sheet": "work/characters/tasmanian_king_crab/atlas-v1/generated/ko.png",
+    "source_sha256": "397693b85562be502dc12400822cce4214c8ce1c66faf3d10fc6ac8378acb32c",
+    "ownership_component_ids": [
+      13
+    ],
+    "source_owned_bbox_xyxy": [
+      1247,
+      533,
+      1442,
+      607
+    ],
+    "source_row_ground_y": 608,
+    "shared_action_scale": 0.689119170984456,
+    "source_root_x": 1340.5,
+    "body_part_transforms": false,
+    "canvas_bbox_xyxy": [
+      112,
+      173,
+      246,
+      223
+    ],
+    "frame_sha256": "d3501c25f7d62f2868a8b1001fff2e4435ca2328f57d60dabd72ce19c4adcb43"
+  }
+]

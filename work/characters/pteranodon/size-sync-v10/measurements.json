@@ -1,0 +1,1527 @@
+[
+  {
+    "clip": "idle",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-00.png",
+    "file_sha256": "1b933d5958ad2c5263ba2becc2ded32d30df9a332664066879abe8fcf0094d97",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      98,
+      96,
+      157,
+      107
+    ],
+    "visible_pixels": 6573,
+    "rgb_colors": 5443,
+    "edge_acutance_sobel": 190.305,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9967943825370172,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-01.png",
+    "file_sha256": "80fc54c5796a52bff17fa4f3a9882741b2e695dad85c6d46f99e79435b7fcdb5",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      89,
+      118,
+      166,
+      82
+    ],
+    "visible_pixels": 5096,
+    "rgb_colors": 4346,
+    "edge_acutance_sobel": 187.123,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9964552973611658,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-02.png",
+    "file_sha256": "ef18221a62283a2f40e9ab89b85b5c82a52c03da9b5397ef0d307d0bc6e64ab4",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      105,
+      118,
+      150,
+      81
+    ],
+    "visible_pixels": 3627,
+    "rgb_colors": 3171,
+    "edge_acutance_sobel": 193.291,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9986195472114854,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-03.png",
+    "file_sha256": "bf13a096a53c788bf8c8c6c84e0cd7bbafcc9f639d1c711c3c29a234d32930d5",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      117,
+      112,
+      139,
+      96
+    ],
+    "visible_pixels": 5745,
+    "rgb_colors": 4953,
+    "edge_acutance_sobel": 200.949,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9975571453498517,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-04.png",
+    "file_sha256": "59d318e2169b367b5897927d029058ea5dacc9852213350e78f05d240c1ef783",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      117,
+      113,
+      138,
+      97
+    ],
+    "visible_pixels": 5367,
+    "rgb_colors": 4647,
+    "edge_acutance_sobel": 204.531,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9977591036414566,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-05.png",
+    "file_sha256": "a79f1837db09333e6b860f624c8c58a533bffbdf80eca3477037fc0ba82403d2",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      105,
+      118,
+      150,
+      82
+    ],
+    "visible_pixels": 3843,
+    "rgb_colors": 3371,
+    "edge_acutance_sobel": 189.806,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9973910774849987,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-06.png",
+    "file_sha256": "55e5c76d8b96df4012f9e89c82341bbb8d93d8cb150c370140b0b083ff5273fa",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      98,
+      121,
+      157,
+      80
+    ],
+    "visible_pixels": 4711,
+    "rgb_colors": 4057,
+    "edge_acutance_sobel": 199.272,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9980859208847299,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-07.png",
+    "file_sha256": "d159a6ce59045c45b9ebcf5ac5ca5ce2e60e81dfb90df621e8c8460933fc3f0b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      102,
+      105,
+      153,
+      97
+    ],
+    "visible_pixels": 5929,
+    "rgb_colors": 5025,
+    "edge_acutance_sobel": 197.491,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9974636455867433,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-08.png",
+    "file_sha256": "aa4e877bee8a8feca5c06f2dc4200ba1e28a3fbc20e1f0ea571795ee944f49be",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      99,
+      92,
+      154,
+      111
+    ],
+    "visible_pixels": 6457,
+    "rgb_colors": 5253,
+    "edge_acutance_sobel": 188.125,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9937626695774209,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-09.png",
+    "file_sha256": "91ca92b64660c683bd4d2e34be9d2ba1bbfdbd4e2448062ae9b19c78579f52fd",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      95,
+      119,
+      161,
+      83
+    ],
+    "visible_pixels": 4773,
+    "rgb_colors": 3991,
+    "edge_acutance_sobel": 181.692,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9940940729803839,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-10.png",
+    "file_sha256": "c2c5623d22c8f2d58caa3b8d9f53d4f4543f0662738ec4d7c30ef2cda5dfa3d6",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      111,
+      121,
+      151,
+      79
+    ],
+    "visible_pixels": 3664,
+    "rgb_colors": 3124,
+    "edge_acutance_sobel": 206.412,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9922907488986784,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-11.png",
+    "file_sha256": "f4c2cbcc9b2910e62b1d801e9b8c86a53c7e2528e5fa2665353247fff1263a24",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      128,
+      113,
+      134,
+      101
+    ],
+    "visible_pixels": 6003,
+    "rgb_colors": 4666,
+    "edge_acutance_sobel": 207.964,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9939607448414696,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-12.png",
+    "file_sha256": "0c113082fe71c55e2b463ebc2bf92c447beb41f7ffc62e490d7f08041b935e87",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      124,
+      116,
+      137,
+      94
+    ],
+    "visible_pixels": 5386,
+    "rgb_colors": 4401,
+    "edge_acutance_sobel": 232.789,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9928812289246909,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-13.png",
+    "file_sha256": "eade35d790af02cae5562b120eec01e3b934b3f4554916caa305ab8f190398dd",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      117,
+      121,
+      141,
+      81
+    ],
+    "visible_pixels": 3549,
+    "rgb_colors": 3089,
+    "edge_acutance_sobel": 198.571,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9977407512002259,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-14.png",
+    "file_sha256": "a135befedf60dc6291f18b78de39e386a3fc0c37705ae61e3e90b2f39d153f4e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      111,
+      125,
+      146,
+      78
+    ],
+    "visible_pixels": 4383,
+    "rgb_colors": 3752,
+    "edge_acutance_sobel": 188.12,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9942568343671031,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-15.png",
+    "file_sha256": "e29cfd82758f9bf421e2e1f09b5505ba9eff960abee02a1684f250929c4e243c",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      103,
+      102,
+      153,
+      103
+    ],
+    "visible_pixels": 6068,
+    "rgb_colors": 4973,
+    "edge_acutance_sobel": 183.812,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9946914399469144,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-16.png",
+    "file_sha256": "a53f791c9f58683df12a5d78ec17b5ecfd27e2b45d2f17db941e1766021f8d23",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      106,
+      94,
+      156,
+      109
+    ],
+    "visible_pixels": 6477,
+    "rgb_colors": 5493,
+    "edge_acutance_sobel": 211.634,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9967472118959108,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-17.png",
+    "file_sha256": "c0e5e694bd0990f4410a9aa3c5fe595b34503b72a5726b8a120bcc977fd10104",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      99,
+      121,
+      167,
+      80
+    ],
+    "visible_pixels": 4494,
+    "rgb_colors": 3955,
+    "edge_acutance_sobel": 216.676,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9966510381781648,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-18.png",
+    "file_sha256": "7f6a41aef8a59850eb0802d853dbfb2f863bb2fc1f512af3665c676d3196dfc8",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      113,
+      119,
+      154,
+      77
+    ],
+    "visible_pixels": 3852,
+    "rgb_colors": 3395,
+    "edge_acutance_sobel": 223.295,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9973971889640812,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-19.png",
+    "file_sha256": "198e63dfa09e5db6f91d5092fb3d36f1513f5a1bd10090e868f3e180d96392b5",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      132,
+      116,
+      139,
+      101
+    ],
+    "visible_pixels": 6109,
+    "rgb_colors": 5291,
+    "edge_acutance_sobel": 231.976,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985245901639345,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-20.png",
+    "file_sha256": "5d57a07ad464847a558bf63d24335106a08431e0f5daa91109aea4a66af4fb9a",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      129,
+      119,
+      142,
+      86
+    ],
+    "visible_pixels": 5131,
+    "rgb_colors": 4572,
+    "edge_acutance_sobel": 222.011,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9982428738773916,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-21.png",
+    "file_sha256": "4d7883d5ddc1b346109203d6d4abd7ccd8651e777b63a49f828d0906c8f80b16",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      119,
+      122,
+      149,
+      75
+    ],
+    "visible_pixels": 3532,
+    "rgb_colors": 3155,
+    "edge_acutance_sobel": 207.15,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985823646158208,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-22.png",
+    "file_sha256": "4b738115139685fe4c52c70de46ef23d3ca52147773f4ce63e75ba9eb0f23eed",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      95,
+      125,
+      169,
+      78
+    ],
+    "visible_pixels": 4622,
+    "rgb_colors": 4079,
+    "edge_acutance_sobel": 217.234,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9978317432784042,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "run",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-23.png",
+    "file_sha256": "ebf6adb2bcbbc92f9c3a80eb354f7e31efeb2f61776c6366c4f54f5d1ffb205c",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      112,
+      104,
+      154,
+      100
+    ],
+    "visible_pixels": 5888,
+    "rgb_colors": 5056,
+    "edge_acutance_sobel": 209.101,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9976162097735399,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-24.png",
+    "file_sha256": "8bd4b4a279a0cf11d640753495e7c3b2b828a27d03e1122e233ed84a85962e41",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      77,
+      94,
+      166,
+      105
+    ],
+    "visible_pixels": 6536,
+    "rgb_colors": 5638,
+    "edge_acutance_sobel": 233.185,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9973922380733241,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-25.png",
+    "file_sha256": "45f6498cd9e5ecff9b6eea8892a494c527bb850e1021758ce00d6ed27a907c99",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      59,
+      83,
+      176,
+      114
+    ],
+    "visible_pixels": 6831,
+    "rgb_colors": 5793,
+    "edge_acutance_sobel": 228.135,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9958829583884723,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-26.png",
+    "file_sha256": "137b27582b95534587956e17be1f42c21a57e10acf9257bb8c475355a204affa",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      121,
+      124,
+      164,
+      80
+    ],
+    "visible_pixels": 4309,
+    "rgb_colors": 3856,
+    "edge_acutance_sobel": 235.281,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.998372849837285,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-27.png",
+    "file_sha256": "87fd72cb56946b02fe35f615bf089650fe927660728be1d7147b1767b158cecd",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      129,
+      125,
+      178,
+      94
+    ],
+    "visible_pixels": 6067,
+    "rgb_colors": 5426,
+    "edge_acutance_sobel": 286.838,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985143611753053,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-28.png",
+    "file_sha256": "98a5692628f0c5c2188418d26673c72bd98224cd71d4af8238fb527f82b50aa6",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      123,
+      124,
+      188,
+      77
+    ],
+    "visible_pixels": 4899,
+    "rgb_colors": 4456,
+    "edge_acutance_sobel": 249.258,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989783408255006,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-29.png",
+    "file_sha256": "a9439c54232bf6869f06afbec753fb3e6aa9125cca4371c1bb2337db198a77bf",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      123,
+      121,
+      149,
+      80
+    ],
+    "visible_pixels": 3862,
+    "rgb_colors": 3460,
+    "edge_acutance_sobel": 235.991,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9968831168831169,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-30.png",
+    "file_sha256": "2dd4b06cc069e200d18ac815a12c14d9815cbaaeeebc59d6c957797278d29a6f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      106,
+      123,
+      152,
+      78
+    ],
+    "visible_pixels": 4900,
+    "rgb_colors": 4337,
+    "edge_acutance_sobel": 214.744,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9983643426702106,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-31.png",
+    "file_sha256": "da2b17b222cca521e35a2a86fad367e0262651d4424b88af0c10b8942c4fa6f6",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      98,
+      98,
+      158,
+      104
+    ],
+    "visible_pixels": 6665,
+    "rgb_colors": 5811,
+    "edge_acutance_sobel": 226.619,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9977443609022556,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-32.png",
+    "file_sha256": "6d5720585eb2821dca341fe0d9782155ad1e4fffa88448fe39d761655839de50",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      94,
+      161,
+      103
+    ],
+    "visible_pixels": 6132,
+    "rgb_colors": 5053,
+    "edge_acutance_sobel": 179.959,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9945883896359462,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-33.png",
+    "file_sha256": "cb4285c3261f3f94eeb5c3babaea5fd70646408cabbb6a70946ed0c2a936b02f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      68,
+      80,
+      167,
+      118
+    ],
+    "visible_pixels": 6515,
+    "rgb_colors": 5295,
+    "edge_acutance_sobel": 174.735,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.99537251272559,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-34.png",
+    "file_sha256": "92c4f7e52358040dfb3f118f42bbd02a2c9e5f05ceae698206a46d3b5d03d13b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      111,
+      116,
+      164,
+      84
+    ],
+    "visible_pixels": 5290,
+    "rgb_colors": 4450,
+    "edge_acutance_sobel": 197.498,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9960144239893718,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-35.png",
+    "file_sha256": "97da10c2226e8eff4797a30f0b4ebac42aeac3d61dae83197c79c9fed2482573",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      129,
+      116,
+      146,
+      99
+    ],
+    "visible_pixels": 6543,
+    "rgb_colors": 5388,
+    "edge_acutance_sobel": 191.882,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9955473668048518,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-36.png",
+    "file_sha256": "b474b714e44e9f2316bca5d7dc5a63b1ee434657d17ceaee3d6cddfa9580b17a",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      123,
+      117,
+      152,
+      84
+    ],
+    "visible_pixels": 4520,
+    "rgb_colors": 3935,
+    "edge_acutance_sobel": 189.597,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9966696269982238,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-37.png",
+    "file_sha256": "24069b3b4cd665e138b612cba401b7f2df997a9de3f72bf919944a391571e437",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      113,
+      118,
+      155,
+      83
+    ],
+    "visible_pixels": 4872,
+    "rgb_colors": 4117,
+    "edge_acutance_sobel": 182.257,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9962901896125309,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-38.png",
+    "file_sha256": "28efe34c56f10d87040b009c5f8725fe26880e7ed38928c94434e074690e9795",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      95,
+      98,
+      167,
+      103
+    ],
+    "visible_pixels": 6398,
+    "rgb_colors": 5292,
+    "edge_acutance_sobel": 180.141,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9973354231974921,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-39.png",
+    "file_sha256": "efd3a1aa9e8845ba65f172fb2da7fde8a5940deaf560fade40be4177b5ceb7c3",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      98,
+      91,
+      160,
+      111
+    ],
+    "visible_pixels": 6910,
+    "rgb_colors": 5670,
+    "edge_acutance_sobel": 181.283,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9953468082012505,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-40.png",
+    "file_sha256": "68e6e8972d698897a30d97263f8f6783aba1c7116a96b9c53e88d12035221e0d",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      72,
+      87,
+      162,
+      109
+    ],
+    "visible_pixels": 5220,
+    "rgb_colors": 4410,
+    "edge_acutance_sobel": 187.719,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9953792837889873,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-41.png",
+    "file_sha256": "37611128f4f5c40c8703e95ca644a282b8cb7664c2b4703b65590c1f452d9bec",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      108,
+      98,
+      112,
+      115
+    ],
+    "visible_pixels": 3491,
+    "rgb_colors": 3071,
+    "edge_acutance_sobel": 192.996,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9979908151549942,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-42.png",
+    "file_sha256": "920c0775426ba15e553952b62e3001d56495d2a3249e3cbefcc37a1cd66c5cdf",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      111,
+      116,
+      119,
+      105
+    ],
+    "visible_pixels": 4816,
+    "rgb_colors": 4048,
+    "edge_acutance_sobel": 199.677,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9966666666666667,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-43.png",
+    "file_sha256": "3f18a357de9376183273454c3986119e966e6b52ed36e77ae5914dda1fb88a9b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      101,
+      123,
+      143,
+      78
+    ],
+    "visible_pixels": 3703,
+    "rgb_colors": 3190,
+    "edge_acutance_sobel": 183.45,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.997020585048754,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-44.png",
+    "file_sha256": "dc45d8393b88d349f15e521c97b67d197e1ddea98c0a462c3efed6671430b57e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      98,
+      108,
+      155,
+      94
+    ],
+    "visible_pixels": 5696,
+    "rgb_colors": 4755,
+    "edge_acutance_sobel": 189.095,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9959421312632322,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-45.png",
+    "file_sha256": "69ae83ed1811588c86d146d8d75c61aed79d115141d28b3b9630f7d3648b88ae",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      95,
+      94,
+      162,
+      108
+    ],
+    "visible_pixels": 6553,
+    "rgb_colors": 5356,
+    "edge_acutance_sobel": 189.81,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9953980671882191,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-46.png",
+    "file_sha256": "18d0f97af976eb8877d318400ffcbd056e6de631c5cdb04db2fa75d8f8ec094e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      87,
+      122,
+      152,
+      82
+    ],
+    "visible_pixels": 4348,
+    "rgb_colors": 3936,
+    "edge_acutance_sobel": 237.561,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9986181483187471,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-47.png",
+    "file_sha256": "390896e9d695167fc7bf165c4538c6ef5ee03f2b5928881fc6ac7f8e1a4a41e4",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      100,
+      124,
+      126,
+      103
+    ],
+    "visible_pixels": 3953,
+    "rgb_colors": 3598,
+    "edge_acutance_sobel": 224.113,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9992405063291139,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-48.png",
+    "file_sha256": "0708a6f8020d7517e09acbfd05256be0fdbc0e0c90c7b98f75becb5c6524f70b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      125,
+      89,
+      86,
+      124
+    ],
+    "visible_pixels": 3551,
+    "rgb_colors": 3242,
+    "edge_acutance_sobel": 221.106,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985899605188945,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-49.png",
+    "file_sha256": "60afc21556fb29a870d25b83a091e1c2eae6332864d277bc5fe2b07f9d5487ac",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      133,
+      96,
+      57,
+      128
+    ],
+    "visible_pixels": 3095,
+    "rgb_colors": 2830,
+    "edge_acutance_sobel": 241.471,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 1.0,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-50.png",
+    "file_sha256": "4a2deafdca66ad52cf1e4adc039eca7a380e93874783e8922ecf8311ee5e44f4",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      130,
+      94,
+      59,
+      132
+    ],
+    "visible_pixels": 3338,
+    "rgb_colors": 3095,
+    "edge_acutance_sobel": 254.23,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.999400479616307,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-51.png",
+    "file_sha256": "91e04a64a6a0816e0bf1a026f1f871da390e2dfc629103c79e1ab3e0da7da77a",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      130,
+      96,
+      62,
+      129
+    ],
+    "visible_pixels": 3103,
+    "rgb_colors": 2841,
+    "edge_acutance_sobel": 253.086,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9993550467591099,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-52.png",
+    "file_sha256": "1083288ad2e9551ab07d4c0bb7bde5e6b9438c5d960f80a44ad9358ccb275d1b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      129,
+      97,
+      63,
+      124
+    ],
+    "visible_pixels": 3026,
+    "rgb_colors": 2794,
+    "edge_acutance_sobel": 247.782,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9990076083360899,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-53.png",
+    "file_sha256": "f8d1e1dc989be0772b1e1854e08d489aae8da9824db62d16da53272ee82a9d1d",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      131,
+      98,
+      63,
+      120
+    ],
+    "visible_pixels": 2943,
+    "rgb_colors": 2747,
+    "edge_acutance_sobel": 248.142,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9986389928547125,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-54.png",
+    "file_sha256": "e44fa65445e86116ae16a8d3163391a064d8f33146956eba47f00f920c891e7f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      176,
+      126,
+      14,
+      30
+    ],
+    "visible_pixels": 307,
+    "rgb_colors": 4,
+    "edge_acutance_sobel": 541.564,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.6236559139784946,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-55.png",
+    "file_sha256": "bb380f36360551fd46381cd03afb0da251eaf55e32c174dd6fb4a1d81a287d83",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      188,
+      121,
+      19,
+      41
+    ],
+    "visible_pixels": 571,
+    "rgb_colors": 5,
+    "edge_acutance_sobel": 443.948,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.4808362369337979,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-56.png",
+    "file_sha256": "e829d0ed3ce76f39418c819c3370060c4dabea4db9bb1a55450b1ce984b8fbe3",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      199,
+      118,
+      22,
+      47
+    ],
+    "visible_pixels": 759,
+    "rgb_colors": 5,
+    "edge_acutance_sobel": 471.546,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.6418219461697723,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-57.png",
+    "file_sha256": "0b489a85dc3e977ee413544e2de0b8bd3b9a410d29c53b5c5c421c59cbafcbdb",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      211,
+      116,
+      26,
+      50
+    ],
+    "visible_pixels": 1046,
+    "rgb_colors": 5,
+    "edge_acutance_sobel": 339.776,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.5466666666666666,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-58.png",
+    "file_sha256": "0441f00b5f349c2ca55e7a15f3063abac357317fac6c021698d7f7de6ca9cdca",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      222,
+      114,
+      27,
+      55
+    ],
+    "visible_pixels": 1067,
+    "rgb_colors": 5,
+    "edge_acutance_sobel": 329.224,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.5727699530516432,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-59.png",
+    "file_sha256": "f588f2edcce062f9a41b41549959a483d3aea88f38be4b0a38e7a08784fd4f31",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      234,
+      112,
+      22,
+      58
+    ],
+    "visible_pixels": 580,
+    "rgb_colors": 5,
+    "edge_acutance_sobel": 334.911,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.6225895316804407,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "sonic_screech_fx",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/pteranodon/size-sync-v10/stage/clips/frames/frame-60.png",
+    "file_sha256": "51304dfb11a23669694af8d2150d0bbc75aa29feebc2a5493d217620f1baae19",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      244,
+      113,
+      14,
+      56
+    ],
+    "visible_pixels": 385,
+    "rgb_colors": 5,
+    "edge_acutance_sobel": 274.471,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.5660377358490566,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  }
+]

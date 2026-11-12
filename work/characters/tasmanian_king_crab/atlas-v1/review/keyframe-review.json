@@ -1,0 +1,43 @@
+{
+  "status": "owner_approved",
+  "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+  "owner_approved": true,
+  "scope": "No turns requested; no rotated quad or part rig. Distal claw fragments atattack3/4are intentional Owner pixel dissolve; proximal joint remains solid. Wholepose identity/leg cadence and entry/loop seams remain Human Test gates.",
+  "filmstrips_opened": [
+    "idle",
+    "walk",
+    "attack_nomal",
+    "power_up",
+    "hit",
+    "ko",
+    "power_orb_loop",
+    "power_orb_projectile"
+  ],
+  "composite_review": "Opened power_up-composite onall3backgrounds;point/gap verified withCanvasgrid forbodyframes0..2.",
+  "motion_at_real_time": "Owner Human Test accepted current demo; Chromium observed all6bodyclips before acceptance.",
+  "artifacts": {
+    "playback-power_orb_projectile.webp": "d54645d1015fc50e30a4bd441a0e36d7993506cdce71bd11db1c0b9a41346d8c",
+    "playback-power_up-composite.webp": "2c84f44007f9218bab8fd487d148dd90e44eaa7e0a37f655d01fd20c957587c6",
+    "playback-walk.webp": "4aaab295ef3a37282c9e821541f37bc688bd1d6b9ce65e40a15cb3ef29da919d",
+    "playback-ko.webp": "88801cd1f97eed8154c5a80dcfa1d126de2e0c9ba29b63f93aa400bca7c5bfe5",
+    "filmstrip-hit.png": "1a1ee2a9277324e93a4b54abb5a727ea396a326ebd4adb7214ca2b2526ce019f",
+    "filmstrip-attack_nomal.png": "6481a88723b949039409eb1a630e1844096b1c1513a9990dc01384f66d711797",
+    "playback-hit.webp": "215e6c704060b65175af7a60662b1421874ab54b42f85fbc4cb670c2baa29205",
+    "filmstrip-power_up.png": "6458fbfefef96204ba9fb2775315f2ac361a7518edd673994a2ebe237389154b",
+    "filmstrip-ko.png": "96ec33cbc58bb1b54e48fea6c8e37aac4169bf8b81a842393bb3c3792a34e6f9",
+    "filmstrip-idle.png": "8d56683f3ce2a5d97df8a9c5da70733283cbe7f0184edca29151fa91b44e3ff7",
+    "power-hand-grid.png": "8b8ba352183579cad1d2a7dfd98b92f93f24f01e83f480ce3ad47c92eba527d0",
+    "playback-power_orb_loop.webp": "32e014692d65596f77049c9c282c00af43be5971bd55236c3920f8fb95a7296e",
+    "playback-attack_nomal.webp": "5e668dce4988457d84cc8e514c2bdbf28fac9960ca4b30df5a9008ddabfe4678",
+    "playback-power_up.webp": "ed191654c5f31cc073bbc6b94a7ec6207452f17a7e7b577c655f3206ce66f619",
+    "filmstrip-power_orb_projectile.png": "3acecdc57c469170e95c2ec4582f2977b167d088d3ecc723fa4cb46767523c9e",
+    "playback-idle.webp": "69984da13325b183a2318988064d20c3d747a0c216363fea5b70fd0c2b52abc0",
+    "filmstrip-walk.png": "8fe3506c106aa36ab39b9be13cce5312af761dd67d3f62ce5bf389f264e0bea6",
+    "filmstrip-power_orb_loop.png": "9e95baa91ce57c5c27707e00b7bc93bf38eeb5fea152f06f88ce9986cd9a8bd6",
+    "filmstrip-power_up-composite.png": "f2cf0f7e43beb0de167c7d7f007da24f632ca707f443babcba062c6b1e28912c"
+  },
+  "browser_evidence": "work/characters/tasmanian_king_crab/atlas-v1/verification/browser-all-poses.json",
+  "owner_approval_file": "assets/tasmanian_king_crab/owner_approval.json",
+  "owner_message": "ok chốt tasmanian và thông số điều chỉnh lúc này đồng bộ bundle godot theo đúng qui trình sau đó push code lên main giúp anh để sang nhân vật tiếp theo",
+  "approved_at": "2026-11-12T09:51:08.495780+00:00"
+}

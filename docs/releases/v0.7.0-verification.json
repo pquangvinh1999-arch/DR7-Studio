@@ -1,0 +1,85 @@
+{
+  "version": "0.7.0",
+  "verified_at": "2026-11-12T09:52:39.017415+00:00",
+  "technical_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 32,
+    "godot_bundles": 4,
+    "godot_charge_60ticks_exit_code": 0,
+    "rust_tests": 2,
+    "wasm_build_exit_code": 0
+  },
+  "owner_motion_approval": {
+    "ok_for_human_test": true,
+    "release_approved": true,
+    "characters": {
+      "spinosaurus": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "t_rex": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "pteranodon": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "tasmanian_king_crab": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      }
+    },
+    "errors": []
+  },
+  "engine_localhost_parity": {
+    "ok": true,
+    "checked_bundles": 4,
+    "finalized_characters": 4,
+    "errors": [],
+    "warnings": [
+      "Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+      "Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+      "Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+      "Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win."
+    ]
+  },
+  "atlas_sha256": {
+    "spinosaurus": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+    "t_rex": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
+    "pteranodon": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2",
+    "tasmanian_king_crab": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1"
+  },
+  "wasm_sha256": "3cbd468389792517811e97da27cf56556180d642843a24f999abb7968b9346fb",
+  "http_byte_parity": true,
+  "zip_crc_ok": true,
+  "zip_bytes": 13087661,
+  "standalone_godot_exit_codes": {
+    "import": 0,
+    "bundles": 0,
+    "charge": 0
+  },
+  "warnings": [
+    "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win."
+  ],
+  "known_issues": [
+    {
+      "id": "ISS-TREX-TICK-LEGACY",
+      "status": "recorded_out_of_scope",
+      "character_id": "t_rex",
+      "evidence": "assets/t_rex/godot_bundle/engine-export.json:idle.godot.relative_durations[7.02,6.96,...] vsassets/t_rex/clips/animation-clips.json:idle.ticks[7,...].",
+      "action": "Do not alter approved T-rex outside Owner scope; discuss exacttick re-export separately. PNG/hashparity unchanged."
+    }
+  ]
+}

@@ -7,8 +7,8 @@
   },
   "source": {
     "path": "../clips/animation-clips.json",
-    "sha256": "152b11b877a0d3280e021a28e6265c418fcf2077e3e49c09977cf038b007199f",
-    "bytes": 109520,
+    "sha256": "e03a27793b44e042866ab80643c564615e5a6367091ecb292b348c912384138f",
+    "bytes": 109458,
     "schema": "generate2dsprite.animation_clips.v2"
   },
   "targets": [
@@ -28,8 +28,8 @@
   "pixel_art": true,
   "art_source": "host_image",
   "shadow": {
-    "rx": 36,
-    "ry": 9,
+    "rx": 29,
+    "ry": 7,
     "opacity": 0.35
   },
   "default_clip": "idle",
@@ -60,8 +60,8 @@
   },
   "scale": {
     "pixel_size": 0.01,
-    "subject_height_px": 132.0,
-    "world_height": 1.32,
+    "subject_height_px": 107.0,
+    "world_height": 1.07,
     "source": "Godot default pixel size",
     "subject_height_source": "body_height_px"
   },
@@ -130,23 +130,23 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          7.02,
-          6.96,
-          7.02,
-          7.02,
-          6.96,
-          7.02,
-          7.02,
-          6.96
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
         ]
       },
       "sprite3d": {
         "action": "idle",
         "contract": "action-idle.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "walk": {
@@ -226,7 +226,7 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
           6.0,
           6.0,
@@ -242,7 +242,7 @@
         "action": "walk",
         "contract": "action-walk.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "run": {
@@ -322,23 +322,23 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.02,
-          3.96,
-          4.02,
-          4.02,
-          3.96,
-          4.02,
-          4.02,
-          3.96
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
         ]
       },
       "sprite3d": {
         "action": "run",
         "contract": "action-run.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "attack_light": {
@@ -446,15 +446,15 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.98,
-          5.04,
-          3.96,
-          4.02,
-          4.02,
-          4.98,
-          4.98,
+          5.0,
+          5.0,
+          4.0,
+          4.0,
+          4.0,
+          5.0,
+          5.0,
           6.0
         ]
       },
@@ -462,7 +462,7 @@
         "action": "attack_light",
         "contract": "action-attack_light.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "power_up": {
@@ -567,15 +567,15 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.98,
-          5.04,
-          4.98,
-          4.98,
-          4.02,
-          4.98,
-          5.04,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          4.0,
+          5.0,
+          5.0,
           6.0
         ]
       },
@@ -583,7 +583,7 @@
         "action": "power_up",
         "contract": "action-power_up.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "hit": {
@@ -655,21 +655,21 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.02,
-          3.96,
-          5.04,
-          4.98,
-          4.98,
-          5.04
+          4.0,
+          4.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
         ]
       },
       "sprite3d": {
         "action": "hit",
         "contract": "action-hit.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "ko": {
@@ -755,13 +755,13 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.98,
-          5.04,
-          4.98,
-          4.98,
-          5.04,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
           6.0,
           6.0,
           15.0
@@ -771,7 +771,7 @@
         "action": "ko",
         "contract": "action-ko.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "sonic_screech_fx": {
@@ -834,22 +834,22 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          1.98,
-          2.04,
-          1.98,
-          1.98,
-          2.04,
-          1.98,
-          1.98
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
         ]
       },
       "sprite3d": {
         "action": "sonic_screech_fx",
         "contract": "action-sonic_screech_fx.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     }
   },
@@ -926,8 +926,8 @@
   "files": [
     {
       "path": "aseprite/pteranodon.png",
-      "sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
-      "bytes": 1223746
+      "sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2",
+      "bytes": 862000
     },
     {
       "path": "aseprite/pteranodon.json",
@@ -936,13 +936,13 @@
     },
     {
       "path": "godot/pteranodon-atlas-00.png",
-      "sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
-      "bytes": 1223746
+      "sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2",
+      "bytes": 862000
     },
     {
       "path": "godot/pteranodon.tres",
-      "sha256": "7a61c7826866860c6565bfc4ccb6e1bcc5973c8860e4a2d4f556f52dae67e7ec",
-      "bytes": 13800
+      "sha256": "fe7399b6ec28f664044072b0462e447367a200f865bdd239a82ab384401d455b",
+      "bytes": 13752
     },
     {
       "path": "godot/pteranodon.tscn",
@@ -951,353 +951,353 @@
     },
     {
       "path": "godot-sprite3d/frames/frame-000.png",
-      "sha256": "bd735e944d2dfec6b47fb5544c5fdf0289aff96f968331c6bb53a42c594aa4ee",
-      "bytes": 29257
+      "sha256": "1b933d5958ad2c5263ba2becc2ded32d30df9a332664066879abe8fcf0094d97",
+      "bytes": 20557
     },
     {
       "path": "godot-sprite3d/frames/frame-001.png",
-      "sha256": "34d7da0e4af3809be8cb5694c155aef5cd3ecda154307cd59d46ae4977b75312",
-      "bytes": 22823
+      "sha256": "80fc54c5796a52bff17fa4f3a9882741b2e695dad85c6d46f99e79435b7fcdb5",
+      "bytes": 16157
     },
     {
       "path": "godot-sprite3d/frames/frame-002.png",
-      "sha256": "a83e536b879a72b18cd79fcc2ec1ab20330d23a2c8d3b9ea30e2d0aa430387c2",
-      "bytes": 17196
+      "sha256": "ef18221a62283a2f40e9ab89b85b5c82a52c03da9b5397ef0d307d0bc6e64ab4",
+      "bytes": 12267
     },
     {
       "path": "godot-sprite3d/frames/frame-003.png",
-      "sha256": "da70fc65a2be818f320909293f9085bca2887b6d7380d161596b92c26ea83b9f",
-      "bytes": 25529
+      "sha256": "bf13a096a53c788bf8c8c6c84e0cd7bbafcc9f639d1c711c3c29a234d32930d5",
+      "bytes": 18140
     },
     {
       "path": "godot-sprite3d/frames/frame-004.png",
-      "sha256": "9f49671c5c6b24103d5296a886f1b4121f163506568500e95c661d17a5095650",
-      "bytes": 24217
+      "sha256": "59d318e2169b367b5897927d029058ea5dacc9852213350e78f05d240c1ef783",
+      "bytes": 17033
     },
     {
       "path": "godot-sprite3d/frames/frame-005.png",
-      "sha256": "424bf99bb9e389c773a64c362fd5f2bcedc3d8ef3fe4e07f2251d4e8de09090b",
-      "bytes": 18202
+      "sha256": "a79f1837db09333e6b860f624c8c58a533bffbdf80eca3477037fc0ba82403d2",
+      "bytes": 12989
     },
     {
       "path": "godot-sprite3d/frames/frame-006.png",
-      "sha256": "0ffa12a0d8fd210fda773b864474c006a05f062ced6bf35f15bd998f6d5a273e",
-      "bytes": 21156
+      "sha256": "55e5c76d8b96df4012f9e89c82341bbb8d93d8cb150c370140b0b083ff5273fa",
+      "bytes": 15091
     },
     {
       "path": "godot-sprite3d/frames/frame-007.png",
-      "sha256": "c5a3388a0114fc2b51b8d5bdbcc2333a2c2d08ced05f1ab654be948d620c20fc",
-      "bytes": 26584
+      "sha256": "d159a6ce59045c45b9ebcf5ac5ca5ce2e60e81dfb90df621e8c8460933fc3f0b",
+      "bytes": 18844
     },
     {
       "path": "godot-sprite3d/frames/frame-008.png",
-      "sha256": "c8a9193cb289b33264f4258ddbb84b482bfe1707dc2df4c2a7be5cc4e47b6af4",
-      "bytes": 28510
+      "sha256": "aa4e877bee8a8feca5c06f2dc4200ba1e28a3fbc20e1f0ea571795ee944f49be",
+      "bytes": 20163
     },
     {
       "path": "godot-sprite3d/frames/frame-009.png",
-      "sha256": "30aa07200ff37f36643c83ac88f09c073b8c6d6c42d9508373c18e686f1f41fe",
-      "bytes": 21672
+      "sha256": "91ca92b64660c683bd4d2e34be9d2ba1bbfdbd4e2448062ae9b19c78579f52fd",
+      "bytes": 15365
     },
     {
       "path": "godot-sprite3d/frames/frame-010.png",
-      "sha256": "dba2aebb451b74362726fb96d1f534ae76a95f0e9683eafb15aa94937483fe35",
-      "bytes": 16985
+      "sha256": "c2c5623d22c8f2d58caa3b8d9f53d4f4543f0662738ec4d7c30ef2cda5dfa3d6",
+      "bytes": 12192
     },
     {
       "path": "godot-sprite3d/frames/frame-011.png",
-      "sha256": "6b7613fc9eed33a7ac2e3b374a21c68a3c8a09632dc62015075a48a0430834ee",
-      "bytes": 26112
+      "sha256": "f4c2cbcc9b2910e62b1d801e9b8c86a53c7e2528e5fa2665353247fff1263a24",
+      "bytes": 18547
     },
     {
       "path": "godot-sprite3d/frames/frame-012.png",
-      "sha256": "18e9a20c4cfe54129189b96d1f30f98712e1bdf4bdeb8a56d4ae106f759a7001",
-      "bytes": 23751
+      "sha256": "0c113082fe71c55e2b463ebc2bf92c447beb41f7ffc62e490d7f08041b935e87",
+      "bytes": 16889
     },
     {
       "path": "godot-sprite3d/frames/frame-013.png",
-      "sha256": "534781c63a42febcc2f969ce2b3ca9ba8becbe46afc0659a2b01c6b7f4b72e4f",
-      "bytes": 16923
+      "sha256": "eade35d790af02cae5562b120eec01e3b934b3f4554916caa305ab8f190398dd",
+      "bytes": 12115
     },
     {
       "path": "godot-sprite3d/frames/frame-014.png",
-      "sha256": "fd9b2ad9bec33894d2ad5db9b65cd9711fe551b3ffba41afc8467091581a3bd8",
-      "bytes": 19975
+      "sha256": "a135befedf60dc6291f18b78de39e386a3fc0c37705ae61e3e90b2f39d153f4e",
+      "bytes": 14208
     },
     {
       "path": "godot-sprite3d/frames/frame-015.png",
-      "sha256": "b8dcc2877cb02bc12a65d4d650dcb813f5e8b3b911957c7b1324f9f6eeed3d52",
-      "bytes": 26889
+      "sha256": "e29cfd82758f9bf421e2e1f09b5505ba9eff960abee02a1684f250929c4e243c",
+      "bytes": 19045
     },
     {
       "path": "godot-sprite3d/frames/frame-016.png",
-      "sha256": "e525ded90b9befb6dbe3c0966d734cf52d48e47581cfd551853a317a0d668c41",
-      "bytes": 29453
+      "sha256": "a53f791c9f58683df12a5d78ec17b5ecfd27e2b45d2f17db941e1766021f8d23",
+      "bytes": 20834
     },
     {
       "path": "godot-sprite3d/frames/frame-017.png",
-      "sha256": "18bc1243621d1406db6d435ba8aa7e21c15ea6a321a417e61c6288f23b4bf8fc",
-      "bytes": 21096
+      "sha256": "c0e5e694bd0990f4410a9aa3c5fe595b34503b72a5726b8a120bcc977fd10104",
+      "bytes": 14909
     },
     {
       "path": "godot-sprite3d/frames/frame-018.png",
-      "sha256": "a4dceee5010de7ebcadba3bb46cd99734d21cdfd4e2888f618c94681f1ffb17d",
-      "bytes": 18424
+      "sha256": "7f6a41aef8a59850eb0802d853dbfb2f863bb2fc1f512af3665c676d3196dfc8",
+      "bytes": 13152
     },
     {
       "path": "godot-sprite3d/frames/frame-019.png",
-      "sha256": "bdde4c5be1ca0036a2e4891ff99f896344a89f25303525656d3d2a25a95cc2a7",
-      "bytes": 27347
+      "sha256": "198e63dfa09e5db6f91d5092fb3d36f1513f5a1bd10090e868f3e180d96392b5",
+      "bytes": 19353
     },
     {
       "path": "godot-sprite3d/frames/frame-020.png",
-      "sha256": "d1a04375cd25155207e18d7ff23fa5c414eb5bf5d8e6cf2be57b68107ac774a6",
-      "bytes": 23456
+      "sha256": "5d57a07ad464847a558bf63d24335106a08431e0f5daa91109aea4a66af4fb9a",
+      "bytes": 16541
     },
     {
       "path": "godot-sprite3d/frames/frame-021.png",
-      "sha256": "97f5e81feb5b1d1822f58d02203b0f1788cfe22c025a54e17aef070f5a3b91ce",
-      "bytes": 17180
+      "sha256": "4d7883d5ddc1b346109203d6d4abd7ccd8651e777b63a49f828d0906c8f80b16",
+      "bytes": 12264
     },
     {
       "path": "godot-sprite3d/frames/frame-022.png",
-      "sha256": "2e6c28de796d60ddda3bfbcae73ba13ae88733e20d3d1662d227a04e4d7317a0",
-      "bytes": 21758
+      "sha256": "4b738115139685fe4c52c70de46ef23d3ca52147773f4ce63e75ba9eb0f23eed",
+      "bytes": 15336
     },
     {
       "path": "godot-sprite3d/frames/frame-023.png",
-      "sha256": "7bb35d5bb4dec8b02ca2b71a792aaf9beaed43d90e7a49087609c31060c5bcee",
-      "bytes": 26993
+      "sha256": "ebf6adb2bcbbc92f9c3a80eb354f7e31efeb2f61776c6366c4f54f5d1ffb205c",
+      "bytes": 19138
     },
     {
       "path": "godot-sprite3d/frames/frame-024.png",
-      "sha256": "1f71b47922be57d90c2178f741fa03ba6de62f1a27a04538d904ed52ac7db0c3",
-      "bytes": 30387
+      "sha256": "8bd4b4a279a0cf11d640753495e7c3b2b828a27d03e1122e233ed84a85962e41",
+      "bytes": 21430
     },
     {
       "path": "godot-sprite3d/frames/frame-025.png",
-      "sha256": "982e4111ff58e1877ee129459a7e8d364d0b0a84eb53af739a092cee50fb5a4f",
-      "bytes": 31549
+      "sha256": "45f6498cd9e5ecff9b6eea8892a494c527bb850e1021758ce00d6ed27a907c99",
+      "bytes": 22172
     },
     {
       "path": "godot-sprite3d/frames/frame-026.png",
-      "sha256": "0a1b3f2b4d3cde93f04d0449003868e462a5b251c4c435c1b6a409b757d0fff7",
-      "bytes": 20927
+      "sha256": "137b27582b95534587956e17be1f42c21a57e10acf9257bb8c475355a204affa",
+      "bytes": 14774
     },
     {
       "path": "godot-sprite3d/frames/frame-027.png",
-      "sha256": "cc98ce2ad47b3defd71f4c696ae7b7812b43c31ef04d5756e3e6264c2d5ac160",
-      "bytes": 28420
+      "sha256": "87fd72cb56946b02fe35f615bf089650fe927660728be1d7147b1767b158cecd",
+      "bytes": 19992
     },
     {
       "path": "godot-sprite3d/frames/frame-028.png",
-      "sha256": "57c89ea8619be3dea8b70064876d237d42f8c436fe2618feb0cac3f783f5b8d5",
-      "bytes": 23307
+      "sha256": "98a5692628f0c5c2188418d26673c72bd98224cd71d4af8238fb527f82b50aa6",
+      "bytes": 16365
     },
     {
       "path": "godot-sprite3d/frames/frame-029.png",
-      "sha256": "123eba391165d18dc8717b5d36d30bf7857722a42c910b3d416592fcaa168639",
-      "bytes": 19172
+      "sha256": "a9439c54232bf6869f06afbec753fb3e6aa9125cca4371c1bb2337db198a77bf",
+      "bytes": 13521
     },
     {
       "path": "godot-sprite3d/frames/frame-030.png",
-      "sha256": "1621b900c91d6933516566df331cf05284ab4791ee0961216f13edb5710482fb",
-      "bytes": 23182
+      "sha256": "2dd4b06cc069e200d18ac815a12c14d9815cbaaeeebc59d6c957797278d29a6f",
+      "bytes": 16447
     },
     {
       "path": "godot-sprite3d/frames/frame-031.png",
-      "sha256": "0f28613dea46cb533530621abe4a6d33ce9ad3158fb583fa12c1de8fd0a237f5",
-      "bytes": 30914
+      "sha256": "da2b17b222cca521e35a2a86fad367e0262651d4424b88af0c10b8942c4fa6f6",
+      "bytes": 21764
     },
     {
       "path": "godot-sprite3d/frames/frame-032.png",
-      "sha256": "4d410f0c77197a00e362f5d0554cc683f846de769a020746838ac9f4735fcaaf",
-      "bytes": 26704
+      "sha256": "6d5720585eb2821dca341fe0d9782155ad1e4fffa88448fe39d761655839de50",
+      "bytes": 18933
     },
     {
       "path": "godot-sprite3d/frames/frame-033.png",
-      "sha256": "d812e4658a8430b46e27c5ae1d4bd8fbf1632ce9ea2e49fd81732b09c863d782",
-      "bytes": 28048
+      "sha256": "cb4285c3261f3f94eeb5c3babaea5fd70646408cabbb6a70946ed0c2a936b02f",
+      "bytes": 19847
     },
     {
       "path": "godot-sprite3d/frames/frame-034.png",
-      "sha256": "7af9f7d25b5d47172ae9103266b7c97707dbc547fe84a5cb243dec2c7326a8ed",
-      "bytes": 23648
+      "sha256": "92c4f7e52358040dfb3f118f42bbd02a2c9e5f05ceae698206a46d3b5d03d13b",
+      "bytes": 16777
     },
     {
       "path": "godot-sprite3d/frames/frame-035.png",
-      "sha256": "fec5ee47d46221bab1b0997f634a4dcdf7ce6e77ef5cadb485b60faf5fd54f29",
-      "bytes": 28289
+      "sha256": "97da10c2226e8eff4797a30f0b4ebac42aeac3d61dae83197c79c9fed2482573",
+      "bytes": 19974
     },
     {
       "path": "godot-sprite3d/frames/frame-036.png",
-      "sha256": "d96f240d00fca13edf4bb814efda4880093fb184791d4feedce2326a8ff2e97f",
-      "bytes": 20820
+      "sha256": "b474b714e44e9f2316bca5d7dc5a63b1ee434657d17ceaee3d6cddfa9580b17a",
+      "bytes": 14739
     },
     {
       "path": "godot-sprite3d/frames/frame-037.png",
-      "sha256": "0302132d76aecbdc2fe9d30a4a29d1107826ff5a3a3060515a024dfab0eccc81",
-      "bytes": 21758
+      "sha256": "24069b3b4cd665e138b612cba401b7f2df997a9de3f72bf919944a391571e437",
+      "bytes": 15458
     },
     {
       "path": "godot-sprite3d/frames/frame-038.png",
-      "sha256": "85d01d2e077152768c8821efd938da72393c1f93a1e38e6e0e8d753d20eefd25",
-      "bytes": 28172
+      "sha256": "28efe34c56f10d87040b009c5f8725fe26880e7ed38928c94434e074690e9795",
+      "bytes": 19912
     },
     {
       "path": "godot-sprite3d/frames/frame-039.png",
-      "sha256": "2b06f896519d2bde126fc17c642f435dc4e71a09aedf23ca7cb294d0eb6de993",
-      "bytes": 30279
+      "sha256": "efd3a1aa9e8845ba65f172fb2da7fde8a5940deaf560fade40be4177b5ceb7c3",
+      "bytes": 21384
     },
     {
       "path": "godot-sprite3d/frames/frame-040.png",
-      "sha256": "7318403b96bbe00efd10db7b932b2a0b96fa3790e8497768d762dbc1d424b3fa",
-      "bytes": 23123
+      "sha256": "68e6e8972d698897a30d97263f8f6783aba1c7116a96b9c53e88d12035221e0d",
+      "bytes": 16400
     },
     {
       "path": "godot-sprite3d/frames/frame-041.png",
-      "sha256": "7c307e823aaa0019810d47345eede077d5205d26eb0fd89160bc09e1140ba158",
-      "bytes": 16600
+      "sha256": "37611128f4f5c40c8703e95ca644a282b8cb7664c2b4703b65590c1f452d9bec",
+      "bytes": 11904
     },
     {
       "path": "godot-sprite3d/frames/frame-042.png",
-      "sha256": "08e63a1fe00ffb999caf35161485f8293e607ddb77ab7fa5be8a00a9adc1d3cc",
-      "bytes": 21490
+      "sha256": "920c0775426ba15e553952b62e3001d56495d2a3249e3cbefcc37a1cd66c5cdf",
+      "bytes": 15375
     },
     {
       "path": "godot-sprite3d/frames/frame-043.png",
-      "sha256": "134d42240b75ec460e4e269acd96705ba85c9a3c1b9856001ba4791d7af37c29",
-      "bytes": 16911
+      "sha256": "3f18a357de9376183273454c3986119e966e6b52ed36e77ae5914dda1fb88a9b",
+      "bytes": 12080
     },
     {
       "path": "godot-sprite3d/frames/frame-044.png",
-      "sha256": "a373d936a0edb7b15f386c7b0f66167169d0cfe8868925deb0820313af76eaac",
-      "bytes": 24803
+      "sha256": "dc45d8393b88d349f15e521c97b67d197e1ddea98c0a462c3efed6671430b57e",
+      "bytes": 17782
     },
     {
       "path": "godot-sprite3d/frames/frame-045.png",
-      "sha256": "adf2f64a1b44f8cc7fad66f7785a33274f74ff8009e69455889bfe77790eb1a4",
-      "bytes": 28271
+      "sha256": "69ae83ed1811588c86d146d8d75c61aed79d115141d28b3b9630f7d3648b88ae",
+      "bytes": 20103
     },
     {
       "path": "godot-sprite3d/frames/frame-046.png",
-      "sha256": "91395d36fb07bc3036d7764f32da8943da080d3a946dcb1b650780f71f8d8a09",
-      "bytes": 20083
+      "sha256": "18d0f97af976eb8877d318400ffcbd056e6de631c5cdb04db2fa75d8f8ec094e",
+      "bytes": 14230
     },
     {
       "path": "godot-sprite3d/frames/frame-047.png",
-      "sha256": "2d1a81dab8831553174c00c302d016151c78b0aa9f47e94385f12b3bf76b65e7",
-      "bytes": 18792
+      "sha256": "390896e9d695167fc7bf165c4538c6ef5ee03f2b5928881fc6ac7f8e1a4a41e4",
+      "bytes": 13293
     },
     {
       "path": "godot-sprite3d/frames/frame-048.png",
-      "sha256": "312255e329d54db7e2b7614c14e5135d5e482b5543f8e631c1e219fad5798b8d",
-      "bytes": 17359
+      "sha256": "0708a6f8020d7517e09acbfd05256be0fdbc0e0c90c7b98f75becb5c6524f70b",
+      "bytes": 12382
     },
     {
       "path": "godot-sprite3d/frames/frame-049.png",
-      "sha256": "accee2c21b26925289ebb92982c1d6a503db1d205ac064033e0766aa57783dc3",
-      "bytes": 15325
+      "sha256": "60afc21556fb29a870d25b83a091e1c2eae6332864d277bc5fe2b07f9d5487ac",
+      "bytes": 10977
     },
     {
       "path": "godot-sprite3d/frames/frame-050.png",
-      "sha256": "847905a7a44f59eb7537532889951cc65d71fb499544c8bfc29bf176de9ab7ae",
-      "bytes": 16330
+      "sha256": "4a2deafdca66ad52cf1e4adc039eca7a380e93874783e8922ecf8311ee5e44f4",
+      "bytes": 11737
     },
     {
       "path": "godot-sprite3d/frames/frame-051.png",
-      "sha256": "83d514317dd8cc8286bed9a2ab69c2b9fbdd864aa9095d0fee4109446d8a8774",
-      "bytes": 15408
+      "sha256": "91e04a64a6a0816e0bf1a026f1f871da390e2dfc629103c79e1ab3e0da7da77a",
+      "bytes": 11049
     },
     {
       "path": "godot-sprite3d/frames/frame-052.png",
-      "sha256": "dd05f275a209d1be759b9a92f1decfa37837cb742f3c176d195af9811ff86b13",
-      "bytes": 14908
+      "sha256": "1083288ad2e9551ab07d4c0bb7bde5e6b9438c5d960f80a44ad9358ccb275d1b",
+      "bytes": 10752
     },
     {
       "path": "godot-sprite3d/frames/frame-053.png",
-      "sha256": "d5ec10c9662e83bd3ee3f0b5988df87c0b326c95c1b184213652e4b46b3ab593",
-      "bytes": 14526
+      "sha256": "f8d1e1dc989be0772b1e1854e08d489aae8da9824db62d16da53272ee82a9d1d",
+      "bytes": 10458
     },
     {
       "path": "godot-sprite3d/frames/frame-054.png",
-      "sha256": "9cbcad1dba7deaf8d150a4499afca77e57553cd776cbb4febe302f217d4ad6fd",
-      "bytes": 954
+      "sha256": "e44fa65445e86116ae16a8d3163391a064d8f33146956eba47f00f920c891e7f",
+      "bytes": 883
     },
     {
       "path": "godot-sprite3d/frames/frame-055.png",
-      "sha256": "5e90335611d3a71239dd24030e6332362b4c3dde04bc53d26c85180a4a8fe90d",
-      "bytes": 1319
+      "sha256": "bb380f36360551fd46381cd03afb0da251eaf55e32c174dd6fb4a1d81a287d83",
+      "bytes": 1175
     },
     {
       "path": "godot-sprite3d/frames/frame-056.png",
-      "sha256": "34655f3c0974feadefb1cb27e76c83ed0596fcdb6d344665df17a70f69341152",
-      "bytes": 1562
+      "sha256": "e829d0ed3ce76f39418c819c3370060c4dabea4db9bb1a55450b1ce984b8fbe3",
+      "bytes": 1384
     },
     {
       "path": "godot-sprite3d/frames/frame-057.png",
-      "sha256": "c4c3e0207a7f08686dd4819695d283cd55f6a301d3771c2369745536e1b69d1f",
-      "bytes": 1950
+      "sha256": "0b489a85dc3e977ee413544e2de0b8bd3b9a410d29c53b5c5c421c59cbafcbdb",
+      "bytes": 1709
     },
     {
       "path": "godot-sprite3d/frames/frame-058.png",
-      "sha256": "a02ca5b5e02b97fdd624a233cb8ceb93edef6c7e20b9f837f1947976ea441cb7",
-      "bytes": 2123
+      "sha256": "0441f00b5f349c2ca55e7a15f3063abac357317fac6c021698d7f7de6ca9cdca",
+      "bytes": 1841
     },
     {
       "path": "godot-sprite3d/frames/frame-059.png",
-      "sha256": "234879785723b2b997d2eec7a64bc856e301b50ab766e5a815ba939dab456012",
-      "bytes": 1484
+      "sha256": "f588f2edcce062f9a41b41549959a483d3aea88f38be4b0a38e7a08784fd4f31",
+      "bytes": 1369
     },
     {
       "path": "godot-sprite3d/frames/frame-060.png",
-      "sha256": "ad76a2b3b01d31e0852aaa2606e12155362fb975eb3ad63570bc83ef8899babb",
-      "bytes": 1281
+      "sha256": "51304dfb11a23669694af8d2150d0bbc75aa29feebc2a5493d217620f1baae19",
+      "bytes": 1162
     },
     {
       "path": "godot-sprite3d/action-idle.json",
-      "sha256": "6cfd12399dc79268e5ed6acc334fe09b0c9b9b8d54b95fe6fdf3e6ae7f72b59d",
+      "sha256": "568150d1758698ee6b61e54775dfb6503617d6e1cac50af9b058fbcc3c23fd60",
       "bytes": 1495
     },
     {
       "path": "godot-sprite3d/action-walk.json",
-      "sha256": "e14bb7473ab88fe3f99003cb55e353bf1b2bc9c1f1f09ff038dd9657189d49c1",
+      "sha256": "13b86689196549048f4a6ca06c242ffda5666cd458ae82b24f48cef6fb0a39fe",
       "bytes": 1669
     },
     {
       "path": "godot-sprite3d/action-run.json",
-      "sha256": "91ea9e5a9db4f1995f349ac8a1714ff938973feb3e30f396d06898590b07d68c",
+      "sha256": "837355e0e0c53f6c8ed2df24c9092edac3cfee14348a652889c6dbbf9fa3ed54",
       "bytes": 1671
     },
     {
       "path": "godot-sprite3d/action-attack_light.json",
-      "sha256": "c8461438d8d0f73be16d411c9ee62bc936832da2a49299585d02649a7cd3d31b",
+      "sha256": "a6ac05cef34c92fe7943ddcd3d406e8a39bf8ecdd3eb587192563f148ffbf982",
       "bytes": 1865
     },
     {
       "path": "godot-sprite3d/action-power_up.json",
-      "sha256": "244443932ca572336fad29afe058dda4dda19a33a042d16bc143f39842e7f1f7",
+      "sha256": "6e865925f03bba5bff0f4a73cd3d6d4a3ca784b15d2264830c617f615c3048b6",
       "bytes": 1831
     },
     {
       "path": "godot-sprite3d/action-hit.json",
-      "sha256": "1d8082cf6ff8d70419f09a08f545d1f8d230771dc6b723554de6af3cfad24049",
+      "sha256": "3bf62f671a9bab5d8e3ece118b07ed5664e10317d84a460611a36422cb26e956",
       "bytes": 1450
     },
     {
       "path": "godot-sprite3d/action-ko.json",
-      "sha256": "77b488b8679ba7e538028e090a50886db4ce7b04ab3a379e0ddad741704dc2d6",
+      "sha256": "d3a7ede0ddb6fe6a3109272ac9d56c4cd3e2f07dc00cefc92870bd744606650a",
       "bytes": 1761
     },
     {
       "path": "godot-sprite3d/action-sonic_screech_fx.json",
-      "sha256": "bc8242abd70625f5e30e871970dd0cff0cafd2001d9bddc914a505dcaf966fd2",
+      "sha256": "87a63046979c4cefdeaea8d1e6975170c0733cab273c50f53cf7f36e34f9d2dc",
       "bytes": 1395
     },
     {
       "path": "godot-sprite3d/pteranodon.tres",
-      "sha256": "301878c24965953f2f715d8d2db1571f316c02ba47952696747df2aeb2c59c9f",
-      "bytes": 8851
+      "sha256": "12fbf808332c51ed6fd13420df6819e1b202555e066fc173493b8e944629fa4b",
+      "bytes": 8803
     },
     {
       "path": "godot-sprite3d/pteranodon.tscn",
@@ -1306,7 +1306,7 @@
     },
     {
       "path": "godot-sprite3d/bundle.json",
-      "sha256": "e9ab7b31aa33ba1d11755c5a18e4f0f1bb8ebc31606f37a12c85f36efc55e229",
+      "sha256": "ffdf2f05b5acdd8e12768edacf41fad0781e64d6d332293b585c9bf381c00218",
       "bytes": 1082
     }
   ],
@@ -1345,8 +1345,8 @@
       {
         "id": "godot_spriteframes_duration_error_ms",
         "status": "pass",
-        "value": 1.4210854715202004e-14,
-        "threshold": 1e-06
+        "value": 0.6666666666666714,
+        "threshold": 1.0
       },
       {
         "id": "godot_sprite3d_frames_roundtrip",
@@ -1359,8 +1359,8 @@
       {
         "id": "godot_sprite3d_frames_duration_error_ms",
         "status": "pass",
-        "value": 1.4210854715202004e-14,
-        "threshold": 1e-06
+        "value": 0.6666666666666714,
+        "threshold": 1.0
       },
       {
         "id": "sprite3d_paths_relative",
@@ -1388,320 +1388,320 @@
     ],
     "inputs": [
       {
-        "path": "../clips/animation-clips.json",
-        "sha256": "152b11b877a0d3280e021a28e6265c418fcf2077e3e49c09977cf038b007199f",
-        "bytes": 109520
+        "path": "../../../../../../assets/pteranodon/clips/animation-clips.json",
+        "sha256": "e03a27793b44e042866ab80643c564615e5a6367091ecb292b348c912384138f",
+        "bytes": 109458
       },
       {
-        "path": "../clips/frames/frame-00.png",
-        "sha256": "bd735e944d2dfec6b47fb5544c5fdf0289aff96f968331c6bb53a42c594aa4ee",
-        "bytes": 29257
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-00.png",
+        "sha256": "1b933d5958ad2c5263ba2becc2ded32d30df9a332664066879abe8fcf0094d97",
+        "bytes": 20557
       },
       {
-        "path": "../clips/frames/frame-01.png",
-        "sha256": "34d7da0e4af3809be8cb5694c155aef5cd3ecda154307cd59d46ae4977b75312",
-        "bytes": 22823
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-01.png",
+        "sha256": "80fc54c5796a52bff17fa4f3a9882741b2e695dad85c6d46f99e79435b7fcdb5",
+        "bytes": 16157
       },
       {
-        "path": "../clips/frames/frame-02.png",
-        "sha256": "a83e536b879a72b18cd79fcc2ec1ab20330d23a2c8d3b9ea30e2d0aa430387c2",
-        "bytes": 17196
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-02.png",
+        "sha256": "ef18221a62283a2f40e9ab89b85b5c82a52c03da9b5397ef0d307d0bc6e64ab4",
+        "bytes": 12267
       },
       {
-        "path": "../clips/frames/frame-03.png",
-        "sha256": "da70fc65a2be818f320909293f9085bca2887b6d7380d161596b92c26ea83b9f",
-        "bytes": 25529
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-03.png",
+        "sha256": "bf13a096a53c788bf8c8c6c84e0cd7bbafcc9f639d1c711c3c29a234d32930d5",
+        "bytes": 18140
       },
       {
-        "path": "../clips/frames/frame-04.png",
-        "sha256": "9f49671c5c6b24103d5296a886f1b4121f163506568500e95c661d17a5095650",
-        "bytes": 24217
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-04.png",
+        "sha256": "59d318e2169b367b5897927d029058ea5dacc9852213350e78f05d240c1ef783",
+        "bytes": 17033
       },
       {
-        "path": "../clips/frames/frame-05.png",
-        "sha256": "424bf99bb9e389c773a64c362fd5f2bcedc3d8ef3fe4e07f2251d4e8de09090b",
-        "bytes": 18202
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-05.png",
+        "sha256": "a79f1837db09333e6b860f624c8c58a533bffbdf80eca3477037fc0ba82403d2",
+        "bytes": 12989
       },
       {
-        "path": "../clips/frames/frame-06.png",
-        "sha256": "0ffa12a0d8fd210fda773b864474c006a05f062ced6bf35f15bd998f6d5a273e",
-        "bytes": 21156
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-06.png",
+        "sha256": "55e5c76d8b96df4012f9e89c82341bbb8d93d8cb150c370140b0b083ff5273fa",
+        "bytes": 15091
       },
       {
-        "path": "../clips/frames/frame-07.png",
-        "sha256": "c5a3388a0114fc2b51b8d5bdbcc2333a2c2d08ced05f1ab654be948d620c20fc",
-        "bytes": 26584
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-07.png",
+        "sha256": "d159a6ce59045c45b9ebcf5ac5ca5ce2e60e81dfb90df621e8c8460933fc3f0b",
+        "bytes": 18844
       },
       {
-        "path": "../clips/frames/frame-08.png",
-        "sha256": "c8a9193cb289b33264f4258ddbb84b482bfe1707dc2df4c2a7be5cc4e47b6af4",
-        "bytes": 28510
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-08.png",
+        "sha256": "aa4e877bee8a8feca5c06f2dc4200ba1e28a3fbc20e1f0ea571795ee944f49be",
+        "bytes": 20163
       },
       {
-        "path": "../clips/frames/frame-09.png",
-        "sha256": "30aa07200ff37f36643c83ac88f09c073b8c6d6c42d9508373c18e686f1f41fe",
-        "bytes": 21672
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-09.png",
+        "sha256": "91ca92b64660c683bd4d2e34be9d2ba1bbfdbd4e2448062ae9b19c78579f52fd",
+        "bytes": 15365
       },
       {
-        "path": "../clips/frames/frame-10.png",
-        "sha256": "dba2aebb451b74362726fb96d1f534ae76a95f0e9683eafb15aa94937483fe35",
-        "bytes": 16985
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-10.png",
+        "sha256": "c2c5623d22c8f2d58caa3b8d9f53d4f4543f0662738ec4d7c30ef2cda5dfa3d6",
+        "bytes": 12192
       },
       {
-        "path": "../clips/frames/frame-11.png",
-        "sha256": "6b7613fc9eed33a7ac2e3b374a21c68a3c8a09632dc62015075a48a0430834ee",
-        "bytes": 26112
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-11.png",
+        "sha256": "f4c2cbcc9b2910e62b1d801e9b8c86a53c7e2528e5fa2665353247fff1263a24",
+        "bytes": 18547
       },
       {
-        "path": "../clips/frames/frame-12.png",
-        "sha256": "18e9a20c4cfe54129189b96d1f30f98712e1bdf4bdeb8a56d4ae106f759a7001",
-        "bytes": 23751
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-12.png",
+        "sha256": "0c113082fe71c55e2b463ebc2bf92c447beb41f7ffc62e490d7f08041b935e87",
+        "bytes": 16889
       },
       {
-        "path": "../clips/frames/frame-13.png",
-        "sha256": "534781c63a42febcc2f969ce2b3ca9ba8becbe46afc0659a2b01c6b7f4b72e4f",
-        "bytes": 16923
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-13.png",
+        "sha256": "eade35d790af02cae5562b120eec01e3b934b3f4554916caa305ab8f190398dd",
+        "bytes": 12115
       },
       {
-        "path": "../clips/frames/frame-14.png",
-        "sha256": "fd9b2ad9bec33894d2ad5db9b65cd9711fe551b3ffba41afc8467091581a3bd8",
-        "bytes": 19975
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-14.png",
+        "sha256": "a135befedf60dc6291f18b78de39e386a3fc0c37705ae61e3e90b2f39d153f4e",
+        "bytes": 14208
       },
       {
-        "path": "../clips/frames/frame-15.png",
-        "sha256": "b8dcc2877cb02bc12a65d4d650dcb813f5e8b3b911957c7b1324f9f6eeed3d52",
-        "bytes": 26889
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-15.png",
+        "sha256": "e29cfd82758f9bf421e2e1f09b5505ba9eff960abee02a1684f250929c4e243c",
+        "bytes": 19045
       },
       {
-        "path": "../clips/frames/frame-16.png",
-        "sha256": "e525ded90b9befb6dbe3c0966d734cf52d48e47581cfd551853a317a0d668c41",
-        "bytes": 29453
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-16.png",
+        "sha256": "a53f791c9f58683df12a5d78ec17b5ecfd27e2b45d2f17db941e1766021f8d23",
+        "bytes": 20834
       },
       {
-        "path": "../clips/frames/frame-17.png",
-        "sha256": "18bc1243621d1406db6d435ba8aa7e21c15ea6a321a417e61c6288f23b4bf8fc",
-        "bytes": 21096
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-17.png",
+        "sha256": "c0e5e694bd0990f4410a9aa3c5fe595b34503b72a5726b8a120bcc977fd10104",
+        "bytes": 14909
       },
       {
-        "path": "../clips/frames/frame-18.png",
-        "sha256": "a4dceee5010de7ebcadba3bb46cd99734d21cdfd4e2888f618c94681f1ffb17d",
-        "bytes": 18424
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-18.png",
+        "sha256": "7f6a41aef8a59850eb0802d853dbfb2f863bb2fc1f512af3665c676d3196dfc8",
+        "bytes": 13152
       },
       {
-        "path": "../clips/frames/frame-19.png",
-        "sha256": "bdde4c5be1ca0036a2e4891ff99f896344a89f25303525656d3d2a25a95cc2a7",
-        "bytes": 27347
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-19.png",
+        "sha256": "198e63dfa09e5db6f91d5092fb3d36f1513f5a1bd10090e868f3e180d96392b5",
+        "bytes": 19353
       },
       {
-        "path": "../clips/frames/frame-20.png",
-        "sha256": "d1a04375cd25155207e18d7ff23fa5c414eb5bf5d8e6cf2be57b68107ac774a6",
-        "bytes": 23456
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-20.png",
+        "sha256": "5d57a07ad464847a558bf63d24335106a08431e0f5daa91109aea4a66af4fb9a",
+        "bytes": 16541
       },
       {
-        "path": "../clips/frames/frame-21.png",
-        "sha256": "97f5e81feb5b1d1822f58d02203b0f1788cfe22c025a54e17aef070f5a3b91ce",
-        "bytes": 17180
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-21.png",
+        "sha256": "4d7883d5ddc1b346109203d6d4abd7ccd8651e777b63a49f828d0906c8f80b16",
+        "bytes": 12264
       },
       {
-        "path": "../clips/frames/frame-22.png",
-        "sha256": "2e6c28de796d60ddda3bfbcae73ba13ae88733e20d3d1662d227a04e4d7317a0",
-        "bytes": 21758
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-22.png",
+        "sha256": "4b738115139685fe4c52c70de46ef23d3ca52147773f4ce63e75ba9eb0f23eed",
+        "bytes": 15336
       },
       {
-        "path": "../clips/frames/frame-23.png",
-        "sha256": "7bb35d5bb4dec8b02ca2b71a792aaf9beaed43d90e7a49087609c31060c5bcee",
-        "bytes": 26993
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-23.png",
+        "sha256": "ebf6adb2bcbbc92f9c3a80eb354f7e31efeb2f61776c6366c4f54f5d1ffb205c",
+        "bytes": 19138
       },
       {
-        "path": "../clips/frames/frame-24.png",
-        "sha256": "1f71b47922be57d90c2178f741fa03ba6de62f1a27a04538d904ed52ac7db0c3",
-        "bytes": 30387
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-24.png",
+        "sha256": "8bd4b4a279a0cf11d640753495e7c3b2b828a27d03e1122e233ed84a85962e41",
+        "bytes": 21430
       },
       {
-        "path": "../clips/frames/frame-25.png",
-        "sha256": "982e4111ff58e1877ee129459a7e8d364d0b0a84eb53af739a092cee50fb5a4f",
-        "bytes": 31549
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-25.png",
+        "sha256": "45f6498cd9e5ecff9b6eea8892a494c527bb850e1021758ce00d6ed27a907c99",
+        "bytes": 22172
       },
       {
-        "path": "../clips/frames/frame-26.png",
-        "sha256": "0a1b3f2b4d3cde93f04d0449003868e462a5b251c4c435c1b6a409b757d0fff7",
-        "bytes": 20927
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-26.png",
+        "sha256": "137b27582b95534587956e17be1f42c21a57e10acf9257bb8c475355a204affa",
+        "bytes": 14774
       },
       {
-        "path": "../clips/frames/frame-27.png",
-        "sha256": "cc98ce2ad47b3defd71f4c696ae7b7812b43c31ef04d5756e3e6264c2d5ac160",
-        "bytes": 28420
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-27.png",
+        "sha256": "87fd72cb56946b02fe35f615bf089650fe927660728be1d7147b1767b158cecd",
+        "bytes": 19992
       },
       {
-        "path": "../clips/frames/frame-28.png",
-        "sha256": "57c89ea8619be3dea8b70064876d237d42f8c436fe2618feb0cac3f783f5b8d5",
-        "bytes": 23307
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-28.png",
+        "sha256": "98a5692628f0c5c2188418d26673c72bd98224cd71d4af8238fb527f82b50aa6",
+        "bytes": 16365
       },
       {
-        "path": "../clips/frames/frame-29.png",
-        "sha256": "123eba391165d18dc8717b5d36d30bf7857722a42c910b3d416592fcaa168639",
-        "bytes": 19172
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-29.png",
+        "sha256": "a9439c54232bf6869f06afbec753fb3e6aa9125cca4371c1bb2337db198a77bf",
+        "bytes": 13521
       },
       {
-        "path": "../clips/frames/frame-30.png",
-        "sha256": "1621b900c91d6933516566df331cf05284ab4791ee0961216f13edb5710482fb",
-        "bytes": 23182
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-30.png",
+        "sha256": "2dd4b06cc069e200d18ac815a12c14d9815cbaaeeebc59d6c957797278d29a6f",
+        "bytes": 16447
       },
       {
-        "path": "../clips/frames/frame-31.png",
-        "sha256": "0f28613dea46cb533530621abe4a6d33ce9ad3158fb583fa12c1de8fd0a237f5",
-        "bytes": 30914
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-31.png",
+        "sha256": "da2b17b222cca521e35a2a86fad367e0262651d4424b88af0c10b8942c4fa6f6",
+        "bytes": 21764
       },
       {
-        "path": "../clips/frames/frame-32.png",
-        "sha256": "4d410f0c77197a00e362f5d0554cc683f846de769a020746838ac9f4735fcaaf",
-        "bytes": 26704
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-32.png",
+        "sha256": "6d5720585eb2821dca341fe0d9782155ad1e4fffa88448fe39d761655839de50",
+        "bytes": 18933
       },
       {
-        "path": "../clips/frames/frame-33.png",
-        "sha256": "d812e4658a8430b46e27c5ae1d4bd8fbf1632ce9ea2e49fd81732b09c863d782",
-        "bytes": 28048
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-33.png",
+        "sha256": "cb4285c3261f3f94eeb5c3babaea5fd70646408cabbb6a70946ed0c2a936b02f",
+        "bytes": 19847
       },
       {
-        "path": "../clips/frames/frame-34.png",
-        "sha256": "7af9f7d25b5d47172ae9103266b7c97707dbc547fe84a5cb243dec2c7326a8ed",
-        "bytes": 23648
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-34.png",
+        "sha256": "92c4f7e52358040dfb3f118f42bbd02a2c9e5f05ceae698206a46d3b5d03d13b",
+        "bytes": 16777
       },
       {
-        "path": "../clips/frames/frame-35.png",
-        "sha256": "fec5ee47d46221bab1b0997f634a4dcdf7ce6e77ef5cadb485b60faf5fd54f29",
-        "bytes": 28289
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-35.png",
+        "sha256": "97da10c2226e8eff4797a30f0b4ebac42aeac3d61dae83197c79c9fed2482573",
+        "bytes": 19974
       },
       {
-        "path": "../clips/frames/frame-36.png",
-        "sha256": "d96f240d00fca13edf4bb814efda4880093fb184791d4feedce2326a8ff2e97f",
-        "bytes": 20820
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-36.png",
+        "sha256": "b474b714e44e9f2316bca5d7dc5a63b1ee434657d17ceaee3d6cddfa9580b17a",
+        "bytes": 14739
       },
       {
-        "path": "../clips/frames/frame-37.png",
-        "sha256": "0302132d76aecbdc2fe9d30a4a29d1107826ff5a3a3060515a024dfab0eccc81",
-        "bytes": 21758
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-37.png",
+        "sha256": "24069b3b4cd665e138b612cba401b7f2df997a9de3f72bf919944a391571e437",
+        "bytes": 15458
       },
       {
-        "path": "../clips/frames/frame-38.png",
-        "sha256": "85d01d2e077152768c8821efd938da72393c1f93a1e38e6e0e8d753d20eefd25",
-        "bytes": 28172
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-38.png",
+        "sha256": "28efe34c56f10d87040b009c5f8725fe26880e7ed38928c94434e074690e9795",
+        "bytes": 19912
       },
       {
-        "path": "../clips/frames/frame-39.png",
-        "sha256": "2b06f896519d2bde126fc17c642f435dc4e71a09aedf23ca7cb294d0eb6de993",
-        "bytes": 30279
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-39.png",
+        "sha256": "efd3a1aa9e8845ba65f172fb2da7fde8a5940deaf560fade40be4177b5ceb7c3",
+        "bytes": 21384
       },
       {
-        "path": "../clips/frames/frame-40.png",
-        "sha256": "7318403b96bbe00efd10db7b932b2a0b96fa3790e8497768d762dbc1d424b3fa",
-        "bytes": 23123
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-40.png",
+        "sha256": "68e6e8972d698897a30d97263f8f6783aba1c7116a96b9c53e88d12035221e0d",
+        "bytes": 16400
       },
       {
-        "path": "../clips/frames/frame-41.png",
-        "sha256": "7c307e823aaa0019810d47345eede077d5205d26eb0fd89160bc09e1140ba158",
-        "bytes": 16600
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-41.png",
+        "sha256": "37611128f4f5c40c8703e95ca644a282b8cb7664c2b4703b65590c1f452d9bec",
+        "bytes": 11904
       },
       {
-        "path": "../clips/frames/frame-42.png",
-        "sha256": "08e63a1fe00ffb999caf35161485f8293e607ddb77ab7fa5be8a00a9adc1d3cc",
-        "bytes": 21490
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-42.png",
+        "sha256": "920c0775426ba15e553952b62e3001d56495d2a3249e3cbefcc37a1cd66c5cdf",
+        "bytes": 15375
       },
       {
-        "path": "../clips/frames/frame-43.png",
-        "sha256": "134d42240b75ec460e4e269acd96705ba85c9a3c1b9856001ba4791d7af37c29",
-        "bytes": 16911
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-43.png",
+        "sha256": "3f18a357de9376183273454c3986119e966e6b52ed36e77ae5914dda1fb88a9b",
+        "bytes": 12080
       },
       {
-        "path": "../clips/frames/frame-44.png",
-        "sha256": "a373d936a0edb7b15f386c7b0f66167169d0cfe8868925deb0820313af76eaac",
-        "bytes": 24803
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-44.png",
+        "sha256": "dc45d8393b88d349f15e521c97b67d197e1ddea98c0a462c3efed6671430b57e",
+        "bytes": 17782
       },
       {
-        "path": "../clips/frames/frame-45.png",
-        "sha256": "adf2f64a1b44f8cc7fad66f7785a33274f74ff8009e69455889bfe77790eb1a4",
-        "bytes": 28271
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-45.png",
+        "sha256": "69ae83ed1811588c86d146d8d75c61aed79d115141d28b3b9630f7d3648b88ae",
+        "bytes": 20103
       },
       {
-        "path": "../clips/frames/frame-46.png",
-        "sha256": "91395d36fb07bc3036d7764f32da8943da080d3a946dcb1b650780f71f8d8a09",
-        "bytes": 20083
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-46.png",
+        "sha256": "18d0f97af976eb8877d318400ffcbd056e6de631c5cdb04db2fa75d8f8ec094e",
+        "bytes": 14230
       },
       {
-        "path": "../clips/frames/frame-47.png",
-        "sha256": "2d1a81dab8831553174c00c302d016151c78b0aa9f47e94385f12b3bf76b65e7",
-        "bytes": 18792
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-47.png",
+        "sha256": "390896e9d695167fc7bf165c4538c6ef5ee03f2b5928881fc6ac7f8e1a4a41e4",
+        "bytes": 13293
       },
       {
-        "path": "../clips/frames/frame-48.png",
-        "sha256": "312255e329d54db7e2b7614c14e5135d5e482b5543f8e631c1e219fad5798b8d",
-        "bytes": 17359
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-48.png",
+        "sha256": "0708a6f8020d7517e09acbfd05256be0fdbc0e0c90c7b98f75becb5c6524f70b",
+        "bytes": 12382
       },
       {
-        "path": "../clips/frames/frame-49.png",
-        "sha256": "accee2c21b26925289ebb92982c1d6a503db1d205ac064033e0766aa57783dc3",
-        "bytes": 15325
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-49.png",
+        "sha256": "60afc21556fb29a870d25b83a091e1c2eae6332864d277bc5fe2b07f9d5487ac",
+        "bytes": 10977
       },
       {
-        "path": "../clips/frames/frame-50.png",
-        "sha256": "847905a7a44f59eb7537532889951cc65d71fb499544c8bfc29bf176de9ab7ae",
-        "bytes": 16330
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-50.png",
+        "sha256": "4a2deafdca66ad52cf1e4adc039eca7a380e93874783e8922ecf8311ee5e44f4",
+        "bytes": 11737
       },
       {
-        "path": "../clips/frames/frame-51.png",
-        "sha256": "83d514317dd8cc8286bed9a2ab69c2b9fbdd864aa9095d0fee4109446d8a8774",
-        "bytes": 15408
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-51.png",
+        "sha256": "91e04a64a6a0816e0bf1a026f1f871da390e2dfc629103c79e1ab3e0da7da77a",
+        "bytes": 11049
       },
       {
-        "path": "../clips/frames/frame-52.png",
-        "sha256": "dd05f275a209d1be759b9a92f1decfa37837cb742f3c176d195af9811ff86b13",
-        "bytes": 14908
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-52.png",
+        "sha256": "1083288ad2e9551ab07d4c0bb7bde5e6b9438c5d960f80a44ad9358ccb275d1b",
+        "bytes": 10752
       },
       {
-        "path": "../clips/frames/frame-53.png",
-        "sha256": "d5ec10c9662e83bd3ee3f0b5988df87c0b326c95c1b184213652e4b46b3ab593",
-        "bytes": 14526
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-53.png",
+        "sha256": "f8d1e1dc989be0772b1e1854e08d489aae8da9824db62d16da53272ee82a9d1d",
+        "bytes": 10458
       },
       {
-        "path": "../clips/frames/frame-54.png",
-        "sha256": "9cbcad1dba7deaf8d150a4499afca77e57553cd776cbb4febe302f217d4ad6fd",
-        "bytes": 954
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-54.png",
+        "sha256": "e44fa65445e86116ae16a8d3163391a064d8f33146956eba47f00f920c891e7f",
+        "bytes": 883
       },
       {
-        "path": "../clips/frames/frame-55.png",
-        "sha256": "5e90335611d3a71239dd24030e6332362b4c3dde04bc53d26c85180a4a8fe90d",
-        "bytes": 1319
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-55.png",
+        "sha256": "bb380f36360551fd46381cd03afb0da251eaf55e32c174dd6fb4a1d81a287d83",
+        "bytes": 1175
       },
       {
-        "path": "../clips/frames/frame-56.png",
-        "sha256": "34655f3c0974feadefb1cb27e76c83ed0596fcdb6d344665df17a70f69341152",
-        "bytes": 1562
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-56.png",
+        "sha256": "e829d0ed3ce76f39418c819c3370060c4dabea4db9bb1a55450b1ce984b8fbe3",
+        "bytes": 1384
       },
       {
-        "path": "../clips/frames/frame-57.png",
-        "sha256": "c4c3e0207a7f08686dd4819695d283cd55f6a301d3771c2369745536e1b69d1f",
-        "bytes": 1950
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-57.png",
+        "sha256": "0b489a85dc3e977ee413544e2de0b8bd3b9a410d29c53b5c5c421c59cbafcbdb",
+        "bytes": 1709
       },
       {
-        "path": "../clips/frames/frame-58.png",
-        "sha256": "a02ca5b5e02b97fdd624a233cb8ceb93edef6c7e20b9f837f1947976ea441cb7",
-        "bytes": 2123
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-58.png",
+        "sha256": "0441f00b5f349c2ca55e7a15f3063abac357317fac6c021698d7f7de6ca9cdca",
+        "bytes": 1841
       },
       {
-        "path": "../clips/frames/frame-59.png",
-        "sha256": "234879785723b2b997d2eec7a64bc856e301b50ab766e5a815ba939dab456012",
-        "bytes": 1484
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-59.png",
+        "sha256": "f588f2edcce062f9a41b41549959a483d3aea88f38be4b0a38e7a08784fd4f31",
+        "bytes": 1369
       },
       {
-        "path": "../clips/frames/frame-60.png",
-        "sha256": "ad76a2b3b01d31e0852aaa2606e12155362fb975eb3ad63570bc83ef8899babb",
-        "bytes": 1281
+        "path": "../../../../../../assets/pteranodon/clips/frames/frame-60.png",
+        "sha256": "51304dfb11a23669694af8d2150d0bbc75aa29feebc2a5493d217620f1baae19",
+        "bytes": 1162
       }
     ],
     "outputs": [
       {
         "path": "aseprite/pteranodon.png",
-        "sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005"
+        "sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2"
       },
       {
         "path": "aseprite/pteranodon.json",
@@ -1709,11 +1709,11 @@
       },
       {
         "path": "godot/pteranodon-atlas-00.png",
-        "sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005"
+        "sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2"
       },
       {
         "path": "godot/pteranodon.tres",
-        "sha256": "7a61c7826866860c6565bfc4ccb6e1bcc5973c8860e4a2d4f556f52dae67e7ec"
+        "sha256": "fe7399b6ec28f664044072b0462e447367a200f865bdd239a82ab384401d455b"
       },
       {
         "path": "godot/pteranodon.tscn",
@@ -1721,283 +1721,283 @@
       },
       {
         "path": "godot-sprite3d/frames/frame-000.png",
-        "sha256": "bd735e944d2dfec6b47fb5544c5fdf0289aff96f968331c6bb53a42c594aa4ee"
+        "sha256": "1b933d5958ad2c5263ba2becc2ded32d30df9a332664066879abe8fcf0094d97"
       },
       {
         "path": "godot-sprite3d/frames/frame-001.png",
-        "sha256": "34d7da0e4af3809be8cb5694c155aef5cd3ecda154307cd59d46ae4977b75312"
+        "sha256": "80fc54c5796a52bff17fa4f3a9882741b2e695dad85c6d46f99e79435b7fcdb5"
       },
       {
         "path": "godot-sprite3d/frames/frame-002.png",
-        "sha256": "a83e536b879a72b18cd79fcc2ec1ab20330d23a2c8d3b9ea30e2d0aa430387c2"
+        "sha256": "ef18221a62283a2f40e9ab89b85b5c82a52c03da9b5397ef0d307d0bc6e64ab4"
       },
       {
         "path": "godot-sprite3d/frames/frame-003.png",
-        "sha256": "da70fc65a2be818f320909293f9085bca2887b6d7380d161596b92c26ea83b9f"
+        "sha256": "bf13a096a53c788bf8c8c6c84e0cd7bbafcc9f639d1c711c3c29a234d32930d5"
       },
       {
         "path": "godot-sprite3d/frames/frame-004.png",
-        "sha256": "9f49671c5c6b24103d5296a886f1b4121f163506568500e95c661d17a5095650"
+        "sha256": "59d318e2169b367b5897927d029058ea5dacc9852213350e78f05d240c1ef783"
       },
       {
         "path": "godot-sprite3d/frames/frame-005.png",
-        "sha256": "424bf99bb9e389c773a64c362fd5f2bcedc3d8ef3fe4e07f2251d4e8de09090b"
+        "sha256": "a79f1837db09333e6b860f624c8c58a533bffbdf80eca3477037fc0ba82403d2"
       },
       {
         "path": "godot-sprite3d/frames/frame-006.png",
-        "sha256": "0ffa12a0d8fd210fda773b864474c006a05f062ced6bf35f15bd998f6d5a273e"
+        "sha256": "55e5c76d8b96df4012f9e89c82341bbb8d93d8cb150c370140b0b083ff5273fa"
       },
       {
         "path": "godot-sprite3d/frames/frame-007.png",
-        "sha256": "c5a3388a0114fc2b51b8d5bdbcc2333a2c2d08ced05f1ab654be948d620c20fc"
+        "sha256": "d159a6ce59045c45b9ebcf5ac5ca5ce2e60e81dfb90df621e8c8460933fc3f0b"
       },
       {
         "path": "godot-sprite3d/frames/frame-008.png",
-        "sha256": "c8a9193cb289b33264f4258ddbb84b482bfe1707dc2df4c2a7be5cc4e47b6af4"
+        "sha256": "aa4e877bee8a8feca5c06f2dc4200ba1e28a3fbc20e1f0ea571795ee944f49be"
       },
       {
         "path": "godot-sprite3d/frames/frame-009.png",
-        "sha256": "30aa07200ff37f36643c83ac88f09c073b8c6d6c42d9508373c18e686f1f41fe"
+        "sha256": "91ca92b64660c683bd4d2e34be9d2ba1bbfdbd4e2448062ae9b19c78579f52fd"
       },
       {
         "path": "godot-sprite3d/frames/frame-010.png",
-        "sha256": "dba2aebb451b74362726fb96d1f534ae76a95f0e9683eafb15aa94937483fe35"
+        "sha256": "c2c5623d22c8f2d58caa3b8d9f53d4f4543f0662738ec4d7c30ef2cda5dfa3d6"
       },
       {
         "path": "godot-sprite3d/frames/frame-011.png",
-        "sha256": "6b7613fc9eed33a7ac2e3b374a21c68a3c8a09632dc62015075a48a0430834ee"
+        "sha256": "f4c2cbcc9b2910e62b1d801e9b8c86a53c7e2528e5fa2665353247fff1263a24"
       },
       {
         "path": "godot-sprite3d/frames/frame-012.png",
-        "sha256": "18e9a20c4cfe54129189b96d1f30f98712e1bdf4bdeb8a56d4ae106f759a7001"
+        "sha256": "0c113082fe71c55e2b463ebc2bf92c447beb41f7ffc62e490d7f08041b935e87"
       },
       {
         "path": "godot-sprite3d/frames/frame-013.png",
-        "sha256": "534781c63a42febcc2f969ce2b3ca9ba8becbe46afc0659a2b01c6b7f4b72e4f"
+        "sha256": "eade35d790af02cae5562b120eec01e3b934b3f4554916caa305ab8f190398dd"
       },
       {
         "path": "godot-sprite3d/frames/frame-014.png",
-        "sha256": "fd9b2ad9bec33894d2ad5db9b65cd9711fe551b3ffba41afc8467091581a3bd8"
+        "sha256": "a135befedf60dc6291f18b78de39e386a3fc0c37705ae61e3e90b2f39d153f4e"
       },
       {
         "path": "godot-sprite3d/frames/frame-015.png",
-        "sha256": "b8dcc2877cb02bc12a65d4d650dcb813f5e8b3b911957c7b1324f9f6eeed3d52"
+        "sha256": "e29cfd82758f9bf421e2e1f09b5505ba9eff960abee02a1684f250929c4e243c"
       },
       {
         "path": "godot-sprite3d/frames/frame-016.png",
-        "sha256": "e525ded90b9befb6dbe3c0966d734cf52d48e47581cfd551853a317a0d668c41"
+        "sha256": "a53f791c9f58683df12a5d78ec17b5ecfd27e2b45d2f17db941e1766021f8d23"
       },
       {
         "path": "godot-sprite3d/frames/frame-017.png",
-        "sha256": "18bc1243621d1406db6d435ba8aa7e21c15ea6a321a417e61c6288f23b4bf8fc"
+        "sha256": "c0e5e694bd0990f4410a9aa3c5fe595b34503b72a5726b8a120bcc977fd10104"
       },
       {
         "path": "godot-sprite3d/frames/frame-018.png",
-        "sha256": "a4dceee5010de7ebcadba3bb46cd99734d21cdfd4e2888f618c94681f1ffb17d"
+        "sha256": "7f6a41aef8a59850eb0802d853dbfb2f863bb2fc1f512af3665c676d3196dfc8"
       },
       {
         "path": "godot-sprite3d/frames/frame-019.png",
-        "sha256": "bdde4c5be1ca0036a2e4891ff99f896344a89f25303525656d3d2a25a95cc2a7"
+        "sha256": "198e63dfa09e5db6f91d5092fb3d36f1513f5a1bd10090e868f3e180d96392b5"
       },
       {
         "path": "godot-sprite3d/frames/frame-020.png",
-        "sha256": "d1a04375cd25155207e18d7ff23fa5c414eb5bf5d8e6cf2be57b68107ac774a6"
+        "sha256": "5d57a07ad464847a558bf63d24335106a08431e0f5daa91109aea4a66af4fb9a"
       },
       {
         "path": "godot-sprite3d/frames/frame-021.png",
-        "sha256": "97f5e81feb5b1d1822f58d02203b0f1788cfe22c025a54e17aef070f5a3b91ce"
+        "sha256": "4d7883d5ddc1b346109203d6d4abd7ccd8651e777b63a49f828d0906c8f80b16"
       },
       {
         "path": "godot-sprite3d/frames/frame-022.png",
-        "sha256": "2e6c28de796d60ddda3bfbcae73ba13ae88733e20d3d1662d227a04e4d7317a0"
+        "sha256": "4b738115139685fe4c52c70de46ef23d3ca52147773f4ce63e75ba9eb0f23eed"
       },
       {
         "path": "godot-sprite3d/frames/frame-023.png",
-        "sha256": "7bb35d5bb4dec8b02ca2b71a792aaf9beaed43d90e7a49087609c31060c5bcee"
+        "sha256": "ebf6adb2bcbbc92f9c3a80eb354f7e31efeb2f61776c6366c4f54f5d1ffb205c"
       },
       {
         "path": "godot-sprite3d/frames/frame-024.png",
-        "sha256": "1f71b47922be57d90c2178f741fa03ba6de62f1a27a04538d904ed52ac7db0c3"
+        "sha256": "8bd4b4a279a0cf11d640753495e7c3b2b828a27d03e1122e233ed84a85962e41"
       },
       {
         "path": "godot-sprite3d/frames/frame-025.png",
-        "sha256": "982e4111ff58e1877ee129459a7e8d364d0b0a84eb53af739a092cee50fb5a4f"
+        "sha256": "45f6498cd9e5ecff9b6eea8892a494c527bb850e1021758ce00d6ed27a907c99"
       },
       {
         "path": "godot-sprite3d/frames/frame-026.png",
-        "sha256": "0a1b3f2b4d3cde93f04d0449003868e462a5b251c4c435c1b6a409b757d0fff7"
+        "sha256": "137b27582b95534587956e17be1f42c21a57e10acf9257bb8c475355a204affa"
       },
       {
         "path": "godot-sprite3d/frames/frame-027.png",
-        "sha256": "cc98ce2ad47b3defd71f4c696ae7b7812b43c31ef04d5756e3e6264c2d5ac160"
+        "sha256": "87fd72cb56946b02fe35f615bf089650fe927660728be1d7147b1767b158cecd"
       },
       {
         "path": "godot-sprite3d/frames/frame-028.png",
-        "sha256": "57c89ea8619be3dea8b70064876d237d42f8c436fe2618feb0cac3f783f5b8d5"
+        "sha256": "98a5692628f0c5c2188418d26673c72bd98224cd71d4af8238fb527f82b50aa6"
       },
       {
         "path": "godot-sprite3d/frames/frame-029.png",
-        "sha256": "123eba391165d18dc8717b5d36d30bf7857722a42c910b3d416592fcaa168639"
+        "sha256": "a9439c54232bf6869f06afbec753fb3e6aa9125cca4371c1bb2337db198a77bf"
       },
       {
         "path": "godot-sprite3d/frames/frame-030.png",
-        "sha256": "1621b900c91d6933516566df331cf05284ab4791ee0961216f13edb5710482fb"
+        "sha256": "2dd4b06cc069e200d18ac815a12c14d9815cbaaeeebc59d6c957797278d29a6f"
       },
       {
         "path": "godot-sprite3d/frames/frame-031.png",
-        "sha256": "0f28613dea46cb533530621abe4a6d33ce9ad3158fb583fa12c1de8fd0a237f5"
+        "sha256": "da2b17b222cca521e35a2a86fad367e0262651d4424b88af0c10b8942c4fa6f6"
       },
       {
         "path": "godot-sprite3d/frames/frame-032.png",
-        "sha256": "4d410f0c77197a00e362f5d0554cc683f846de769a020746838ac9f4735fcaaf"
+        "sha256": "6d5720585eb2821dca341fe0d9782155ad1e4fffa88448fe39d761655839de50"
       },
       {
         "path": "godot-sprite3d/frames/frame-033.png",
-        "sha256": "d812e4658a8430b46e27c5ae1d4bd8fbf1632ce9ea2e49fd81732b09c863d782"
+        "sha256": "cb4285c3261f3f94eeb5c3babaea5fd70646408cabbb6a70946ed0c2a936b02f"
       },
       {
         "path": "godot-sprite3d/frames/frame-034.png",
-        "sha256": "7af9f7d25b5d47172ae9103266b7c97707dbc547fe84a5cb243dec2c7326a8ed"
+        "sha256": "92c4f7e52358040dfb3f118f42bbd02a2c9e5f05ceae698206a46d3b5d03d13b"
       },
       {
         "path": "godot-sprite3d/frames/frame-035.png",
-        "sha256": "fec5ee47d46221bab1b0997f634a4dcdf7ce6e77ef5cadb485b60faf5fd54f29"
+        "sha256": "97da10c2226e8eff4797a30f0b4ebac42aeac3d61dae83197c79c9fed2482573"
       },
       {
         "path": "godot-sprite3d/frames/frame-036.png",
-        "sha256": "d96f240d00fca13edf4bb814efda4880093fb184791d4feedce2326a8ff2e97f"
+        "sha256": "b474b714e44e9f2316bca5d7dc5a63b1ee434657d17ceaee3d6cddfa9580b17a"
       },
       {
         "path": "godot-sprite3d/frames/frame-037.png",
-        "sha256": "0302132d76aecbdc2fe9d30a4a29d1107826ff5a3a3060515a024dfab0eccc81"
+        "sha256": "24069b3b4cd665e138b612cba401b7f2df997a9de3f72bf919944a391571e437"
       },
       {
         "path": "godot-sprite3d/frames/frame-038.png",
-        "sha256": "85d01d2e077152768c8821efd938da72393c1f93a1e38e6e0e8d753d20eefd25"
+        "sha256": "28efe34c56f10d87040b009c5f8725fe26880e7ed38928c94434e074690e9795"
       },
       {
         "path": "godot-sprite3d/frames/frame-039.png",
-        "sha256": "2b06f896519d2bde126fc17c642f435dc4e71a09aedf23ca7cb294d0eb6de993"
+        "sha256": "efd3a1aa9e8845ba65f172fb2da7fde8a5940deaf560fade40be4177b5ceb7c3"
       },
       {
         "path": "godot-sprite3d/frames/frame-040.png",
-        "sha256": "7318403b96bbe00efd10db7b932b2a0b96fa3790e8497768d762dbc1d424b3fa"
+        "sha256": "68e6e8972d698897a30d97263f8f6783aba1c7116a96b9c53e88d12035221e0d"
       },
       {
         "path": "godot-sprite3d/frames/frame-041.png",
-        "sha256": "7c307e823aaa0019810d47345eede077d5205d26eb0fd89160bc09e1140ba158"
+        "sha256": "37611128f4f5c40c8703e95ca644a282b8cb7664c2b4703b65590c1f452d9bec"
       },
       {
         "path": "godot-sprite3d/frames/frame-042.png",
-        "sha256": "08e63a1fe00ffb999caf35161485f8293e607ddb77ab7fa5be8a00a9adc1d3cc"
+        "sha256": "920c0775426ba15e553952b62e3001d56495d2a3249e3cbefcc37a1cd66c5cdf"
       },
       {
         "path": "godot-sprite3d/frames/frame-043.png",
-        "sha256": "134d42240b75ec460e4e269acd96705ba85c9a3c1b9856001ba4791d7af37c29"
+        "sha256": "3f18a357de9376183273454c3986119e966e6b52ed36e77ae5914dda1fb88a9b"
       },
       {
         "path": "godot-sprite3d/frames/frame-044.png",
-        "sha256": "a373d936a0edb7b15f386c7b0f66167169d0cfe8868925deb0820313af76eaac"
+        "sha256": "dc45d8393b88d349f15e521c97b67d197e1ddea98c0a462c3efed6671430b57e"
       },
       {
         "path": "godot-sprite3d/frames/frame-045.png",
-        "sha256": "adf2f64a1b44f8cc7fad66f7785a33274f74ff8009e69455889bfe77790eb1a4"
+        "sha256": "69ae83ed1811588c86d146d8d75c61aed79d115141d28b3b9630f7d3648b88ae"
       },
       {
         "path": "godot-sprite3d/frames/frame-046.png",
-        "sha256": "91395d36fb07bc3036d7764f32da8943da080d3a946dcb1b650780f71f8d8a09"
+        "sha256": "18d0f97af976eb8877d318400ffcbd056e6de631c5cdb04db2fa75d8f8ec094e"
       },
       {
         "path": "godot-sprite3d/frames/frame-047.png",
-        "sha256": "2d1a81dab8831553174c00c302d016151c78b0aa9f47e94385f12b3bf76b65e7"
+        "sha256": "390896e9d695167fc7bf165c4538c6ef5ee03f2b5928881fc6ac7f8e1a4a41e4"
       },
       {
         "path": "godot-sprite3d/frames/frame-048.png",
-        "sha256": "312255e329d54db7e2b7614c14e5135d5e482b5543f8e631c1e219fad5798b8d"
+        "sha256": "0708a6f8020d7517e09acbfd05256be0fdbc0e0c90c7b98f75becb5c6524f70b"
       },
       {
         "path": "godot-sprite3d/frames/frame-049.png",
-        "sha256": "accee2c21b26925289ebb92982c1d6a503db1d205ac064033e0766aa57783dc3"
+        "sha256": "60afc21556fb29a870d25b83a091e1c2eae6332864d277bc5fe2b07f9d5487ac"
       },
       {
         "path": "godot-sprite3d/frames/frame-050.png",
-        "sha256": "847905a7a44f59eb7537532889951cc65d71fb499544c8bfc29bf176de9ab7ae"
+        "sha256": "4a2deafdca66ad52cf1e4adc039eca7a380e93874783e8922ecf8311ee5e44f4"
       },
       {
         "path": "godot-sprite3d/frames/frame-051.png",
-        "sha256": "83d514317dd8cc8286bed9a2ab69c2b9fbdd864aa9095d0fee4109446d8a8774"
+        "sha256": "91e04a64a6a0816e0bf1a026f1f871da390e2dfc629103c79e1ab3e0da7da77a"
       },
       {
         "path": "godot-sprite3d/frames/frame-052.png",
-        "sha256": "dd05f275a209d1be759b9a92f1decfa37837cb742f3c176d195af9811ff86b13"
+        "sha256": "1083288ad2e9551ab07d4c0bb7bde5e6b9438c5d960f80a44ad9358ccb275d1b"
       },
       {
         "path": "godot-sprite3d/frames/frame-053.png",
-        "sha256": "d5ec10c9662e83bd3ee3f0b5988df87c0b326c95c1b184213652e4b46b3ab593"
+        "sha256": "f8d1e1dc989be0772b1e1854e08d489aae8da9824db62d16da53272ee82a9d1d"
       },
       {
         "path": "godot-sprite3d/frames/frame-054.png",
-        "sha256": "9cbcad1dba7deaf8d150a4499afca77e57553cd776cbb4febe302f217d4ad6fd"
+        "sha256": "e44fa65445e86116ae16a8d3163391a064d8f33146956eba47f00f920c891e7f"
       },
       {
         "path": "godot-sprite3d/frames/frame-055.png",
-        "sha256": "5e90335611d3a71239dd24030e6332362b4c3dde04bc53d26c85180a4a8fe90d"
+        "sha256": "bb380f36360551fd46381cd03afb0da251eaf55e32c174dd6fb4a1d81a287d83"
       },
       {
         "path": "godot-sprite3d/frames/frame-056.png",
-        "sha256": "34655f3c0974feadefb1cb27e76c83ed0596fcdb6d344665df17a70f69341152"
+        "sha256": "e829d0ed3ce76f39418c819c3370060c4dabea4db9bb1a55450b1ce984b8fbe3"
       },
       {
         "path": "godot-sprite3d/frames/frame-057.png",
-        "sha256": "c4c3e0207a7f08686dd4819695d283cd55f6a301d3771c2369745536e1b69d1f"
+        "sha256": "0b489a85dc3e977ee413544e2de0b8bd3b9a410d29c53b5c5c421c59cbafcbdb"
       },
       {
         "path": "godot-sprite3d/frames/frame-058.png",
-        "sha256": "a02ca5b5e02b97fdd624a233cb8ceb93edef6c7e20b9f837f1947976ea441cb7"
+        "sha256": "0441f00b5f349c2ca55e7a15f3063abac357317fac6c021698d7f7de6ca9cdca"
       },
       {
         "path": "godot-sprite3d/frames/frame-059.png",
-        "sha256": "234879785723b2b997d2eec7a64bc856e301b50ab766e5a815ba939dab456012"
+        "sha256": "f588f2edcce062f9a41b41549959a483d3aea88f38be4b0a38e7a08784fd4f31"
       },
       {
         "path": "godot-sprite3d/frames/frame-060.png",
-        "sha256": "ad76a2b3b01d31e0852aaa2606e12155362fb975eb3ad63570bc83ef8899babb"
+        "sha256": "51304dfb11a23669694af8d2150d0bbc75aa29feebc2a5493d217620f1baae19"
       },
       {
         "path": "godot-sprite3d/action-idle.json",
-        "sha256": "6cfd12399dc79268e5ed6acc334fe09b0c9b9b8d54b95fe6fdf3e6ae7f72b59d"
+        "sha256": "568150d1758698ee6b61e54775dfb6503617d6e1cac50af9b058fbcc3c23fd60"
       },
       {
         "path": "godot-sprite3d/action-walk.json",
-        "sha256": "e14bb7473ab88fe3f99003cb55e353bf1b2bc9c1f1f09ff038dd9657189d49c1"
+        "sha256": "13b86689196549048f4a6ca06c242ffda5666cd458ae82b24f48cef6fb0a39fe"
       },
       {
         "path": "godot-sprite3d/action-run.json",
-        "sha256": "91ea9e5a9db4f1995f349ac8a1714ff938973feb3e30f396d06898590b07d68c"
+        "sha256": "837355e0e0c53f6c8ed2df24c9092edac3cfee14348a652889c6dbbf9fa3ed54"
       },
       {
         "path": "godot-sprite3d/action-attack_light.json",
-        "sha256": "c8461438d8d0f73be16d411c9ee62bc936832da2a49299585d02649a7cd3d31b"
+        "sha256": "a6ac05cef34c92fe7943ddcd3d406e8a39bf8ecdd3eb587192563f148ffbf982"
       },
       {
         "path": "godot-sprite3d/action-power_up.json",
-        "sha256": "244443932ca572336fad29afe058dda4dda19a33a042d16bc143f39842e7f1f7"
+        "sha256": "6e865925f03bba5bff0f4a73cd3d6d4a3ca784b15d2264830c617f615c3048b6"
       },
       {
         "path": "godot-sprite3d/action-hit.json",
-        "sha256": "1d8082cf6ff8d70419f09a08f545d1f8d230771dc6b723554de6af3cfad24049"
+        "sha256": "3bf62f671a9bab5d8e3ece118b07ed5664e10317d84a460611a36422cb26e956"
       },
       {
         "path": "godot-sprite3d/action-ko.json",
-        "sha256": "77b488b8679ba7e538028e090a50886db4ce7b04ab3a379e0ddad741704dc2d6"
+        "sha256": "d3a7ede0ddb6fe6a3109272ac9d56c4cd3e2f07dc00cefc92870bd744606650a"
       },
       {
         "path": "godot-sprite3d/action-sonic_screech_fx.json",
-        "sha256": "bc8242abd70625f5e30e871970dd0cff0cafd2001d9bddc914a505dcaf966fd2"
+        "sha256": "87a63046979c4cefdeaea8d1e6975170c0733cab273c50f53cf7f36e34f9d2dc"
       },
       {
         "path": "godot-sprite3d/pteranodon.tres",
-        "sha256": "301878c24965953f2f715d8d2db1571f316c02ba47952696747df2aeb2c59c9f"
+        "sha256": "12fbf808332c51ed6fd13420df6819e1b202555e066fc173493b8e944629fa4b"
       },
       {
         "path": "godot-sprite3d/pteranodon.tscn",
@@ -2005,7 +2005,7 @@
       },
       {
         "path": "godot-sprite3d/bundle.json",
-        "sha256": "e9ab7b31aa33ba1d11755c5a18e4f0f1bb8ebc31606f37a12c85f36efc55e229"
+        "sha256": "ffdf2f05b5acdd8e12768edacf41fad0781e64d6d332293b585c9bf381c00218"
       }
     ],
     "tool": {
@@ -2037,7 +2037,7 @@
     },
     "fx_pivot_px": [
       176,
-      128
+      141
     ],
     "projectile": {
       "kind": "linear_energy",
@@ -2046,8 +2046,8 @@
       "release_frame": 2,
       "lifetime_ticks": 14,
       "origin_canvas_px": [
-        278,
-        128
+        260,
+        141
       ],
       "velocity_px_per_tick": [
         0.0,
@@ -2065,10 +2065,19 @@
     },
     "animation_constraint": "Preserve61 frame references,8 clips, frame order, ticks, events, states, loops, anchor and independent sonic FX contract. Appearance-only; source pose preservation requires visual comparison.",
     "baseline_atlas_sha256": "1dfc61d34a41a02cfcc7a048c5310618950d71972953904cad19cf241d1d041a",
-    "owner_animation_approved": false,
+    "owner_animation_approved": true,
     "atlas_demo_only": false,
     "owner_approved": true,
     "owner_approval_file": "assets/pteranodon/owner_approval.json",
-    "release_version": "0.6.0"
+    "release_version": "0.6.1",
+    "size_sync": {
+      "transform": "work/characters/pteranodon/size-sync-v10/transform.json",
+      "source_atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
+      "sample_rgba_exact": true,
+      "all61_frames_resampled": true,
+      "timing_and_actions_unchanged": true,
+      "owner_size_approved": true
+    },
+    "timing_fix": "Export automatic tick basis at60Hz, not rounded integer-ms fixedFPS. Authored ticks unchanged."
   }
 }

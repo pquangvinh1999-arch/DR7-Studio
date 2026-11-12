@@ -49,3 +49,4 @@ jobs:
         run: |
           ./tools/godot/godot --headless --path . --editor --import
           timeout 60s ./tools/godot/godot --headless --path . --script res://tests/test_character_bundles.gd
+          timeout 60s ./tools/godot/godot --headless --path . --script res://tests/test_tasmanian_charge.gd

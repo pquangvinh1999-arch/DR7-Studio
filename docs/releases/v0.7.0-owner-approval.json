@@ -1,0 +1,22 @@
+{
+  "version": "0.7.0",
+  "approved_at": "2026-11-12T09:51:08.495780+00:00",
+  "owner_message": "ok chốt tasmanian và thông số điều chỉnh lúc này đồng bộ bundle godot theo đúng qui trình sau đó push code lên main giúp anh để sang nhân vật tiếp theo",
+  "tasmanian_receipt": "assets/tasmanian_king_crab/owner_approval.json",
+  "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+  "current_dimensions": {
+    "spinosaurus": [
+      157,
+      74
+    ],
+    "pteranodon": [
+      157,
+      107
+    ],
+    "tasmanian_king_crab": [
+      133,
+      64
+    ]
+  },
+  "known_legacy_issue": "ISS-TREX-TICK-LEGACY retained unchanged as previously disclosed; not part of new character work."
+}

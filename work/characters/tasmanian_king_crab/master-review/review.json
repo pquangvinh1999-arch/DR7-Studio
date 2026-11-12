@@ -1,0 +1,115 @@
+{
+  "status": "master_concept_pending_owner",
+  "created_at": "2026-11-12T08:00:38.363924+00:00",
+  "route": "built-in image_gen",
+  "owner_approved_camera": "three-quarter facing screen right; giant claw near camera",
+  "anatomical_lock_proposed": "right claw large/near; left claw small/far",
+  "selected_demo": "concept-v2.png",
+  "generation_prompts": [
+    "prompt-v1.txt",
+    "prompt-cutout-v2.txt"
+  ],
+  "measurements": {
+    "concept-v1.png": {
+      "path": "work/characters/tasmanian_king_crab/master-review/concept-v1.png",
+      "sha256": "6faceb3ac48925c7ce6f03afa419d9bfc7048bc3dbcd45dc1e18995cf2e06a00",
+      "canvas_size_px": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox_xyxy": [
+        0,
+        9,
+        1530,
+        1024
+      ],
+      "alpha_zero_pixels": 1007672,
+      "alpha_partial_pixels": 565192,
+      "alpha_opaque_pixels": 0,
+      "samples": {
+        "0,0": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "200,300": [
+          5,
+          1,
+          1,
+          0
+        ],
+        "768,150": [
+          40,
+          14,
+          9,
+          0
+        ],
+        "768,400": [
+          71,
+          29,
+          15,
+          252
+        ]
+      }
+    },
+    "concept-v2.png": {
+      "path": "work/characters/tasmanian_king_crab/master-review/concept-v2.png",
+      "sha256": "61261312c78632c164141921a11c276b3b74fa83f0737f04136b8b2ded83a6a0",
+      "canvas_size_px": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox_xyxy": [
+        39,
+        23,
+        1520,
+        1024
+      ],
+      "alpha_zero_pixels": 1014601,
+      "alpha_partial_pixels": 558263,
+      "alpha_opaque_pixels": 0,
+      "samples": {
+        "0,0": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "200,300": [
+          8,
+          2,
+          1,
+          0
+        ],
+        "768,150": [
+          41,
+          15,
+          8,
+          0
+        ],
+        "768,400": [
+          139,
+          60,
+          18,
+          253
+        ]
+      }
+    }
+  },
+  "limits": [
+    "Generated canvas1536x1024, not requested384x256 gameplay canvas.",
+    "Soft alpha/ambient halo remain after cutout edit; hard-alpha game-ready gate pending.",
+    "No atlas or animation generated. No engine/motion PASS claimed.",
+    "Owner approval of master appearance is pending."
+  ],
+  "visual_review": "Visible asymmetric near big pincer/far small pincer, pointed carapace and eye detail. Count/connection of all8walking legs is not certified from occluded static view; review again with motion design."
+}

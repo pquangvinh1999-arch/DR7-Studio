@@ -1,0 +1,49 @@
+{
+  "status": "owner_approved_size_only",
+  "owner_request": "Tasmanian nhỏ hơn Spinosaurus15%; Pteranodon bằng Spinosaurus; báo kết quả cho Owner duyệt mẫu trước atlas.",
+  "reference": "assets/spinosaurus/clips/frames/frame-00.png",
+  "reference_body_bbox_px": [
+    98,
+    150,
+    157,
+    74
+  ],
+  "pteranodon_reference": "assets/pteranodon/clips/frames/frame-00.png",
+  "pteranodon_body_bbox_px": [
+    79,
+    73,
+    193,
+    131
+  ],
+  "uniform_scale_options": {
+    "width": {
+      "pteranodon_scale": 0.8134715025906736,
+      "pteranodon_target_bbox_wh": [
+        157,
+        107
+      ],
+      "tasmanian_target_width_px": 133,
+      "exact_tasmanian_target_width_px": 133.45
+    },
+    "height": {
+      "pteranodon_scale": 0.5648854961832062,
+      "pteranodon_target_bbox_wh": [
+        109,
+        74
+      ],
+      "tasmanian_target_height_px": 63,
+      "exact_tasmanian_target_height_px": 62.9
+    }
+  },
+  "constraint": "Uniform scale only; no independent width/height stretch. Current approved Pteranodon/runtime unchanged pending axis choice and sample review.",
+  "updated_at": "2026-11-12T08:16:43.882327+00:00",
+  "selected_axis": "width",
+  "review_report": "work/reviews/character-size-v1/measurements.json",
+  "review_readme": "work/reviews/character-size-v1/README.md",
+  "owner_size_approval": {
+    "approved_at": "2026-11-12T08:28:51.838968+00:00",
+    "owner_message": "ok anh duyệt kích thước này, nhưng trước khi vào tạo atlas anh muốn hỏi em đã đồng bồng gói bundle chưa hay chỉ chính sửa ở giao diện local host?",
+    "scope": "Size samples only: Spino157x74, Pteranodon157x107, Tasmanian133x64. Not acceptance of a new atlas/animation bundle.",
+    "bundle_sync": "not_applied; samples only, original assets and localhost runtime unchanged"
+  }
+}

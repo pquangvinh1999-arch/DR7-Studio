@@ -1,0 +1,233 @@
+{
+  "character_id": "tasmanian_king_crab",
+  "status": "owner_approved",
+  "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3106,
+          1822
+        ],
+        "cells": 54,
+        "clips": [
+          "idle",
+          "walk",
+          "attack_nomal",
+          "power_up",
+          "hit",
+          "ko",
+          "power_orb_loop",
+          "power_orb_projectile"
+        ]
+      }
+    ]
+  },
+  "frames": 54,
+  "body_frames": 46,
+  "fx_frames": 8,
+  "clips": 8,
+  "body_clips": [
+    "idle",
+    "walk",
+    "attack_nomal",
+    "power_up",
+    "hit",
+    "ko"
+  ],
+  "owner_source_fx_frames": 6,
+  "new_bridge_fx_frames": 2,
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176,
+    224
+  ],
+  "map_sync_metrics": {
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "foot_anchor_px": [
+      176,
+      224
+    ],
+    "body_only_bbox_px": {
+      "x": 110,
+      "y": 160,
+      "w": 133,
+      "h": 64
+    },
+    "full_fx_bbox_px": {
+      "x": 92,
+      "y": 109,
+      "w": 254,
+      "h": 115
+    },
+    "reference_ppu_64": 64,
+    "world_size_at_64ppu_m": {
+      "body_w_m": 2.078,
+      "body_h_m": 1,
+      "aura_w_m": 3.969,
+      "aura_h_m": 1.797
+    },
+    "tile_32px_span": {
+      "body_tiles_w": 4.156,
+      "body_tiles_h": 2,
+      "full_fx_tiles_w": 7.938,
+      "full_fx_tiles_h": 3.594
+    }
+  },
+  "motion_quality": {
+    "status": "owner_approved",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true
+    },
+    "review_evidence": "work/characters/tasmanian_king_crab/atlas-v1/review/keyframe-review.json",
+    "unresolved_structural_failures": [],
+    "owner_approved": true,
+    "naturalness_verdict": "owner_approved",
+    "notes": "Owner accepted current identity, leg cadence, loop seams, normal claw dissolve and orb charge/release sequence. No authored turn is claimed; intentional fragments remain limited to distal claw during attack3/4.",
+    "approved_at": "2026-11-12T09:51:08.495780+00:00",
+    "owner_feedback": "ok chốt tasmanian và thông số điều chỉnh lúc này đồng bộ bundle godot theo đúng qui trình sau đó push code lên main giúp anh để sang nhân vật tiếp theo"
+  },
+  "technical_checks": {
+    "status": "pass",
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 32,
+    "godot_bundle_count": 4,
+    "godot_charge_60ticks_exit_code": 0,
+    "rust_tests": 2,
+    "wasm_release_build_exit_code": 0,
+    "frontend_with_new_wasm_exit_code": 0,
+    "browser_runtime_errors": [],
+    "browser_all_body_frames_observed": true,
+    "http_byte_parity": true,
+    "engine_localhost_parity": true,
+    "standalone_godot_zip_import_test_charge_exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "warnings": [
+      "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+      "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+      "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+      "[WARN] Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win."
+    ],
+    "release_verification": "docs/releases/v0.7.0-verification.json"
+  },
+  "fx_source_evidence": "work/characters/tasmanian_king_crab/atlas-v1/fx-source-evidence.json",
+  "registration": "work/characters/tasmanian_king_crab/atlas-v1/registration.json",
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_nomal",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "power_orb_loop",
+      "power_orb_projectile"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "charge": {
+      "body_clip": "power_up",
+      "effect_clip": "power_orb_loop",
+      "release_frame": 2,
+      "origin_canvas_px_by_frame": [
+        [
+          196,
+          203
+        ],
+        [
+          220,
+          149
+        ]
+      ],
+      "clock": "body_ticks_before_release"
+    },
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "power_orb_projectile",
+      "release_frame": 2,
+      "lifetime_ticks": 16,
+      "origin_canvas_px": [
+        267,
+        157
+      ],
+      "velocity_px_per_tick": [
+        4,
+        0
+      ]
+    }
+  },
+  "browser_evidence": "work/characters/tasmanian_king_crab/atlas-v1/verification/browser-all-poses.json",
+  "http_package_parity": "work/characters/tasmanian_king_crab/atlas-v1/verification/http-package-parity.json",
+  "alpha_peer_proof": "work/characters/tasmanian_king_crab/atlas-v1/verification/alpha-and-peer-proof.json",
+  "legacy_timing_warning": {
+    "character_id": "t_rex",
+    "authored_idle_ticks": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "existing_godot_relative_durations": [
+      7.02,
+      6.96,
+      7.02,
+      7.02,
+      6.96,
+      7.02,
+      7.02,
+      6.96
+    ],
+    "status": "recorded_out_of_scope_not_modified"
+  },
+  "owner_approval_file": "assets/tasmanian_king_crab/owner_approval.json",
+  "owner_approved_at": "2026-11-12T09:51:08.495780+00:00",
+  "release_version": "0.7.0"
+}

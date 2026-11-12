@@ -1,0 +1,72 @@
+{
+  "source_fx_key_metrics": [
+    {
+      "frame": 46,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0
+    },
+    {
+      "frame": 47,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0
+    },
+    {
+      "frame": 48,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0
+    },
+    {
+      "frame": 49,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0
+    },
+    {
+      "frame": 50,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0
+    },
+    {
+      "frame": 51,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0
+    }
+  ],
+  "key_metric_definition": "Visible inner1px boundary, max RGB distance from source keyRGB000080<=16. Native violet color is not treated as generic blue spill. Key pockets refer to exact source key, removed before edgeunmix.",
+  "peer_png_files_unchanged": 474,
+  "peer_files_changed_for_exact_tick_fix": [
+    "assets/pteranodon/godot_bundle/engine-export.json",
+    "assets/pteranodon/godot_bundle/godot-sprite3d/pteranodon.tres",
+    "assets/pteranodon/godot_bundle/godot/pteranodon.tres"
+  ],
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3106,
+          1822
+        ],
+        "cells": 54,
+        "clips": [
+          "idle",
+          "walk",
+          "attack_nomal",
+          "power_up",
+          "hit",
+          "ko",
+          "power_orb_loop",
+          "power_orb_projectile"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "http_byte_parity": true,
+  "api_parity": {
+    "ok": true,
+    "checked_bundles": 4,
+    "finalized_characters": 4,
+    "errors": [],
+    "warnings": [
+      "Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+      "Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+      "Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+      "Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win."
+    ]
+  },
+  "motion_quality": {
+    "ok_for_human_test": true,
+    "release_approved": false,
+    "characters": {
+      "spinosaurus": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "t_rex": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "pteranodon": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "tasmanian_king_crab": {
+        "ok_for_human_test": true,
+        "release_approved": false,
+        "status": "reviewed_pending_owner",
+        "errors": []
+      }
+    },
+    "errors": []
+  },
+  "sha256": {
+    "assets/tasmanian_king_crab/godot_bundle/godot/tasmanian_king_crab-atlas-00.png": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+    "tools/preview/rust_combat_sim.wasm": "3cbd468389792517811e97da27cf56556180d642843a24f999abb7968b9346fb"
+  },
+  "download_zip_bytes": 13087566,
+  "zip_crc_ok": true,
+  "standalone_godot_exit_codes": {
+    "import": 0,
+    "bundles": 0,
+    "charge": 0
+  },
+  "source_owner_approval": "pending_new_character"
+}

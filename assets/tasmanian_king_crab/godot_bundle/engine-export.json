@@ -1,0 +1,1949 @@
+{
+  "schema": "generate2dsprite.engine_export.v1",
+  "name": "tasmanian_king_crab",
+  "tool": {
+    "name": "export_engine.py",
+    "version": "0.4.0"
+  },
+  "source": {
+    "path": "../clips/animation-clips.json",
+    "sha256": "7bad8af0a175531ba98b2b4f739935869575c942b93a0ffa2300a1e252d96bae",
+    "bytes": 100864,
+    "schema": "generate2dsprite.animation_clips.v2"
+  },
+  "targets": [
+    "aseprite-json",
+    "godot-spriteframes",
+    "godot-sprite3d"
+  ],
+  "frame_size": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176.0,
+    224.0
+  ],
+  "sampling": "nearest",
+  "pixel_art": true,
+  "art_source": "host_image",
+  "shadow": {
+    "rx": 40,
+    "ry": 6,
+    "opacity": 0.3
+  },
+  "default_clip": "idle",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3106,
+          1822
+        ],
+        "cells": 54,
+        "clips": [
+          "idle",
+          "walk",
+          "attack_nomal",
+          "power_up",
+          "hit",
+          "ko",
+          "power_orb_loop",
+          "power_orb_projectile"
+        ]
+      }
+    ]
+  },
+  "scale": {
+    "pixel_size": 0.01,
+    "subject_height_px": 64.0,
+    "world_height": 0.64,
+    "source": "Godot default pixel size",
+    "subject_height_source": "body_height_px"
+  },
+  "clips": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "duration_ms": [
+        117,
+        116,
+        117,
+        117,
+        116,
+        117,
+        117,
+        116
+      ],
+      "total_duration_ms": 933,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 55.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "tasmanian_king_crab.json",
+        "from": 0,
+        "to": 7
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ]
+      },
+      "sprite3d": {
+        "action": "idle",
+        "contract": "action-idle.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "walk": {
+      "frames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "duration_ms": [
+        117,
+        116,
+        117,
+        117,
+        116,
+        117,
+        117,
+        116
+      ],
+      "total_duration_ms": 933,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 55.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "tasmanian_king_crab.json",
+        "from": 8,
+        "to": 15
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ]
+      },
+      "sprite3d": {
+        "action": "walk",
+        "contract": "action-walk.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "attack_nomal": {
+      "frames": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "duration_ms": [
+        100,
+        100,
+        50,
+        17,
+        16,
+        50,
+        100,
+        134
+      ],
+      "total_duration_ms": 567,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "tell",
+          "at_ms": 100,
+          "at": 1,
+          "position": 1
+        },
+        {
+          "name": "hit",
+          "at_ms": 267,
+          "at": 4,
+          "position": 4
+        },
+        {
+          "name": "end",
+          "at_ms": 433,
+          "at": 7,
+          "position": 7
+        }
+      ],
+      "page": 0,
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 2,
+        "strike": 4,
+        "recover": 6,
+        "end": 7
+      },
+      "keys_ms": {
+        "wind_start": 0,
+        "wind_peak": 200,
+        "strike": 267,
+        "recover": 333,
+        "end": 433
+      },
+      "hitstop_ticks": 2,
+      "hitstop_ms": 33,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          6,
+          6,
+          3,
+          1,
+          1,
+          3,
+          6,
+          8
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 34.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        6,
+        6,
+        3,
+        1,
+        1,
+        3,
+        6,
+        8
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "tasmanian_king_crab.json",
+        "from": 16,
+        "to": 23
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          6.0,
+          6.0,
+          3.0,
+          1.0,
+          1.0,
+          3.0,
+          6.0,
+          8.0
+        ]
+      },
+      "sprite3d": {
+        "action": "attack_nomal",
+        "contract": "action-attack_nomal.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "power_up": {
+      "frames": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "duration_ms": [
+        133,
+        267,
+        83,
+        84,
+        83,
+        100,
+        117,
+        133
+      ],
+      "total_duration_ms": 1000,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "tell",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0
+        },
+        {
+          "name": "hit",
+          "at_ms": 400,
+          "at": 2,
+          "position": 2,
+          "data": {
+            "projectile": "power_orb_projectile"
+          }
+        },
+        {
+          "name": "end",
+          "at_ms": 867,
+          "at": 7,
+          "position": 7
+        }
+      ],
+      "page": 0,
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 1,
+        "strike": 2,
+        "recover": 5,
+        "end": 7
+      },
+      "keys_ms": {
+        "wind_start": 0,
+        "wind_peak": 133,
+        "strike": 400,
+        "recover": 650,
+        "end": 867
+      },
+      "hitstop_ticks": 0,
+      "hitstop_ms": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          8,
+          16,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 60.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        8,
+        16,
+        5,
+        5,
+        5,
+        6,
+        7,
+        8
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "tasmanian_king_crab.json",
+        "from": 24,
+        "to": 31
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          8.0,
+          16.0,
+          5.0,
+          5.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0
+        ]
+      },
+      "sprite3d": {
+        "action": "power_up",
+        "contract": "action-power_up.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "hit": {
+      "frames": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "duration_ms": [
+        67,
+        66,
+        84,
+        83,
+        83,
+        84
+      ],
+      "total_duration_ms": 467,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0
+        },
+        {
+          "name": "end",
+          "at_ms": 383,
+          "at": 5,
+          "position": 5
+        }
+      ],
+      "page": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          5,
+          5,
+          5,
+          5
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 28.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "tasmanian_king_crab.json",
+        "from": 32,
+        "to": 37
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          4.0,
+          4.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ]
+      },
+      "sprite3d": {
+        "action": "hit",
+        "contract": "action-hit.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "ko": {
+      "frames": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "duration_ms": [
+        83,
+        84,
+        83,
+        100,
+        100,
+        117,
+        133,
+        300
+      ],
+      "total_duration_ms": 1000,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0
+        },
+        {
+          "name": "hold",
+          "at_ms": 700,
+          "at": 7,
+          "position": 7
+        }
+      ],
+      "page": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          5,
+          5,
+          5,
+          6,
+          6,
+          7,
+          8,
+          18
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 60.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        5,
+        5,
+        5,
+        6,
+        6,
+        7,
+        8,
+        18
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "tasmanian_king_crab.json",
+        "from": 38,
+        "to": 45
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          5.0,
+          5.0,
+          5.0,
+          6.0,
+          6.0,
+          7.0,
+          8.0,
+          18.0
+        ]
+      },
+      "sprite3d": {
+        "action": "ko",
+        "contract": "action-ko.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "power_orb_loop": {
+      "frames": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "duration_ms": [
+        67,
+        66,
+        67,
+        67,
+        66,
+        67,
+        67,
+        66
+      ],
+      "total_duration_ms": 533,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 31.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "tasmanian_king_crab.json",
+        "from": 46,
+        "to": 53
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      },
+      "sprite3d": {
+        "action": "power_orb_loop",
+        "contract": "action-power_orb_loop.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "power_orb_projectile": {
+      "frames": [
+        51,
+        52,
+        53,
+        46
+      ],
+      "duration_ms": [
+        67,
+        66,
+        67,
+        67
+      ],
+      "total_duration_ms": 267,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [],
+      "page": 0,
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 16.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "tasmanian_king_crab.json",
+        "from": 54,
+        "to": 57
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      },
+      "sprite3d": {
+        "action": "power_orb_projectile",
+        "contract": "action-power_orb_projectile.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    }
+  },
+  "states": {
+    "idle": "idle",
+    "moving": "walk",
+    "attack": "attack_nomal",
+    "power": "power_up",
+    "hurt": "hit",
+    "dead": "ko"
+  },
+  "unused_frames": [],
+  "mapping": {
+    "anchor_px": [
+      176.0,
+      224.0
+    ],
+    "frame_size": [
+      384,
+      256
+    ],
+    "anchor_normalized_top_left": [
+      0.4583333333333333,
+      0.875
+    ],
+    "sampling": "nearest",
+    "godot": {
+      "animated_sprite_2d": {
+        "centered": false,
+        "offset": [
+          -176.0,
+          -224.0
+        ],
+        "texture_filter": 1
+      },
+      "animated_sprite_3d": {
+        "centered": true,
+        "offset": [
+          16.0,
+          96.0
+        ],
+        "pixel_size": 0.01,
+        "texture_filter": 0
+      }
+    },
+    "unity": {
+      "pivot": [
+        0.4583333333333333,
+        0.125
+      ],
+      "pixels_per_unit": 100.0,
+      "filter_mode": "Point"
+    },
+    "phaser": {
+      "origin": [
+        0.4583333333333333,
+        0.875
+      ],
+      "pixel_art": true
+    },
+    "pixi": {
+      "anchor": [
+        0.4583333333333333,
+        0.875
+      ],
+      "scale_mode": "nearest"
+    },
+    "pitch_compensation": {
+      "applies_to": "yaw-only (fixed-y) billboards seen by a pitched camera",
+      "formula": "scale_y = 1 / cos(camera_pitch), applied about the anchor"
+    }
+  },
+  "files": [
+    {
+      "path": "aseprite/tasmanian_king_crab.png",
+      "sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+      "bytes": 831368
+    },
+    {
+      "path": "aseprite/tasmanian_king_crab.json",
+      "sha256": "e5bc524d6830f437ab2b3c4862c4f127f84a84e37e545e65d8ce054837a69f95",
+      "bytes": 25275
+    },
+    {
+      "path": "godot/tasmanian_king_crab-atlas-00.png",
+      "sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+      "bytes": 831368
+    },
+    {
+      "path": "godot/tasmanian_king_crab.tres",
+      "sha256": "044211888a3bdca7bbacf678968e086f38176e7804e47a0ac558184e697a171b",
+      "bytes": 12538
+    },
+    {
+      "path": "godot/tasmanian_king_crab.tscn",
+      "sha256": "c87e83aa3b055f8e355d8e0296d08e1cbc11df434c2e78c43176e1ac9218ff30",
+      "bytes": 321
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-000.png",
+      "sha256": "5c93785ff07a1578c9c504cd5ca683da0df50bb9075bb877301efc38b62722ea",
+      "bytes": 18325
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-001.png",
+      "sha256": "22a9b0d10a5220e2fad7da281bebdd36c04bc772c4a12d8dbba3e0f1d59d104e",
+      "bytes": 18831
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-002.png",
+      "sha256": "7dcd2d25094ee3902ecf12171ab99ede5c25210daf2e2a4a7240102727ed5f8c",
+      "bytes": 19581
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-003.png",
+      "sha256": "a6840c07c64bc2f66b616fdfd0deb39c776496ab6888e1e589525d3fca21d0eb",
+      "bytes": 19835
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-004.png",
+      "sha256": "bb0cc3c73edc78b675a524698cb06ce3c104e75dca6a26829d190be933aff4bc",
+      "bytes": 19412
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-005.png",
+      "sha256": "ef19ffe7a60d6a56aa7524815070d8af89d5c004f811cb4d6719097b1e23e929",
+      "bytes": 18551
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-006.png",
+      "sha256": "0c49486f84dae6fd1295e6f80bb7eb37b4c116541761873ea15c508cfdee12f0",
+      "bytes": 19016
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-007.png",
+      "sha256": "be3066e78568bba2b0afc02b8fcbff6fade63a5424bc23e760edf8f010592402",
+      "bytes": 19082
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-008.png",
+      "sha256": "96519a5f5b14cc858a6f0489769cc4b758c44b6cf8e0d46509a2f3fc36593843",
+      "bytes": 17155
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-009.png",
+      "sha256": "594e43ecd82456a705371231f881a187dd4a8da67b7796370c725155c76682ff",
+      "bytes": 16677
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-010.png",
+      "sha256": "c0e2e4c2b6e82b414be503508b35e9686d37a1fa2fd433b2532c3cf33e0b5abb",
+      "bytes": 16448
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-011.png",
+      "sha256": "3ec1c0e2e555346cf327a7d126acdd5ef480dac1cf0f29d0817a26d34586a286",
+      "bytes": 17000
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-012.png",
+      "sha256": "3a277df01ee6c65dfb2a79e3145fa05571694d09e92adfd21224276e555d411a",
+      "bytes": 16888
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-013.png",
+      "sha256": "b0ffe3bc86286be681149c1a0b84c72c1e771e4228bfa8a0be29a34f446ae1fc",
+      "bytes": 16866
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-014.png",
+      "sha256": "6f1cba749bd65a7e9893e41598d83fb03a6e4297644439b69482012c909829c8",
+      "bytes": 17030
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-015.png",
+      "sha256": "e9a54bd732200010b72d2ec2d49e689c7495fa8d97e1c924ea1ad1b5b0a0c9e7",
+      "bytes": 17151
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-016.png",
+      "sha256": "2b46fa2e3525017977b6e9f9c888ed62f2f3a79154972a300c8c68b6afe0dc58",
+      "bytes": 17984
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-017.png",
+      "sha256": "dac2e7428e0580b758b3d49d139ab4a4871ceca913e4552f89bba22534ad4ed5",
+      "bytes": 17844
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-018.png",
+      "sha256": "3914072b720e07947bd640fe4e429a21f38817a9d1f49f3a984cdd409af01956",
+      "bytes": 18234
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-019.png",
+      "sha256": "91fa3efa51523bf69256afe16e15eff48be698e055bd4cb897725dda4175d819",
+      "bytes": 18563
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-020.png",
+      "sha256": "3d4d12d208af171a27c1a8de86cf4cb8fee06103b61568e9c451cc2a08209935",
+      "bytes": 18888
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-021.png",
+      "sha256": "b772544e6021c00aec847c57a7487001d2b0950d543ecc40251787a476132908",
+      "bytes": 18002
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-022.png",
+      "sha256": "90a31316994bb519dc44bbb49202725d2f2012f19ba5864810a9157a8406a4bf",
+      "bytes": 17935
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-023.png",
+      "sha256": "051816331f20f27fcc6d9ddce6dcb1f0974b551380dd0b4b57fb2c9ee3d9bc74",
+      "bytes": 17970
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-024.png",
+      "sha256": "92a60fd958cf303d7f7a113cc3d51e42fc5a75f83418e6b9130f91730e6f9616",
+      "bytes": 16566
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-025.png",
+      "sha256": "26de15a67e4c9633253f5a1b461e7fb4276b6ff9c205511c5705cff0d7193c51",
+      "bytes": 19433
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-026.png",
+      "sha256": "4a84f4d23cedabf18f850199175289a5657f58211443cf69fb82fee742ece871",
+      "bytes": 20033
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-027.png",
+      "sha256": "5da96e68ab2064d6cf9f30613f891288fee46a6fe3f6e9b1a482976966eb8e04",
+      "bytes": 20019
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-028.png",
+      "sha256": "c324e5c764b2e683db4baa3aae949ec6d81247d089013106733b5f2e9be72673",
+      "bytes": 19928
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-029.png",
+      "sha256": "581ec98f7ad5adbccfe3f3efcaa2f4aa37c76365aed9dfba8520994aeda2d8bc",
+      "bytes": 17803
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-030.png",
+      "sha256": "5f78032a565a007b346f12631db1c080c918de0bc71bfe44af5d02612f8f7f7c",
+      "bytes": 17243
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-031.png",
+      "sha256": "9c52408dcec2dfedf744814cfe976b1f5a93e2dc171f34782f0f18c59b75c06a",
+      "bytes": 17170
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-032.png",
+      "sha256": "fd4c260ec40df1bfb886098c685540e46f4dee90d373854fdbe661c7feeb0a68",
+      "bytes": 18746
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-033.png",
+      "sha256": "84a1e1d2043869189e635466884ea8c27a9e73378d1f3ef533be82461c579f3e",
+      "bytes": 18010
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-034.png",
+      "sha256": "bcc7e764f6dc5497cd3dd5ac32ef71cc2ef2d82fd7322ac56331dc5e10149946",
+      "bytes": 17237
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-035.png",
+      "sha256": "29ef3209c6770444789356802bc659aa9bfcb7c14ed502aabe3e4afcf1a97822",
+      "bytes": 16678
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-036.png",
+      "sha256": "a4053d2d023dab7081d3d63862f9ae88c7386942073ce54361b1bfacb7e8f0a4",
+      "bytes": 17530
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-037.png",
+      "sha256": "2a739642e8fac4b20a64bedaf68f675bd3180451f6725de1f296e5649fd331e4",
+      "bytes": 17759
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-038.png",
+      "sha256": "20c0289d711cf4bf260a9e0dcb72edfe97690e31807124425d9ec5e6e1e35c8e",
+      "bytes": 20918
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-039.png",
+      "sha256": "80f493448adb675c4131905c505d47518f6660cc499dfed56f6e002c15645570",
+      "bytes": 20292
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-040.png",
+      "sha256": "91850436bb9795cc47e563a7b4e24cf4d01d8b0f97b1591d5e59b9633409aa1e",
+      "bytes": 19203
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-041.png",
+      "sha256": "9d151c57e781da1c3dceb15b111a271c51a3be224f89b2999126b89cf2ff69af",
+      "bytes": 17370
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-042.png",
+      "sha256": "2d9d2363c6150fc785083b469e1e22c80b6d1e0e06a26cb7162b7ee76db21329",
+      "bytes": 17413
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-043.png",
+      "sha256": "a1906c8bfafd2ec052921b29b50bf6c5941cc377bdc93a701e6d9b0a1c0d99b8",
+      "bytes": 16763
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-044.png",
+      "sha256": "260959782174174ca26d3374599d40cfbf10d5eb8f9d877ec58f847f5cdca770",
+      "bytes": 15942
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-045.png",
+      "sha256": "d3501c25f7d62f2868a8b1001fff2e4435ca2328f57d60dabd72ce19c4adcb43",
+      "bytes": 15643
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-046.png",
+      "sha256": "57014f069e778e0b68480d314c9995e117e96c03ca1bb47a1517a9dc928953db",
+      "bytes": 1001
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-047.png",
+      "sha256": "2e35e9b8bcf8853f09c003cb4f7f10927568396a8031f19cd58aff0d25ca1c98",
+      "bytes": 2276
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-048.png",
+      "sha256": "8c488651823e807791b1c5c12829d2a14a3b6a8d04d741aba3b725c598e10ac2",
+      "bytes": 3829
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-049.png",
+      "sha256": "72f520b08b897472aedc0319aff593c8fcc291a93289e1ba763bd1a71e50a7ab",
+      "bytes": 3904
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-050.png",
+      "sha256": "ac86eda4d1d9dd610b15c15e36adc46c759218e96838e5f10886090a2ab813bd",
+      "bytes": 3548
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-051.png",
+      "sha256": "12469482162a1623314c55226ae3b8fc3c7a4a3c76f696cc7aa87c8c426e32d5",
+      "bytes": 2556
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-052.png",
+      "sha256": "305aa98f07896a573097033522c48be54cd888c87d08b7314d8ebabd8b890b7f",
+      "bytes": 2490
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-053.png",
+      "sha256": "12e3cfd8966b79bf6b00713661abc98c03f4c755d651ff1b6b9aa71b66835d2f",
+      "bytes": 1167
+    },
+    {
+      "path": "godot-sprite3d/action-idle.json",
+      "sha256": "2deb1d867b55ff0f364fc833e687a8eb3b7c62d156227ecc3c098cc13afadb9c",
+      "bytes": 1494
+    },
+    {
+      "path": "godot-sprite3d/action-walk.json",
+      "sha256": "81b6a92e3a44f040ac55e5f0df5e4569a405e7b0edeafec343c4d44a1f5f351f",
+      "bytes": 1494
+    },
+    {
+      "path": "godot-sprite3d/action-attack_nomal.json",
+      "sha256": "60532146cc6838afb480539e8d3b6398f7064a3d3cac97a26602f7bc8e099475",
+      "bytes": 1772
+    },
+    {
+      "path": "godot-sprite3d/action-power_up.json",
+      "sha256": "d78f75e1573a5bf3a4f9ee545ff10fcacc739141c74743d1cd7a9b10adb4e6ae",
+      "bytes": 1823
+    },
+    {
+      "path": "godot-sprite3d/action-hit.json",
+      "sha256": "a9493b8faccc34f9787387147edb6b2e523804f0ecd668c13c46c4092b2c0539",
+      "bytes": 1449
+    },
+    {
+      "path": "godot-sprite3d/action-ko.json",
+      "sha256": "43a153eb2a39a6c9473020f3b49a4fccb9e474e6806eaf2556dff319fea9166b",
+      "bytes": 1657
+    },
+    {
+      "path": "godot-sprite3d/action-power_orb_loop.json",
+      "sha256": "6bdd4942aa08aba52daab04787498f84eb9c0f01d441a6db3889d281d5c8984b",
+      "bytes": 1495
+    },
+    {
+      "path": "godot-sprite3d/action-power_orb_projectile.json",
+      "sha256": "febf77368c8b146430364c4b866e82440fecd49bff9c0755287ddc5722874d0d",
+      "bytes": 1072
+    },
+    {
+      "path": "godot-sprite3d/tasmanian_king_crab.tres",
+      "sha256": "2c1afc7fc64b86bb5c1a169c0fbab8cc48a14bf8cfee1e6e82f25cd3bd0bda78",
+      "bytes": 8110
+    },
+    {
+      "path": "godot-sprite3d/tasmanian_king_crab.tscn",
+      "sha256": "56a4eddc71bb0ba6ee3e4d474224dc6315647b9842908b158227e854065aef3d",
+      "bytes": 332
+    },
+    {
+      "path": "godot-sprite3d/bundle.json",
+      "sha256": "c4287cf8969e90bc02a6dd228a24787cf0966e17b0b4126f8849fa2969abf0be",
+      "bytes": 1127
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "method": "round trip: every written atlas, Aseprite JSON, SpriteFrames .tres, scene .tscn and Sprite3D contract was parsed back and compared with the source frames (exact RGBA), integer durations, loop flags, events and the shared anchor",
+    "notProven": [
+      "Imports into the Aseprite, Godot 4, Phaser, PixiJS and Unity editors or runtimes were not run; only parse-level round trips were checked.",
+      "Engine import settings (filter, compression, mipmaps) are not written; set them as engine-export.md describes.",
+      "Animation quality, timing feel and silhouette consistency are not judged."
+    ],
+    "checks": [
+      {
+        "id": "aseprite_roundtrip",
+        "status": "pass",
+        "value": {
+          "pages": 1,
+          "frames": 58
+        },
+        "threshold": null
+      },
+      {
+        "id": "aseprite_pivot_rounding_px",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0
+      },
+      {
+        "id": "godot_spriteframes_roundtrip",
+        "status": "pass",
+        "value": {
+          "animations": 8
+        },
+        "threshold": null
+      },
+      {
+        "id": "godot_spriteframes_duration_error_ms",
+        "status": "pass",
+        "value": 0.6666666666666714,
+        "threshold": 1.0
+      },
+      {
+        "id": "godot_sprite3d_frames_roundtrip",
+        "status": "pass",
+        "value": {
+          "animations": 8
+        },
+        "threshold": null
+      },
+      {
+        "id": "godot_sprite3d_frames_duration_error_ms",
+        "status": "pass",
+        "value": 0.6666666666666714,
+        "threshold": 1.0
+      },
+      {
+        "id": "sprite3d_paths_relative",
+        "status": "pass",
+        "value": {
+          "contracts": 8
+        },
+        "threshold": null
+      },
+      {
+        "id": "atlas_max_side_px",
+        "status": "pass",
+        "value": 3106,
+        "threshold": 4096
+      },
+      {
+        "id": "source_frame_hashes",
+        "status": "pass",
+        "value": {
+          "verified": 54,
+          "frames": 54
+        },
+        "threshold": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/animation-clips.json",
+        "sha256": "7bad8af0a175531ba98b2b4f739935869575c942b93a0ffa2300a1e252d96bae",
+        "bytes": 100864
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-00.png",
+        "sha256": "5c93785ff07a1578c9c504cd5ca683da0df50bb9075bb877301efc38b62722ea",
+        "bytes": 18325
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-01.png",
+        "sha256": "22a9b0d10a5220e2fad7da281bebdd36c04bc772c4a12d8dbba3e0f1d59d104e",
+        "bytes": 18831
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-02.png",
+        "sha256": "7dcd2d25094ee3902ecf12171ab99ede5c25210daf2e2a4a7240102727ed5f8c",
+        "bytes": 19581
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-03.png",
+        "sha256": "a6840c07c64bc2f66b616fdfd0deb39c776496ab6888e1e589525d3fca21d0eb",
+        "bytes": 19835
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-04.png",
+        "sha256": "bb0cc3c73edc78b675a524698cb06ce3c104e75dca6a26829d190be933aff4bc",
+        "bytes": 19412
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-05.png",
+        "sha256": "ef19ffe7a60d6a56aa7524815070d8af89d5c004f811cb4d6719097b1e23e929",
+        "bytes": 18551
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-06.png",
+        "sha256": "0c49486f84dae6fd1295e6f80bb7eb37b4c116541761873ea15c508cfdee12f0",
+        "bytes": 19016
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-07.png",
+        "sha256": "be3066e78568bba2b0afc02b8fcbff6fade63a5424bc23e760edf8f010592402",
+        "bytes": 19082
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-08.png",
+        "sha256": "96519a5f5b14cc858a6f0489769cc4b758c44b6cf8e0d46509a2f3fc36593843",
+        "bytes": 17155
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-09.png",
+        "sha256": "594e43ecd82456a705371231f881a187dd4a8da67b7796370c725155c76682ff",
+        "bytes": 16677
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-10.png",
+        "sha256": "c0e2e4c2b6e82b414be503508b35e9686d37a1fa2fd433b2532c3cf33e0b5abb",
+        "bytes": 16448
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-11.png",
+        "sha256": "3ec1c0e2e555346cf327a7d126acdd5ef480dac1cf0f29d0817a26d34586a286",
+        "bytes": 17000
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-12.png",
+        "sha256": "3a277df01ee6c65dfb2a79e3145fa05571694d09e92adfd21224276e555d411a",
+        "bytes": 16888
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-13.png",
+        "sha256": "b0ffe3bc86286be681149c1a0b84c72c1e771e4228bfa8a0be29a34f446ae1fc",
+        "bytes": 16866
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-14.png",
+        "sha256": "6f1cba749bd65a7e9893e41598d83fb03a6e4297644439b69482012c909829c8",
+        "bytes": 17030
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-15.png",
+        "sha256": "e9a54bd732200010b72d2ec2d49e689c7495fa8d97e1c924ea1ad1b5b0a0c9e7",
+        "bytes": 17151
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-16.png",
+        "sha256": "2b46fa2e3525017977b6e9f9c888ed62f2f3a79154972a300c8c68b6afe0dc58",
+        "bytes": 17984
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-17.png",
+        "sha256": "dac2e7428e0580b758b3d49d139ab4a4871ceca913e4552f89bba22534ad4ed5",
+        "bytes": 17844
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-18.png",
+        "sha256": "3914072b720e07947bd640fe4e429a21f38817a9d1f49f3a984cdd409af01956",
+        "bytes": 18234
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-19.png",
+        "sha256": "91fa3efa51523bf69256afe16e15eff48be698e055bd4cb897725dda4175d819",
+        "bytes": 18563
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-20.png",
+        "sha256": "3d4d12d208af171a27c1a8de86cf4cb8fee06103b61568e9c451cc2a08209935",
+        "bytes": 18888
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-21.png",
+        "sha256": "b772544e6021c00aec847c57a7487001d2b0950d543ecc40251787a476132908",
+        "bytes": 18002
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-22.png",
+        "sha256": "90a31316994bb519dc44bbb49202725d2f2012f19ba5864810a9157a8406a4bf",
+        "bytes": 17935
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-23.png",
+        "sha256": "051816331f20f27fcc6d9ddce6dcb1f0974b551380dd0b4b57fb2c9ee3d9bc74",
+        "bytes": 17970
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-24.png",
+        "sha256": "92a60fd958cf303d7f7a113cc3d51e42fc5a75f83418e6b9130f91730e6f9616",
+        "bytes": 16566
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-25.png",
+        "sha256": "26de15a67e4c9633253f5a1b461e7fb4276b6ff9c205511c5705cff0d7193c51",
+        "bytes": 19433
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-26.png",
+        "sha256": "4a84f4d23cedabf18f850199175289a5657f58211443cf69fb82fee742ece871",
+        "bytes": 20033
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-27.png",
+        "sha256": "5da96e68ab2064d6cf9f30613f891288fee46a6fe3f6e9b1a482976966eb8e04",
+        "bytes": 20019
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-28.png",
+        "sha256": "c324e5c764b2e683db4baa3aae949ec6d81247d089013106733b5f2e9be72673",
+        "bytes": 19928
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-29.png",
+        "sha256": "581ec98f7ad5adbccfe3f3efcaa2f4aa37c76365aed9dfba8520994aeda2d8bc",
+        "bytes": 17803
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-30.png",
+        "sha256": "5f78032a565a007b346f12631db1c080c918de0bc71bfe44af5d02612f8f7f7c",
+        "bytes": 17243
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-31.png",
+        "sha256": "9c52408dcec2dfedf744814cfe976b1f5a93e2dc171f34782f0f18c59b75c06a",
+        "bytes": 17170
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-32.png",
+        "sha256": "fd4c260ec40df1bfb886098c685540e46f4dee90d373854fdbe661c7feeb0a68",
+        "bytes": 18746
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-33.png",
+        "sha256": "84a1e1d2043869189e635466884ea8c27a9e73378d1f3ef533be82461c579f3e",
+        "bytes": 18010
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-34.png",
+        "sha256": "bcc7e764f6dc5497cd3dd5ac32ef71cc2ef2d82fd7322ac56331dc5e10149946",
+        "bytes": 17237
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-35.png",
+        "sha256": "29ef3209c6770444789356802bc659aa9bfcb7c14ed502aabe3e4afcf1a97822",
+        "bytes": 16678
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-36.png",
+        "sha256": "a4053d2d023dab7081d3d63862f9ae88c7386942073ce54361b1bfacb7e8f0a4",
+        "bytes": 17530
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-37.png",
+        "sha256": "2a739642e8fac4b20a64bedaf68f675bd3180451f6725de1f296e5649fd331e4",
+        "bytes": 17759
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-38.png",
+        "sha256": "20c0289d711cf4bf260a9e0dcb72edfe97690e31807124425d9ec5e6e1e35c8e",
+        "bytes": 20918
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-39.png",
+        "sha256": "80f493448adb675c4131905c505d47518f6660cc499dfed56f6e002c15645570",
+        "bytes": 20292
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-40.png",
+        "sha256": "91850436bb9795cc47e563a7b4e24cf4d01d8b0f97b1591d5e59b9633409aa1e",
+        "bytes": 19203
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-41.png",
+        "sha256": "9d151c57e781da1c3dceb15b111a271c51a3be224f89b2999126b89cf2ff69af",
+        "bytes": 17370
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-42.png",
+        "sha256": "2d9d2363c6150fc785083b469e1e22c80b6d1e0e06a26cb7162b7ee76db21329",
+        "bytes": 17413
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-43.png",
+        "sha256": "a1906c8bfafd2ec052921b29b50bf6c5941cc377bdc93a701e6d9b0a1c0d99b8",
+        "bytes": 16763
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-44.png",
+        "sha256": "260959782174174ca26d3374599d40cfbf10d5eb8f9d877ec58f847f5cdca770",
+        "bytes": 15942
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-45.png",
+        "sha256": "d3501c25f7d62f2868a8b1001fff2e4435ca2328f57d60dabd72ce19c4adcb43",
+        "bytes": 15643
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-46.png",
+        "sha256": "57014f069e778e0b68480d314c9995e117e96c03ca1bb47a1517a9dc928953db",
+        "bytes": 1001
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-47.png",
+        "sha256": "2e35e9b8bcf8853f09c003cb4f7f10927568396a8031f19cd58aff0d25ca1c98",
+        "bytes": 2276
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-48.png",
+        "sha256": "8c488651823e807791b1c5c12829d2a14a3b6a8d04d741aba3b725c598e10ac2",
+        "bytes": 3829
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-49.png",
+        "sha256": "72f520b08b897472aedc0319aff593c8fcc291a93289e1ba763bd1a71e50a7ab",
+        "bytes": 3904
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-50.png",
+        "sha256": "ac86eda4d1d9dd610b15c15e36adc46c759218e96838e5f10886090a2ab813bd",
+        "bytes": 3548
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-51.png",
+        "sha256": "12469482162a1623314c55226ae3b8fc3c7a4a3c76f696cc7aa87c8c426e32d5",
+        "bytes": 2556
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-52.png",
+        "sha256": "305aa98f07896a573097033522c48be54cd888c87d08b7314d8ebabd8b890b7f",
+        "bytes": 2490
+      },
+      {
+        "path": "../../../../../../assets/tasmanian_king_crab/clips/frames/frame-53.png",
+        "sha256": "12e3cfd8966b79bf6b00713661abc98c03f4c755d651ff1b6b9aa71b66835d2f",
+        "bytes": 1167
+      }
+    ],
+    "outputs": [
+      {
+        "path": "aseprite/tasmanian_king_crab.png",
+        "sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1"
+      },
+      {
+        "path": "aseprite/tasmanian_king_crab.json",
+        "sha256": "e5bc524d6830f437ab2b3c4862c4f127f84a84e37e545e65d8ce054837a69f95"
+      },
+      {
+        "path": "godot/tasmanian_king_crab-atlas-00.png",
+        "sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1"
+      },
+      {
+        "path": "godot/tasmanian_king_crab.tres",
+        "sha256": "044211888a3bdca7bbacf678968e086f38176e7804e47a0ac558184e697a171b"
+      },
+      {
+        "path": "godot/tasmanian_king_crab.tscn",
+        "sha256": "c87e83aa3b055f8e355d8e0296d08e1cbc11df434c2e78c43176e1ac9218ff30"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-000.png",
+        "sha256": "5c93785ff07a1578c9c504cd5ca683da0df50bb9075bb877301efc38b62722ea"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-001.png",
+        "sha256": "22a9b0d10a5220e2fad7da281bebdd36c04bc772c4a12d8dbba3e0f1d59d104e"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-002.png",
+        "sha256": "7dcd2d25094ee3902ecf12171ab99ede5c25210daf2e2a4a7240102727ed5f8c"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-003.png",
+        "sha256": "a6840c07c64bc2f66b616fdfd0deb39c776496ab6888e1e589525d3fca21d0eb"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-004.png",
+        "sha256": "bb0cc3c73edc78b675a524698cb06ce3c104e75dca6a26829d190be933aff4bc"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-005.png",
+        "sha256": "ef19ffe7a60d6a56aa7524815070d8af89d5c004f811cb4d6719097b1e23e929"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-006.png",
+        "sha256": "0c49486f84dae6fd1295e6f80bb7eb37b4c116541761873ea15c508cfdee12f0"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-007.png",
+        "sha256": "be3066e78568bba2b0afc02b8fcbff6fade63a5424bc23e760edf8f010592402"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-008.png",
+        "sha256": "96519a5f5b14cc858a6f0489769cc4b758c44b6cf8e0d46509a2f3fc36593843"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-009.png",
+        "sha256": "594e43ecd82456a705371231f881a187dd4a8da67b7796370c725155c76682ff"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-010.png",
+        "sha256": "c0e2e4c2b6e82b414be503508b35e9686d37a1fa2fd433b2532c3cf33e0b5abb"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-011.png",
+        "sha256": "3ec1c0e2e555346cf327a7d126acdd5ef480dac1cf0f29d0817a26d34586a286"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-012.png",
+        "sha256": "3a277df01ee6c65dfb2a79e3145fa05571694d09e92adfd21224276e555d411a"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-013.png",
+        "sha256": "b0ffe3bc86286be681149c1a0b84c72c1e771e4228bfa8a0be29a34f446ae1fc"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-014.png",
+        "sha256": "6f1cba749bd65a7e9893e41598d83fb03a6e4297644439b69482012c909829c8"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-015.png",
+        "sha256": "e9a54bd732200010b72d2ec2d49e689c7495fa8d97e1c924ea1ad1b5b0a0c9e7"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-016.png",
+        "sha256": "2b46fa2e3525017977b6e9f9c888ed62f2f3a79154972a300c8c68b6afe0dc58"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-017.png",
+        "sha256": "dac2e7428e0580b758b3d49d139ab4a4871ceca913e4552f89bba22534ad4ed5"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-018.png",
+        "sha256": "3914072b720e07947bd640fe4e429a21f38817a9d1f49f3a984cdd409af01956"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-019.png",
+        "sha256": "91fa3efa51523bf69256afe16e15eff48be698e055bd4cb897725dda4175d819"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-020.png",
+        "sha256": "3d4d12d208af171a27c1a8de86cf4cb8fee06103b61568e9c451cc2a08209935"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-021.png",
+        "sha256": "b772544e6021c00aec847c57a7487001d2b0950d543ecc40251787a476132908"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-022.png",
+        "sha256": "90a31316994bb519dc44bbb49202725d2f2012f19ba5864810a9157a8406a4bf"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-023.png",
+        "sha256": "051816331f20f27fcc6d9ddce6dcb1f0974b551380dd0b4b57fb2c9ee3d9bc74"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-024.png",
+        "sha256": "92a60fd958cf303d7f7a113cc3d51e42fc5a75f83418e6b9130f91730e6f9616"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-025.png",
+        "sha256": "26de15a67e4c9633253f5a1b461e7fb4276b6ff9c205511c5705cff0d7193c51"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-026.png",
+        "sha256": "4a84f4d23cedabf18f850199175289a5657f58211443cf69fb82fee742ece871"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-027.png",
+        "sha256": "5da96e68ab2064d6cf9f30613f891288fee46a6fe3f6e9b1a482976966eb8e04"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-028.png",
+        "sha256": "c324e5c764b2e683db4baa3aae949ec6d81247d089013106733b5f2e9be72673"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-029.png",
+        "sha256": "581ec98f7ad5adbccfe3f3efcaa2f4aa37c76365aed9dfba8520994aeda2d8bc"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-030.png",
+        "sha256": "5f78032a565a007b346f12631db1c080c918de0bc71bfe44af5d02612f8f7f7c"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-031.png",
+        "sha256": "9c52408dcec2dfedf744814cfe976b1f5a93e2dc171f34782f0f18c59b75c06a"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-032.png",
+        "sha256": "fd4c260ec40df1bfb886098c685540e46f4dee90d373854fdbe661c7feeb0a68"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-033.png",
+        "sha256": "84a1e1d2043869189e635466884ea8c27a9e73378d1f3ef533be82461c579f3e"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-034.png",
+        "sha256": "bcc7e764f6dc5497cd3dd5ac32ef71cc2ef2d82fd7322ac56331dc5e10149946"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-035.png",
+        "sha256": "29ef3209c6770444789356802bc659aa9bfcb7c14ed502aabe3e4afcf1a97822"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-036.png",
+        "sha256": "a4053d2d023dab7081d3d63862f9ae88c7386942073ce54361b1bfacb7e8f0a4"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-037.png",
+        "sha256": "2a739642e8fac4b20a64bedaf68f675bd3180451f6725de1f296e5649fd331e4"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-038.png",
+        "sha256": "20c0289d711cf4bf260a9e0dcb72edfe97690e31807124425d9ec5e6e1e35c8e"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-039.png",
+        "sha256": "80f493448adb675c4131905c505d47518f6660cc499dfed56f6e002c15645570"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-040.png",
+        "sha256": "91850436bb9795cc47e563a7b4e24cf4d01d8b0f97b1591d5e59b9633409aa1e"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-041.png",
+        "sha256": "9d151c57e781da1c3dceb15b111a271c51a3be224f89b2999126b89cf2ff69af"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-042.png",
+        "sha256": "2d9d2363c6150fc785083b469e1e22c80b6d1e0e06a26cb7162b7ee76db21329"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-043.png",
+        "sha256": "a1906c8bfafd2ec052921b29b50bf6c5941cc377bdc93a701e6d9b0a1c0d99b8"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-044.png",
+        "sha256": "260959782174174ca26d3374599d40cfbf10d5eb8f9d877ec58f847f5cdca770"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-045.png",
+        "sha256": "d3501c25f7d62f2868a8b1001fff2e4435ca2328f57d60dabd72ce19c4adcb43"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-046.png",
+        "sha256": "57014f069e778e0b68480d314c9995e117e96c03ca1bb47a1517a9dc928953db"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-047.png",
+        "sha256": "2e35e9b8bcf8853f09c003cb4f7f10927568396a8031f19cd58aff0d25ca1c98"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-048.png",
+        "sha256": "8c488651823e807791b1c5c12829d2a14a3b6a8d04d741aba3b725c598e10ac2"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-049.png",
+        "sha256": "72f520b08b897472aedc0319aff593c8fcc291a93289e1ba763bd1a71e50a7ab"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-050.png",
+        "sha256": "ac86eda4d1d9dd610b15c15e36adc46c759218e96838e5f10886090a2ab813bd"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-051.png",
+        "sha256": "12469482162a1623314c55226ae3b8fc3c7a4a3c76f696cc7aa87c8c426e32d5"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-052.png",
+        "sha256": "305aa98f07896a573097033522c48be54cd888c87d08b7314d8ebabd8b890b7f"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-053.png",
+        "sha256": "12e3cfd8966b79bf6b00713661abc98c03f4c755d651ff1b6b9aa71b66835d2f"
+      },
+      {
+        "path": "godot-sprite3d/action-idle.json",
+        "sha256": "2deb1d867b55ff0f364fc833e687a8eb3b7c62d156227ecc3c098cc13afadb9c"
+      },
+      {
+        "path": "godot-sprite3d/action-walk.json",
+        "sha256": "81b6a92e3a44f040ac55e5f0df5e4569a405e7b0edeafec343c4d44a1f5f351f"
+      },
+      {
+        "path": "godot-sprite3d/action-attack_nomal.json",
+        "sha256": "60532146cc6838afb480539e8d3b6398f7064a3d3cac97a26602f7bc8e099475"
+      },
+      {
+        "path": "godot-sprite3d/action-power_up.json",
+        "sha256": "d78f75e1573a5bf3a4f9ee545ff10fcacc739141c74743d1cd7a9b10adb4e6ae"
+      },
+      {
+        "path": "godot-sprite3d/action-hit.json",
+        "sha256": "a9493b8faccc34f9787387147edb6b2e523804f0ecd668c13c46c4092b2c0539"
+      },
+      {
+        "path": "godot-sprite3d/action-ko.json",
+        "sha256": "43a153eb2a39a6c9473020f3b49a4fccb9e474e6806eaf2556dff319fea9166b"
+      },
+      {
+        "path": "godot-sprite3d/action-power_orb_loop.json",
+        "sha256": "6bdd4942aa08aba52daab04787498f84eb9c0f01d441a6db3889d281d5c8984b"
+      },
+      {
+        "path": "godot-sprite3d/action-power_orb_projectile.json",
+        "sha256": "febf77368c8b146430364c4b866e82440fecd49bff9c0755287ddc5722874d0d"
+      },
+      {
+        "path": "godot-sprite3d/tasmanian_king_crab.tres",
+        "sha256": "2c1afc7fc64b86bb5c1a169c0fbab8cc48a14bf8cfee1e6e82f25cd3bd0bda78"
+      },
+      {
+        "path": "godot-sprite3d/tasmanian_king_crab.tscn",
+        "sha256": "56a4eddc71bb0ba6ee3e4d474224dc6315647b9842908b158227e854065aef3d"
+      },
+      {
+        "path": "godot-sprite3d/bundle.json",
+        "sha256": "c4287cf8969e90bc02a6dd228a24787cf0966e17b0b4126f8849fa2969abf0be"
+      }
+    ],
+    "tool": {
+      "name": "export_engine.py",
+      "version": "0.4.0"
+    }
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_nomal",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "power_orb_loop",
+      "power_orb_projectile"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "charge": {
+      "body_clip": "power_up",
+      "effect_clip": "power_orb_loop",
+      "release_frame": 2,
+      "origin_canvas_px_by_frame": [
+        [
+          196,
+          203
+        ],
+        [
+          220,
+          149
+        ]
+      ],
+      "clock": "body_ticks_before_release"
+    },
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "power_orb_projectile",
+      "release_frame": 2,
+      "lifetime_ticks": 16,
+      "origin_canvas_px": [
+        267,
+        157
+      ],
+      "velocity_px_per_tick": [
+        4,
+        0
+      ]
+    }
+  },
+  "provenance": {
+    "body_art_source": "built-in imagegen complete whole-body keyframes",
+    "identity_reference": "work/characters/tasmanian_king_crab/size-master/master.png",
+    "identity_sha256": "5c93785ff07a1578c9c504cd5ca683da0df50bb9075bb877301efc38b62722ea",
+    "fx_source": "work/characters/tasmanian_king_crab/atlas-v1/source/power-orb-owner.png",
+    "fx_source_sha256": "2772a0e7e7b6cef7062cb47221c8c55b84d1311d19f0ee29b404a3745079c5ee",
+    "source_fx_pose_count": 6,
+    "new_bridge_pose_count": 2,
+    "body_part_cut_warp": false,
+    "registration": "Fixed whole-frame scale peraction, shared row ground;2Dcomponent ownership includes dissolve islands. Original idle0 retained exactly.",
+    "owner_approved": true,
+    "atlas_demo_only": false,
+    "timing_fix": "Export automatic tick basis at60Hz, not rounded integer-ms fixedFPS. Authored ticks unchanged.",
+    "owner_approval_file": "assets/tasmanian_king_crab/owner_approval.json",
+    "approved_at": "2026-11-12T09:51:08.495780+00:00",
+    "release_version": "0.7.0"
+  }
+}

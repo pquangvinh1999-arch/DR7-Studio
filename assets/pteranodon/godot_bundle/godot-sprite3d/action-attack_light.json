@@ -13,10 +13,10 @@
     16.0,
     72.0
   ],
-  "reference_subject_height_px": 132.0,
-  "world_height": 1.32,
+  "reference_subject_height_px": 107.0,
+  "world_height": 1.07,
   "recommended_pixel_size": 0.01,
-  "rendered_subject_height_world": 1.32,
+  "rendered_subject_height_world": 1.07,
   "scale_source": "Godot default pixel size",
   "billboard": "enabled",
   "texture_filter": "nearest",
@@ -33,14 +33,14 @@
     "frames/frame-031.png"
   ],
   "frame_sha256": [
-    "1f71b47922be57d90c2178f741fa03ba6de62f1a27a04538d904ed52ac7db0c3",
-    "982e4111ff58e1877ee129459a7e8d364d0b0a84eb53af739a092cee50fb5a4f",
-    "0a1b3f2b4d3cde93f04d0449003868e462a5b251c4c435c1b6a409b757d0fff7",
-    "cc98ce2ad47b3defd71f4c696ae7b7812b43c31ef04d5756e3e6264c2d5ac160",
-    "57c89ea8619be3dea8b70064876d237d42f8c436fe2618feb0cac3f783f5b8d5",
-    "123eba391165d18dc8717b5d36d30bf7857722a42c910b3d416592fcaa168639",
-    "1621b900c91d6933516566df331cf05284ab4791ee0961216f13edb5710482fb",
-    "0f28613dea46cb533530621abe4a6d33ce9ad3158fb583fa12c1de8fd0a237f5"
+    "8bd4b4a279a0cf11d640753495e7c3b2b828a27d03e1122e233ed84a85962e41",
+    "45f6498cd9e5ecff9b6eea8892a494c527bb850e1021758ce00d6ed27a907c99",
+    "137b27582b95534587956e17be1f42c21a57e10acf9257bb8c475355a204affa",
+    "87fd72cb56946b02fe35f615bf089650fe927660728be1d7147b1767b158cecd",
+    "98a5692628f0c5c2188418d26673c72bd98224cd71d4af8238fb527f82b50aa6",
+    "a9439c54232bf6869f06afbec753fb3e6aa9125cca4371c1bb2337db198a77bf",
+    "2dd4b06cc069e200d18ac815a12c14d9815cbaaeeebc59d6c957797278d29a6f",
+    "da2b17b222cca521e35a2a86fad367e0262651d4424b88af0c10b8942c4fa6f6"
   ],
   "durations_ms": [
     83,

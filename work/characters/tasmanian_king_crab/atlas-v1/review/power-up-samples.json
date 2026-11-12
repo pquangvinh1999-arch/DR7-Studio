@@ -1,0 +1,98 @@
+[
+  {
+    "tick": 0,
+    "body_frame": 0,
+    "fx_kind": "charge",
+    "fx_frame": 0
+  },
+  {
+    "tick": 4,
+    "body_frame": 0,
+    "fx_kind": "charge",
+    "fx_frame": 1
+  },
+  {
+    "tick": 8,
+    "body_frame": 1,
+    "fx_kind": "charge",
+    "fx_frame": 2
+  },
+  {
+    "tick": 12,
+    "body_frame": 1,
+    "fx_kind": "charge",
+    "fx_frame": 3
+  },
+  {
+    "tick": 16,
+    "body_frame": 1,
+    "fx_kind": "charge",
+    "fx_frame": 4
+  },
+  {
+    "tick": 20,
+    "body_frame": 1,
+    "fx_kind": "charge",
+    "fx_frame": 5
+  },
+  {
+    "tick": 23,
+    "body_frame": 1,
+    "fx_kind": "charge",
+    "fx_frame": 5
+  },
+  {
+    "tick": 24,
+    "body_frame": 2,
+    "fx_kind": "projectile",
+    "fx_frame": 0
+  },
+  {
+    "tick": 28,
+    "body_frame": 2,
+    "fx_kind": "projectile",
+    "fx_frame": 1
+  },
+  {
+    "tick": 32,
+    "body_frame": 3,
+    "fx_kind": "projectile",
+    "fx_frame": 2
+  },
+  {
+    "tick": 36,
+    "body_frame": 4,
+    "fx_kind": "projectile",
+    "fx_frame": 3
+  },
+  {
+    "tick": 39,
+    "body_frame": 5,
+    "fx_kind": "projectile",
+    "fx_frame": 3
+  },
+  {
+    "tick": 40,
+    "body_frame": 5,
+    "fx_kind": null,
+    "fx_frame": null
+  },
+  {
+    "tick": 44,
+    "body_frame": 5,
+    "fx_kind": null,
+    "fx_frame": null
+  },
+  {
+    "tick": 52,
+    "body_frame": 7,
+    "fx_kind": null,
+    "fx_frame": null
+  },
+  {
+    "tick": 59,
+    "body_frame": 7,
+    "fx_kind": null,
+    "fx_frame": null
+  }
+]

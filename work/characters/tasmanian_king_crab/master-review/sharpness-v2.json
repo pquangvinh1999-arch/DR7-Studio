@@ -1,0 +1,23 @@
+{
+  "file": "work/characters/tasmanian_king_crab/master-review/concept-v2.png",
+  "file_sha256": "61261312c78632c164141921a11c276b3b74fa83f0737f04136b8b2ded83a6a0",
+  "canvas_size_px": [
+    1536,
+    1024
+  ],
+  "body_bbox_px": [
+    39,
+    23,
+    1481,
+    1001
+  ],
+  "visible_pixels": 558263,
+  "rgb_colors": 238313,
+  "edge_acutance_sobel": 138.762,
+  "alpha_hardness_pct": 64.5065943400065,
+  "visible_alpha_hardness_pct": 0.0,
+  "minimum_horizontal_constant_rgba_run_px": 1,
+  "single_pixel_run_fraction": 0.9864477119241553,
+  "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+  "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+}

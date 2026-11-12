@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scenes/TasmanianFighter2D.gd" id="1_fighter"]
+[ext_resource type="SpriteFrames" path="res://assets/tasmanian_king_crab/godot_bundle/godot/tasmanian_king_crab.tres" id="2_frames"]
+[ext_resource type="Script" path="res://tests/SkillAnimator2D.gd" id="3_anim"]
+
+[node name="TasmanianKingCrab" type="Node2D"]
+script = ExtResource("1_fighter")
+character_id = "tasmanian_king_crab"
+engine_export_json = "res://assets/tasmanian_king_crab/godot_bundle/engine-export.json"
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = ExtResource("2_frames")
+animation = &"idle"
+autoplay = "idle"
+centered = false
+offset = Vector2(-176, -224)
+
+[node name="ChargeFX" type="AnimatedSprite2D" parent="."]
+visible = false
+texture_filter = 1
+sprite_frames = ExtResource("2_frames")
+animation = &"power_orb_loop"
+centered = false
+offset = Vector2(-176, -128)
+
+[node name="ProjectileFX" type="AnimatedSprite2D" parent="."]
+visible = false
+texture_filter = 1
+sprite_frames = ExtResource("2_frames")
+animation = &"power_orb_projectile"
+centered = false
+offset = Vector2(-85, -195)
+
+[node name="SkillAnimator" type="Node2D" parent="."]
+script = ExtResource("3_anim")

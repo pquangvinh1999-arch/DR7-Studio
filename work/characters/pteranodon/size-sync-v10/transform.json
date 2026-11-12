@@ -1,0 +1,67 @@
+{
+  "canvas": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176.0,
+    200.0
+  ],
+  "inverse_affine": [
+    1.2215189873417722,
+    0,
+    -39.48734177215191,
+    0,
+    1.2242990654205608,
+    -44.532710280373834
+  ],
+  "forward_scale_xy": [
+    0.8186528497409326,
+    0.816793893129771
+  ],
+  "rounding_note": "Nominal158/193 uniform shrink; 131px reference height rounds to107px. The fixed raster map follows that approved sample exactly for every pose/FX. No per-frame fitting.",
+  "source_atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
+  "sample_rgba_exact": true,
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "run",
+      "attack_light",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "sonic_screech_fx"
+    ],
+    "locomotion": {
+      "kind": "flight",
+      "clip": "walk"
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      141
+    ],
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "sonic_screech_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 14,
+      "origin_canvas_px": [
+        260,
+        141
+      ],
+      "velocity_px_per_tick": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

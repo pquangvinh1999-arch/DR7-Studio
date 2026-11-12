@@ -1,0 +1,29 @@
+{
+  "http_byte_parity": true,
+  "api_parity": {
+    "ok": true,
+    "checked_bundles": 3,
+    "finalized_characters": 3,
+    "errors": [],
+    "warnings": [
+      "Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+      "Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+      "Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win."
+    ]
+  },
+  "sha256": {
+    "assets/pteranodon/godot_bundle/godot/pteranodon-atlas-00.png": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2",
+    "assets/pteranodon/godot_bundle/godot/pteranodon.tres": "7a61c7826866860c6565bfc4ccb6e1bcc5973c8860e4a2d4f556f52dae67e7ec",
+    "assets/pteranodon/godot_bundle/engine-export.json": "c036d1e2bbe151cb4975b3d08f7ec6ab481c3b26148aa65e257dd64091c5397b",
+    "assets/roster.json": "6d36e81149814da4e9799ebc7602db175f9e4ea0f6ae8216da151998b10e11a1",
+    "scenes/Pteranodon.tscn": "5dbc94375e66ea5cb11384af0dd31e83ab24c7a4bc04fb5a571709f0b6fd3673",
+    "scenes/PteranodonSonicWaveFX.tscn": "808e0ba2fe3539fe22248d0bf1c005d648123e5bea99536ebbb9d837edc9a57e",
+    "tools/preview/rust_combat_sim.wasm": "d7b86c4edd80d5a0a811af0bfb0b49534344590951e8e49cc5b90bf8b53a5d10"
+  },
+  "download_zip_bytes": 10575256,
+  "zip_crc_ok": true,
+  "zip_runtime_files_identical": true,
+  "standalone_zip_godot_import_exit_code": 0,
+  "standalone_zip_godot_test_exit_code": 0,
+  "standalone_dir": "/tmp/dr7-size-sync-package-whq3qsgi"
+}

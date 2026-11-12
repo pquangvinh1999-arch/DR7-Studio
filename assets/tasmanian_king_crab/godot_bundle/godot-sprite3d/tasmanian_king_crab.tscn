@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="SpriteFrames" path="tasmanian_king_crab.tres" id="1_frames"]
+
+[node name="tasmanian_king_crab" type="AnimatedSprite3D"]
+offset = Vector2(16.0, 96.0)
+pixel_size = 0.01
+billboard = 1
+texture_filter = 0
+sprite_frames = ExtResource("1_frames")
+animation = &"idle"
+autoplay = "idle"

@@ -1249,6 +1249,11 @@
         layers.push({layer:'Aura',bundle:b.id,frame});
       }
       layers.push({layer:'Body',bundle:b.id,frame:anim.frames[index]});
+      const charge=contract.charge;
+      if(charge && bodyName===charge.body_clip && index<charge.release_frame) {
+        const point=charge.origin_canvas_px_by_frame[index];
+        layers.push({layer:'Charge',bundle:b.id,frame:sampleFxFrame(b.animations[charge.effect_clip],tick),point,pivot:contract.fx_pivot_px,angle:0});
+      }
       const p=contract.projectile;
       if(!p)return layers;
       if(p.kind==='linear_energy') {
@@ -1875,6 +1880,7 @@
     // =========================================================================
     const SKILL_SPECS = {
       attack_light: { dmg: 120, range: 170, label: '-120 LIGHT ATTACK!', shake: 5 },
+      attack_nomal: { dmg: 120, range: 170, label: '-120 CLAW ATTACK!', shake: 5 },
       attack_heavy: { dmg: 220, range: 185, label: '-220 HEAVY SMASH!', shake: 7 },
       power_up:     { dmg: 250, range: 380, label: '-250 POWER SURGE!', shake: 12 },
       ki_blast:     { dmg: 280, range: 440, label: '-280 KI BLAST!', shake: 10 },

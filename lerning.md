@@ -276,4 +276,13 @@
 - Heavy cần crouch/footpivot/đuôilag/catchstep, không chỉ vẽ nhiều góc đứngthẳng cùngnhịp. Candidate12wholepose giữ35tick/hitframe5; naturalness vẫn pendingOwner, không nhận animationPASS từtechnical. Đồngbộ8bodyclip bằngwalk0reference,68PNGbodymới,4FXPNGgiữSHA;500peerfiles khôngđổi. E2Ereviewlink kiểm character/clip/frame0/paused và clampframe quágiới hạn.
 - Kiểmchứng:builder/exporter0,warnings0;Godotimport0;loop.sh test26Python/E2E+3Godotbundle+2Rustexit0,WASMrelease0;HTTPPNG/WASM/HTMLkhớpfile vàparitytrue. AtlasSHA d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7. Filmstrip9clip+powercomposite xem3nền,playbackWebP cungcấp;không tựghiOwnerapproval/skills.md.
 
+### [LRN-037] Đo silhouette sau Nearest, không lấy kích thước buffer làm bbox thân
+- Mẫu Pteranodon nguồn idle0 bbox193×131. Thu toàn pose ra buffer157×107 bằngNearest cho alpha bbox(1,0,157,107), tức thân chỉ156×107 vì cực biên1px không được lấy mẫu. Không được báo thân157px từ widthbuffer hoặc vẽ bù cánh để ép số.
+- Đã chọn phép thu đồng đều gần nhất:buffer158×107, silhouette thực157×107; không kéo riêng trục/chi. Canvas384×256,bboxCanvas(98,96,157,107),anchor[176,200],alpha thân100%. Cua133×64,Spino157×74,kiểm bằng assert vàmeasure_pixel_sharpness trong work/reviews/character-size-v1/build_review.py exit0; measurements.json ghi hệ số/SHA, ba comparisonboard được mở trực tiếp. Chỉ mẫu tĩnh chờOwner, không nhận runtime/motionPASS.
+
+### [LRN-038] --godot-fps60 làm mất authoredtick; dùng auto vẫnspeed60Hz
+- Với source cóticks4, épfixedFPS60 xuất từduration_ms67/66 nênGodotrelative_duration4.02/3.96. Godotcharge60ticktest thực báo `[FAIL] Wrong charge at tick4`, NodeE2E lệch FXframe; không nhận lần kiểm đầu là PASS.
+- Đổi exporter --godot-fpsauto:timingbasis`ticks at60Hz`, relativedurations4/4 vàpower_up8/16/5/5/5/6/7/8. Godotverifiedtick0..59:charge0..5,launchframe2/tick24,fade5/6/7/0,hide40. Loop32Python/E2E+4Godotbundle+charge+2Rustexit0,WASM0,Chromium đủ6bodyclips/khôngruntimeerror,ZIPstandalone0. LogsởTasmanianatlas-v1/verification.
+- Pteranodonsize-sync mới cũng đượcsửa3fileexportmetadata/tres,cả474PNGpeer giữSHA. T-rexlegacy cócùngfractionaldurations nhưng ngoài phạmvi sửa nên ghiISS-TREX-TICK-LEGACY,khôngtựsửa hoặc báođãfix.
+
 <!-- LERNING_ENTRIES_END -->

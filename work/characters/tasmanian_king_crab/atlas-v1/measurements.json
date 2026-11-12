@@ -1,0 +1,1452 @@
+[
+  {
+    "clip": "idle",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-00.png",
+    "file_sha256": "5c93785ff07a1578c9c504cd5ca683da0df50bb9075bb877301efc38b62722ea",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      110,
+      160,
+      133,
+      64
+    ],
+    "visible_pixels": 4885,
+    "rgb_colors": 4679,
+    "edge_acutance_sobel": 349.243,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9993854977468251,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-01.png",
+    "file_sha256": "22a9b0d10a5220e2fad7da281bebdd36c04bc772c4a12d8dbba3e0f1d59d104e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      110,
+      157,
+      133,
+      67
+    ],
+    "visible_pixels": 5665,
+    "rgb_colors": 5526,
+    "edge_acutance_sobel": 185.291,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.998585822874315,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-02.png",
+    "file_sha256": "7dcd2d25094ee3902ecf12171ab99ede5c25210daf2e2a4a7240102727ed5f8c",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      154,
+      135,
+      68
+    ],
+    "visible_pixels": 5904,
+    "rgb_colors": 5774,
+    "edge_acutance_sobel": 189.102,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9993220338983051,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-03.png",
+    "file_sha256": "a6840c07c64bc2f66b616fdfd0deb39c776496ab6888e1e589525d3fca21d0eb",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      110,
+      151,
+      134,
+      71
+    ],
+    "visible_pixels": 5986,
+    "rgb_colors": 5842,
+    "edge_acutance_sobel": 189.221,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9988292356581369,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-04.png",
+    "file_sha256": "bb0cc3c73edc78b675a524698cb06ce3c104e75dca6a26829d190be933aff4bc",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      157,
+      135,
+      67
+    ],
+    "visible_pixels": 5863,
+    "rgb_colors": 5740,
+    "edge_acutance_sobel": 181.166,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9996587613035318,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-05.png",
+    "file_sha256": "ef19ffe7a60d6a56aa7524815070d8af89d5c004f811cb4d6719097b1e23e929",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      107,
+      163,
+      137,
+      61
+    ],
+    "visible_pixels": 5624,
+    "rgb_colors": 5494,
+    "edge_acutance_sobel": 184.105,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985754985754985,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-06.png",
+    "file_sha256": "0c49486f84dae6fd1295e6f80bb7eb37b4c116541761873ea15c508cfdee12f0",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      160,
+      136,
+      64
+    ],
+    "visible_pixels": 5757,
+    "rgb_colors": 5618,
+    "edge_acutance_sobel": 174.614,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9998262682418346,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-07.png",
+    "file_sha256": "be3066e78568bba2b0afc02b8fcbff6fade63a5424bc23e760edf8f010592402",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      160,
+      136,
+      64
+    ],
+    "visible_pixels": 5785,
+    "rgb_colors": 5639,
+    "edge_acutance_sobel": 173.789,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.998788298424788,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-08.png",
+    "file_sha256": "96519a5f5b14cc858a6f0489769cc4b758c44b6cf8e0d46509a2f3fc36593843",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      110,
+      162,
+      133,
+      62
+    ],
+    "visible_pixels": 5223,
+    "rgb_colors": 5105,
+    "edge_acutance_sobel": 222.911,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9971176018447349,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-09.png",
+    "file_sha256": "594e43ecd82456a705371231f881a187dd4a8da67b7796370c725155c76682ff",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      111,
+      162,
+      131,
+      61
+    ],
+    "visible_pixels": 5120,
+    "rgb_colors": 5005,
+    "edge_acutance_sobel": 230.448,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.998238747553816,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-10.png",
+    "file_sha256": "c0e2e4c2b6e82b414be503508b35e9686d37a1fa2fd433b2532c3cf33e0b5abb",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      162,
+      137,
+      62
+    ],
+    "visible_pixels": 5009,
+    "rgb_colors": 4888,
+    "edge_acutance_sobel": 237.718,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.997999599919984,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-11.png",
+    "file_sha256": "3ec1c0e2e555346cf327a7d126acdd5ef480dac1cf0f29d0817a26d34586a286",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      116,
+      162,
+      130,
+      62
+    ],
+    "visible_pixels": 5191,
+    "rgb_colors": 5077,
+    "edge_acutance_sobel": 235.451,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9990356798457087,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-12.png",
+    "file_sha256": "3a277df01ee6c65dfb2a79e3145fa05571694d09e92adfd21224276e555d411a",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      114,
+      162,
+      132,
+      62
+    ],
+    "visible_pixels": 5110,
+    "rgb_colors": 4981,
+    "edge_acutance_sobel": 227.26,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9972516686297606,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-13.png",
+    "file_sha256": "b0ffe3bc86286be681149c1a0b84c72c1e771e4228bfa8a0be29a34f446ae1fc",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      113,
+      163,
+      137,
+      61
+    ],
+    "visible_pixels": 5110,
+    "rgb_colors": 5005,
+    "edge_acutance_sobel": 228.637,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9982356400705744,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-14.png",
+    "file_sha256": "6f1cba749bd65a7e9893e41598d83fb03a6e4297644439b69482012c909829c8",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      114,
+      162,
+      135,
+      62
+    ],
+    "visible_pixels": 5200,
+    "rgb_colors": 5070,
+    "edge_acutance_sobel": 219.65,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9974922839506173,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-15.png",
+    "file_sha256": "e9a54bd732200010b72d2ec2d49e689c7495fa8d97e1c924ea1ad1b5b0a0c9e7",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      112,
+      163,
+      132,
+      61
+    ],
+    "visible_pixels": 5192,
+    "rgb_colors": 5098,
+    "edge_acutance_sobel": 218.282,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9994218539217575,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_nomal",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-16.png",
+    "file_sha256": "2b46fa2e3525017977b6e9f9c888ed62f2f3a79154972a300c8c68b6afe0dc58",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      158,
+      133,
+      64
+    ],
+    "visible_pixels": 5432,
+    "rgb_colors": 5308,
+    "edge_acutance_sobel": 221.26,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9981556621172999,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_nomal",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-17.png",
+    "file_sha256": "dac2e7428e0580b758b3d49d139ab4a4871ceca913e4552f89bba22534ad4ed5",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      99,
+      160,
+      143,
+      62
+    ],
+    "visible_pixels": 5364,
+    "rgb_colors": 5247,
+    "edge_acutance_sobel": 218.314,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9977578475336323,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_nomal",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-18.png",
+    "file_sha256": "3914072b720e07947bd640fe4e429a21f38817a9d1f49f3a984cdd409af01956",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      100,
+      157,
+      142,
+      64
+    ],
+    "visible_pixels": 5515,
+    "rgb_colors": 5382,
+    "edge_acutance_sobel": 211.603,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987284287011807,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_nomal",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-19.png",
+    "file_sha256": "91fa3efa51523bf69256afe16e15eff48be698e055bd4cb897725dda4175d819",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      92,
+      160,
+      176,
+      64
+    ],
+    "visible_pixels": 5503,
+    "rgb_colors": 5394,
+    "edge_acutance_sobel": 202.143,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989084955430235,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_nomal",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-20.png",
+    "file_sha256": "3d4d12d208af171a27c1a8de86cf4cb8fee06103b61568e9c451cc2a08209935",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      104,
+      160,
+      179,
+      62
+    ],
+    "visible_pixels": 5626,
+    "rgb_colors": 5508,
+    "edge_acutance_sobel": 215.531,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.99893219434063,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_nomal",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-21.png",
+    "file_sha256": "b772544e6021c00aec847c57a7487001d2b0950d543ecc40251787a476132908",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      104,
+      162,
+      171,
+      58
+    ],
+    "visible_pixels": 5403,
+    "rgb_colors": 5262,
+    "edge_acutance_sobel": 197.518,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9992591220596406,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_nomal",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-22.png",
+    "file_sha256": "90a31316994bb519dc44bbb49202725d2f2012f19ba5864810a9157a8406a4bf",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      103,
+      161,
+      140,
+      61
+    ],
+    "visible_pixels": 5374,
+    "rgb_colors": 5218,
+    "edge_acutance_sobel": 210.899,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9979477611940298,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_nomal",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-23.png",
+    "file_sha256": "051816331f20f27fcc6d9ddce6dcb1f0974b551380dd0b4b57fb2c9ee3d9bc74",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      107,
+      161,
+      137,
+      63
+    ],
+    "visible_pixels": 5409,
+    "rgb_colors": 5256,
+    "edge_acutance_sobel": 208.272,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9977765425236242,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-24.png",
+    "file_sha256": "92a60fd958cf303d7f7a113cc3d51e42fc5a75f83418e6b9130f91730e6f9616",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      163,
+      133,
+      61
+    ],
+    "visible_pixels": 4985,
+    "rgb_colors": 4873,
+    "edge_acutance_sobel": 221.92,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987949387427194,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-25.png",
+    "file_sha256": "26de15a67e4c9633253f5a1b461e7fb4276b6ff9c205511c5705cff0d7193c51",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      127,
+      134,
+      96
+    ],
+    "visible_pixels": 5929,
+    "rgb_colors": 5700,
+    "edge_acutance_sobel": 207.722,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9993248945147679,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-26.png",
+    "file_sha256": "4a84f4d23cedabf18f850199175289a5657f58211443cf69fb82fee742ece871",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      106,
+      138,
+      175,
+      84
+    ],
+    "visible_pixels": 6172,
+    "rgb_colors": 5947,
+    "edge_acutance_sobel": 215.091,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9993514915693904,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-27.png",
+    "file_sha256": "5da96e68ab2064d6cf9f30613f891288fee46a6fe3f6e9b1a482976966eb8e04",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      107,
+      142,
+      179,
+      80
+    ],
+    "visible_pixels": 6166,
+    "rgb_colors": 5978,
+    "edge_acutance_sobel": 199.609,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.998863451859068,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-28.png",
+    "file_sha256": "c324e5c764b2e683db4baa3aae949ec6d81247d089013106733b5f2e9be72673",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      108,
+      141,
+      168,
+      82
+    ],
+    "visible_pixels": 6125,
+    "rgb_colors": 5942,
+    "edge_acutance_sobel": 202.231,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9988558352402745,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-29.png",
+    "file_sha256": "581ec98f7ad5adbccfe3f3efcaa2f4aa37c76365aed9dfba8520994aeda2d8bc",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      108,
+      155,
+      148,
+      68
+    ],
+    "visible_pixels": 5469,
+    "rgb_colors": 5304,
+    "edge_acutance_sobel": 208.878,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987184181618455,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-30.png",
+    "file_sha256": "5f78032a565a007b346f12631db1c080c918de0bc71bfe44af5d02612f8f7f7c",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      160,
+      136,
+      63
+    ],
+    "visible_pixels": 5220,
+    "rgb_colors": 5127,
+    "edge_acutance_sobel": 233.561,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9994249568717654,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-31.png",
+    "file_sha256": "9c52408dcec2dfedf744814cfe976b1f5a93e2dc171f34782f0f18c59b75c06a",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      110,
+      162,
+      135,
+      62
+    ],
+    "visible_pixels": 5152,
+    "rgb_colors": 5032,
+    "edge_acutance_sobel": 227.739,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9984447900466563,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-32.png",
+    "file_sha256": "fd4c260ec40df1bfb886098c685540e46f4dee90d373854fdbe661c7feeb0a68",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      160,
+      134,
+      64
+    ],
+    "visible_pixels": 5545,
+    "rgb_colors": 5422,
+    "edge_acutance_sobel": 220.065,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9990974729241877,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-33.png",
+    "file_sha256": "84a1e1d2043869189e635466884ea8c27a9e73378d1f3ef533be82461c579f3e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      100,
+      156,
+      132,
+      67
+    ],
+    "visible_pixels": 5318,
+    "rgb_colors": 5197,
+    "edge_acutance_sobel": 210.667,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.999058734939759,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-34.png",
+    "file_sha256": "bcc7e764f6dc5497cd3dd5ac32ef71cc2ef2d82fd7322ac56331dc5e10149946",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      100,
+      153,
+      131,
+      70
+    ],
+    "visible_pixels": 5079,
+    "rgb_colors": 4960,
+    "edge_acutance_sobel": 206.108,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9990145841545132,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-35.png",
+    "file_sha256": "29ef3209c6770444789356802bc659aa9bfcb7c14ed502aabe3e4afcf1a97822",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      107,
+      164,
+      120,
+      59
+    ],
+    "visible_pixels": 5016,
+    "rgb_colors": 4903,
+    "edge_acutance_sobel": 205.351,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9992019154030327,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-36.png",
+    "file_sha256": "a4053d2d023dab7081d3d63862f9ae88c7386942073ce54361b1bfacb7e8f0a4",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      107,
+      163,
+      136,
+      61
+    ],
+    "visible_pixels": 5173,
+    "rgb_colors": 5048,
+    "edge_acutance_sobel": 202.14,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9990325077399381,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-37.png",
+    "file_sha256": "2a739642e8fac4b20a64bedaf68f675bd3180451f6725de1f296e5649fd331e4",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      163,
+      133,
+      61
+    ],
+    "visible_pixels": 5223,
+    "rgb_colors": 5127,
+    "edge_acutance_sobel": 205.064,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9994252873563219,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-38.png",
+    "file_sha256": "20c0289d711cf4bf260a9e0dcb72edfe97690e31807124425d9ec5e6e1e35c8e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      109,
+      149,
+      134,
+      71
+    ],
+    "visible_pixels": 6185,
+    "rgb_colors": 6046,
+    "edge_acutance_sobel": 204.844,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.998866947232114,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-39.png",
+    "file_sha256": "80f493448adb675c4131905c505d47518f6660cc499dfed56f6e002c15645570",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      112,
+      152,
+      131,
+      70
+    ],
+    "visible_pixels": 6005,
+    "rgb_colors": 5876,
+    "edge_acutance_sobel": 211.743,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9991665277546258,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-40.png",
+    "file_sha256": "91850436bb9795cc47e563a7b4e24cf4d01d8b0f97b1591d5e59b9633409aa1e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      112,
+      158,
+      133,
+      66
+    ],
+    "visible_pixels": 5704,
+    "rgb_colors": 5587,
+    "edge_acutance_sobel": 211.451,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987712831314727,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-41.png",
+    "file_sha256": "9d151c57e781da1c3dceb15b111a271c51a3be224f89b2999126b89cf2ff69af",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      112,
+      164,
+      130,
+      60
+    ],
+    "visible_pixels": 5230,
+    "rgb_colors": 5105,
+    "edge_acutance_sobel": 213.384,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9982758620689656,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-42.png",
+    "file_sha256": "2d9d2363c6150fc785083b469e1e22c80b6d1e0e06a26cb7162b7ee76db21329",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      112,
+      165,
+      132,
+      59
+    ],
+    "visible_pixels": 5233,
+    "rgb_colors": 5120,
+    "edge_acutance_sobel": 213.511,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.999043611323642,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-43.png",
+    "file_sha256": "a1906c8bfafd2ec052921b29b50bf6c5941cc377bdc93a701e6d9b0a1c0d99b8",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      112,
+      169,
+      133,
+      55
+    ],
+    "visible_pixels": 5102,
+    "rgb_colors": 4982,
+    "edge_acutance_sobel": 215.684,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9990190308024328,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-44.png",
+    "file_sha256": "260959782174174ca26d3374599d40cfbf10d5eb8f9d877ec58f847f5cdca770",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      112,
+      172,
+      133,
+      51
+    ],
+    "visible_pixels": 4838,
+    "rgb_colors": 4754,
+    "edge_acutance_sobel": 212.971,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987582781456954,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-45.png",
+    "file_sha256": "d3501c25f7d62f2868a8b1001fff2e4435ca2328f57d60dabd72ce19c4adcb43",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      112,
+      173,
+      134,
+      50
+    ],
+    "visible_pixels": 4758,
+    "rgb_colors": 4658,
+    "edge_acutance_sobel": 213.928,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989478114478114,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_loop",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-46.png",
+    "file_sha256": "57014f069e778e0b68480d314c9995e117e96c03ca1bb47a1517a9dc928953db",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      157,
+      110,
+      38,
+      37
+    ],
+    "visible_pixels": 86,
+    "rgb_colors": 25,
+    "edge_acutance_sobel": 246.443,
+    "alpha_hardness_pct": 99.95218912760416,
+    "visible_alpha_hardness_pct": 45.348837209302324,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 1.0,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_loop",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-47.png",
+    "file_sha256": "2e35e9b8bcf8853f09c003cb4f7f10927568396a8031f19cd58aff0d25ca1c98",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      157,
+      110,
+      38,
+      37
+    ],
+    "visible_pixels": 492,
+    "rgb_colors": 123,
+    "edge_acutance_sobel": 296.678,
+    "alpha_hardness_pct": 99.87996419270834,
+    "visible_alpha_hardness_pct": 76.01626016260163,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9370277078085643,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_loop",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-48.png",
+    "file_sha256": "8c488651823e807791b1c5c12829d2a14a3b6a8d04d741aba3b725c598e10ac2",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      157,
+      109,
+      38,
+      38
+    ],
+    "visible_pixels": 857,
+    "rgb_colors": 482,
+    "edge_acutance_sobel": 311.648,
+    "alpha_hardness_pct": 99.83011881510416,
+    "visible_alpha_hardness_pct": 80.51341890315052,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.964735516372796,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_loop",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-49.png",
+    "file_sha256": "72f520b08b897472aedc0319aff593c8fcc291a93289e1ba763bd1a71e50a7ab",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      157,
+      109,
+      38,
+      38
+    ],
+    "visible_pixels": 1121,
+    "rgb_colors": 538,
+    "edge_acutance_sobel": 439.726,
+    "alpha_hardness_pct": 99.91251627604166,
+    "visible_alpha_hardness_pct": 92.32827832292597,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9603340292275574,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_loop",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-50.png",
+    "file_sha256": "ac86eda4d1d9dd610b15c15e36adc46c759218e96838e5f10886090a2ab813bd",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      157,
+      109,
+      38,
+      38
+    ],
+    "visible_pixels": 1129,
+    "rgb_colors": 466,
+    "edge_acutance_sobel": 288.171,
+    "alpha_hardness_pct": 99.93184407552084,
+    "visible_alpha_hardness_pct": 94.06554472984942,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9040284360189573,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_loop",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-51.png",
+    "file_sha256": "12469482162a1623314c55226ae3b8fc3c7a4a3c76f696cc7aa87c8c426e32d5",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      159,
+      111,
+      34,
+      34
+    ],
+    "visible_pixels": 946,
+    "rgb_colors": 216,
+    "edge_acutance_sobel": 371.591,
+    "alpha_hardness_pct": 99.969482421875,
+    "visible_alpha_hardness_pct": 96.82875264270614,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9454545454545454,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_loop",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-52.png",
+    "file_sha256": "305aa98f07896a573097033522c48be54cd888c87d08b7314d8ebabd8b890b7f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      158,
+      109,
+      36,
+      38
+    ],
+    "visible_pixels": 436,
+    "rgb_colors": 360,
+    "edge_acutance_sobel": 547.047,
+    "alpha_hardness_pct": 99.55647786458334,
+    "visible_alpha_hardness_pct": 0.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9787735849056604,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_loop",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-53.png",
+    "file_sha256": "12e3cfd8966b79bf6b00713661abc98c03f4c755d651ff1b6b9aa71b66835d2f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      157,
+      110,
+      38,
+      36
+    ],
+    "visible_pixels": 110,
+    "rgb_colors": 100,
+    "edge_acutance_sobel": 508.127,
+    "alpha_hardness_pct": 99.88810221354166,
+    "visible_alpha_hardness_pct": 0.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 1.0,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_projectile",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-51.png",
+    "file_sha256": "12469482162a1623314c55226ae3b8fc3c7a4a3c76f696cc7aa87c8c426e32d5",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      159,
+      111,
+      34,
+      34
+    ],
+    "visible_pixels": 946,
+    "rgb_colors": 216,
+    "edge_acutance_sobel": 371.591,
+    "alpha_hardness_pct": 99.969482421875,
+    "visible_alpha_hardness_pct": 96.82875264270614,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9454545454545454,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_projectile",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-52.png",
+    "file_sha256": "305aa98f07896a573097033522c48be54cd888c87d08b7314d8ebabd8b890b7f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      158,
+      109,
+      36,
+      38
+    ],
+    "visible_pixels": 436,
+    "rgb_colors": 360,
+    "edge_acutance_sobel": 547.047,
+    "alpha_hardness_pct": 99.55647786458334,
+    "visible_alpha_hardness_pct": 0.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9787735849056604,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_projectile",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-53.png",
+    "file_sha256": "12e3cfd8966b79bf6b00713661abc98c03f4c755d651ff1b6b9aa71b66835d2f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      157,
+      110,
+      38,
+      36
+    ],
+    "visible_pixels": 110,
+    "rgb_colors": 100,
+    "edge_acutance_sobel": 508.127,
+    "alpha_hardness_pct": 99.88810221354166,
+    "visible_alpha_hardness_pct": 0.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 1.0,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_orb_projectile",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/tasmanian_king_crab/atlas-v1/stage/clips/frames/frame-46.png",
+    "file_sha256": "57014f069e778e0b68480d314c9995e117e96c03ca1bb47a1517a9dc928953db",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      157,
+      110,
+      38,
+      37
+    ],
+    "visible_pixels": 86,
+    "rgb_colors": 25,
+    "edge_acutance_sobel": 246.443,
+    "alpha_hardness_pct": 99.95218912760416,
+    "visible_alpha_hardness_pct": 45.348837209302324,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 1.0,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  }
+]

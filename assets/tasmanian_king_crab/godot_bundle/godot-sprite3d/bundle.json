@@ -1,0 +1,50 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d_bundle.v1",
+  "default_action": "idle",
+  "world_height": 0.64,
+  "world_height_max_drift": 0.0,
+  "pixel_size": 0.01,
+  "pixel_size_max_drift": 0.0,
+  "actions": {
+    "idle": {
+      "contract": "action-idle.json",
+      "loop": true,
+      "clip": "idle"
+    },
+    "walk": {
+      "contract": "action-walk.json",
+      "loop": true,
+      "clip": "walk"
+    },
+    "attack_nomal": {
+      "contract": "action-attack_nomal.json",
+      "loop": false,
+      "clip": "attack_nomal"
+    },
+    "power_up": {
+      "contract": "action-power_up.json",
+      "loop": false,
+      "clip": "power_up"
+    },
+    "hit": {
+      "contract": "action-hit.json",
+      "loop": false,
+      "clip": "hit"
+    },
+    "ko": {
+      "contract": "action-ko.json",
+      "loop": false,
+      "clip": "ko"
+    },
+    "power_orb_loop": {
+      "contract": "action-power_orb_loop.json",
+      "loop": true,
+      "clip": "power_orb_loop"
+    },
+    "power_orb_projectile": {
+      "contract": "action-power_orb_projectile.json",
+      "loop": false,
+      "clip": "power_orb_projectile"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "character_id": "pteranodon",
+  "status": "size_sync_verified",
+  "atlas_sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3106,
+          2082
+        ],
+        "cells": 61,
+        "clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "power_up",
+          "hit",
+          "ko",
+          "sonic_screech_fx"
+        ]
+      }
+    ]
+  },
+  "body_only_bbox_px": {
+    "x": 98,
+    "y": 96,
+    "w": 157,
+    "h": 107
+  },
+  "full_fx_bbox_px": {
+    "x": 59,
+    "y": 80,
+    "w": 281,
+    "h": 147
+  },
+  "frames": 61,
+  "body_frames": 54,
+  "fx_frames": 7,
+  "clips": 8,
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176,
+    200
+  ],
+  "motion_quality": {
+    "status": "owner_approved",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2",
+    "previous_revision_atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true
+    },
+    "review_evidence": "work/characters/pteranodon/size-sync-v10/review/keyframe-review.json",
+    "unresolved_structural_failures": [],
+    "owner_approved": true,
+    "owner_feedback": "Owner approved157x107 size sample and explicitly requested applying it to the whole bundle. Actions and timing inherit the previously approved source; no new motion authored.",
+    "naturalness_verdict": "owner_approved",
+    "approved_at": "2026-11-12T07:38:36.605057+00:00",
+    "size_transform_authorized": true,
+    "approval_scope": "Previously approved motion + explicitly approved fixed size transform. Not a newly authored motion review."
+  },
+  "metadata_preserved": true,
+  "sample_rgba_exact": true,
+  "measurements": "work/characters/pteranodon/size-sync-v10/measurements.json",
+  "transform": "work/characters/pteranodon/size-sync-v10/transform.json",
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "run",
+      "attack_light",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "sonic_screech_fx"
+    ],
+    "locomotion": {
+      "kind": "flight",
+      "clip": "walk"
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      141
+    ],
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "sonic_screech_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 14,
+      "origin_canvas_px": [
+        260,
+        141
+      ],
+      "velocity_px_per_tick": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "protected_peer_files": 392,
+  "technical_checks": {
+    "status": "pass",
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 29,
+    "godot_bundle_count": 3,
+    "rust_tests": 2,
+    "wasm_build_exit_code": 0,
+    "godot_import_exit_code": 0,
+    "http_byte_parity": true,
+    "engine_localhost_parity": true,
+    "download_zip_crc_ok": true,
+    "standalone_zip_godot_import_exit_code": 0,
+    "standalone_zip_godot_test_exit_code": 0,
+    "warnings": [
+      "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+      "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+      "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win."
+    ]
+  },
+  "http_package_parity": "work/characters/pteranodon/size-sync-v10/http-package-parity.json",
+  "motion_scope": "Existing Owner-approved actions retained by one fixed whole-image size map. Every clip timing/event/loop/state is identical. All9filmstrips opened on3backgrounds. No new motion design or new real-time Human Test claimed.",
+  "tasmanian_input": "work/characters/tasmanian_king_crab/size-master/master.json",
+  "version": "0.6.1"
+}

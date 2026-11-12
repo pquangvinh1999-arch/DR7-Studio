@@ -1,9 +1,9 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-12T07:41:44.161679+00:00",
+  "updated_at": "2026-11-12T09:52:39.017415+00:00",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "version_history": [
       {
         "version": "0.1.0",
@@ -39,6 +39,16 @@
         "version": "0.6.0",
         "date": "2026-11-12T07:38:36.605057+00:00",
         "summary": "Owner nghiệm thu T-rex walk-style-v4, Pteranodon master-match-v9 và Spinosaurus; chốt 3 receipt SHA, dọn PNG nháp và giữ nguồn/filmstrip cuối."
+      },
+      {
+        "version": "0.6.1",
+        "date": "2026-11-12T08:33:59.202436+00:00",
+        "summary": "Áp kích thước Pteranodon157x107 vào toàn bộ61frame/bundle/FX, giữtiming; khóa Tasmanian133x64 làm đầu vào chờ yêu cầu atlas."
+      },
+      {
+        "version": "0.7.0",
+        "date": "2026-11-12T09:24:34.628136+00:00",
+        "summary": "Tasmanian King Crab atlas demo:6bodyclips,normalclawdissolve,independentcharge/projectile orb6source+2bridge,releasebodyframe2. PendingOwnerHumanTest."
       }
     ],
     "genre": "2D Dragon Ball Real-Time Mass Action / RPG",
@@ -79,11 +89,19 @@
     "version_file": "VERSION"
   },
   "current_focus": {
-    "active_task_id": "TASK-053",
-    "status": "completed",
-    "summary": "Đã chốt T-rex walk-style-v4, Pteranodon master-match-v9 và Spinosaurus theo Owner; version0.6.0, receipt/PIPE001-003 ràng buộc đúng SHA. Dọn2971PNG/231.32MiB; giữ152PNG nguồn/review và toàn bộ runtime. loop test26Python/E2E+3Godotbundle+2Rust exit0; WASM build/E2E exit0; HTTP paritytrue. Release commit f051b3f đã push main, CI43177028684 completed/success. Chờ Owner mô tả bước tiếp theo."
+    "active_task_id": "TASK-058",
+    "status": "verified_ready_to_push",
+    "summary": "Owner chốt Tasmanian và currentsettings; PIPE004/receiptAtlas+TRES+PrefabSHA ghiđủ. Cả4charOwnerapproved,v0.7.0;32Python/E2E+4Godotbundle+60tickcharge+2Rust0,WASM0;HTTPPNG/WASM/meta/parity4bundletrue,ZIPCRC/hashkhớp,Godotstandaloneimport/bundles/charge0. LegacyT-rex authoredtick warning giữnguyên theo phạmvi đãbáo. Chuẩnbịcommit/pushmain."
   },
-  "open_issues": [],
+  "open_issues": [
+    {
+      "id": "ISS-TREX-TICK-LEGACY",
+      "status": "recorded_out_of_scope",
+      "character_id": "t_rex",
+      "evidence": "assets/t_rex/godot_bundle/engine-export.json:idle.godot.relative_durations[7.02,6.96,...] vsassets/t_rex/clips/animation-clips.json:idle.ticks[7,...].",
+      "action": "Do not alter approved T-rex outside Owner scope; discuss exacttick re-export separately. PNG/hashparity unchanged."
+    }
+  ],
   "resolved_issues": [
     {
       "id": "ISS-001",
@@ -427,6 +445,36 @@
       "timestamp": "2026-11-12T07:41:44.161679+00:00",
       "status": "completed",
       "summary": "Đã chốt T-rex walk-style-v4, Pteranodon master-match-v9 và Spinosaurus theo Owner; version0.6.0, receipt/PIPE001-003 ràng buộc đúng SHA. Dọn2971PNG/231.32MiB; giữ152PNG nguồn/review và toàn bộ runtime. loop test26Python/E2E+3Godotbundle+2Rust exit0; WASM build/E2E exit0; HTTP paritytrue. Release commit f051b3f đã push main, CI43177028684 completed/success. Chờ Owner mô tả bước tiếp theo."
+    },
+    {
+      "id": "TASK-054",
+      "timestamp": "2026-11-12T08:00:38.363924+00:00",
+      "status": "master_demo_pending_owner",
+      "summary": "Đã sinh demo master Tasmanian King Crab bằng built-inimagegen theo cameraOwnerchốt3/4 nhìnphải,cànglớngầncamera. 2PNGconcept trong work/characters/tasmanian_king_crab/master-review/,bảnxemv2+prompt+reviewJSON/SHA. Actual1536x1024,alpha mềm/quầngchưasạch sauedit; chưa nhậngameplaynative1px/hardalphaPASS. ChờOwnerduyệttạohìnhtrướcanimation;khôngđổiroster/3charđãduyệt/skills.md."
+    },
+    {
+      "id": "TASK-055",
+      "timestamp": "2026-11-12T08:28:51.838968+00:00",
+      "status": "size_approved_bundle_sync_not_applied",
+      "summary": "Owner đã duyệt kích thước mẫu:Spino157x74,Ptera157x107,cua133x64. ChỉPNGởwork/reviews;chưaápdụngbundle,assets/scenes/previewkhôngđổi. ĐãtrảlờirõOwner,trướcbướctạoatlas. Nghiệmthunày chỉsize,khôngatlas/hoạtảnhmới."
+    },
+    {
+      "id": "TASK-056",
+      "timestamp": "2026-11-12T08:36:45.923271+00:00",
+      "status": "completed",
+      "summary": "ĐãđồngbộbundlethậtPteranodonv0.6.1:idle0byteexactmẫu157x107,61frames/8clips/1page3106x2082,SHA8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2. Cùngfixedrastermapthân/FX,giữtấtcảtiming/event/state/loop;FXorigin260141,pivot176141,prefabđúng. Tasmanianmaster133x64/canvas384x256/anchor176224đãkhóa trongwork,size-master,khôngfakeatlas/roster. 29Python/E2E+3Godot+2Rustexit0,WASMbuild0;HTTPPNG/WASM/metadata/paritytrue;ZIPCRC/hashkhớp,standaloneGodotimport/test0. Mở9filmstrip3nền;motionkếthừabảnduyệt,khôngclaimHumanTestmới.392peerfileskhôngđổi. ChờOwnermôtảbộđộngtácatlasTasmanian."
+    },
+    {
+      "id": "TASK-057",
+      "timestamp": "2026-11-12T09:37:01.944027+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Tasmanianatlasdemo v0.7.0 readyHumanTest:6bodyactionsidle/walk/attack_nomal/power_up/hit/ko,46wholeposes+8FX(6Ownersourcephảisangtrái+2newbridges),54unique/58refs/8clips/1page3106x1822 SHAbf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1. Idle0master133x64exact. Clawsmear/dissolveattack3/4;sourceNoRun/Jump/Heavy/Aura/Guard/Win. ChargeFX0..5heldatclaw,releasebody2/tick24;projectile5/6/7/0lifetime16,hides40. Godot/localhostsamecontract/ticksourceauto.32Python/E2E+4Godot+charge60tick+2Rust0,WASM0,Chromiumall6actionsframes/noerrors,HTTP4bundlehashparity/ZIPstandalone0. Naturalness/dissolve/FXloop pendingOwner,notnewapprovalorPIPE004. 474peerPNGsunchanged;Ptera3metadata/tresfixedroundedticks. T-rexlegacytickwarningrecordedoutscope."
+    },
+    {
+      "id": "TASK-058",
+      "timestamp": "2026-11-12T09:52:39.017415+00:00",
+      "status": "verified_ready_to_push",
+      "summary": "Owner chốt Tasmanian và currentsettings; PIPE004/receiptAtlas+TRES+PrefabSHA ghiđủ. Cả4charOwnerapproved,v0.7.0;32Python/E2E+4Godotbundle+60tickcharge+2Rust0,WASM0;HTTPPNG/WASM/meta/parity4bundletrue,ZIPCRC/hashkhớp,Godotstandaloneimport/bundles/charge0. LegacyT-rex authoredtick warning giữnguyên theo phạmvi đãbáo. Chuẩnbịcommit/pushmain."
     }
   ],
   "quick_resume_commands": [
@@ -435,19 +483,23 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Chờ Owner mô tả bước tiếp theo; cả 3 nhân vật hiện hành đã nghiệm thu, không tự sửa art/timing.",
-    "asset_status": "Cả 3 nhân vật owner_approved; atlas giữ nguyên byte.",
-    "approval_file": "docs/releases/v0.6.0-owner-approval.json",
+    "next_action": "Push v0.7.0main rồi chờ Owner mô tả nhân vật tiếp theo.",
+    "asset_status": "Cả4nhânvật Ownerapproved; Tasmanian6bodyclips+2FX, Ptera157x107, Spino157x74,Tasma133x64.",
+    "approval_file": "assets/tasmanian_king_crab/owner_approval.json",
     "cleanup_report": "docs/releases/v0.6.0-png-cleanup.json",
-    "verification": "docs/releases/v0.6.0-verification.json",
+    "verification": "docs/releases/v0.7.0-verification.json",
     "git_checkpoint": {
       "branch": "main",
       "remote": "origin",
       "source_code_commit": "f051b3f1e8097d5613bcfe0d38745e8a717ce90a",
       "ci_status": "success",
       "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43177028684",
-      "note": "Release source đã push và CI thành công; bản ghi handoff được commit tiếp. Xem git log và origin/main để lấy HEAD cuối."
-    }
+      "note": "Previousmaincheckpoint remains; v0.6.1/0.7.0work is local, no new commit/push requested inthese tasks."
+    },
+    "active_character_concept": "docs/characters/tasmanian-king-crab-atlas-v1.md",
+    "review_evidence": "work/characters/tasmanian_king_crab/atlas-v1/review/keyframe-review.json",
+    "latest_delivery": "assets/tasmanian_king_crab/godot_bundle",
+    "preview_url": "http://localhost:8080/?character=tasmanian_king_crab&clip=power_up&frame=0&paused=1"
   },
   "approved_workflows": [
     {
@@ -462,9 +514,9 @@
       "id": "PIPE-002",
       "character_id": "pteranodon",
       "display_name": "Pteranodon",
-      "approved_at": "2026-11-12T07:38:36.605057+00:00",
+      "approved_at": "2026-11-12T08:33:59.202436+00:00",
       "approval_file": "assets/pteranodon/owner_approval.json",
-      "atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005"
+      "atlas_sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2"
     },
     {
       "id": "PIPE-003",
@@ -473,6 +525,14 @@
       "approved_at": "2026-11-12T07:38:36.605057+00:00",
       "approval_file": "assets/spinosaurus/owner_approval.json",
       "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4"
+    },
+    {
+      "id": "PIPE-004",
+      "character_id": "tasmanian_king_crab",
+      "display_name": "Tasmanian King Crab",
+      "approved_at": "2026-11-12T09:51:08.495780+00:00",
+      "approval_file": "assets/tasmanian_king_crab/owner_approval.json",
+      "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1"
     }
   ],
   "owner_defaults": {

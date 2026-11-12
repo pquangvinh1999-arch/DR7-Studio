@@ -1,0 +1,29 @@
+{
+  "status": "owner_approved",
+  "atlas_sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2",
+  "owner_approved": true,
+  "scope": "Previously approved motion + explicitly approved fixed size transform. Not a newly authored motion review.",
+  "filmstrip_review": "Opened all8clip filmstrips+power_up-composite, each on light/dark/checker; source poses retained by the same global map.",
+  "motion_method": "No motion design or timing changes. Existing Owner motion approval is inherited; scale authorization recorded separately.",
+  "visual_runtime_review": "Pending observation at real-time; generated playback files preserve the original ticks.",
+  "artifacts": {
+    "playback-attack_light.webp": "16c2190d7e176beda2d1eb5a4de6eb3b500cfecbc66c844ab9ac886245208165",
+    "filmstrip-attack_light.png": "96f80ed0e3b3605aacc2c1a75952a222176aacbf984c7324ac7000b532493ea6",
+    "playback-power_up-composite.webp": "a68ebab9a56b8ca32349eb07794cfaa308c894ed1357ffb9f447acd012b3535e",
+    "filmstrip-sonic_screech_fx.png": "090b9508b9a41e002564bfac17159c37c1a807f0bafa451f9b315f63364d32fa",
+    "playback-walk.webp": "46731a7ae9d0e3d76e3ad78f5438b23d9bb11bcdcfdade00236bb6d10adfdad6",
+    "playback-ko.webp": "3651173af51fc6f4e46ba70ddea187fa54d1de9f733294319dc5630ce5deae74",
+    "filmstrip-hit.png": "f7c85a756e27f312703214cea949335cbf16bd8dc355c359a4c84844586bab7c",
+    "playback-sonic_screech_fx.webp": "8bf22a09a6825533a89f75d51c7bcb589b645ff8916fce313800e0e32a924fa8",
+    "playback-hit.webp": "9b58dc182744ddf4a5dd3ab1553186bc49c185fd8d5fa944f1e91124fd118d42",
+    "filmstrip-power_up.png": "37ccfada38128832573f729e01cd0037a8880a0a90dbe97c050b659ba199e5a2",
+    "filmstrip-ko.png": "d14ebd4e7099802dc5a8d1b90084d25a4a8a1a4912c4d315fcc71a311b72ad8e",
+    "filmstrip-idle.png": "244e7db8c239f44e6395cc7c0fd36927d11b7366d36d27281b6618238e6c9d16",
+    "playback-power_up.webp": "860e5aec4dda414f85638738d261fecdf10a7a8dca97bf2b72780d8578f4121e",
+    "playback-idle.webp": "0e016773daa45416e34a7d6219f0e2591796769e11fb8a80ea64e61bbb9b43bc",
+    "filmstrip-walk.png": "800dec203241436ff17324de0a94bff1b07ee456e3e279fd6b0557c188703a7b",
+    "filmstrip-run.png": "86c9c6557cd7523a10fd89b9010d343f280d11efb80ba479e4e108f675c666af",
+    "playback-run.webp": "032900025066d78dc4147e4968fb024fd38dd937eec7631eb4130c2f42d3e997",
+    "filmstrip-power_up-composite.png": "2599b716de162f2c4f747d86ba0b2cd879dcd72f2490acf9201ad7070fbe2592"
+  }
+}

@@ -414,33 +414,34 @@
           200.0
         ],
         "body_only_bbox_px": {
-          "x": 79,
-          "y": 73,
-          "w": 193,
-          "h": 131
+          "x": 98,
+          "y": 96,
+          "w": 157,
+          "h": 107
         },
         "full_fx_bbox_px": {
-          "x": 32,
-          "y": 54,
-          "w": 343,
-          "h": 179
+          "x": 59,
+          "y": 80,
+          "w": 281,
+          "h": 147
         },
         "world_size_at_64ppu_m": {
-          "body_w_m": 3.016,
-          "body_h_m": 2.047,
-          "aura_w_m": 5.359,
-          "aura_h_m": 2.797
+          "body_w_m": 2.453,
+          "body_h_m": 1.672,
+          "aura_w_m": 4.391,
+          "aura_h_m": 2.297
         },
         "tile_32px_span": {
-          "body_tiles_w": 6.031,
-          "body_tiles_h": 4.094,
-          "full_fx_tiles_w": 10.719,
-          "full_fx_tiles_h": 5.594
-        }
+          "body_tiles_w": 4.906,
+          "body_tiles_h": 3.344,
+          "full_fx_tiles_w": 8.781,
+          "full_fx_tiles_h": 4.594
+        },
+        "reference_ppu_64": 64
       },
       "pixel_sharpness_metrics": {
-        "texel_scale_ratio": "Fixed native-size complete pose cells, no resize; Nearest sampling",
-        "edge_acutance_sobel": 194.606,
+        "texel_scale_ratio": "Fixed whole-frame nearest size transform from approved source; gameplay detail pitch1px",
+        "edge_acutance_sobel": 190.305,
         "alpha_hardness_pct": 100.0,
         "opaque_key_px": 0,
         "enclosed_key_pockets": 0,
@@ -497,7 +498,7 @@
         },
         "fx_pivot_px": [
           176,
-          128
+          141
         ],
         "projectile": {
           "kind": "linear_energy",
@@ -506,8 +507,8 @@
           "release_frame": 2,
           "lifetime_ticks": 14,
           "origin_canvas_px": [
-            278,
-            128
+            260,
+            141
           ],
           "velocity_px_per_tick": [
             0.0,
@@ -525,15 +526,15 @@
       "atlas_stage": "finalized_owner_approved",
       "owner_animation_approval": {
         "status": "owner_approved",
-        "approved_at": "2026-11-12T07:38:36.605057+00:00",
+        "approved_at": "2026-11-12T08:33:59.202436+00:00",
         "approval_file": "assets/pteranodon/owner_approval.json",
-        "atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005"
+        "atlas_sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2"
       },
       "motion_quality": {
         "status": "owner_approved",
         "method": "imagegen_complete_body_keyframes",
-        "atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
-        "previous_revision_atlas_sha256": "1dfc61d34a41a02cfcc7a048c5310618950d71972953904cad19cf241d1d041a",
+        "atlas_sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2",
+        "previous_revision_atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
         "checks": {
           "body_connections": true,
           "whole_pose_sequence": true,
@@ -542,19 +543,224 @@
           "three_backgrounds": true,
           "character_identity": true
         },
-        "review_evidence": "work/characters/pteranodon/master-match-v9/review/keyframe-review.json",
+        "review_evidence": "work/characters/pteranodon/size-sync-v10/review/keyframe-review.json",
         "unresolved_structural_failures": [],
         "owner_approved": true,
-        "owner_feedback": "ok anh thấy chuẩn rồi chốt 3 character theo qui trình rồi xóa những png không còn dùng theo qui định hiến pháp để giảm tải bộ nhớ repo sau đó push ver này lên main",
+        "owner_feedback": "Owner approved157x107 size sample and explicitly requested applying it to the whole bundle. Actions and timing inherit the previously approved source; no new motion authored.",
         "naturalness_verdict": "owner_approved",
-        "approved_at": "2026-11-12T07:38:36.605057+00:00"
+        "approved_at": "2026-11-12T07:38:36.605057+00:00",
+        "size_transform_authorized": true,
+        "approval_scope": "Previously approved motion + explicitly approved fixed size transform. Not a newly authored motion review."
       },
-      "qa_report": "docs/characters/pteranodon-master-match-v9-qa.json",
+      "qa_report": "docs/characters/pteranodon-size-sync-v10-qa.json",
       "canonical_identity": {
         "path": "work/characters/pteranodon/master-match-v9/reference.png",
         "sha256": "7c9d71fe2033b0be2644bb8df1bb8d3cd5e5d38a7a0a71e3b7833c84a0e9e702",
         "owner_input": "work/characters/pteranodon/master-review/test_scaled_canvas.png"
-      }
+      },
+      "size_transform_reference": "work/characters/pteranodon/size-sync-v10/transform.json"
+    },
+    {
+      "character_id": "tasmanian_king_crab",
+      "display_name": "Tasmanian King Crab",
+      "faction": "special_beasts",
+      "role_label": "Asymmetric Giant Crab — Claw Strike / Energy Orb",
+      "tags": [
+        "crab",
+        "eight_walking_legs",
+        "asymmetric_claws",
+        "pixel_art",
+        "projectile_fx"
+      ],
+      "status": "finalized_owner_approved",
+      "facing_contract": {
+        "camera_view": "side_view_2d_three_quarter",
+        "default_atlas_facing": "right(+X);huge anatomicalright claw near camera, smallleft claw far",
+        "left_facing_rule": "Horizontal display mirror only; no back-view or authored turn clip claimed.",
+        "locomotion_vector_rule": "Eight-leg forward ground walk toward+X; walk-only, no run."
+      },
+      "map_sync_metrics": {
+        "canvas_size_px": [
+          384,
+          256
+        ],
+        "foot_anchor_px": [
+          176,
+          224
+        ],
+        "body_only_bbox_px": {
+          "x": 110,
+          "y": 160,
+          "w": 133,
+          "h": 64
+        },
+        "full_fx_bbox_px": {
+          "x": 92,
+          "y": 109,
+          "w": 254,
+          "h": 115
+        },
+        "reference_ppu_64": 64,
+        "world_size_at_64ppu_m": {
+          "body_w_m": 2.078,
+          "body_h_m": 1,
+          "aura_w_m": 3.969,
+          "aura_h_m": 1.797
+        },
+        "tile_32px_span": {
+          "body_tiles_w": 4.156,
+          "body_tiles_h": 2,
+          "full_fx_tiles_w": 7.938,
+          "full_fx_tiles_h": 3.594
+        }
+      },
+      "pixel_sharpness_metrics": {
+        "texel_scale_ratio": "Native gameplay PNG1px, Nearest; one whole-frame scale per action; no LUT/sharpen/palette forcing",
+        "edge_acutance_sobel": 349.243,
+        "alpha_hardness_pct": 100,
+        "visible_alpha_hardness_pct": 100,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "reference_note": "Body nativealpha threshold128; FX background keyRGB000080 threshold16 then1pxedgeunmix, fixed1/2Nearest to fit claw. SoftFX permitted; source key similarity≤16 has no surviving visible pixels. Sobel not an acceptance scalar."
+      },
+      "present_clips": [
+        "idle",
+        "walk",
+        "attack_nomal",
+        "power_up",
+        "hit",
+        "ko"
+      ],
+      "effect_clips": [
+        "power_orb_loop",
+        "power_orb_projectile"
+      ],
+      "missing_provisional_clips": [
+        "run",
+        "jump",
+        "guard",
+        "attack_light",
+        "attack_heavy",
+        "aura_loop",
+        "win"
+      ],
+      "not_applicable_clips": {
+        "run": "Owner explicitly excludes this clip for Tasmanian; guard/win excluded project-wide.",
+        "jump": "Owner explicitly excludes this clip for Tasmanian; guard/win excluded project-wide.",
+        "guard": "Owner explicitly excludes this clip for Tasmanian; guard/win excluded project-wide.",
+        "attack_light": "Owner uses attack_nomal for normal claw attack; no alias fake frames.",
+        "attack_heavy": "Owner explicitly excludes this clip for Tasmanian; guard/win excluded project-wide.",
+        "aura_loop": "Owner explicitly excludes this clip for Tasmanian; guard/win excluded project-wide.",
+        "win": "Owner explicitly excludes this clip for Tasmanian; guard/win excluded project-wide."
+      },
+      "render_contract": {
+        "body_clips": [
+          "idle",
+          "walk",
+          "attack_nomal",
+          "power_up",
+          "hit",
+          "ko"
+        ],
+        "effect_clips": [
+          "power_orb_loop",
+          "power_orb_projectile"
+        ],
+        "locomotion": {
+          "kind": "ground",
+          "clip": "walk",
+          "walk_cycle_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": null,
+          "independent_clock": true
+        },
+        "fx_pivot_px": [
+          176,
+          128
+        ],
+        "charge": {
+          "body_clip": "power_up",
+          "effect_clip": "power_orb_loop",
+          "release_frame": 2,
+          "origin_canvas_px_by_frame": [
+            [
+              196,
+              203
+            ],
+            [
+              220,
+              149
+            ]
+          ],
+          "clock": "body_ticks_before_release"
+        },
+        "projectile": {
+          "kind": "linear_energy",
+          "body_clip": "power_up",
+          "projectile_clip": "power_orb_projectile",
+          "release_frame": 2,
+          "lifetime_ticks": 16,
+          "origin_canvas_px": [
+            267,
+            157
+          ],
+          "velocity_px_per_tick": [
+            4,
+            0
+          ]
+        }
+      },
+      "modes": {
+        "combined_1layer": {
+          "label": "Gộp Chung1Lớp + Independent Charge/Projectile FX",
+          "godot_prefab": "res://scenes/TasmanianKingCrab.tscn",
+          "bundle_id": "tasmanian_king_crab"
+        }
+      },
+      "atlas_stage": "finalized_owner_approved",
+      "owner_animation_approval": {
+        "status": "owner_approved",
+        "approved_at": "2026-11-12T09:51:08.495780+00:00",
+        "approval_file": "assets/tasmanian_king_crab/owner_approval.json",
+        "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1"
+      },
+      "canonical_identity": {
+        "path": "work/characters/tasmanian_king_crab/size-master/master.png",
+        "sha256": "5c93785ff07a1578c9c504cd5ca683da0df50bb9075bb877301efc38b62722ea"
+      },
+      "motion_quality": {
+        "status": "owner_approved",
+        "method": "imagegen_complete_body_keyframes",
+        "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+        "checks": {
+          "body_connections": true,
+          "whole_pose_sequence": true,
+          "perspective_turns": true,
+          "phase_timing": true,
+          "three_backgrounds": true,
+          "character_identity": true
+        },
+        "review_evidence": "work/characters/tasmanian_king_crab/atlas-v1/review/keyframe-review.json",
+        "unresolved_structural_failures": [],
+        "owner_approved": true,
+        "naturalness_verdict": "owner_approved",
+        "notes": "Owner accepted current identity, leg cadence, loop seams, normal claw dissolve and orb charge/release sequence. No authored turn is claimed; intentional fragments remain limited to distal claw during attack3/4.",
+        "approved_at": "2026-11-12T09:51:08.495780+00:00",
+        "owner_feedback": "ok chốt tasmanian và thông số điều chỉnh lúc này đồng bộ bundle godot theo đúng qui trình sau đó push code lên main giúp anh để sang nhân vật tiếp theo"
+      },
+      "qa_report": "docs/characters/tasmanian-king-crab-atlas-v1-qa.json"
     }
   ]
 }

@@ -1,0 +1,383 @@
+{
+  "schema": "dr7-studio.source-sheet-analysis.v1",
+  "source": "image.png",
+  "sha256": "2772a0e7e7b6cef7062cb47221c8c55b84d1311d19f0ee29b404a3745079c5ee",
+  "size_px": [
+    600,
+    86
+  ],
+  "mode": "RGBA",
+  "background_rgba": [
+    0,
+    0,
+    128,
+    255
+  ],
+  "owner_read_order": "right_to_left",
+  "observed_source_poses": 6,
+  "analysis_only": true,
+  "mask_measurement": "max abs RGB distance from background >16; analysis threshold only, not a finished matte or pixel-preservation claim",
+  "slots_for_measurement_only": [
+    {
+      "source_slot_left_to_right": 0,
+      "read_index_right_to_left": 5,
+      "analysis_window_xywh": [
+        0,
+        0,
+        100,
+        86
+      ],
+      "foreground_bbox_xywh": [
+        10,
+        7,
+        69,
+        68
+      ],
+      "pixels": 3822
+    },
+    {
+      "source_slot_left_to_right": 1,
+      "read_index_right_to_left": 4,
+      "analysis_window_xywh": [
+        100,
+        0,
+        100,
+        86
+      ],
+      "foreground_bbox_xywh": [
+        106,
+        4,
+        75,
+        75
+      ],
+      "pixels": 4485
+    },
+    {
+      "source_slot_left_to_right": 2,
+      "read_index_right_to_left": 3,
+      "analysis_window_xywh": [
+        200,
+        0,
+        100,
+        86
+      ],
+      "foreground_bbox_xywh": [
+        211,
+        4,
+        75,
+        75
+      ],
+      "pixels": 4460
+    },
+    {
+      "source_slot_left_to_right": 3,
+      "read_index_right_to_left": 2,
+      "analysis_window_xywh": [
+        300,
+        0,
+        100,
+        86
+      ],
+      "foreground_bbox_xywh": [
+        313,
+        4,
+        75,
+        75
+      ],
+      "pixels": 3377
+    },
+    {
+      "source_slot_left_to_right": 4,
+      "read_index_right_to_left": 1,
+      "analysis_window_xywh": [
+        400,
+        0,
+        100,
+        86
+      ],
+      "foreground_bbox_xywh": [
+        412,
+        4,
+        75,
+        74
+      ],
+      "pixels": 1952
+    },
+    {
+      "source_slot_left_to_right": 5,
+      "read_index_right_to_left": 0,
+      "analysis_window_xywh": [
+        500,
+        0,
+        100,
+        86
+      ],
+      "foreground_bbox_xywh": [
+        514,
+        4,
+        75,
+        74
+      ],
+      "pixels": 333
+    }
+  ],
+  "dilated_component_measurements": [
+    {
+      "bbox_xywh": [
+        106,
+        4,
+        75,
+        75
+      ],
+      "foreground_pixels": 4485
+    },
+    {
+      "bbox_xywh": [
+        211,
+        4,
+        75,
+        75
+      ],
+      "foreground_pixels": 4460
+    },
+    {
+      "bbox_xywh": [
+        313,
+        4,
+        75,
+        75
+      ],
+      "foreground_pixels": 1247
+    },
+    {
+      "bbox_xywh": [
+        427,
+        4,
+        45,
+        11
+      ],
+      "foreground_pixels": 234
+    },
+    {
+      "bbox_xywh": [
+        538,
+        4,
+        15,
+        8
+      ],
+      "foreground_pixels": 64
+    },
+    {
+      "bbox_xywh": [
+        10,
+        7,
+        69,
+        68
+      ],
+      "foreground_pixels": 3822
+    },
+    {
+      "bbox_xywh": [
+        526,
+        13,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        325,
+        16,
+        51,
+        51
+      ],
+      "foreground_pixels": 2130
+    },
+    {
+      "bbox_xywh": [
+        421,
+        16,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        472,
+        16,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        520,
+        19,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        577,
+        19,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        430,
+        22,
+        39,
+        39
+      ],
+      "foreground_pixels": 1181
+    },
+    {
+      "bbox_xywh": [
+        415,
+        25,
+        6,
+        8
+      ],
+      "foreground_pixels": 40
+    },
+    {
+      "bbox_xywh": [
+        478,
+        25,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        481,
+        34,
+        6,
+        11
+      ],
+      "foreground_pixels": 58
+    },
+    {
+      "bbox_xywh": [
+        514,
+        34,
+        6,
+        8
+      ],
+      "foreground_pixels": 40
+    },
+    {
+      "bbox_xywh": [
+        412,
+        37,
+        6,
+        11
+      ],
+      "foreground_pixels": 58
+    },
+    {
+      "bbox_xywh": [
+        583,
+        40,
+        6,
+        8
+      ],
+      "foreground_pixels": 40
+    },
+    {
+      "bbox_xywh": [
+        478,
+        49,
+        6,
+        8
+      ],
+      "foreground_pixels": 40
+    },
+    {
+      "bbox_xywh": [
+        415,
+        52,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        520,
+        58,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        577,
+        58,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        421,
+        61,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        472,
+        61,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        571,
+        64,
+        6,
+        5
+      ],
+      "foreground_pixels": 22
+    },
+    {
+      "bbox_xywh": [
+        427,
+        67,
+        45,
+        11
+      ],
+      "foreground_pixels": 209
+    },
+    {
+      "bbox_xywh": [
+        550,
+        70,
+        15,
+        8
+      ],
+      "foreground_pixels": 57
+    }
+  ],
+  "pending_owner_questions": [
+    "aura_loop use/location and remaining clip scope",
+    "release frame2 refers to body or FX",
+    "add2fade/bridge frames after white orb then wrap"
+  ]
+}

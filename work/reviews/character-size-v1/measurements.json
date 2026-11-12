@@ -1,0 +1,140 @@
+{
+  "status": "ready_for_owner_size_review",
+  "size_axis": "idle0 full-body width; include wings/legs/claws, exclude FX",
+  "reference_width_px": 157,
+  "tasmanian_ideal_width_px": 133.45,
+  "tasmanian_actual_width_px": 133,
+  "tasmanian_actual_reduction_pct": 15.286624203821653,
+  "rounding": "nearest whole pixel; preserve source aspect with <=0.5px height rounding",
+  "characters": {
+    "spinosaurus": {
+      "source": "assets/spinosaurus/clips/frames/frame-00.png",
+      "source_sha256": "60335b85c9df04dd70d2c8f5308b0f665626407cffff38cf645b09a5c2037c1f",
+      "source_alpha_nonzero_bbox_xyxy": [
+        98,
+        150,
+        255,
+        224
+      ],
+      "alpha_threshold": null,
+      "scale": 1,
+      "sampling": "Nearest",
+      "anchor_px": [
+        176,
+        224
+      ],
+      "sample": "work/reviews/character-size-v1/spinosaurus-sample.png",
+      "metrics": {
+        "file": "/workspaces/DR7-Studio/work/reviews/character-size-v1/spinosaurus-sample.png",
+        "file_sha256": "60335b85c9df04dd70d2c8f5308b0f665626407cffff38cf645b09a5c2037c1f",
+        "canvas_size_px": [
+          384,
+          256
+        ],
+        "body_bbox_px": [
+          98,
+          150,
+          157,
+          74
+        ],
+        "visible_pixels": 4375,
+        "rgb_colors": 2677,
+        "edge_acutance_sobel": 271.574,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "minimum_horizontal_constant_rgba_run_px": 1,
+        "single_pixel_run_fraction": 0.9775386055217595,
+        "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+        "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+      }
+    },
+    "pteranodon": {
+      "source": "assets/pteranodon/clips/frames/frame-00.png",
+      "source_sha256": "bd735e944d2dfec6b47fb5544c5fdf0289aff96f968331c6bb53a42c594aa4ee",
+      "source_alpha_nonzero_bbox_xyxy": [
+        79,
+        73,
+        272,
+        204
+      ],
+      "alpha_threshold": null,
+      "scale": 0.8186528497409327,
+      "sampling": "Nearest",
+      "anchor_px": [
+        176,
+        200
+      ],
+      "sample": "work/reviews/character-size-v1/pteranodon-sample.png",
+      "metrics": {
+        "file": "/workspaces/DR7-Studio/work/reviews/character-size-v1/pteranodon-sample.png",
+        "file_sha256": "1b933d5958ad2c5263ba2becc2ded32d30df9a332664066879abe8fcf0094d97",
+        "canvas_size_px": [
+          384,
+          256
+        ],
+        "body_bbox_px": [
+          98,
+          96,
+          157,
+          107
+        ],
+        "visible_pixels": 6573,
+        "rgb_colors": 5443,
+        "edge_acutance_sobel": 190.305,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "minimum_horizontal_constant_rgba_run_px": 1,
+        "single_pixel_run_fraction": 0.9967943825370172,
+        "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+        "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+      }
+    },
+    "tasmanian_king_crab": {
+      "source": "work/characters/tasmanian_king_crab/master-review/concept-v2.png",
+      "source_sha256": "61261312c78632c164141921a11c276b3b74fa83f0737f04136b8b2ded83a6a0",
+      "source_alpha_nonzero_bbox_xyxy": [
+        39,
+        23,
+        1520,
+        1024
+      ],
+      "alpha_threshold": 128,
+      "scale": 0.09895833333333333,
+      "sampling": "Nearest",
+      "anchor_px": [
+        176,
+        224
+      ],
+      "sample": "work/reviews/character-size-v1/tasmanian_king_crab-sample.png",
+      "metrics": {
+        "file": "/workspaces/DR7-Studio/work/reviews/character-size-v1/tasmanian_king_crab-sample.png",
+        "file_sha256": "5c93785ff07a1578c9c504cd5ca683da0df50bb9075bb877301efc38b62722ea",
+        "canvas_size_px": [
+          384,
+          256
+        ],
+        "body_bbox_px": [
+          110,
+          160,
+          133,
+          64
+        ],
+        "visible_pixels": 4885,
+        "rgb_colors": 4679,
+        "edge_acutance_sobel": 349.243,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "minimum_horizontal_constant_rgba_run_px": 1,
+        "single_pixel_run_fraction": 0.9993854977468251,
+        "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+        "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+      }
+    }
+  },
+  "processing": "Whole-frame crop/resample/placement and source-alpha binarization only. No body part manipulation or AI redraw. Original files unchanged.",
+  "limits": [
+    "Size and hard alpha measured; perceived pixel-art finish and anatomy require Owner review.",
+    "Static size review only; no atlas or animation generated/modified.",
+    "Sobel values are measured evidence, not a target or automatic acceptance."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "status": "owner_approved",
+  "source_master": "work/characters/tasmanian_king_crab/size-master/master.png",
+  "canvas": [
+    384,
+    256
+  ],
+  "anchor": [
+    176,
+    224
+  ],
+  "rest_bbox": [
+    133,
+    64
+  ],
+  "body_actions": {
+    "idle": 8,
+    "walk": 8,
+    "attack_nomal": 8,
+    "power_up": 8,
+    "hit": 6,
+    "ko": 8
+  },
+  "excluded": [
+    "run",
+    "jump",
+    "attack_heavy",
+    "aura_loop",
+    "guard",
+    "win"
+  ],
+  "body_art_source": "built-in imagegen complete-body poses",
+  "facing": "3/4 side-view screen+X; forward walk+X; huge near claw attacks+X",
+  "fx_source": "source/power-orb-owner.png",
+  "fx_source_order": "6source poses right-to-left, retain source pixels through keying; no AI redraw of existing6",
+  "new_fx_frames": "2generated bridge/fade poses after white peak before wrap to faint ring",
+  "release_body_frame": 2,
+  "proposed_ticks": {
+    "idle": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "walk": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "attack_nomal": [
+      6,
+      6,
+      3,
+      1,
+      1,
+      3,
+      6,
+      8
+    ],
+    "power_up": [
+      18,
+      18,
+      6,
+      6,
+      6,
+      7,
+      7,
+      8
+    ],
+    "hit": [
+      4,
+      4,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ko": [
+      5,
+      5,
+      5,
+      6,
+      6,
+      7,
+      8,
+      18
+    ]
+  },
+  "fx_logic": "charge independent clock before bodyframe2, no aura. full8phase FXloop; projectile starts white peak then newbridge6/7 then sourcefaint0 and hides. Runtime charge contract to be implemented and tested.",
+  "owner_approval_file": "assets/tasmanian_king_crab/owner_approval.json",
+  "approved_at": "2026-11-12T09:51:08.495780+00:00"
+}

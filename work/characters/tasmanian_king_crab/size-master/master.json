@@ -1,0 +1,25 @@
+{
+  "schema": "dr7-studio.size_locked_master.v1",
+  "character_id": "tasmanian_king_crab",
+  "status": "owner_approved",
+  "owner_approved_size": [
+    133,
+    64
+  ],
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "sampling": "nearest",
+  "alpha_hardness_pct": 100,
+  "master_sha256": "5c93785ff07a1578c9c504cd5ca683da0df50bb9075bb877301efc38b62722ea",
+  "source": "work/reviews/character-size-v1/tasmanian_king_crab-sample.png",
+  "size_reference": "Spinosaurus idle0 width157px;0.85*157=133.45 rounded133",
+  "atlas_status": "owner_approved_atlas_v1",
+  "owner_approval_file": "assets/tasmanian_king_crab/owner_approval.json",
+  "approved_at": "2026-11-12T09:51:08.495780+00:00"
+}
