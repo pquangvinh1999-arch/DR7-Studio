@@ -1,6 +1,6 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-12T09:52:39.017415+00:00",
+  "updated_at": "2026-11-12T09:56:04.580977+00:00",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
     "version": "0.7.0",
@@ -90,8 +90,8 @@
   },
   "current_focus": {
     "active_task_id": "TASK-058",
-    "status": "verified_ready_to_push",
-    "summary": "Owner chốt Tasmanian và currentsettings; PIPE004/receiptAtlas+TRES+PrefabSHA ghiđủ. Cả4charOwnerapproved,v0.7.0;32Python/E2E+4Godotbundle+60tickcharge+2Rust0,WASM0;HTTPPNG/WASM/meta/parity4bundletrue,ZIPCRC/hashkhớp,Godotstandaloneimport/bundles/charge0. LegacyT-rex authoredtick warning giữnguyên theo phạmvi đãbáo. Chuẩnbịcommit/pushmain."
+    "status": "completed",
+    "summary": "ĐãchốtTasmanian/PIPE004/receiptAtlas+TRES+PrefabSHA,v0.7.0;4charOwnerapproved. Ptera157x107,Tasma133x64,Spino157x74;Godot/local/ZIPđồngbộ.32Python/E2E+4Godotbundle+charge60tick+2Rustexit0,WASM0;HTTP/ZIPstandalone0. Release2d04bf9199fe24cc6fda49cf231380e9c1047a66đãpushmain;CI43195522136completed/success. LegacyT-rextickissueđãbáogiữnguyên. ChờOwnermôtảnhânvậttiếptheo."
   },
   "open_issues": [
     {
@@ -472,9 +472,9 @@
     },
     {
       "id": "TASK-058",
-      "timestamp": "2026-11-12T09:52:39.017415+00:00",
-      "status": "verified_ready_to_push",
-      "summary": "Owner chốt Tasmanian và currentsettings; PIPE004/receiptAtlas+TRES+PrefabSHA ghiđủ. Cả4charOwnerapproved,v0.7.0;32Python/E2E+4Godotbundle+60tickcharge+2Rust0,WASM0;HTTPPNG/WASM/meta/parity4bundletrue,ZIPCRC/hashkhớp,Godotstandaloneimport/bundles/charge0. LegacyT-rex authoredtick warning giữnguyên theo phạmvi đãbáo. Chuẩnbịcommit/pushmain."
+      "timestamp": "2026-11-12T09:56:04.580977+00:00",
+      "status": "completed",
+      "summary": "ĐãchốtTasmanian/PIPE004/receiptAtlas+TRES+PrefabSHA,v0.7.0;4charOwnerapproved. Ptera157x107,Tasma133x64,Spino157x74;Godot/local/ZIPđồngbộ.32Python/E2E+4Godotbundle+charge60tick+2Rustexit0,WASM0;HTTP/ZIPstandalone0. Release2d04bf9199fe24cc6fda49cf231380e9c1047a66đãpushmain;CI43195522136completed/success. LegacyT-rextickissueđãbáogiữnguyên. ChờOwnermôtảnhânvậttiếptheo."
     }
   ],
   "quick_resume_commands": [
@@ -483,7 +483,7 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Push v0.7.0main rồi chờ Owner mô tả nhân vật tiếp theo.",
+    "next_action": "Chờ Owner mô tả nhân vật tiếp theo. Tasmanian đã nghiệm thu, không tự sửa art/timing. LegacyT-rex tick issue được ghi riêng, không tự mở rộng phạm vi.",
     "asset_status": "Cả4nhânvật Ownerapproved; Tasmanian6bodyclips+2FX, Ptera157x107, Spino157x74,Tasma133x64.",
     "approval_file": "assets/tasmanian_king_crab/owner_approval.json",
     "cleanup_report": "docs/releases/v0.6.0-png-cleanup.json",
@@ -491,10 +491,10 @@
     "git_checkpoint": {
       "branch": "main",
       "remote": "origin",
-      "source_code_commit": "f051b3f1e8097d5613bcfe0d38745e8a717ce90a",
+      "source_code_commit": "2d04bf9199fe24cc6fda49cf231380e9c1047a66",
       "ci_status": "success",
-      "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43177028684",
-      "note": "Previousmaincheckpoint remains; v0.6.1/0.7.0work is local, no new commit/push requested inthese tasks."
+      "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43195522136",
+      "note": "Release source đãpush vàCIđạt; bản ghi handoff đượccommit tiếp. Xem git log/origin/main đểlấyHEADcuối."
     },
     "active_character_concept": "docs/characters/tasmanian-king-crab-atlas-v1.md",
     "review_evidence": "work/characters/tasmanian_king_crab/atlas-v1/review/keyframe-review.json",

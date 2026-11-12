@@ -81,5 +81,12 @@
       "evidence": "assets/t_rex/godot_bundle/engine-export.json:idle.godot.relative_durations[7.02,6.96,...] vsassets/t_rex/clips/animation-clips.json:idle.ticks[7,...].",
       "action": "Do not alter approved T-rex outside Owner scope; discuss exacttick re-export separately. PNG/hashparity unchanged."
     }
-  ]
+  ],
+  "github_ci": {
+    "conclusion": "success",
+    "headSha": "2d04bf9199fe24cc6fda49cf231380e9c1047a66",
+    "status": "completed",
+    "url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43195522136"
+  },
+  "ci_annotations_log": "docs/releases/v0.7.0-ci.log"
 }
