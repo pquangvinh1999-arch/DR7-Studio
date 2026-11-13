@@ -75,6 +75,8 @@ function makeMockCtx2d(canvas) {
     fillRect() { drawCalls++; },
     strokeRect() { drawCalls++; },
     beginPath() {},
+    rect() {},
+    clip() {},
     closePath() {},
     moveTo() {},
     lineTo() {},
@@ -334,7 +336,7 @@ for (const ch of apiPayload.roster.characters) {
     assert.equal(T.arena.clip,contract.turning.clip,'Do not interrupt pending orientation');
     const visited=new Set([T.arena.step]);
     for(let i=0;i<contract.turning.duration_ticks+2;i++){T.stepAndRenderArena(1000/60);if(T.arena.clip===contract.turning.clip)visited.add(T.arena.step);}
-    assert.deepEqual([...visited],[0,1,2,3]);
+    assert.deepEqual([...visited],Array.from({length:bundle.animations[contract.turning.clip].frames.length},(_,i)=>i));
     assert.equal(T.arena.flip,true);
     T.arena.keys={KeyD:true};
     T.stepAndRenderArena(1000/60);
@@ -346,6 +348,57 @@ for (const ch of apiPayload.roster.characters) {
   }
   T.renderInspector();
   assert.equal(getEl('runtimeErrorBanner').textContent,'');
+}
+
+// Chilopoda's target transfer, delayed hit and endpoint reversal are real runtime behavior.
+const chiloCharacter=apiPayload.roster.characters.find(ch=>ch.render_contract?.chilopoda);
+if(chiloCharacter){
+  T.selectCharacter(chiloCharacter.character_id);
+  const b=T.state.bundlesById[chiloCharacter.modes.combined_1layer.bundle_id];
+  const c=b.render_contract.chilopoda;
+  const layersAt=(clip,tick,options={})=>{
+    const a=b.animations[clip];let index=0,left=tick;
+    while(index<a.frames.length-1&&left>=a.frames[index].duration_ticks)left-=a.frames[index++].duration_ticks;
+    return T.getLayerFramesForStep(clip,index,{elapsedMs:left*1000/60,fxTicks:0,...options});
+  };
+  let hidden=0;
+  for(let tick=0;tick<90;tick++){
+    const layers=layersAt('attack_light',tick);const body=layers.find(l=>l.layer==='Body');
+    if(tick>=24&&tick<54){hidden++;assert.equal(body,undefined,'Exactly30ticks underground')}
+    else assert.ok(body,'Body has an emergence/entry pose outside hidden window');
+    if(tick>=54)assert.equal(body.point[0],256,'Root transfers to enemy minus bite contact offset');
+  }
+  assert.equal(hidden,30);
+  for(const initialFacingLeft of [false,true])for(let tick=0;tick<36;tick++){
+    const body=layersAt('turn',tick,{initialFacingLeft}).find(l=>l.layer==='Body');
+    if(tick>=16&&tick<22)assert.equal(body,undefined,'Turn changes facing only while underground');
+    else {assert.ok(body);assert.equal(body.point[0],176,'Burrow turn does not relocate');assert.equal(body.mirror,initialFacingLeft!==(tick>=16));}
+  }
+
+  assert.equal(layersAt('power_up',15).filter(l=>l.layer.startsWith('Laser')).length,0);
+  const bolts=layersAt('power_up',16).filter(l=>l.layer.startsWith('Laser'));
+  assert.equal(bolts.length,2);assert.notDeepEqual(Array.from(bolts[0].point),Array.from(bolts[1].point));
+  assert.equal(layersAt('power_up',41).filter(l=>l.layer.startsWith('Laser')).length,0);
+  assert.equal(layersAt('power_up',18,{targetGroundCanvasPx:[370,224]}).filter(l=>l.layer.startsWith('Laser')).length,2,'Farther target extends physical flight');
+  Object.assign(T.arena,{x:280,flip:false,keys:{},hitstop:0,actionClip:null,turnTargetFlip:null,dummyX:640,dummyHp:2000,popups:[]});
+  T.triggerArenaAction('attack_light');assert.equal(T.arena.dummyHp,2000,'No hit before burrow or bite');
+  for(let tick=0;tick<92;tick++)T.stepAndRenderArena(1000/60);
+  assert.equal(T.arena.dummyHp,1880);assert.ok(Math.abs(T.arena.x-544)<.001,'Remain at target after bite');assert.equal(T.arena.clip,'idle');assert.equal(T.arena.chiloPatrol,false);
+  Object.assign(T.arena,{x:280,flip:false,keys:{},hitstop:0,actionClip:null,dummyHp:2000,popups:[]});
+  T.triggerArenaAction('power_up');assert.equal(T.arena.dummyHp,2000);
+  for(let tick=0;tick<44;tick++)T.stepAndRenderArena(1000/60);
+  assert.equal(T.arena.dummyHp,1750,'Two125damage hits at projectile arrivals, not cast start');
+  T.selectCharacter(chiloCharacter.character_id);
+  Object.assign(T.arena,{x:879,flip:false,keys:{KeyD:true},hitstop:0});
+  T.stepAndRenderArena(1000/60);assert.equal(T.arena.clip,'turn');assert.equal(T.arena.flip,false);
+  const rightSeen=new Set([T.arena.step]);
+  for(let t=0;t<38;t++){T.stepAndRenderArena(1000/60);if(T.arena.clip==='turn')rightSeen.add(T.arena.step)}
+  assert.equal(rightSeen.size,b.animations.turn.frames.length);assert.equal(T.arena.flip,true);assert.equal(T.arena.chiloPatrolDir,-1);
+  Object.assign(T.arena,{x:81,keys:{}});T.stepAndRenderArena(1000/60);assert.equal(T.arena.clip,'turn');assert.equal(T.arena.flip,true);
+  const leftSeen=new Set([T.arena.step]);
+  for(let t=0;t<38;t++){T.stepAndRenderArena(1000/60);if(T.arena.clip==='turn')leftSeen.add(T.arena.step)}
+  assert.equal(leftSeen.size,b.animations.turn.frames.length);assert.equal(T.arena.flip,false);assert.equal(T.arena.chiloPatrolDir,1);
+  Object.assign(T.arena,{x:280,flip:false,keys:{},hitstop:0,actionClip:null,turnTargetFlip:null,dummyX:640,dummyHp:2000,chiloPatrol:false,chiloAction:null});
 }
 
 // Phase B: Inject synthetic 1-Layer Combined characters to verify dynamic multi-character pipeline

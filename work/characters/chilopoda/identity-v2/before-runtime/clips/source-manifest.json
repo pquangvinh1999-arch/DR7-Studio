@@ -1,0 +1,737 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "art_source": "host_image",
+  "pixel_art": true,
+  "sampling": "nearest",
+  "body_height_px": 59,
+  "anchor_px": [
+    176,
+    224
+  ],
+  "shadow": {
+    "rx": 38,
+    "ry": 4,
+    "opacity": 0.3
+  },
+  "frames": [
+    {
+      "name": "idle_00",
+      "file": "raw_frames/idle_00.png"
+    },
+    {
+      "name": "idle_01",
+      "file": "raw_frames/idle_01.png"
+    },
+    {
+      "name": "idle_02",
+      "file": "raw_frames/idle_02.png"
+    },
+    {
+      "name": "idle_03",
+      "file": "raw_frames/idle_03.png"
+    },
+    {
+      "name": "idle_04",
+      "file": "raw_frames/idle_04.png"
+    },
+    {
+      "name": "idle_05",
+      "file": "raw_frames/idle_05.png"
+    },
+    {
+      "name": "idle_06",
+      "file": "raw_frames/idle_06.png"
+    },
+    {
+      "name": "idle_07",
+      "file": "raw_frames/idle_07.png"
+    },
+    {
+      "name": "idle_08",
+      "file": "raw_frames/idle_08.png"
+    },
+    {
+      "name": "idle_09",
+      "file": "raw_frames/idle_09.png"
+    },
+    {
+      "name": "idle_10",
+      "file": "raw_frames/idle_10.png"
+    },
+    {
+      "name": "idle_11",
+      "file": "raw_frames/idle_11.png"
+    },
+    {
+      "name": "walk_00",
+      "file": "raw_frames/walk_00.png"
+    },
+    {
+      "name": "walk_01",
+      "file": "raw_frames/walk_01.png"
+    },
+    {
+      "name": "walk_02",
+      "file": "raw_frames/walk_02.png"
+    },
+    {
+      "name": "walk_03",
+      "file": "raw_frames/walk_03.png"
+    },
+    {
+      "name": "walk_04",
+      "file": "raw_frames/walk_04.png"
+    },
+    {
+      "name": "walk_05",
+      "file": "raw_frames/walk_05.png"
+    },
+    {
+      "name": "walk_06",
+      "file": "raw_frames/walk_06.png"
+    },
+    {
+      "name": "walk_07",
+      "file": "raw_frames/walk_07.png"
+    },
+    {
+      "name": "walk_08",
+      "file": "raw_frames/walk_08.png"
+    },
+    {
+      "name": "walk_09",
+      "file": "raw_frames/walk_09.png"
+    },
+    {
+      "name": "walk_10",
+      "file": "raw_frames/walk_10.png"
+    },
+    {
+      "name": "walk_11",
+      "file": "raw_frames/walk_11.png"
+    },
+    {
+      "name": "attack_light_00",
+      "file": "raw_frames/attack_light_00.png"
+    },
+    {
+      "name": "attack_light_01",
+      "file": "raw_frames/attack_light_01.png"
+    },
+    {
+      "name": "attack_light_02",
+      "file": "raw_frames/attack_light_02.png"
+    },
+    {
+      "name": "attack_light_03",
+      "file": "raw_frames/attack_light_03.png"
+    },
+    {
+      "name": "attack_light_04",
+      "file": "raw_frames/attack_light_04.png"
+    },
+    {
+      "name": "attack_light_05",
+      "file": "raw_frames/attack_light_05.png"
+    },
+    {
+      "name": "attack_light_06",
+      "file": "raw_frames/attack_light_06.png"
+    },
+    {
+      "name": "attack_light_07",
+      "file": "raw_frames/attack_light_07.png"
+    },
+    {
+      "name": "attack_light_08",
+      "file": "raw_frames/attack_light_08.png"
+    },
+    {
+      "name": "attack_light_09",
+      "file": "raw_frames/attack_light_09.png"
+    },
+    {
+      "name": "attack_light_10",
+      "file": "raw_frames/attack_light_10.png"
+    },
+    {
+      "name": "attack_light_11",
+      "file": "raw_frames/attack_light_11.png"
+    },
+    {
+      "name": "attack_light_12",
+      "file": "raw_frames/attack_light_12.png"
+    },
+    {
+      "name": "attack_light_13",
+      "file": "raw_frames/attack_light_13.png"
+    },
+    {
+      "name": "attack_light_14",
+      "file": "raw_frames/attack_light_14.png"
+    },
+    {
+      "name": "attack_light_15",
+      "file": "raw_frames/attack_light_15.png"
+    },
+    {
+      "name": "power_up_00",
+      "file": "raw_frames/power_up_00.png"
+    },
+    {
+      "name": "power_up_01",
+      "file": "raw_frames/power_up_01.png"
+    },
+    {
+      "name": "power_up_02",
+      "file": "raw_frames/power_up_02.png"
+    },
+    {
+      "name": "power_up_03",
+      "file": "raw_frames/power_up_03.png"
+    },
+    {
+      "name": "power_up_04",
+      "file": "raw_frames/power_up_04.png"
+    },
+    {
+      "name": "power_up_05",
+      "file": "raw_frames/power_up_05.png"
+    },
+    {
+      "name": "power_up_06",
+      "file": "raw_frames/power_up_06.png"
+    },
+    {
+      "name": "power_up_07",
+      "file": "raw_frames/power_up_07.png"
+    },
+    {
+      "name": "power_up_08",
+      "file": "raw_frames/power_up_08.png"
+    },
+    {
+      "name": "power_up_09",
+      "file": "raw_frames/power_up_09.png"
+    },
+    {
+      "name": "power_up_10",
+      "file": "raw_frames/power_up_10.png"
+    },
+    {
+      "name": "power_up_11",
+      "file": "raw_frames/power_up_11.png"
+    },
+    {
+      "name": "hit_00",
+      "file": "raw_frames/hit_00.png"
+    },
+    {
+      "name": "hit_01",
+      "file": "raw_frames/hit_01.png"
+    },
+    {
+      "name": "hit_02",
+      "file": "raw_frames/hit_02.png"
+    },
+    {
+      "name": "hit_03",
+      "file": "raw_frames/hit_03.png"
+    },
+    {
+      "name": "hit_04",
+      "file": "raw_frames/hit_04.png"
+    },
+    {
+      "name": "hit_05",
+      "file": "raw_frames/hit_05.png"
+    },
+    {
+      "name": "ko_00",
+      "file": "raw_frames/ko_00.png"
+    },
+    {
+      "name": "ko_01",
+      "file": "raw_frames/ko_01.png"
+    },
+    {
+      "name": "ko_02",
+      "file": "raw_frames/ko_02.png"
+    },
+    {
+      "name": "ko_03",
+      "file": "raw_frames/ko_03.png"
+    },
+    {
+      "name": "ko_04",
+      "file": "raw_frames/ko_04.png"
+    },
+    {
+      "name": "ko_05",
+      "file": "raw_frames/ko_05.png"
+    },
+    {
+      "name": "ko_06",
+      "file": "raw_frames/ko_06.png"
+    },
+    {
+      "name": "ko_07",
+      "file": "raw_frames/ko_07.png"
+    },
+    {
+      "name": "turn_00",
+      "file": "raw_frames/turn_00.png"
+    },
+    {
+      "name": "turn_01",
+      "file": "raw_frames/turn_01.png"
+    },
+    {
+      "name": "turn_02",
+      "file": "raw_frames/turn_02.png"
+    },
+    {
+      "name": "turn_03",
+      "file": "raw_frames/turn_03.png"
+    },
+    {
+      "name": "turn_04",
+      "file": "raw_frames/turn_04.png"
+    },
+    {
+      "name": "turn_05",
+      "file": "raw_frames/turn_05.png"
+    },
+    {
+      "name": "turn_06",
+      "file": "raw_frames/turn_06.png"
+    },
+    {
+      "name": "turn_07",
+      "file": "raw_frames/turn_07.png"
+    },
+    {
+      "name": "turn_08",
+      "file": "raw_frames/turn_08.png"
+    },
+    {
+      "name": "turn_09",
+      "file": "raw_frames/turn_09.png"
+    },
+    {
+      "name": "turn_10",
+      "file": "raw_frames/turn_10.png"
+    },
+    {
+      "name": "burrow_dust_fx_00",
+      "file": "raw_frames/burrow_dust_fx_00.png"
+    },
+    {
+      "name": "burrow_dust_fx_01",
+      "file": "raw_frames/burrow_dust_fx_01.png"
+    },
+    {
+      "name": "burrow_dust_fx_02",
+      "file": "raw_frames/burrow_dust_fx_02.png"
+    },
+    {
+      "name": "burrow_dust_fx_03",
+      "file": "raw_frames/burrow_dust_fx_03.png"
+    },
+    {
+      "name": "burrow_dust_fx_04",
+      "file": "raw_frames/burrow_dust_fx_04.png"
+    },
+    {
+      "name": "burrow_dust_fx_05",
+      "file": "raw_frames/burrow_dust_fx_05.png"
+    },
+    {
+      "name": "burrow_dust_fx_06",
+      "file": "raw_frames/burrow_dust_fx_06.png"
+    },
+    {
+      "name": "burrow_dust_fx_07",
+      "file": "raw_frames/burrow_dust_fx_07.png"
+    },
+    {
+      "name": "antenna_glow_fx_00",
+      "file": "raw_frames/antenna_glow_fx_00.png"
+    },
+    {
+      "name": "antenna_glow_fx_01",
+      "file": "raw_frames/antenna_glow_fx_01.png"
+    },
+    {
+      "name": "antenna_glow_fx_02",
+      "file": "raw_frames/antenna_glow_fx_02.png"
+    },
+    {
+      "name": "antenna_glow_fx_03",
+      "file": "raw_frames/antenna_glow_fx_03.png"
+    },
+    {
+      "name": "antenna_glow_fx_04",
+      "file": "raw_frames/antenna_glow_fx_04.png"
+    },
+    {
+      "name": "antenna_glow_fx_05",
+      "file": "raw_frames/antenna_glow_fx_05.png"
+    },
+    {
+      "name": "red_laser_fx_00",
+      "file": "raw_frames/red_laser_fx_00.png"
+    },
+    {
+      "name": "red_laser_fx_01",
+      "file": "raw_frames/red_laser_fx_01.png"
+    },
+    {
+      "name": "red_laser_fx_02",
+      "file": "raw_frames/red_laser_fx_02.png"
+    },
+    {
+      "name": "red_laser_fx_03",
+      "file": "raw_frames/red_laser_fx_03.png"
+    }
+  ],
+  "clips": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "ticks": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "loop_policy": "cycle",
+      "role": "player"
+    },
+    "walk": {
+      "frames": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "ticks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "loop_policy": "cycle",
+      "role": "player"
+    },
+    "attack_light": {
+      "frames": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "ticks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        30,
+        4,
+        4,
+        4,
+        3,
+        3,
+        4,
+        4,
+        4,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "hitstop_ticks": 0,
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 2,
+        "strike": 11,
+        "recover": 12,
+        "end": 15
+      },
+      "events": [
+        {
+          "at": 6,
+          "name": "custom:burrow_hidden"
+        },
+        {
+          "at": 7,
+          "name": "custom:burrow_emerge"
+        },
+        {
+          "at": 11,
+          "name": "hit"
+        },
+        {
+          "at": 15,
+          "name": "end"
+        }
+      ]
+    },
+    "power_up": {
+      "frames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "ticks": [
+        4,
+        4,
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "hitstop_ticks": 0,
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 3,
+        "strike": 4,
+        "recover": 8,
+        "end": 11
+      },
+      "events": [
+        {
+          "at": 4,
+          "name": "custom:dual_laser_release"
+        },
+        {
+          "at": 11,
+          "name": "end"
+        }
+      ]
+    },
+    "hit": {
+      "frames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "ticks": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "loop_policy": "oneshot",
+      "role": "player"
+    },
+    "ko": {
+      "frames": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        15
+      ],
+      "loop_policy": "oneshot",
+      "role": "player"
+    },
+    "turn": {
+      "frames": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "ticks": [
+        3,
+        3,
+        3,
+        3,
+        10,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "events": [
+        {
+          "at": 1,
+          "name": "custom:turn_dive"
+        },
+        {
+          "at": 5,
+          "name": "custom:turn_emerge"
+        },
+        {
+          "at": 10,
+          "name": "end"
+        }
+      ]
+    },
+    "burrow_dust_fx": {
+      "frames": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "ticks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx"
+    },
+    "antenna_glow_fx": {
+      "frames": [
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "ticks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx"
+    },
+    "red_laser_fx": {
+      "frames": [
+        91,
+        92,
+        93,
+        94
+      ],
+      "ticks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx"
+    }
+  },
+  "states": {
+    "idle": "idle",
+    "moving": "walk",
+    "turn": "turn",
+    "attack": "attack_light",
+    "power": "power_up",
+    "hurt": "hit",
+    "dead": "ko"
+  }
+}

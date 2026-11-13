@@ -50,7 +50,7 @@ def verify_motion_quality() -> dict:
             result = {"ok_for_human_test": True, "release_approved": True,
                       "status": "owner_approved", "errors": []}
         else:
-            result = assess_motion_quality(ch.get("motion_quality"), digest)
+            result = assess_motion_quality(ch.get("motion_quality"), digest, ch.get("render_contract"))
         records[cid] = result
         errors.extend(cid + ": " + e for e in result["errors"])
     return {"ok_for_human_test": not errors, "release_approved": all(

@@ -52,3 +52,5 @@ jobs:
           timeout 60s ./tools/godot/godot --headless --path . --script res://tests/test_tasmanian_charge.gd
           timeout 60s ./tools/godot/godot --headless --path . --script res://tests/test_sarcosuchus_charge.gd
           timeout 60s ./tools/godot/godot --headless --path . --script res://tests/test_dilophosaurus_power.gd
+          timeout 60s ./tools/godot/godot --headless --path . --script res://tests/test_bat_sonic.gd
+          timeout 60s ./tools/godot/godot --headless --path . --script res://tests/test_chilopoda_actions.gd

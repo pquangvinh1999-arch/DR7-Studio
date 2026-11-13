@@ -1,0 +1,1 @@
+Background extraction only. Keep exactly the complete bat character, same pose/camera/proportions/palette/details. Remove all surrounding brown glow and backdrop. Fully opaque intact bat and wing membranes on genuinely transparent empty background. No shadow/glow/vignette. Crisp silhouette. Do not redesign or erase the bat.

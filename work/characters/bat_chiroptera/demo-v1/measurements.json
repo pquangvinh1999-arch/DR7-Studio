@@ -1,0 +1,39 @@
+{
+  "file": "/workspaces/DR7-Studio/work/characters/bat_chiroptera/demo-v1/master.png",
+  "file_sha256": "b8656aaba4eb84dc255f24096d889bcb848fb6cb7af53403476ad10372d7555d",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "body_bbox_px": [
+    113,
+    119,
+    126,
+    81
+  ],
+  "visible_pixels": 4579,
+  "rgb_colors": 3608,
+  "edge_acutance_sobel": 331.422,
+  "alpha_hardness_pct": 100.0,
+  "visible_alpha_hardness_pct": 100.0,
+  "minimum_horizontal_constant_rgba_run_px": 1,
+  "single_pixel_run_fraction": 0.9958324193902172,
+  "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+  "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+  "reference_width_px": 157,
+  "requested_ratio": 0.8,
+  "actual_ratio": 0.802547770700637,
+  "source_alpha_threshold": 128,
+  "source_whole_bbox": [
+    309,
+    252,
+    1137,
+    787
+  ],
+  "registration": "Whole sprite uniform Nearest scale, bbox center x176 and bottom y200; static candidate only.",
+  "art_source": "host_image",
+  "route": "image_gen",
+  "owner_approved": false,
+  "motion_quality": "not_applicable_static_demo",
+  "technical_checks": "static_measurements_only"
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "power_up",
+  "frame_size": [
+    384,
+    256
+  ],
+  "output_origin": [
+    176.0,
+    224.0
+  ],
+  "sprite3d_offset": [
+    16.0,
+    96.0
+  ],
+  "reference_subject_height_px": 70.0,
+  "world_height": 0.7000000000000001,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.7000000000000001,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 64,
+  "fps": 15.714285714285714,
+  "frames": [
+    "frames/frame-054.png",
+    "frames/frame-055.png",
+    "frames/frame-056.png",
+    "frames/frame-057.png",
+    "frames/frame-058.png",
+    "frames/frame-059.png",
+    "frames/frame-060.png",
+    "frames/frame-061.png",
+    "frames/frame-062.png",
+    "frames/frame-063.png",
+    "frames/frame-064.png"
+  ],
+  "frame_sha256": [
+    "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "dfb29e4accea232ee38f4865b14a81aefc60adaf858b147e751f44fed6492a68",
+    "4776ed37dfdeaefcee450ffc9d968d813658eba5fc1a6bbbaa29bc44be1b0f02",
+    "45917b9e11852da0e034f137d0cce18b614fbda848f861ddb94897446affa2f2",
+    "12f33db012435c8fc61dbb499f8922206ab475a1116071eb45bc569b163e8d31",
+    "140f7be452ea3fe6a7c5850499553997c857aaa679a32be281f7c4da9171988a",
+    "59828d93288ba21b23d623f7c2d6d44ec4785d789d2d129fea4aa6284650fbe0",
+    "7e9d803dcc22a63e08607cd0c92c1348054fb62be6e137ef627267902d60526d",
+    "3af065d2d60acbe1b0ddcbf0bac1458564b66f74c9235921625a1bc15ec2218f",
+    "6fae9474e2eb34d403acc743204d6cdfc8d2225be12a299030e14312ad1ffd54",
+    "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3"
+  ],
+  "durations_ms": [
+    133,
+    67,
+    67,
+    33,
+    33,
+    34,
+    33,
+    67,
+    66,
+    67,
+    100
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": [
+    {
+      "name": "custom:dual_laser_release",
+      "at_ms": 267,
+      "at": 3,
+      "position": 3
+    },
+    {
+      "name": "end",
+      "at_ms": 600,
+      "at": 10,
+      "position": 10
+    }
+  ]
+}

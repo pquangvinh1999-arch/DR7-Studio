@@ -23,6 +23,10 @@ Compatible with both **Antigravity CLI (`agy`)** and **OpenAI Codex (`codex`)** 
 4. **`lerning.md` (Read Before Coding / Asset Work; Write After Verifying a Bug Fix)**:
    - Consult documented root-cause lessons (`LRN-XXX`) before running pipelines; append new lessons immediately after fixing and verifying any bug.
 
+## Owner repair-loop cap (2026-11-13)
+
+For each unresolved issue, allow at most five analyze→fix→`./loop.sh test` cycles. Record the issue, each attempt, actual exit/log and remaining failure. If attempt5 still fails, stop work on that issue and report evidence and attempted remedies to Owner; do not run attempt6 or hand over a failed result. This replaces unbounded retry instructions. Independent work may continue while the unresolved issue awaits Owner direction.
+
 ## Commands
 
 - `./loop.sh status` — Session briefing & file dispatch rules

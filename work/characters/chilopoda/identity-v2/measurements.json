@@ -1,0 +1,23 @@
+{
+  "file": "/workspaces/DR7-Studio/work/characters/chilopoda/identity-v2/canonical/master.png",
+  "file_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "body_bbox_px": [
+    98,
+    154,
+    160,
+    70
+  ],
+  "visible_pixels": 3215,
+  "rgb_colors": 3045,
+  "edge_acutance_sobel": 234.28,
+  "alpha_hardness_pct": 100.0,
+  "visible_alpha_hardness_pct": 100.0,
+  "minimum_horizontal_constant_rgba_run_px": 1,
+  "single_pixel_run_fraction": 0.9984418822062948,
+  "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+  "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+}

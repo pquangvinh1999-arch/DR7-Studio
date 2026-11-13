@@ -1,0 +1,33 @@
+{
+  "parity": {
+    "ok": true,
+    "checked_bundles": 7,
+    "finalized_characters": 7,
+    "errors": [],
+    "warnings": [
+      "Nh\u00e2n v\u1eadt 'bat_chiroptera' hi\u1ec7n c\u00f3 7 ho\u1ea1t \u1ea3nh (idle, walk, run, attack_light, power_up, hit, ko); thi\u1ebfu c\u00e1c clip tham chi\u1ebfu t\u1ea1m th\u1eddi: jump, guard, attack_heavy, aura_loop, win. Owner \u0111\u00e3 lo\u1ea1i ri\u00eang nh\u00e2n v\u1eadt: jump, guard, attack_heavy, aura_loop, win.",
+      "Nh\u00e2n v\u1eadt 'spinosaurus' hi\u1ec7n c\u00f3 8 ho\u1ea1t \u1ea3nh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thi\u1ebfu c\u00e1c clip tham chi\u1ebfu t\u1ea1m th\u1eddi: run, jump, guard, aura_loop, win. Owner \u0111\u00e3 lo\u1ea1i ri\u00eang nh\u00e2n v\u1eadt: run, jump, guard, aura_loop, win.",
+      "Nh\u00e2n v\u1eadt 't_rex' hi\u1ec7n c\u00f3 8 ho\u1ea1t \u1ea3nh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thi\u1ebfu c\u00e1c clip tham chi\u1ebfu t\u1ea1m th\u1eddi: jump, guard, aura_loop, win. Owner \u0111\u00e3 lo\u1ea1i ri\u00eang nh\u00e2n v\u1eadt: jump, guard, aura_loop, win.",
+      "Nh\u00e2n v\u1eadt 'pteranodon' hi\u1ec7n c\u00f3 7 ho\u1ea1t \u1ea3nh (idle, walk, run, attack_light, power_up, hit, ko); thi\u1ebfu c\u00e1c clip tham chi\u1ebfu t\u1ea1m th\u1eddi: jump, guard, attack_heavy, aura_loop, win. Owner \u0111\u00e3 lo\u1ea1i ri\u00eang nh\u00e2n v\u1eadt: jump, guard, attack_heavy, aura_loop, win.",
+      "Nh\u00e2n v\u1eadt 'tasmanian_king_crab' hi\u1ec7n c\u00f3 6 ho\u1ea1t \u1ea3nh (idle, walk, attack_nomal, power_up, hit, ko); thi\u1ebfu c\u00e1c clip tham chi\u1ebfu t\u1ea1m th\u1eddi: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner \u0111\u00e3 lo\u1ea1i ri\u00eang nh\u00e2n v\u1eadt: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+      "Nh\u00e2n v\u1eadt 'sarcosuchus' hi\u1ec7n c\u00f3 7 ho\u1ea1t \u1ea3nh (idle, walk, attack_nomal, power_up, hit, ko, turn); thi\u1ebfu c\u00e1c clip tham chi\u1ebfu t\u1ea1m th\u1eddi: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner \u0111\u00e3 lo\u1ea1i ri\u00eang nh\u00e2n v\u1eadt: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+      "Nh\u00e2n v\u1eadt 'dilophosaurus' hi\u1ec7n c\u00f3 7 ho\u1ea1t \u1ea3nh (idle, walk, attack_light, hit, ko, turn, power_up); thi\u1ebfu c\u00e1c clip tham chi\u1ebfu t\u1ea1m th\u1eddi: run, jump, guard, attack_heavy, aura_loop, win. Owner \u0111\u00e3 lo\u1ea1i ri\u00eang nh\u00e2n v\u1eadt: run, jump, guard, attack_heavy, aura_loop, win."
+    ]
+  },
+  "hashes": {
+    "assets/bat_chiroptera/godot_bundle/godot/bat_chiroptera-atlas-00.png": {
+      "local": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
+      "http": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a"
+    },
+    "tools/preview/rust_combat_sim.wasm": {
+      "local": "de0f4c40709ecac22931d8e505baf8a2de2c127079854ede42016295bb223e3f",
+      "http": "de0f4c40709ecac22931d8e505baf8a2de2c127079854ede42016295bb223e3f"
+    }
+  },
+  "motion_quality": {
+    "ok_for_human_test": true,
+    "release_approved": false,
+    "status": "reviewed_pending_owner",
+    "errors": []
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "character_id": "chilopoda",
+  "status": "owner_approved",
+  "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3494,
+          2342
+        ],
+        "cells": 76,
+        "clips": [
+          "idle",
+          "walk",
+          "attack_light",
+          "hit",
+          "ko",
+          "power_up",
+          "turn",
+          "burrow_dust_fx",
+          "antenna_glow_fx",
+          "red_laser_fx"
+        ]
+      }
+    ]
+  },
+  "frames": 94,
+  "clips": 10,
+  "canonical_identity": {
+    "path": "work/characters/chilopoda/identity-v2/canonical/master.png",
+    "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "owner_approval": "work/characters/chilopoda/identity-v2/canonical/approval.json"
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "turn",
+      "attack_light",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "burrow_dust_fx",
+      "antenna_glow_fx",
+      "red_laser_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "patrol": {
+        "enabled": true,
+        "speed_px_per_second": 32,
+        "default_bounds_px": [
+          80,
+          880
+        ],
+        "on_endpoint": "burrow_turn_then_reverse_walk"
+      }
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "projectile": null,
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 36,
+      "method": "burrow_reorient_while_hidden",
+      "mirror_sequence_for_reverse": false,
+      "facing_commit_tick": 16,
+      "owner_instruction": "Owner: Chilopoda chui xuống đất đổi hướng rồi trồi lên hướng đầu ngược lại, thay xoay vòng."
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "chilopoda": {
+      "ground_y": 224,
+      "anchor_px": [
+        176,
+        224
+      ],
+      "target_ground_canvas_px": [
+        304,
+        224
+      ],
+      "target_hit_height_px": 24,
+      "burrow": {
+        "body_clip": "attack_light",
+        "dive_start_tick": 4,
+        "hidden_start_tick": 24,
+        "emerge_start_tick": 54,
+        "emerge_end_tick": 66,
+        "bite_tick": 69,
+        "complete_tick": 90,
+        "hidden_ticks": 30,
+        "maximum_depth_px": 128,
+        "bite_offset_x_px": 48,
+        "entry_fx_start_tick": 8,
+        "exit_fx_start_tick": 54,
+        "dust_lifetime_ticks": 16,
+        "dust_clip": "burrow_dust_fx",
+        "after_bite": "remain_at_target_then_idle",
+        "top_y_by_frame": [
+          154,
+          150,
+          161,
+          179,
+          157,
+          111,
+          114,
+          138,
+          149,
+          148,
+          159,
+          150,
+          149,
+          147,
+          146,
+          154
+        ],
+        "frame_ticks": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          30,
+          4,
+          4,
+          4,
+          3,
+          3,
+          4,
+          4,
+          4,
+          6
+        ]
+      },
+      "laser": {
+        "body_clip": "power_up",
+        "release_tick": 16,
+        "glow_end_tick": 24,
+        "glow_clip": "antenna_glow_fx",
+        "projectile_clip": "red_laser_fx",
+        "speed_px_per_tick": 24,
+        "two_independent_origins": true,
+        "target_radius_px": 2,
+        "tip_anchors_by_frame": [
+          [
+            [
+              257,
+              160
+            ],
+            [
+              257,
+              170
+            ]
+          ],
+          [
+            [
+              263,
+              157
+            ],
+            [
+              263,
+              164
+            ]
+          ],
+          [
+            [
+              263,
+              160
+            ],
+            [
+              265,
+              167
+            ]
+          ],
+          [
+            [
+              265,
+              173
+            ],
+            [
+              261,
+              180
+            ]
+          ],
+          [
+            [
+              264,
+              184
+            ],
+            [
+              260,
+              196
+            ]
+          ],
+          [
+            [
+              261,
+              188
+            ],
+            [
+              255,
+              199
+            ]
+          ],
+          [
+            [
+              261,
+              178
+            ],
+            [
+              257,
+              189
+            ]
+          ],
+          [
+            [
+              260,
+              172
+            ],
+            [
+              258,
+              181
+            ]
+          ],
+          [
+            [
+              257,
+              168
+            ],
+            [
+              256,
+              177
+            ]
+          ],
+          [
+            [
+              255,
+              164
+            ],
+            [
+              255,
+              175
+            ]
+          ],
+          [
+            [
+              257,
+              160
+            ],
+            [
+              257,
+              170
+            ]
+          ]
+        ],
+        "on_hit": "hide_projectile",
+        "one_shot": true,
+        "release_frame": 3
+      },
+      "burrow_turn": {
+        "body_clip": "turn",
+        "dive_start_tick": 3,
+        "hidden_start_tick": 16,
+        "emerge_start_tick": 22,
+        "emerge_end_tick": 34,
+        "hidden_ticks": 6,
+        "complete_tick": 36,
+        "relocate": false,
+        "entry_fx_start_tick": 3,
+        "exit_fx_start_tick": 22,
+        "dust_lifetime_ticks": 16,
+        "dust_clip": "burrow_dust_fx",
+        "frame_ticks": [
+          3,
+          3,
+          3,
+          3,
+          10,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "after_turn": "resume_walk_in_opposite_direction",
+        "facing_change": "only_while_body_fully_hidden",
+        "top_y_by_frame": [
+          198,
+          179,
+          157,
+          111,
+          114,
+          138,
+          148,
+          159,
+          150,
+          149,
+          198
+        ]
+      }
+    }
+  },
+  "map_sync_metrics": {
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "foot_anchor_px": [
+      176,
+      224
+    ],
+    "body_only_bbox_px": {
+      "x": 98,
+      "y": 154,
+      "w": 160,
+      "h": 70
+    },
+    "full_fx_bbox_px": {
+      "x": 84,
+      "y": 146,
+      "w": 254,
+      "h": 78
+    },
+    "reference_ppu_64": 64,
+    "world_size_at_64ppu_m": {
+      "body_w_m": 2.5,
+      "body_h_m": 1.094,
+      "aura_w_m": 3.969,
+      "aura_h_m": 1.219
+    },
+    "tile_32px_span": {
+      "body_tiles_w": 5,
+      "body_tiles_h": 2.1875,
+      "full_fx_tiles_w": 7.9375,
+      "full_fx_tiles_h": 2.4375
+    }
+  },
+  "motion_quality": {
+    "status": "owner_approved",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": false,
+      "burrow_turn_bidirectional": true,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true
+    },
+    "not_applicable_checks": {
+      "perspective_turns": "Owner approved burrow/reorient/emerge in place instead of surface rotation."
+    },
+    "owner_approved": true,
+    "naturalness_verdict": "owner_approved",
+    "unresolved_structural_failures": [],
+    "review_evidence": "work/characters/chilopoda/identity-v2/review/identity-review.json",
+    "notes": "New complete-pose action sheets reviewed on light/dark/checker against selected power_up1. Earlier oversized-head render and truncated dive heads rejected and regenerated. Original power1..10 retained. Canonical ready poses use exact selected master; no old master injection. Runtime checks and wall-clock observations recorded separately.",
+    "approved_at": "2026-11-13T08:22:39.853349+00:00",
+    "owner_message": "todo thêm turn cho các nhân vật kia em làm xong chưa? tính toán xem còn 7% quota có thể hoàn thành được không? sau khi xong chilopoda giúp anh chốt nhân vật sau đó trả lời 2 câu hỏi trên"
+  },
+  "technical_checks": {
+    "exit_code": 0,
+    "loop_attempt": 1,
+    "loop_log": "work/characters/chilopoda/identity-v2/verification/loop-1.log",
+    "python_e2e_tests": 50,
+    "godot_bundles": 8,
+    "godot_action_tests": 5,
+    "rust_tests": 2,
+    "wasm_build": {
+      "exit_code": 0,
+      "log": "work/characters/chilopoda/identity-v2/verification/wasm-build.log"
+    },
+    "strict_builder": {
+      "exit_code": 0,
+      "warnings": 0
+    },
+    "browser": {
+      "sequences": 30,
+      "errors": 0,
+      "unobserved_short_pose_observations": 27,
+      "report": "work/characters/chilopoda/identity-v2/verification/browser-realtime-turn.json"
+    },
+    "raster_contract": "work/characters/chilopoda/identity-v2/verification/burrow-raster-contract.json",
+    "endpoint_contract": "work/characters/chilopoda/identity-v2/verification/browser-endpoints.json",
+    "http_zip_parity": "work/characters/chilopoda/identity-v2/verification/delivery-parity-turn.json",
+    "identity_frame_proof": "work/characters/chilopoda/identity-v2/verification/identity-frame-proof.json",
+    "protected_peer_files_unchanged": 1309,
+    "standalone_zip": {
+      "import_exit_code": 0,
+      "bundles_exit_code": 0,
+      "actions_exit_code": 0,
+      "logs": [
+        "work/characters/chilopoda/identity-v2/verification/zip-import.log",
+        "work/characters/chilopoda/identity-v2/verification/zip-bundles.log",
+        "work/characters/chilopoda/identity-v2/verification/zip-actions.log"
+      ]
+    }
+  },
+  "owner_approved": true,
+  "identity_revision": {
+    "source": "previous power_up frame1, exactPNG",
+    "owner_instruction": "Frame1 power_up đẹp và nét hơn; dùng làm hình dạng chuẩn đồng bộ toàn bộ hoạt ảnh Chilopoda.",
+    "canonical_approval": "work/characters/chilopoda/identity-v2/canonical/approval.json",
+    "power_mapping": "new0..9=old1..10;new10=canonicalold1. Old0+old1 hold merged8ticks;42ticks total/release16 unchanged.",
+    "new_body_sources": [
+      "idle",
+      "walk",
+      "attack_light",
+      "hit",
+      "ko"
+    ],
+    "turn_reuses": "New whole walk0 and whole attack poses, facing changes only when hidden",
+    "fx_pixels_unchanged": true
+  },
+  "full_fx_measurement": {
+    "default_target": [
+      304,
+      224
+    ],
+    "method": "Actual nonzero-alpha runtime Canvas union over440integer60Hzticks; clips after groundocclusion/targettransfer/FXplacement. Dynamic target may extend beyond thisdefaultenvelope.",
+    "report": "work/characters/chilopoda/identity-v2/verification/burrow-raster-contract.json"
+  },
+  "warnings": [
+    "[WARN] Nhân vật 'chilopoda' hiện có 7 hoạt ảnh (idle, walk, turn, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'bat_chiroptera' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'sarcosuchus' hiện có 7 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'dilophosaurus' hiện có 7 hoạt ảnh (idle, walk, attack_light, hit, ko, turn, power_up); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_heavy, aura_loop, win."
+  ],
+  "visual_review": {
+    "body_filmstrips": [
+      "work/characters/chilopoda/identity-v2/review/filmstrip-idle.png",
+      "work/characters/chilopoda/identity-v2/review/filmstrip-walk.png",
+      "work/characters/chilopoda/identity-v2/review/filmstrip-turn.png",
+      "work/characters/chilopoda/identity-v2/review/filmstrip-attack_light.png",
+      "work/characters/chilopoda/identity-v2/review/filmstrip-power_up.png",
+      "work/characters/chilopoda/identity-v2/review/filmstrip-hit.png",
+      "work/characters/chilopoda/identity-v2/review/filmstrip-ko.png"
+    ],
+    "backgrounds": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "actual_turn_composites": [
+      "work/characters/chilopoda/identity-v2/verification/composite-turn-right-to-left.png",
+      "work/characters/chilopoda/identity-v2/verification/composite-turn-left-to-right.png"
+    ],
+    "identity_reference": "work/characters/chilopoda/identity-v2/canonical/master.png",
+    "self_review": "Complete poses, selected-design identity and transitions inspected; exact matching ready-pose pixels and retained power poses verified separately. Final naturalness/shape acceptance remains Owner Human Test. No fabricated identity percentage."
+  },
+  "verified_at": "2026-11-13T08:18:22.921491+00:00",
+  "approved_at": "2026-11-13T08:22:39.853349+00:00",
+  "owner_message": "todo thêm turn cho các nhân vật kia em làm xong chưa? tính toán xem còn 7% quota có thể hoàn thành được không? sau khi xong chilopoda giúp anh chốt nhân vật sau đó trả lời 2 câu hỏi trên",
+  "owner_approval_file": "assets/chilopoda/owner_approval.json",
+  "finalization_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 51,
+    "godot_bundles": 8,
+    "godot_action_tests": 5,
+    "rust_tests": 2,
+    "wasm_release_build_exit_code": 0,
+    "runtime_art_and_timing_frozen": true,
+    "http_atlas_and_wasm_hash_parity": true,
+    "zip_approved_metadata_and_atlas_hash_parity": true,
+    "all_eight_characters_owner_approved": true,
+    "log": "work/characters/chilopoda/identity-v2/verification/finalization-loop-test.log",
+    "parity_evidence": "work/characters/chilopoda/identity-v2/verification/finalization-http-zip-parity.json"
+  },
+  "finalized_at": "2026-11-13T08:25:19.479017+00:00"
+}

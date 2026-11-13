@@ -48,3 +48,11 @@ target/
 # Superseded staging/baseline snapshots are not release sources
 /work/**/baseline/
 /work/**/stage/
+
+# Re-downloadable Godot verification packs and extracted local test projects
+/work/**/verification/*.zip
+/work/**/verification/standalone-godot*/
+
+# Superseded Chilopoda surface-turn snapshots; final frames/source evidence retained
+/work/characters/chilopoda/atlas-v1/stage-surface-turn-baseline/
+/work/characters/chilopoda/atlas-v1/live-surface-turn-baseline/

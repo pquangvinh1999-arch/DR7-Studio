@@ -1,0 +1,252 @@
+{
+  "character_id": "bat_chiroptera",
+  "status": "owner_approved",
+  "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3106,
+          2082
+        ],
+        "cells": 61,
+        "clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "power_up",
+          "hit",
+          "ko",
+          "sonic_screech_fx"
+        ]
+      }
+    ]
+  },
+  "frames": 61,
+  "clips": 8,
+  "map_sync_metrics": {
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "foot_anchor_px": [
+      176,
+      200
+    ],
+    "body_only_bbox_px": {
+      "x": 113,
+      "y": 119,
+      "w": 126,
+      "h": 81
+    },
+    "full_fx_bbox_px": {
+      "x": 106,
+      "y": 104,
+      "w": 185,
+      "h": 129
+    },
+    "reference_ppu_64": 64,
+    "world_size_at_64ppu_m": {
+      "body_w_m": 1.969,
+      "body_h_m": 1.266,
+      "aura_w_m": 2.891,
+      "aura_h_m": 2.016
+    },
+    "tile_32px_span": {
+      "body_tiles_w": 3.9375,
+      "body_tiles_h": 2.53125,
+      "full_fx_tiles_w": 5.78125,
+      "full_fx_tiles_h": 4.03125
+    }
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "run",
+      "attack_light",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "sonic_screech_fx"
+    ],
+    "locomotion": {
+      "kind": "flight",
+      "clip": "walk",
+      "cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      141
+    ],
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "sonic_screech_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 14,
+      "origin_canvas_px": [
+        225,
+        165
+      ],
+      "velocity_px_per_tick": [
+        0.0,
+        0.0
+      ],
+      "palette": "purple"
+    }
+  },
+  "motion_quality": {
+    "status": "owner_approved",
+    "method": "imagegen_complete_body_keyframes",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true
+    },
+    "unresolved_structural_failures": [],
+    "owner_approved": true,
+    "filmstrips_opened": [
+      "idle",
+      "walk",
+      "run",
+      "attack_light",
+      "power_up",
+      "hit",
+      "ko",
+      "sonic_screech_fx"
+    ],
+    "visual_evidence": "Each full filmstrip opened with light/dark/checker rows. Real-time browser on all3backgrounds; all61pose indices observed. New complete Bat poses rather than cut/warp rigs. No turn clip in requested Pteranodon set; horizontal direction selection only, no cardflip spin.",
+    "realtime_evidence": "work/characters/bat_chiroptera/atlas-v1/verification/offline-realtime.json",
+    "limitations": "Owner accepted this exact revision. Browser sampling limits remain in QA; no mobile60FPS certification.",
+    "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
+    "naturalness_verdict": "owner_approved",
+    "approved_at": "2026-11-13T06:34:45.229155+00:00",
+    "owner_message": "ok bat anh chốt luôn tiến hành chốt theo qui trình để qua char tiếp theo"
+  },
+  "technical_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 45,
+    "godot_bundles": 7,
+    "godot_fx_tests": 4,
+    "rust_tests": 2,
+    "wasm_release_build_exit_code": 0,
+    "standalone_zip_import_exit_code": 0,
+    "standalone_zip_bundle_exit_code": 0,
+    "standalone_zip_bat_sonic_exit_code": 0,
+    "browser_sequences": 24,
+    "browser_page_errors": 0,
+    "live_contract_ticks": 40,
+    "http_byte_parity": true,
+    "log": "work/characters/bat_chiroptera/atlas-v1/verification/finalization-loop-test.log"
+  },
+  "owner_approved": true,
+  "version": "0.10.0",
+  "warnings": [
+    "[WARN] Nhân vật 'bat_chiroptera' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'sarcosuchus' hiện có 7 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'dilophosaurus' hiện có 7 hoạt ảnh (idle, walk, attack_light, hit, ko, turn, power_up); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_heavy, aura_loop, win."
+  ],
+  "browser_unobserved_pose_instances": [
+    {
+      "clip": "sonic_screech_fx",
+      "background": "light",
+      "frames": [
+        4
+      ]
+    },
+    {
+      "clip": "sonic_screech_fx",
+      "background": "dark",
+      "frames": [
+        0,
+        4
+      ]
+    },
+    {
+      "clip": "sonic_screech_fx",
+      "background": "checker",
+      "frames": [
+        1,
+        5
+      ]
+    }
+  ],
+  "tooling_warnings": [
+    "skills.install: installed skills drifted from their install manifest (2 changed, 0 missing, 0 extra: generate2dsprite/SKILL.md, video2dsprite/SKILL.md)"
+  ],
+  "initial_interrupted_attempts": {
+    "godot_import_exit_code": 143,
+    "wasm_build_exit_code": 143,
+    "resolution": "Reran with tool-session polling until completion; both exit0.",
+    "standalone_import_before_download_completion_exit_code": 1,
+    "standalone_import_after_download_completion_exit_code": 0
+  },
+  "evidence": {
+    "motion_review": "work/characters/bat_chiroptera/atlas-v1/review/keyframe-review.json",
+    "browser": "work/characters/bat_chiroptera/atlas-v1/verification/browser-realtime.json",
+    "hash_parity": "work/characters/bat_chiroptera/atlas-v1/verification/http-byte-parity.json"
+  },
+  "existing_runtime_peer_files_unchanged": 1137,
+  "approved_at": "2026-11-13T06:34:45.229155+00:00",
+  "owner_message": "ok bat anh chốt luôn tiến hành chốt theo qui trình để qua char tiếp theo",
+  "owner_approval_file": "assets/bat_chiroptera/owner_approval.json",
+  "finalization_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 45,
+    "godot_bundles": 7,
+    "godot_fx_tests": 4,
+    "rust_tests": 2,
+    "wasm_release_build_exit_code": 0,
+    "runtime_art_and_timing_frozen": true,
+    "http_atlas_and_wasm_hash_parity": true,
+    "zip_approved_metadata_and_atlas_hash_parity": true,
+    "all_seven_characters_owner_approved": true,
+    "log": "work/characters/bat_chiroptera/atlas-v1/verification/finalization-loop-test.log",
+    "parity_evidence": "work/characters/bat_chiroptera/atlas-v1/verification/finalization-http-zip-parity.json"
+  },
+  "pre_approval_technical_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 44,
+    "godot_bundles": 7,
+    "godot_fx_tests": 4,
+    "rust_tests": 2,
+    "wasm_release_build_exit_code": 0,
+    "standalone_zip_import_exit_code": 0,
+    "standalone_zip_bundle_exit_code": 0,
+    "standalone_zip_bat_sonic_exit_code": 0,
+    "browser_sequences": 24,
+    "browser_page_errors": 0,
+    "live_contract_ticks": 40,
+    "http_byte_parity": true,
+    "log": "work/characters/bat_chiroptera/atlas-v1/verification/loop-test.log"
+  }
+}

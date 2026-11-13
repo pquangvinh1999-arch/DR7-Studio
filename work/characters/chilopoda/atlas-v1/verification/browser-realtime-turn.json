@@ -1,0 +1,1853 @@
+{
+  "sequences": [
+    {
+      "clip": "idle",
+      "background": "light",
+      "info": {
+        "frames": 12,
+        "total": 2000.0000000000002,
+        "loop": true
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 44,
+            "frame": 0
+          },
+          {
+            "ms": 244,
+            "frame": 1
+          },
+          {
+            "ms": 411,
+            "frame": 2
+          },
+          {
+            "ms": 561,
+            "frame": 3
+          },
+          {
+            "ms": 728,
+            "frame": 4
+          },
+          {
+            "ms": 911,
+            "frame": 5
+          },
+          {
+            "ms": 1061,
+            "frame": 6
+          },
+          {
+            "ms": 1244,
+            "frame": 7
+          },
+          {
+            "ms": 1428,
+            "frame": 8
+          },
+          {
+            "ms": 1611,
+            "frame": 9
+          },
+          {
+            "ms": 1761,
+            "frame": 10
+          },
+          {
+            "ms": 1944,
+            "frame": 11
+          },
+          {
+            "ms": 2111,
+            "frame": 0
+          },
+          {
+            "ms": 2261,
+            "frame": 1
+          },
+          {
+            "ms": 2428,
+            "frame": 2
+          },
+          {
+            "ms": 2594,
+            "frame": 3
+          },
+          {
+            "ms": 2778,
+            "frame": 4
+          },
+          {
+            "ms": 2961,
+            "frame": 5
+          },
+          {
+            "ms": 3128,
+            "frame": 6
+          },
+          {
+            "ms": 3327,
+            "frame": 7
+          },
+          {
+            "ms": 3461,
+            "frame": 8
+          },
+          {
+            "ms": 3644,
+            "frame": 9
+          },
+          {
+            "ms": 3811,
+            "frame": 10
+          },
+          {
+            "ms": 3961,
+            "frame": 11
+          }
+        ],
+        "final": 11,
+        "playing": true
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "walk",
+      "background": "light",
+      "info": {
+        "frames": 12,
+        "total": 1200,
+        "loop": true
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": -10,
+            "frame": 0
+          },
+          {
+            "ms": 157,
+            "frame": 1
+          },
+          {
+            "ms": 224,
+            "frame": 2
+          },
+          {
+            "ms": 323,
+            "frame": 3
+          },
+          {
+            "ms": 424,
+            "frame": 4
+          },
+          {
+            "ms": 523,
+            "frame": 5
+          },
+          {
+            "ms": 624,
+            "frame": 6
+          },
+          {
+            "ms": 723,
+            "frame": 7
+          },
+          {
+            "ms": 840,
+            "frame": 8
+          },
+          {
+            "ms": 957,
+            "frame": 9
+          },
+          {
+            "ms": 1024,
+            "frame": 10
+          },
+          {
+            "ms": 1140,
+            "frame": 11
+          },
+          {
+            "ms": 1273,
+            "frame": 0
+          },
+          {
+            "ms": 1357,
+            "frame": 1
+          },
+          {
+            "ms": 1457,
+            "frame": 2
+          },
+          {
+            "ms": 1540,
+            "frame": 3
+          },
+          {
+            "ms": 1657,
+            "frame": 4
+          },
+          {
+            "ms": 1773,
+            "frame": 5
+          },
+          {
+            "ms": 1907,
+            "frame": 6
+          },
+          {
+            "ms": 2007,
+            "frame": 7
+          },
+          {
+            "ms": 2090,
+            "frame": 8
+          },
+          {
+            "ms": 2190,
+            "frame": 9
+          },
+          {
+            "ms": 2307,
+            "frame": 10
+          },
+          {
+            "ms": 2390,
+            "frame": 11
+          },
+          {
+            "ms": 2507,
+            "frame": 0
+          }
+        ],
+        "final": 0,
+        "playing": true
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "attack_light",
+      "background": "light",
+      "info": {
+        "frames": 16,
+        "total": 1500.0000000000002,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": -0.0,
+            "frame": 0
+          },
+          {
+            "ms": 33,
+            "frame": 1
+          },
+          {
+            "ms": 133,
+            "frame": 2
+          },
+          {
+            "ms": 167,
+            "frame": 3
+          },
+          {
+            "ms": 233,
+            "frame": 4
+          },
+          {
+            "ms": 317,
+            "frame": 5
+          },
+          {
+            "ms": 383,
+            "frame": 6
+          },
+          {
+            "ms": 933,
+            "frame": 7
+          },
+          {
+            "ms": 983,
+            "frame": 8
+          },
+          {
+            "ms": 1050,
+            "frame": 9
+          },
+          {
+            "ms": 1133,
+            "frame": 10
+          },
+          {
+            "ms": 1183,
+            "frame": 11
+          },
+          {
+            "ms": 1217,
+            "frame": 12
+          },
+          {
+            "ms": 1283,
+            "frame": 13
+          },
+          {
+            "ms": 1350,
+            "frame": 14
+          },
+          {
+            "ms": 1433,
+            "frame": 15
+          }
+        ],
+        "final": 15,
+        "playing": false
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "power_up",
+      "background": "light",
+      "info": {
+        "frames": 12,
+        "total": 699.9999999999999,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": -20,
+            "frame": 0
+          },
+          {
+            "ms": 64,
+            "frame": 1
+          },
+          {
+            "ms": 130,
+            "frame": 2
+          },
+          {
+            "ms": 197,
+            "frame": 3
+          },
+          {
+            "ms": 280,
+            "frame": 4
+          },
+          {
+            "ms": 330,
+            "frame": 6
+          },
+          {
+            "ms": 380,
+            "frame": 7
+          },
+          {
+            "ms": 397,
+            "frame": 8
+          },
+          {
+            "ms": 480,
+            "frame": 9
+          },
+          {
+            "ms": 530,
+            "frame": 10
+          },
+          {
+            "ms": 597,
+            "frame": 11
+          }
+        ],
+        "final": 11,
+        "playing": false
+      },
+      "unobserved_frames": [
+        5
+      ]
+    },
+    {
+      "clip": "hit",
+      "background": "light",
+      "info": {
+        "frames": 6,
+        "total": 466.66666666666663,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 24,
+            "frame": 0
+          },
+          {
+            "ms": 91,
+            "frame": 1
+          },
+          {
+            "ms": 141,
+            "frame": 2
+          },
+          {
+            "ms": 241,
+            "frame": 3
+          },
+          {
+            "ms": 307,
+            "frame": 4
+          },
+          {
+            "ms": 391,
+            "frame": 5
+          }
+        ],
+        "final": 5,
+        "playing": false
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "ko",
+      "background": "light",
+      "info": {
+        "frames": 8,
+        "total": 866.6666666666666,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": -9,
+            "frame": 0
+          },
+          {
+            "ms": 91,
+            "frame": 1
+          },
+          {
+            "ms": 141,
+            "frame": 2
+          },
+          {
+            "ms": 258,
+            "frame": 3
+          },
+          {
+            "ms": 324,
+            "frame": 4
+          },
+          {
+            "ms": 408,
+            "frame": 5
+          },
+          {
+            "ms": 508,
+            "frame": 6
+          },
+          {
+            "ms": 608,
+            "frame": 7
+          }
+        ],
+        "final": 7,
+        "playing": false
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "turn",
+      "background": "light",
+      "info": {
+        "frames": 11,
+        "total": 600,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 2,
+            "frame": 1
+          },
+          {
+            "ms": 52,
+            "frame": 2
+          },
+          {
+            "ms": 102,
+            "frame": 3
+          },
+          {
+            "ms": 152,
+            "frame": 4
+          },
+          {
+            "ms": 368,
+            "frame": 5
+          },
+          {
+            "ms": 402,
+            "frame": 6
+          },
+          {
+            "ms": 452,
+            "frame": 7
+          },
+          {
+            "ms": 502,
+            "frame": 8
+          },
+          {
+            "ms": 585,
+            "frame": 10
+          }
+        ],
+        "final": 10,
+        "playing": false
+      },
+      "unobserved_frames": [
+        0,
+        9
+      ]
+    },
+    {
+      "clip": "burrow_dust_fx",
+      "background": "light",
+      "info": {
+        "frames": 8,
+        "total": 266.6666666666667,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": -10,
+            "frame": 1
+          },
+          {
+            "ms": 23,
+            "frame": 2
+          },
+          {
+            "ms": 73,
+            "frame": 3
+          },
+          {
+            "ms": 107,
+            "frame": 5
+          },
+          {
+            "ms": 140,
+            "frame": 6
+          },
+          {
+            "ms": 207,
+            "frame": 7
+          }
+        ],
+        "final": 7,
+        "playing": false
+      },
+      "unobserved_frames": [
+        0,
+        4
+      ]
+    },
+    {
+      "clip": "antenna_glow_fx",
+      "background": "light",
+      "info": {
+        "frames": 6,
+        "total": 200.00000000000003,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 29,
+            "frame": 1
+          },
+          {
+            "ms": 63,
+            "frame": 2
+          },
+          {
+            "ms": 96,
+            "frame": 3
+          },
+          {
+            "ms": 129,
+            "frame": 4
+          },
+          {
+            "ms": 163,
+            "frame": 5
+          }
+        ],
+        "final": 5,
+        "playing": false
+      },
+      "unobserved_frames": [
+        0
+      ]
+    },
+    {
+      "clip": "red_laser_fx",
+      "background": "light",
+      "info": {
+        "frames": 4,
+        "total": 66.66666666666667,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": -10,
+            "frame": 1
+          },
+          {
+            "ms": 24,
+            "frame": 3
+          }
+        ],
+        "final": 3,
+        "playing": false
+      },
+      "unobserved_frames": [
+        0,
+        2
+      ]
+    },
+    {
+      "clip": "idle",
+      "background": "dark",
+      "info": {
+        "frames": 12,
+        "total": 2000.0000000000002,
+        "loop": true
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 19,
+            "frame": 0
+          },
+          {
+            "ms": 169,
+            "frame": 1
+          },
+          {
+            "ms": 319,
+            "frame": 2
+          },
+          {
+            "ms": 502,
+            "frame": 3
+          },
+          {
+            "ms": 669,
+            "frame": 4
+          },
+          {
+            "ms": 836,
+            "frame": 5
+          },
+          {
+            "ms": 1002,
+            "frame": 6
+          },
+          {
+            "ms": 1152,
+            "frame": 7
+          },
+          {
+            "ms": 1319,
+            "frame": 8
+          },
+          {
+            "ms": 1536,
+            "frame": 9
+          },
+          {
+            "ms": 1686,
+            "frame": 10
+          },
+          {
+            "ms": 1886,
+            "frame": 11
+          },
+          {
+            "ms": 2019,
+            "frame": 0
+          },
+          {
+            "ms": 2186,
+            "frame": 1
+          },
+          {
+            "ms": 2369,
+            "frame": 2
+          },
+          {
+            "ms": 2552,
+            "frame": 3
+          },
+          {
+            "ms": 2736,
+            "frame": 4
+          },
+          {
+            "ms": 2869,
+            "frame": 5
+          },
+          {
+            "ms": 3086,
+            "frame": 6
+          },
+          {
+            "ms": 3319,
+            "frame": 7
+          },
+          {
+            "ms": 3452,
+            "frame": 8
+          },
+          {
+            "ms": 3636,
+            "frame": 9
+          },
+          {
+            "ms": 3786,
+            "frame": 10
+          },
+          {
+            "ms": 3969,
+            "frame": 11
+          },
+          {
+            "ms": 4136,
+            "frame": 0
+          }
+        ],
+        "final": 0,
+        "playing": true
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "walk",
+      "background": "dark",
+      "info": {
+        "frames": 12,
+        "total": 1200,
+        "loop": true
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 30,
+            "frame": 0
+          },
+          {
+            "ms": 96,
+            "frame": 1
+          },
+          {
+            "ms": 196,
+            "frame": 2
+          },
+          {
+            "ms": 313,
+            "frame": 3
+          },
+          {
+            "ms": 396,
+            "frame": 4
+          },
+          {
+            "ms": 513,
+            "frame": 5
+          },
+          {
+            "ms": 596,
+            "frame": 6
+          },
+          {
+            "ms": 696,
+            "frame": 7
+          },
+          {
+            "ms": 813,
+            "frame": 8
+          },
+          {
+            "ms": 896,
+            "frame": 9
+          },
+          {
+            "ms": 996,
+            "frame": 10
+          },
+          {
+            "ms": 1096,
+            "frame": 11
+          },
+          {
+            "ms": 1230,
+            "frame": 0
+          },
+          {
+            "ms": 1330,
+            "frame": 1
+          },
+          {
+            "ms": 1446,
+            "frame": 2
+          },
+          {
+            "ms": 1530,
+            "frame": 3
+          },
+          {
+            "ms": 1663,
+            "frame": 4
+          },
+          {
+            "ms": 1746,
+            "frame": 5
+          },
+          {
+            "ms": 1863,
+            "frame": 6
+          },
+          {
+            "ms": 1963,
+            "frame": 7
+          },
+          {
+            "ms": 2063,
+            "frame": 8
+          },
+          {
+            "ms": 2163,
+            "frame": 9
+          },
+          {
+            "ms": 2263,
+            "frame": 10
+          },
+          {
+            "ms": 2380,
+            "frame": 11
+          },
+          {
+            "ms": 2463,
+            "frame": 0
+          }
+        ],
+        "final": 0,
+        "playing": true
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "attack_light",
+      "background": "dark",
+      "info": {
+        "frames": 16,
+        "total": 1500.0000000000002,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 2,
+            "frame": 0
+          },
+          {
+            "ms": 35,
+            "frame": 1
+          },
+          {
+            "ms": 102,
+            "frame": 2
+          },
+          {
+            "ms": 185,
+            "frame": 3
+          },
+          {
+            "ms": 252,
+            "frame": 4
+          },
+          {
+            "ms": 318,
+            "frame": 5
+          },
+          {
+            "ms": 385,
+            "frame": 6
+          },
+          {
+            "ms": 868,
+            "frame": 7
+          },
+          {
+            "ms": 952,
+            "frame": 8
+          },
+          {
+            "ms": 1002,
+            "frame": 9
+          },
+          {
+            "ms": 1102,
+            "frame": 10
+          },
+          {
+            "ms": 1135,
+            "frame": 11
+          },
+          {
+            "ms": 1202,
+            "frame": 12
+          },
+          {
+            "ms": 1252,
+            "frame": 13
+          },
+          {
+            "ms": 1318,
+            "frame": 14
+          },
+          {
+            "ms": 1385,
+            "frame": 15
+          }
+        ],
+        "final": 15,
+        "playing": false
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "power_up",
+      "background": "dark",
+      "info": {
+        "frames": 12,
+        "total": 699.9999999999999,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 4,
+            "frame": 0
+          },
+          {
+            "ms": 54,
+            "frame": 1
+          },
+          {
+            "ms": 120,
+            "frame": 2
+          },
+          {
+            "ms": 170,
+            "frame": 3
+          },
+          {
+            "ms": 237,
+            "frame": 4
+          },
+          {
+            "ms": 270,
+            "frame": 5
+          },
+          {
+            "ms": 304,
+            "frame": 6
+          },
+          {
+            "ms": 337,
+            "frame": 7
+          },
+          {
+            "ms": 370,
+            "frame": 8
+          },
+          {
+            "ms": 454,
+            "frame": 9
+          },
+          {
+            "ms": 520,
+            "frame": 10
+          },
+          {
+            "ms": 570,
+            "frame": 11
+          }
+        ],
+        "final": 11,
+        "playing": false
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "hit",
+      "background": "dark",
+      "info": {
+        "frames": 6,
+        "total": 466.66666666666663,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 3,
+            "frame": 0
+          },
+          {
+            "ms": 53,
+            "frame": 1
+          },
+          {
+            "ms": 103,
+            "frame": 2
+          },
+          {
+            "ms": 187,
+            "frame": 3
+          },
+          {
+            "ms": 270,
+            "frame": 4
+          },
+          {
+            "ms": 387,
+            "frame": 5
+          }
+        ],
+        "final": 5,
+        "playing": false
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "ko",
+      "background": "dark",
+      "info": {
+        "frames": 8,
+        "total": 866.6666666666666,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": -2,
+            "frame": 0
+          },
+          {
+            "ms": 48,
+            "frame": 1
+          },
+          {
+            "ms": 181,
+            "frame": 2
+          },
+          {
+            "ms": 231,
+            "frame": 3
+          },
+          {
+            "ms": 331,
+            "frame": 4
+          },
+          {
+            "ms": 398,
+            "frame": 5
+          },
+          {
+            "ms": 498,
+            "frame": 6
+          },
+          {
+            "ms": 581,
+            "frame": 7
+          }
+        ],
+        "final": 7,
+        "playing": false
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "turn",
+      "background": "dark",
+      "info": {
+        "frames": 11,
+        "total": 600,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 5,
+            "frame": 0
+          },
+          {
+            "ms": 38,
+            "frame": 1
+          },
+          {
+            "ms": 105,
+            "frame": 2
+          },
+          {
+            "ms": 138,
+            "frame": 3
+          },
+          {
+            "ms": 205,
+            "frame": 4
+          },
+          {
+            "ms": 355,
+            "frame": 5
+          },
+          {
+            "ms": 421,
+            "frame": 6
+          },
+          {
+            "ms": 455,
+            "frame": 7
+          },
+          {
+            "ms": 538,
+            "frame": 8
+          },
+          {
+            "ms": 588,
+            "frame": 10
+          }
+        ],
+        "final": 10,
+        "playing": false
+      },
+      "unobserved_frames": [
+        9
+      ]
+    },
+    {
+      "clip": "burrow_dust_fx",
+      "background": "dark",
+      "info": {
+        "frames": 8,
+        "total": 266.6666666666667,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 9,
+            "frame": 0
+          },
+          {
+            "ms": 43,
+            "frame": 2
+          },
+          {
+            "ms": 93,
+            "frame": 3
+          },
+          {
+            "ms": 126,
+            "frame": 4
+          },
+          {
+            "ms": 159,
+            "frame": 5
+          },
+          {
+            "ms": 193,
+            "frame": 6
+          },
+          {
+            "ms": 226,
+            "frame": 7
+          }
+        ],
+        "final": 7,
+        "playing": false
+      },
+      "unobserved_frames": [
+        1
+      ]
+    },
+    {
+      "clip": "antenna_glow_fx",
+      "background": "dark",
+      "info": {
+        "frames": 6,
+        "total": 200.00000000000003,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 4,
+            "frame": 1
+          },
+          {
+            "ms": 37,
+            "frame": 2
+          },
+          {
+            "ms": 71,
+            "frame": 3
+          },
+          {
+            "ms": 104,
+            "frame": 4
+          },
+          {
+            "ms": 137,
+            "frame": 5
+          }
+        ],
+        "final": 5,
+        "playing": false
+      },
+      "unobserved_frames": [
+        0
+      ]
+    },
+    {
+      "clip": "red_laser_fx",
+      "background": "dark",
+      "info": {
+        "frames": 4,
+        "total": 66.66666666666667,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": -0.0,
+            "frame": 3
+          }
+        ],
+        "final": 3,
+        "playing": false
+      },
+      "unobserved_frames": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "clip": "idle",
+      "background": "checker",
+      "info": {
+        "frames": 12,
+        "total": 2000.0000000000002,
+        "loop": true
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 1,
+            "frame": 0
+          },
+          {
+            "ms": 201,
+            "frame": 1
+          },
+          {
+            "ms": 368,
+            "frame": 2
+          },
+          {
+            "ms": 601,
+            "frame": 3
+          },
+          {
+            "ms": 851,
+            "frame": 4
+          },
+          {
+            "ms": 1018,
+            "frame": 5
+          },
+          {
+            "ms": 1184,
+            "frame": 6
+          },
+          {
+            "ms": 1351,
+            "frame": 7
+          },
+          {
+            "ms": 1551,
+            "frame": 8
+          },
+          {
+            "ms": 1751,
+            "frame": 9
+          },
+          {
+            "ms": 1901,
+            "frame": 10
+          },
+          {
+            "ms": 2101,
+            "frame": 11
+          },
+          {
+            "ms": 2284,
+            "frame": 0
+          },
+          {
+            "ms": 2468,
+            "frame": 1
+          },
+          {
+            "ms": 2634,
+            "frame": 2
+          },
+          {
+            "ms": 2851,
+            "frame": 3
+          },
+          {
+            "ms": 2984,
+            "frame": 4
+          },
+          {
+            "ms": 3151,
+            "frame": 5
+          },
+          {
+            "ms": 3334,
+            "frame": 6
+          },
+          {
+            "ms": 3501,
+            "frame": 7
+          },
+          {
+            "ms": 3684,
+            "frame": 8
+          },
+          {
+            "ms": 3851,
+            "frame": 9
+          },
+          {
+            "ms": 4001,
+            "frame": 10
+          }
+        ],
+        "final": 10,
+        "playing": true
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "walk",
+      "background": "checker",
+      "info": {
+        "frames": 12,
+        "total": 1200,
+        "loop": true
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 12,
+            "frame": 0
+          },
+          {
+            "ms": 62,
+            "frame": 1
+          },
+          {
+            "ms": 162,
+            "frame": 2
+          },
+          {
+            "ms": 262,
+            "frame": 3
+          },
+          {
+            "ms": 379,
+            "frame": 4
+          },
+          {
+            "ms": 529,
+            "frame": 5
+          },
+          {
+            "ms": 595,
+            "frame": 6
+          },
+          {
+            "ms": 762,
+            "frame": 7
+          },
+          {
+            "ms": 812,
+            "frame": 8
+          },
+          {
+            "ms": 1012,
+            "frame": 9
+          },
+          {
+            "ms": 1112,
+            "frame": 10
+          },
+          {
+            "ms": 1195,
+            "frame": 11
+          },
+          {
+            "ms": 1279,
+            "frame": 0
+          },
+          {
+            "ms": 1445,
+            "frame": 1
+          },
+          {
+            "ms": 1562,
+            "frame": 2
+          },
+          {
+            "ms": 1679,
+            "frame": 3
+          },
+          {
+            "ms": 1779,
+            "frame": 4
+          },
+          {
+            "ms": 1945,
+            "frame": 5
+          },
+          {
+            "ms": 2028,
+            "frame": 6
+          },
+          {
+            "ms": 2112,
+            "frame": 7
+          },
+          {
+            "ms": 2262,
+            "frame": 8
+          },
+          {
+            "ms": 2462,
+            "frame": 9
+          }
+        ],
+        "final": 9,
+        "playing": true
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "attack_light",
+      "background": "checker",
+      "info": {
+        "frames": 16,
+        "total": 1500.0000000000002,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 14,
+            "frame": 0
+          },
+          {
+            "ms": 64,
+            "frame": 1
+          },
+          {
+            "ms": 130,
+            "frame": 2
+          },
+          {
+            "ms": 247,
+            "frame": 3
+          },
+          {
+            "ms": 297,
+            "frame": 4
+          },
+          {
+            "ms": 397,
+            "frame": 5
+          },
+          {
+            "ms": 447,
+            "frame": 6
+          },
+          {
+            "ms": 1164,
+            "frame": 7
+          },
+          {
+            "ms": 1264,
+            "frame": 8
+          },
+          {
+            "ms": 1364,
+            "frame": 9
+          },
+          {
+            "ms": 1414,
+            "frame": 10
+          },
+          {
+            "ms": 1497,
+            "frame": 11
+          },
+          {
+            "ms": 1530,
+            "frame": 12
+          },
+          {
+            "ms": 1614,
+            "frame": 13
+          },
+          {
+            "ms": 1714,
+            "frame": 14
+          },
+          {
+            "ms": 1780,
+            "frame": 15
+          }
+        ],
+        "final": 15,
+        "playing": false
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "power_up",
+      "background": "checker",
+      "info": {
+        "frames": 12,
+        "total": 699.9999999999999,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 21,
+            "frame": 0
+          },
+          {
+            "ms": 71,
+            "frame": 1
+          },
+          {
+            "ms": 138,
+            "frame": 2
+          },
+          {
+            "ms": 188,
+            "frame": 3
+          },
+          {
+            "ms": 321,
+            "frame": 5
+          },
+          {
+            "ms": 404,
+            "frame": 6
+          },
+          {
+            "ms": 471,
+            "frame": 8
+          },
+          {
+            "ms": 571,
+            "frame": 9
+          },
+          {
+            "ms": 621,
+            "frame": 10
+          },
+          {
+            "ms": 688,
+            "frame": 11
+          }
+        ],
+        "final": 11,
+        "playing": false
+      },
+      "unobserved_frames": [
+        4,
+        7
+      ]
+    },
+    {
+      "clip": "hit",
+      "background": "checker",
+      "info": {
+        "frames": 6,
+        "total": 466.66666666666663,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 11,
+            "frame": 0
+          },
+          {
+            "ms": 128,
+            "frame": 1
+          },
+          {
+            "ms": 178,
+            "frame": 2
+          },
+          {
+            "ms": 278,
+            "frame": 3
+          },
+          {
+            "ms": 361,
+            "frame": 4
+          },
+          {
+            "ms": 528,
+            "frame": 5
+          }
+        ],
+        "final": 5,
+        "playing": false
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "ko",
+      "background": "checker",
+      "info": {
+        "frames": 8,
+        "total": 866.6666666666666,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 47,
+            "frame": 0
+          },
+          {
+            "ms": 147,
+            "frame": 1
+          },
+          {
+            "ms": 214,
+            "frame": 2
+          },
+          {
+            "ms": 330,
+            "frame": 3
+          },
+          {
+            "ms": 414,
+            "frame": 4
+          },
+          {
+            "ms": 530,
+            "frame": 5
+          },
+          {
+            "ms": 747,
+            "frame": 6
+          },
+          {
+            "ms": 947,
+            "frame": 7
+          }
+        ],
+        "final": 7,
+        "playing": false
+      },
+      "unobserved_frames": []
+    },
+    {
+      "clip": "turn",
+      "background": "checker",
+      "info": {
+        "frames": 11,
+        "total": 600,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 18,
+            "frame": 1
+          },
+          {
+            "ms": 85,
+            "frame": 2
+          },
+          {
+            "ms": 151,
+            "frame": 3
+          },
+          {
+            "ms": 201,
+            "frame": 4
+          },
+          {
+            "ms": 535,
+            "frame": 5
+          },
+          {
+            "ms": 634,
+            "frame": 6
+          },
+          {
+            "ms": 734,
+            "frame": 8
+          },
+          {
+            "ms": 818,
+            "frame": 9
+          },
+          {
+            "ms": 851,
+            "frame": 10
+          }
+        ],
+        "final": 10,
+        "playing": false
+      },
+      "unobserved_frames": [
+        0,
+        7
+      ]
+    },
+    {
+      "clip": "burrow_dust_fx",
+      "background": "checker",
+      "info": {
+        "frames": 8,
+        "total": 266.6666666666667,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 33,
+            "frame": 1
+          },
+          {
+            "ms": 116,
+            "frame": 3
+          },
+          {
+            "ms": 183,
+            "frame": 4
+          },
+          {
+            "ms": 266,
+            "frame": 6
+          },
+          {
+            "ms": 383,
+            "frame": 7
+          }
+        ],
+        "final": 7,
+        "playing": false
+      },
+      "unobserved_frames": [
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "clip": "antenna_glow_fx",
+      "background": "checker",
+      "info": {
+        "frames": 6,
+        "total": 200.00000000000003,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 36,
+            "frame": 1
+          },
+          {
+            "ms": 120,
+            "frame": 3
+          },
+          {
+            "ms": 186,
+            "frame": 4
+          },
+          {
+            "ms": 220,
+            "frame": 5
+          }
+        ],
+        "final": 5,
+        "playing": false
+      },
+      "unobserved_frames": [
+        0,
+        2
+      ]
+    },
+    {
+      "clip": "red_laser_fx",
+      "background": "checker",
+      "info": {
+        "frames": 4,
+        "total": 66.66666666666667,
+        "loop": false
+      },
+      "observation": {
+        "trace": [
+          {
+            "ms": 15,
+            "frame": 2
+          },
+          {
+            "ms": 49,
+            "frame": 3
+          }
+        ],
+        "final": 3,
+        "playing": false
+      },
+      "unobserved_frames": [
+        0,
+        1
+      ]
+    }
+  ],
+  "errors": [],
+  "limits": "Observed headless browser playback, not a mobile60FPS benchmark. Missed poses are reported, not inferred."
+}

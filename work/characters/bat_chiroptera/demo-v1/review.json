@@ -1,0 +1,51 @@
+{
+  "status": "static_master_ready_for_owner_review",
+  "visual_review": {
+    "backgrounds": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "scales": [
+      1,
+      2
+    ],
+    "review_images": [
+      "comparison-light.png",
+      "comparison-dark.png",
+      "comparison-checker.png"
+    ],
+    "notes": "Opened all three boards directly. Whole bat faces screen-right, wings raised/open, with large ears, snout, fangs, continuous wing roots and tucked hind feet. Owner identity/style/size review pending."
+  },
+  "technical_checks": {
+    "static_registration": "build_review.py exit0",
+    "measured_body_bbox": [
+      113,
+      119,
+      126,
+      81
+    ],
+    "reference_body_bbox": [
+      98,
+      96,
+      157,
+      107
+    ],
+    "body_alpha_hardness_pct": 100,
+    "protected_runtime_files_unchanged": 1138,
+    "engine_checks": "not_run_static_demo_only"
+  },
+  "motion_quality": "not_applicable_static_demo",
+  "owner_approved": false,
+  "generation": {
+    "route": "host_image/image_gen",
+    "source": "generated-original.png",
+    "extraction": "generated-cleanup.png",
+    "prompts": [
+      "prompt.txt",
+      "cleanup-prompt.txt"
+    ],
+    "model": "not_reported_by_tool"
+  },
+  "tooling_warning": "skills.install: installed skills drifted from their install manifest (2 changed, 0 missing, 0 extra: generate2dsprite/SKILL.md, video2dsprite/SKILL.md)"
+}

@@ -1,0 +1,554 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "art_source": "host_image",
+  "pixel_art": true,
+  "sampling": "nearest",
+  "body_height_px": 81,
+  "anchor_px": [
+    176,
+    200
+  ],
+  "shadow": {
+    "rx": 22,
+    "ry": 5,
+    "opacity": 0.3
+  },
+  "frames": [
+    {
+      "name": "idle_00",
+      "file": "raw_frames/idle_00.png"
+    },
+    {
+      "name": "idle_01",
+      "file": "raw_frames/idle_01.png"
+    },
+    {
+      "name": "idle_02",
+      "file": "raw_frames/idle_02.png"
+    },
+    {
+      "name": "idle_03",
+      "file": "raw_frames/idle_03.png"
+    },
+    {
+      "name": "idle_04",
+      "file": "raw_frames/idle_04.png"
+    },
+    {
+      "name": "idle_05",
+      "file": "raw_frames/idle_05.png"
+    },
+    {
+      "name": "idle_06",
+      "file": "raw_frames/idle_06.png"
+    },
+    {
+      "name": "idle_07",
+      "file": "raw_frames/idle_07.png"
+    },
+    {
+      "name": "walk_00",
+      "file": "raw_frames/walk_00.png"
+    },
+    {
+      "name": "walk_01",
+      "file": "raw_frames/walk_01.png"
+    },
+    {
+      "name": "walk_02",
+      "file": "raw_frames/walk_02.png"
+    },
+    {
+      "name": "walk_03",
+      "file": "raw_frames/walk_03.png"
+    },
+    {
+      "name": "walk_04",
+      "file": "raw_frames/walk_04.png"
+    },
+    {
+      "name": "walk_05",
+      "file": "raw_frames/walk_05.png"
+    },
+    {
+      "name": "walk_06",
+      "file": "raw_frames/walk_06.png"
+    },
+    {
+      "name": "walk_07",
+      "file": "raw_frames/walk_07.png"
+    },
+    {
+      "name": "run_00",
+      "file": "raw_frames/run_00.png"
+    },
+    {
+      "name": "run_01",
+      "file": "raw_frames/run_01.png"
+    },
+    {
+      "name": "run_02",
+      "file": "raw_frames/run_02.png"
+    },
+    {
+      "name": "run_03",
+      "file": "raw_frames/run_03.png"
+    },
+    {
+      "name": "run_04",
+      "file": "raw_frames/run_04.png"
+    },
+    {
+      "name": "run_05",
+      "file": "raw_frames/run_05.png"
+    },
+    {
+      "name": "run_06",
+      "file": "raw_frames/run_06.png"
+    },
+    {
+      "name": "run_07",
+      "file": "raw_frames/run_07.png"
+    },
+    {
+      "name": "attack_light_00",
+      "file": "raw_frames/attack_light_00.png"
+    },
+    {
+      "name": "attack_light_01",
+      "file": "raw_frames/attack_light_01.png"
+    },
+    {
+      "name": "attack_light_02",
+      "file": "raw_frames/attack_light_02.png"
+    },
+    {
+      "name": "attack_light_03",
+      "file": "raw_frames/attack_light_03.png"
+    },
+    {
+      "name": "attack_light_04",
+      "file": "raw_frames/attack_light_04.png"
+    },
+    {
+      "name": "attack_light_05",
+      "file": "raw_frames/attack_light_05.png"
+    },
+    {
+      "name": "attack_light_06",
+      "file": "raw_frames/attack_light_06.png"
+    },
+    {
+      "name": "attack_light_07",
+      "file": "raw_frames/attack_light_07.png"
+    },
+    {
+      "name": "power_up_00",
+      "file": "raw_frames/power_up_00.png"
+    },
+    {
+      "name": "power_up_01",
+      "file": "raw_frames/power_up_01.png"
+    },
+    {
+      "name": "power_up_02",
+      "file": "raw_frames/power_up_02.png"
+    },
+    {
+      "name": "power_up_03",
+      "file": "raw_frames/power_up_03.png"
+    },
+    {
+      "name": "power_up_04",
+      "file": "raw_frames/power_up_04.png"
+    },
+    {
+      "name": "power_up_05",
+      "file": "raw_frames/power_up_05.png"
+    },
+    {
+      "name": "power_up_06",
+      "file": "raw_frames/power_up_06.png"
+    },
+    {
+      "name": "power_up_07",
+      "file": "raw_frames/power_up_07.png"
+    },
+    {
+      "name": "hit_00",
+      "file": "raw_frames/hit_00.png"
+    },
+    {
+      "name": "hit_01",
+      "file": "raw_frames/hit_01.png"
+    },
+    {
+      "name": "hit_02",
+      "file": "raw_frames/hit_02.png"
+    },
+    {
+      "name": "hit_03",
+      "file": "raw_frames/hit_03.png"
+    },
+    {
+      "name": "hit_04",
+      "file": "raw_frames/hit_04.png"
+    },
+    {
+      "name": "hit_05",
+      "file": "raw_frames/hit_05.png"
+    },
+    {
+      "name": "ko_00",
+      "file": "raw_frames/ko_00.png"
+    },
+    {
+      "name": "ko_01",
+      "file": "raw_frames/ko_01.png"
+    },
+    {
+      "name": "ko_02",
+      "file": "raw_frames/ko_02.png"
+    },
+    {
+      "name": "ko_03",
+      "file": "raw_frames/ko_03.png"
+    },
+    {
+      "name": "ko_04",
+      "file": "raw_frames/ko_04.png"
+    },
+    {
+      "name": "ko_05",
+      "file": "raw_frames/ko_05.png"
+    },
+    {
+      "name": "ko_06",
+      "file": "raw_frames/ko_06.png"
+    },
+    {
+      "name": "ko_07",
+      "file": "raw_frames/ko_07.png"
+    },
+    {
+      "name": "sonic_screech_fx_00",
+      "file": "raw_frames/sonic_screech_fx_00.png"
+    },
+    {
+      "name": "sonic_screech_fx_01",
+      "file": "raw_frames/sonic_screech_fx_01.png"
+    },
+    {
+      "name": "sonic_screech_fx_02",
+      "file": "raw_frames/sonic_screech_fx_02.png"
+    },
+    {
+      "name": "sonic_screech_fx_03",
+      "file": "raw_frames/sonic_screech_fx_03.png"
+    },
+    {
+      "name": "sonic_screech_fx_04",
+      "file": "raw_frames/sonic_screech_fx_04.png"
+    },
+    {
+      "name": "sonic_screech_fx_05",
+      "file": "raw_frames/sonic_screech_fx_05.png"
+    },
+    {
+      "name": "sonic_screech_fx_06",
+      "file": "raw_frames/sonic_screech_fx_06.png"
+    }
+  ],
+  "states": {
+    "idle": "idle",
+    "moving": "walk",
+    "running": "run",
+    "attack_light": "attack_light",
+    "power_up": "power_up",
+    "hit": "hit",
+    "ko": "ko"
+  },
+  "clips": {
+    "idle": {
+      "role": "player",
+      "frames": [
+        "idle_00",
+        "idle_01",
+        "idle_02",
+        "idle_03",
+        "idle_04",
+        "idle_05",
+        "idle_06",
+        "idle_07"
+      ],
+      "ticks": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "loop_policy": "cycle"
+    },
+    "walk": {
+      "role": "player",
+      "frames": [
+        "walk_00",
+        "walk_01",
+        "walk_02",
+        "walk_03",
+        "walk_04",
+        "walk_05",
+        "walk_06",
+        "walk_07"
+      ],
+      "ticks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "loop_policy": "cycle",
+      "events": [
+        {
+          "at": 3,
+          "name": "step_r"
+        },
+        {
+          "at": 7,
+          "name": "step_l"
+        }
+      ]
+    },
+    "run": {
+      "role": "player",
+      "frames": [
+        "run_00",
+        "run_01",
+        "run_02",
+        "run_03",
+        "run_04",
+        "run_05",
+        "run_06",
+        "run_07"
+      ],
+      "ticks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "loop_policy": "cycle",
+      "events": [
+        {
+          "at": 3,
+          "name": "step_r"
+        },
+        {
+          "at": 7,
+          "name": "step_l"
+        }
+      ]
+    },
+    "attack_light": {
+      "role": "player",
+      "frames": [
+        "attack_light_00",
+        "attack_light_01",
+        "attack_light_02",
+        "attack_light_03",
+        "attack_light_04",
+        "attack_light_05",
+        "attack_light_06",
+        "attack_light_07"
+      ],
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "hitstop_ticks": 4,
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 1,
+        "strike": 3,
+        "recover": 5,
+        "end": 7
+      },
+      "events": [
+        {
+          "at": 1,
+          "name": "tell"
+        },
+        {
+          "at": 3,
+          "name": "hit"
+        },
+        {
+          "at": 4,
+          "name": "active_end"
+        },
+        {
+          "at": 7,
+          "name": "end"
+        }
+      ]
+    },
+    "power_up": {
+      "role": "player",
+      "frames": [
+        "power_up_00",
+        "power_up_01",
+        "power_up_02",
+        "power_up_03",
+        "power_up_04",
+        "power_up_05",
+        "power_up_06",
+        "power_up_07"
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "hitstop_ticks": 4,
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 1,
+        "strike": 2,
+        "recover": 5,
+        "end": 7
+      },
+      "events": [
+        {
+          "at": 1,
+          "name": "tell"
+        },
+        {
+          "at": 2,
+          "name": "hit",
+          "data": {
+            "projectile": "sonic_screech_fx"
+          }
+        },
+        {
+          "at": 7,
+          "name": "end"
+        }
+      ]
+    },
+    "hit": {
+      "role": "player",
+      "frames": [
+        "hit_00",
+        "hit_01",
+        "hit_02",
+        "hit_03",
+        "hit_04",
+        "hit_05"
+      ],
+      "ticks": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "loop_policy": "oneshot",
+      "events": [
+        {
+          "at": 0,
+          "name": "in"
+        },
+        {
+          "at": 5,
+          "name": "end"
+        }
+      ]
+    },
+    "ko": {
+      "role": "player",
+      "frames": [
+        "ko_00",
+        "ko_01",
+        "ko_02",
+        "ko_03",
+        "ko_04",
+        "ko_05",
+        "ko_06",
+        "ko_07"
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        15
+      ],
+      "loop_policy": "oneshot",
+      "events": [
+        {
+          "at": 0,
+          "name": "in"
+        },
+        {
+          "at": 3,
+          "name": "impact"
+        },
+        {
+          "at": 7,
+          "name": "hold"
+        }
+      ]
+    },
+    "sonic_screech_fx": {
+      "role": "fx",
+      "frames": [
+        "sonic_screech_fx_00",
+        "sonic_screech_fx_01",
+        "sonic_screech_fx_02",
+        "sonic_screech_fx_03",
+        "sonic_screech_fx_04",
+        "sonic_screech_fx_05",
+        "sonic_screech_fx_06"
+      ],
+      "ticks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "loop_policy": "oneshot"
+    }
+  }
+}

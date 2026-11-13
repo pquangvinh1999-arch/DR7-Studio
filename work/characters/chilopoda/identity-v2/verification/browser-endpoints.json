@@ -1,0 +1,806 @@
+{
+  "trace": [
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 0,
+      "tick": 1,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 0,
+      "tick": 2,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 1,
+      "tick": 3,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 1,
+      "tick": 4,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 1,
+      "tick": 5,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 2,
+      "tick": 6,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 2,
+      "tick": 7,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 2,
+      "tick": 8,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 3,
+      "tick": 9,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 3,
+      "tick": 10,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 3,
+      "tick": 11,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 12,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 13,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 14,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 15,
+      "x": 880,
+      "flip": false,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 16,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 17,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 18,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 19,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 20,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 21,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 5,
+      "tick": 22,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 5,
+      "tick": 23,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 5,
+      "tick": 24,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 6,
+      "tick": 25,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 6,
+      "tick": 26,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 6,
+      "tick": 27,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 7,
+      "tick": 28,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 7,
+      "tick": 29,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 8,
+      "tick": 30,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 8,
+      "tick": 31,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 9,
+      "tick": 32,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 9,
+      "tick": 33,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 10,
+      "tick": 34,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "turn",
+      "frame": 10,
+      "tick": 35,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "idle",
+      "frame": 0,
+      "tick": 0,
+      "x": 880,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "walk",
+      "frame": 0,
+      "tick": 1,
+      "x": 878.9333333333333,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "walk",
+      "frame": 0,
+      "tick": 2,
+      "x": 877.8666666666666,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "walk",
+      "frame": 0,
+      "tick": 3,
+      "x": 876.7999999999998,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "right",
+      "clip": "walk",
+      "frame": 0,
+      "tick": 4,
+      "x": 875.7333333333331,
+      "flip": true,
+      "patrolDirection": -1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 0,
+      "tick": 1,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 0,
+      "tick": 2,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 1,
+      "tick": 3,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 1,
+      "tick": 4,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 1,
+      "tick": 5,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 2,
+      "tick": 6,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 2,
+      "tick": 7,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 2,
+      "tick": 8,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 3,
+      "tick": 9,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 3,
+      "tick": 10,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 3,
+      "tick": 11,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 12,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 13,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 14,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 15,
+      "x": 80,
+      "flip": true,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 16,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 17,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 18,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 19,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 20,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 4,
+      "tick": 21,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": false
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 5,
+      "tick": 22,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 5,
+      "tick": 23,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 5,
+      "tick": 24,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 6,
+      "tick": 25,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 6,
+      "tick": 26,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 6,
+      "tick": 27,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 7,
+      "tick": 28,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 7,
+      "tick": 29,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 8,
+      "tick": 30,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 8,
+      "tick": 31,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 9,
+      "tick": 32,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 9,
+      "tick": 33,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 10,
+      "tick": 34,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "turn",
+      "frame": 10,
+      "tick": 35,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "idle",
+      "frame": 0,
+      "tick": 0,
+      "x": 80,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "walk",
+      "frame": 0,
+      "tick": 1,
+      "x": 81.06666666666666,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "walk",
+      "frame": 0,
+      "tick": 2,
+      "x": 82.13333333333333,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "walk",
+      "frame": 0,
+      "tick": 3,
+      "x": 83.19999999999999,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    },
+    {
+      "endpoint": "left",
+      "clip": "walk",
+      "frame": 0,
+      "tick": 4,
+      "x": 84.26666666666665,
+      "flip": false,
+      "patrolDirection": 1,
+      "bodyVisible": true
+    }
+  ],
+  "errors": [],
+  "limits": "Deterministic60Hz calls in real Chromium Canvas/runtime; observed wall-clock playback is recorded separately."
+}

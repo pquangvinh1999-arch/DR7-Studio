@@ -1,0 +1,1982 @@
+[
+  {
+    "clip": "idle",
+    "index": 0,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      -128,
+      -128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      163,
+      608,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 343,
+    "canvas_bbox": [
+      98,
+      165,
+      255,
+      224
+    ],
+    "canonical_whole_pose": true,
+    "body_part_transform": false
+  },
+  {
+    "clip": "idle",
+    "index": 1,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      384,
+      -128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      162,
+      608,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 343,
+    "canvas_bbox": [
+      98,
+      161,
+      254,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "idle",
+    "index": 2,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      896,
+      -128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      158,
+      611,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 343,
+    "canvas_bbox": [
+      98,
+      159,
+      256,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "idle",
+    "index": 3,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      -128,
+      128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      154,
+      613,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 343,
+    "canvas_bbox": [
+      98,
+      158,
+      256,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "idle",
+    "index": 4,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      384,
+      128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      150,
+      614,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 343,
+    "canvas_bbox": [
+      98,
+      157,
+      257,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "idle",
+    "index": 5,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      896,
+      128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      146,
+      614,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 343,
+    "canvas_bbox": [
+      98,
+      155,
+      257,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "idle",
+    "index": 6,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      -128,
+      384,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      147,
+      613,
+      342
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 342,
+    "canvas_bbox": [
+      98,
+      156,
+      256,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "idle",
+    "index": 7,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      384,
+      384,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      152,
+      611,
+      342
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 342,
+    "canvas_bbox": [
+      98,
+      158,
+      256,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "idle",
+    "index": 8,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      896,
+      384,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      156,
+      610,
+      342
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 342,
+    "canvas_bbox": [
+      98,
+      159,
+      255,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "idle",
+    "index": 9,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      -128,
+      640,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      160,
+      607,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 343,
+    "canvas_bbox": [
+      98,
+      160,
+      254,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "idle",
+    "index": 10,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      384,
+      640,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      161,
+      607,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 343,
+    "canvas_bbox": [
+      98,
+      161,
+      254,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "idle",
+    "index": 11,
+    "source_sheet": "generated/idle.png",
+    "source_sha256": "e72ee4aa8234882a292080319c5fd2a5ca0b4e67c17031e92db3b3ac4635cd9d",
+    "source_cell": [
+      896,
+      640,
+      768,
+      512
+    ],
+    "source_bbox": [
+      158,
+      163,
+      606,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 383.0,
+    "source_ground_y": 343,
+    "canvas_bbox": [
+      98,
+      161,
+      254,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 0,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      -128,
+      -128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      146,
+      237,
+      628,
+      317
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 317,
+    "canvas_bbox": [
+      92,
+      196,
+      260,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 1,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      384,
+      -128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      147,
+      234,
+      625,
+      317
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 317,
+    "canvas_bbox": [
+      92,
+      195,
+      259,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 2,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      896,
+      -128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      146,
+      233,
+      625,
+      317
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 317,
+    "canvas_bbox": [
+      92,
+      195,
+      259,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 3,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      -128,
+      128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      146,
+      232,
+      628,
+      318
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 318,
+    "canvas_bbox": [
+      92,
+      194,
+      260,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 4,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      384,
+      128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      146,
+      232,
+      627,
+      318
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 318,
+    "canvas_bbox": [
+      92,
+      194,
+      260,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 5,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      896,
+      128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      146,
+      234,
+      629,
+      317
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 318,
+    "canvas_bbox": [
+      92,
+      195,
+      260,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 6,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      -128,
+      384,
+      768,
+      512
+    ],
+    "source_bbox": [
+      147,
+      236,
+      628,
+      317
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 317,
+    "canvas_bbox": [
+      92,
+      196,
+      260,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 7,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      384,
+      384,
+      768,
+      512
+    ],
+    "source_bbox": [
+      146,
+      239,
+      628,
+      317
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 317,
+    "canvas_bbox": [
+      92,
+      197,
+      260,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 8,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      896,
+      384,
+      768,
+      512
+    ],
+    "source_bbox": [
+      146,
+      241,
+      629,
+      317
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 317,
+    "canvas_bbox": [
+      92,
+      197,
+      260,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 9,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      -128,
+      640,
+      768,
+      512
+    ],
+    "source_bbox": [
+      147,
+      239,
+      628,
+      317
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 317,
+    "canvas_bbox": [
+      92,
+      197,
+      260,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 10,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      384,
+      640,
+      768,
+      512
+    ],
+    "source_bbox": [
+      146,
+      237,
+      628,
+      317
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 317,
+    "canvas_bbox": [
+      92,
+      196,
+      260,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "walk",
+    "index": 11,
+    "source_sheet": "generated/walk.png",
+    "source_sha256": "ec6959d86ca2e5f796917248ec7c9fb4ea39fbc393d6f833a89b2921362b49a1",
+    "source_cell": [
+      896,
+      640,
+      768,
+      512
+    ],
+    "source_bbox": [
+      147,
+      237,
+      625,
+      317
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3488888888888889,
+    "source_root_x": 387.0,
+    "source_ground_y": 317,
+    "canvas_bbox": [
+      92,
+      196,
+      259,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 0,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      -128,
+      -128,
+      640,
+      512
+    ],
+    "source_bbox": [
+      153,
+      178,
+      489,
+      336
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 344,
+    "canvas_bbox": [
+      98,
+      165,
+      255,
+      224
+    ],
+    "canonical_whole_pose": true,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 1,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      256,
+      -128,
+      640,
+      512
+    ],
+    "source_bbox": [
+      147,
+      210,
+      499,
+      336
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 344,
+    "canvas_bbox": [
+      95,
+      161,
+      259,
+      220
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 2,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      640,
+      -128,
+      640,
+      512
+    ],
+    "source_bbox": [
+      146,
+      224,
+      497,
+      336
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 344,
+    "canvas_bbox": [
+      94,
+      168,
+      258,
+      220
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 3,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      1024,
+      -128,
+      640,
+      512
+    ],
+    "source_bbox": [
+      147,
+      231,
+      484,
+      344
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 344,
+    "canvas_bbox": [
+      95,
+      171,
+      252,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 4,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      -128,
+      128,
+      640,
+      512
+    ],
+    "source_bbox": [
+      160,
+      196,
+      462,
+      347
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 374,
+    "canvas_bbox": [
+      101,
+      141,
+      242,
+      211
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 5,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      256,
+      128,
+      640,
+      512
+    ],
+    "source_bbox": [
+      215,
+      148,
+      416,
+      368
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 374,
+    "canvas_bbox": [
+      126,
+      118,
+      220,
+      221
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 6,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      640,
+      128,
+      640,
+      512
+    ],
+    "source_bbox": [
+      222,
+      126,
+      387,
+      374
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 374,
+    "canvas_bbox": [
+      130,
+      108,
+      207,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 7,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      1024,
+      128,
+      640,
+      512
+    ],
+    "source_bbox": [
+      154,
+      193,
+      472,
+      366
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 374,
+    "canvas_bbox": [
+      98,
+      139,
+      247,
+      220
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 8,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      -128,
+      384,
+      640,
+      512
+    ],
+    "source_bbox": [
+      156,
+      169,
+      486,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 344,
+    "canvas_bbox": [
+      99,
+      142,
+      253,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 9,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      256,
+      384,
+      640,
+      512
+    ],
+    "source_bbox": [
+      150,
+      195,
+      492,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 344,
+    "canvas_bbox": [
+      96,
+      154,
+      256,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 10,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      640,
+      384,
+      640,
+      512
+    ],
+    "source_bbox": [
+      146,
+      218,
+      504,
+      343
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 344,
+    "canvas_bbox": [
+      94,
+      165,
+      262,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 11,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      1024,
+      384,
+      640,
+      512
+    ],
+    "source_bbox": [
+      143,
+      242,
+      504,
+      344
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 344,
+    "canvas_bbox": [
+      93,
+      176,
+      262,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 12,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      -128,
+      640,
+      640,
+      512
+    ],
+    "source_bbox": [
+      150,
+      237,
+      493,
+      342
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 342,
+    "canvas_bbox": [
+      96,
+      175,
+      256,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 13,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      256,
+      640,
+      640,
+      512
+    ],
+    "source_bbox": [
+      145,
+      210,
+      481,
+      342
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 342,
+    "canvas_bbox": [
+      94,
+      162,
+      251,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 14,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      640,
+      640,
+      640,
+      512
+    ],
+    "source_bbox": [
+      145,
+      190,
+      481,
+      342
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 342,
+    "canvas_bbox": [
+      94,
+      153,
+      251,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "attack_light",
+    "index": 15,
+    "source_sheet": "generated/attack_light.png",
+    "source_sha256": "ea6d39697a33f5ad522c31637a370322b13fbd0c3ac4cad7dca827b4724a092f",
+    "source_cell": [
+      1024,
+      640,
+      640,
+      512
+    ],
+    "source_bbox": [
+      150,
+      178,
+      486,
+      342
+    ],
+    "ownership_components": 3,
+    "uniform_action_scale": 0.46726190476190477,
+    "source_root_x": 321.0,
+    "source_ground_y": 342,
+    "canvas_bbox": [
+      98,
+      165,
+      255,
+      224
+    ],
+    "canonical_whole_pose": true,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 0,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      -128,
+      -128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      160,
+      148,
+      594,
+      338
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      98,
+      165,
+      255,
+      224
+    ],
+    "canonical_whole_pose": true,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 1,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      384,
+      -128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      161,
+      144,
+      603,
+      338
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      98,
+      154,
+      258,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 2,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      896,
+      -128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      161,
+      145,
+      621,
+      338
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      98,
+      154,
+      264,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 3,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      -128,
+      128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      160,
+      150,
+      625,
+      338
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      98,
+      156,
+      266,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 4,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      384,
+      128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      161,
+      150,
+      626,
+      338
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      98,
+      156,
+      266,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 5,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      896,
+      128,
+      768,
+      512
+    ],
+    "source_bbox": [
+      160,
+      157,
+      624,
+      338
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      97,
+      159,
+      265,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 6,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      -128,
+      384,
+      768,
+      512
+    ],
+    "source_bbox": [
+      160,
+      162,
+      614,
+      338
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      97,
+      160,
+      262,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 7,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      384,
+      384,
+      768,
+      512
+    ],
+    "source_bbox": [
+      161,
+      164,
+      614,
+      337
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      98,
+      161,
+      262,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 8,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      896,
+      384,
+      768,
+      512
+    ],
+    "source_bbox": [
+      160,
+      165,
+      612,
+      337
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      97,
+      161,
+      261,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 9,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      -128,
+      640,
+      768,
+      512
+    ],
+    "source_bbox": [
+      160,
+      160,
+      605,
+      338
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      97,
+      160,
+      258,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 10,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      384,
+      640,
+      768,
+      512
+    ],
+    "source_bbox": [
+      161,
+      154,
+      599,
+      338
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      98,
+      157,
+      256,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "power_up",
+    "index": 11,
+    "source_sheet": "generated/power_up.png",
+    "source_sha256": "eb8fbb9d0421345436319c459299dbd8e794d91568d04842c4588951fa36207c",
+    "source_cell": [
+      896,
+      640,
+      768,
+      512
+    ],
+    "source_bbox": [
+      161,
+      151,
+      597,
+      338
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3617511520737327,
+    "source_root_x": 377.0,
+    "source_ground_y": 338,
+    "canvas_bbox": [
+      98,
+      165,
+      255,
+      224
+    ],
+    "canonical_whole_pose": true,
+    "body_part_transform": false
+  },
+  {
+    "clip": "hit",
+    "index": 0,
+    "source_sheet": "generated/hit.png",
+    "source_sha256": "773e000af3b81af8b15a58cc32cffec6f7a95e23d465b4e79690558fbd4e26c1",
+    "source_cell": [
+      -128,
+      -128,
+      768,
+      768
+    ],
+    "source_bbox": [
+      160,
+      327,
+      617,
+      500
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3435448577680525,
+    "source_root_x": 388.5,
+    "source_ground_y": 500,
+    "canvas_bbox": [
+      97,
+      165,
+      254,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "hit",
+    "index": 1,
+    "source_sheet": "generated/hit.png",
+    "source_sha256": "773e000af3b81af8b15a58cc32cffec6f7a95e23d465b4e79690558fbd4e26c1",
+    "source_cell": [
+      384,
+      -128,
+      768,
+      768
+    ],
+    "source_bbox": [
+      159,
+      252,
+      606,
+      500
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3435448577680525,
+    "source_root_x": 388.5,
+    "source_ground_y": 500,
+    "canvas_bbox": [
+      97,
+      139,
+      250,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "hit",
+    "index": 2,
+    "source_sheet": "generated/hit.png",
+    "source_sha256": "773e000af3b81af8b15a58cc32cffec6f7a95e23d465b4e79690558fbd4e26c1",
+    "source_cell": [
+      896,
+      -128,
+      768,
+      768
+    ],
+    "source_bbox": [
+      153,
+      285,
+      610,
+      500
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3435448577680525,
+    "source_root_x": 388.5,
+    "source_ground_y": 500,
+    "canvas_bbox": [
+      95,
+      150,
+      252,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "hit",
+    "index": 3,
+    "source_sheet": "generated/hit.png",
+    "source_sha256": "773e000af3b81af8b15a58cc32cffec6f7a95e23d465b4e79690558fbd4e26c1",
+    "source_cell": [
+      -128,
+      384,
+      768,
+      768
+    ],
+    "source_bbox": [
+      155,
+      330,
+      625,
+      478
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3435448577680525,
+    "source_root_x": 388.5,
+    "source_ground_y": 478,
+    "canvas_bbox": [
+      96,
+      173,
+      257,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "hit",
+    "index": 4,
+    "source_sheet": "generated/hit.png",
+    "source_sha256": "773e000af3b81af8b15a58cc32cffec6f7a95e23d465b4e79690558fbd4e26c1",
+    "source_cell": [
+      384,
+      384,
+      768,
+      768
+    ],
+    "source_bbox": [
+      154,
+      286,
+      608,
+      478
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.3435448577680525,
+    "source_root_x": 388.5,
+    "source_ground_y": 478,
+    "canvas_bbox": [
+      95,
+      158,
+      251,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "hit",
+    "index": 5,
+    "source_sheet": "generated/hit.png",
+    "source_sha256": "773e000af3b81af8b15a58cc32cffec6f7a95e23d465b4e79690558fbd4e26c1",
+    "source_cell": [
+      896,
+      384,
+      768,
+      768
+    ],
+    "source_bbox": [
+      151,
+      282,
+      614,
+      478
+    ],
+    "ownership_components": 2,
+    "uniform_action_scale": 0.3435448577680525,
+    "source_root_x": 388.5,
+    "source_ground_y": 478,
+    "canvas_bbox": [
+      94,
+      157,
+      253,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "ko",
+    "index": 0,
+    "source_sheet": "generated/ko.png",
+    "source_sha256": "4f7e56c5703f35d583b41ace74538fcf78f70a0bc4933a20955dc69dd20c855b",
+    "source_cell": [
+      -128,
+      -128,
+      640,
+      768
+    ],
+    "source_bbox": [
+      145,
+      334,
+      501,
+      506
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.4410112359550562,
+    "source_root_x": 323.0,
+    "source_ground_y": 506,
+    "canvas_bbox": [
+      98,
+      148,
+      255,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "ko",
+    "index": 1,
+    "source_sheet": "generated/ko.png",
+    "source_sha256": "4f7e56c5703f35d583b41ace74538fcf78f70a0bc4933a20955dc69dd20c855b",
+    "source_cell": [
+      256,
+      -128,
+      640,
+      768
+    ],
+    "source_bbox": [
+      138,
+      357,
+      494,
+      506
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.4410112359550562,
+    "source_root_x": 323.0,
+    "source_ground_y": 506,
+    "canvas_bbox": [
+      94,
+      158,
+      251,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "ko",
+    "index": 2,
+    "source_sheet": "generated/ko.png",
+    "source_sha256": "4f7e56c5703f35d583b41ace74538fcf78f70a0bc4933a20955dc69dd20c855b",
+    "source_cell": [
+      640,
+      -128,
+      640,
+      768
+    ],
+    "source_bbox": [
+      128,
+      396,
+      490,
+      505
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.4410112359550562,
+    "source_root_x": 323.0,
+    "source_ground_y": 506,
+    "canvas_bbox": [
+      90,
+      175,
+      250,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "ko",
+    "index": 3,
+    "source_sheet": "generated/ko.png",
+    "source_sha256": "4f7e56c5703f35d583b41ace74538fcf78f70a0bc4933a20955dc69dd20c855b",
+    "source_cell": [
+      1024,
+      -128,
+      640,
+      768
+    ],
+    "source_bbox": [
+      128,
+      432,
+      502,
+      506
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.4410112359550562,
+    "source_root_x": 323.0,
+    "source_ground_y": 506,
+    "canvas_bbox": [
+      90,
+      191,
+      255,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "ko",
+    "index": 4,
+    "source_sheet": "generated/ko.png",
+    "source_sha256": "4f7e56c5703f35d583b41ace74538fcf78f70a0bc4933a20955dc69dd20c855b",
+    "source_cell": [
+      -128,
+      384,
+      640,
+      768
+    ],
+    "source_bbox": [
+      138,
+      410,
+      508,
+      475
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.4410112359550562,
+    "source_root_x": 323.0,
+    "source_ground_y": 475,
+    "canvas_bbox": [
+      94,
+      195,
+      258,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "ko",
+    "index": 5,
+    "source_sheet": "generated/ko.png",
+    "source_sha256": "4f7e56c5703f35d583b41ace74538fcf78f70a0bc4933a20955dc69dd20c855b",
+    "source_cell": [
+      256,
+      384,
+      640,
+      768
+    ],
+    "source_bbox": [
+      138,
+      419,
+      505,
+      475
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.4410112359550562,
+    "source_root_x": 323.0,
+    "source_ground_y": 475,
+    "canvas_bbox": [
+      94,
+      199,
+      256,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "ko",
+    "index": 6,
+    "source_sheet": "generated/ko.png",
+    "source_sha256": "4f7e56c5703f35d583b41ace74538fcf78f70a0bc4933a20955dc69dd20c855b",
+    "source_cell": [
+      640,
+      384,
+      640,
+      768
+    ],
+    "source_bbox": [
+      136,
+      426,
+      504,
+      475
+    ],
+    "ownership_components": 2,
+    "uniform_action_scale": 0.4410112359550562,
+    "source_root_x": 323.0,
+    "source_ground_y": 475,
+    "canvas_bbox": [
+      94,
+      202,
+      256,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  },
+  {
+    "clip": "ko",
+    "index": 7,
+    "source_sheet": "generated/ko.png",
+    "source_sha256": "4f7e56c5703f35d583b41ace74538fcf78f70a0bc4933a20955dc69dd20c855b",
+    "source_cell": [
+      1024,
+      384,
+      640,
+      768
+    ],
+    "source_bbox": [
+      135,
+      431,
+      501,
+      475
+    ],
+    "ownership_components": 1,
+    "uniform_action_scale": 0.4410112359550562,
+    "source_root_x": 323.0,
+    "source_ground_y": 475,
+    "canvas_bbox": [
+      93,
+      205,
+      255,
+      224
+    ],
+    "canonical_whole_pose": false,
+    "body_part_transform": false
+  }
+]

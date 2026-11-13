@@ -1,0 +1,82 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "attack_light",
+  "frame_size": [
+    384,
+    256
+  ],
+  "output_origin": [
+    176.0,
+    224.0
+  ],
+  "sprite3d_offset": [
+    16.0,
+    96.0
+  ],
+  "reference_subject_height_px": 70.0,
+  "world_height": 0.7000000000000001,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.7000000000000001,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 94,
+  "fps": 10.666666666666666,
+  "frames": [
+    "frames/frame-024.png",
+    "frames/frame-025.png",
+    "frames/frame-026.png",
+    "frames/frame-027.png",
+    "frames/frame-028.png",
+    "frames/frame-029.png",
+    "frames/frame-030.png",
+    "frames/frame-031.png",
+    "frames/frame-032.png",
+    "frames/frame-033.png",
+    "frames/frame-034.png",
+    "frames/frame-035.png",
+    "frames/frame-036.png",
+    "frames/frame-037.png",
+    "frames/frame-038.png",
+    "frames/frame-039.png"
+  ],
+  "frame_sha256": [
+    "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "caecb420c4005ef00a67a03ea19d7c0ebc6f9273dd68769dcc9609c0092ed843",
+    "2b6517027548ecea9b3847420d5e4745177465c5b34e87e98ad983f0204d11bf",
+    "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
+    "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
+    "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
+    "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
+    "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
+    "0fdb02ed9da70639df0cb6677e9484c092c645cc9d6b40619c4a57406ca54afa",
+    "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
+    "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
+    "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
+    "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
+    "2bb735e69eb97753406e2c570436cdbfe39ea759868d806dd5db30810d08e944",
+    "5b3902f97e7f8bddf7614b79b0748acad9779433f051b0f4b7f8af92cce36be6",
+    "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3"
+  ],
+  "durations_ms": [
+    67,
+    66,
+    67,
+    67,
+    66,
+    67,
+    500,
+    67,
+    66,
+    67,
+    50,
+    50,
+    67,
+    66,
+    67,
+    100
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": []
+}

@@ -1,0 +1,117 @@
+{
+  "character_id": "bat_chiroptera",
+  "display_name": "Bat - Chiroptera",
+  "master": "work/characters/bat_chiroptera/approved-master/master.png",
+  "master_sha256": "b8656aaba4eb84dc255f24096d889bcb848fb6cb7af53403476ad10372d7555d",
+  "body_actions": {
+    "idle": 8,
+    "walk": 8,
+    "run": 8,
+    "attack_light": 8,
+    "power_up": 8,
+    "hit": 6,
+    "ko": 8
+  },
+  "ticks": {
+    "idle": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "walk": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "run": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "attack_light": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      5,
+      5,
+      6
+    ],
+    "power_up": [
+      5,
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      6
+    ],
+    "hit": [
+      4,
+      4,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ko": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      15
+    ],
+    "sonic_screech_fx": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "reference": "pteranodon",
+  "reference_motion_sha256": "e03a27793b44e042866ab80643c564615e5a6367091ecb292b348c912384138f",
+  "scope": "Same clips/framecounts/order/ticks/events as Pteranodon; new complete Bat poses, purple sonic FX.",
+  "camera": "Same 3/4 right-facing view as approved Pteranodon",
+  "size": "Rest wingspan126px vs Pteranodon157px (rounded80%)",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176,
+    200
+  ],
+  "source_grid": [
+    4,
+    2
+  ],
+  "art_source": "host_image",
+  "method": "imagegen_complete_body_keyframes",
+  "owner_animation_approved": true,
+  "status": "finalized_owner_approved",
+  "owner_approval_file": "assets/bat_chiroptera/owner_approval.json",
+  "approved_at": "2026-11-13T06:34:45.229155+00:00"
+}

@@ -1,0 +1,509 @@
+{
+  "character_id": "chilopoda",
+  "display_name": "Chilopoda",
+  "master": "work/characters/chilopoda/identity-v2/canonical/master.png",
+  "master_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+  "body_actions": {
+    "idle": 12,
+    "walk": 12,
+    "turn": 11,
+    "attack_light": 16,
+    "power_up": 11,
+    "hit": 6,
+    "ko": 8
+  },
+  "ticks": {
+    "idle": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "walk": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "turn": [
+      3,
+      3,
+      3,
+      3,
+      10,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2
+    ],
+    "attack_light": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      30,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      6
+    ],
+    "power_up": [
+      8,
+      4,
+      4,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      6
+    ],
+    "hit": [
+      4,
+      4,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ko": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      15
+    ],
+    "burrow_dust_fx": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "antenna_glow_fx": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "red_laser_fx": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "grids": {
+    "idle": [
+      3,
+      4
+    ],
+    "walk": [
+      3,
+      4
+    ],
+    "turn": [
+      4,
+      2
+    ],
+    "attack_light": [
+      4,
+      4
+    ],
+    "power_up": [
+      3,
+      4
+    ],
+    "hit": [
+      3,
+      2
+    ],
+    "ko": [
+      4,
+      2
+    ],
+    "burrow_dust_fx": [
+      4,
+      2
+    ],
+    "antenna_glow_fx": [
+      3,
+      2
+    ],
+    "red_laser_fx": [
+      4,
+      1
+    ]
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "turn",
+      "attack_light",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "burrow_dust_fx",
+      "antenna_glow_fx",
+      "red_laser_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "patrol": {
+        "enabled": true,
+        "speed_px_per_second": 32,
+        "default_bounds_px": [
+          80,
+          880
+        ],
+        "on_endpoint": "burrow_turn_then_reverse_walk"
+      }
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "projectile": null,
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 36,
+      "method": "burrow_reorient_while_hidden",
+      "mirror_sequence_for_reverse": false,
+      "facing_commit_tick": 16,
+      "owner_instruction": "Owner: Chilopoda chui xuống đất đổi hướng rồi trồi lên hướng đầu ngược lại, thay xoay vòng."
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "chilopoda": {
+      "ground_y": 224,
+      "anchor_px": [
+        176,
+        224
+      ],
+      "target_ground_canvas_px": [
+        304,
+        224
+      ],
+      "target_hit_height_px": 24,
+      "burrow": {
+        "body_clip": "attack_light",
+        "dive_start_tick": 4,
+        "hidden_start_tick": 24,
+        "emerge_start_tick": 54,
+        "emerge_end_tick": 66,
+        "bite_tick": 69,
+        "complete_tick": 90,
+        "hidden_ticks": 30,
+        "maximum_depth_px": 128,
+        "bite_offset_x_px": 48,
+        "entry_fx_start_tick": 8,
+        "exit_fx_start_tick": 54,
+        "dust_lifetime_ticks": 16,
+        "dust_clip": "burrow_dust_fx",
+        "after_bite": "remain_at_target_then_idle",
+        "top_y_by_frame": [
+          154,
+          150,
+          161,
+          179,
+          157,
+          111,
+          114,
+          138,
+          149,
+          148,
+          159,
+          150,
+          149,
+          147,
+          146,
+          154
+        ],
+        "frame_ticks": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          30,
+          4,
+          4,
+          4,
+          3,
+          3,
+          4,
+          4,
+          4,
+          6
+        ]
+      },
+      "laser": {
+        "body_clip": "power_up",
+        "release_tick": 16,
+        "glow_end_tick": 24,
+        "glow_clip": "antenna_glow_fx",
+        "projectile_clip": "red_laser_fx",
+        "speed_px_per_tick": 24,
+        "two_independent_origins": true,
+        "target_radius_px": 2,
+        "tip_anchors_by_frame": [
+          [
+            [
+              257,
+              160
+            ],
+            [
+              257,
+              170
+            ]
+          ],
+          [
+            [
+              263,
+              157
+            ],
+            [
+              263,
+              164
+            ]
+          ],
+          [
+            [
+              263,
+              160
+            ],
+            [
+              265,
+              167
+            ]
+          ],
+          [
+            [
+              265,
+              173
+            ],
+            [
+              261,
+              180
+            ]
+          ],
+          [
+            [
+              264,
+              184
+            ],
+            [
+              260,
+              196
+            ]
+          ],
+          [
+            [
+              261,
+              188
+            ],
+            [
+              255,
+              199
+            ]
+          ],
+          [
+            [
+              261,
+              178
+            ],
+            [
+              257,
+              189
+            ]
+          ],
+          [
+            [
+              260,
+              172
+            ],
+            [
+              258,
+              181
+            ]
+          ],
+          [
+            [
+              257,
+              168
+            ],
+            [
+              256,
+              177
+            ]
+          ],
+          [
+            [
+              255,
+              164
+            ],
+            [
+              255,
+              175
+            ]
+          ],
+          [
+            [
+              257,
+              160
+            ],
+            [
+              257,
+              170
+            ]
+          ]
+        ],
+        "on_hit": "hide_projectile",
+        "one_shot": true,
+        "release_frame": 3
+      },
+      "burrow_turn": {
+        "body_clip": "turn",
+        "dive_start_tick": 3,
+        "hidden_start_tick": 16,
+        "emerge_start_tick": 22,
+        "emerge_end_tick": 34,
+        "hidden_ticks": 6,
+        "complete_tick": 36,
+        "relocate": false,
+        "entry_fx_start_tick": 3,
+        "exit_fx_start_tick": 22,
+        "dust_lifetime_ticks": 16,
+        "dust_clip": "burrow_dust_fx",
+        "frame_ticks": [
+          3,
+          3,
+          3,
+          3,
+          10,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "after_turn": "resume_walk_in_opposite_direction",
+        "facing_change": "only_while_body_fully_hidden",
+        "top_y_by_frame": [
+          198,
+          179,
+          157,
+          111,
+          114,
+          138,
+          148,
+          159,
+          150,
+          149,
+          198
+        ]
+      }
+    }
+  },
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176,
+    224
+  ],
+  "master_size_px": [
+    160,
+    70
+  ],
+  "scope": "Same bodyclip count as Bat; remove run, add turn. Separate soil/glow/two redprojectileFX as needed. No changes to approved peers.",
+  "art_source": "host_image",
+  "method": "imagegen_complete_body_keyframes",
+  "owner_answers": {
+    "post_bite": "Ở lại vị trí mục tiêu rồi idle",
+    "endpoint": "Xoay rồi tự bò ngược lại",
+    "laser": "Hai tia riêng từ từng râu",
+    "turn_method": "Chui xuống đất, đổi hướng khi ẩn, trồi lên hướng đầu ngược lại"
+  },
+  "timing_note": "Authored candidate timing except Owner-fixed30tick hidden interval; subject to motion review.",
+  "owner_animation_approved": true,
+  "identity_revision": {
+    "source": "previous power_up frame1, exactPNG",
+    "owner_instruction": "Frame1 power_up đẹp và nét hơn; dùng làm hình dạng chuẩn đồng bộ toàn bộ hoạt ảnh Chilopoda.",
+    "canonical_approval": "work/characters/chilopoda/identity-v2/canonical/approval.json",
+    "power_mapping": "new0..9=old1..10;new10=canonicalold1. Old0+old1 hold merged8ticks;42ticks total/release16 unchanged.",
+    "new_body_sources": [
+      "idle",
+      "walk",
+      "attack_light",
+      "hit",
+      "ko"
+    ],
+    "turn_reuses": "New whole walk0 and whole attack poses, facing changes only when hidden",
+    "fx_pixels_unchanged": true
+  },
+  "status": "finalized_owner_approved",
+  "owner_approval_file": "assets/chilopoda/owner_approval.json",
+  "approved_at": "2026-11-13T08:22:39.853349+00:00"
+}

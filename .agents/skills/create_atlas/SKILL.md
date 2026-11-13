@@ -31,6 +31,7 @@ Giữ `create_atlas` làm điểm vào ưu tiên khi Owner yêu cầu xây dựn
 - Ki dạng sheet phải review nối vòng cuối→đầu; có thể sinh thêm frame nối khi Owner cho phép, ghi rõ frame mới so với frame nguồn. Không chỉ đảo thứ tự hai hình rồi nhận đã chứng minh loop mượt.
 
 ### Trạng thái bất lợi và clip đổi hướng
+- **Turn mặc định bắt buộc (Owner 2026-11-13)**: atlas nhân vật mới phải có turn phối cảnh thật, trừ ngoại lệ Owner đã ghi rõ (King Crab đi ngang không cần turn). Xem [contract/score turn](../../../docs/art-standards/turn-contract.md). Tham khảo chuyển động Spinosaurus nhưng mọi pose dùng master riêng; giữ nhận diện, tỷ lệ và chi tiết bất đối xứng. Nối walk→turn→walk khi đến hai đầu đường/giới hạn; kiểm độc lập trái→phải và phải→trái trong Godot và localhost. Mirror chỉ được dùng nếu cả hai chuỗi chuyển tiếp/phối cảnh/che khuất đều đã kiểm chứng; không dùng flip_h, xoay hoặc thu ngang một ảnh thay pose. Giữ nguyên frame/tick đã duyệt ngoài turn. Làm từng nhân vật, sửa→loop.sh test→Human Test xong mới sang tiếp; checklist100điểm có hard gate, không gọi đó là phần trăm giống ảnh do AI tự đoán. Hàng đợi sửa nhân vật cũ ở docs/turn-retrofit-todo.md chỉ bắt đầu sau khi Owner chốt Chilopoda.
 - Choáng/khống chế là trạng thái gameplay kết hợp VFX độc lập; không sinh clip thân `stun`/choáng/khống chế riêng để thêm vào atlas. Mẫu choáng theo Owner: giữ pose `hit` phù hợp và dừng đồng hồ thân, VFX trên đầu có đồng hồ riêng và theo anchor đầu/hướng nhìn; hết trạng thái thì gỡ VFX và thoát giữ pose. Dữ liệu duration/priority thuộc state machine, không suy từ độ dài clip.
 - `turn` trong dự án là hoạt ảnh quay người đổi hướng trái/phải, không đồng nghĩa `stun`. Xác minh nơi dùng trước khi sửa/xóa; nếu Owner chỉ yêu cầu bỏ hoạt ảnh khống chế thì báo đúng chức năng `turn`, không tự gỡ chuyển tiếp đổi hướng.
 - Với sinh vật có mang/bờm cổ, yêu cầu rung/uốn lượn mang không cho phép đầu to/nhỏ nhanh theo nhịp. Giữ đầu, hàm, cổ và thân ổn định về tỷ lệ; sinh whole-body keyframes để thể hiện mang uốn sóng liên tục, không co giãn toàn bộ đầu/nhân vật hoặc ghép đầu cố định vào các mảnh thân.
@@ -97,6 +98,8 @@ Trước khi tạo chuyển động, lập bảng: `clip ID | chức năng | cơ
 
 ## 5. Thực hiện và kiểm chứng khi Owner yêu cầu tạo atlas
 
+**Giới hạn sửa lỗi Owner chốt2026-11-13**: tối đa5vòng phân tích→sửa→./loop.sh test cho mỗi vấn đề. Lưu issue/lần thử/log/exit và lỗi còn lại; vòng5 còn FAIL thì dừng phần đó, báo Owner kèm bằng chứng/cách đã thử, không chạy vòng6 hoặc bàn giao bản lỗi. Mọi hướng dẫn "lặp đến đạt" trong skill chịu giới hạn này. Chilopoda có turn riêng do Owner chốt: chui đất→ẩn hoàn toàn→đổi hướng khi ẩn→trồi lên chiều ngược; vẫn phải kiểm hai chiều/endpoint và giữ nhận diện, không nhận là pose xoay phối cảnh trên mặt đất.
+
 1. Chốt hồ sơ và bảng clip đủ rõ cho phần được tạo. Dùng ảnh Owner làm nguồn nhận diện; nếu cần master mới, duyệt một master theo hướng dẫn công cụ, không thay nhân vật bằng mẫu chung.
 2. Đọc [generate2dsprite](../generate2dsprite/SKILL.md) khi sinh master/đóng gói; đọc [video2dsprite](../video2dsprite/SKILL.md) khi tạo chuyển động từ master. Xác minh API/CLI thực có trước khi gọi. Skill này quyết định yêu cầu; tooling thực hiện và QA, không tự mở rộng bộ chiêu.
 3. Rà nhận diện trên mọi frame: số chi, tỷ lệ, mặt, palette, trang bị; kiểm tra tiếp đất, hướng lực, điểm phát FX, nối loop, pha hồi thế. Đo và ghi bằng chứng khi báo lỗi, không nhận chất lượng đã đạt chỉ từ prompt.
@@ -112,7 +115,7 @@ Bản chuẩn là `.agents/skills/create_atlas/SKILL.md`; `.agent` là symlink t
 ### Chu kỳ walk/run theo Owner (2026-11-12)
 - Thiết kế một vòng tiến pha đầy đủ 0..N−1 rồi về0; không ping-pong hay đảo7..1 để vá loop. Không trùng pose đầu/cuối; lấy mẫu pha trong [0,360°). Review cả cuối→đầu, hai chân đổi vai trò trụ/vung, không chỉ xem pixel/hash khác nhau. Gần trùng pose hoặc lò cò = motion FAIL, phải sửa nguyên pose nguồn.
 - Run: walk chỉ làm tham khảo concept/giải phẫu, không copy frame và tăng playback để làmrun. Theo Owner làm rõ2026-11-12, sinh pose chạy toàn thân riêng (sải/chúi thân/đẩy chân/thu chân/tiếp đất), kiểm vòng0..N−1→0 riêng. Quy định dùng chung frame/duration0.5 trước đây bị thay thế; không dùng làm mặc định nữa.
-- Turn chỉ có khi thực sự nối đổi hướng trong runtime; nêu nơi dùng và timing, không sửa đòn xoay đã đạt chỉ vì thêm turn.
+- Turn bắt buộc theo contract trên; khai báo tick và nối thực tế vào runtime hai chiều. Không sửa đòn xoay đã đạt chỉ vì thêm turn.
 
 ### Gate chạm đất trong chu kỳ chạy (Owner 2026-11-12)
 - Review từng chân qua chuỗi tiến về trước → chạm đất nhận trọng lượng → đẩy/rút về sau, kể cả frame cuối→đầu. Không cho chân đổi từ trước sang sau chỉ vì mọi frame cóhashkhác. Pha bay không thay thế pose touchdown.

@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="DR7-Studio DragonBall 2D"
-config/version="0.9.1"
+config/version="0.11.1"
 config/features=PackedStringArray("4.7", "Forward Plus")
 
 [rendering]

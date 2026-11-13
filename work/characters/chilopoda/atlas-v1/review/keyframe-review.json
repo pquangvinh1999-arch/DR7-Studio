@@ -1,0 +1,22 @@
+{
+  "status": "reviewed_pending_owner",
+  "method": "imagegen_complete_body_keyframes",
+  "atlas_sha256": "c7361548fbd2b570f8bd67c6ef2d9f4935bf63f05165a5c7bb5fb517770f2445",
+  "checks": {
+    "body_connections": true,
+    "whole_pose_sequence": true,
+    "perspective_turns": false,
+    "phase_timing": true,
+    "three_backgrounds": true,
+    "character_identity": true,
+    "burrow_turn_bidirectional": true
+  },
+  "owner_approved": false,
+  "naturalness_verdict": "pending_owner_human_test",
+  "unresolved_structural_failures": [],
+  "review_evidence": "work/characters/chilopoda/atlas-v1/verification/burrow-raster-contract.json",
+  "notes": "Reviewed raw turn plus both actual runtime composite turn strips on light/dark/checker. Body pixels fully absent16..21, facing switches at16, emergence22, no relocation, flat walk seams. Nonturn pixels/ticks unchanged. Runtime raster also proves attack invisible exactly30ticks24..53, twin distinct red antenna bolts. Live playback and technical logs recorded separately.",
+  "not_applicable_checks": {
+    "perspective_turns": "Owner explicitly replaced surface rotation with burrow/reorient/emerge; no perspective rotation claimed."
+  }
+}

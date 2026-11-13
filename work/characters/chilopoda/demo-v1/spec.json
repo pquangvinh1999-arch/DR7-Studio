@@ -1,0 +1,22 @@
+{
+  "character_id": "chilopoda",
+  "display_name": "Chilopoda",
+  "phase": "static_master_demo",
+  "owner_request": "ok tiếp theo demo nhân vật Chilopoda giúp anh, kích thước bằng với cá sấu và trạng thái tĩnh sẽ nữa thân dưới nằm song song mặt đất nữa thân còn lại uốn cong đần tạo thầy đường cong ( móc) sẵn sàng tấn công.",
+  "size_reference": "assets/sarcosuchus/clips/frames/frame-00.png",
+  "target_width_px": 157,
+  "size_rule": "Same gameplay horizontal silhouette width as Sarcosuchus; keep centipede own anatomy/aspect ratio.",
+  "pose": "Posterior half horizontal at ground; anterior half gradually rises and curls into forward hook, ready to attack.",
+  "camera": "Proposed same3/4side,right-facing as Sarcosuchus, consistent with character roster; static review only.",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176,
+    224
+  ],
+  "art_source": "host_image",
+  "route": "image_gen",
+  "owner_approved": false
+}

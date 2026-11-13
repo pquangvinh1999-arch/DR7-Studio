@@ -1,0 +1,23 @@
+{
+  "file": "/workspaces/DR7-Studio/work/characters/chilopoda/atlas-v1/stage/clips/frames/frame-00.png",
+  "file_sha256": "7e2a248a09f0f897368d5eac619a5a3bea30d9367abf98bfdea6bafa0162e64a",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "body_bbox_px": [
+    98,
+    165,
+    157,
+    59
+  ],
+  "visible_pixels": 2081,
+  "rgb_colors": 2015,
+  "edge_acutance_sobel": 172.881,
+  "alpha_hardness_pct": 100.0,
+  "visible_alpha_hardness_pct": 100.0,
+  "minimum_horizontal_constant_rgba_run_px": 1,
+  "single_pixel_run_fraction": 0.9995192307692308,
+  "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+  "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+}

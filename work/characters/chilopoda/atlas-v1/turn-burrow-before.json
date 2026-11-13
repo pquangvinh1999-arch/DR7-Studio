@@ -1,0 +1,224 @@
+{
+  "idle": {
+    "ticks": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "hashes": [
+      "7e2a248a09f0f897368d5eac619a5a3bea30d9367abf98bfdea6bafa0162e64a",
+      "7fcff4b79a6b7b1bd62c28998b603eb6da568fdd994e0b59c512535caa890e87",
+      "e38ef9683a6f3d8cd3231e1035c72437bc38357de49cb68265f96c9112f74732",
+      "8a9f435508435a833d0db71882453919bf640810a7f579ea7edb23a4f5f47bee",
+      "800dd10de89b698cccfa6a5205a97d99ad7cc77b59cbeb5fd1517ee44a29d2ab",
+      "eefaa59f972de17f681b7477bac7e592a0d166d8ed79ad2755239090cefbc883",
+      "6f9a3b07f72a2204d9df92c95bd0f5886e2047a74fb6d8d967e3a2908ae2628a",
+      "86023f94bdb96bcbc41f8ef6cf696ad37d2f2179cd8bce3df85d81ca1a62b6ce",
+      "f3a25af87e0376848ae5a17a6aa7b6e9426e5e88693c9c4e928e8f98149b6422",
+      "f6f38216f635a63c5247a6c49486c40f3d63e0ed3c0aa8cabe7ae78f95ba1ae9",
+      "544a8af00589e8cadd830188cdec200e814908a745a16739f32dcc9dab31c20e",
+      "84f8db8ced2676049534769e1390b6c5119c494b4e4241177310f36274bdfc98"
+    ]
+  },
+  "walk": {
+    "ticks": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "hashes": [
+      "7c88dabe3740573557f9297160905abd14d62eb070c8d9d21931f8e81c911a11",
+      "b956bd0782f0612df774ff2c91abb5beb382af97a6379ed5c61f40d7d9f47e9f",
+      "7f545bde8c2a43e67bed65299be981cbd23bbf841a80c2f847af93c59a949f0a",
+      "e67dfb762335ad6a04b14b1c8abec26f23fe662675aacc912fe9bd9ae7c79cef",
+      "61bdd2ccf4d098761e321b0eb38fae32cd8ff08f4702711793aa97c5b83a36bd",
+      "4d26b10eab01ebb3fd0fc2f7788a37f89a6959ada9f1616c0926e5308b15b4fd",
+      "fb04788ee1c4c9f4cb3426c0bc1db54db8ae5037358df2a1d421d6f4cfb47085",
+      "323d86847749042731e363f67889129158a7f654e343c881bff79f71e740c48f",
+      "a55c78aac2e5d49ace3e4a4394623ae41820786bdf917f73dc2d71ef9c190b44",
+      "4bc0ad5c68b0cac11bb90bf4ea2a997e15573c5006b80cde810da38c7941bcbb",
+      "8d18e356df2a2b4b135380d18fe2d97dabcd59f999e48a7223c67aa65f670be3",
+      "ef64f71a3e3393480162af1382c90c83feebc12a8bc00f00a920fa1444659e7b"
+    ]
+  },
+  "attack_light": {
+    "ticks": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      30,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      6
+    ],
+    "hashes": [
+      "7e2a248a09f0f897368d5eac619a5a3bea30d9367abf98bfdea6bafa0162e64a",
+      "b0aa17c9d780a79f52f51ab923253082f5f56353cb111c30041b45ad879320bb",
+      "157b3a3ea6055e306c982f6f1ab709dbad73b55dd663869ff79d352f97f7ee9b",
+      "146f622ade1251a94ad81c5b8e5636f07d6d710bcdee430fa19029c8cb0f2f55",
+      "71693a46cb9c55bc0b529607e06cbf3d5d77fb1ee3b2f4bf84e05758eafb8918",
+      "3c97bf1dbae7ee57fd41c1ab7d5f31e2ee1865f93c3f4cef2db1fdacf768744b",
+      "853ffb57760c181f31ec0e381fadaf132e49f25bb165d93fe70cd68c2f45730c",
+      "13e8194a05ca20b8340477a861eb8f3227877c231ec810166723dba9639722fe",
+      "32d404d69263e868e6928deab3248f0a272e91f4a45493666a6382b2a1b67ae7",
+      "e833353f8fbe3371f788a64ae187f0061a5a2cbdcb57730cde3ef13db6cd1540",
+      "db566e3ed8356cc1bb57deff345bb3dee4a5a1771a0ec197ae3b94860a28967e",
+      "5076f065d0931f35c0c5562fe900dbe7b28246bc92e5f8841a75bf74e5e751a2",
+      "3f8d9ab2e85fa00a1f1f7ba9520e04731b246a20a81a9cb021139595fda2071b",
+      "9549f2df7d6166c13247b932cf279e341364e237625a9fdc8c077df6cc6cbf68",
+      "d15dab559bae2ee51c4266b0b67b91ad057104b0a303dd1864635398a342e0b7",
+      "7e2a248a09f0f897368d5eac619a5a3bea30d9367abf98bfdea6bafa0162e64a"
+    ]
+  },
+  "power_up": {
+    "ticks": [
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      6
+    ],
+    "hashes": [
+      "7e2a248a09f0f897368d5eac619a5a3bea30d9367abf98bfdea6bafa0162e64a",
+      "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+      "dfb29e4accea232ee38f4865b14a81aefc60adaf858b147e751f44fed6492a68",
+      "4776ed37dfdeaefcee450ffc9d968d813658eba5fc1a6bbbaa29bc44be1b0f02",
+      "45917b9e11852da0e034f137d0cce18b614fbda848f861ddb94897446affa2f2",
+      "12f33db012435c8fc61dbb499f8922206ab475a1116071eb45bc569b163e8d31",
+      "140f7be452ea3fe6a7c5850499553997c857aaa679a32be281f7c4da9171988a",
+      "59828d93288ba21b23d623f7c2d6d44ec4785d789d2d129fea4aa6284650fbe0",
+      "7e9d803dcc22a63e08607cd0c92c1348054fb62be6e137ef627267902d60526d",
+      "3af065d2d60acbe1b0ddcbf0bac1458564b66f74c9235921625a1bc15ec2218f",
+      "6fae9474e2eb34d403acc743204d6cdfc8d2225be12a299030e14312ad1ffd54",
+      "7e2a248a09f0f897368d5eac619a5a3bea30d9367abf98bfdea6bafa0162e64a"
+    ]
+  },
+  "hit": {
+    "ticks": [
+      4,
+      4,
+      5,
+      5,
+      5,
+      5
+    ],
+    "hashes": [
+      "710b901de06c924d76093ad335ac08bd9c98e9674749a6b205ff5f8332025f05",
+      "5be8244fbb15f76eff3342a41b04767945e5e603106f967475de688076064faa",
+      "b9e3967e4605110532766fe333097d0621407b769a0f785f72cee5e3304be957",
+      "bda83444a220a54af020506a832676cfb066f1105c6bf4f081ae2d4ace483d79",
+      "e8c9b2b00a3b7d3872e0fd6b120bcd1ac8374cf0bb89c3a246e458d8a2e63aac",
+      "43f7373298d23c28b9e0b5bec7dfd5f71fadb9351a3fa2fd5216ad1206667700"
+    ]
+  },
+  "ko": {
+    "ticks": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      15
+    ],
+    "hashes": [
+      "4c6d6ac5aa2fc1356702649122145a9f94178ade386502133c9ab1cd40e8aa73",
+      "3c66c3d2df0ca6d3c5bac5feff3ae86b55854cf7523e45b096c7f33d5c6fbd13",
+      "3c0210c41260b7f42124a117470fc487abc1c2b4a32ff76c1c03fc603a6b009d",
+      "ac65d3f640873603696acfff4176facd793d8e82b21f0f0289f8681c922ff4ad",
+      "150301f7cd0f2f5e4e20259b8acaeb032f0a5ee2469697a00d159b7e5faa7dfa",
+      "06240ae93733db6d8ab731ddafcda4c539b1772bfcc9f181d6d71712394c5bb9",
+      "1b4cdd5eb7b2b4c0668b41a7ad687ccdc8f0652ece30e0a861b8a8d4738d8173",
+      "3c6132a0463b24910f410f1071dde57e9473a4b2b1c392318d72e5abdf5d3c90"
+    ]
+  },
+  "burrow_dust_fx": {
+    "ticks": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "hashes": [
+      "aa41b4158a9be7fe3eae725d31574b431178cdd403176c74c988e802ef28eaab",
+      "46fa835123167e74e6597ee08e4f4a4241e33652743aee056759910d4164dd47",
+      "f2af95345d2d8e26804b27a680b921631582874ab6fdb190bf4969a740fd59bd",
+      "8c650dacd80af463a12fc1706632096e5f2479aaa2999c2f145a6e82aba63189",
+      "132d606abc877affdb1987227ec2303dfe12428bc60a4361f964480ecc96dc67",
+      "d904fbe5bcfc8582fe80aa0e6906b3b5ed2817d1f6039364c18873cdfee1ba05",
+      "95077c5c65b28d0a997e6c88caa12d289c94c6fb0b8df94cc42cefcb09769a6b",
+      "f1d6c8331400f3f6d4ca1115fd68698ce627fb491a999f3a7c1ec096e800f712"
+    ]
+  },
+  "antenna_glow_fx": {
+    "ticks": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "hashes": [
+      "1c927d381b52eb2a38ce3111ac539b82dc0209175172b1a9f6f9ae651b0190ad",
+      "2e1c822cf5ed006064c2f497350bb959807d8279962d805f225cd75ca7a35d37",
+      "3e7e8dd77a2eb7ff7694aee80e98f2ceaa36b207e37bcf5c6b7b9e6ec913c650",
+      "6cd3f34464ee351da027bb9cd443535293e83cdbf8fb1e414b6181be87ac41c7",
+      "98d985442706a31c557b3bf36ef791d14f5d99cead59195b8042c0f1b0d4f296",
+      "98297c6cb19f362068f0562590395e93079724241f07af34a47c2b5dfebeaf7d"
+    ]
+  },
+  "red_laser_fx": {
+    "ticks": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "hashes": [
+      "c64b3b2f22f73c562ea4fee1c8924e3910e543e4934f8341fce143e50f1da07a",
+      "e490387efdeacfa85e64aca8efaf17be42e67c43c5d8bdde1804cd61d5092ae8",
+      "f84a625dfd22521882939fc682c5b8a8bc9b14a9909bcd2d62d052bfc33290d7",
+      "e8b74f2193ed15aea18da3f1c20c5704aed9436c60fa4a09e27402f15ba3c521"
+    ]
+  }
+}

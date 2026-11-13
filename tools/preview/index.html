@@ -858,6 +858,7 @@
       if (!ch) return;
       state.activeChar = ch;
       arena.actionClip=null; arena.turnTargetFlip=null; arena.clip='idle'; arena.step=0; arena.elapsed=0;
+      arena.chiloPatrol=false;arena.chiloPatrolDir=1;arena.chiloInputDir=0;arena.chiloAction=null;
       state.archMode = 'combined_1layer';
       const independent = getCharBundle(ch)?.render_contract;
       const hasAura = Boolean(independent?.aura?.loop_clip && getCharBundle(ch)?.animations[independent.aura.loop_clip]);
@@ -867,6 +868,7 @@
       document.getElementById('attachmentRuntimeNote').textContent=independent ? 'Thân và FX độc lập • chung một atlas • có thêm quad khi bật FX. Tab Stress hiện vẽ riêng sprite thân.' : '';
       document.getElementById('btnJump').disabled=!getCharBundle(ch)?.animations.jump;
       document.getElementById('arenaControlHint').textContent=independent ? (independent.locomotion?.kind==='flight' ? 'A/D: bay ngang • E: bật/tắt Ki • nút kỹ năng bên phải' : (hasAura ? 'A/D: di chuyển • E: bật/tắt Ki • nút kỹ năng bên phải' : (getCharBundle(ch)?.animations.run ? 'A/D: đi bộ • Shift: chạy • nút kỹ năng bên phải' : 'A/D: đi bộ • nút kỹ năng bên phải'))) : 'A/D: đi bộ • Shift: chạy • W/Space: nhảy';
+      if(independent?.chilopoda)document.getElementById('arenaControlHint').textContent='A/D: bắt đầu bò • đến cuối đường tự quay đầu đi lại • dùng kỹ năng để dừng bò';
 
       const [cw, chPx] = getCanvasSize(ch);
       ensureOffscreenSize(cw, chPx);
@@ -1219,6 +1221,50 @@
       }
       return anim.frames[anim.frames.length-1];
     }
+    function chilopodaActionState(contract, clip, tick, targetGround) {
+      const c=contract.chilopoda,a=c.anchor_px,target=targetGround||c.target_ground_canvas_px;
+      const result={bodyVisible:true,bodyDx:0,bodyDy:0,groundY:c.ground_y,dust:[],lasers:[],glows:[]};
+      const q=c.burrow_turn&&clip===c.burrow_turn.body_clip?c.burrow_turn:c.burrow;
+      if(clip===q.body_clip) {
+        let pose=0,left=tick;while(pose<q.frame_ticks.length-1&&left>=q.frame_ticks[pose])left-=q.frame_ticks[pose++];
+        const visibleDepth=Math.max(0,c.ground_y-q.top_y_by_frame[pose]-1);
+        const smooth=v=>{const t=Math.max(0,Math.min(1,v));return t*t*(3-2*t)};
+        if(tick>=q.dive_start_tick&&tick<q.hidden_start_tick)result.bodyDy=visibleDepth*smooth((tick-q.dive_start_tick)/(q.hidden_start_tick-q.dive_start_tick));
+        result.bodyVisible=!(tick>=q.hidden_start_tick&&tick<q.emerge_start_tick);
+        if(tick>=q.emerge_start_tick){result.bodyDx=q.relocate===false?0:target[0]-q.bite_offset_x_px-a[0];result.bodyDy=visibleDepth*(1-smooth((tick-q.emerge_start_tick)/(q.emerge_end_tick-q.emerge_start_tick)))}
+        const entryPoint=q.relocate===false?[a[0],c.ground_y]:[a[0]+q.bite_offset_x_px,c.ground_y],exitPoint=q.relocate===false?entryPoint:target;
+        for(const [start,point]of [[q.entry_fx_start_tick,entryPoint],[q.exit_fx_start_tick,exitPoint]])if(tick>=start&&tick<start+q.dust_lifetime_ticks)result.dust.push({tick:tick-start,point});
+      }
+      const l=c.laser;
+      if(clip===l.body_clip&&tick>=l.release_tick) {
+        const releaseIndex=l.release_frame;
+        const targetHit=[target[0],target[1]-c.target_hit_height_px];
+        for(const [index,origin]of l.tip_anchors_by_frame[releaseIndex].entries()) {
+          const dx=targetHit[0]-origin[0],dy=targetHit[1]-origin[1],distance=Math.hypot(dx,dy),elapsed=tick-l.release_tick;
+          const hitTick=l.release_tick+Math.max(0,(distance-l.target_radius_px)/l.speed_px_per_tick);
+          if(tick<hitTick){const travel=l.speed_px_per_tick*elapsed;result.lasers.push({index,point:[origin[0]+dx/Math.max(distance,1)*travel,origin[1]+dy/Math.max(distance,1)*travel],angle:Math.atan2(dy,dx),tick:elapsed,hitTick})}
+        }
+      }
+      return result;
+    }
+    function chilopodaLayers(b,clipName,index,tick,options={}) {
+      const contract=b.render_contract,c=contract.chilopoda,a=c.anchor_px,fxPivot=contract.fx_pivot_px;
+      const target=options.targetGroundCanvasPx||c.target_ground_canvas_px;
+      const q=chilopodaActionState(contract,clipName,tick,target),shift=options.sceneOriginShift||[0,0],layers=[];
+      const point=p=>[p[0]-shift[0],p[1]-shift[1]];
+      const body=b.animations[clipName];
+      const burrowed=[c.burrow.body_clip,c.burrow_turn?.body_clip].includes(clipName);
+      const turnMirror=c.burrow_turn&&clipName===c.burrow_turn.body_clip&&!options.turnFacingHandled?Boolean(options.initialFacingLeft)!==(tick>=c.burrow_turn.hidden_start_tick):false;
+      if(q.bodyVisible)layers.push({layer:'Body',bundle:b.id,frame:body.frames[index],point:point([a[0]+q.bodyDx,a[1]+q.bodyDy]),pivot:a,angle:0,mirror:turnMirror,clipBelowY:burrowed?c.ground_y:null});
+      for(const dust of q.dust)layers.push({layer:'BurrowDust',bundle:b.id,frame:sampleFxFrame(b.animations[c.burrow.dust_clip],dust.tick),point:point(dust.point),pivot:fxPivot,angle:0});
+      const l=c.laser;
+      if(clipName===l.body_clip&&tick<l.glow_end_tick) {
+        const phase=tick<l.release_tick?Math.min(3,Math.floor(tick/4)):Math.min(5,4+Math.floor((tick-l.release_tick)/4));
+        for(const tip of l.tip_anchors_by_frame[index])layers.push({layer:'AntennaGlow',bundle:b.id,frame:b.animations[l.glow_clip].frames[phase],point:point(tip),pivot:fxPivot,angle:0});
+      }
+      for(const laser of q.lasers)layers.push({layer:'Laser'+laser.index,bundle:b.id,frame:b.animations[l.projectile_clip].frames[Math.floor(laser.tick)%b.animations[l.projectile_clip].frames.length],point:point(laser.point),pivot:fxPivot,angle:laser.angle});
+      return layers;
+    }
     function getLayerFramesForStep(clipName, stepIdx, options={}) {
       const b=getCharBundle();
       if(!b) return [];
@@ -1238,6 +1284,7 @@
       const anim=b.animations[bodyName];
       const index=auraView?0:Math.min(stepIdx,anim.frames.length-1);
       const tick=animationFrameTick(anim,index)+(options.elapsedMs||0)*0.06;
+      if(contract.chilopoda)return chilopodaLayers(b,bodyName,index,tick,options);
       const fxTick=options.fxTicks===undefined?state.fxTicks:options.fxTicks;
       const layers=[];
       const hasAuraLoop=Boolean(contract.aura?.loop_clip&&b.animations[contract.aura.loop_clip]);
@@ -1293,10 +1340,13 @@
       const [cw,ch]=getCanvasSize();ctx.imageSmoothingEnabled=false;
       for(const item of layers) {
         const f=item.frame,img=state.images[f.atlas_url];if(!img)continue;
+        if(item.clipBelowY!=null){ctx.save();ctx.beginPath();ctx.rect(0,0,cw*scaleX,item.clipBelowY*scaleY);ctx.clip()}
         if(item.point) {
           ctx.save();ctx.translate(item.point[0]*scaleX,item.point[1]*scaleY);ctx.rotate(item.angle);
+          if(item.mirror)ctx.scale(-1,1);
           ctx.drawImage(img,f.x,f.y,f.w,f.h,-item.pivot[0]*scaleX,-item.pivot[1]*scaleY,cw*scaleX,ch*scaleY);ctx.restore();
         } else ctx.drawImage(img,f.x,f.y,f.w,f.h,0,0,cw*scaleX,ch*scaleY);
+        if(item.clipBelowY!=null)ctx.restore();
       }
       return layers;
     }
@@ -1305,10 +1355,11 @@
     function atlasPointForLayer(item,x,y) {
       if(!item.point)return {x:Math.floor(x),y:Math.floor(y)};
       const dx=x+0.5-item.point[0],dy=y+0.5-item.point[1],c=Math.cos(item.angle),s=Math.sin(item.angle);
-      return {x:Math.floor(c*dx+s*dy+item.pivot[0]),y:Math.floor(-s*dx+c*dy+item.pivot[1])};
+      return {x:Math.floor((item.mirror?-1:1)*(c*dx+s*dy)+item.pivot[0]),y:Math.floor(-s*dx+c*dy+item.pivot[1])};
     }
     function sourceLayerAt(layers,x,y) {
       for(const item of [...layers].reverse()) {
+        if(item.clipBelowY!=null&&y>=item.clipBelowY)continue;
         const uv=atlasPointForLayer(item,x,y),f=item.frame,img=state.images[f.atlas_url];
         if(!img||uv.x<0||uv.y<0||uv.x>=f.w||uv.y>=f.h)continue;
         sourceProbeCtx.clearRect(0,0,1,1);sourceProbeCtx.drawImage(img,f.x+uv.x,f.y+uv.y,1,1,0,0,1,1);
@@ -1956,6 +2007,7 @@
       dummyStep: 0,
       popups: [],
       keys: {},
+      chiloPatrol:false,chiloPatrolDir:1,chiloInputDir:0,chiloAction:null,
       holdLeft: false,
       holdRight: false,
     };
@@ -1964,10 +2016,17 @@
       if (arena.turnTargetFlip !== null) return;
       const b = getCharBundle();
       if (!b || !b.animations[clipName]) return;
+      if(b.render_contract?.chilopoda&&arena.actionClip)return;
       arena.actionClip = clipName;
       arena.clip = clipName;
       arena.step = 0;
       arena.elapsed = 0;
+      if(b.render_contract?.chilopoda) {
+        const c=b.render_contract.chilopoda,sign=arena.flip?-1:1;
+        arena.chiloPatrol=false;
+        arena.chiloAction={startX:arena.x,sign,target:[c.anchor_px[0]+(arena.dummyX-arena.x)/2/sign,c.ground_y],biteHit:false,laserHits:[false,false]};
+        arena.hitstop=0;return;
+      }
       const hasAuraLoop = Boolean(b.render_contract?.aura?.loop_clip && b.animations[b.render_contract.aura.loop_clip]);
       if (clipName === 'power_up') {
         arena.rageMode = true;
@@ -2004,6 +2063,29 @@
           arena.clip = 'jump';
           arena.step = 0;
           arena.elapsed = 0;
+        }
+      }
+    }
+
+    function applyChilopodaArenaHit(amount,label) {
+      arena.dummyHp=arena.dummyHp<=amount?arena.dummyMaxHp:arena.dummyHp-amount;
+      arena.dummyFlash=1;arena.dummyClip='hit';arena.dummyStep=0;
+      arena.popups.push({x:arena.dummyX,y:arena.groundY-100,text:label,life:950});
+    }
+    function updateChilopodaArenaAction(b) {
+      const c=b.render_contract?.chilopoda,s=arena.chiloAction;
+      if(!c||!s||!arena.actionClip)return;
+      const anim=b.animations[arena.clip],tick=animationFrameTick(anim,arena.step)+arena.elapsed*.06;
+      const q=chilopodaActionState(b.render_contract,arena.clip,tick,s.target);
+      if(arena.clip===c.burrow.body_clip) {
+        if(tick>=c.burrow.emerge_start_tick)arena.x=s.startX+s.sign*q.bodyDx*2;
+        if(tick>=c.burrow.bite_tick&&!s.biteHit){s.biteHit=true;applyChilopodaArenaHit(120,'-120 BURROW BITE!')}
+      }
+      if(arena.clip===c.laser.body_clip&&tick>=c.laser.release_tick) {
+        const target=[s.target[0],s.target[1]-c.target_hit_height_px];
+        for(const [i,origin]of c.laser.tip_anchors_by_frame[c.laser.release_frame].entries()) {
+          const arrival=c.laser.release_tick+Math.max(0,(Math.hypot(target[0]-origin[0],target[1]-origin[1])-c.laser.target_radius_px)/c.laser.speed_px_per_tick);
+          if(tick>=arrival&&!s.laserHits[i]){s.laserHits[i]=true;applyChilopodaArenaHit(125,'-125 RED LASER!')}
         }
       }
     }
@@ -2053,7 +2135,12 @@
         const goRight = arena.keys['ArrowRight'] || arena.keys['KeyD'] || arena.holdRight;
         const goLeft = arena.keys['ArrowLeft'] || arena.keys['KeyA'] || arena.holdLeft;
         const isRun = Boolean((arena.keys['ShiftLeft'] || arena.keys['ShiftRight']) && b.animations['run']);
-        const dir = (goRight ? 1 : 0) - (goLeft ? 1 : 0);
+        let dir = (goRight ? 1 : 0) - (goLeft ? 1 : 0);
+        const chilo=b.render_contract?.chilopoda;
+        if(chilo) {
+          if(dir!==0&&dir!==arena.chiloInputDir&&!arena.actionClip){arena.chiloPatrol=true;arena.chiloPatrolDir=dir}
+          arena.chiloInputDir=dir;dir=arena.chiloPatrol&&!arena.actionClip?arena.chiloPatrolDir:0;
+        }
         const turnClip=b.render_contract?.turning?.clip;
         if (dir !== 0 && !arena.actionClip && arena.flip !== (dir < 0)) {
           if (turnClip && b.animations[turnClip]) {
@@ -2061,8 +2148,12 @@
             arena.actionClip=turnClip; arena.clip=turnClip; arena.step=0; arena.elapsed=0;
           } else arena.flip=dir<0;
         }
-        const moveSpeed = arena.turnTargetFlip !== null ? 0 : (arena.actionClip ? 0.08 : (isRun ? 0.44 : 0.27));
+        const moveSpeed = arena.turnTargetFlip !== null ? 0 : (chilo?(arena.actionClip?0:b.render_contract.locomotion.patrol.speed_px_per_second*2/1000):(arena.actionClip ? 0.08 : (isRun ? 0.44 : 0.27)));
         arena.x = Math.max(80, Math.min(880, arena.x + dir * moveSpeed * dtMs));
+        if(chilo&&arena.chiloPatrol&&!arena.actionClip&&((dir>0&&arena.x>=880)||(dir<0&&arena.x<=80))) {
+          arena.turnTargetFlip=dir>0;arena.chiloPatrolDir=-dir;
+          arena.actionClip=turnClip;arena.clip=turnClip;arena.step=0;arena.elapsed=0;
+        }
 
         arena.y += arena.vy * dtMs;
         if (arena.y < arena.groundY) {
@@ -2092,6 +2183,11 @@
         const curF = curAnim.frames[Math.min(arena.step, curAnim.frames.length - 1)];
         const dur = Math.max(16.0, (curF && curF.duration_ms) || 83.33);
         arena.elapsed += dtMs;
+        if(chilo?.burrow_turn&&arena.clip===chilo.burrow_turn.body_clip&&arena.turnTargetFlip!==null) {
+          const tick=animationFrameTick(curAnim,arena.step)+arena.elapsed*.06;
+          if(tick>=chilo.burrow_turn.hidden_start_tick)arena.flip=arena.turnTargetFlip;
+        }
+        if(chilo)updateChilopodaArenaAction(b);
         if (arena.elapsed >= dur) {
           arena.elapsed -= dur;
           if (arena.step + 1 < curAnim.frames.length) {
@@ -2159,7 +2255,8 @@
       ctx.fillStyle = 'rgba(0,0,0,0.45)';
       ctx.beginPath(); ctx.ellipse(arena.x, arena.groundY, 34, 9, 0, 0, Math.PI * 2); ctx.fill();
       offCtx.clearRect(0, 0, cw, chPx);
-      drawCompositeStep(offCtx, arena.clip, arena.step, 1.0, 1.0, {auraEnabled:arena.rageMode,fxTicks:arena.fxTicks,elapsedMs:arena.elapsed});
+      const chiOptions=b.render_contract?.chilopoda?{turnFacingHandled:true,...(arena.chiloAction&&arena.actionClip?{targetGroundCanvasPx:arena.chiloAction.target,sceneOriginShift:[(arena.x-arena.chiloAction.startX)/2/arena.chiloAction.sign,0]}:{})}:{};
+      drawCompositeStep(offCtx, arena.clip, arena.step, 1.0, 1.0, {auraEnabled:arena.rageMode,fxTicks:arena.fxTicks,elapsedMs:arena.elapsed,...chiOptions});
       ctx.save();
       ctx.translate(arena.x, arena.y);
       if (arena.flip) ctx.scale(-1, 1);

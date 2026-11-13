@@ -1,0 +1,60 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d_bundle.v1",
+  "default_action": "idle",
+  "world_height": 0.59,
+  "world_height_max_drift": 0.0,
+  "pixel_size": 0.01,
+  "pixel_size_max_drift": 0.0,
+  "actions": {
+    "idle": {
+      "contract": "action-idle.json",
+      "loop": true,
+      "clip": "idle"
+    },
+    "walk": {
+      "contract": "action-walk.json",
+      "loop": true,
+      "clip": "walk"
+    },
+    "attack_light": {
+      "contract": "action-attack_light.json",
+      "loop": false,
+      "clip": "attack_light"
+    },
+    "power_up": {
+      "contract": "action-power_up.json",
+      "loop": false,
+      "clip": "power_up"
+    },
+    "hit": {
+      "contract": "action-hit.json",
+      "loop": false,
+      "clip": "hit"
+    },
+    "ko": {
+      "contract": "action-ko.json",
+      "loop": false,
+      "clip": "ko"
+    },
+    "turn": {
+      "contract": "action-turn.json",
+      "loop": false,
+      "clip": "turn"
+    },
+    "burrow_dust_fx": {
+      "contract": "action-burrow_dust_fx.json",
+      "loop": false,
+      "clip": "burrow_dust_fx"
+    },
+    "antenna_glow_fx": {
+      "contract": "action-antenna_glow_fx.json",
+      "loop": false,
+      "clip": "antenna_glow_fx"
+    },
+    "red_laser_fx": {
+      "contract": "action-red_laser_fx.json",
+      "loop": false,
+      "clip": "red_laser_fx"
+    }
+  }
+}

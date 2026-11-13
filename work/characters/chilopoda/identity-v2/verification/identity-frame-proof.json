@@ -1,0 +1,89 @@
+{
+  "canonical": "work/characters/chilopoda/identity-v2/canonical/master.png",
+  "canonical_file_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+  "canonical_rgba_sha256": "17e5b03e45dd8f1646325e61ef905c443e996163c2bb7cd299337f1b34d20087",
+  "owner_selection": {
+    "status": "owner_master_approved",
+    "character_id": "chilopoda",
+    "owner_instruction": "Frame1 power_up đẹp và nét hơn; dùng làm hình dạng chuẩn đồng bộ toàn bộ hoạt ảnh Chilopoda.",
+    "source_clip": "power_up",
+    "source_frame_index": 1,
+    "source_runtime_file": "assets/chilopoda/clips/frames/frame-41.png",
+    "source_atlas_sha256": "c7361548fbd2b570f8bd67c6ef2d9f4935bf63f05165a5c7bb5fb517770f2445",
+    "master_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "bbox_px": [
+      98,
+      154,
+      258,
+      224
+    ],
+    "foot_anchor_px": [
+      176,
+      224
+    ],
+    "scope": "Owner accepts the frame1 design; new animation revision still needs Human Test."
+  },
+  "ready_poses": [
+    {
+      "clip": "idle",
+      "frame": 0,
+      "file": "assets/chilopoda/clips/frames/frame-00.png",
+      "rgba_sha256": "17e5b03e45dd8f1646325e61ef905c443e996163c2bb7cd299337f1b34d20087",
+      "matches_selected_power1": true
+    },
+    {
+      "clip": "attack_light",
+      "frame": 0,
+      "file": "assets/chilopoda/clips/frames/frame-24.png",
+      "rgba_sha256": "17e5b03e45dd8f1646325e61ef905c443e996163c2bb7cd299337f1b34d20087",
+      "matches_selected_power1": true
+    },
+    {
+      "clip": "attack_light",
+      "frame": 15,
+      "file": "assets/chilopoda/clips/frames/frame-39.png",
+      "rgba_sha256": "17e5b03e45dd8f1646325e61ef905c443e996163c2bb7cd299337f1b34d20087",
+      "matches_selected_power1": true
+    },
+    {
+      "clip": "power_up",
+      "frame": 0,
+      "file": "assets/chilopoda/clips/frames/frame-54.png",
+      "rgba_sha256": "17e5b03e45dd8f1646325e61ef905c443e996163c2bb7cd299337f1b34d20087",
+      "matches_selected_power1": true
+    },
+    {
+      "clip": "power_up",
+      "frame": 10,
+      "file": "assets/chilopoda/clips/frames/frame-64.png",
+      "rgba_sha256": "17e5b03e45dd8f1646325e61ef905c443e996163c2bb7cd299337f1b34d20087",
+      "matches_selected_power1": true
+    },
+    {
+      "clip": "hit",
+      "frame": 0,
+      "file": "assets/chilopoda/clips/frames/frame-40.png",
+      "rgba_sha256": "17e5b03e45dd8f1646325e61ef905c443e996163c2bb7cd299337f1b34d20087",
+      "matches_selected_power1": true
+    },
+    {
+      "clip": "hit",
+      "frame": 5,
+      "file": "assets/chilopoda/clips/frames/frame-45.png",
+      "rgba_sha256": "17e5b03e45dd8f1646325e61ef905c443e996163c2bb7cd299337f1b34d20087",
+      "matches_selected_power1": true
+    },
+    {
+      "clip": "ko",
+      "frame": 0,
+      "file": "assets/chilopoda/clips/frames/frame-46.png",
+      "rgba_sha256": "17e5b03e45dd8f1646325e61ef905c443e996163c2bb7cd299337f1b34d20087",
+      "matches_selected_power1": true
+    }
+  ],
+  "scope": "Exact ready-pose and retained-power pixels, not a numeric proof of anatomy similarity across reposed generated frames."
+}

@@ -1,0 +1,1866 @@
+{
+  "approved_at": "2026-11-13T08:22:39.853349+00:00",
+  "owner_approval_file": "assets/chilopoda/owner_approval.json",
+  "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+  "runtime_files_frozen": 221,
+  "peer_files_unchanged": 1309,
+  "cleanup": {
+    "removed_count": 306,
+    "removed_bytes": 8377649,
+    "scope": "Only byte-identical stagePNGcopies. Master/source/review and prior revision evidence preserved. Historical staging manifests are not rebuild inputs; use frozen approved final frames.",
+    "files": [
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/contact-sheet.png",
+        "retained": "assets/chilopoda/clips/contact-sheet.png",
+        "sha256": "bbc750d3959f8f69aa3fa9852334abcc07d86c8a65584f314d5a08a1cd20564f",
+        "bytes": 830093
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-01.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-001.png",
+        "sha256": "23c9b13bf868ab67debd90aa99f0e7d1a1ee84b58793d06d2c9bb867de1c3c9f",
+        "bytes": 11955
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-02.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-002.png",
+        "sha256": "c3160fa7d695dded9505d25262a13c099a73b8b81ff09071199a87caf253e3c6",
+        "bytes": 11985
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-03.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-003.png",
+        "sha256": "57c4c11da5a46b37b719a1ece4d398af1f7e61766650ca071cd684d41c8bacd0",
+        "bytes": 11993
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-04.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-004.png",
+        "sha256": "be6f2648ae2c7892030de7c5c7d5f6402022b73457565b8266cdbb856e6a8a9f",
+        "bytes": 11914
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-05.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-005.png",
+        "sha256": "2b6eeb552f5c0ef23b0ca702811f7c3913ede07c43e7e16c66c94dc684e5653f",
+        "bytes": 12044
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-06.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-006.png",
+        "sha256": "5246f7faf330aeb6c365f6c13d9791fcbccf00f581acc0cb4cd9d903fc4efc44",
+        "bytes": 11815
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-07.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-007.png",
+        "sha256": "8c77286d6f297c3feced5a15d6dc4e2d8c0f16847f7ec7315bef21df48e7f5f6",
+        "bytes": 11714
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-08.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-008.png",
+        "sha256": "a2c3416ff8c39c8c02aee9b650265c915e84cd589dad00ed08f8650c7d3668c8",
+        "bytes": 11700
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-09.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-009.png",
+        "sha256": "25ad2203fff1f3f9c89ac7787096cc904a10597be1995f919e02b45bcae82157",
+        "bytes": 11654
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-10.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-010.png",
+        "sha256": "0c0842fc02b91f38008b4b95252316bfe23b5ad84a44e23643d8fc2f77090994",
+        "bytes": 11589
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-11.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-011.png",
+        "sha256": "ae574085bd2b21bb1781c964de6586964b149760701c9df25b57db0735af8a7d",
+        "bytes": 11552
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-12.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+        "bytes": 9194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-13.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-013.png",
+        "sha256": "ee312e682fea2a0214a0c5d6abf4b7c89e10d2c5d2515c30defba4aa5ba21c67",
+        "bytes": 9208
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-14.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-014.png",
+        "sha256": "fd300eba348acf533888f425a21bd9ab4f94a8f1375b2ca3bd4e0056c899a847",
+        "bytes": 9201
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-15.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-015.png",
+        "sha256": "b2255cd097b24ce7f95919848bba93215a9d4a2cea27ecc8e5d42dac9a1f86f5",
+        "bytes": 9250
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-16.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-016.png",
+        "sha256": "00e2dcdef9c5b1f3f8673b01c43e54477e9c9856c4b5f87f17fb7e772eaa70f2",
+        "bytes": 9198
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-17.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-017.png",
+        "sha256": "7bc2fc9ee5f68627064e778955fa0bbd4ef6d8d479add95579b2eedd98cffd1d",
+        "bytes": 9239
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-18.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-018.png",
+        "sha256": "23a388e180ce3208db5a1e64e8400f1ffccf58b0e8b939be95105aa633ce5e43",
+        "bytes": 9366
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-19.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-019.png",
+        "sha256": "78fd67c399b06a800fb92aa4fb9d48b4741e51f46bf92bfe89ede4d75ff1ceab",
+        "bytes": 9176
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-20.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-020.png",
+        "sha256": "610f322a6aa2054a86e77d446b873b7f58bbcc6d25b4eb0b832f3175424d967a",
+        "bytes": 9146
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-21.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-021.png",
+        "sha256": "4780e74a072b0ec5317052984007013f7fc1001ad8ee51d8c061a35de2b6d2a8",
+        "bytes": 9202
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-22.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-022.png",
+        "sha256": "ef973762539c6572eac0b278e898ab64817dcb341ab0f4044102d5331dc53f59",
+        "bytes": 9154
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-23.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-023.png",
+        "sha256": "df7fc9a251df75c2d3093a25a3e66dffd167bf01f1efe090b6cdfa8fb1bddd0c",
+        "bytes": 9124
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-24.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-25.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-025.png",
+        "sha256": "caecb420c4005ef00a67a03ea19d7c0ebc6f9273dd68769dcc9609c0092ed843",
+        "bytes": 13035
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-26.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-026.png",
+        "sha256": "2b6517027548ecea9b3847420d5e4745177465c5b34e87e98ad983f0204d11bf",
+        "bytes": 12354
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-27.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-027.png",
+        "sha256": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
+        "bytes": 11925
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-28.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-067.png",
+        "sha256": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
+        "bytes": 11516
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-29.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-029.png",
+        "sha256": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
+        "bytes": 11530
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-30.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-030.png",
+        "sha256": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
+        "bytes": 10776
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-31.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-031.png",
+        "sha256": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
+        "bytes": 11424
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-32.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-032.png",
+        "sha256": "0fdb02ed9da70639df0cb6677e9484c092c645cc9d6b40619c4a57406ca54afa",
+        "bytes": 11194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-33.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-071.png",
+        "sha256": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
+        "bytes": 11931
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-34.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-034.png",
+        "sha256": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
+        "bytes": 11369
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-35.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-073.png",
+        "sha256": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
+        "bytes": 11296
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-36.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-074.png",
+        "sha256": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
+        "bytes": 11430
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-37.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-037.png",
+        "sha256": "2bb735e69eb97753406e2c570436cdbfe39ea759868d806dd5db30810d08e944",
+        "bytes": 12276
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-38.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-038.png",
+        "sha256": "5b3902f97e7f8bddf7614b79b0748acad9779433f051b0f4b7f8af92cce36be6",
+        "bytes": 12633
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-39.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-40.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-41.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-041.png",
+        "sha256": "0d30b2595cd5b63bd373919001c289bc67ab1bf27d95e99168476a6160ad5c44",
+        "bytes": 11723
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-42.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-042.png",
+        "sha256": "3abd58c1d441bc6c1ed1f8b129b2719450e99851166b666501afc9c355a33ea5",
+        "bytes": 11968
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-43.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-043.png",
+        "sha256": "fdf59c7ab4097c8567308a53d8fd4c299b5c3f95a19550a1f393fed7b2459c70",
+        "bytes": 12095
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-44.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-044.png",
+        "sha256": "7080610cb095528878b87cd05ce67103561095002b65c08b01b940ea8867758e",
+        "bytes": 11927
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-45.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-46.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-47.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-047.png",
+        "sha256": "5167d2ef98c0181fac13167ed893684df20627b3eca020e4db0b690fa0ce3155",
+        "bytes": 12152
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-48.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-048.png",
+        "sha256": "a66cc18dcddca152ef605502f3eafb177e433e3e8835b702d21fb1fd1f24fa3d",
+        "bytes": 11502
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-49.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-049.png",
+        "sha256": "d62952bbe8165e90d01b53c156b0575b2cf68b5fb9d465cd1279e16c725a360c",
+        "bytes": 10288
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-50.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-050.png",
+        "sha256": "70e48189521c8cace6ffc942a19f710582b005284cf33bd529de218a099bb01e",
+        "bytes": 9766
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-51.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-051.png",
+        "sha256": "aafdd92172f6c9c4caf472616073763ae679251be638e11443a1fcc3cc73f809",
+        "bytes": 8570
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-52.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-052.png",
+        "sha256": "160ad0cc7cdf5485a7e3a365f27f7d4f60d95610c3f0b03631618ba63cf6ee2e",
+        "bytes": 7439
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-53.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-053.png",
+        "sha256": "6626088d2c03101262a55a7a807e93aa67e4616676fb7c32f0be93a235e0dc99",
+        "bytes": 7409
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-54.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-55.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-055.png",
+        "sha256": "dfb29e4accea232ee38f4865b14a81aefc60adaf858b147e751f44fed6492a68",
+        "bytes": 12460
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-56.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-056.png",
+        "sha256": "4776ed37dfdeaefcee450ffc9d968d813658eba5fc1a6bbbaa29bc44be1b0f02",
+        "bytes": 12333
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-57.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-057.png",
+        "sha256": "45917b9e11852da0e034f137d0cce18b614fbda848f861ddb94897446affa2f2",
+        "bytes": 12358
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-58.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-058.png",
+        "sha256": "12f33db012435c8fc61dbb499f8922206ab475a1116071eb45bc569b163e8d31",
+        "bytes": 12229
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-59.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-059.png",
+        "sha256": "140f7be452ea3fe6a7c5850499553997c857aaa679a32be281f7c4da9171988a",
+        "bytes": 12157
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-60.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-060.png",
+        "sha256": "59828d93288ba21b23d623f7c2d6d44ec4785d789d2d129fea4aa6284650fbe0",
+        "bytes": 11833
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-61.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-061.png",
+        "sha256": "7e9d803dcc22a63e08607cd0c92c1348054fb62be6e137ef627267902d60526d",
+        "bytes": 11653
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-62.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-062.png",
+        "sha256": "3af065d2d60acbe1b0ddcbf0bac1458564b66f74c9235921625a1bc15ec2218f",
+        "bytes": 11579
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-63.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-063.png",
+        "sha256": "6fae9474e2eb34d403acc743204d6cdfc8d2225be12a299030e14312ad1ffd54",
+        "bytes": 11590
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-64.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-65.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+        "bytes": 9194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-66.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-027.png",
+        "sha256": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
+        "bytes": 11925
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-67.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-067.png",
+        "sha256": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
+        "bytes": 11516
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-68.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-029.png",
+        "sha256": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
+        "bytes": 11530
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-69.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-030.png",
+        "sha256": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
+        "bytes": 10776
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-70.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-031.png",
+        "sha256": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
+        "bytes": 11424
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-71.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-071.png",
+        "sha256": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
+        "bytes": 11931
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-72.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-034.png",
+        "sha256": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
+        "bytes": 11369
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-73.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-073.png",
+        "sha256": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
+        "bytes": 11296
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-74.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-074.png",
+        "sha256": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
+        "bytes": 11430
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-75.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+        "bytes": 9194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-76.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-076.png",
+        "sha256": "aa41b4158a9be7fe3eae725d31574b431178cdd403176c74c988e802ef28eaab",
+        "bytes": 704
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-77.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-077.png",
+        "sha256": "46fa835123167e74e6597ee08e4f4a4241e33652743aee056759910d4164dd47",
+        "bytes": 951
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-78.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-078.png",
+        "sha256": "f2af95345d2d8e26804b27a680b921631582874ab6fdb190bf4969a740fd59bd",
+        "bytes": 2173
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-79.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-079.png",
+        "sha256": "8c650dacd80af463a12fc1706632096e5f2479aaa2999c2f145a6e82aba63189",
+        "bytes": 3635
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-80.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-080.png",
+        "sha256": "132d606abc877affdb1987227ec2303dfe12428bc60a4361f964480ecc96dc67",
+        "bytes": 3223
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-81.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-081.png",
+        "sha256": "d904fbe5bcfc8582fe80aa0e6906b3b5ed2817d1f6039364c18873cdfee1ba05",
+        "bytes": 2376
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-82.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-082.png",
+        "sha256": "95077c5c65b28d0a997e6c88caa12d289c94c6fb0b8df94cc42cefcb09769a6b",
+        "bytes": 1644
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-83.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-083.png",
+        "sha256": "f1d6c8331400f3f6d4ca1115fd68698ce627fb491a999f3a7c1ec096e800f712",
+        "bytes": 1183
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-84.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-084.png",
+        "sha256": "1c927d381b52eb2a38ce3111ac539b82dc0209175172b1a9f6f9ae651b0190ad",
+        "bytes": 473
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-85.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-085.png",
+        "sha256": "2e1c822cf5ed006064c2f497350bb959807d8279962d805f225cd75ca7a35d37",
+        "bytes": 472
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-86.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-086.png",
+        "sha256": "3e7e8dd77a2eb7ff7694aee80e98f2ceaa36b207e37bcf5c6b7b9e6ec913c650",
+        "bytes": 473
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-87.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-087.png",
+        "sha256": "6cd3f34464ee351da027bb9cd443535293e83cdbf8fb1e414b6181be87ac41c7",
+        "bytes": 512
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-88.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-088.png",
+        "sha256": "98d985442706a31c557b3bf36ef791d14f5d99cead59195b8042c0f1b0d4f296",
+        "bytes": 472
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-89.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-089.png",
+        "sha256": "98297c6cb19f362068f0562590395e93079724241f07af34a47c2b5dfebeaf7d",
+        "bytes": 473
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-90.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-090.png",
+        "sha256": "c64b3b2f22f73c562ea4fee1c8924e3910e543e4934f8341fce143e50f1da07a",
+        "bytes": 618
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-91.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-091.png",
+        "sha256": "e490387efdeacfa85e64aca8efaf17be42e67c43c5d8bdde1804cd61d5092ae8",
+        "bytes": 686
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-92.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-092.png",
+        "sha256": "f84a625dfd22521882939fc682c5b8a8bc9b14a9909bcd2d62d052bfc33290d7",
+        "bytes": 618
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/frames/frame-93.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-093.png",
+        "sha256": "e8b74f2193ed15aea18da3f1c20c5704aed9436c60fa4a09e27402f15ba3c521",
+        "bytes": 610
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/filmstrip-00.png",
+        "retained": "assets/chilopoda/clips/review/filmstrip-00.png",
+        "sha256": "9152718f97b4e1e90f16d375ef403871d884eac2b957f28114cde73261090730",
+        "bytes": 414895
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/filmstrip-01.png",
+        "retained": "assets/chilopoda/clips/review/filmstrip-01.png",
+        "sha256": "d87d1f30412a064430f8d784297b7bf5baec00166188965083040af7e88d686e",
+        "bytes": 331481
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/filmstrip-02.png",
+        "retained": "assets/chilopoda/clips/review/filmstrip-02.png",
+        "sha256": "9f44f6c20dd8abd3e92f59557a1f8a3718f531564e07ca8cfa5237c02ed4fa95",
+        "bytes": 540662
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/filmstrip-03.png",
+        "retained": "assets/chilopoda/clips/review/filmstrip-03.png",
+        "sha256": "0f1a6c74f6c31bf6ba60582eb5f499d9606e9f5548ea05c0baf97e6de69bf2a0",
+        "bytes": 184399
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/filmstrip-04.png",
+        "retained": "assets/chilopoda/clips/review/filmstrip-04.png",
+        "sha256": "6d980276f901ca49933c8f2413a976f4927ff749736a81321dfb9c828b102ef5",
+        "bytes": 233887
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/filmstrip-05.png",
+        "retained": "assets/chilopoda/clips/review/filmstrip-05.png",
+        "sha256": "8805d067e28687f80039c6d6d7b1f555780e23eab2dd02f4c5cd830add800627",
+        "bytes": 403481
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/filmstrip-06.png",
+        "retained": "assets/chilopoda/clips/review/filmstrip-06.png",
+        "sha256": "2f7c93ed293921c2321936297b0d93e657e611cbd3af6b2653d4f54a331e0fcf",
+        "bytes": 369108
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/filmstrip-07.png",
+        "retained": "assets/chilopoda/clips/review/filmstrip-07.png",
+        "sha256": "7b9d602545faa6d4b420b8fa9db80b38bec8410a3be9909a444960506eb88789",
+        "bytes": 62211
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/filmstrip-08.png",
+        "retained": "assets/chilopoda/clips/review/filmstrip-08.png",
+        "sha256": "819a8b4a0bc222bde3605f5a5c5f30077ed28d71033ba2ad4dd8c2ad62e177db",
+        "bytes": 30349
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/filmstrip-09.png",
+        "retained": "assets/chilopoda/clips/review/filmstrip-09.png",
+        "sha256": "10f567eee7745c0ea9d718e632befc0de8c49d2de35d331cdc028ea781e38598",
+        "bytes": 25736
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/onion-00.png",
+        "retained": "assets/chilopoda/clips/review/onion-00.png",
+        "sha256": "c481cfaaaa127483cbf75937dab9ae5fab24b1d246bfed7689144f5a83b54645",
+        "bytes": 149662
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/onion-01.png",
+        "retained": "assets/chilopoda/clips/review/onion-01.png",
+        "sha256": "31a9b44568917ec8339ef8fc050e3ed46fc46aeaefa874ab2594f4c2f5b5cb89",
+        "bytes": 118894
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/onion-02.png",
+        "retained": "assets/chilopoda/clips/review/onion-02.png",
+        "sha256": "a6253a65f913e6fdc314e567e47b4469dafcde3d06349feb07044f1103943cc6",
+        "bytes": 206763
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/onion-03.png",
+        "retained": "assets/chilopoda/clips/review/onion-03.png",
+        "sha256": "f23e710c275588263f59c67fdabd40488bdfbe4daf3a2bb2b0466b3500c80ac8",
+        "bytes": 68738
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/onion-04.png",
+        "retained": "assets/chilopoda/clips/review/onion-04.png",
+        "sha256": "4faf2f6243bdd381bb301d4df272e9b736a87fa35f023f56a251c42b4dca44b4",
+        "bytes": 87298
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/onion-05.png",
+        "retained": "assets/chilopoda/clips/review/onion-05.png",
+        "sha256": "af392f4f7b2ccc522ca236228d76af580fdff13c0e2c108d24f838a38cbae614",
+        "bytes": 143914
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/onion-06.png",
+        "retained": "assets/chilopoda/clips/review/onion-06.png",
+        "sha256": "d000fb0955adede3999f0b92c877c43fa21b5f3090132aebb99616403e1b97ff",
+        "bytes": 142619
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/onion-07.png",
+        "retained": "assets/chilopoda/clips/review/onion-07.png",
+        "sha256": "1954ef273cd58a380f9a0a74b281091fa52e1835c64c43b8a962926d9e32efb3",
+        "bytes": 27311
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/onion-08.png",
+        "retained": "assets/chilopoda/clips/review/onion-08.png",
+        "sha256": "5f4510a7d584815568be08c71feea8f21835717342a6e45c353f55d28393f196",
+        "bytes": 12045
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/onion-09.png",
+        "retained": "assets/chilopoda/clips/review/onion-09.png",
+        "sha256": "059d03ca33ae470897af76ab1528235f6b279d922a9260aeb6027e81332cad02",
+        "bytes": 9556
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/clips/review/turn-test.png",
+        "retained": "assets/chilopoda/clips/review/turn-test.png",
+        "sha256": "e4744445b4bf8f29df134317d3ae99442ba86b79b554cdaa7d64b4138fe81c21",
+        "bytes": 93023
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/aseprite/chilopoda.png",
+        "retained": "assets/chilopoda/godot_bundle/godot/chilopoda-atlas-00.png",
+        "sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+        "bytes": 643081
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot/chilopoda-atlas-00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot/chilopoda-atlas-00.png",
+        "sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+        "bytes": 643081
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-000.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-001.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-001.png",
+        "sha256": "23c9b13bf868ab67debd90aa99f0e7d1a1ee84b58793d06d2c9bb867de1c3c9f",
+        "bytes": 11955
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-002.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-002.png",
+        "sha256": "c3160fa7d695dded9505d25262a13c099a73b8b81ff09071199a87caf253e3c6",
+        "bytes": 11985
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-003.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-003.png",
+        "sha256": "57c4c11da5a46b37b719a1ece4d398af1f7e61766650ca071cd684d41c8bacd0",
+        "bytes": 11993
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-004.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-004.png",
+        "sha256": "be6f2648ae2c7892030de7c5c7d5f6402022b73457565b8266cdbb856e6a8a9f",
+        "bytes": 11914
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-005.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-005.png",
+        "sha256": "2b6eeb552f5c0ef23b0ca702811f7c3913ede07c43e7e16c66c94dc684e5653f",
+        "bytes": 12044
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-006.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-006.png",
+        "sha256": "5246f7faf330aeb6c365f6c13d9791fcbccf00f581acc0cb4cd9d903fc4efc44",
+        "bytes": 11815
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-007.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-007.png",
+        "sha256": "8c77286d6f297c3feced5a15d6dc4e2d8c0f16847f7ec7315bef21df48e7f5f6",
+        "bytes": 11714
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-008.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-008.png",
+        "sha256": "a2c3416ff8c39c8c02aee9b650265c915e84cd589dad00ed08f8650c7d3668c8",
+        "bytes": 11700
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-009.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-009.png",
+        "sha256": "25ad2203fff1f3f9c89ac7787096cc904a10597be1995f919e02b45bcae82157",
+        "bytes": 11654
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-010.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-010.png",
+        "sha256": "0c0842fc02b91f38008b4b95252316bfe23b5ad84a44e23643d8fc2f77090994",
+        "bytes": 11589
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-011.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-011.png",
+        "sha256": "ae574085bd2b21bb1781c964de6586964b149760701c9df25b57db0735af8a7d",
+        "bytes": 11552
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+        "bytes": 9194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-013.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-013.png",
+        "sha256": "ee312e682fea2a0214a0c5d6abf4b7c89e10d2c5d2515c30defba4aa5ba21c67",
+        "bytes": 9208
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-014.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-014.png",
+        "sha256": "fd300eba348acf533888f425a21bd9ab4f94a8f1375b2ca3bd4e0056c899a847",
+        "bytes": 9201
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-015.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-015.png",
+        "sha256": "b2255cd097b24ce7f95919848bba93215a9d4a2cea27ecc8e5d42dac9a1f86f5",
+        "bytes": 9250
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-016.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-016.png",
+        "sha256": "00e2dcdef9c5b1f3f8673b01c43e54477e9c9856c4b5f87f17fb7e772eaa70f2",
+        "bytes": 9198
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-017.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-017.png",
+        "sha256": "7bc2fc9ee5f68627064e778955fa0bbd4ef6d8d479add95579b2eedd98cffd1d",
+        "bytes": 9239
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-018.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-018.png",
+        "sha256": "23a388e180ce3208db5a1e64e8400f1ffccf58b0e8b939be95105aa633ce5e43",
+        "bytes": 9366
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-019.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-019.png",
+        "sha256": "78fd67c399b06a800fb92aa4fb9d48b4741e51f46bf92bfe89ede4d75ff1ceab",
+        "bytes": 9176
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-020.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-020.png",
+        "sha256": "610f322a6aa2054a86e77d446b873b7f58bbcc6d25b4eb0b832f3175424d967a",
+        "bytes": 9146
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-021.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-021.png",
+        "sha256": "4780e74a072b0ec5317052984007013f7fc1001ad8ee51d8c061a35de2b6d2a8",
+        "bytes": 9202
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-022.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-022.png",
+        "sha256": "ef973762539c6572eac0b278e898ab64817dcb341ab0f4044102d5331dc53f59",
+        "bytes": 9154
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-023.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-023.png",
+        "sha256": "df7fc9a251df75c2d3093a25a3e66dffd167bf01f1efe090b6cdfa8fb1bddd0c",
+        "bytes": 9124
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-024.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-025.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-025.png",
+        "sha256": "caecb420c4005ef00a67a03ea19d7c0ebc6f9273dd68769dcc9609c0092ed843",
+        "bytes": 13035
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-026.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-026.png",
+        "sha256": "2b6517027548ecea9b3847420d5e4745177465c5b34e87e98ad983f0204d11bf",
+        "bytes": 12354
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-027.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-027.png",
+        "sha256": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
+        "bytes": 11925
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-028.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-067.png",
+        "sha256": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
+        "bytes": 11516
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-029.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-029.png",
+        "sha256": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
+        "bytes": 11530
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-030.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-030.png",
+        "sha256": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
+        "bytes": 10776
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-031.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-031.png",
+        "sha256": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
+        "bytes": 11424
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-032.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-032.png",
+        "sha256": "0fdb02ed9da70639df0cb6677e9484c092c645cc9d6b40619c4a57406ca54afa",
+        "bytes": 11194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-033.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-071.png",
+        "sha256": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
+        "bytes": 11931
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-034.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-034.png",
+        "sha256": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
+        "bytes": 11369
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-035.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-073.png",
+        "sha256": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
+        "bytes": 11296
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-036.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-074.png",
+        "sha256": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
+        "bytes": 11430
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-037.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-037.png",
+        "sha256": "2bb735e69eb97753406e2c570436cdbfe39ea759868d806dd5db30810d08e944",
+        "bytes": 12276
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-038.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-038.png",
+        "sha256": "5b3902f97e7f8bddf7614b79b0748acad9779433f051b0f4b7f8af92cce36be6",
+        "bytes": 12633
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-039.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-040.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-041.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-041.png",
+        "sha256": "0d30b2595cd5b63bd373919001c289bc67ab1bf27d95e99168476a6160ad5c44",
+        "bytes": 11723
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-042.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-042.png",
+        "sha256": "3abd58c1d441bc6c1ed1f8b129b2719450e99851166b666501afc9c355a33ea5",
+        "bytes": 11968
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-043.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-043.png",
+        "sha256": "fdf59c7ab4097c8567308a53d8fd4c299b5c3f95a19550a1f393fed7b2459c70",
+        "bytes": 12095
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-044.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-044.png",
+        "sha256": "7080610cb095528878b87cd05ce67103561095002b65c08b01b940ea8867758e",
+        "bytes": 11927
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-045.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-046.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-047.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-047.png",
+        "sha256": "5167d2ef98c0181fac13167ed893684df20627b3eca020e4db0b690fa0ce3155",
+        "bytes": 12152
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-048.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-048.png",
+        "sha256": "a66cc18dcddca152ef605502f3eafb177e433e3e8835b702d21fb1fd1f24fa3d",
+        "bytes": 11502
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-049.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-049.png",
+        "sha256": "d62952bbe8165e90d01b53c156b0575b2cf68b5fb9d465cd1279e16c725a360c",
+        "bytes": 10288
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-050.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-050.png",
+        "sha256": "70e48189521c8cace6ffc942a19f710582b005284cf33bd529de218a099bb01e",
+        "bytes": 9766
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-051.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-051.png",
+        "sha256": "aafdd92172f6c9c4caf472616073763ae679251be638e11443a1fcc3cc73f809",
+        "bytes": 8570
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-052.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-052.png",
+        "sha256": "160ad0cc7cdf5485a7e3a365f27f7d4f60d95610c3f0b03631618ba63cf6ee2e",
+        "bytes": 7439
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-053.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-053.png",
+        "sha256": "6626088d2c03101262a55a7a807e93aa67e4616676fb7c32f0be93a235e0dc99",
+        "bytes": 7409
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-055.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-055.png",
+        "sha256": "dfb29e4accea232ee38f4865b14a81aefc60adaf858b147e751f44fed6492a68",
+        "bytes": 12460
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-056.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-056.png",
+        "sha256": "4776ed37dfdeaefcee450ffc9d968d813658eba5fc1a6bbbaa29bc44be1b0f02",
+        "bytes": 12333
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-057.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-057.png",
+        "sha256": "45917b9e11852da0e034f137d0cce18b614fbda848f861ddb94897446affa2f2",
+        "bytes": 12358
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-058.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-058.png",
+        "sha256": "12f33db012435c8fc61dbb499f8922206ab475a1116071eb45bc569b163e8d31",
+        "bytes": 12229
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-059.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-059.png",
+        "sha256": "140f7be452ea3fe6a7c5850499553997c857aaa679a32be281f7c4da9171988a",
+        "bytes": 12157
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-060.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-060.png",
+        "sha256": "59828d93288ba21b23d623f7c2d6d44ec4785d789d2d129fea4aa6284650fbe0",
+        "bytes": 11833
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-061.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-061.png",
+        "sha256": "7e9d803dcc22a63e08607cd0c92c1348054fb62be6e137ef627267902d60526d",
+        "bytes": 11653
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-062.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-062.png",
+        "sha256": "3af065d2d60acbe1b0ddcbf0bac1458564b66f74c9235921625a1bc15ec2218f",
+        "bytes": 11579
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-063.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-063.png",
+        "sha256": "6fae9474e2eb34d403acc743204d6cdfc8d2225be12a299030e14312ad1ffd54",
+        "bytes": 11590
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-064.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-065.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+        "bytes": 9194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-066.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-027.png",
+        "sha256": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
+        "bytes": 11925
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-067.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-067.png",
+        "sha256": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
+        "bytes": 11516
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-068.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-029.png",
+        "sha256": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
+        "bytes": 11530
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-069.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-030.png",
+        "sha256": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
+        "bytes": 10776
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-070.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-031.png",
+        "sha256": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
+        "bytes": 11424
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-071.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-071.png",
+        "sha256": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
+        "bytes": 11931
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-072.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-034.png",
+        "sha256": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
+        "bytes": 11369
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-073.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-073.png",
+        "sha256": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
+        "bytes": 11296
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-074.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-074.png",
+        "sha256": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
+        "bytes": 11430
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-075.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+        "bytes": 9194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-076.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-076.png",
+        "sha256": "aa41b4158a9be7fe3eae725d31574b431178cdd403176c74c988e802ef28eaab",
+        "bytes": 704
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-077.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-077.png",
+        "sha256": "46fa835123167e74e6597ee08e4f4a4241e33652743aee056759910d4164dd47",
+        "bytes": 951
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-078.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-078.png",
+        "sha256": "f2af95345d2d8e26804b27a680b921631582874ab6fdb190bf4969a740fd59bd",
+        "bytes": 2173
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-079.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-079.png",
+        "sha256": "8c650dacd80af463a12fc1706632096e5f2479aaa2999c2f145a6e82aba63189",
+        "bytes": 3635
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-080.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-080.png",
+        "sha256": "132d606abc877affdb1987227ec2303dfe12428bc60a4361f964480ecc96dc67",
+        "bytes": 3223
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-081.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-081.png",
+        "sha256": "d904fbe5bcfc8582fe80aa0e6906b3b5ed2817d1f6039364c18873cdfee1ba05",
+        "bytes": 2376
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-082.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-082.png",
+        "sha256": "95077c5c65b28d0a997e6c88caa12d289c94c6fb0b8df94cc42cefcb09769a6b",
+        "bytes": 1644
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-083.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-083.png",
+        "sha256": "f1d6c8331400f3f6d4ca1115fd68698ce627fb491a999f3a7c1ec096e800f712",
+        "bytes": 1183
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-084.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-084.png",
+        "sha256": "1c927d381b52eb2a38ce3111ac539b82dc0209175172b1a9f6f9ae651b0190ad",
+        "bytes": 473
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-085.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-085.png",
+        "sha256": "2e1c822cf5ed006064c2f497350bb959807d8279962d805f225cd75ca7a35d37",
+        "bytes": 472
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-086.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-086.png",
+        "sha256": "3e7e8dd77a2eb7ff7694aee80e98f2ceaa36b207e37bcf5c6b7b9e6ec913c650",
+        "bytes": 473
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-087.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-087.png",
+        "sha256": "6cd3f34464ee351da027bb9cd443535293e83cdbf8fb1e414b6181be87ac41c7",
+        "bytes": 512
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-088.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-088.png",
+        "sha256": "98d985442706a31c557b3bf36ef791d14f5d99cead59195b8042c0f1b0d4f296",
+        "bytes": 472
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-089.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-089.png",
+        "sha256": "98297c6cb19f362068f0562590395e93079724241f07af34a47c2b5dfebeaf7d",
+        "bytes": 473
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-090.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-090.png",
+        "sha256": "c64b3b2f22f73c562ea4fee1c8924e3910e543e4934f8341fce143e50f1da07a",
+        "bytes": 618
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-091.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-091.png",
+        "sha256": "e490387efdeacfa85e64aca8efaf17be42e67c43c5d8bdde1804cd61d5092ae8",
+        "bytes": 686
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-092.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-092.png",
+        "sha256": "f84a625dfd22521882939fc682c5b8a8bc9b14a9909bcd2d62d052bfc33290d7",
+        "bytes": 618
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/godot_bundle/godot-sprite3d/frames/frame-093.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-093.png",
+        "sha256": "e8b74f2193ed15aea18da3f1c20c5704aed9436c60fa4a09e27402f15ba3c521",
+        "bytes": 610
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/antenna_glow_fx_00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-084.png",
+        "sha256": "1c927d381b52eb2a38ce3111ac539b82dc0209175172b1a9f6f9ae651b0190ad",
+        "bytes": 473
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/antenna_glow_fx_01.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-085.png",
+        "sha256": "2e1c822cf5ed006064c2f497350bb959807d8279962d805f225cd75ca7a35d37",
+        "bytes": 472
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/antenna_glow_fx_02.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-086.png",
+        "sha256": "3e7e8dd77a2eb7ff7694aee80e98f2ceaa36b207e37bcf5c6b7b9e6ec913c650",
+        "bytes": 473
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/antenna_glow_fx_03.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-087.png",
+        "sha256": "6cd3f34464ee351da027bb9cd443535293e83cdbf8fb1e414b6181be87ac41c7",
+        "bytes": 512
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/antenna_glow_fx_04.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-088.png",
+        "sha256": "98d985442706a31c557b3bf36ef791d14f5d99cead59195b8042c0f1b0d4f296",
+        "bytes": 472
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/antenna_glow_fx_05.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-089.png",
+        "sha256": "98297c6cb19f362068f0562590395e93079724241f07af34a47c2b5dfebeaf7d",
+        "bytes": 473
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_01.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-025.png",
+        "sha256": "caecb420c4005ef00a67a03ea19d7c0ebc6f9273dd68769dcc9609c0092ed843",
+        "bytes": 13035
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_02.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-026.png",
+        "sha256": "2b6517027548ecea9b3847420d5e4745177465c5b34e87e98ad983f0204d11bf",
+        "bytes": 12354
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_03.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-027.png",
+        "sha256": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
+        "bytes": 11925
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_04.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-067.png",
+        "sha256": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
+        "bytes": 11516
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_05.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-029.png",
+        "sha256": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
+        "bytes": 11530
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_06.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-030.png",
+        "sha256": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
+        "bytes": 10776
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_07.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-031.png",
+        "sha256": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
+        "bytes": 11424
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_08.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-032.png",
+        "sha256": "0fdb02ed9da70639df0cb6677e9484c092c645cc9d6b40619c4a57406ca54afa",
+        "bytes": 11194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_09.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-071.png",
+        "sha256": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
+        "bytes": 11931
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_10.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-034.png",
+        "sha256": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
+        "bytes": 11369
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_11.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-073.png",
+        "sha256": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
+        "bytes": 11296
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_12.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-074.png",
+        "sha256": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
+        "bytes": 11430
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_13.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-037.png",
+        "sha256": "2bb735e69eb97753406e2c570436cdbfe39ea759868d806dd5db30810d08e944",
+        "bytes": 12276
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_14.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-038.png",
+        "sha256": "5b3902f97e7f8bddf7614b79b0748acad9779433f051b0f4b7f8af92cce36be6",
+        "bytes": 12633
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/attack_light_15.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/burrow_dust_fx_00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-076.png",
+        "sha256": "aa41b4158a9be7fe3eae725d31574b431178cdd403176c74c988e802ef28eaab",
+        "bytes": 704
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/burrow_dust_fx_01.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-077.png",
+        "sha256": "46fa835123167e74e6597ee08e4f4a4241e33652743aee056759910d4164dd47",
+        "bytes": 951
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/burrow_dust_fx_02.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-078.png",
+        "sha256": "f2af95345d2d8e26804b27a680b921631582874ab6fdb190bf4969a740fd59bd",
+        "bytes": 2173
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/burrow_dust_fx_03.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-079.png",
+        "sha256": "8c650dacd80af463a12fc1706632096e5f2479aaa2999c2f145a6e82aba63189",
+        "bytes": 3635
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/burrow_dust_fx_04.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-080.png",
+        "sha256": "132d606abc877affdb1987227ec2303dfe12428bc60a4361f964480ecc96dc67",
+        "bytes": 3223
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/burrow_dust_fx_05.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-081.png",
+        "sha256": "d904fbe5bcfc8582fe80aa0e6906b3b5ed2817d1f6039364c18873cdfee1ba05",
+        "bytes": 2376
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/burrow_dust_fx_06.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-082.png",
+        "sha256": "95077c5c65b28d0a997e6c88caa12d289c94c6fb0b8df94cc42cefcb09769a6b",
+        "bytes": 1644
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/burrow_dust_fx_07.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-083.png",
+        "sha256": "f1d6c8331400f3f6d4ca1115fd68698ce627fb491a999f3a7c1ec096e800f712",
+        "bytes": 1183
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/hit_00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/hit_01.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-041.png",
+        "sha256": "0d30b2595cd5b63bd373919001c289bc67ab1bf27d95e99168476a6160ad5c44",
+        "bytes": 11723
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/hit_02.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-042.png",
+        "sha256": "3abd58c1d441bc6c1ed1f8b129b2719450e99851166b666501afc9c355a33ea5",
+        "bytes": 11968
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/hit_03.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-043.png",
+        "sha256": "fdf59c7ab4097c8567308a53d8fd4c299b5c3f95a19550a1f393fed7b2459c70",
+        "bytes": 12095
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/hit_04.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-044.png",
+        "sha256": "7080610cb095528878b87cd05ce67103561095002b65c08b01b940ea8867758e",
+        "bytes": 11927
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/hit_05.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_01.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-001.png",
+        "sha256": "23c9b13bf868ab67debd90aa99f0e7d1a1ee84b58793d06d2c9bb867de1c3c9f",
+        "bytes": 11955
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_02.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-002.png",
+        "sha256": "c3160fa7d695dded9505d25262a13c099a73b8b81ff09071199a87caf253e3c6",
+        "bytes": 11985
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_03.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-003.png",
+        "sha256": "57c4c11da5a46b37b719a1ece4d398af1f7e61766650ca071cd684d41c8bacd0",
+        "bytes": 11993
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_04.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-004.png",
+        "sha256": "be6f2648ae2c7892030de7c5c7d5f6402022b73457565b8266cdbb856e6a8a9f",
+        "bytes": 11914
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_05.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-005.png",
+        "sha256": "2b6eeb552f5c0ef23b0ca702811f7c3913ede07c43e7e16c66c94dc684e5653f",
+        "bytes": 12044
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_06.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-006.png",
+        "sha256": "5246f7faf330aeb6c365f6c13d9791fcbccf00f581acc0cb4cd9d903fc4efc44",
+        "bytes": 11815
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_07.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-007.png",
+        "sha256": "8c77286d6f297c3feced5a15d6dc4e2d8c0f16847f7ec7315bef21df48e7f5f6",
+        "bytes": 11714
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_08.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-008.png",
+        "sha256": "a2c3416ff8c39c8c02aee9b650265c915e84cd589dad00ed08f8650c7d3668c8",
+        "bytes": 11700
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_09.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-009.png",
+        "sha256": "25ad2203fff1f3f9c89ac7787096cc904a10597be1995f919e02b45bcae82157",
+        "bytes": 11654
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_10.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-010.png",
+        "sha256": "0c0842fc02b91f38008b4b95252316bfe23b5ad84a44e23643d8fc2f77090994",
+        "bytes": 11589
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/idle_11.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-011.png",
+        "sha256": "ae574085bd2b21bb1781c964de6586964b149760701c9df25b57db0735af8a7d",
+        "bytes": 11552
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/ko_00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/ko_01.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-047.png",
+        "sha256": "5167d2ef98c0181fac13167ed893684df20627b3eca020e4db0b690fa0ce3155",
+        "bytes": 12152
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/ko_02.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-048.png",
+        "sha256": "a66cc18dcddca152ef605502f3eafb177e433e3e8835b702d21fb1fd1f24fa3d",
+        "bytes": 11502
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/ko_03.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-049.png",
+        "sha256": "d62952bbe8165e90d01b53c156b0575b2cf68b5fb9d465cd1279e16c725a360c",
+        "bytes": 10288
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/ko_04.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-050.png",
+        "sha256": "70e48189521c8cace6ffc942a19f710582b005284cf33bd529de218a099bb01e",
+        "bytes": 9766
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/ko_05.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-051.png",
+        "sha256": "aafdd92172f6c9c4caf472616073763ae679251be638e11443a1fcc3cc73f809",
+        "bytes": 8570
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/ko_06.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-052.png",
+        "sha256": "160ad0cc7cdf5485a7e3a365f27f7d4f60d95610c3f0b03631618ba63cf6ee2e",
+        "bytes": 7439
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/ko_07.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-053.png",
+        "sha256": "6626088d2c03101262a55a7a807e93aa67e4616676fb7c32f0be93a235e0dc99",
+        "bytes": 7409
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/power_up_00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/power_up_01.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-055.png",
+        "sha256": "dfb29e4accea232ee38f4865b14a81aefc60adaf858b147e751f44fed6492a68",
+        "bytes": 12460
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/power_up_02.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-056.png",
+        "sha256": "4776ed37dfdeaefcee450ffc9d968d813658eba5fc1a6bbbaa29bc44be1b0f02",
+        "bytes": 12333
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/power_up_03.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-057.png",
+        "sha256": "45917b9e11852da0e034f137d0cce18b614fbda848f861ddb94897446affa2f2",
+        "bytes": 12358
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/power_up_04.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-058.png",
+        "sha256": "12f33db012435c8fc61dbb499f8922206ab475a1116071eb45bc569b163e8d31",
+        "bytes": 12229
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/power_up_05.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-059.png",
+        "sha256": "140f7be452ea3fe6a7c5850499553997c857aaa679a32be281f7c4da9171988a",
+        "bytes": 12157
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/power_up_06.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-060.png",
+        "sha256": "59828d93288ba21b23d623f7c2d6d44ec4785d789d2d129fea4aa6284650fbe0",
+        "bytes": 11833
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/power_up_07.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-061.png",
+        "sha256": "7e9d803dcc22a63e08607cd0c92c1348054fb62be6e137ef627267902d60526d",
+        "bytes": 11653
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/power_up_08.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-062.png",
+        "sha256": "3af065d2d60acbe1b0ddcbf0bac1458564b66f74c9235921625a1bc15ec2218f",
+        "bytes": 11579
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/power_up_09.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-063.png",
+        "sha256": "6fae9474e2eb34d403acc743204d6cdfc8d2225be12a299030e14312ad1ffd54",
+        "bytes": 11590
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/power_up_10.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "bytes": 12185
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/red_laser_fx_00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-090.png",
+        "sha256": "c64b3b2f22f73c562ea4fee1c8924e3910e543e4934f8341fce143e50f1da07a",
+        "bytes": 618
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/red_laser_fx_01.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-091.png",
+        "sha256": "e490387efdeacfa85e64aca8efaf17be42e67c43c5d8bdde1804cd61d5092ae8",
+        "bytes": 686
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/red_laser_fx_02.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-092.png",
+        "sha256": "f84a625dfd22521882939fc682c5b8a8bc9b14a9909bcd2d62d052bfc33290d7",
+        "bytes": 618
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/red_laser_fx_03.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-093.png",
+        "sha256": "e8b74f2193ed15aea18da3f1c20c5704aed9436c60fa4a09e27402f15ba3c521",
+        "bytes": 610
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/turn_00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+        "bytes": 9194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/turn_01.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-027.png",
+        "sha256": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
+        "bytes": 11925
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/turn_02.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-067.png",
+        "sha256": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
+        "bytes": 11516
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/turn_03.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-029.png",
+        "sha256": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
+        "bytes": 11530
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/turn_04.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-030.png",
+        "sha256": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
+        "bytes": 10776
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/turn_05.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-031.png",
+        "sha256": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
+        "bytes": 11424
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/turn_06.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-071.png",
+        "sha256": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
+        "bytes": 11931
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/turn_07.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-034.png",
+        "sha256": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
+        "bytes": 11369
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/turn_08.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-073.png",
+        "sha256": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
+        "bytes": 11296
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/turn_09.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-074.png",
+        "sha256": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
+        "bytes": 11430
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/turn_10.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+        "bytes": 9194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_00.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+        "bytes": 9194
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_01.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-013.png",
+        "sha256": "ee312e682fea2a0214a0c5d6abf4b7c89e10d2c5d2515c30defba4aa5ba21c67",
+        "bytes": 9208
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_02.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-014.png",
+        "sha256": "fd300eba348acf533888f425a21bd9ab4f94a8f1375b2ca3bd4e0056c899a847",
+        "bytes": 9201
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_03.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-015.png",
+        "sha256": "b2255cd097b24ce7f95919848bba93215a9d4a2cea27ecc8e5d42dac9a1f86f5",
+        "bytes": 9250
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_04.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-016.png",
+        "sha256": "00e2dcdef9c5b1f3f8673b01c43e54477e9c9856c4b5f87f17fb7e772eaa70f2",
+        "bytes": 9198
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_05.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-017.png",
+        "sha256": "7bc2fc9ee5f68627064e778955fa0bbd4ef6d8d479add95579b2eedd98cffd1d",
+        "bytes": 9239
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_06.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-018.png",
+        "sha256": "23a388e180ce3208db5a1e64e8400f1ffccf58b0e8b939be95105aa633ce5e43",
+        "bytes": 9366
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_07.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-019.png",
+        "sha256": "78fd67c399b06a800fb92aa4fb9d48b4741e51f46bf92bfe89ede4d75ff1ceab",
+        "bytes": 9176
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_08.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-020.png",
+        "sha256": "610f322a6aa2054a86e77d446b873b7f58bbcc6d25b4eb0b832f3175424d967a",
+        "bytes": 9146
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_09.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-021.png",
+        "sha256": "4780e74a072b0ec5317052984007013f7fc1001ad8ee51d8c061a35de2b6d2a8",
+        "bytes": 9202
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_10.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-022.png",
+        "sha256": "ef973762539c6572eac0b278e898ab64817dcb341ab0f4044102d5331dc53f59",
+        "bytes": 9154
+      },
+      {
+        "removed": "work/characters/chilopoda/identity-v2/stage/raw_frames/walk_11.png",
+        "retained": "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-023.png",
+        "sha256": "df7fc9a251df75c2d3093a25a3e66dffd167bf01f1efe090b6cdfa8fb1bddd0c",
+        "bytes": 9124
+      }
+    ]
+  },
+  "finalization_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 51,
+    "godot_bundles": 8,
+    "godot_action_tests": 5,
+    "rust_tests": 2,
+    "wasm_release_build_exit_code": 0,
+    "runtime_art_and_timing_frozen": true,
+    "http_atlas_and_wasm_hash_parity": true,
+    "zip_approved_metadata_and_atlas_hash_parity": true,
+    "all_eight_characters_owner_approved": true,
+    "log": "work/characters/chilopoda/identity-v2/verification/finalization-loop-test.log",
+    "parity_evidence": "work/characters/chilopoda/identity-v2/verification/finalization-http-zip-parity.json"
+  },
+  "status": "completed_owner_approved",
+  "completed_at": "2026-11-13T08:25:19.479017+00:00"
+}

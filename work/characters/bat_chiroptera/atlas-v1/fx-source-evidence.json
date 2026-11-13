@@ -1,0 +1,70 @@
+{
+  "palette_source": "generated/sonic_screech_fx.png",
+  "palette_source_sha256": "69798b51c7c4f40d48046ec7f88139033633139416ccb26675cc49192c14a2c1",
+  "purple_hue": 0.7722222222222221,
+  "phases": [
+    {
+      "phase": 0,
+      "source": "assets/pteranodon/clips/frames/frame-54.png",
+      "source_sha256": "e44fa65445e86116ae16a8d3163391a064d8f33146956eba47f00f920c891e7f",
+      "palette_only_before_scale": true,
+      "source_alpha_preserved_before_scale": true,
+      "hue_from_imagegen": 0.7722222222222221,
+      "uniform_fx_scale": 0.8
+    },
+    {
+      "phase": 1,
+      "source": "assets/pteranodon/clips/frames/frame-55.png",
+      "source_sha256": "bb380f36360551fd46381cd03afb0da251eaf55e32c174dd6fb4a1d81a287d83",
+      "palette_only_before_scale": true,
+      "source_alpha_preserved_before_scale": true,
+      "hue_from_imagegen": 0.7722222222222221,
+      "uniform_fx_scale": 0.8
+    },
+    {
+      "phase": 2,
+      "source": "assets/pteranodon/clips/frames/frame-56.png",
+      "source_sha256": "e829d0ed3ce76f39418c819c3370060c4dabea4db9bb1a55450b1ce984b8fbe3",
+      "palette_only_before_scale": true,
+      "source_alpha_preserved_before_scale": true,
+      "hue_from_imagegen": 0.7722222222222221,
+      "uniform_fx_scale": 0.8
+    },
+    {
+      "phase": 3,
+      "source": "assets/pteranodon/clips/frames/frame-57.png",
+      "source_sha256": "0b489a85dc3e977ee413544e2de0b8bd3b9a410d29c53b5c5c421c59cbafcbdb",
+      "palette_only_before_scale": true,
+      "source_alpha_preserved_before_scale": true,
+      "hue_from_imagegen": 0.7722222222222221,
+      "uniform_fx_scale": 0.8
+    },
+    {
+      "phase": 4,
+      "source": "assets/pteranodon/clips/frames/frame-58.png",
+      "source_sha256": "0441f00b5f349c2ca55e7a15f3063abac357317fac6c021698d7f7de6ca9cdca",
+      "palette_only_before_scale": true,
+      "source_alpha_preserved_before_scale": true,
+      "hue_from_imagegen": 0.7722222222222221,
+      "uniform_fx_scale": 0.8
+    },
+    {
+      "phase": 5,
+      "source": "assets/pteranodon/clips/frames/frame-59.png",
+      "source_sha256": "f588f2edcce062f9a41b41549959a483d3aea88f38be4b0a38e7a08784fd4f31",
+      "palette_only_before_scale": true,
+      "source_alpha_preserved_before_scale": true,
+      "hue_from_imagegen": 0.7722222222222221,
+      "uniform_fx_scale": 0.8
+    },
+    {
+      "phase": 6,
+      "source": "assets/pteranodon/clips/frames/frame-60.png",
+      "source_sha256": "51304dfb11a23669694af8d2150d0bbc75aa29feebc2a5493d217620f1baae19",
+      "palette_only_before_scale": true,
+      "source_alpha_preserved_before_scale": true,
+      "hue_from_imagegen": 0.7722222222222221,
+      "uniform_fx_scale": 0.8
+    }
+  ]
+}

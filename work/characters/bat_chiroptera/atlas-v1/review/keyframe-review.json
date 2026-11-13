@@ -1,0 +1,31 @@
+{
+  "status": "owner_approved",
+  "method": "imagegen_complete_body_keyframes",
+  "checks": {
+    "body_connections": true,
+    "whole_pose_sequence": true,
+    "perspective_turns": true,
+    "phase_timing": true,
+    "three_backgrounds": true,
+    "character_identity": true
+  },
+  "unresolved_structural_failures": [],
+  "owner_approved": true,
+  "filmstrips_opened": [
+    "idle",
+    "walk",
+    "run",
+    "attack_light",
+    "power_up",
+    "hit",
+    "ko",
+    "sonic_screech_fx"
+  ],
+  "visual_evidence": "Each full filmstrip opened with light/dark/checker rows. Real-time browser on all3backgrounds; all61pose indices observed. New complete Bat poses rather than cut/warp rigs. No turn clip in requested Pteranodon set; horizontal direction selection only, no cardflip spin.",
+  "realtime_evidence": "work/characters/bat_chiroptera/atlas-v1/verification/offline-realtime.json",
+  "limitations": "Owner accepted this exact revision. Browser sampling limits remain in QA; no mobile60FPS certification.",
+  "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
+  "naturalness_verdict": "owner_approved",
+  "approved_at": "2026-11-13T06:34:45.229155+00:00",
+  "owner_message": "ok bat anh chốt luôn tiến hành chốt theo qui trình để qua char tiếp theo"
+}

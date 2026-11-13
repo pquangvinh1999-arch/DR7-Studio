@@ -1,0 +1,591 @@
+{
+  "schema": "dr7-studio.owner_approval_receipt.v1",
+  "status": "owner_approved",
+  "workflow_id": "PIPE-008",
+  "character_id": "chilopoda",
+  "display_name": "Chilopoda",
+  "approved_at": "2026-11-13T08:22:39.853349+00:00",
+  "owner_message": "todo thêm turn cho các nhân vật kia em làm xong chưa? tính toán xem còn 7% quota có thể hoàn thành được không? sau khi xong chilopoda giúp anh chốt nhân vật sau đó trả lời 2 câu hỏi trên",
+  "approval_basis": "Owner explicitly requests finalization of completed identity-v2 shown in the preceding delivery. No image or timing change during finalization.",
+  "approved_revision": "identity-v2 / v0.11.1",
+  "release_version": "0.11.1",
+  "atlas_path": "assets/chilopoda/godot_bundle/godot/chilopoda-atlas-00.png",
+  "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+  "tres_path": "assets/chilopoda/godot_bundle/godot/chilopoda.tres",
+  "tres_sha256": "a8b122ad2d7e46e346171b298e161de884126534320d3da5c06071ba53196234",
+  "prefab_path": "scenes/Chilopoda.tscn",
+  "prefab_sha256": "7e12bea607acfe5208a36d2b250b0d251ae08c2aa8e6d27a0dca0d588d3fe211",
+  "clips_manifest_path": "assets/chilopoda/clips/animation-clips.json",
+  "clips_manifest_sha256": "5293d4feffc9d9e168305facadd2d90a9abf18d99910631bda918c8a35961b8c",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "body_only_bbox_px": {
+    "x": 98,
+    "y": 154,
+    "w": 160,
+    "h": 70
+  },
+  "full_fx_bbox_px": {
+    "x": 84,
+    "y": 146,
+    "w": 254,
+    "h": 78
+  },
+  "present_clips": [
+    "idle",
+    "walk",
+    "turn",
+    "attack_light",
+    "power_up",
+    "hit",
+    "ko"
+  ],
+  "effect_clips": [
+    "burrow_dust_fx",
+    "antenna_glow_fx",
+    "red_laser_fx"
+  ],
+  "excluded_clips": [
+    "run",
+    "jump",
+    "guard",
+    "attack_heavy",
+    "aura_loop",
+    "win"
+  ],
+  "canonical_identity": {
+    "path": "work/characters/chilopoda/identity-v2/canonical/master.png",
+    "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "owner_approval": "work/characters/chilopoda/identity-v2/canonical/approval.json"
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "turn",
+      "attack_light",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "burrow_dust_fx",
+      "antenna_glow_fx",
+      "red_laser_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "patrol": {
+        "enabled": true,
+        "speed_px_per_second": 32,
+        "default_bounds_px": [
+          80,
+          880
+        ],
+        "on_endpoint": "burrow_turn_then_reverse_walk"
+      }
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "projectile": null,
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 36,
+      "method": "burrow_reorient_while_hidden",
+      "mirror_sequence_for_reverse": false,
+      "facing_commit_tick": 16,
+      "owner_instruction": "Owner: Chilopoda chui xuống đất đổi hướng rồi trồi lên hướng đầu ngược lại, thay xoay vòng."
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "chilopoda": {
+      "ground_y": 224,
+      "anchor_px": [
+        176,
+        224
+      ],
+      "target_ground_canvas_px": [
+        304,
+        224
+      ],
+      "target_hit_height_px": 24,
+      "burrow": {
+        "body_clip": "attack_light",
+        "dive_start_tick": 4,
+        "hidden_start_tick": 24,
+        "emerge_start_tick": 54,
+        "emerge_end_tick": 66,
+        "bite_tick": 69,
+        "complete_tick": 90,
+        "hidden_ticks": 30,
+        "maximum_depth_px": 128,
+        "bite_offset_x_px": 48,
+        "entry_fx_start_tick": 8,
+        "exit_fx_start_tick": 54,
+        "dust_lifetime_ticks": 16,
+        "dust_clip": "burrow_dust_fx",
+        "after_bite": "remain_at_target_then_idle",
+        "top_y_by_frame": [
+          154,
+          150,
+          161,
+          179,
+          157,
+          111,
+          114,
+          138,
+          149,
+          148,
+          159,
+          150,
+          149,
+          147,
+          146,
+          154
+        ],
+        "frame_ticks": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          30,
+          4,
+          4,
+          4,
+          3,
+          3,
+          4,
+          4,
+          4,
+          6
+        ]
+      },
+      "laser": {
+        "body_clip": "power_up",
+        "release_tick": 16,
+        "glow_end_tick": 24,
+        "glow_clip": "antenna_glow_fx",
+        "projectile_clip": "red_laser_fx",
+        "speed_px_per_tick": 24,
+        "two_independent_origins": true,
+        "target_radius_px": 2,
+        "tip_anchors_by_frame": [
+          [
+            [
+              257,
+              160
+            ],
+            [
+              257,
+              170
+            ]
+          ],
+          [
+            [
+              263,
+              157
+            ],
+            [
+              263,
+              164
+            ]
+          ],
+          [
+            [
+              263,
+              160
+            ],
+            [
+              265,
+              167
+            ]
+          ],
+          [
+            [
+              265,
+              173
+            ],
+            [
+              261,
+              180
+            ]
+          ],
+          [
+            [
+              264,
+              184
+            ],
+            [
+              260,
+              196
+            ]
+          ],
+          [
+            [
+              261,
+              188
+            ],
+            [
+              255,
+              199
+            ]
+          ],
+          [
+            [
+              261,
+              178
+            ],
+            [
+              257,
+              189
+            ]
+          ],
+          [
+            [
+              260,
+              172
+            ],
+            [
+              258,
+              181
+            ]
+          ],
+          [
+            [
+              257,
+              168
+            ],
+            [
+              256,
+              177
+            ]
+          ],
+          [
+            [
+              255,
+              164
+            ],
+            [
+              255,
+              175
+            ]
+          ],
+          [
+            [
+              257,
+              160
+            ],
+            [
+              257,
+              170
+            ]
+          ]
+        ],
+        "on_hit": "hide_projectile",
+        "one_shot": true,
+        "release_frame": 3
+      },
+      "burrow_turn": {
+        "body_clip": "turn",
+        "dive_start_tick": 3,
+        "hidden_start_tick": 16,
+        "emerge_start_tick": 22,
+        "emerge_end_tick": 34,
+        "hidden_ticks": 6,
+        "complete_tick": 36,
+        "relocate": false,
+        "entry_fx_start_tick": 3,
+        "exit_fx_start_tick": 22,
+        "dust_lifetime_ticks": 16,
+        "dust_clip": "burrow_dust_fx",
+        "frame_ticks": [
+          3,
+          3,
+          3,
+          3,
+          10,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2
+        ],
+        "after_turn": "resume_walk_in_opposite_direction",
+        "facing_change": "only_while_body_fully_hidden",
+        "top_y_by_frame": [
+          198,
+          179,
+          157,
+          111,
+          114,
+          138,
+          148,
+          159,
+          150,
+          149,
+          198
+        ]
+      }
+    }
+  },
+  "qa_report": "docs/characters/chilopoda-identity-v2-qa.json",
+  "frozen_source": "work/characters/chilopoda/approved-final-frames/animation-clips.json",
+  "approved_runtime_files_sha256": {
+    "assets/chilopoda/clips/contact-sheet.png": "bbc750d3959f8f69aa3fa9852334abcc07d86c8a65584f314d5a08a1cd20564f",
+    "assets/chilopoda/clips/review/onion-08.png": "5f4510a7d584815568be08c71feea8f21835717342a6e45c353f55d28393f196",
+    "assets/chilopoda/clips/review/filmstrip-09.png": "10f567eee7745c0ea9d718e632befc0de8c49d2de35d331cdc028ea781e38598",
+    "assets/chilopoda/clips/review/onion-00.png": "c481cfaaaa127483cbf75937dab9ae5fab24b1d246bfed7689144f5a83b54645",
+    "assets/chilopoda/clips/review/onion-06.png": "d000fb0955adede3999f0b92c877c43fa21b5f3090132aebb99616403e1b97ff",
+    "assets/chilopoda/clips/review/onion-05.png": "af392f4f7b2ccc522ca236228d76af580fdff13c0e2c108d24f838a38cbae614",
+    "assets/chilopoda/clips/review/filmstrip-01.png": "d87d1f30412a064430f8d784297b7bf5baec00166188965083040af7e88d686e",
+    "assets/chilopoda/clips/review/filmstrip-00.png": "9152718f97b4e1e90f16d375ef403871d884eac2b957f28114cde73261090730",
+    "assets/chilopoda/clips/review/onion-03.png": "f23e710c275588263f59c67fdabd40488bdfbe4daf3a2bb2b0466b3500c80ac8",
+    "assets/chilopoda/clips/review/filmstrip-06.png": "2f7c93ed293921c2321936297b0d93e657e611cbd3af6b2653d4f54a331e0fcf",
+    "assets/chilopoda/clips/review/onion-01.png": "31a9b44568917ec8339ef8fc050e3ed46fc46aeaefa874ab2594f4c2f5b5cb89",
+    "assets/chilopoda/clips/review/filmstrip-03.png": "0f1a6c74f6c31bf6ba60582eb5f499d9606e9f5548ea05c0baf97e6de69bf2a0",
+    "assets/chilopoda/clips/review/onion-04.png": "4faf2f6243bdd381bb301d4df272e9b736a87fa35f023f56a251c42b4dca44b4",
+    "assets/chilopoda/clips/review/turn-test.png": "e4744445b4bf8f29df134317d3ae99442ba86b79b554cdaa7d64b4138fe81c21",
+    "assets/chilopoda/clips/review/filmstrip-04.png": "6d980276f901ca49933c8f2413a976f4927ff749736a81321dfb9c828b102ef5",
+    "assets/chilopoda/clips/review/onion-07.png": "1954ef273cd58a380f9a0a74b281091fa52e1835c64c43b8a962926d9e32efb3",
+    "assets/chilopoda/clips/review/filmstrip-05.png": "8805d067e28687f80039c6d6d7b1f555780e23eab2dd02f4c5cd830add800627",
+    "assets/chilopoda/clips/review/filmstrip-08.png": "819a8b4a0bc222bde3605f5a5c5f30077ed28d71033ba2ad4dd8c2ad62e177db",
+    "assets/chilopoda/clips/review/onion-02.png": "a6253a65f913e6fdc314e567e47b4469dafcde3d06349feb07044f1103943cc6",
+    "assets/chilopoda/clips/review/filmstrip-02.png": "9f44f6c20dd8abd3e92f59557a1f8a3718f531564e07ca8cfa5237c02ed4fa95",
+    "assets/chilopoda/clips/review/filmstrip-07.png": "7b9d602545faa6d4b420b8fa9db80b38bec8410a3be9909a444960506eb88789",
+    "assets/chilopoda/clips/review/onion-09.png": "059d03ca33ae470897af76ab1528235f6b279d922a9260aeb6027e81332cad02",
+    "assets/chilopoda/clips/frames/frame-32.png": "0fdb02ed9da70639df0cb6677e9484c092c645cc9d6b40619c4a57406ca54afa",
+    "assets/chilopoda/clips/frames/frame-53.png": "6626088d2c03101262a55a7a807e93aa67e4616676fb7c32f0be93a235e0dc99",
+    "assets/chilopoda/clips/frames/frame-16.png": "00e2dcdef9c5b1f3f8673b01c43e54477e9c9856c4b5f87f17fb7e772eaa70f2",
+    "assets/chilopoda/clips/frames/frame-92.png": "f84a625dfd22521882939fc682c5b8a8bc9b14a9909bcd2d62d052bfc33290d7",
+    "assets/chilopoda/clips/frames/frame-25.png": "caecb420c4005ef00a67a03ea19d7c0ebc6f9273dd68769dcc9609c0092ed843",
+    "assets/chilopoda/clips/frames/frame-54.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/clips/frames/frame-90.png": "c64b3b2f22f73c562ea4fee1c8924e3910e543e4934f8341fce143e50f1da07a",
+    "assets/chilopoda/clips/frames/frame-47.png": "5167d2ef98c0181fac13167ed893684df20627b3eca020e4db0b690fa0ce3155",
+    "assets/chilopoda/clips/frames/frame-07.png": "8c77286d6f297c3feced5a15d6dc4e2d8c0f16847f7ec7315bef21df48e7f5f6",
+    "assets/chilopoda/clips/frames/frame-45.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/clips/frames/frame-50.png": "70e48189521c8cace6ffc942a19f710582b005284cf33bd529de218a099bb01e",
+    "assets/chilopoda/clips/frames/frame-24.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/clips/frames/frame-20.png": "610f322a6aa2054a86e77d446b873b7f58bbcc6d25b4eb0b832f3175424d967a",
+    "assets/chilopoda/clips/frames/frame-60.png": "59828d93288ba21b23d623f7c2d6d44ec4785d789d2d129fea4aa6284650fbe0",
+    "assets/chilopoda/clips/frames/frame-67.png": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
+    "assets/chilopoda/clips/frames/frame-84.png": "1c927d381b52eb2a38ce3111ac539b82dc0209175172b1a9f6f9ae651b0190ad",
+    "assets/chilopoda/clips/frames/frame-34.png": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
+    "assets/chilopoda/clips/frames/frame-80.png": "132d606abc877affdb1987227ec2303dfe12428bc60a4361f964480ecc96dc67",
+    "assets/chilopoda/clips/frames/frame-87.png": "6cd3f34464ee351da027bb9cd443535293e83cdbf8fb1e414b6181be87ac41c7",
+    "assets/chilopoda/clips/frames/frame-30.png": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
+    "assets/chilopoda/clips/frames/frame-05.png": "2b6eeb552f5c0ef23b0ca702811f7c3913ede07c43e7e16c66c94dc684e5653f",
+    "assets/chilopoda/clips/frames/frame-93.png": "e8b74f2193ed15aea18da3f1c20c5704aed9436c60fa4a09e27402f15ba3c521",
+    "assets/chilopoda/clips/frames/frame-19.png": "78fd67c399b06a800fb92aa4fb9d48b4741e51f46bf92bfe89ede4d75ff1ceab",
+    "assets/chilopoda/clips/frames/frame-12.png": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+    "assets/chilopoda/clips/frames/frame-75.png": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+    "assets/chilopoda/clips/frames/frame-43.png": "fdf59c7ab4097c8567308a53d8fd4c299b5c3f95a19550a1f393fed7b2459c70",
+    "assets/chilopoda/clips/frames/frame-42.png": "3abd58c1d441bc6c1ed1f8b129b2719450e99851166b666501afc9c355a33ea5",
+    "assets/chilopoda/clips/frames/frame-76.png": "aa41b4158a9be7fe3eae725d31574b431178cdd403176c74c988e802ef28eaab",
+    "assets/chilopoda/clips/frames/frame-88.png": "98d985442706a31c557b3bf36ef791d14f5d99cead59195b8042c0f1b0d4f296",
+    "assets/chilopoda/clips/frames/frame-55.png": "dfb29e4accea232ee38f4865b14a81aefc60adaf858b147e751f44fed6492a68",
+    "assets/chilopoda/clips/frames/frame-57.png": "45917b9e11852da0e034f137d0cce18b614fbda848f861ddb94897446affa2f2",
+    "assets/chilopoda/clips/frames/frame-01.png": "23c9b13bf868ab67debd90aa99f0e7d1a1ee84b58793d06d2c9bb867de1c3c9f",
+    "assets/chilopoda/clips/frames/frame-26.png": "2b6517027548ecea9b3847420d5e4745177465c5b34e87e98ad983f0204d11bf",
+    "assets/chilopoda/clips/frames/frame-62.png": "3af065d2d60acbe1b0ddcbf0bac1458564b66f74c9235921625a1bc15ec2218f",
+    "assets/chilopoda/clips/frames/frame-28.png": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
+    "assets/chilopoda/clips/frames/frame-59.png": "140f7be452ea3fe6a7c5850499553997c857aaa679a32be281f7c4da9171988a",
+    "assets/chilopoda/clips/frames/frame-33.png": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
+    "assets/chilopoda/clips/frames/frame-09.png": "25ad2203fff1f3f9c89ac7787096cc904a10597be1995f919e02b45bcae82157",
+    "assets/chilopoda/clips/frames/frame-72.png": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
+    "assets/chilopoda/clips/frames/frame-04.png": "be6f2648ae2c7892030de7c5c7d5f6402022b73457565b8266cdbb856e6a8a9f",
+    "assets/chilopoda/clips/frames/frame-48.png": "a66cc18dcddca152ef605502f3eafb177e433e3e8835b702d21fb1fd1f24fa3d",
+    "assets/chilopoda/clips/frames/frame-81.png": "d904fbe5bcfc8582fe80aa0e6906b3b5ed2817d1f6039364c18873cdfee1ba05",
+    "assets/chilopoda/clips/frames/frame-51.png": "aafdd92172f6c9c4caf472616073763ae679251be638e11443a1fcc3cc73f809",
+    "assets/chilopoda/clips/frames/frame-68.png": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
+    "assets/chilopoda/clips/frames/frame-40.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/clips/frames/frame-36.png": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
+    "assets/chilopoda/clips/frames/frame-17.png": "7bc2fc9ee5f68627064e778955fa0bbd4ef6d8d479add95579b2eedd98cffd1d",
+    "assets/chilopoda/clips/frames/frame-39.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/clips/frames/frame-46.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/clips/frames/frame-82.png": "95077c5c65b28d0a997e6c88caa12d289c94c6fb0b8df94cc42cefcb09769a6b",
+    "assets/chilopoda/clips/frames/frame-86.png": "3e7e8dd77a2eb7ff7694aee80e98f2ceaa36b207e37bcf5c6b7b9e6ec913c650",
+    "assets/chilopoda/clips/frames/frame-78.png": "f2af95345d2d8e26804b27a680b921631582874ab6fdb190bf4969a740fd59bd",
+    "assets/chilopoda/clips/frames/frame-13.png": "ee312e682fea2a0214a0c5d6abf4b7c89e10d2c5d2515c30defba4aa5ba21c67",
+    "assets/chilopoda/clips/frames/frame-79.png": "8c650dacd80af463a12fc1706632096e5f2479aaa2999c2f145a6e82aba63189",
+    "assets/chilopoda/clips/frames/frame-69.png": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
+    "assets/chilopoda/clips/frames/frame-64.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/clips/frames/frame-73.png": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
+    "assets/chilopoda/clips/frames/frame-38.png": "5b3902f97e7f8bddf7614b79b0748acad9779433f051b0f4b7f8af92cce36be6",
+    "assets/chilopoda/clips/frames/frame-44.png": "7080610cb095528878b87cd05ce67103561095002b65c08b01b940ea8867758e",
+    "assets/chilopoda/clips/frames/frame-70.png": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
+    "assets/chilopoda/clips/frames/frame-37.png": "2bb735e69eb97753406e2c570436cdbfe39ea759868d806dd5db30810d08e944",
+    "assets/chilopoda/clips/frames/frame-00.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/clips/frames/frame-29.png": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
+    "assets/chilopoda/clips/frames/frame-49.png": "d62952bbe8165e90d01b53c156b0575b2cf68b5fb9d465cd1279e16c725a360c",
+    "assets/chilopoda/clips/frames/frame-06.png": "5246f7faf330aeb6c365f6c13d9791fcbccf00f581acc0cb4cd9d903fc4efc44",
+    "assets/chilopoda/clips/frames/frame-61.png": "7e9d803dcc22a63e08607cd0c92c1348054fb62be6e137ef627267902d60526d",
+    "assets/chilopoda/clips/frames/frame-03.png": "57c4c11da5a46b37b719a1ece4d398af1f7e61766650ca071cd684d41c8bacd0",
+    "assets/chilopoda/clips/frames/frame-22.png": "ef973762539c6572eac0b278e898ab64817dcb341ab0f4044102d5331dc53f59",
+    "assets/chilopoda/clips/frames/frame-89.png": "98297c6cb19f362068f0562590395e93079724241f07af34a47c2b5dfebeaf7d",
+    "assets/chilopoda/clips/frames/frame-65.png": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+    "assets/chilopoda/clips/frames/frame-02.png": "c3160fa7d695dded9505d25262a13c099a73b8b81ff09071199a87caf253e3c6",
+    "assets/chilopoda/clips/frames/frame-41.png": "0d30b2595cd5b63bd373919001c289bc67ab1bf27d95e99168476a6160ad5c44",
+    "assets/chilopoda/clips/frames/frame-35.png": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
+    "assets/chilopoda/clips/frames/frame-21.png": "4780e74a072b0ec5317052984007013f7fc1001ad8ee51d8c061a35de2b6d2a8",
+    "assets/chilopoda/clips/frames/frame-56.png": "4776ed37dfdeaefcee450ffc9d968d813658eba5fc1a6bbbaa29bc44be1b0f02",
+    "assets/chilopoda/clips/frames/frame-74.png": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
+    "assets/chilopoda/clips/frames/frame-77.png": "46fa835123167e74e6597ee08e4f4a4241e33652743aee056759910d4164dd47",
+    "assets/chilopoda/clips/frames/frame-14.png": "fd300eba348acf533888f425a21bd9ab4f94a8f1375b2ca3bd4e0056c899a847",
+    "assets/chilopoda/clips/frames/frame-71.png": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
+    "assets/chilopoda/clips/frames/frame-52.png": "160ad0cc7cdf5485a7e3a365f27f7d4f60d95610c3f0b03631618ba63cf6ee2e",
+    "assets/chilopoda/clips/frames/frame-10.png": "0c0842fc02b91f38008b4b95252316bfe23b5ad84a44e23643d8fc2f77090994",
+    "assets/chilopoda/clips/frames/frame-31.png": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
+    "assets/chilopoda/clips/frames/frame-27.png": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
+    "assets/chilopoda/clips/frames/frame-91.png": "e490387efdeacfa85e64aca8efaf17be42e67c43c5d8bdde1804cd61d5092ae8",
+    "assets/chilopoda/clips/frames/frame-85.png": "2e1c822cf5ed006064c2f497350bb959807d8279962d805f225cd75ca7a35d37",
+    "assets/chilopoda/clips/frames/frame-66.png": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
+    "assets/chilopoda/clips/frames/frame-18.png": "23a388e180ce3208db5a1e64e8400f1ffccf58b0e8b939be95105aa633ce5e43",
+    "assets/chilopoda/clips/frames/frame-23.png": "df7fc9a251df75c2d3093a25a3e66dffd167bf01f1efe090b6cdfa8fb1bddd0c",
+    "assets/chilopoda/clips/frames/frame-58.png": "12f33db012435c8fc61dbb499f8922206ab475a1116071eb45bc569b163e8d31",
+    "assets/chilopoda/clips/frames/frame-83.png": "f1d6c8331400f3f6d4ca1115fd68698ce627fb491a999f3a7c1ec096e800f712",
+    "assets/chilopoda/clips/frames/frame-08.png": "a2c3416ff8c39c8c02aee9b650265c915e84cd589dad00ed08f8650c7d3668c8",
+    "assets/chilopoda/clips/frames/frame-63.png": "6fae9474e2eb34d403acc743204d6cdfc8d2225be12a299030e14312ad1ffd54",
+    "assets/chilopoda/clips/frames/frame-11.png": "ae574085bd2b21bb1781c964de6586964b149760701c9df25b57db0735af8a7d",
+    "assets/chilopoda/clips/frames/frame-15.png": "b2255cd097b24ce7f95919848bba93215a9d4a2cea27ecc8e5d42dac9a1f86f5",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/chilopoda.tres": "81aa937acc66854ab0b20e3b12eb91926e2e2b89b4c8bab15a4e100ea676d23b",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/chilopoda.tscn": "7a320563c40fa31616c6b21040c0bc2dc19197ce6efacc23f09b5d63b4d81aec",
+    "assets/chilopoda/godot_bundle/aseprite/chilopoda.png": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+    "assets/chilopoda/godot_bundle/godot/chilopoda-atlas-00.png": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+    "assets/chilopoda/godot_bundle/godot/chilopoda.tres": "a8b122ad2d7e46e346171b298e161de884126534320d3da5c06071ba53196234",
+    "assets/chilopoda/godot_bundle/godot/chilopoda.tscn": "1bd2787d2ff86d30f2839d5709caf1d4fe937616c48534c19c24094c5343806f",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-042.png": "3abd58c1d441bc6c1ed1f8b129b2719450e99851166b666501afc9c355a33ea5",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-053.png": "6626088d2c03101262a55a7a807e93aa67e4616676fb7c32f0be93a235e0dc99",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-047.png": "5167d2ef98c0181fac13167ed893684df20627b3eca020e4db0b690fa0ce3155",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-083.png": "f1d6c8331400f3f6d4ca1115fd68698ce627fb491a999f3a7c1ec096e800f712",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-084.png": "1c927d381b52eb2a38ce3111ac539b82dc0209175172b1a9f6f9ae651b0190ad",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-003.png": "57c4c11da5a46b37b719a1ece4d398af1f7e61766650ca071cd684d41c8bacd0",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-041.png": "0d30b2595cd5b63bd373919001c289bc67ab1bf27d95e99168476a6160ad5c44",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-072.png": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-064.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-065.png": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-002.png": "c3160fa7d695dded9505d25262a13c099a73b8b81ff09071199a87caf253e3c6",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-039.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-075.png": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-061.png": "7e9d803dcc22a63e08607cd0c92c1348054fb62be6e137ef627267902d60526d",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-069.png": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-082.png": "95077c5c65b28d0a997e6c88caa12d289c94c6fb0b8df94cc42cefcb09769a6b",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-028.png": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-062.png": "3af065d2d60acbe1b0ddcbf0bac1458564b66f74c9235921625a1bc15ec2218f",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-081.png": "d904fbe5bcfc8582fe80aa0e6906b3b5ed2817d1f6039364c18873cdfee1ba05",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-085.png": "2e1c822cf5ed006064c2f497350bb959807d8279962d805f225cd75ca7a35d37",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-080.png": "132d606abc877affdb1987227ec2303dfe12428bc60a4361f964480ecc96dc67",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-024.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-067.png": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-021.png": "4780e74a072b0ec5317052984007013f7fc1001ad8ee51d8c061a35de2b6d2a8",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-057.png": "45917b9e11852da0e034f137d0cce18b614fbda848f861ddb94897446affa2f2",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-005.png": "2b6eeb552f5c0ef23b0ca702811f7c3913ede07c43e7e16c66c94dc684e5653f",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-014.png": "fd300eba348acf533888f425a21bd9ab4f94a8f1375b2ca3bd4e0056c899a847",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-026.png": "2b6517027548ecea9b3847420d5e4745177465c5b34e87e98ad983f0204d11bf",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-017.png": "7bc2fc9ee5f68627064e778955fa0bbd4ef6d8d479add95579b2eedd98cffd1d",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-091.png": "e490387efdeacfa85e64aca8efaf17be42e67c43c5d8bdde1804cd61d5092ae8",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-037.png": "2bb735e69eb97753406e2c570436cdbfe39ea759868d806dd5db30810d08e944",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-051.png": "aafdd92172f6c9c4caf472616073763ae679251be638e11443a1fcc3cc73f809",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-045.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-030.png": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-076.png": "aa41b4158a9be7fe3eae725d31574b431178cdd403176c74c988e802ef28eaab",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-015.png": "b2255cd097b24ce7f95919848bba93215a9d4a2cea27ecc8e5d42dac9a1f86f5",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-008.png": "a2c3416ff8c39c8c02aee9b650265c915e84cd589dad00ed08f8650c7d3668c8",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-090.png": "c64b3b2f22f73c562ea4fee1c8924e3910e543e4934f8341fce143e50f1da07a",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-012.png": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-020.png": "610f322a6aa2054a86e77d446b873b7f58bbcc6d25b4eb0b832f3175424d967a",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-044.png": "7080610cb095528878b87cd05ce67103561095002b65c08b01b940ea8867758e",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-007.png": "8c77286d6f297c3feced5a15d6dc4e2d8c0f16847f7ec7315bef21df48e7f5f6",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-004.png": "be6f2648ae2c7892030de7c5c7d5f6402022b73457565b8266cdbb856e6a8a9f",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-011.png": "ae574085bd2b21bb1781c964de6586964b149760701c9df25b57db0735af8a7d",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-059.png": "140f7be452ea3fe6a7c5850499553997c857aaa679a32be281f7c4da9171988a",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-052.png": "160ad0cc7cdf5485a7e3a365f27f7d4f60d95610c3f0b03631618ba63cf6ee2e",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-079.png": "8c650dacd80af463a12fc1706632096e5f2479aaa2999c2f145a6e82aba63189",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-050.png": "70e48189521c8cace6ffc942a19f710582b005284cf33bd529de218a099bb01e",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-077.png": "46fa835123167e74e6597ee08e4f4a4241e33652743aee056759910d4164dd47",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-023.png": "df7fc9a251df75c2d3093a25a3e66dffd167bf01f1efe090b6cdfa8fb1bddd0c",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-034.png": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-066.png": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-027.png": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-089.png": "98297c6cb19f362068f0562590395e93079724241f07af34a47c2b5dfebeaf7d",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-022.png": "ef973762539c6572eac0b278e898ab64817dcb341ab0f4044102d5331dc53f59",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-035.png": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-033.png": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-009.png": "25ad2203fff1f3f9c89ac7787096cc904a10597be1995f919e02b45bcae82157",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-010.png": "0c0842fc02b91f38008b4b95252316bfe23b5ad84a44e23643d8fc2f77090994",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-025.png": "caecb420c4005ef00a67a03ea19d7c0ebc6f9273dd68769dcc9609c0092ed843",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-088.png": "98d985442706a31c557b3bf36ef791d14f5d99cead59195b8042c0f1b0d4f296",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-071.png": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-006.png": "5246f7faf330aeb6c365f6c13d9791fcbccf00f581acc0cb4cd9d903fc4efc44",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-068.png": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-000.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-032.png": "0fdb02ed9da70639df0cb6677e9484c092c645cc9d6b40619c4a57406ca54afa",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-040.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-063.png": "6fae9474e2eb34d403acc743204d6cdfc8d2225be12a299030e14312ad1ffd54",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-078.png": "f2af95345d2d8e26804b27a680b921631582874ab6fdb190bf4969a740fd59bd",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-048.png": "a66cc18dcddca152ef605502f3eafb177e433e3e8835b702d21fb1fd1f24fa3d",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-060.png": "59828d93288ba21b23d623f7c2d6d44ec4785d789d2d129fea4aa6284650fbe0",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-087.png": "6cd3f34464ee351da027bb9cd443535293e83cdbf8fb1e414b6181be87ac41c7",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-038.png": "5b3902f97e7f8bddf7614b79b0748acad9779433f051b0f4b7f8af92cce36be6",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-043.png": "fdf59c7ab4097c8567308a53d8fd4c299b5c3f95a19550a1f393fed7b2459c70",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-056.png": "4776ed37dfdeaefcee450ffc9d968d813658eba5fc1a6bbbaa29bc44be1b0f02",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-093.png": "e8b74f2193ed15aea18da3f1c20c5704aed9436c60fa4a09e27402f15ba3c521",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-092.png": "f84a625dfd22521882939fc682c5b8a8bc9b14a9909bcd2d62d052bfc33290d7",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-058.png": "12f33db012435c8fc61dbb499f8922206ab475a1116071eb45bc569b163e8d31",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-016.png": "00e2dcdef9c5b1f3f8673b01c43e54477e9c9856c4b5f87f17fb7e772eaa70f2",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-046.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-055.png": "dfb29e4accea232ee38f4865b14a81aefc60adaf858b147e751f44fed6492a68",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-036.png": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-013.png": "ee312e682fea2a0214a0c5d6abf4b7c89e10d2c5d2515c30defba4aa5ba21c67",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-074.png": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-001.png": "23c9b13bf868ab67debd90aa99f0e7d1a1ee84b58793d06d2c9bb867de1c3c9f",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-018.png": "23a388e180ce3208db5a1e64e8400f1ffccf58b0e8b939be95105aa633ce5e43",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-049.png": "d62952bbe8165e90d01b53c156b0575b2cf68b5fb9d465cd1279e16c725a360c",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-029.png": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-054.png": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-070.png": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-031.png": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-019.png": "78fd67c399b06a800fb92aa4fb9d48b4741e51f46bf92bfe89ede4d75ff1ceab",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-073.png": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
+    "assets/chilopoda/godot_bundle/godot-sprite3d/frames/frame-086.png": "3e7e8dd77a2eb7ff7694aee80e98f2ceaa36b207e37bcf5c6b7b9e6ec913c650",
+    "assets/chilopoda/clips/animation-clips.json": "5293d4feffc9d9e168305facadd2d90a9abf18d99910631bda918c8a35961b8c",
+    "assets/chilopoda/clips/source-manifest.json": "8e1c6aac8fe1d89096e70df17e1cc987eb1d181caff9bf1fb9bc6b840c72371a",
+    "scenes/Chilopoda.tscn": "7e12bea607acfe5208a36d2b250b0d251ae08c2aa8e6d27a0dca0d588d3fe211",
+    "scenes/ChilopodaFighter2D.gd": "348aa3b0542eb1b91ca4a8ef928812660d47058efe94bd7a67c001fb08ce8738",
+    "scenes/ChilopodaGroundClip.gdshader": "5ad4297c43f9a649df4dcf3ed693f6f0e923babd9723cf6974dcd9a1d51c70da"
+  },
+  "approval_scope": "Final identity-v2 with selected formerpower_up1 identity; all7bodyactions/3FXclips, burrowturn bothways, attack30tickhidden/remain target, twinredantenna lasers. Freeze art/order/ticks/events/anchors/runtime shaders. Future revisions need new acceptance.",
+  "known_technical_limits": "27 shortpose observations not captured by RAF in30headless browser sequences; static filmstrips reviewed and deterministic440tickraster/endpoint evidence retained. Owner acceptance does not certify mobile60FPS.",
+  "engine_export_path": "assets/chilopoda/godot_bundle/engine-export.json",
+  "engine_export_sha256": "0918740e3dcc4b7650c2e5439739da1c56ace3ce7462dd4b46cf1edf77225cb3"
+}

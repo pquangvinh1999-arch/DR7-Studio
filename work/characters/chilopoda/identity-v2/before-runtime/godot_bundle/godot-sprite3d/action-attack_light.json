@@ -1,0 +1,107 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "attack_light",
+  "frame_size": [
+    384,
+    256
+  ],
+  "output_origin": [
+    176.0,
+    224.0
+  ],
+  "sprite3d_offset": [
+    16.0,
+    96.0
+  ],
+  "reference_subject_height_px": 59.0,
+  "world_height": 0.59,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.59,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 94,
+  "fps": 10.666666666666666,
+  "frames": [
+    "frames/frame-024.png",
+    "frames/frame-025.png",
+    "frames/frame-026.png",
+    "frames/frame-027.png",
+    "frames/frame-028.png",
+    "frames/frame-029.png",
+    "frames/frame-030.png",
+    "frames/frame-031.png",
+    "frames/frame-032.png",
+    "frames/frame-033.png",
+    "frames/frame-034.png",
+    "frames/frame-035.png",
+    "frames/frame-036.png",
+    "frames/frame-037.png",
+    "frames/frame-038.png",
+    "frames/frame-039.png"
+  ],
+  "frame_sha256": [
+    "7e2a248a09f0f897368d5eac619a5a3bea30d9367abf98bfdea6bafa0162e64a",
+    "b0aa17c9d780a79f52f51ab923253082f5f56353cb111c30041b45ad879320bb",
+    "157b3a3ea6055e306c982f6f1ab709dbad73b55dd663869ff79d352f97f7ee9b",
+    "146f622ade1251a94ad81c5b8e5636f07d6d710bcdee430fa19029c8cb0f2f55",
+    "71693a46cb9c55bc0b529607e06cbf3d5d77fb1ee3b2f4bf84e05758eafb8918",
+    "3c97bf1dbae7ee57fd41c1ab7d5f31e2ee1865f93c3f4cef2db1fdacf768744b",
+    "853ffb57760c181f31ec0e381fadaf132e49f25bb165d93fe70cd68c2f45730c",
+    "13e8194a05ca20b8340477a861eb8f3227877c231ec810166723dba9639722fe",
+    "32d404d69263e868e6928deab3248f0a272e91f4a45493666a6382b2a1b67ae7",
+    "e833353f8fbe3371f788a64ae187f0061a5a2cbdcb57730cde3ef13db6cd1540",
+    "db566e3ed8356cc1bb57deff345bb3dee4a5a1771a0ec197ae3b94860a28967e",
+    "5076f065d0931f35c0c5562fe900dbe7b28246bc92e5f8841a75bf74e5e751a2",
+    "3f8d9ab2e85fa00a1f1f7ba9520e04731b246a20a81a9cb021139595fda2071b",
+    "9549f2df7d6166c13247b932cf279e341364e237625a9fdc8c077df6cc6cbf68",
+    "d15dab559bae2ee51c4266b0b67b91ad057104b0a303dd1864635398a342e0b7",
+    "7e2a248a09f0f897368d5eac619a5a3bea30d9367abf98bfdea6bafa0162e64a"
+  ],
+  "durations_ms": [
+    67,
+    66,
+    67,
+    67,
+    66,
+    67,
+    500,
+    67,
+    66,
+    67,
+    50,
+    50,
+    67,
+    66,
+    67,
+    100
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": [
+    {
+      "name": "custom:burrow_hidden",
+      "at_ms": 400,
+      "at": 6,
+      "position": 6
+    },
+    {
+      "name": "custom:burrow_emerge",
+      "at_ms": 900,
+      "at": 7,
+      "position": 7
+    },
+    {
+      "name": "hit",
+      "at_ms": 1150,
+      "at": 11,
+      "position": 11
+    },
+    {
+      "name": "end",
+      "at_ms": 1400,
+      "at": 15,
+      "position": 15
+    }
+  ]
+}

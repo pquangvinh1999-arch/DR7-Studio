@@ -1,0 +1,56 @@
+{
+  "file": "/workspaces/DR7-Studio/work/characters/chilopoda/demo-v1/master.png",
+  "file_sha256": "7e2a248a09f0f897368d5eac619a5a3bea30d9367abf98bfdea6bafa0162e64a",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "body_bbox_px": [
+    98,
+    165,
+    157,
+    59
+  ],
+  "visible_pixels": 2081,
+  "rgb_colors": 2015,
+  "edge_acutance_sobel": 172.881,
+  "alpha_hardness_pct": 100.0,
+  "visible_alpha_hardness_pct": 100.0,
+  "minimum_horizontal_constant_rgba_run_px": 1,
+  "single_pixel_run_fraction": 0.9995192307692308,
+  "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+  "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+  "art_source": "host_image",
+  "route": "image_gen",
+  "source_file": "generated-original.png",
+  "source_sha256": "f72c34f6102b3e58d2a58131ddc5bdcc39e887747643b8288e80790b64ca528a",
+  "source_size_px": [
+    1774,
+    887
+  ],
+  "source_whole_bbox": [
+    71,
+    131,
+    1691,
+    743
+  ],
+  "source_alpha_threshold": 128,
+  "uniform_registration_buffer_px": [
+    157,
+    59
+  ],
+  "reference_character": "sarcosuchus",
+  "reference_body_bbox": [
+    89,
+    190,
+    157,
+    34
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "owner_approved": false,
+  "technical_checks": "static measurements only",
+  "motion_quality": "not_applicable_static_demo"
+}

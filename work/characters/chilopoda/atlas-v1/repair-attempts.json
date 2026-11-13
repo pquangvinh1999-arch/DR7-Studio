@@ -1,0 +1,70 @@
+{
+  "max_cycles_per_issue": 5,
+  "issues": [
+    {
+      "id": "CHILO-TURN-BURROW",
+      "request": "Owner replaces surface rotation with burrow/reorient/emerge in both directions",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "command": "./loop.sh test",
+          "exit_code": 1,
+          "log_path": "verification/loop-burrow-turn-1.log",
+          "remaining_failure": "Unreviewed new turn and provisional roster status blocked check as intended; perspective-only gate did not express Owner burrow mechanism.",
+          "change": "Record explicit Owner burrow mechanism, review both runtime strips; require burrow_turn_bidirectional instead of claiming perspective rotation; retain remaining structural gates."
+        },
+        {
+          "attempt_number": 2,
+          "command": "./loop.sh test",
+          "exit_code": 0,
+          "log_path": "verification/loop-burrow-turn-2.log",
+          "remaining_failure": null,
+          "change": "Whole-pose burrow turn installed; explicit Owner mechanism gate; pixel/Node/native bidirectional checks and visual review."
+        }
+      ],
+      "status": "resolved_technical_and_self_review_pending_owner"
+    },
+    {
+      "id": "CHILO-TURN-DUPLICATE-HOLD",
+      "status": "resolved",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "command": "build_animation_clips.py --strict",
+          "exit_code": 1,
+          "remaining_failure": "Clip turn holds near-identical frames [70, 71] at positions [4, 5] (167 ms)",
+          "change": "Merge two identical complete-body hidden-hold poses, preserving36ticks and hidden16..21; no duplicated phase"
+        }
+      ],
+      "verification": {
+        "strict_build_exit_code": 0,
+        "warnings": 0,
+        "frames": 95,
+        "turn_poses": 11,
+        "duration_ticks": 36
+      }
+    },
+    {
+      "id": "CHILO-BROWSER-OBSERVER",
+      "status": "resolved",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "command": "verify_burrow_browser.py",
+          "exit_code": 1,
+          "log_path": "verification/browser-burrow-turn.log",
+          "remaining_failure": "KO reached last frame but final hold had not finished within nominal wall-clock wait; previous observation callback carried over.",
+          "change": "Isolate observers with run token and wait for actual oneshot completion, retaining measured timing limitations."
+        },
+        {
+          "attempt_number": 2,
+          "command": "verify_burrow_browser.py",
+          "exit_code": 0,
+          "log_path": "verification/browser-burrow-turn-2.log",
+          "remaining_failure": null,
+          "change": "Run-isolated callback and actual completion wait. 30sequences,0pageerrors;25 missed short-pose observations explicitly recorded."
+        }
+      ]
+    }
+  ]
+}

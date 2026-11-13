@@ -1,0 +1,53 @@
+{
+  "status": "static_master_ready_for_owner_review",
+  "character_id": "chilopoda",
+  "art_source": "host_image",
+  "route": "image_gen",
+  "owner_approved": false,
+  "master_sha256": "7e2a248a09f0f897368d5eac619a5a3bea30d9367abf98bfdea6bafa0162e64a",
+  "body_bbox_px": [
+    98,
+    165,
+    157,
+    59
+  ],
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "size_reference": "Sarcosuchus idle0 width157px; same gameplay silhouette width, own aspect ratio.",
+  "owner_pose_request": "Posterior half horizontal parallel to ground; anterior half progressively bends upward and forward into an attack-ready hook.",
+  "visual_review": {
+    "opened": [
+      "comparison-light.png",
+      "comparison-dark.png",
+      "comparison-checker.png"
+    ],
+    "scales": [
+      1,
+      2
+    ],
+    "observations": "Full centipede body retained as one still; low posterior run, rising curved front, forward/downward hooked head, segment-connected legs. Same ground baseline as crocodile. Owner pose/style/size acceptance pending."
+  },
+  "technical_checks": {
+    "registration_command_exit_code": 0,
+    "body_alpha_hardness_pct": 100.0,
+    "measured_sobel": 172.881,
+    "reference_sobel": 245.516,
+    "no_forced_sharpness_scalar": true,
+    "protected_runtime_files_unchanged": 1310,
+    "engine_checks": "not_run_static_still_only"
+  },
+  "motion_quality": "not_applicable_static_demo",
+  "sources": {
+    "original": "generated-original.png",
+    "prompt": "prompt.txt",
+    "registration": "build_review.py",
+    "metrics": "measurements.json"
+  },
+  "limits": "Static demo only; no animation, atlas or roster entry. Numeric sharpness does not certify anatomy, visual acceptance or motion quality."
+}

@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=3]
+[ext_resource type="Script" path="res://scenes/ChilopodaFighter2D.gd" id="1"]
+[ext_resource type="SpriteFrames" path="res://assets/chilopoda/godot_bundle/godot/chilopoda.tres" id="2"]
+[ext_resource type="Script" path="res://tests/SkillAnimator2D.gd" id="3"]
+[node name="Chilopoda" type="Node2D"]
+script = ExtResource("1")
+character_id = "chilopoda"
+engine_export_json = "res://assets/chilopoda/godot_bundle/engine-export.json"
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = ExtResource("2")
+animation = &"idle"
+autoplay = "idle"
+centered = false
+offset = Vector2(-176, -224)
+[node name="DustFX" type="AnimatedSprite2D" parent="."]
+visible = false
+texture_filter = 1
+sprite_frames = ExtResource("2")
+animation = &"burrow_dust_fx"
+centered = false
+offset = Vector2(-176, -128)
+[node name="Glow0" type="AnimatedSprite2D" parent="."]
+visible = false
+texture_filter = 1
+sprite_frames = ExtResource("2")
+animation = &"antenna_glow_fx"
+centered = false
+offset = Vector2(-176, -128)
+[node name="Glow1" type="AnimatedSprite2D" parent="."]
+visible = false
+texture_filter = 1
+sprite_frames = ExtResource("2")
+animation = &"antenna_glow_fx"
+centered = false
+offset = Vector2(-176, -128)
+[node name="Laser0" type="AnimatedSprite2D" parent="."]
+visible = false
+texture_filter = 1
+sprite_frames = ExtResource("2")
+animation = &"red_laser_fx"
+centered = false
+offset = Vector2(-176, -128)
+[node name="Laser1" type="AnimatedSprite2D" parent="."]
+visible = false
+texture_filter = 1
+sprite_frames = ExtResource("2")
+animation = &"red_laser_fx"
+centered = false
+offset = Vector2(-176, -128)
+[node name="SkillAnimator" type="Node2D" parent="."]
+script = ExtResource("3")

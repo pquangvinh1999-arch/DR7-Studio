@@ -1,9 +1,9 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-13T05:05:35.819071+00:00",
+  "updated_at": "2026-11-13T08:47:08.284836+00:00",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
-    "version": "0.9.1",
+    "version": "0.11.1",
     "version_history": [
       {
         "version": "0.1.0",
@@ -69,6 +69,21 @@
         "version": "0.9.1",
         "date": "2026-11-13T04:44:48.416845+00:00",
         "summary": "Dilophosaurus idle/power motion correction; turn and all other clips/FX retained. Owner review pending."
+      },
+      {
+        "version": "0.10.0",
+        "date": "2026-11-13T06:24:02.087047+00:00",
+        "summary": "Bat - Chiroptera demo: Pteranodon-equivalent animation set with purple sonic wave; Owner Human Test pending."
+      },
+      {
+        "version": "0.11.0",
+        "date": "2026-11-13T07:23:44.533736+00:00",
+        "summary": "Chilopoda demo:burrow30tickhidden/bite,newtargetposition,twinantennaeredlasers,realturn/endpointpatrol. Defaultturnconstitution+skill/TODO forfuturepeers."
+      },
+      {
+        "version": "0.11.1",
+        "date": "2026-11-13T08:13:07.867147+00:00",
+        "summary": "Owner-selected Chilopoda power_up1 promoted as exact canonical; all body actions regenerated to match, old master removed from ready poses. Gameplay timing/FX/turn contracts preserved."
       }
     ],
     "genre": "2D Dragon Ball Real-Time Mass Action / RPG",
@@ -109,14 +124,17 @@
     "version_file": "VERSION"
   },
   "current_focus": {
-    "active_task_id": "TASK-063",
-    "status": "completed_pushed_main_ready_for_next_character",
-    "summary": "Published approved v0.9.1 session to origin/main at source commit bafbf1bcdf03f68dfb68e529914335b15168c9fd. Sarcosuchus/Dilophosaurus finalized;6approvedcharacters. Root2PNG+2.import removed with canonical sources preserved. Local41Python/E2E+6Godot+3ticktests+2Rust andWASM exit0;GitHubActions43369485195 success. Art/timing unchanged; ready for next character.",
-    "concept_file": "work/characters/dilophosaurus/concept.json",
-    "review_image": "work/characters/dilophosaurus/master-review/frill-v2/comparison-checker.png",
-    "atlas_plan": "work/characters/dilophosaurus/atlas-v1/plan.json",
-    "preview_url": "http://localhost:8080/?character=dilophosaurus&clip=power_up&frame=0&paused=1",
-    "qa_report": "docs/characters/dilophosaurus-motion-v2-qa.json"
+    "active_task_id": "TASK-074",
+    "status": "pickup_local_verified_pending_push",
+    "summary": "v0.11.1 pickup local verification complete: full51Python/E2E+8Godot+5action+2Rust andWASM exit0; clean stagedcheckout51tests exit0. Sources/frozenframes/AGYhandoff included; local ZIP/extractedprojects excluded. Commit/push main and verify CI next.",
+    "character_id": "chilopoda",
+    "concept_file": "work/characters/chilopoda/demo-v1/spec.json",
+    "review_image": "work/characters/chilopoda/identity-v2/review/filmstrip-power_up.png",
+    "master_image": "work/characters/chilopoda/identity-v2/canonical/master.png",
+    "qa_report": "docs/characters/chilopoda-identity-v2-qa.json",
+    "atlas_plan": "work/characters/chilopoda/identity-v2/plan.json",
+    "preview_url": "http://localhost:8080/?character=chilopoda&clip=power_up&frame=0&paused=1",
+    "repair_ledger": "work/characters/chilopoda/identity-v2/repair-attempts.json"
   },
   "open_issues": [
     {
@@ -543,6 +561,71 @@
       "status": "completed",
       "summary": "Published approved v0.9.1 session to origin/main at source commit bafbf1bcdf03f68dfb68e529914335b15168c9fd. Sarcosuchus/Dilophosaurus finalized;6approvedcharacters. Root2PNG+2.import removed with canonical sources preserved. Local41Python/E2E+6Godot+3ticktests+2Rust andWASM exit0;GitHubActions43369485195 success. Art/timing unchanged; ready for next character.",
       "completed_at": "2026-11-13T05:05:35.819071+00:00"
+    },
+    {
+      "id": "TASK-064",
+      "timestamp": "2026-11-13T06:00:09.313589+00:00",
+      "status": "static_master_ready_for_owner_review",
+      "summary": "Bat - Chiroptera static demo via built-in image_gen, Owner requested20% smaller and same hover/open-wing camera asPteranodon. Measured reference idle157x107; Bat126x81px (157*.8=125.6 rounded126), canvas384x256/anchor176200,alpha100%,Sobel331.422 (not forced). Whole still extraction then uniformNearest/crop/register only. Opened3backgrounds at1x/2x. MasterSHAb8656aaba4eb84dc255f24096d889bcb848fb6cb7af53403476ad10372d7555d.1138runtimefiles unchanged. AwaitOwnerstaticmasterreview; noatlas/animation/roster edits or engine/motion certification."
+    },
+    {
+      "id": "TASK-065",
+      "timestamp": "2026-11-13T06:30:37.041311+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Bat - Chiroptera v0.10.0 demo ready:Owner requests Pteranodon-equivalent7bodyactions/54newcompleteposes+7purpleFXphases. Rest126x81/anchor176200;61frames/8clips/1page3106x2082 atlasSHA6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a. Sameallclip ticks/events;sonicbody2/tick10/TTL14,mouth225165.44Python/E2E+7Godotbundles+4FXtests+2Rust exit0,WASM0,standaloneZIPimport/bundle/sonic0. Browser24sequences0errors;5FXposeobservationsmissed,offlineall61poses/3bgobserved;live40tickcontract+HTTPatlas/WASMhashparitytrue.1137runtimepeerfilesunchanged. Allfilmstrips/composite3bgreviewed. OwnerHumanTestpending,noPIPE/skills.md."
+    },
+    {
+      "id": "TASK-066",
+      "timestamp": "2026-11-13T06:36:29.138687+00:00",
+      "status": "completed",
+      "summary": "Bat - Chiroptera Owner-approved v0.10.0; PIPE-007/receipt/frozenfinalframes complete. AtlasSHA6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a,61frames/8clips,126x81/anchor176200,purple7phaseFX,allart/order/ticks/events unchanged.150runtimefiles frozen;1137existingpeerfiles unchanged.203byte-identical stagingPNGs/7630027bytes removed with SHAmap; source/master/review preserved. Final45Python/E2E+7Godotbundles+4FXtests+2Rust exit0,WASM0;HTTPatlas/WASMhash+ZIPapprovedmetadata/paritytrue,all7release_approved=true. Ready for next Owner character; no new art/timing edits."
+    },
+    {
+      "id": "TASK-067",
+      "timestamp": "2026-11-13T06:42:04.695960+00:00",
+      "status": "static_master_ready_for_owner_review",
+      "summary": "Chilopoda staticmasterdemo generated built-inimagegen perOwner:157pxwide equalSarcosuchus,posteriorhalf horizontal atground,anteriorhalfcurvedup/forwardhook attackready. Measured157x59px,bbox9816515759,canvas384x256,anchor176224,hardalpha100%,Sobel172.881(notforced). MasterSHA7e2a248a09f0f897368d5eac619a5a3bea30d9367abf98bfdea6bafa0162e64a. Openedlight/dark/checker1x/2xcomparisonboards.1310runtimefiles unchanged;7approvedcharacters preserved. Staticpose/style/sizependingOwner;noanimation/atlas/roster."
+    },
+    {
+      "id": "TASK-069",
+      "status": "completed_documentation_only",
+      "summary": "Owner mandates defaultturn fornewatlases,KingCrabexempt. AGENTS+create_atlas/generate2dsprite/video2dsprite aligned; added100point hardgatecontract andserialBat/Trex/Ptera/SarcoTODO gatedonChilopodaOwnerapproval. Noapprovedpeerart/timingchanged."
+    },
+    {
+      "id": "TASK-070",
+      "timestamp": "2026-11-13T07:40:22.319831+00:00",
+      "status": "completed_documentation_only",
+      "summary": "Owner caps loop.sh repair at 5 cycles per issue; AGENTS Article5, four relevant skills and turn contract/TODO aligned. Persist attempt counts and logs across sessions; unresolved cycle5 must stop and report Owner. Chilopoda remains the active animation task."
+    },
+    {
+      "id": "TASK-068",
+      "timestamp": "2026-11-13T07:51:53.272358+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Chilopoda95frames/10clips/80cells/1page3494x2342 atlasSHA c7361548fbd2b570f8bd67c6ef2d9f4935bf63f05165a5c7bb5fb517770f2445. Owner burrow turn11wholeposes/36tick, hidden16..21 commit16, no relocation, bothendpoint autoreverse. Attack hidden24..53/bite69/staytarget, two independentredbolts16/disappear onhit.49Python/E2E+8Godotbundles+5actiontests+2Rust exit0 cycle2, WASM0; 30browsersequences0errors/25 missedshortposeobservationsreported, actualraster440ticks+bothendpoints, HTTP/ZIP215files parity, standaloneimport/bundles/actions0.9nonturnclip pixels/ticks and1309peerfiles unchanged. Finalmotion/Ownerapprovalpending; noPIPE008, oldturnbacklognotstarted."
+    },
+    {
+      "id": "TASK-071",
+      "timestamp": "2026-11-13T08:17:58.030937+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Chilopoda identity-v2: Owner selects oldpower_up1 SHAe0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3 as canonical160x70; allbodyactions redrawn wholepose,8ready slots exactRGBA,oldpower1..10 retained,18FX phases unchanged. Powerhold0+1 merged8ticks/indexrelease4→3,42total/release16 unchanged.94refs/10clips/76cells/1page3494x2342 atlasSHA6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d. loop50Python/E2E+8Godotbundle+5actiontests+2Rust exit0 cycle1,WASM0;30browserseq0errors/27missedshortposeobservationsreported;440rasterticks and2endpoints verified,HTTPZIP213files hashparity.1309peerfiles unchanged. Ownerfinalmotion/identityacceptance pending, noPIPE008."
+    },
+    {
+      "id": "TASK-072",
+      "timestamp": "2026-11-13T08:25:19.479017+00:00",
+      "status": "completed",
+      "summary": "Chilopoda finalized/PIPE008:atlasSHA6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d;221runtimefiles and1309peerfilesunchanged;306identicalstagePNGs/8377649bytescleaned.51Python/E2E+8Godotbundle+5actiontests+2Rust/WASMexit0;HTTPatlas/WASM+ZIP213files ownerapproved8/paritytrue. Turntodo0/4 unchanged;3newturnclips+Sarco4frameaudit/fix;16core direction/runtimecases. Quota7%Ownerreported,noactualcapacitytelemetry; recommend oneBat first, no promiseall4 and no generationstarted."
+    },
+    {
+      "id": "TASK-073",
+      "timestamp": "2026-11-13T08:37:25.404999+00:00",
+      "status": "completed_documentation_only",
+      "summary": "Created AGY-TURN-HANDOFF.md: constitution links/current0of4 state, canonical paths, wholebody bidirectional turn and endpoint steps, oldreceipt/frozen-test migration pitfalls, technical export/QA/log/5cyclecap, Owneracceptance/100pointgates and copy-paste agy task. Linked fromTODO; no art/runtime modifications."
+    },
+    {
+      "id": "TASK-074",
+      "timestamp": "2026-11-13T08:45:02.779468+00:00",
+      "status": "in_progress",
+      "summary": "Publish Owner-approved v0.11.1 workspace for agy pickup after full technical/source checks."
     }
   ],
   "quick_resume_commands": [
@@ -551,12 +634,26 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Chờ Owner mô tả nhân vật tiếp theo. Phiên v0.9.1 đã push main; không sửa các nhân vật đã chốt nếu chưa có yêu cầu.",
-    "asset_status": "6 nhân vật Owner-approved: t_rex,spinosaurus,pteranodon,tasmanian_king_crab,sarcosuchus,dilophosaurus.",
-    "approval_file": "assets/dilophosaurus/owner_approval.json",
-    "cleanup_report": "docs/releases/v0.9.1-root-cleanup.json",
-    "verification": "docs/releases/v0.9.1-main-handoff.json",
+    "next_action": "Complete v0.11.1 pickup push and verify origin/main+CI. Then next authorized turnbacklog itemBat; follow docs/AGY-TURN-HANDOFF.md.",
+    "asset_status": "8 nhân vật Owner-approved; Chilopoda identity-v2/v0.11.1 frozen at approved-final-frames.",
+    "approval_file": "assets/chilopoda/owner_approval.json",
+    "cleanup_report": "docs/releases/v0.11.1-chilopoda-finalization.json",
+    "verification": "docs/releases/v0.11.1-chilopoda-finalization.json",
     "git_checkpoint": {
+      "branch": "main",
+      "remote": "origin",
+      "release_version": "0.11.1",
+      "source_code_commit": null,
+      "ci_status": "pending_push",
+      "note": "Local pickup verified. Resolve actual published commit/CI after git push; previousv0.9.1 checkpoint preserved separately."
+    },
+    "active_character_concept": "work/characters/chilopoda/identity-v2/plan.json",
+    "review_evidence": "work/characters/chilopoda/identity-v2/verification/identity-frame-proof.json",
+    "latest_delivery": "assets/chilopoda/godot_bundle",
+    "preview_url": "http://localhost:8080/?character=chilopoda&clip=power_up&frame=0&paused=1",
+    "local_version": "0.11.1",
+    "handoff_guide": "docs/AGY-TURN-HANDOFF.md",
+    "previous_git_checkpoint": {
       "branch": "main",
       "remote": "origin",
       "source_code_commit": "bafbf1bcdf03f68dfb68e529914335b15168c9fd",
@@ -564,12 +661,7 @@
       "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43369485195",
       "verified_at": "2026-11-13T05:05:35.819071+00:00",
       "note": "Source release commit verified on origin/main and CI success. A following documentation commit records this handoff; no asset/timing changes."
-    },
-    "active_character_concept": "work/characters/dilophosaurus/concept.json",
-    "review_evidence": "work/characters/dilophosaurus/motion-v2/review/keyframe-review.json",
-    "latest_delivery": "assets/dilophosaurus/godot_bundle",
-    "preview_url": "http://localhost:8080/?character=dilophosaurus&clip=power_up&frame=0&paused=1",
-    "local_version": "0.9.1"
+    }
   },
   "approved_workflows": [
     {
@@ -619,6 +711,22 @@
       "approved_at": "2026-11-13T04:57:15.924909+00:00",
       "approval_file": "assets/dilophosaurus/owner_approval.json",
       "atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157"
+    },
+    {
+      "id": "PIPE-007",
+      "character_id": "bat_chiroptera",
+      "display_name": "Bat - Chiroptera",
+      "approved_at": "2026-11-13T06:34:45.229155+00:00",
+      "approval_file": "assets/bat_chiroptera/owner_approval.json",
+      "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a"
+    },
+    {
+      "id": "PIPE-008",
+      "character_id": "chilopoda",
+      "display_name": "Chilopoda",
+      "approved_at": "2026-11-13T08:22:39.853349+00:00",
+      "approval_file": "assets/chilopoda/owner_approval.json",
+      "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d"
     }
   ],
   "owner_defaults": {
@@ -660,5 +768,55 @@
     ],
     "status_command_exit_code": 0,
     "instruction_precedence": "Hiến pháp Owner cung cấp trong phiên hiện tại ưu tiên ghi chép engine_evaluation cũ trong state.json; chưa thay đổi kiến trúc hoặc asset."
+  },
+  "turn_policy": {
+    "default": "Required for all newcharacteratlases unless Owner explicitly exempts",
+    "exception": "KingCrab sidewayslocomotion,no turn",
+    "contract": "docs/art-standards/turn-contract.md",
+    "bidirectional_gate": "Independently verify right-to-left and left-to-right, bothendpoints, actualperspective wholebodyposes; no cardflip",
+    "backlog": "docs/turn-retrofit-todo.md",
+    "retrofit_order": [
+      "bat_chiroptera",
+      "t_rex",
+      "pteranodon",
+      "sarcosuchus"
+    ],
+    "retrofit_gate": "Chilopoda Owner-approved and finalchecks exit0; Bat gate open. Still serialOwneracceptance before advancing eachcharacter.",
+    "score": "10evidencegates x10points,100/100 onlyallgates+Owneraccepted; not AIpercentidentity",
+    "chilopoda_exception": "Owner-authorized burrow/reorient while fully hidden/emerge in opposite direction; both endpoints and directions independently verified. Future retrofit list remains gated on Chilopoda final approval."
+  },
+  "repair_loop_policy": {
+    "owner_requested_at": "2026-11-13",
+    "constitution": "AGENTS.md:68",
+    "max_cycles_per_issue": 5,
+    "cycle": "analyze -> fix -> ./loop.sh test",
+    "persist_each_attempt": [
+      "issue_id",
+      "attempt_number",
+      "change",
+      "command",
+      "exit_code",
+      "log_path",
+      "remaining_failure"
+    ],
+    "stop_condition": "If issue remains unresolved after cycle 5, stop that issue and report Owner with evidence and attempted remedies; no cycle 6 and no failed handoff.",
+    "resume_rule": "Preserve attempt counts across session recovery; do not reset the same issue counter."
+  },
+  "agent_handoff": {
+    "target": "agy CLI",
+    "guide": "docs/AGY-TURN-HANDOFF.md",
+    "created_at": "2026-11-13T08:37:25.404999+00:00",
+    "scope": "Documentation-only handoff for Bat -> T-rex -> Pteranodon -> Sarcosuchus turn retrofit;0/4 unchanged. Chilopoda already Owner-approved; no runtime/art edits."
+  },
+  "pickup_release": {
+    "version": "0.11.1",
+    "branch": "main",
+    "remote": "origin",
+    "requested_at": "2026-11-13T08:45:02.779468+00:00",
+    "status": "local_verified_pending_push",
+    "handoff": "docs/AGY-TURN-HANDOFF.md",
+    "turn_backlog_completed": 0,
+    "turn_backlog_total": 4,
+    "checks": "docs/releases/v0.11.1-pickup-checks.json"
   }
 }

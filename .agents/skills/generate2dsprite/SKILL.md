@@ -119,6 +119,8 @@ Sheets (FX, icons, props): `sheet_qc.py spill` on the raw sheet, then `generate2
 
 ## Acceptance
 
+Owner2026-11-13: sửa/test tối đa5vòng cho mỗi vấn đề; ghi issue/lần thử/log/exit. Vòng5 chưa sửa được thì dừng phần đó và báo Owner kèm bằng chứng/cách đã thử, không vòng6 hay bàn giao FAIL. Turn có thể dùng cơ chế riêng Owner chốt: Chilopoda chui đất, chỉ đổi hướng khi thân ẩn hoàn toàn, rồi trồi lên chiều ngược; kiểm độc lập hai chiều và endpoint.
+
 - Review at game size: silhouette and identity, contact and flight, loop seam or one-shot recovery, alpha over light and dark, extremities, scale across actions, root and collider.
 - Quote numbers for quality claims: `pipeline-meta.json` `matte.qa` (a `key_ring_spill` warning: add `--despill-radius 1` or `--key-quality soft`), `sheet-qc.json`, the clip builder's lints. Numeric QC finds symptoms; it never approves anatomy or motion.
 - Report every WARN or FAIL check verbatim (id, value, threshold, files) from each published QA envelope; never say "all checks passed" when any published envelope has a warn.
@@ -131,4 +133,4 @@ Sheets (FX, icons, props): `sheet_qc.py spill` on the raw sheet, then `generate2
 ### Chu kỳ walk/run theo Owner (2026-11-12)
 - Thiết kế một vòng tiến pha đầy đủ 0..N−1 rồi về0; không ping-pong hay đảo7..1 để vá loop. Không trùng pose đầu/cuối; lấy mẫu pha trong [0,360°). Review cả cuối→đầu, hai chân đổi vai trò trụ/vung, không chỉ xem pixel/hash khác nhau. Gần trùng pose hoặc lò cò = motion FAIL, phải sửa nguyên pose nguồn.
 - Run: walk chỉ làm tham khảo concept/giải phẫu, không copy frame và tăng playback để làmrun. Theo Owner làm rõ2026-11-12, sinh pose chạy toàn thân riêng (sải/chúi thân/đẩy chân/thu chân/tiếp đất), kiểm vòng0..N−1→0 riêng. Quy định dùng chung frame/duration0.5 trước đây bị thay thế; không dùng làm mặc định nữa.
-- Turn chỉ có khi thực sự nối đổi hướng trong runtime; nêu nơi dùng và timing, không sửa đòn xoay đã đạt chỉ vì thêm turn.
+- **Turn mặc định bắt buộc (Owner2026-11-13)**: atlas mới có turn phối cảnh thật; ngoại lệ King Crab đi ngang. Theo [contract turn](../../../docs/art-standards/turn-contract.md), dùng master riêng, giữ frame/tick ngoài turn, nối walk→turn→walk tại hai đầu giới hạn, kiểm độc lập trái→phải và phải→trái trên Godot/localhost. Không flip/xoay/thu ngang một tấm ảnh để giả chuyển tiếp. Chỉ mirror khi hai chiều/phối cảnh/chi tiết bất đối xứng đều được review. Sai nhận diện hoặc một chiều = FAIL; sửa và chạy ./loop.sh test tối đa 5 vòng cho mỗi vấn đề; vòng 5 còn lỗi phải dừng phần đó và báo Owner. Không sửa heavy đã duyệt.

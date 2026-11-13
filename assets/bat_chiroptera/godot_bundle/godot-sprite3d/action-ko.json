@@ -1,0 +1,77 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "ko",
+  "frame_size": [
+    384,
+    256
+  ],
+  "output_origin": [
+    176.0,
+    200.0
+  ],
+  "sprite3d_offset": [
+    16.0,
+    72.0
+  ],
+  "reference_subject_height_px": 81.0,
+  "world_height": 0.81,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.81,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 108,
+  "fps": 9.22722029988466,
+  "frames": [
+    "frames/frame-046.png",
+    "frames/frame-047.png",
+    "frames/frame-048.png",
+    "frames/frame-049.png",
+    "frames/frame-050.png",
+    "frames/frame-051.png",
+    "frames/frame-052.png",
+    "frames/frame-053.png"
+  ],
+  "frame_sha256": [
+    "95b008f1da879f21641e61f67ac8697046ff6a35490fc75ab21ee44fb7185d75",
+    "79a7553981b3af376a5d93ff6d858a792d49d962c8771449ccd91f98de9e3008",
+    "38e1958ee8199226e753cc3c2a5c9c39228507680a3ea0f2d42125700c376222",
+    "5e2ea2469ffe309419c34ffcb3743473f78696ff50a43ca9fabf4f64782baddf",
+    "37c4ca251e3d2c308ffec81d0fd68981627e73814cf706abe72b83ae885f09f7",
+    "14c496faba73f96c67d521ea209b86783d3980eec7acf0110cf7dd5e3a87a6f1",
+    "026e2581052a72863ee7b08adb5056d70a71328a0d3c5a890f6e70fca42685e8",
+    "738a25fd0ffe7c01ebeca50c4deadfe894303382225ef9b2941528bf5816ca9c"
+  ],
+  "durations_ms": [
+    83,
+    84,
+    83,
+    83,
+    84,
+    100,
+    100,
+    250
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": [
+    {
+      "name": "in",
+      "at_ms": 0,
+      "at": 0,
+      "position": 0
+    },
+    {
+      "name": "impact",
+      "at_ms": 250,
+      "at": 3,
+      "position": 3
+    },
+    {
+      "name": "hold",
+      "at_ms": 617,
+      "at": 7,
+      "position": 7
+    }
+  ]
+}

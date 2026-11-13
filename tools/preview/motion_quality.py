@@ -6,7 +6,7 @@ structural failure always blocks delivery, and reviews are bound to atlas bytes.
 REQUIRED_CHECKS={'body_connections','whole_pose_sequence','perspective_turns','phase_timing','three_backgrounds'}
 ALLOWED_METHODS={'imagegen_complete_body_keyframes','image_to_video','existing_complete_source_frames'}
 
-def assess_motion_quality(review, atlas_sha256):
+def assess_motion_quality(review, atlas_sha256, render_contract=None):
     errors=[]
     if not review:
         return {'ok_for_human_test':False,'release_approved':False,'status':'pending_visual_review','errors':['Motion review is missing.']}
@@ -20,6 +20,16 @@ def assess_motion_quality(review, atlas_sha256):
     if checks.get('character_identity') is False:
         errors.append('Character identity FAIL: clip does not match the canonical character master.')
     for name in sorted(REQUIRED_CHECKS):
+        if name == 'perspective_turns' and render_contract:
+            turning = render_contract.get('turning', {})
+            burrow = render_contract.get('chilopoda', {}).get('burrow_turn', {})
+            if (turning.get('method') == 'burrow_reorient_while_hidden'
+                    and turning.get('owner_instruction')
+                    and burrow.get('relocate') is False
+                    and burrow.get('hidden_start_tick', 0) < burrow.get('emerge_start_tick', 0)):
+                if checks.get('burrow_turn_bidirectional') is not True:
+                    errors.append('Motion review pending/FAIL: burrow_turn_bidirectional')
+                continue
         if checks.get(name) is not True:errors.append('Motion review pending/FAIL: '+name)
     if review.get('unresolved_structural_failures'):
         errors.append('Motion FAIL: unresolved structural failures exist.')

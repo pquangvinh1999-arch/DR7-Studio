@@ -1,0 +1,23 @@
+{
+  "file": "/workspaces/DR7-Studio/work/characters/bat_chiroptera/atlas-v1/stage/clips/frames/frame-00.png",
+  "file_sha256": "b8656aaba4eb84dc255f24096d889bcb848fb6cb7af53403476ad10372d7555d",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "body_bbox_px": [
+    113,
+    119,
+    126,
+    81
+  ],
+  "visible_pixels": 4579,
+  "rgb_colors": 3608,
+  "edge_acutance_sobel": 331.422,
+  "alpha_hardness_pct": 100.0,
+  "visible_alpha_hardness_pct": 100.0,
+  "minimum_horizontal_constant_rgba_run_px": 1,
+  "single_pixel_run_fraction": 0.9958324193902172,
+  "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+  "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+}

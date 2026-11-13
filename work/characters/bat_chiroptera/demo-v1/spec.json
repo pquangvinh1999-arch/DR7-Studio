@@ -1,0 +1,34 @@
+{
+  "character": "Bat - Chiroptera",
+  "art_source": "host_image",
+  "route": "image_gen",
+  "phase": "static_master_demo",
+  "size_ratio": 0.8,
+  "reference": "assets/pteranodon/clips/frames/frame-00.png",
+  "reference_bbox": [
+    98,
+    96,
+    255,
+    203
+  ],
+  "target_width_px": 126,
+  "camera": "match approved Pteranodon reference",
+  "facing": "screen-right",
+  "pose": "hovering wings spread",
+  "owner_approved": false,
+  "reference_gameplay_bbox": [
+    98,
+    96,
+    157,
+    107
+  ],
+  "size_rounding": "157 * 0.8 = 125.6 -> 126 pixels; preserve bat aspect ratio",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176,
+    200
+  ]
+}

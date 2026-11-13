@@ -1,0 +1,25 @@
+{
+  "parity": {
+    "ok": true,
+    "checked_bundles": 7,
+    "finalized_characters": 7,
+    "errors": [],
+    "warnings": [
+      "Nhân vật 'bat_chiroptera' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+      "Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+      "Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+      "Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+      "Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+      "Nhân vật 'sarcosuchus' hiện có 7 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+      "Nhân vật 'dilophosaurus' hiện có 7 hoạt ảnh (idle, walk, attack_light, hit, ko, turn, power_up); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_heavy, aura_loop, win."
+    ]
+  },
+  "release_approved_characters": 7,
+  "all_seven_release_approved": true,
+  "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
+  "http_atlas_and_wasm_hash_parity": true,
+  "godot_zip_bytes": 19947922,
+  "zip_atlas_hash_parity": true,
+  "zip_owner_approved_metadata": true,
+  "no_art_or_timing_change": true
+}

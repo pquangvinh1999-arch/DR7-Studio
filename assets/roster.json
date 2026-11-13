@@ -21,6 +21,635 @@
   },
   "characters": [
     {
+      "character_id": "chilopoda",
+      "display_name": "Chilopoda",
+      "faction": "special_beasts",
+      "role_label": "Armored Centipede — Burrow Bite / Twin Red Antenna Lasers",
+      "tags": [
+        "centipede",
+        "chilopoda",
+        "ground",
+        "burrow",
+        "dual_laser",
+        "pixel_art"
+      ],
+      "status": "finalized_owner_approved",
+      "atlas_stage": "finalized_owner_approved",
+      "owner_animation_approval": {
+        "status": "owner_approved",
+        "approved_at": "2026-11-13T08:22:39.853349+00:00",
+        "approval_file": "assets/chilopoda/owner_approval.json",
+        "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d"
+      },
+      "canonical_identity": {
+        "path": "work/characters/chilopoda/identity-v2/canonical/master.png",
+        "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
+        "owner_approval": "work/characters/chilopoda/identity-v2/canonical/approval.json"
+      },
+      "facing_contract": {
+        "camera_view": "side_view_2d_three_quarter",
+        "default_atlas_facing": "right(+X)",
+        "left_facing_rule": "36tick burrow turn at either endpoint: hidden ticks16..21, commit facing16, emerge22, resume opposite walk36. Full own-character poses; no visible flip or root relocation.",
+        "locomotion_vector_rule": "Entirebodyflat,manylegmetachronalwalk;no run. Endpointstop/turn/reversewalk. Targetburrow leavesactornear target afterbite."
+      },
+      "map_sync_metrics": {
+        "canvas_size_px": [
+          384,
+          256
+        ],
+        "foot_anchor_px": [
+          176,
+          224
+        ],
+        "body_only_bbox_px": {
+          "x": 98,
+          "y": 154,
+          "w": 160,
+          "h": 70
+        },
+        "full_fx_bbox_px": {
+          "x": 84,
+          "y": 146,
+          "w": 254,
+          "h": 78
+        },
+        "reference_ppu_64": 64,
+        "world_size_at_64ppu_m": {
+          "body_w_m": 2.5,
+          "body_h_m": 1.094,
+          "aura_w_m": 3.969,
+          "aura_h_m": 1.219
+        },
+        "tile_32px_span": {
+          "body_tiles_w": 5,
+          "body_tiles_h": 2.1875,
+          "full_fx_tiles_w": 7.9375,
+          "full_fx_tiles_h": 2.4375
+        }
+      },
+      "pixel_sharpness_metrics": {
+        "texel_scale_ratio": "Native1px gameplay,Nearest,wholeposeonly",
+        "edge_acutance_sobel": 234.28,
+        "alpha_hardness_pct": 100,
+        "visible_alpha_hardness_pct": 100,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "reference_note": "Nativealpha source; bodythreshold128 and wholepose registration, no chromakey or forcedscalar. FXsoftalpha allowed."
+      },
+      "present_clips": [
+        "idle",
+        "walk",
+        "turn",
+        "attack_light",
+        "power_up",
+        "hit",
+        "ko"
+      ],
+      "effect_clips": [
+        "burrow_dust_fx",
+        "antenna_glow_fx",
+        "red_laser_fx"
+      ],
+      "missing_provisional_clips": [
+        "run",
+        "jump",
+        "guard",
+        "attack_heavy",
+        "aura_loop",
+        "win"
+      ],
+      "not_applicable_clips": {
+        "run": "Owner requested Bat-equivalent bodycount minusrun plusturn; nojump/heavy/aura; guard/win excludedprojectwide.",
+        "jump": "Owner requested Bat-equivalent bodycount minusrun plusturn; nojump/heavy/aura; guard/win excludedprojectwide.",
+        "guard": "Owner requested Bat-equivalent bodycount minusrun plusturn; nojump/heavy/aura; guard/win excludedprojectwide.",
+        "attack_heavy": "Owner requested Bat-equivalent bodycount minusrun plusturn; nojump/heavy/aura; guard/win excludedprojectwide.",
+        "aura_loop": "Owner requested Bat-equivalent bodycount minusrun plusturn; nojump/heavy/aura; guard/win excludedprojectwide.",
+        "win": "Owner requested Bat-equivalent bodycount minusrun plusturn; nojump/heavy/aura; guard/win excludedprojectwide."
+      },
+      "render_contract": {
+        "body_clips": [
+          "idle",
+          "walk",
+          "turn",
+          "attack_light",
+          "power_up",
+          "hit",
+          "ko"
+        ],
+        "effect_clips": [
+          "burrow_dust_fx",
+          "antenna_glow_fx",
+          "red_laser_fx"
+        ],
+        "locomotion": {
+          "kind": "ground",
+          "clip": "walk",
+          "cycle_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "patrol": {
+            "enabled": true,
+            "speed_px_per_second": 32,
+            "default_bounds_px": [
+              80,
+              880
+            ],
+            "on_endpoint": "burrow_turn_then_reverse_walk"
+          }
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": null,
+          "independent_clock": true
+        },
+        "projectile": null,
+        "turning": {
+          "clip": "turn",
+          "from": "right",
+          "to": "left",
+          "duration_ticks": 36,
+          "method": "burrow_reorient_while_hidden",
+          "mirror_sequence_for_reverse": false,
+          "facing_commit_tick": 16,
+          "owner_instruction": "Owner: Chilopoda chui xuống đất đổi hướng rồi trồi lên hướng đầu ngược lại, thay xoay vòng."
+        },
+        "fx_pivot_px": [
+          176,
+          128
+        ],
+        "chilopoda": {
+          "ground_y": 224,
+          "anchor_px": [
+            176,
+            224
+          ],
+          "target_ground_canvas_px": [
+            304,
+            224
+          ],
+          "target_hit_height_px": 24,
+          "burrow": {
+            "body_clip": "attack_light",
+            "dive_start_tick": 4,
+            "hidden_start_tick": 24,
+            "emerge_start_tick": 54,
+            "emerge_end_tick": 66,
+            "bite_tick": 69,
+            "complete_tick": 90,
+            "hidden_ticks": 30,
+            "maximum_depth_px": 128,
+            "bite_offset_x_px": 48,
+            "entry_fx_start_tick": 8,
+            "exit_fx_start_tick": 54,
+            "dust_lifetime_ticks": 16,
+            "dust_clip": "burrow_dust_fx",
+            "after_bite": "remain_at_target_then_idle",
+            "top_y_by_frame": [
+              154,
+              150,
+              161,
+              179,
+              157,
+              111,
+              114,
+              138,
+              149,
+              148,
+              159,
+              150,
+              149,
+              147,
+              146,
+              154
+            ],
+            "frame_ticks": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              30,
+              4,
+              4,
+              4,
+              3,
+              3,
+              4,
+              4,
+              4,
+              6
+            ]
+          },
+          "laser": {
+            "body_clip": "power_up",
+            "release_tick": 16,
+            "glow_end_tick": 24,
+            "glow_clip": "antenna_glow_fx",
+            "projectile_clip": "red_laser_fx",
+            "speed_px_per_tick": 24,
+            "two_independent_origins": true,
+            "target_radius_px": 2,
+            "tip_anchors_by_frame": [
+              [
+                [
+                  257,
+                  160
+                ],
+                [
+                  257,
+                  170
+                ]
+              ],
+              [
+                [
+                  263,
+                  157
+                ],
+                [
+                  263,
+                  164
+                ]
+              ],
+              [
+                [
+                  263,
+                  160
+                ],
+                [
+                  265,
+                  167
+                ]
+              ],
+              [
+                [
+                  265,
+                  173
+                ],
+                [
+                  261,
+                  180
+                ]
+              ],
+              [
+                [
+                  264,
+                  184
+                ],
+                [
+                  260,
+                  196
+                ]
+              ],
+              [
+                [
+                  261,
+                  188
+                ],
+                [
+                  255,
+                  199
+                ]
+              ],
+              [
+                [
+                  261,
+                  178
+                ],
+                [
+                  257,
+                  189
+                ]
+              ],
+              [
+                [
+                  260,
+                  172
+                ],
+                [
+                  258,
+                  181
+                ]
+              ],
+              [
+                [
+                  257,
+                  168
+                ],
+                [
+                  256,
+                  177
+                ]
+              ],
+              [
+                [
+                  255,
+                  164
+                ],
+                [
+                  255,
+                  175
+                ]
+              ],
+              [
+                [
+                  257,
+                  160
+                ],
+                [
+                  257,
+                  170
+                ]
+              ]
+            ],
+            "on_hit": "hide_projectile",
+            "one_shot": true,
+            "release_frame": 3
+          },
+          "burrow_turn": {
+            "body_clip": "turn",
+            "dive_start_tick": 3,
+            "hidden_start_tick": 16,
+            "emerge_start_tick": 22,
+            "emerge_end_tick": 34,
+            "hidden_ticks": 6,
+            "complete_tick": 36,
+            "relocate": false,
+            "entry_fx_start_tick": 3,
+            "exit_fx_start_tick": 22,
+            "dust_lifetime_ticks": 16,
+            "dust_clip": "burrow_dust_fx",
+            "frame_ticks": [
+              3,
+              3,
+              3,
+              3,
+              10,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2
+            ],
+            "after_turn": "resume_walk_in_opposite_direction",
+            "facing_change": "only_while_body_fully_hidden",
+            "top_y_by_frame": [
+              198,
+              179,
+              157,
+              111,
+              114,
+              138,
+              148,
+              159,
+              150,
+              149,
+              198
+            ]
+          }
+        }
+      },
+      "modes": {
+        "combined_1layer": {
+          "label": "Combined1Layer + GroundOcclusion / IndependentSoil / TwinLaserFX",
+          "godot_prefab": "res://scenes/Chilopoda.tscn",
+          "bundle_id": "chilopoda"
+        }
+      },
+      "motion_quality": {
+        "status": "owner_approved",
+        "method": "imagegen_complete_body_keyframes",
+        "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+        "checks": {
+          "body_connections": true,
+          "whole_pose_sequence": true,
+          "perspective_turns": false,
+          "burrow_turn_bidirectional": true,
+          "phase_timing": true,
+          "three_backgrounds": true,
+          "character_identity": true
+        },
+        "not_applicable_checks": {
+          "perspective_turns": "Owner approved burrow/reorient/emerge in place instead of surface rotation."
+        },
+        "owner_approved": true,
+        "naturalness_verdict": "owner_approved",
+        "unresolved_structural_failures": [],
+        "review_evidence": "work/characters/chilopoda/identity-v2/review/identity-review.json",
+        "notes": "New complete-pose action sheets reviewed on light/dark/checker against selected power_up1. Earlier oversized-head render and truncated dive heads rejected and regenerated. Original power1..10 retained. Canonical ready poses use exact selected master; no old master injection. Runtime checks and wall-clock observations recorded separately.",
+        "approved_at": "2026-11-13T08:22:39.853349+00:00",
+        "owner_message": "todo thêm turn cho các nhân vật kia em làm xong chưa? tính toán xem còn 7% quota có thể hoàn thành được không? sau khi xong chilopoda giúp anh chốt nhân vật sau đó trả lời 2 câu hỏi trên"
+      },
+      "qa_report": "docs/characters/chilopoda-identity-v2-qa.json"
+    },
+    {
+      "character_id": "bat_chiroptera",
+      "display_name": "Bat - Chiroptera",
+      "faction": "special_beasts",
+      "role_label": "Fierce Bat — Flight / Bite / Purple Sonic Screech",
+      "tags": [
+        "bat",
+        "chiroptera",
+        "flying",
+        "pixel_art",
+        "purple_sonic_wave"
+      ],
+      "status": "finalized_owner_approved",
+      "facing_contract": {
+        "camera_view": "side_view_2d_three_quarter_same_as_pteranodon",
+        "default_atlas_facing": "right (+X)",
+        "left_facing_rule": "Same direction selection as Pteranodon: whole-sprite horizontal mirror for left-facing set. No turn clip or simulated spin.",
+        "locomotion_vector_rule": "Aerial flight; hover/cruise/fast flight from complete Bat wingbeat poses matching Pteranodon phases. Short-muzzle bite toward+X; purple sonic wave from mouth."
+      },
+      "map_sync_metrics": {
+        "canvas_size_px": [
+          384,
+          256
+        ],
+        "foot_anchor_px": [
+          176,
+          200
+        ],
+        "body_only_bbox_px": {
+          "x": 113,
+          "y": 119,
+          "w": 126,
+          "h": 81
+        },
+        "full_fx_bbox_px": {
+          "x": 106,
+          "y": 104,
+          "w": 185,
+          "h": 129
+        },
+        "reference_ppu_64": 64,
+        "world_size_at_64ppu_m": {
+          "body_w_m": 1.969,
+          "body_h_m": 1.266,
+          "aura_w_m": 2.891,
+          "aura_h_m": 2.016
+        },
+        "tile_32px_span": {
+          "body_tiles_w": 3.9375,
+          "body_tiles_h": 2.53125,
+          "full_fx_tiles_w": 5.78125,
+          "full_fx_tiles_h": 4.03125
+        }
+      },
+      "pixel_sharpness_metrics": {
+        "texel_scale_ratio": "Native1px gameplay, Nearest whole-pose registration",
+        "edge_acutance_sobel": 331.422,
+        "alpha_hardness_pct": 100,
+        "visible_alpha_hardness_pct": 100,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "reference_note": "Native generated transparency, alpha threshold128; no chroma-key color used. No Sobel forcing or body palette/sharpening."
+      },
+      "present_clips": [
+        "idle",
+        "walk",
+        "run",
+        "attack_light",
+        "power_up",
+        "hit",
+        "ko"
+      ],
+      "effect_clips": [
+        "sonic_screech_fx"
+      ],
+      "missing_provisional_clips": [
+        "jump",
+        "guard",
+        "attack_heavy",
+        "aura_loop",
+        "win"
+      ],
+      "not_applicable_clips": {
+        "jump": "Owner requested identical Pteranodon scope; No jump, heavy attack or Ki aura in reference set.",
+        "guard": "Owner requested identical Pteranodon scope; guard/win excluded project-wide.",
+        "attack_heavy": "Owner requested identical Pteranodon scope; No jump, heavy attack or Ki aura in reference set.",
+        "aura_loop": "Owner requested identical Pteranodon scope; No jump, heavy attack or Ki aura in reference set.",
+        "win": "Owner requested identical Pteranodon scope; guard/win excluded project-wide."
+      },
+      "render_contract": {
+        "body_clips": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "power_up",
+          "hit",
+          "ko"
+        ],
+        "effect_clips": [
+          "sonic_screech_fx"
+        ],
+        "locomotion": {
+          "kind": "flight",
+          "clip": "walk",
+          "cycle_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": null,
+          "independent_clock": true
+        },
+        "fx_pivot_px": [
+          176,
+          141
+        ],
+        "projectile": {
+          "kind": "linear_energy",
+          "body_clip": "power_up",
+          "projectile_clip": "sonic_screech_fx",
+          "release_frame": 2,
+          "lifetime_ticks": 14,
+          "origin_canvas_px": [
+            225,
+            165
+          ],
+          "velocity_px_per_tick": [
+            0.0,
+            0.0
+          ],
+          "palette": "purple"
+        }
+      },
+      "modes": {
+        "combined_1layer": {
+          "label": "Combined1Layer Bat + independent purple sonic FX",
+          "godot_prefab": "res://scenes/BatChiroptera.tscn",
+          "bundle_id": "bat_chiroptera"
+        }
+      },
+      "atlas_stage": "finalized_owner_approved",
+      "motion_quality": {
+        "status": "owner_approved",
+        "method": "imagegen_complete_body_keyframes",
+        "checks": {
+          "body_connections": true,
+          "whole_pose_sequence": true,
+          "perspective_turns": true,
+          "phase_timing": true,
+          "three_backgrounds": true,
+          "character_identity": true
+        },
+        "unresolved_structural_failures": [],
+        "owner_approved": true,
+        "filmstrips_opened": [
+          "idle",
+          "walk",
+          "run",
+          "attack_light",
+          "power_up",
+          "hit",
+          "ko",
+          "sonic_screech_fx"
+        ],
+        "visual_evidence": "Each full filmstrip opened with light/dark/checker rows. Real-time browser on all3backgrounds; all61pose indices observed. New complete Bat poses rather than cut/warp rigs. No turn clip in requested Pteranodon set; horizontal direction selection only, no cardflip spin.",
+        "realtime_evidence": "work/characters/bat_chiroptera/atlas-v1/verification/offline-realtime.json",
+        "limitations": "Owner accepted this exact revision. Browser sampling limits remain in QA; no mobile60FPS certification.",
+        "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
+        "naturalness_verdict": "owner_approved",
+        "approved_at": "2026-11-13T06:34:45.229155+00:00",
+        "owner_message": "ok bat anh chốt luôn tiến hành chốt theo qui trình để qua char tiếp theo"
+      },
+      "qa_report": "docs/characters/bat-chiroptera-atlas-v1-qa.json",
+      "canonical_identity": {
+        "path": "work/characters/bat_chiroptera/approved-master/master.png",
+        "sha256": "b8656aaba4eb84dc255f24096d889bcb848fb6cb7af53403476ad10372d7555d"
+      },
+      "owner_animation_approval": {
+        "status": "owner_approved",
+        "approved_at": "2026-11-13T06:34:45.229155+00:00",
+        "approval_file": "assets/bat_chiroptera/owner_approval.json",
+        "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a"
+      }
+    },
+    {
       "character_id": "spinosaurus",
       "display_name": "Spinosaurus",
       "faction": "special_beasts",

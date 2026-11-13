@@ -1,0 +1,18 @@
+{
+  "issue_id": "CHILO-IDENTITY-POWER1",
+  "max_cycles": 5,
+  "status": "technical_checks_pass_owner_review_pending",
+  "source_review_iterations": [
+    "First generation rejected: overly large armor/head; used exact high-resolution power1 progenitor for repair",
+    "Dive source head truncation regenerated as complete connected heads before packaging"
+  ],
+  "loop_attempts": [
+    {
+      "attempt": 1,
+      "command": "./loop.sh test",
+      "exit_code": 0,
+      "log": "work/characters/chilopoda/identity-v2/verification/loop-1.log",
+      "result": "50Python/E2E+8Godotbundles+5actiontests+2Rust; technical checks pass. Browser visual/delivery evidence separately recorded."
+    }
+  ]
+}

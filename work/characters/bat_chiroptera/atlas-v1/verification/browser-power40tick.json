@@ -1,0 +1,920 @@
+[
+  {
+    "tick": 0,
+    "body": 0,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          3,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 1,
+    "body": 0,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          3,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 2,
+    "body": 0,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          3,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 3,
+    "body": 0,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          3,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 4,
+    "body": 0,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          3,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 5,
+    "body": 1,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          391,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 6,
+    "body": 1,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          391,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 7,
+    "body": 1,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          391,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 8,
+    "body": 1,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          391,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 9,
+    "body": 1,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          391,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 10,
+    "body": 2,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          779,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          2331,
+          1563,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 11,
+    "body": 2,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          779,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          2331,
+          1563,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 12,
+    "body": 2,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          779,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          2719,
+          1563,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 13,
+    "body": 2,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          779,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          2719,
+          1563,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 14,
+    "body": 2,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          779,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          3,
+          1823,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 15,
+    "body": 3,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1167,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          3,
+          1823,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 16,
+    "body": 3,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1167,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          391,
+          1823,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 17,
+    "body": 3,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1167,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          391,
+          1823,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 18,
+    "body": 3,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1167,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          779,
+          1823,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 19,
+    "body": 3,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1167,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          779,
+          1823,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 20,
+    "body": 4,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1555,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          1167,
+          1823,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 21,
+    "body": 4,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1555,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          1167,
+          1823,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 22,
+    "body": 4,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1555,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          1555,
+          1823,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 23,
+    "body": 4,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1555,
+          1043,
+          384,
+          256
+        ]
+      },
+      {
+        "layer": "Projectile",
+        "point": [
+          225,
+          165
+        ],
+        "pivot": [
+          176,
+          141
+        ],
+        "rect": [
+          1555,
+          1823,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 24,
+    "body": 5,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1943,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 25,
+    "body": 5,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1943,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 26,
+    "body": 5,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1943,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 27,
+    "body": 5,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1943,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 28,
+    "body": 5,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          1943,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 29,
+    "body": 6,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          2331,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 30,
+    "body": 6,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          2331,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 31,
+    "body": 6,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          2331,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 32,
+    "body": 6,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          2331,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 33,
+    "body": 6,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          2331,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 34,
+    "body": 7,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          2719,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 35,
+    "body": 7,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          2719,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 36,
+    "body": 7,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          2719,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 37,
+    "body": 7,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          2719,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 38,
+    "body": 7,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          2719,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "tick": 39,
+    "body": 7,
+    "layers": [
+      {
+        "layer": "Body",
+        "point": null,
+        "pivot": null,
+        "rect": [
+          2719,
+          1043,
+          384,
+          256
+        ]
+      }
+    ]
+  }
+]

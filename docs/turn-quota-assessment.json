@@ -1,0 +1,61 @@
+{
+  "assessed_at": "2026-11-13T08:23:39.242629+00:00",
+  "quota_remaining_percent_reported_by_owner": 7,
+  "quota_total_units": null,
+  "quota_remaining_units": null,
+  "image_generation_remaining_calls": null,
+  "quota_telemetry_available": false,
+  "completed_characters": 0,
+  "total_characters": 4,
+  "inventory": [
+    {
+      "character_id": "bat_chiroptera",
+      "turn_clip_present": false,
+      "turn_frame_refs": 0,
+      "backlog_status": "not_started",
+      "completed": false,
+      "source": "assets/bat_chiroptera/godot_bundle/engine-export.json"
+    },
+    {
+      "character_id": "t_rex",
+      "turn_clip_present": false,
+      "turn_frame_refs": 0,
+      "backlog_status": "not_started",
+      "completed": false,
+      "source": "assets/t_rex/godot_bundle/engine-export.json"
+    },
+    {
+      "character_id": "pteranodon",
+      "turn_clip_present": false,
+      "turn_frame_refs": 0,
+      "backlog_status": "not_started",
+      "completed": false,
+      "source": "assets/pteranodon/godot_bundle/engine-export.json"
+    },
+    {
+      "character_id": "sarcosuchus",
+      "turn_clip_present": true,
+      "turn_frame_refs": 4,
+      "backlog_status": "not_started",
+      "completed": false,
+      "source": "assets/sarcosuchus/godot_bundle/engine-export.json"
+    }
+  ],
+  "minimum_new_turn_clips": 3,
+  "existing_turn_requires_audit_or_fix": [
+    "sarcosuchus"
+  ],
+  "minimum_core_direction_runtime_cases": {
+    "formula": "4 characters * 2 facing directions * 2 runtimes (Godot/localhost)",
+    "count": 16,
+    "additional_work": "Canonical identity/frozenoldclips, wholeposegeneration,3background motionreview,2endpointseams,atlas/parity/ZIP and Owner acceptance; repair attempts not included."
+  },
+  "feasibility": "Cannot derive an exact capacity from7% without the total quota unit and remaining image allowance. Do not promise completion of all4. Prioritize one character (Bat) then reassess after its evidence gates and Owner acceptance.",
+  "order": [
+    "bat_chiroptera",
+    "t_rex",
+    "pteranodon",
+    "sarcosuchus"
+  ],
+  "new_turn_generation_jobs_started_this_turn": 0
+}
