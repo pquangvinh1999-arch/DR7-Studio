@@ -1,6 +1,6 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-13T08:47:08.284836+00:00",
+  "updated_at": "2026-11-13T08:49:58.701962+00:00",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
     "version": "0.11.1",
@@ -125,8 +125,8 @@
   },
   "current_focus": {
     "active_task_id": "TASK-074",
-    "status": "pickup_local_verified_pending_push",
-    "summary": "v0.11.1 pickup local verification complete: full51Python/E2E+8Godot+5action+2Rust andWASM exit0; clean stagedcheckout51tests exit0. Sources/frozenframes/AGYhandoff included; local ZIP/extractedprojects excluded. Commit/push main and verify CI next.",
+    "status": "completed",
+    "summary": "Published Owner-approvedv0.11.1 source19da17b62aad8262229e9447f7a54113bb4e3ff5 toorigin/main; GitHubActions43396006048 completed/success. Local51Python/E2E+8Godot+5action+2Rust/WASM andcleancheckout51tests exit0. AGYhandoff included,turntodo0/4. Following documentation checkpoint records verification, without art/timing changes.",
     "character_id": "chilopoda",
     "concept_file": "work/characters/chilopoda/demo-v1/spec.json",
     "review_image": "work/characters/chilopoda/identity-v2/review/filmstrip-power_up.png",
@@ -624,8 +624,9 @@
     {
       "id": "TASK-074",
       "timestamp": "2026-11-13T08:45:02.779468+00:00",
-      "status": "in_progress",
-      "summary": "Publish Owner-approved v0.11.1 workspace for agy pickup after full technical/source checks."
+      "status": "completed",
+      "summary": "Pushedv0.11.1 source19da17b62aad8262229e9447f7a54113bb4e3ff5 toorigin/main. CI43396006048success. Local51tests+Godot/Rust/WASM0 andclean stagedcheckout51tests0; approvedBat+Chilopoda andAGYguideincluded,turntodo0/4. RegenerableZIP/extractedtestprojects excluded,canonical/source/frozen/evidence retained.",
+      "completed_at": "2026-11-13T08:49:58.701962+00:00"
     }
   ],
   "quick_resume_commands": [
@@ -634,7 +635,7 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Complete v0.11.1 pickup push and verify origin/main+CI. Then next authorized turnbacklog itemBat; follow docs/AGY-TURN-HANDOFF.md.",
+    "next_action": "v0.11.1 source andAGYhandoff published/CIgreen. Next itemBat turn,thenT-rex/Pteranodon/Sarcosuchus serially perdocs/AGY-TURN-HANDOFF.md;0/4stillnotstarted. Preserveall8approvedcharacters andsnapshot eachtarget before addingturn.",
     "asset_status": "8 nhân vật Owner-approved; Chilopoda identity-v2/v0.11.1 frozen at approved-final-frames.",
     "approval_file": "assets/chilopoda/owner_approval.json",
     "cleanup_report": "docs/releases/v0.11.1-chilopoda-finalization.json",
@@ -642,10 +643,12 @@
     "git_checkpoint": {
       "branch": "main",
       "remote": "origin",
+      "source_code_commit": "19da17b62aad8262229e9447f7a54113bb4e3ff5",
       "release_version": "0.11.1",
-      "source_code_commit": null,
-      "ci_status": "pending_push",
-      "note": "Local pickup verified. Resolve actual published commit/CI after git push; previousv0.9.1 checkpoint preserved separately."
+      "ci_status": "success",
+      "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43396006048",
+      "verified_at": "2026-11-13T08:49:58.701962+00:00",
+      "note": "Source release commit published and CI verified. Following documentation commit records this handoff; no asset/timing changes."
     },
     "active_character_concept": "work/characters/chilopoda/identity-v2/plan.json",
     "review_evidence": "work/characters/chilopoda/identity-v2/verification/identity-frame-proof.json",
@@ -813,10 +816,14 @@
     "branch": "main",
     "remote": "origin",
     "requested_at": "2026-11-13T08:45:02.779468+00:00",
-    "status": "local_verified_pending_push",
+    "status": "published_source_ci_verified",
     "handoff": "docs/AGY-TURN-HANDOFF.md",
     "turn_backlog_completed": 0,
     "turn_backlog_total": 4,
-    "checks": "docs/releases/v0.11.1-pickup-checks.json"
+    "checks": "docs/releases/v0.11.1-pickup-checks.json",
+    "source_code_commit": "19da17b62aad8262229e9447f7a54113bb4e3ff5",
+    "ci_status": "success",
+    "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43396006048",
+    "verified_at": "2026-11-13T08:49:58.701962+00:00"
   }
 }
