@@ -1,0 +1,28 @@
+{
+  "version": "0.9.1",
+  "verified_at": "2026-11-13T05:05:35.819071+00:00",
+  "branch": "main",
+  "remote": "origin",
+  "source_code_commit": "bafbf1bcdf03f68dfb68e529914335b15168c9fd",
+  "source_code_CI": {
+    "status": "success",
+    "url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43369485195",
+    "run_id": 43369485195
+  },
+  "approved_characters": [
+    "t_rex",
+    "spinosaurus",
+    "pteranodon",
+    "tasmanian_king_crab",
+    "sarcosuchus",
+    "dilophosaurus"
+  ],
+  "root_cleanup_report": "docs/releases/v0.9.1-root-cleanup.json",
+  "root_loose_png_and_import_count": 0,
+  "canonical_upload_sources_preserved": true,
+  "approved_atlas_hash_mismatches": 0,
+  "local_verification": "docs/releases/v0.9.1-tests.log",
+  "CI_summary": "docs/releases/v0.9.1-ci-summary.log",
+  "GitHub_annotations": "CI succeeded with runner warnings about Node20 actions being forced to Node24 and ubuntu-latest migration. Exact messages retained in CI summary.",
+  "handoff": "Ready for next Owner character. Existing approved art/timing frozen."
+}

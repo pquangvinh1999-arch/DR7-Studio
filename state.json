@@ -1,6 +1,6 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-13T05:02:54.890069+00:00",
+  "updated_at": "2026-11-13T05:05:35.819071+00:00",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
     "version": "0.9.1",
@@ -110,8 +110,8 @@
   },
   "current_focus": {
     "active_task_id": "TASK-063",
-    "status": "verified_ready_for_main_push",
-    "summary": "Owner requested push v0.9.1 session to main. Sarcosuchus PIPE005 and Dilophosaurus PIPE006 approved;6characters total. Removed2root duplicatePNGs+2.import, preserved canonicalSHA sources, fixed Sarco source regression test. loop41Python/E2E+6Godot+3ticktests+2Rust exit0,WASM0. Runtime/art/timing unchanged. Preparing release commit and main push.",
+    "status": "completed_pushed_main_ready_for_next_character",
+    "summary": "Published approved v0.9.1 session to origin/main at source commit bafbf1bcdf03f68dfb68e529914335b15168c9fd. Sarcosuchus/Dilophosaurus finalized;6approvedcharacters. Root2PNG+2.import removed with canonical sources preserved. Local41Python/E2E+6Godot+3ticktests+2Rust andWASM exit0;GitHubActions43369485195 success. Art/timing unchanged; ready for next character.",
     "concept_file": "work/characters/dilophosaurus/concept.json",
     "review_image": "work/characters/dilophosaurus/master-review/frill-v2/comparison-checker.png",
     "atlas_plan": "work/characters/dilophosaurus/atlas-v1/plan.json",
@@ -540,8 +540,9 @@
     {
       "id": "TASK-063",
       "timestamp": "2026-11-13T05:02:54.890069+00:00",
-      "status": "verified_ready_for_main_push",
-      "summary": "Owner requested push v0.9.1 session to main. Sarcosuchus PIPE005 and Dilophosaurus PIPE006 approved;6characters total. Removed2root duplicatePNGs+2.import, preserved canonicalSHA sources, fixed Sarco source regression test. loop41Python/E2E+6Godot+3ticktests+2Rust exit0,WASM0. Runtime/art/timing unchanged. Preparing release commit and main push."
+      "status": "completed",
+      "summary": "Published approved v0.9.1 session to origin/main at source commit bafbf1bcdf03f68dfb68e529914335b15168c9fd. Sarcosuchus/Dilophosaurus finalized;6approvedcharacters. Root2PNG+2.import removed with canonical sources preserved. Local41Python/E2E+6Godot+3ticktests+2Rust andWASM exit0;GitHubActions43369485195 success. Art/timing unchanged; ready for next character.",
+      "completed_at": "2026-11-13T05:05:35.819071+00:00"
     }
   ],
   "quick_resume_commands": [
@@ -550,18 +551,19 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Finish verification and push approved v0.9.1 session plus root cleanup to origin/main.",
+    "next_action": "Chờ Owner mô tả nhân vật tiếp theo. Phiên v0.9.1 đã push main; không sửa các nhân vật đã chốt nếu chưa có yêu cầu.",
     "asset_status": "6 nhân vật Owner-approved: t_rex,spinosaurus,pteranodon,tasmanian_king_crab,sarcosuchus,dilophosaurus.",
     "approval_file": "assets/dilophosaurus/owner_approval.json",
     "cleanup_report": "docs/releases/v0.9.1-root-cleanup.json",
-    "verification": "docs/releases/v0.9.1-verification.json",
+    "verification": "docs/releases/v0.9.1-main-handoff.json",
     "git_checkpoint": {
       "branch": "main",
       "remote": "origin",
-      "source_code_commit": "2d04bf9199fe24cc6fda49cf231380e9c1047a66",
+      "source_code_commit": "bafbf1bcdf03f68dfb68e529914335b15168c9fd",
       "ci_status": "success",
-      "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43195522136",
-      "note": "Mốc main đã push gần nhất vẫn là v0.7.0; Sarcosuchus v0.8.1 được chốt trong workspace ở task này, chưa có commit/push mới."
+      "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43369485195",
+      "verified_at": "2026-11-13T05:05:35.819071+00:00",
+      "note": "Source release commit verified on origin/main and CI success. A following documentation commit records this handoff; no asset/timing changes."
     },
     "active_character_concept": "work/characters/dilophosaurus/concept.json",
     "review_evidence": "work/characters/dilophosaurus/motion-v2/review/keyframe-review.json",
