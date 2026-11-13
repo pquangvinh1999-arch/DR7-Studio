@@ -1,0 +1,35 @@
+{
+  "status": "finalized_owner_approved",
+  "owner_request": "Demo Sarcosuchus cá sấu tiền sử, kích thước bằng Spino.",
+  "size_contract": "Reuse Owner-selected full-body-width measure:157px; preserve natural crocodilian aspect, not forced157x74.",
+  "camera": "Same proposed3/4 side-game view facing screen+X; master still only.",
+  "style": "Project fierce creature default; native1px/Nearest/hardbodyalpha; noforcedSobel orpalette.",
+  "reference": "assets/spinosaurus/clips/frames/frame-00.png",
+  "sharpness_reference": "docs/art-standards/t-rex-sharpness-reference.png",
+  "art_source": "built-in imagegen",
+  "anatomy_sources": [
+    "https://australian.museum/about/organisation/media-centre/supercroc-unleashed/",
+    "https://pubmed.ncbi.nlm.nih.gov/11679634/"
+  ],
+  "limits": "No animation/atlas/roster admission before master review; game colour choice is artistic.",
+  "master": "work/characters/sarcosuchus/master-review/master-gameplay-v1.png",
+  "master_sha256": "8adeda8cbb99493640c296748c76cb05df7110cee909e43b84b844a5e8675ddc",
+  "body_bbox_px": [
+    89,
+    190,
+    157,
+    34
+  ],
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "visual_review": "Opened1x and2xNearest comparison boards overlight/dark/checker. Four connected limbs with expected near/far occlusion, fulltail andjaw withinframe. Artisticfinish/identity remain pendingOwner; noanimationcreated.",
+  "master_approval": "work/characters/sarcosuchus/master-review/owner-master-approval.json",
+  "owner_approval_file": "assets/sarcosuchus/owner_approval.json",
+  "approved_at": "2026-11-13T02:57:36.459561+00:00"
+}

@@ -1,0 +1,323 @@
+{
+  "results": [
+    {
+      "background": "light",
+      "clip": "idle",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "light",
+      "clip": "walk",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "light",
+      "clip": "attack_nomal",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "light",
+      "clip": "power_up",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "light",
+      "clip": "hit",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "light",
+      "clip": "ko",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "light",
+      "clip": "turn",
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "dark",
+      "clip": "idle",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "dark",
+      "clip": "walk",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "dark",
+      "clip": "attack_nomal",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "dark",
+      "clip": "power_up",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "dark",
+      "clip": "hit",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "dark",
+      "clip": "ko",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "dark",
+      "clip": "turn",
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "checker",
+      "clip": "idle",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "checker",
+      "clip": "walk",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "checker",
+      "clip": "attack_nomal",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "checker",
+      "clip": "power_up",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "checker",
+      "clip": "hit",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "checker",
+      "clip": "ko",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "renderer": "rust_wasm"
+    },
+    {
+      "background": "checker",
+      "clip": "turn",
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "renderer": "rust_wasm"
+    }
+  ],
+  "errors": []
+}

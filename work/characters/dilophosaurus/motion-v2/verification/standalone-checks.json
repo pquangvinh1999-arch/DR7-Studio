@@ -1,0 +1,14 @@
+[
+  {
+    "name": "standalone-import",
+    "exit_code": 0
+  },
+  {
+    "name": "standalone-bundles",
+    "exit_code": 0
+  },
+  {
+    "name": "standalone-power",
+    "exit_code": 0
+  }
+]

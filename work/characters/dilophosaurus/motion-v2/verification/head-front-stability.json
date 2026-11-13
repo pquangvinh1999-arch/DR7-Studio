@@ -1,0 +1,130 @@
+[
+  {
+    "phase": 0,
+    "front_head_roi_canvas": [
+      228,
+      128,
+      19,
+      49
+    ],
+    "visible_bbox_xyxy": [
+      228,
+      129,
+      246,
+      173
+    ],
+    "note": "Cropped front-head indicator only; not a full head segmentation or pixel identity proof."
+  },
+  {
+    "phase": 1,
+    "front_head_roi_canvas": [
+      228,
+      128,
+      19,
+      49
+    ],
+    "visible_bbox_xyxy": [
+      228,
+      129,
+      246,
+      173
+    ],
+    "note": "Cropped front-head indicator only; not a full head segmentation or pixel identity proof."
+  },
+  {
+    "phase": 2,
+    "front_head_roi_canvas": [
+      228,
+      128,
+      19,
+      49
+    ],
+    "visible_bbox_xyxy": [
+      228,
+      130,
+      246,
+      173
+    ],
+    "note": "Cropped front-head indicator only; not a full head segmentation or pixel identity proof."
+  },
+  {
+    "phase": 3,
+    "front_head_roi_canvas": [
+      228,
+      128,
+      19,
+      49
+    ],
+    "visible_bbox_xyxy": [
+      228,
+      129,
+      246,
+      173
+    ],
+    "note": "Cropped front-head indicator only; not a full head segmentation or pixel identity proof."
+  },
+  {
+    "phase": 4,
+    "front_head_roi_canvas": [
+      228,
+      128,
+      19,
+      49
+    ],
+    "visible_bbox_xyxy": [
+      228,
+      129,
+      245,
+      173
+    ],
+    "note": "Cropped front-head indicator only; not a full head segmentation or pixel identity proof."
+  },
+  {
+    "phase": 5,
+    "front_head_roi_canvas": [
+      228,
+      128,
+      19,
+      49
+    ],
+    "visible_bbox_xyxy": [
+      228,
+      130,
+      246,
+      174
+    ],
+    "note": "Cropped front-head indicator only; not a full head segmentation or pixel identity proof."
+  },
+  {
+    "phase": 6,
+    "front_head_roi_canvas": [
+      228,
+      128,
+      19,
+      49
+    ],
+    "visible_bbox_xyxy": [
+      228,
+      129,
+      245,
+      174
+    ],
+    "note": "Cropped front-head indicator only; not a full head segmentation or pixel identity proof."
+  },
+  {
+    "phase": 7,
+    "front_head_roi_canvas": [
+      228,
+      128,
+      19,
+      49
+    ],
+    "visible_bbox_xyxy": [
+      228,
+      129,
+      246,
+      174
+    ],
+    "note": "Cropped front-head indicator only; not a full head segmentation or pixel identity proof."
+  }
+]

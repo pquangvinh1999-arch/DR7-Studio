@@ -1,0 +1,152 @@
+[
+  {
+    "tick": 0,
+    "body_frame": 0,
+    "bbox_xyxy": [
+      176,
+      128,
+      177,
+      129
+    ],
+    "size_px": [
+      1,
+      1
+    ],
+    "opacity_multiplier": 32
+  },
+  {
+    "tick": 1,
+    "body_frame": 0,
+    "bbox_xyxy": [
+      175,
+      127,
+      177,
+      129
+    ],
+    "size_px": [
+      2,
+      2
+    ],
+    "opacity_multiplier": 64
+  },
+  {
+    "tick": 2,
+    "body_frame": 0,
+    "bbox_xyxy": [
+      175,
+      127,
+      177,
+      129
+    ],
+    "size_px": [
+      2,
+      2
+    ],
+    "opacity_multiplier": 96
+  },
+  {
+    "tick": 3,
+    "body_frame": 0,
+    "bbox_xyxy": [
+      175,
+      127,
+      178,
+      130
+    ],
+    "size_px": [
+      3,
+      3
+    ],
+    "opacity_multiplier": 128
+  },
+  {
+    "tick": 4,
+    "body_frame": 0,
+    "bbox_xyxy": [
+      174,
+      126,
+      178,
+      130
+    ],
+    "size_px": [
+      4,
+      4
+    ],
+    "opacity_multiplier": 160
+  },
+  {
+    "tick": 5,
+    "body_frame": 1,
+    "bbox_xyxy": [
+      174,
+      126,
+      179,
+      130
+    ],
+    "size_px": [
+      5,
+      4
+    ],
+    "opacity_multiplier": 192
+  },
+  {
+    "tick": 6,
+    "body_frame": 1,
+    "bbox_xyxy": [
+      173,
+      126,
+      179,
+      131
+    ],
+    "size_px": [
+      6,
+      5
+    ],
+    "opacity_multiplier": 224
+  },
+  {
+    "tick": 7,
+    "body_frame": 1,
+    "bbox_xyxy": [
+      173,
+      125,
+      180,
+      131
+    ],
+    "size_px": [
+      7,
+      6
+    ],
+    "opacity_multiplier": 255
+  },
+  {
+    "tick": 8,
+    "body_frame": 1,
+    "bbox_xyxy": [
+      172,
+      124,
+      181,
+      132
+    ],
+    "size_px": [
+      9,
+      8
+    ],
+    "opacity_multiplier": 255
+  },
+  {
+    "tick": 9,
+    "body_frame": 1,
+    "bbox_xyxy": [
+      171,
+      123,
+      181,
+      132
+    ],
+    "size_px": [
+      10,
+      9
+    ],
+    "opacity_multiplier": 255
+  }
+]

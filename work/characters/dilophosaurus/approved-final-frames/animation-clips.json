@@ -1,0 +1,5643 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "source_manifest": {
+    "path": "../clips_manifest.json",
+    "file_sha256": "9da3f11a9a50f892601bd27b5aa712aeee2ded82e9ab964c770399df62132605",
+    "copy": "source-manifest.json"
+  },
+  "frame_size": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176,
+    224
+  ],
+  "anchor_semantics": "shared canvas/root origin, often a ground reference; not per-frame visible bottom",
+  "sampling": "nearest",
+  "pixel_art": true,
+  "art_source": "host_image",
+  "body_height_px": 96,
+  "shadow": {
+    "rx": 35,
+    "ry": 5,
+    "opacity": 0.3
+  },
+  "frames": [
+    {
+      "index": 0,
+      "name": "walk_00",
+      "source": {
+        "path": "../raw_frames/walk_00.png",
+        "file_sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f",
+        "bytes": 17123,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "8725d8821c71e2251f21847ccb8b3ed6d781e6386c7a510f13cac6c42249efcc",
+      "transparent_pixel_count": 93334,
+      "visible_pixel_count": 4970,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-00.png"
+    },
+    {
+      "index": 1,
+      "name": "walk_01",
+      "source": {
+        "path": "../raw_frames/walk_01.png",
+        "file_sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd",
+        "bytes": 16553,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "c9d1d3a31cef19394d21fabf413cf712647a39b49e6c0f006584c22d0869f611",
+      "transparent_pixel_count": 93537,
+      "visible_pixel_count": 4767,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-01.png"
+    },
+    {
+      "index": 2,
+      "name": "walk_02",
+      "source": {
+        "path": "../raw_frames/walk_02.png",
+        "file_sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21",
+        "bytes": 16046,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "04fe6d80eba7545ec8a0f1bbe02495bbb3c402540fb6031d891abb4147c43f66",
+      "transparent_pixel_count": 93682,
+      "visible_pixel_count": 4622,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-02.png"
+    },
+    {
+      "index": 3,
+      "name": "walk_03",
+      "source": {
+        "path": "../raw_frames/walk_03.png",
+        "file_sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373",
+        "bytes": 16340,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "7f40db403663c55aa470b4960b0212e778be2c56b3fc07d25ba44fadec25e5aa",
+      "transparent_pixel_count": 93619,
+      "visible_pixel_count": 4685,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-03.png"
+    },
+    {
+      "index": 4,
+      "name": "walk_04",
+      "source": {
+        "path": "../raw_frames/walk_04.png",
+        "file_sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4",
+        "bytes": 16710,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "6964fedffa94a1e2a9d738a536227d82a40d8a3b368fc20b675e03f4577a7ed3",
+      "transparent_pixel_count": 93505,
+      "visible_pixel_count": 4799,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-04.png"
+    },
+    {
+      "index": 5,
+      "name": "walk_05",
+      "source": {
+        "path": "../raw_frames/walk_05.png",
+        "file_sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42",
+        "bytes": 16142,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "fe723139f5250c2f526f09a1006242bf1354722a2f9bb7681b90089f73e01b56",
+      "transparent_pixel_count": 93647,
+      "visible_pixel_count": 4657,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-05.png"
+    },
+    {
+      "index": 6,
+      "name": "walk_06",
+      "source": {
+        "path": "../raw_frames/walk_06.png",
+        "file_sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af",
+        "bytes": 15792,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "6aad9de206465e678fc9b5d4199d753900e2a73550680d8c3b1d18de02e2c676",
+      "transparent_pixel_count": 93739,
+      "visible_pixel_count": 4565,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-06.png"
+    },
+    {
+      "index": 7,
+      "name": "walk_07",
+      "source": {
+        "path": "../raw_frames/walk_07.png",
+        "file_sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83",
+        "bytes": 16834,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "d8cdeba420a5b86cd48c510abcbe372576abf8b03bf67d3b5b61efea8fcad998",
+      "transparent_pixel_count": 93472,
+      "visible_pixel_count": 4832,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-07.png"
+    },
+    {
+      "index": 8,
+      "name": "attack_light_00",
+      "source": {
+        "path": "../raw_frames/attack_light_00.png",
+        "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "5401f453b5bf7b331a264ea4fd879785c79368fd1d41413adf3ea10ecf7aba5c",
+      "transparent_pixel_count": 94099,
+      "visible_pixel_count": 4205,
+      "near_duplicates": [
+        30,
+        52,
+        72,
+        79
+      ],
+      "holds": [],
+      "file": "frames/frame-08.png"
+    },
+    {
+      "index": 9,
+      "name": "attack_light_01",
+      "source": {
+        "path": "../raw_frames/attack_light_01.png",
+        "file_sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb",
+        "bytes": 16629,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "199408a295423950843ba9180df0efa1cc2a174c7db5aa49f8fd53878e33f0cb",
+      "transparent_pixel_count": 93566,
+      "visible_pixel_count": 4738,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-09.png"
+    },
+    {
+      "index": 10,
+      "name": "attack_light_02",
+      "source": {
+        "path": "../raw_frames/attack_light_02.png",
+        "file_sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49",
+        "bytes": 16468,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "d310a33cc48464b84a8838a8d8163bfde40c7a9fd297dde26fe8391160adf1a6",
+      "transparent_pixel_count": 93668,
+      "visible_pixel_count": 4636,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-10.png"
+    },
+    {
+      "index": 11,
+      "name": "attack_light_03",
+      "source": {
+        "path": "../raw_frames/attack_light_03.png",
+        "file_sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac",
+        "bytes": 17444,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "cc0f2608285af040b81a8483a8f0ffe3d32fe48808a4d1ac09c221f8427595cd",
+      "transparent_pixel_count": 93351,
+      "visible_pixel_count": 4953,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-11.png"
+    },
+    {
+      "index": 12,
+      "name": "attack_light_04",
+      "source": {
+        "path": "../raw_frames/attack_light_04.png",
+        "file_sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e",
+        "bytes": 16604,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "3b93b1a822d0d5fd343cfcaf4e2b74638cb881f9850045d5251ad7ef4e94a150",
+      "transparent_pixel_count": 93625,
+      "visible_pixel_count": 4679,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-12.png"
+    },
+    {
+      "index": 13,
+      "name": "attack_light_05",
+      "source": {
+        "path": "../raw_frames/attack_light_05.png",
+        "file_sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408",
+        "bytes": 16830,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "39f89272798ef98fb5494f7126e0503b8890604c0b8cc41be9e877f6bcc3a8a8",
+      "transparent_pixel_count": 93547,
+      "visible_pixel_count": 4757,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-13.png"
+    },
+    {
+      "index": 14,
+      "name": "attack_light_06",
+      "source": {
+        "path": "../raw_frames/attack_light_06.png",
+        "file_sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6",
+        "bytes": 16473,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "9f29e755f188a164b7741f5f94dfe24ec05cc525d1154fec5cb09b09ece5b299",
+      "transparent_pixel_count": 93657,
+      "visible_pixel_count": 4647,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-14.png"
+    },
+    {
+      "index": 15,
+      "name": "attack_light_07",
+      "source": {
+        "path": "../raw_frames/attack_light_07.png",
+        "file_sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9",
+        "bytes": 16454,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "d58cab82c7efda395babc2f4b8aaa3bbb257fdb44e50d8f6b4ec3ca3b5aef17d",
+      "transparent_pixel_count": 93652,
+      "visible_pixel_count": 4652,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-15.png"
+    },
+    {
+      "index": 16,
+      "name": "hit_00",
+      "source": {
+        "path": "../raw_frames/hit_00.png",
+        "file_sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701",
+        "bytes": 16448,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "a0ef1a89d20bdc2996940d49c42672f5521be387725b6b3cceea0ac2c1b9c233",
+      "transparent_pixel_count": 93567,
+      "visible_pixel_count": 4737,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-16.png"
+    },
+    {
+      "index": 17,
+      "name": "hit_01",
+      "source": {
+        "path": "../raw_frames/hit_01.png",
+        "file_sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f",
+        "bytes": 16033,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "d3cdda7e5418cfea3b48699caa929235d468f61432346f6dec06cf76caa9e3e4",
+      "transparent_pixel_count": 93694,
+      "visible_pixel_count": 4610,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-17.png"
+    },
+    {
+      "index": 18,
+      "name": "hit_02",
+      "source": {
+        "path": "../raw_frames/hit_02.png",
+        "file_sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69",
+        "bytes": 15963,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "f0f814d04ec6809effb6f2331f046d1e96f92f6e6586abf1cc856f81664ce392",
+      "transparent_pixel_count": 93701,
+      "visible_pixel_count": 4603,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-18.png"
+    },
+    {
+      "index": 19,
+      "name": "hit_03",
+      "source": {
+        "path": "../raw_frames/hit_03.png",
+        "file_sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5",
+        "bytes": 15885,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "d4b2b84c8f84fe975ab8add20f7cebacbd0b1628480bc4ec3eaf0052c7f89e86",
+      "transparent_pixel_count": 93757,
+      "visible_pixel_count": 4547,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-19.png"
+    },
+    {
+      "index": 20,
+      "name": "hit_04",
+      "source": {
+        "path": "../raw_frames/hit_04.png",
+        "file_sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3",
+        "bytes": 16046,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "4e36ec013ab4c2cb76d27bc529524e5731be0305639e13a556f1645b7e02c614",
+      "transparent_pixel_count": 93749,
+      "visible_pixel_count": 4555,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-20.png"
+    },
+    {
+      "index": 21,
+      "name": "hit_05",
+      "source": {
+        "path": "../raw_frames/hit_05.png",
+        "file_sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08",
+        "bytes": 16150,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "72a5f8ef25cb2747c3b4acb57f6285de55148a3bde1a2ee56edfb43d1e41dc97",
+      "transparent_pixel_count": 93661,
+      "visible_pixel_count": 4643,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-21.png"
+    },
+    {
+      "index": 22,
+      "name": "ko_00",
+      "source": {
+        "path": "../raw_frames/ko_00.png",
+        "file_sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491",
+        "bytes": 17167,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "87f991f8402fdcf7a3d4c02adad1b1d25178ce54eca7a0e047da254fa841b17d",
+      "transparent_pixel_count": 93373,
+      "visible_pixel_count": 4931,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-22.png"
+    },
+    {
+      "index": 23,
+      "name": "ko_01",
+      "source": {
+        "path": "../raw_frames/ko_01.png",
+        "file_sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299",
+        "bytes": 16483,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "23cdf6dcf497a6b619d579af857e79d54891fa5e15887dabee43abcba6ab4aff",
+      "transparent_pixel_count": 93540,
+      "visible_pixel_count": 4764,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-23.png"
+    },
+    {
+      "index": 24,
+      "name": "ko_02",
+      "source": {
+        "path": "../raw_frames/ko_02.png",
+        "file_sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07",
+        "bytes": 16302,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "7865d0704c1ec97947c130b9e713361d7cce5cddeec45d542aebf832adf0ebf0",
+      "transparent_pixel_count": 93584,
+      "visible_pixel_count": 4720,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-24.png"
+    },
+    {
+      "index": 25,
+      "name": "ko_03",
+      "source": {
+        "path": "../raw_frames/ko_03.png",
+        "file_sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284",
+        "bytes": 15735,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "76475defe8bc38290d27140f382cbdcee64c1627fd509108e012a535f0e054af",
+      "transparent_pixel_count": 93731,
+      "visible_pixel_count": 4573,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-25.png"
+    },
+    {
+      "index": 26,
+      "name": "ko_04",
+      "source": {
+        "path": "../raw_frames/ko_04.png",
+        "file_sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4",
+        "bytes": 15144,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "935f29d29ba0e9596f19730b3eec14ea0f9c2d30eb9888d246c513cc82e93dc4",
+      "transparent_pixel_count": 93911,
+      "visible_pixel_count": 4393,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-26.png"
+    },
+    {
+      "index": 27,
+      "name": "ko_05",
+      "source": {
+        "path": "../raw_frames/ko_05.png",
+        "file_sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d",
+        "bytes": 13949,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "c3051c3c9e4e9a093d3888245609f00571c432e1bab037f922495bbc3c2a7396",
+      "transparent_pixel_count": 94135,
+      "visible_pixel_count": 4169,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-27.png"
+    },
+    {
+      "index": 28,
+      "name": "ko_06",
+      "source": {
+        "path": "../raw_frames/ko_06.png",
+        "file_sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145",
+        "bytes": 12976,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "41fa5261b84f8e85a798bf76062a9625570533404cff32edff04055ecfedcdda",
+      "transparent_pixel_count": 94410,
+      "visible_pixel_count": 3894,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-28.png"
+    },
+    {
+      "index": 29,
+      "name": "ko_07",
+      "source": {
+        "path": "../raw_frames/ko_07.png",
+        "file_sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175",
+        "bytes": 12104,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "246438e17ffac2054360613fd6c0fa84b22dcf8f7df78391b53e795adbee5d1d",
+      "transparent_pixel_count": 94678,
+      "visible_pixel_count": 3626,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-29.png"
+    },
+    {
+      "index": 30,
+      "name": "turn_00",
+      "source": {
+        "path": "../raw_frames/turn_00.png",
+        "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "5401f453b5bf7b331a264ea4fd879785c79368fd1d41413adf3ea10ecf7aba5c",
+      "transparent_pixel_count": 94099,
+      "visible_pixel_count": 4205,
+      "near_duplicates": [
+        8,
+        52,
+        72,
+        79
+      ],
+      "holds": [],
+      "file": "frames/frame-30.png"
+    },
+    {
+      "index": 31,
+      "name": "turn_01",
+      "source": {
+        "path": "../raw_frames/turn_01.png",
+        "file_sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8",
+        "bytes": 17995,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "32417043a2df4cfe1578046fc9349c5c48886e97e26e71488ff3704219ee34db",
+      "transparent_pixel_count": 93239,
+      "visible_pixel_count": 5065,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-31.png"
+    },
+    {
+      "index": 32,
+      "name": "turn_02",
+      "source": {
+        "path": "../raw_frames/turn_02.png",
+        "file_sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c",
+        "bytes": 16749,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "94b5a70ddcf27d82d81f2446e6bac0de8301e49ef37ee0f54dc85afa7dcb90a3",
+      "transparent_pixel_count": 93678,
+      "visible_pixel_count": 4626,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-32.png"
+    },
+    {
+      "index": 33,
+      "name": "turn_03",
+      "source": {
+        "path": "../raw_frames/turn_03.png",
+        "file_sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3",
+        "bytes": 18042,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "046abffb22b339686ec3bf20e8d1f64970efd22f5f0d259d3863cb82cfa06616",
+      "transparent_pixel_count": 93129,
+      "visible_pixel_count": 5175,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-33.png"
+    },
+    {
+      "index": 34,
+      "name": "air_slash_a_fx_00",
+      "source": {
+        "path": "../raw_frames/air_slash_a_fx_00.png",
+        "file_sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64",
+        "bytes": 825,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "a82bca6bb6cff05343e52ace90b64a3768b7b070f3efdb24c8810ce4f9f3c894",
+      "transparent_pixel_count": 98254,
+      "visible_pixel_count": 50,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-34.png"
+    },
+    {
+      "index": 35,
+      "name": "air_slash_a_fx_01",
+      "source": {
+        "path": "../raw_frames/air_slash_a_fx_01.png",
+        "file_sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5",
+        "bytes": 1437,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "25bd2fe7189869c091b791cd77bf647a40554d6fffa0f2a33a66375da5f6d100",
+      "transparent_pixel_count": 98114,
+      "visible_pixel_count": 190,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-35.png"
+    },
+    {
+      "index": 36,
+      "name": "air_slash_a_fx_02",
+      "source": {
+        "path": "../raw_frames/air_slash_a_fx_02.png",
+        "file_sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686",
+        "bytes": 2383,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "bb904eee7f2beb5115e22a28d5cece08a56e75a0328162cc18e8fb18effab80e",
+      "transparent_pixel_count": 97889,
+      "visible_pixel_count": 415,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-36.png"
+    },
+    {
+      "index": 37,
+      "name": "air_slash_a_fx_03",
+      "source": {
+        "path": "../raw_frames/air_slash_a_fx_03.png",
+        "file_sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623",
+        "bytes": 2057,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "2ded597a909ebc36c72a9faaa7e91d49a700ec1f56d051c029951a1928978c15",
+      "transparent_pixel_count": 97939,
+      "visible_pixel_count": 365,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-37.png"
+    },
+    {
+      "index": 38,
+      "name": "air_slash_a_fx_04",
+      "source": {
+        "path": "../raw_frames/air_slash_a_fx_04.png",
+        "file_sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec",
+        "bytes": 1470,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "e604481e7382543c39760b6341eaa402a40103be659e67e1e0b854a2039e6cd5",
+      "transparent_pixel_count": 98079,
+      "visible_pixel_count": 225,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-38.png"
+    },
+    {
+      "index": 39,
+      "name": "air_slash_a_fx_05",
+      "source": {
+        "path": "../raw_frames/air_slash_a_fx_05.png",
+        "file_sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e",
+        "bytes": 886,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "db905ef2e160edc24bd7142dee5a3c50c6a3b9964ee0d78efd8973e898ea78aa",
+      "transparent_pixel_count": 98226,
+      "visible_pixel_count": 78,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-39.png"
+    },
+    {
+      "index": 40,
+      "name": "air_slash_b_fx_00",
+      "source": {
+        "path": "../raw_frames/air_slash_b_fx_00.png",
+        "file_sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf",
+        "bytes": 836,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "e3b3cde7131d6b5b8235822b31f1075b68018591f57cdf5a04a249c456d9bb05",
+      "transparent_pixel_count": 98243,
+      "visible_pixel_count": 61,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-40.png"
+    },
+    {
+      "index": 41,
+      "name": "air_slash_b_fx_01",
+      "source": {
+        "path": "../raw_frames/air_slash_b_fx_01.png",
+        "file_sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae",
+        "bytes": 1438,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "7f6d5d3a9274ed2eddf1636a8933a0585f65cf85e215edef50fb1546ebde2276",
+      "transparent_pixel_count": 98114,
+      "visible_pixel_count": 190,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-41.png"
+    },
+    {
+      "index": 42,
+      "name": "air_slash_b_fx_02",
+      "source": {
+        "path": "../raw_frames/air_slash_b_fx_02.png",
+        "file_sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b",
+        "bytes": 2343,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "c96268c63cd9fb33aaebaa1524730140ec7a38bd2906cf092c94773365d7798e",
+      "transparent_pixel_count": 97889,
+      "visible_pixel_count": 415,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-42.png"
+    },
+    {
+      "index": 43,
+      "name": "air_slash_b_fx_03",
+      "source": {
+        "path": "../raw_frames/air_slash_b_fx_03.png",
+        "file_sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded",
+        "bytes": 1989,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "a2ccc12a17473950e50efecac2beb1878e8dcb9571d1c1220e2cad4cb0187ed4",
+      "transparent_pixel_count": 97950,
+      "visible_pixel_count": 354,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-43.png"
+    },
+    {
+      "index": 44,
+      "name": "air_slash_b_fx_04",
+      "source": {
+        "path": "../raw_frames/air_slash_b_fx_04.png",
+        "file_sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178",
+        "bytes": 1421,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "aaddf111135265ab46e04d14b850000a9f24dc5d5de91e6b76d2da7f579354be",
+      "transparent_pixel_count": 98079,
+      "visible_pixel_count": 225,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-44.png"
+    },
+    {
+      "index": 45,
+      "name": "air_slash_b_fx_05",
+      "source": {
+        "path": "../raw_frames/air_slash_b_fx_05.png",
+        "file_sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac",
+        "bytes": 913,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "fce2b99afa30125e1d501687880434f6bdc419aaa1679ca34b5c9172660666ea",
+      "transparent_pixel_count": 98214,
+      "visible_pixel_count": 90,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-45.png"
+    },
+    {
+      "index": 46,
+      "name": "air_slash_c_fx_00",
+      "source": {
+        "path": "../raw_frames/air_slash_c_fx_00.png",
+        "file_sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073",
+        "bytes": 719,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "dc30a15e6a9a23da89fa4d38820d29988a1066b48d6476cf7774d0df6e76e376",
+      "transparent_pixel_count": 98270,
+      "visible_pixel_count": 34,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-46.png"
+    },
+    {
+      "index": 47,
+      "name": "air_slash_c_fx_01",
+      "source": {
+        "path": "../raw_frames/air_slash_c_fx_01.png",
+        "file_sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc",
+        "bytes": 1243,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "758b325ed2e72f3a52d817a5e1b2d47283be3a8263fad90d81c71e5559766821",
+      "transparent_pixel_count": 98166,
+      "visible_pixel_count": 138,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-47.png"
+    },
+    {
+      "index": 48,
+      "name": "air_slash_c_fx_02",
+      "source": {
+        "path": "../raw_frames/air_slash_c_fx_02.png",
+        "file_sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15",
+        "bytes": 2389,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "185a981cb8f916db4686127977b695a2125be901516e95ce0fa3303bfaf8463a",
+      "transparent_pixel_count": 97891,
+      "visible_pixel_count": 413,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-48.png"
+    },
+    {
+      "index": 49,
+      "name": "air_slash_c_fx_03",
+      "source": {
+        "path": "../raw_frames/air_slash_c_fx_03.png",
+        "file_sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4",
+        "bytes": 2173,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "1fecfefdbf98d2c3d81153b1750c45cc282d8cf87540c5a1689cf24c9673f6e5",
+      "transparent_pixel_count": 97925,
+      "visible_pixel_count": 379,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-49.png"
+    },
+    {
+      "index": 50,
+      "name": "air_slash_c_fx_04",
+      "source": {
+        "path": "../raw_frames/air_slash_c_fx_04.png",
+        "file_sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1",
+        "bytes": 1655,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "772fa3a5f645ab9b72807a69b9b3ec9d4bbc9c1a3b1425decc0c1450d87d1eb7",
+      "transparent_pixel_count": 98029,
+      "visible_pixel_count": 275,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-50.png"
+    },
+    {
+      "index": 51,
+      "name": "air_slash_c_fx_05",
+      "source": {
+        "path": "../raw_frames/air_slash_c_fx_05.png",
+        "file_sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e",
+        "bytes": 819,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "1ed1076156a6925c9295171167607fd222aa2aba386e2f9ca9e4875cccc4b05b",
+      "transparent_pixel_count": 98218,
+      "visible_pixel_count": 86,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-51.png"
+    },
+    {
+      "index": 52,
+      "name": "idle_00",
+      "source": {
+        "path": "../raw_frames/idle_00.png",
+        "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "5401f453b5bf7b331a264ea4fd879785c79368fd1d41413adf3ea10ecf7aba5c",
+      "transparent_pixel_count": 94099,
+      "visible_pixel_count": 4205,
+      "near_duplicates": [
+        8,
+        30,
+        72,
+        79
+      ],
+      "holds": [],
+      "file": "frames/frame-52.png"
+    },
+    {
+      "index": 53,
+      "name": "idle_01",
+      "source": {
+        "path": "../raw_frames/idle_01.png",
+        "file_sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374",
+        "bytes": 15117,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "15b29ccd90f330298fa4d0420f269a80ff909c425b0c47cdc2cdd0ef7a41d6c9",
+      "transparent_pixel_count": 93983,
+      "visible_pixel_count": 4321,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-53.png"
+    },
+    {
+      "index": 54,
+      "name": "idle_02",
+      "source": {
+        "path": "../raw_frames/idle_02.png",
+        "file_sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e",
+        "bytes": 15205,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "68fe2e6fd4640b188cb3d6fdb9756b2af05d92a434da3aa5c1afe25edb4c2971",
+      "transparent_pixel_count": 93976,
+      "visible_pixel_count": 4328,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-54.png"
+    },
+    {
+      "index": 55,
+      "name": "idle_03",
+      "source": {
+        "path": "../raw_frames/idle_03.png",
+        "file_sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647",
+        "bytes": 15266,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "12f5fca14ca143d97e6b01c865451b1a7fe1a496a223b52851ace8eef0e61f40",
+      "transparent_pixel_count": 93963,
+      "visible_pixel_count": 4341,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-55.png"
+    },
+    {
+      "index": 56,
+      "name": "idle_04",
+      "source": {
+        "path": "../raw_frames/idle_04.png",
+        "file_sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05",
+        "bytes": 15282,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "80393acd5ff7a1cd8866395b2897e25d10a73cb8101bab8284923029823923b7",
+      "transparent_pixel_count": 93966,
+      "visible_pixel_count": 4338,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-56.png"
+    },
+    {
+      "index": 57,
+      "name": "idle_05",
+      "source": {
+        "path": "../raw_frames/idle_05.png",
+        "file_sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf",
+        "bytes": 15216,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "8df2ed8e8f6c40707a987feafd9d8bb6211e82036372ab82e99da1bdc77efb92",
+      "transparent_pixel_count": 93963,
+      "visible_pixel_count": 4341,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-57.png"
+    },
+    {
+      "index": 58,
+      "name": "idle_06",
+      "source": {
+        "path": "../raw_frames/idle_06.png",
+        "file_sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20",
+        "bytes": 15178,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "9c4d2831aa48d09256ddd34562f5c3c23d8ffa41527be8ed2d0560b5b4948bbf",
+      "transparent_pixel_count": 93992,
+      "visible_pixel_count": 4312,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-58.png"
+    },
+    {
+      "index": 59,
+      "name": "idle_07",
+      "source": {
+        "path": "../raw_frames/idle_07.png",
+        "file_sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c",
+        "bytes": 15085,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "43a3174bcc31fc43db6f302f62004cc8a0a42c443f873cfa0dbc48f9ce07da44",
+      "transparent_pixel_count": 93983,
+      "visible_pixel_count": 4321,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-59.png"
+    },
+    {
+      "index": 60,
+      "name": "idle_08",
+      "source": {
+        "path": "../raw_frames/idle_08.png",
+        "file_sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238",
+        "bytes": 15113,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "0c7afa4294dac5b578ebf2a4c64641532d77a53e06004f653d5e81978eafb382",
+      "transparent_pixel_count": 93978,
+      "visible_pixel_count": 4326,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-60.png"
+    },
+    {
+      "index": 61,
+      "name": "idle_09",
+      "source": {
+        "path": "../raw_frames/idle_09.png",
+        "file_sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3",
+        "bytes": 15070,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "36f41b4f5e422c7f0e37ebf56f01eaf2f969eb77aec15879a0404a9e59d7ccd1",
+      "transparent_pixel_count": 93992,
+      "visible_pixel_count": 4312,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-61.png"
+    },
+    {
+      "index": 62,
+      "name": "idle_10",
+      "source": {
+        "path": "../raw_frames/idle_10.png",
+        "file_sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1",
+        "bytes": 15234,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "60bdd44f8d77555ef9a360d4841f405f86c5613e7d4d280dd0d65c74baf76564",
+      "transparent_pixel_count": 93967,
+      "visible_pixel_count": 4337,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-62.png"
+    },
+    {
+      "index": 63,
+      "name": "idle_11",
+      "source": {
+        "path": "../raw_frames/idle_11.png",
+        "file_sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b",
+        "bytes": 15265,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "83bc1b6a0e3bb56d7118beda604a0a6f5cb7291a522001caeb5dde2263a474fb",
+      "transparent_pixel_count": 93968,
+      "visible_pixel_count": 4336,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-63.png"
+    },
+    {
+      "index": 64,
+      "name": "power_wave_00",
+      "source": {
+        "path": "../raw_frames/power_wave_00.png",
+        "file_sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6",
+        "bytes": 18615,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "13ed21bcc982551c3a57bbacba887ed2db99d2a70203f8f18e23e74c594ee394",
+      "transparent_pixel_count": 92660,
+      "visible_pixel_count": 5644,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-64.png"
+    },
+    {
+      "index": 65,
+      "name": "power_wave_01",
+      "source": {
+        "path": "../raw_frames/power_wave_01.png",
+        "file_sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917",
+        "bytes": 18574,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "242fc0f9a941cf7ecbc2e16538c333adbdbc403a861c9530c65e59a4e1e5f63e",
+      "transparent_pixel_count": 92680,
+      "visible_pixel_count": 5624,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-65.png"
+    },
+    {
+      "index": 66,
+      "name": "power_wave_02",
+      "source": {
+        "path": "../raw_frames/power_wave_02.png",
+        "file_sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188",
+        "bytes": 18477,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "f454c57334b3c4aac12dc0b38588a1d5255517fd7e7d72a26a234cc76ff4ea67",
+      "transparent_pixel_count": 92706,
+      "visible_pixel_count": 5598,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-66.png"
+    },
+    {
+      "index": 67,
+      "name": "power_wave_03",
+      "source": {
+        "path": "../raw_frames/power_wave_03.png",
+        "file_sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1",
+        "bytes": 18582,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "3d1a01c7ddb862a7a25f1ed2e544f4205f4ac63b161eef3cbc28912ef32b3605",
+      "transparent_pixel_count": 92691,
+      "visible_pixel_count": 5613,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-67.png"
+    },
+    {
+      "index": 68,
+      "name": "power_wave_04",
+      "source": {
+        "path": "../raw_frames/power_wave_04.png",
+        "file_sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197",
+        "bytes": 18498,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "c4f3ec6aee33a23a8c91d8d2fcadd9a1158d466d19b6f3cf69d9497b95685999",
+      "transparent_pixel_count": 92700,
+      "visible_pixel_count": 5604,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-68.png"
+    },
+    {
+      "index": 69,
+      "name": "power_wave_05",
+      "source": {
+        "path": "../raw_frames/power_wave_05.png",
+        "file_sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d",
+        "bytes": 18545,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "2bae521a0ee67fd41a7e4405e7d2c04dd544e9a57944c2daeea0e3439615c80d",
+      "transparent_pixel_count": 92706,
+      "visible_pixel_count": 5598,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-69.png"
+    },
+    {
+      "index": 70,
+      "name": "power_wave_06",
+      "source": {
+        "path": "../raw_frames/power_wave_06.png",
+        "file_sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea",
+        "bytes": 18560,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "cf154a63b002a5b2d379a4160e2aa03d43458f6a2cd5a4d0d650ce04c07df9b7",
+      "transparent_pixel_count": 92699,
+      "visible_pixel_count": 5605,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-70.png"
+    },
+    {
+      "index": 71,
+      "name": "power_wave_07",
+      "source": {
+        "path": "../raw_frames/power_wave_07.png",
+        "file_sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548",
+        "bytes": 18558,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "f25c5137b73e16127ba13ed0d4eb7f0006cbaacc8e256b552772c79f9adc570c",
+      "transparent_pixel_count": 92690,
+      "visible_pixel_count": 5614,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-71.png"
+    },
+    {
+      "index": 72,
+      "name": "power_prepare_0",
+      "source": {
+        "path": "../raw_frames/power_prepare_0.png",
+        "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "5401f453b5bf7b331a264ea4fd879785c79368fd1d41413adf3ea10ecf7aba5c",
+      "transparent_pixel_count": 94099,
+      "visible_pixel_count": 4205,
+      "near_duplicates": [
+        8,
+        30,
+        52,
+        79
+      ],
+      "holds": [],
+      "file": "frames/frame-72.png"
+    },
+    {
+      "index": 73,
+      "name": "power_prepare_1",
+      "source": {
+        "path": "../raw_frames/power_prepare_1.png",
+        "file_sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e",
+        "bytes": 15993,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "483b38d960395c263104ba62af8ff06e7bfa438249c5906f758b66a1d320bc3e",
+      "transparent_pixel_count": 93613,
+      "visible_pixel_count": 4691,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-73.png"
+    },
+    {
+      "index": 74,
+      "name": "power_recover_18",
+      "source": {
+        "path": "../raw_frames/power_recover_18.png",
+        "file_sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b",
+        "bytes": 17094,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "4cc08f3be37957d9824486ce0706ffad823c7becc6d2709df79851273d0e364c",
+      "transparent_pixel_count": 93309,
+      "visible_pixel_count": 4995,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-74.png"
+    },
+    {
+      "index": 75,
+      "name": "power_recover_19",
+      "source": {
+        "path": "../raw_frames/power_recover_19.png",
+        "file_sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49",
+        "bytes": 16376,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "d641748d01eccb81ebda25c226130ad57f36d46c47729dedd655f0110e9a3948",
+      "transparent_pixel_count": 93544,
+      "visible_pixel_count": 4760,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-75.png"
+    },
+    {
+      "index": 76,
+      "name": "power_recover_20",
+      "source": {
+        "path": "../raw_frames/power_recover_20.png",
+        "file_sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595",
+        "bytes": 16536,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "2b72a4d2cebd39ce743d0a3d5bbe355f97b8ee61b7d6ee9170ed02ed2aebf5ce",
+      "transparent_pixel_count": 93438,
+      "visible_pixel_count": 4866,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-76.png"
+    },
+    {
+      "index": 77,
+      "name": "power_recover_21",
+      "source": {
+        "path": "../raw_frames/power_recover_21.png",
+        "file_sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d",
+        "bytes": 16210,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "3e8ad3b7d9dc3fbb17ba4a3ab15241ba2f76eba19901662e0d1ab7ea70e338a1",
+      "transparent_pixel_count": 93554,
+      "visible_pixel_count": 4750,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-77.png"
+    },
+    {
+      "index": 78,
+      "name": "power_recover_22",
+      "source": {
+        "path": "../raw_frames/power_recover_22.png",
+        "file_sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736",
+        "bytes": 16273,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "90431d74c2ba20946a0e6380e5822dbc44a0b84aa5e469efa34f73ce73375c14",
+      "transparent_pixel_count": 93554,
+      "visible_pixel_count": 4750,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-78.png"
+    },
+    {
+      "index": 79,
+      "name": "power_recover_23",
+      "source": {
+        "path": "../raw_frames/power_recover_23.png",
+        "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "5401f453b5bf7b331a264ea4fd879785c79368fd1d41413adf3ea10ecf7aba5c",
+      "transparent_pixel_count": 94099,
+      "visible_pixel_count": 4205,
+      "near_duplicates": [
+        8,
+        30,
+        52,
+        72
+      ],
+      "holds": [],
+      "file": "frames/frame-79.png"
+    }
+  ],
+  "clips": {
+    "walk": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "duration_ms": [
+        117,
+        133,
+        117,
+        133,
+        117,
+        133,
+        117,
+        133
+      ],
+      "loop": true,
+      "total_duration_ms": 1000,
+      "nominal_fps": null,
+      "average_fps": 8.0,
+      "loop_policy": "cycle",
+      "timing_source": "ticks",
+      "ticks": [
+        7,
+        8,
+        7,
+        8,
+        7,
+        8,
+        7,
+        8
+      ],
+      "tick_hz": 60,
+      "events_ms": [],
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          7,
+          8,
+          7,
+          8,
+          7,
+          8,
+          7,
+          8
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 60.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "seam": {
+        "frames": 8,
+        "seam": 1.869011,
+        "adjacent_median": 2.250046,
+        "adjacent_p95": 3.309666,
+        "adjacent_max": 3.460482,
+        "seam_over_median": 0.830655,
+        "seam_over_p95": 0.564713,
+        "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+        "adjacent_mean": 2.404487,
+        "wrap_ratio": 0.777301
+      },
+      "preview": {
+        "file": "clips/clip-00.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 117,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 117,
+            "duration_ms": 133,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 250,
+            "duration_ms": 117,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 367,
+            "duration_ms": 133,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 500,
+            "duration_ms": 117,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 617,
+            "duration_ms": 133,
+            "clip_positions": [
+              5
+            ]
+          },
+          {
+            "index": 6,
+            "start_ms": 750,
+            "duration_ms": 117,
+            "clip_positions": [
+              6
+            ]
+          },
+          {
+            "index": 7,
+            "start_ms": 867,
+            "duration_ms": 133,
+            "clip_positions": [
+              7
+            ]
+          }
+        ],
+        "decoded_frame_count": 8,
+        "total_duration_ms": 1000,
+        "native_loop_count": 0,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "4a95692c7da9e2edb52203e85dd39dda535650d90635e13cf6c1bbe453f45bf4"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 2.828444,
+          "alpha_mae": 5.356598,
+          "changed_visible_pixels": 5900
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 1.212067,
+          "alpha_mae": 2.155609,
+          "changed_visible_pixels": 5106
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 1.980645,
+          "alpha_mae": 2.581024,
+          "changed_visible_pixels": 5150
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 2.204773,
+          "alpha_mae": 3.792419,
+          "changed_visible_pixels": 5473
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 1.766886,
+          "alpha_mae": 2.63031,
+          "changed_visible_pixels": 5232
+        },
+        {
+          "from_position": 5,
+          "to_position": 6,
+          "premultiplied_rgb_mae": 1.872538,
+          "alpha_mae": 3.382568,
+          "changed_visible_pixels": 5261
+        },
+        {
+          "from_position": 6,
+          "to_position": 7,
+          "premultiplied_rgb_mae": 2.446947,
+          "alpha_mae": 4.490204,
+          "changed_visible_pixels": 5563
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": true,
+        "premultiplied_rgb_mae": 1.672312,
+        "alpha_mae": 2.459106,
+        "changed_visible_pixels": 5371
+      }
+    },
+    "attack_light": {
+      "frames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "duration_ms": [
+        83,
+        84,
+        66,
+        67,
+        67,
+        83,
+        83,
+        100
+      ],
+      "loop": false,
+      "total_duration_ms": 633,
+      "nominal_fps": null,
+      "average_fps": 12.638230647709321,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "tell",
+          "at_ms": 83,
+          "at": 1,
+          "position": 1,
+          "at_tick": 5
+        },
+        {
+          "name": "hit",
+          "at_ms": 300,
+          "at": 4,
+          "position": 4,
+          "at_tick": 18
+        },
+        {
+          "name": "end",
+          "at_ms": 533,
+          "at": 7,
+          "position": 7,
+          "at_tick": 32
+        }
+      ],
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 2,
+        "strike": 4,
+        "recover": 6,
+        "end": 7
+      },
+      "keys_ms": {
+        "wind_start": 0,
+        "wind_peak": 167,
+        "strike": 300,
+        "recover": 450,
+        "end": 533
+      },
+      "hitstop_ticks": 3,
+      "hitstop_ms": 50,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          5,
+          5,
+          6
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 37.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-01.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 83,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 83,
+            "duration_ms": 84,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 167,
+            "duration_ms": 66,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 233,
+            "duration_ms": 67,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 300,
+            "duration_ms": 67,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 367,
+            "duration_ms": 83,
+            "clip_positions": [
+              5
+            ]
+          },
+          {
+            "index": 6,
+            "start_ms": 450,
+            "duration_ms": 83,
+            "clip_positions": [
+              6
+            ]
+          },
+          {
+            "index": 7,
+            "start_ms": 533,
+            "duration_ms": 100,
+            "clip_positions": [
+              7
+            ]
+          }
+        ],
+        "decoded_frame_count": 8,
+        "total_duration_ms": 633,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "c5cad818eef85a8bb5e9049460625fdbcac8379cd2031272a4f1f508ed8be94d"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 3.244019,
+          "alpha_mae": 5.086823,
+          "changed_visible_pixels": 5451
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 2.660071,
+          "alpha_mae": 3.418884,
+          "changed_visible_pixels": 5346
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 2.899655,
+          "alpha_mae": 4.210052,
+          "changed_visible_pixels": 5605
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 3.440915,
+          "alpha_mae": 5.914307,
+          "changed_visible_pixels": 5955
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 2.949554,
+          "alpha_mae": 3.621216,
+          "changed_visible_pixels": 5416
+        },
+        {
+          "from_position": 5,
+          "to_position": 6,
+          "premultiplied_rgb_mae": 2.708503,
+          "alpha_mae": 3.475952,
+          "changed_visible_pixels": 5371
+        },
+        {
+          "from_position": 6,
+          "to_position": 7,
+          "premultiplied_rgb_mae": 1.639848,
+          "alpha_mae": 1.522675,
+          "changed_visible_pixels": 4942
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 3.31582,
+        "alpha_mae": 5.434418,
+        "changed_visible_pixels": 5476
+      }
+    },
+    "hit": {
+      "frames": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "duration_ms": [
+        67,
+        66,
+        84,
+        83,
+        83,
+        84
+      ],
+      "loop": false,
+      "total_duration_ms": 467,
+      "nominal_fps": null,
+      "average_fps": 12.84796573875803,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "end",
+          "at_ms": 383,
+          "at": 5,
+          "position": 5,
+          "at_tick": 23
+        }
+      ],
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          5,
+          5,
+          5,
+          5
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 28.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-02.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 67,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 67,
+            "duration_ms": 66,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 133,
+            "duration_ms": 84,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 217,
+            "duration_ms": 83,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 300,
+            "duration_ms": 83,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 383,
+            "duration_ms": 84,
+            "clip_positions": [
+              5
+            ]
+          }
+        ],
+        "decoded_frame_count": 6,
+        "total_duration_ms": 467,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "12ea7ad80e8ffe453936fbf1fa4ddcfb95aa9e34517238612c736b277cbf9c07"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 4.024397,
+          "alpha_mae": 7.784576,
+          "changed_visible_pixels": 6174
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 2.230289,
+          "alpha_mae": 3.488922,
+          "changed_visible_pixels": 5278
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 2.987535,
+          "alpha_mae": 4.985657,
+          "changed_visible_pixels": 5536
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 3.27316,
+          "alpha_mae": 5.660095,
+          "changed_visible_pixels": 5642
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 1.638004,
+          "alpha_mae": 1.603088,
+          "changed_visible_pixels": 4904
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 2.281009,
+        "alpha_mae": 2.801514,
+        "changed_visible_pixels": 5229
+      }
+    },
+    "ko": {
+      "frames": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "duration_ms": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        100,
+        100,
+        250
+      ],
+      "loop": false,
+      "total_duration_ms": 867,
+      "nominal_fps": null,
+      "average_fps": 9.22722029988466,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        15
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "hold",
+          "at_ms": 617,
+          "at": 7,
+          "position": 7,
+          "at_tick": 37
+        }
+      ],
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          6,
+          6,
+          15
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 52.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-03.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 83,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 83,
+            "duration_ms": 84,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 167,
+            "duration_ms": 83,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 250,
+            "duration_ms": 83,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 333,
+            "duration_ms": 84,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 417,
+            "duration_ms": 100,
+            "clip_positions": [
+              5
+            ]
+          },
+          {
+            "index": 6,
+            "start_ms": 517,
+            "duration_ms": 100,
+            "clip_positions": [
+              6
+            ]
+          },
+          {
+            "index": 7,
+            "start_ms": 617,
+            "duration_ms": 250,
+            "clip_positions": [
+              7
+            ]
+          }
+        ],
+        "decoded_frame_count": 8,
+        "total_duration_ms": 867,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "297882b9517578171121d975ac640e5a333a1d5aaf4ad2cd5cca0b370fe44774"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 3.257826,
+          "alpha_mae": 5.128326,
+          "changed_visible_pixels": 5836
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 4.302979,
+          "alpha_mae": 8.248901,
+          "changed_visible_pixels": 6332
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 4.418661,
+          "alpha_mae": 9.071198,
+          "changed_visible_pixels": 6394
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 2.692973,
+          "alpha_mae": 4.48761,
+          "changed_visible_pixels": 5347
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 2.93418,
+          "alpha_mae": 4.612122,
+          "changed_visible_pixels": 5169
+        },
+        {
+          "from_position": 5,
+          "to_position": 6,
+          "premultiplied_rgb_mae": 2.207286,
+          "alpha_mae": 2.970123,
+          "changed_visible_pixels": 4603
+        },
+        {
+          "from_position": 6,
+          "to_position": 7,
+          "premultiplied_rgb_mae": 1.819075,
+          "alpha_mae": 2.293091,
+          "changed_visible_pixels": 4201
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 6.982934,
+        "alpha_mae": 17.72995,
+        "changed_visible_pixels": 7696
+      }
+    },
+    "turn": {
+      "frames": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "duration_ms": [
+        100,
+        67,
+        66,
+        100
+      ],
+      "loop": false,
+      "total_duration_ms": 333,
+      "nominal_fps": null,
+      "average_fps": 12.012012012012011,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        6,
+        4,
+        4,
+        6
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "end",
+          "at_ms": 233,
+          "at": 3,
+          "position": 3,
+          "at_tick": 14
+        }
+      ],
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          6,
+          4,
+          4,
+          6
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 19.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-04.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 100,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 100,
+            "duration_ms": 67,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 167,
+            "duration_ms": 66,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 233,
+            "duration_ms": 100,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 333,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "af5b675c7ed52cbf66cf050fc50c6c56551a47e431a7d08669772cb14f11822a"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 4.639859,
+          "alpha_mae": 8.518677,
+          "changed_visible_pixels": 6277
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 5.618802,
+          "alpha_mae": 12.713165,
+          "changed_visible_pixels": 7295
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 4.848748,
+          "alpha_mae": 8.324127,
+          "changed_visible_pixels": 6503
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 6.58825,
+        "alpha_mae": 16.124268,
+        "changed_visible_pixels": 7798
+      }
+    },
+    "air_slash_a_fx": {
+      "frames": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "duration_ms": [
+        17,
+        16,
+        17,
+        17,
+        16,
+        17
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "nominal_fps": 60.0,
+      "average_fps": 60.0,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "tick_hz": 60,
+      "fps_rational": "60/1",
+      "events_ms": [],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 6.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-05.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 17,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 17,
+            "duration_ms": 16,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 33,
+            "duration_ms": 17,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 50,
+            "duration_ms": 17,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 67,
+            "duration_ms": 16,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 83,
+            "duration_ms": 17,
+            "clip_positions": [
+              5
+            ]
+          }
+        ],
+        "decoded_frame_count": 6,
+        "total_duration_ms": 100,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "f176e8542ba17c94019602b4139c12c236db150e1ffcea59ff1d56b83db4730a"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 0.240739,
+          "alpha_mae": 0.324687,
+          "changed_visible_pixels": 140
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 0.325686,
+          "alpha_mae": 0.459167,
+          "changed_visible_pixels": 225
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 0.057884,
+          "alpha_mae": 0.095276,
+          "changed_visible_pixels": 50
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 0.240739,
+          "alpha_mae": 0.324687,
+          "changed_visible_pixels": 140
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 0.237826,
+          "alpha_mae": 0.312592,
+          "changed_visible_pixels": 147
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 0.145743,
+        "alpha_mae": 0.241852,
+        "changed_visible_pixels": 128
+      }
+    },
+    "air_slash_b_fx": {
+      "frames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "duration_ms": [
+        17,
+        16,
+        17,
+        17,
+        16,
+        17
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "nominal_fps": 60.0,
+      "average_fps": 60.0,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "tick_hz": 60,
+      "fps_rational": "60/1",
+      "events_ms": [],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 6.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-06.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 17,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 17,
+            "duration_ms": 16,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 33,
+            "duration_ms": 17,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 50,
+            "duration_ms": 17,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 67,
+            "duration_ms": 16,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 83,
+            "duration_ms": 17,
+            "clip_positions": [
+              5
+            ]
+          }
+        ],
+        "decoded_frame_count": 6,
+        "total_duration_ms": 100,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "e815630881bf13a0f8e195e61719da5160a81e64a87b173df67f4ea98171fb37"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 0.208753,
+          "alpha_mae": 0.289917,
+          "changed_visible_pixels": 129
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 0.369113,
+          "alpha_mae": 0.48054,
+          "changed_visible_pixels": 225
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 0.049496,
+          "alpha_mae": 0.0961,
+          "changed_visible_pixels": 61
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 0.208753,
+          "alpha_mae": 0.289917,
+          "changed_visible_pixels": 129
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 0.234188,
+          "alpha_mae": 0.306081,
+          "changed_visible_pixels": 135
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 0.18442,
+        "alpha_mae": 0.270559,
+        "changed_visible_pixels": 151
+      }
+    },
+    "air_slash_c_fx": {
+      "frames": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "duration_ms": [
+        17,
+        16,
+        17,
+        17,
+        16,
+        17
+      ],
+      "loop": false,
+      "total_duration_ms": 100,
+      "nominal_fps": 60.0,
+      "average_fps": 60.0,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "tick_hz": 60,
+      "fps_rational": "60/1",
+      "events_ms": [],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 6.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-07.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 17,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 17,
+            "duration_ms": 16,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 33,
+            "duration_ms": 17,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 50,
+            "duration_ms": 17,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 67,
+            "duration_ms": 16,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 83,
+            "duration_ms": 17,
+            "clip_positions": [
+              5
+            ]
+          }
+        ],
+        "decoded_frame_count": 6,
+        "total_duration_ms": 100,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "b7b3a2ad90fc83296ee1fd94791180fbc0b7027a864ffdd1382580daf8095c5c"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 0.154366,
+          "alpha_mae": 0.216807,
+          "changed_visible_pixels": 104
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 0.434913,
+          "alpha_mae": 0.589783,
+          "changed_visible_pixels": 275
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 0.033232,
+          "alpha_mae": 0.060354,
+          "changed_visible_pixels": 34
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 0.154366,
+          "alpha_mae": 0.216807,
+          "changed_visible_pixels": 104
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 0.275382,
+          "alpha_mae": 0.401866,
+          "changed_visible_pixels": 189
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 0.192763,
+        "alpha_mae": 0.248271,
+        "changed_visible_pixels": 120
+      }
+    },
+    "idle": {
+      "frames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "duration_ms": [
+        167,
+        166,
+        167,
+        167,
+        166,
+        167,
+        167,
+        166,
+        167,
+        167,
+        166,
+        167
+      ],
+      "loop": true,
+      "total_duration_ms": 2000,
+      "nominal_fps": 6.0,
+      "average_fps": 6.0,
+      "loop_policy": "cycle",
+      "timing_source": "ticks",
+      "ticks": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "tick_hz": 60,
+      "fps_rational": "6/1",
+      "events_ms": [],
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 120.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "seam": {
+        "frames": 12,
+        "seam": 1.097336,
+        "adjacent_median": 0.76766,
+        "adjacent_p95": 1.065147,
+        "adjacent_max": 1.071503,
+        "seam_over_median": 1.429456,
+        "seam_over_p95": 1.03022,
+        "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+        "adjacent_mean": 0.721641,
+        "wrap_ratio": 1.520612
+      },
+      "preview": {
+        "file": "clips/clip-08.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 167,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 167,
+            "duration_ms": 166,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 333,
+            "duration_ms": 167,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 500,
+            "duration_ms": 167,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 667,
+            "duration_ms": 166,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 833,
+            "duration_ms": 167,
+            "clip_positions": [
+              5
+            ]
+          },
+          {
+            "index": 6,
+            "start_ms": 1000,
+            "duration_ms": 167,
+            "clip_positions": [
+              6
+            ]
+          },
+          {
+            "index": 7,
+            "start_ms": 1167,
+            "duration_ms": 166,
+            "clip_positions": [
+              7
+            ]
+          },
+          {
+            "index": 8,
+            "start_ms": 1333,
+            "duration_ms": 167,
+            "clip_positions": [
+              8
+            ]
+          },
+          {
+            "index": 9,
+            "start_ms": 1500,
+            "duration_ms": 167,
+            "clip_positions": [
+              9
+            ]
+          },
+          {
+            "index": 10,
+            "start_ms": 1667,
+            "duration_ms": 166,
+            "clip_positions": [
+              10
+            ]
+          },
+          {
+            "index": 11,
+            "start_ms": 1833,
+            "duration_ms": 167,
+            "clip_positions": [
+              11
+            ]
+          }
+        ],
+        "decoded_frame_count": 12,
+        "total_duration_ms": 2000,
+        "native_loop_count": 0,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "ab19ae7c7c3f0a3adf0e0be01fda55d4767b10f86dd5e9e80516d737a4ec8069"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 1.098714,
+          "alpha_mae": 0.939026,
+          "changed_visible_pixels": 4441
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 0.477173,
+          "alpha_mae": 0.490265,
+          "changed_visible_pixels": 4412
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 0.413323,
+          "alpha_mae": 0.355377,
+          "changed_visible_pixels": 4392
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 1.080838,
+          "alpha_mae": 0.827484,
+          "changed_visible_pixels": 4497
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 0.521779,
+          "alpha_mae": 0.536957,
+          "changed_visible_pixels": 4433
+        },
+        {
+          "from_position": 5,
+          "to_position": 6,
+          "premultiplied_rgb_mae": 0.53382,
+          "alpha_mae": 0.552521,
+          "changed_visible_pixels": 4428
+        },
+        {
+          "from_position": 6,
+          "to_position": 7,
+          "premultiplied_rgb_mae": 0.975281,
+          "alpha_mae": 0.931244,
+          "changed_visible_pixels": 4494
+        },
+        {
+          "from_position": 7,
+          "to_position": 8,
+          "premultiplied_rgb_mae": 1.128632,
+          "alpha_mae": 0.900116,
+          "changed_visible_pixels": 4496
+        },
+        {
+          "from_position": 8,
+          "to_position": 9,
+          "premultiplied_rgb_mae": 0.812568,
+          "alpha_mae": 0.632935,
+          "changed_visible_pixels": 4439
+        },
+        {
+          "from_position": 9,
+          "to_position": 10,
+          "premultiplied_rgb_mae": 0.860487,
+          "alpha_mae": 0.635529,
+          "changed_visible_pixels": 4444
+        },
+        {
+          "from_position": 10,
+          "to_position": 11,
+          "premultiplied_rgb_mae": 0.359826,
+          "alpha_mae": 0.163422,
+          "changed_visible_pixels": 4355
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": true,
+        "premultiplied_rgb_mae": 1.131948,
+        "alpha_mae": 0.9935,
+        "changed_visible_pixels": 4461
+      }
+    },
+    "power_up": {
+      "frames": [
+        72,
+        73,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "duration_ms": [
+        67,
+        66,
+        34,
+        33,
+        33,
+        34,
+        33,
+        33,
+        34,
+        33,
+        33,
+        34,
+        33,
+        33,
+        34,
+        33,
+        33,
+        34,
+        33,
+        33,
+        34,
+        33,
+        33,
+        34,
+        33,
+        33,
+        34,
+        33,
+        33,
+        34,
+        33,
+        33,
+        50,
+        50,
+        50,
+        50,
+        50,
+        84
+      ],
+      "loop": false,
+      "total_duration_ms": 1467,
+      "nominal_fps": null,
+      "average_fps": 25.903203817314246,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        5
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "tell",
+          "at_ms": 67,
+          "at": 1,
+          "position": 1,
+          "at_tick": 4
+        },
+        {
+          "name": "end",
+          "at_ms": 1383,
+          "at": 37,
+          "position": 37,
+          "at_tick": 83
+        }
+      ],
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 2,
+        "strike": 4,
+        "recover": 32,
+        "end": 37
+      },
+      "keys_ms": {
+        "wind_start": 0,
+        "wind_peak": 133,
+        "strike": 200,
+        "recover": 1133,
+        "end": 1383
+      },
+      "hitstop_ticks": 0,
+      "hitstop_ms": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          5
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 88.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-09.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 67,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 67,
+            "duration_ms": 66,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 133,
+            "duration_ms": 34,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 167,
+            "duration_ms": 33,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 200,
+            "duration_ms": 33,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 233,
+            "duration_ms": 34,
+            "clip_positions": [
+              5
+            ]
+          },
+          {
+            "index": 6,
+            "start_ms": 267,
+            "duration_ms": 33,
+            "clip_positions": [
+              6
+            ]
+          },
+          {
+            "index": 7,
+            "start_ms": 300,
+            "duration_ms": 33,
+            "clip_positions": [
+              7
+            ]
+          },
+          {
+            "index": 8,
+            "start_ms": 333,
+            "duration_ms": 34,
+            "clip_positions": [
+              8
+            ]
+          },
+          {
+            "index": 9,
+            "start_ms": 367,
+            "duration_ms": 33,
+            "clip_positions": [
+              9
+            ]
+          },
+          {
+            "index": 10,
+            "start_ms": 400,
+            "duration_ms": 33,
+            "clip_positions": [
+              10
+            ]
+          },
+          {
+            "index": 11,
+            "start_ms": 433,
+            "duration_ms": 34,
+            "clip_positions": [
+              11
+            ]
+          },
+          {
+            "index": 12,
+            "start_ms": 467,
+            "duration_ms": 33,
+            "clip_positions": [
+              12
+            ]
+          },
+          {
+            "index": 13,
+            "start_ms": 500,
+            "duration_ms": 33,
+            "clip_positions": [
+              13
+            ]
+          },
+          {
+            "index": 14,
+            "start_ms": 533,
+            "duration_ms": 34,
+            "clip_positions": [
+              14
+            ]
+          },
+          {
+            "index": 15,
+            "start_ms": 567,
+            "duration_ms": 33,
+            "clip_positions": [
+              15
+            ]
+          },
+          {
+            "index": 16,
+            "start_ms": 600,
+            "duration_ms": 33,
+            "clip_positions": [
+              16
+            ]
+          },
+          {
+            "index": 17,
+            "start_ms": 633,
+            "duration_ms": 34,
+            "clip_positions": [
+              17
+            ]
+          },
+          {
+            "index": 18,
+            "start_ms": 667,
+            "duration_ms": 33,
+            "clip_positions": [
+              18
+            ]
+          },
+          {
+            "index": 19,
+            "start_ms": 700,
+            "duration_ms": 33,
+            "clip_positions": [
+              19
+            ]
+          },
+          {
+            "index": 20,
+            "start_ms": 733,
+            "duration_ms": 34,
+            "clip_positions": [
+              20
+            ]
+          },
+          {
+            "index": 21,
+            "start_ms": 767,
+            "duration_ms": 33,
+            "clip_positions": [
+              21
+            ]
+          },
+          {
+            "index": 22,
+            "start_ms": 800,
+            "duration_ms": 33,
+            "clip_positions": [
+              22
+            ]
+          },
+          {
+            "index": 23,
+            "start_ms": 833,
+            "duration_ms": 34,
+            "clip_positions": [
+              23
+            ]
+          },
+          {
+            "index": 24,
+            "start_ms": 867,
+            "duration_ms": 33,
+            "clip_positions": [
+              24
+            ]
+          },
+          {
+            "index": 25,
+            "start_ms": 900,
+            "duration_ms": 33,
+            "clip_positions": [
+              25
+            ]
+          },
+          {
+            "index": 26,
+            "start_ms": 933,
+            "duration_ms": 34,
+            "clip_positions": [
+              26
+            ]
+          },
+          {
+            "index": 27,
+            "start_ms": 967,
+            "duration_ms": 33,
+            "clip_positions": [
+              27
+            ]
+          },
+          {
+            "index": 28,
+            "start_ms": 1000,
+            "duration_ms": 33,
+            "clip_positions": [
+              28
+            ]
+          },
+          {
+            "index": 29,
+            "start_ms": 1033,
+            "duration_ms": 34,
+            "clip_positions": [
+              29
+            ]
+          },
+          {
+            "index": 30,
+            "start_ms": 1067,
+            "duration_ms": 33,
+            "clip_positions": [
+              30
+            ]
+          },
+          {
+            "index": 31,
+            "start_ms": 1100,
+            "duration_ms": 33,
+            "clip_positions": [
+              31
+            ]
+          },
+          {
+            "index": 32,
+            "start_ms": 1133,
+            "duration_ms": 50,
+            "clip_positions": [
+              32
+            ]
+          },
+          {
+            "index": 33,
+            "start_ms": 1183,
+            "duration_ms": 50,
+            "clip_positions": [
+              33
+            ]
+          },
+          {
+            "index": 34,
+            "start_ms": 1233,
+            "duration_ms": 50,
+            "clip_positions": [
+              34
+            ]
+          },
+          {
+            "index": 35,
+            "start_ms": 1283,
+            "duration_ms": 50,
+            "clip_positions": [
+              35
+            ]
+          },
+          {
+            "index": 36,
+            "start_ms": 1333,
+            "duration_ms": 50,
+            "clip_positions": [
+              36
+            ]
+          },
+          {
+            "index": 37,
+            "start_ms": 1383,
+            "duration_ms": 84,
+            "clip_positions": [
+              37
+            ]
+          }
+        ],
+        "decoded_frame_count": 38,
+        "total_duration_ms": 1467,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "49d3e597b4d01008afd53ca0ff61cd7618437a4093971ad2a9f220978bcd3f96"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 2.474935,
+          "alpha_mae": 3.761292,
+          "changed_visible_pixels": 5173
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 3.167264,
+          "alpha_mae": 4.469452,
+          "changed_visible_pixels": 6029
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 0.533583,
+          "alpha_mae": 0.223083,
+          "changed_visible_pixels": 5661
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 0.576379,
+          "alpha_mae": 0.285339,
+          "changed_visible_pixels": 5651
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 0.555159,
+          "alpha_mae": 0.256805,
+          "changed_visible_pixels": 5638
+        },
+        {
+          "from_position": 5,
+          "to_position": 6,
+          "premultiplied_rgb_mae": 0.648282,
+          "alpha_mae": 0.272369,
+          "changed_visible_pixels": 5644
+        },
+        {
+          "from_position": 6,
+          "to_position": 7,
+          "premultiplied_rgb_mae": 0.684567,
+          "alpha_mae": 0.332031,
+          "changed_visible_pixels": 5650
+        },
+        {
+          "from_position": 7,
+          "to_position": 8,
+          "premultiplied_rgb_mae": 0.618093,
+          "alpha_mae": 0.277557,
+          "changed_visible_pixels": 5630
+        },
+        {
+          "from_position": 8,
+          "to_position": 9,
+          "premultiplied_rgb_mae": 0.479177,
+          "alpha_mae": 0.204926,
+          "changed_visible_pixels": 5631
+        },
+        {
+          "from_position": 9,
+          "to_position": 10,
+          "premultiplied_rgb_mae": 0.594933,
+          "alpha_mae": 0.254211,
+          "changed_visible_pixels": 5666
+        },
+        {
+          "from_position": 10,
+          "to_position": 11,
+          "premultiplied_rgb_mae": 0.533583,
+          "alpha_mae": 0.223083,
+          "changed_visible_pixels": 5661
+        },
+        {
+          "from_position": 11,
+          "to_position": 12,
+          "premultiplied_rgb_mae": 0.576379,
+          "alpha_mae": 0.285339,
+          "changed_visible_pixels": 5651
+        },
+        {
+          "from_position": 12,
+          "to_position": 13,
+          "premultiplied_rgb_mae": 0.555159,
+          "alpha_mae": 0.256805,
+          "changed_visible_pixels": 5638
+        },
+        {
+          "from_position": 13,
+          "to_position": 14,
+          "premultiplied_rgb_mae": 0.648282,
+          "alpha_mae": 0.272369,
+          "changed_visible_pixels": 5644
+        },
+        {
+          "from_position": 14,
+          "to_position": 15,
+          "premultiplied_rgb_mae": 0.684567,
+          "alpha_mae": 0.332031,
+          "changed_visible_pixels": 5650
+        },
+        {
+          "from_position": 15,
+          "to_position": 16,
+          "premultiplied_rgb_mae": 0.618093,
+          "alpha_mae": 0.277557,
+          "changed_visible_pixels": 5630
+        },
+        {
+          "from_position": 16,
+          "to_position": 17,
+          "premultiplied_rgb_mae": 0.479177,
+          "alpha_mae": 0.204926,
+          "changed_visible_pixels": 5631
+        },
+        {
+          "from_position": 17,
+          "to_position": 18,
+          "premultiplied_rgb_mae": 0.594933,
+          "alpha_mae": 0.254211,
+          "changed_visible_pixels": 5666
+        },
+        {
+          "from_position": 18,
+          "to_position": 19,
+          "premultiplied_rgb_mae": 0.533583,
+          "alpha_mae": 0.223083,
+          "changed_visible_pixels": 5661
+        },
+        {
+          "from_position": 19,
+          "to_position": 20,
+          "premultiplied_rgb_mae": 0.576379,
+          "alpha_mae": 0.285339,
+          "changed_visible_pixels": 5651
+        },
+        {
+          "from_position": 20,
+          "to_position": 21,
+          "premultiplied_rgb_mae": 0.555159,
+          "alpha_mae": 0.256805,
+          "changed_visible_pixels": 5638
+        },
+        {
+          "from_position": 21,
+          "to_position": 22,
+          "premultiplied_rgb_mae": 0.648282,
+          "alpha_mae": 0.272369,
+          "changed_visible_pixels": 5644
+        },
+        {
+          "from_position": 22,
+          "to_position": 23,
+          "premultiplied_rgb_mae": 0.684567,
+          "alpha_mae": 0.332031,
+          "changed_visible_pixels": 5650
+        },
+        {
+          "from_position": 23,
+          "to_position": 24,
+          "premultiplied_rgb_mae": 0.618093,
+          "alpha_mae": 0.277557,
+          "changed_visible_pixels": 5630
+        },
+        {
+          "from_position": 24,
+          "to_position": 25,
+          "premultiplied_rgb_mae": 0.479177,
+          "alpha_mae": 0.204926,
+          "changed_visible_pixels": 5631
+        },
+        {
+          "from_position": 25,
+          "to_position": 26,
+          "premultiplied_rgb_mae": 0.594933,
+          "alpha_mae": 0.254211,
+          "changed_visible_pixels": 5666
+        },
+        {
+          "from_position": 26,
+          "to_position": 27,
+          "premultiplied_rgb_mae": 0.533583,
+          "alpha_mae": 0.223083,
+          "changed_visible_pixels": 5661
+        },
+        {
+          "from_position": 27,
+          "to_position": 28,
+          "premultiplied_rgb_mae": 0.576379,
+          "alpha_mae": 0.285339,
+          "changed_visible_pixels": 5651
+        },
+        {
+          "from_position": 28,
+          "to_position": 29,
+          "premultiplied_rgb_mae": 0.555159,
+          "alpha_mae": 0.256805,
+          "changed_visible_pixels": 5638
+        },
+        {
+          "from_position": 29,
+          "to_position": 30,
+          "premultiplied_rgb_mae": 0.648282,
+          "alpha_mae": 0.272369,
+          "changed_visible_pixels": 5644
+        },
+        {
+          "from_position": 30,
+          "to_position": 31,
+          "premultiplied_rgb_mae": 0.684567,
+          "alpha_mae": 0.332031,
+          "changed_visible_pixels": 5650
+        },
+        {
+          "from_position": 31,
+          "to_position": 32,
+          "premultiplied_rgb_mae": 2.659383,
+          "alpha_mae": 3.296967,
+          "changed_visible_pixels": 5932
+        },
+        {
+          "from_position": 32,
+          "to_position": 33,
+          "premultiplied_rgb_mae": 2.019853,
+          "alpha_mae": 2.368317,
+          "changed_visible_pixels": 5333
+        },
+        {
+          "from_position": 33,
+          "to_position": 34,
+          "premultiplied_rgb_mae": 1.57272,
+          "alpha_mae": 1.789856,
+          "changed_visible_pixels": 5156
+        },
+        {
+          "from_position": 34,
+          "to_position": 35,
+          "premultiplied_rgb_mae": 1.122965,
+          "alpha_mae": 0.970154,
+          "changed_visible_pixels": 4993
+        },
+        {
+          "from_position": 35,
+          "to_position": 36,
+          "premultiplied_rgb_mae": 1.010518,
+          "alpha_mae": 0.861206,
+          "changed_visible_pixels": 4912
+        },
+        {
+          "from_position": 36,
+          "to_position": 37,
+          "premultiplied_rgb_mae": 2.993829,
+          "alpha_mae": 4.832611,
+          "changed_visible_pixels": 5409
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 0.0,
+        "alpha_mae": 0.0,
+        "changed_visible_pixels": 0
+      }
+    }
+  },
+  "states": {
+    "idle": "idle",
+    "moving": "walk",
+    "attack": "attack_light",
+    "power": "power_up",
+    "hurt": "hit",
+    "dead": "ko",
+    "turn": "turn"
+  },
+  "diagnostics": {
+    "visible_pixel_duplicate_groups": [
+      [
+        8,
+        30,
+        52,
+        72,
+        79
+      ]
+    ],
+    "visual_approval": false,
+    "note": "Pixel differences and duplicates do not establish animation quality or physical root stability.",
+    "near_duplicate_mae": 1.5,
+    "near_duplicate_pairs": [
+      [
+        8,
+        30,
+        0.0
+      ],
+      [
+        8,
+        52,
+        0.0
+      ],
+      [
+        8,
+        72,
+        0.0
+      ],
+      [
+        8,
+        79,
+        0.0
+      ],
+      [
+        30,
+        52,
+        0.0
+      ],
+      [
+        30,
+        72,
+        0.0
+      ],
+      [
+        30,
+        79,
+        0.0
+      ],
+      [
+        52,
+        72,
+        0.0
+      ],
+      [
+        52,
+        79,
+        0.0
+      ],
+      [
+        72,
+        79,
+        0.0
+      ]
+    ],
+    "tick_hz": 60,
+    "lint": []
+  },
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "native_scale": true,
+    "scale": 1,
+    "requested_scale": 1,
+    "annotated_with_shared_root": true,
+    "not_a_runtime_atlas": true,
+    "file_sha256": "cc74750917ef6447c89ce6d9845d130c60ffa1acb5eea96ccd6f24f4b80017e6"
+  },
+  "review": {
+    "scale": 1,
+    "requested_scale": 1,
+    "backgrounds": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "filmstrips": {
+      "walk": {
+        "file": "review/filmstrip-00.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 8,
+        "truncated": false
+      },
+      "attack_light": {
+        "file": "review/filmstrip-01.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 8,
+        "truncated": false
+      },
+      "hit": {
+        "file": "review/filmstrip-02.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 6,
+        "truncated": false
+      },
+      "ko": {
+        "file": "review/filmstrip-03.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 8,
+        "truncated": false
+      },
+      "turn": {
+        "file": "review/filmstrip-04.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "air_slash_a_fx": {
+        "file": "review/filmstrip-05.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 6,
+        "truncated": false
+      },
+      "air_slash_b_fx": {
+        "file": "review/filmstrip-06.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 6,
+        "truncated": false
+      },
+      "air_slash_c_fx": {
+        "file": "review/filmstrip-07.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 6,
+        "truncated": false
+      },
+      "idle": {
+        "file": "review/filmstrip-08.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 12,
+        "truncated": false
+      },
+      "power_up": {
+        "file": "review/filmstrip-09.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 38,
+        "truncated": false
+      }
+    },
+    "onion": {
+      "walk": {
+        "file": "review/onion-00.png",
+        "background": "checker",
+        "positions_shown": 8,
+        "truncated": false
+      },
+      "attack_light": {
+        "file": "review/onion-01.png",
+        "background": "checker",
+        "positions_shown": 8,
+        "truncated": false
+      },
+      "hit": {
+        "file": "review/onion-02.png",
+        "background": "checker",
+        "positions_shown": 6,
+        "truncated": false
+      },
+      "ko": {
+        "file": "review/onion-03.png",
+        "background": "checker",
+        "positions_shown": 8,
+        "truncated": false
+      },
+      "turn": {
+        "file": "review/onion-04.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "air_slash_a_fx": {
+        "file": "review/onion-05.png",
+        "background": "checker",
+        "positions_shown": 6,
+        "truncated": false
+      },
+      "air_slash_b_fx": {
+        "file": "review/onion-06.png",
+        "background": "checker",
+        "positions_shown": 6,
+        "truncated": false
+      },
+      "air_slash_c_fx": {
+        "file": "review/onion-07.png",
+        "background": "checker",
+        "positions_shown": 6,
+        "truncated": false
+      },
+      "idle": {
+        "file": "review/onion-08.png",
+        "background": "checker",
+        "positions_shown": 12,
+        "truncated": false
+      },
+      "power_up": {
+        "file": "review/onion-09.png",
+        "background": "checker",
+        "positions_shown": 38,
+        "truncated": false
+      }
+    },
+    "transitions": [],
+    "turn_test": {
+      "file": "review/turn-test.png",
+      "background": "dark",
+      "anchor_mark_rgb": [
+        255,
+        220,
+        80
+      ],
+      "cells": [
+        {
+          "clip": "walk",
+          "frame": 0,
+          "anchor_screen_x": 216,
+          "rows": [
+            [
+              32,
+              288
+            ],
+            [
+              304,
+              560
+            ]
+          ],
+          "mirrored_offset_px": -32,
+          "turn_slide_px": 6.0
+        },
+        {
+          "clip": "attack_light",
+          "frame": 8,
+          "anchor_screen_x": 648,
+          "rows": [
+            [
+              32,
+              288
+            ],
+            [
+              304,
+              560
+            ]
+          ],
+          "mirrored_offset_px": -32,
+          "turn_slide_px": 17.0
+        },
+        {
+          "clip": "hit",
+          "frame": 16,
+          "anchor_screen_x": 1080,
+          "rows": [
+            [
+              32,
+              288
+            ],
+            [
+              304,
+              560
+            ]
+          ],
+          "mirrored_offset_px": -32,
+          "turn_slide_px": 17.0
+        },
+        {
+          "clip": "ko",
+          "frame": 22,
+          "anchor_screen_x": 1512,
+          "rows": [
+            [
+              32,
+              288
+            ],
+            [
+              304,
+              560
+            ]
+          ],
+          "mirrored_offset_px": -32,
+          "turn_slide_px": 20.0
+        },
+        {
+          "clip": "turn",
+          "frame": 30,
+          "anchor_screen_x": 1944,
+          "rows": [
+            [
+              32,
+              288
+            ],
+            [
+              304,
+              560
+            ]
+          ],
+          "mirrored_offset_px": -32,
+          "turn_slide_px": 17.0
+        },
+        {
+          "clip": "air_slash_a_fx",
+          "frame": 34,
+          "anchor_screen_x": 2376,
+          "rows": [
+            [
+              32,
+              288
+            ],
+            [
+              304,
+              560
+            ]
+          ],
+          "mirrored_offset_px": -32,
+          "turn_slide_px": 19.0
+        },
+        {
+          "clip": "air_slash_b_fx",
+          "frame": 40,
+          "anchor_screen_x": 216,
+          "rows": [
+            [
+              608,
+              864
+            ],
+            [
+              880,
+              1136
+            ]
+          ],
+          "mirrored_offset_px": -32,
+          "turn_slide_px": 23.0
+        },
+        {
+          "clip": "air_slash_c_fx",
+          "frame": 46,
+          "anchor_screen_x": 648,
+          "rows": [
+            [
+              608,
+              864
+            ],
+            [
+              880,
+              1136
+            ]
+          ],
+          "mirrored_offset_px": -32,
+          "turn_slide_px": 35.0
+        },
+        {
+          "clip": "idle",
+          "frame": 52,
+          "anchor_screen_x": 1080,
+          "rows": [
+            [
+              608,
+              864
+            ],
+            [
+              880,
+              1136
+            ]
+          ],
+          "mirrored_offset_px": -32,
+          "turn_slide_px": 17.0
+        },
+        {
+          "clip": "power_up",
+          "frame": 72,
+          "anchor_screen_x": 1512,
+          "rows": [
+            [
+              608,
+              864
+            ],
+            [
+              880,
+              1136
+            ]
+          ],
+          "mirrored_offset_px": -32,
+          "turn_slide_px": 17.0
+        }
+      ],
+      "clips_shown": 10,
+      "truncated": false
+    }
+  },
+  "processing": {
+    "source_pngs_byte_identical": true,
+    "resized": false,
+    "cropped": false,
+    "per_frame_alignment": false,
+    "chroma_keyed": false
+  },
+  "alpha_validation": "Every input has fully transparent and visible pixels; edge quality still requires visual review.",
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "Frame PNGs are byte copies (sha256 checked); each WebP preview is decoded and its timing, alpha and visible RGB compared with the source frames; tick grid = cumulative integer-ms boundaries rounded to the nearest tick; holds = repeated indices or premultiplied union-visible MAE <= 1.5; seams = forge_core.seam_report with wrap_ratio = seam / mean adjacent step; telegraph = tell -> hit in 60 Hz ticks.",
+    "notProven": [
+      "animation quality, gait, anatomy or identity",
+      "physical root stability or foot contact (anchor_px is declared, not measured)",
+      "runtime playback on a device (previews are verified files, not a game loop)",
+      "that near-duplicate thresholds suit every art style (heuristic)"
+    ],
+    "checks": [
+      {
+        "id": "png_byte_copy",
+        "status": "pass",
+        "value": 80,
+        "threshold": null
+      },
+      {
+        "id": "webp_timeline",
+        "status": "pass",
+        "value": 10,
+        "threshold": null
+      },
+      {
+        "id": "tick_grid",
+        "status": "pass",
+        "value": 0.333,
+        "threshold": null
+      },
+      {
+        "id": "telegraph",
+        "threshold": 28,
+        "status": "skipped",
+        "value": null
+      },
+      {
+        "id": "near_duplicate_holds",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "loop_seam",
+        "status": "needs-visual-review",
+        "value": 1.520612,
+        "threshold": null
+      },
+      {
+        "id": "manifest_lint",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../clips_manifest.json",
+        "sha256": "9da3f11a9a50f892601bd27b5aa712aeee2ded82e9ab964c770399df62132605",
+        "bytes": 12184
+      },
+      {
+        "path": "../raw_frames/walk_00.png",
+        "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f",
+        "bytes": 17123
+      },
+      {
+        "path": "../raw_frames/walk_01.png",
+        "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd",
+        "bytes": 16553
+      },
+      {
+        "path": "../raw_frames/walk_02.png",
+        "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21",
+        "bytes": 16046
+      },
+      {
+        "path": "../raw_frames/walk_03.png",
+        "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373",
+        "bytes": 16340
+      },
+      {
+        "path": "../raw_frames/walk_04.png",
+        "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4",
+        "bytes": 16710
+      },
+      {
+        "path": "../raw_frames/walk_05.png",
+        "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42",
+        "bytes": 16142
+      },
+      {
+        "path": "../raw_frames/walk_06.png",
+        "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af",
+        "bytes": 15792
+      },
+      {
+        "path": "../raw_frames/walk_07.png",
+        "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83",
+        "bytes": 16834
+      },
+      {
+        "path": "../raw_frames/attack_light_00.png",
+        "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911
+      },
+      {
+        "path": "../raw_frames/attack_light_01.png",
+        "sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb",
+        "bytes": 16629
+      },
+      {
+        "path": "../raw_frames/attack_light_02.png",
+        "sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49",
+        "bytes": 16468
+      },
+      {
+        "path": "../raw_frames/attack_light_03.png",
+        "sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac",
+        "bytes": 17444
+      },
+      {
+        "path": "../raw_frames/attack_light_04.png",
+        "sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e",
+        "bytes": 16604
+      },
+      {
+        "path": "../raw_frames/attack_light_05.png",
+        "sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408",
+        "bytes": 16830
+      },
+      {
+        "path": "../raw_frames/attack_light_06.png",
+        "sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6",
+        "bytes": 16473
+      },
+      {
+        "path": "../raw_frames/attack_light_07.png",
+        "sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9",
+        "bytes": 16454
+      },
+      {
+        "path": "../raw_frames/hit_00.png",
+        "sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701",
+        "bytes": 16448
+      },
+      {
+        "path": "../raw_frames/hit_01.png",
+        "sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f",
+        "bytes": 16033
+      },
+      {
+        "path": "../raw_frames/hit_02.png",
+        "sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69",
+        "bytes": 15963
+      },
+      {
+        "path": "../raw_frames/hit_03.png",
+        "sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5",
+        "bytes": 15885
+      },
+      {
+        "path": "../raw_frames/hit_04.png",
+        "sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3",
+        "bytes": 16046
+      },
+      {
+        "path": "../raw_frames/hit_05.png",
+        "sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08",
+        "bytes": 16150
+      },
+      {
+        "path": "../raw_frames/ko_00.png",
+        "sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491",
+        "bytes": 17167
+      },
+      {
+        "path": "../raw_frames/ko_01.png",
+        "sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299",
+        "bytes": 16483
+      },
+      {
+        "path": "../raw_frames/ko_02.png",
+        "sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07",
+        "bytes": 16302
+      },
+      {
+        "path": "../raw_frames/ko_03.png",
+        "sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284",
+        "bytes": 15735
+      },
+      {
+        "path": "../raw_frames/ko_04.png",
+        "sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4",
+        "bytes": 15144
+      },
+      {
+        "path": "../raw_frames/ko_05.png",
+        "sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d",
+        "bytes": 13949
+      },
+      {
+        "path": "../raw_frames/ko_06.png",
+        "sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145",
+        "bytes": 12976
+      },
+      {
+        "path": "../raw_frames/ko_07.png",
+        "sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175",
+        "bytes": 12104
+      },
+      {
+        "path": "../raw_frames/turn_00.png",
+        "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911
+      },
+      {
+        "path": "../raw_frames/turn_01.png",
+        "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8",
+        "bytes": 17995
+      },
+      {
+        "path": "../raw_frames/turn_02.png",
+        "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c",
+        "bytes": 16749
+      },
+      {
+        "path": "../raw_frames/turn_03.png",
+        "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3",
+        "bytes": 18042
+      },
+      {
+        "path": "../raw_frames/air_slash_a_fx_00.png",
+        "sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64",
+        "bytes": 825
+      },
+      {
+        "path": "../raw_frames/air_slash_a_fx_01.png",
+        "sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5",
+        "bytes": 1437
+      },
+      {
+        "path": "../raw_frames/air_slash_a_fx_02.png",
+        "sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686",
+        "bytes": 2383
+      },
+      {
+        "path": "../raw_frames/air_slash_a_fx_03.png",
+        "sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623",
+        "bytes": 2057
+      },
+      {
+        "path": "../raw_frames/air_slash_a_fx_04.png",
+        "sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec",
+        "bytes": 1470
+      },
+      {
+        "path": "../raw_frames/air_slash_a_fx_05.png",
+        "sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e",
+        "bytes": 886
+      },
+      {
+        "path": "../raw_frames/air_slash_b_fx_00.png",
+        "sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf",
+        "bytes": 836
+      },
+      {
+        "path": "../raw_frames/air_slash_b_fx_01.png",
+        "sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae",
+        "bytes": 1438
+      },
+      {
+        "path": "../raw_frames/air_slash_b_fx_02.png",
+        "sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b",
+        "bytes": 2343
+      },
+      {
+        "path": "../raw_frames/air_slash_b_fx_03.png",
+        "sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded",
+        "bytes": 1989
+      },
+      {
+        "path": "../raw_frames/air_slash_b_fx_04.png",
+        "sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178",
+        "bytes": 1421
+      },
+      {
+        "path": "../raw_frames/air_slash_b_fx_05.png",
+        "sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac",
+        "bytes": 913
+      },
+      {
+        "path": "../raw_frames/air_slash_c_fx_00.png",
+        "sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073",
+        "bytes": 719
+      },
+      {
+        "path": "../raw_frames/air_slash_c_fx_01.png",
+        "sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc",
+        "bytes": 1243
+      },
+      {
+        "path": "../raw_frames/air_slash_c_fx_02.png",
+        "sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15",
+        "bytes": 2389
+      },
+      {
+        "path": "../raw_frames/air_slash_c_fx_03.png",
+        "sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4",
+        "bytes": 2173
+      },
+      {
+        "path": "../raw_frames/air_slash_c_fx_04.png",
+        "sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1",
+        "bytes": 1655
+      },
+      {
+        "path": "../raw_frames/air_slash_c_fx_05.png",
+        "sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e",
+        "bytes": 819
+      },
+      {
+        "path": "../raw_frames/idle_00.png",
+        "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911
+      },
+      {
+        "path": "../raw_frames/idle_01.png",
+        "sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374",
+        "bytes": 15117
+      },
+      {
+        "path": "../raw_frames/idle_02.png",
+        "sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e",
+        "bytes": 15205
+      },
+      {
+        "path": "../raw_frames/idle_03.png",
+        "sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647",
+        "bytes": 15266
+      },
+      {
+        "path": "../raw_frames/idle_04.png",
+        "sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05",
+        "bytes": 15282
+      },
+      {
+        "path": "../raw_frames/idle_05.png",
+        "sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf",
+        "bytes": 15216
+      },
+      {
+        "path": "../raw_frames/idle_06.png",
+        "sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20",
+        "bytes": 15178
+      },
+      {
+        "path": "../raw_frames/idle_07.png",
+        "sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c",
+        "bytes": 15085
+      },
+      {
+        "path": "../raw_frames/idle_08.png",
+        "sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238",
+        "bytes": 15113
+      },
+      {
+        "path": "../raw_frames/idle_09.png",
+        "sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3",
+        "bytes": 15070
+      },
+      {
+        "path": "../raw_frames/idle_10.png",
+        "sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1",
+        "bytes": 15234
+      },
+      {
+        "path": "../raw_frames/idle_11.png",
+        "sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b",
+        "bytes": 15265
+      },
+      {
+        "path": "../raw_frames/power_wave_00.png",
+        "sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6",
+        "bytes": 18615
+      },
+      {
+        "path": "../raw_frames/power_wave_01.png",
+        "sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917",
+        "bytes": 18574
+      },
+      {
+        "path": "../raw_frames/power_wave_02.png",
+        "sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188",
+        "bytes": 18477
+      },
+      {
+        "path": "../raw_frames/power_wave_03.png",
+        "sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1",
+        "bytes": 18582
+      },
+      {
+        "path": "../raw_frames/power_wave_04.png",
+        "sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197",
+        "bytes": 18498
+      },
+      {
+        "path": "../raw_frames/power_wave_05.png",
+        "sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d",
+        "bytes": 18545
+      },
+      {
+        "path": "../raw_frames/power_wave_06.png",
+        "sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea",
+        "bytes": 18560
+      },
+      {
+        "path": "../raw_frames/power_wave_07.png",
+        "sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548",
+        "bytes": 18558
+      },
+      {
+        "path": "../raw_frames/power_prepare_0.png",
+        "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911
+      },
+      {
+        "path": "../raw_frames/power_prepare_1.png",
+        "sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e",
+        "bytes": 15993
+      },
+      {
+        "path": "../raw_frames/power_recover_18.png",
+        "sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b",
+        "bytes": 17094
+      },
+      {
+        "path": "../raw_frames/power_recover_19.png",
+        "sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49",
+        "bytes": 16376
+      },
+      {
+        "path": "../raw_frames/power_recover_20.png",
+        "sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595",
+        "bytes": 16536
+      },
+      {
+        "path": "../raw_frames/power_recover_21.png",
+        "sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d",
+        "bytes": 16210
+      },
+      {
+        "path": "../raw_frames/power_recover_22.png",
+        "sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736",
+        "bytes": 16273
+      },
+      {
+        "path": "../raw_frames/power_recover_23.png",
+        "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911
+      }
+    ],
+    "outputs": [
+      {
+        "path": "frames/frame-00.png",
+        "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f",
+        "bytes": 17123
+      },
+      {
+        "path": "frames/frame-01.png",
+        "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd",
+        "bytes": 16553
+      },
+      {
+        "path": "frames/frame-02.png",
+        "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21",
+        "bytes": 16046
+      },
+      {
+        "path": "frames/frame-03.png",
+        "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373",
+        "bytes": 16340
+      },
+      {
+        "path": "frames/frame-04.png",
+        "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4",
+        "bytes": 16710
+      },
+      {
+        "path": "frames/frame-05.png",
+        "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42",
+        "bytes": 16142
+      },
+      {
+        "path": "frames/frame-06.png",
+        "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af",
+        "bytes": 15792
+      },
+      {
+        "path": "frames/frame-07.png",
+        "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83",
+        "bytes": 16834
+      },
+      {
+        "path": "frames/frame-08.png",
+        "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911
+      },
+      {
+        "path": "frames/frame-09.png",
+        "sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb",
+        "bytes": 16629
+      },
+      {
+        "path": "frames/frame-10.png",
+        "sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49",
+        "bytes": 16468
+      },
+      {
+        "path": "frames/frame-11.png",
+        "sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac",
+        "bytes": 17444
+      },
+      {
+        "path": "frames/frame-12.png",
+        "sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e",
+        "bytes": 16604
+      },
+      {
+        "path": "frames/frame-13.png",
+        "sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408",
+        "bytes": 16830
+      },
+      {
+        "path": "frames/frame-14.png",
+        "sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6",
+        "bytes": 16473
+      },
+      {
+        "path": "frames/frame-15.png",
+        "sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9",
+        "bytes": 16454
+      },
+      {
+        "path": "frames/frame-16.png",
+        "sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701",
+        "bytes": 16448
+      },
+      {
+        "path": "frames/frame-17.png",
+        "sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f",
+        "bytes": 16033
+      },
+      {
+        "path": "frames/frame-18.png",
+        "sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69",
+        "bytes": 15963
+      },
+      {
+        "path": "frames/frame-19.png",
+        "sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5",
+        "bytes": 15885
+      },
+      {
+        "path": "frames/frame-20.png",
+        "sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3",
+        "bytes": 16046
+      },
+      {
+        "path": "frames/frame-21.png",
+        "sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08",
+        "bytes": 16150
+      },
+      {
+        "path": "frames/frame-22.png",
+        "sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491",
+        "bytes": 17167
+      },
+      {
+        "path": "frames/frame-23.png",
+        "sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299",
+        "bytes": 16483
+      },
+      {
+        "path": "frames/frame-24.png",
+        "sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07",
+        "bytes": 16302
+      },
+      {
+        "path": "frames/frame-25.png",
+        "sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284",
+        "bytes": 15735
+      },
+      {
+        "path": "frames/frame-26.png",
+        "sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4",
+        "bytes": 15144
+      },
+      {
+        "path": "frames/frame-27.png",
+        "sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d",
+        "bytes": 13949
+      },
+      {
+        "path": "frames/frame-28.png",
+        "sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145",
+        "bytes": 12976
+      },
+      {
+        "path": "frames/frame-29.png",
+        "sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175",
+        "bytes": 12104
+      },
+      {
+        "path": "frames/frame-30.png",
+        "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911
+      },
+      {
+        "path": "frames/frame-31.png",
+        "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8",
+        "bytes": 17995
+      },
+      {
+        "path": "frames/frame-32.png",
+        "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c",
+        "bytes": 16749
+      },
+      {
+        "path": "frames/frame-33.png",
+        "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3",
+        "bytes": 18042
+      },
+      {
+        "path": "frames/frame-34.png",
+        "sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64",
+        "bytes": 825
+      },
+      {
+        "path": "frames/frame-35.png",
+        "sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5",
+        "bytes": 1437
+      },
+      {
+        "path": "frames/frame-36.png",
+        "sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686",
+        "bytes": 2383
+      },
+      {
+        "path": "frames/frame-37.png",
+        "sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623",
+        "bytes": 2057
+      },
+      {
+        "path": "frames/frame-38.png",
+        "sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec",
+        "bytes": 1470
+      },
+      {
+        "path": "frames/frame-39.png",
+        "sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e",
+        "bytes": 886
+      },
+      {
+        "path": "frames/frame-40.png",
+        "sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf",
+        "bytes": 836
+      },
+      {
+        "path": "frames/frame-41.png",
+        "sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae",
+        "bytes": 1438
+      },
+      {
+        "path": "frames/frame-42.png",
+        "sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b",
+        "bytes": 2343
+      },
+      {
+        "path": "frames/frame-43.png",
+        "sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded",
+        "bytes": 1989
+      },
+      {
+        "path": "frames/frame-44.png",
+        "sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178",
+        "bytes": 1421
+      },
+      {
+        "path": "frames/frame-45.png",
+        "sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac",
+        "bytes": 913
+      },
+      {
+        "path": "frames/frame-46.png",
+        "sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073",
+        "bytes": 719
+      },
+      {
+        "path": "frames/frame-47.png",
+        "sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc",
+        "bytes": 1243
+      },
+      {
+        "path": "frames/frame-48.png",
+        "sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15",
+        "bytes": 2389
+      },
+      {
+        "path": "frames/frame-49.png",
+        "sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4",
+        "bytes": 2173
+      },
+      {
+        "path": "frames/frame-50.png",
+        "sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1",
+        "bytes": 1655
+      },
+      {
+        "path": "frames/frame-51.png",
+        "sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e",
+        "bytes": 819
+      },
+      {
+        "path": "frames/frame-52.png",
+        "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911
+      },
+      {
+        "path": "frames/frame-53.png",
+        "sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374",
+        "bytes": 15117
+      },
+      {
+        "path": "frames/frame-54.png",
+        "sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e",
+        "bytes": 15205
+      },
+      {
+        "path": "frames/frame-55.png",
+        "sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647",
+        "bytes": 15266
+      },
+      {
+        "path": "frames/frame-56.png",
+        "sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05",
+        "bytes": 15282
+      },
+      {
+        "path": "frames/frame-57.png",
+        "sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf",
+        "bytes": 15216
+      },
+      {
+        "path": "frames/frame-58.png",
+        "sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20",
+        "bytes": 15178
+      },
+      {
+        "path": "frames/frame-59.png",
+        "sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c",
+        "bytes": 15085
+      },
+      {
+        "path": "frames/frame-60.png",
+        "sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238",
+        "bytes": 15113
+      },
+      {
+        "path": "frames/frame-61.png",
+        "sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3",
+        "bytes": 15070
+      },
+      {
+        "path": "frames/frame-62.png",
+        "sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1",
+        "bytes": 15234
+      },
+      {
+        "path": "frames/frame-63.png",
+        "sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b",
+        "bytes": 15265
+      },
+      {
+        "path": "frames/frame-64.png",
+        "sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6",
+        "bytes": 18615
+      },
+      {
+        "path": "frames/frame-65.png",
+        "sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917",
+        "bytes": 18574
+      },
+      {
+        "path": "frames/frame-66.png",
+        "sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188",
+        "bytes": 18477
+      },
+      {
+        "path": "frames/frame-67.png",
+        "sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1",
+        "bytes": 18582
+      },
+      {
+        "path": "frames/frame-68.png",
+        "sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197",
+        "bytes": 18498
+      },
+      {
+        "path": "frames/frame-69.png",
+        "sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d",
+        "bytes": 18545
+      },
+      {
+        "path": "frames/frame-70.png",
+        "sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea",
+        "bytes": 18560
+      },
+      {
+        "path": "frames/frame-71.png",
+        "sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548",
+        "bytes": 18558
+      },
+      {
+        "path": "frames/frame-72.png",
+        "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911
+      },
+      {
+        "path": "frames/frame-73.png",
+        "sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e",
+        "bytes": 15993
+      },
+      {
+        "path": "frames/frame-74.png",
+        "sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b",
+        "bytes": 17094
+      },
+      {
+        "path": "frames/frame-75.png",
+        "sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49",
+        "bytes": 16376
+      },
+      {
+        "path": "frames/frame-76.png",
+        "sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595",
+        "bytes": 16536
+      },
+      {
+        "path": "frames/frame-77.png",
+        "sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d",
+        "bytes": 16210
+      },
+      {
+        "path": "frames/frame-78.png",
+        "sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736",
+        "bytes": 16273
+      },
+      {
+        "path": "frames/frame-79.png",
+        "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+        "bytes": 14911
+      },
+      {
+        "path": "clips/clip-00.webp",
+        "sha256": "4a95692c7da9e2edb52203e85dd39dda535650d90635e13cf6c1bbe453f45bf4",
+        "bytes": 88112
+      },
+      {
+        "path": "clips/clip-01.webp",
+        "sha256": "c5cad818eef85a8bb5e9049460625fdbcac8379cd2031272a4f1f508ed8be94d",
+        "bytes": 89318
+      },
+      {
+        "path": "clips/clip-02.webp",
+        "sha256": "12ea7ad80e8ffe453936fbf1fa4ddcfb95aa9e34517238612c736b277cbf9c07",
+        "bytes": 64582
+      },
+      {
+        "path": "clips/clip-03.webp",
+        "sha256": "297882b9517578171121d975ac640e5a333a1d5aaf4ad2cd5cca0b370fe44774",
+        "bytes": 79882
+      },
+      {
+        "path": "clips/clip-04.webp",
+        "sha256": "af5b675c7ed52cbf66cf050fc50c6c56551a47e431a7d08669772cb14f11822a",
+        "bytes": 47382
+      },
+      {
+        "path": "clips/clip-05.webp",
+        "sha256": "f176e8542ba17c94019602b4139c12c236db150e1ffcea59ff1d56b83db4730a",
+        "bytes": 1750
+      },
+      {
+        "path": "clips/clip-06.webp",
+        "sha256": "e815630881bf13a0f8e195e61719da5160a81e64a87b173df67f4ea98171fb37",
+        "bytes": 1846
+      },
+      {
+        "path": "clips/clip-07.webp",
+        "sha256": "b7b3a2ad90fc83296ee1fd94791180fbc0b7027a864ffdd1382580daf8095c5c",
+        "bytes": 1844
+      },
+      {
+        "path": "clips/clip-08.webp",
+        "sha256": "ab19ae7c7c3f0a3adf0e0be01fda55d4767b10f86dd5e9e80516d737a4ec8069",
+        "bytes": 120622
+      },
+      {
+        "path": "clips/clip-09.webp",
+        "sha256": "49d3e597b4d01008afd53ca0ff61cd7618437a4093971ad2a9f220978bcd3f96",
+        "bytes": 462780
+      },
+      {
+        "path": "contact-sheet.png",
+        "sha256": "cc74750917ef6447c89ce6d9845d130c60ffa1acb5eea96ccd6f24f4b80017e6",
+        "bytes": 956100
+      },
+      {
+        "path": "review/filmstrip-00.png",
+        "sha256": "2d3bbf2754ab04732095ba1bbbf613d8e4c37fb664e422c3c7f2cd2714bd8f81",
+        "bytes": 366704
+      },
+      {
+        "path": "review/onion-00.png",
+        "sha256": "5082cf80c0883049ab99d881428cb0899ef9c8b6a7c874b771fc111195a159f0",
+        "bytes": 134604
+      },
+      {
+        "path": "review/filmstrip-01.png",
+        "sha256": "afd7bb548d1b7594d453bcd63087222c7e0c8914b3927a9f962fcfb08d764585",
+        "bytes": 371823
+      },
+      {
+        "path": "review/onion-01.png",
+        "sha256": "b9987648cbf56cef2ba1dc5aa220411f9df7dcc4edc7064adbc92eae516b5988",
+        "bytes": 135559
+      },
+      {
+        "path": "review/filmstrip-02.png",
+        "sha256": "b0fbf8e32bfdac857dc8efd45df5c0657934297b312594c47a7bf3727fc673ca",
+        "bytes": 277356
+      },
+      {
+        "path": "review/onion-02.png",
+        "sha256": "2cb8392cfcd62d06fe694165383d4ce9aebf090445ff1f12976d8dea460c90b4",
+        "bytes": 101264
+      },
+      {
+        "path": "review/filmstrip-03.png",
+        "sha256": "03421915a86161fbc5158477941902cf3aacc26c2bdc6d8594b259ef3ee182e9",
+        "bytes": 342505
+      },
+      {
+        "path": "review/onion-03.png",
+        "sha256": "647861299aacbfe282654802d32c37c45e371c306a49993515e508fbf2956ee8",
+        "bytes": 125207
+      },
+      {
+        "path": "review/filmstrip-04.png",
+        "sha256": "bc9a6505a698ca9cf09661b668669c3101e6f2a585d03c6ecc8df2ad3dac822c",
+        "bytes": 200302
+      },
+      {
+        "path": "review/onion-04.png",
+        "sha256": "db36db833189d9b832c088e7cf1f27bc81c7f6db69f6bbd465e95115d82bbb3f",
+        "bytes": 72785
+      },
+      {
+        "path": "review/filmstrip-05.png",
+        "sha256": "ab1c3f3ce083a340d625c74b0bedfe04d79ac0a5ec0cd5a79168aa30288a06fd",
+        "bytes": 35521
+      },
+      {
+        "path": "review/onion-05.png",
+        "sha256": "5298437e2d7e58f7fb2592e91e3ec82907fca4f1f6c22b8ef7904f564e91285c",
+        "bytes": 17020
+      },
+      {
+        "path": "review/filmstrip-06.png",
+        "sha256": "81c8ad8e2c7a024ed5e4fa994b104325d204d82299009d5b097bba449e9253ab",
+        "bytes": 34021
+      },
+      {
+        "path": "review/onion-06.png",
+        "sha256": "c016892d458ddd0270601772e1534e72e62b298244e9cc597fd257a0f3a48dd7",
+        "bytes": 16054
+      },
+      {
+        "path": "review/filmstrip-07.png",
+        "sha256": "04871b58d11bc84f7b9e4f3977d7d0f0c41879f8ea7f28bd7a7d284f3f3be9da",
+        "bytes": 35551
+      },
+      {
+        "path": "review/onion-07.png",
+        "sha256": "d0bf766b3ac65058490e3e728ffc781bf421daffa3eec7fc28142cb3be93f3f3",
+        "bytes": 17144
+      },
+      {
+        "path": "review/filmstrip-08.png",
+        "sha256": "ea9200303144db6592c164ae486deee0dd0b159d236a44965ff0fc82fc4420ff",
+        "bytes": 518593
+      },
+      {
+        "path": "review/onion-08.png",
+        "sha256": "b5a3b19d7b36d925fed70bb2c451c73d3c9af474413bd00aa7a019d950bf9bea",
+        "bytes": 184068
+      },
+      {
+        "path": "review/filmstrip-09.png",
+        "sha256": "2e82701c68fc59770088b1ab820b90f454237cfb6ab5ef553ddc5178d837f401",
+        "bytes": 1867626
+      },
+      {
+        "path": "review/onion-09.png",
+        "sha256": "60a7762623186d88bea4dcddf6b89e613fb057197185a105afa65f6ff5b9a6bc",
+        "bytes": 653807
+      },
+      {
+        "path": "review/turn-test.png",
+        "sha256": "7e9c84a6b77ccc20147a658d51e89eff8f3602a63b9acf0d9fcee046e427321d",
+        "bytes": 179985
+      }
+    ],
+    "tool": {
+      "name": "build_animation_clips",
+      "version": "0.4.0"
+    }
+  }
+}

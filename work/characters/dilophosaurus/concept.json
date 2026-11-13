@@ -1,0 +1,55 @@
+{
+  "status": "finalized_owner_approved",
+  "owner_request": "ok tiếp theo demo với Dilophosaurus",
+  "art_source": "built-in imagegen",
+  "scope": "Owner-approved full character atlas,7bodyactions and3independent target slashFX.",
+  "style": "Project fierce pixel-art/native1px/Nearest; complete body, hardbodyalpha.",
+  "size_contract": {
+    "status": "owner_approved_master",
+    "body_width_px": 157,
+    "body_with_frills_height_px": 96,
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "foot_anchor_px": [
+      176,
+      224
+    ]
+  },
+  "camera": {
+    "camera_view": "side_view_2d_three_quarter",
+    "default_atlas_facing": "right(+X)",
+    "left_facing_rule": "Four authored perspective wholebodyturnposes; mirroredsequenceforreverse; no cardflipping.",
+    "locomotion_vector_rule": "Two-leg forward+X walk, alternate near/far support; no run/jump."
+  },
+  "anatomy_reference": "https://www.nhm.ac.uk/discover/dino-directory/dilophosaurus.html",
+  "design": "Original master with Owner-requested paired flared neck frills: yellow/orange/cream/crimson membranes and dark scalloped rim; near/far perspective, face/teeth/headcrests visible.",
+  "sharpness_reference": "docs/art-standards/t-rex-sharpness-reference.png",
+  "approval_status": "owner_approved",
+  "master": "work/characters/dilophosaurus/master-review/frill-v2/master-gameplay-v2.png",
+  "master_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+  "body_bbox_px": [
+    85,
+    128,
+    157,
+    96
+  ],
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "visual_review": "Opened comparison light/dark/checker at1x/2xNearest. Fullbbox[85,128,157,96], same previous whole-image scale/root/ground, alpha100%. Larger near frill and foreshortened far frill are attached behind jaw. Revised master pending Owner.",
+  "owner_base_feedback": "mẫu trên đã chuẩn nhưng thiếu 2 bườm quanh cổ như mẫu [Image #1] giúp anh tái tạo lại",
+  "master_approval": "work/characters/dilophosaurus/master-review/frill-v2/owner-master-approval.json",
+  "atlas_plan": "work/characters/dilophosaurus/atlas-v1/plan.json",
+  "atlas_qa_report": "docs/characters/dilophosaurus-motion-v2-qa.json",
+  "atlas_preview_url": "http://localhost:8080/?character=dilophosaurus&clip=power_up&frame=0&paused=1",
+  "master_approved": true,
+  "owner_approval_file": "assets/dilophosaurus/owner_approval.json",
+  "approved_at": "2026-11-13T04:57:15.924909+00:00"
+}

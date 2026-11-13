@@ -30,6 +30,12 @@ Giữ `create_atlas` làm điểm vào ưu tiên khi Owner yêu cầu xây dựn
 - **Không guard/win cho mọi nhân vật**: Owner đã loại hai chức năng này khỏi phạm vi chung; không hỏi lại hoặc tạo chúng để vượt kiểm thử. Giữ WARN của bộ tham chiếu nếu checker vẫn nhắc, ghi lý do loại theo Owner. Intro/ultimate và các kỹ năng khác vẫn theo từng nhân vật; không suy từ việc có/không ở một mẫu.
 - Ki dạng sheet phải review nối vòng cuối→đầu; có thể sinh thêm frame nối khi Owner cho phép, ghi rõ frame mới so với frame nguồn. Không chỉ đảo thứ tự hai hình rồi nhận đã chứng minh loop mượt.
 
+### Trạng thái bất lợi và clip đổi hướng
+- Choáng/khống chế là trạng thái gameplay kết hợp VFX độc lập; không sinh clip thân `stun`/choáng/khống chế riêng để thêm vào atlas. Mẫu choáng theo Owner: giữ pose `hit` phù hợp và dừng đồng hồ thân, VFX trên đầu có đồng hồ riêng và theo anchor đầu/hướng nhìn; hết trạng thái thì gỡ VFX và thoát giữ pose. Dữ liệu duration/priority thuộc state machine, không suy từ độ dài clip.
+- `turn` trong dự án là hoạt ảnh quay người đổi hướng trái/phải, không đồng nghĩa `stun`. Xác minh nơi dùng trước khi sửa/xóa; nếu Owner chỉ yêu cầu bỏ hoạt ảnh khống chế thì báo đúng chức năng `turn`, không tự gỡ chuyển tiếp đổi hướng.
+- Với sinh vật có mang/bờm cổ, yêu cầu rung/uốn lượn mang không cho phép đầu to/nhỏ nhanh theo nhịp. Giữ đầu, hàm, cổ và thân ổn định về tỷ lệ; sinh whole-body keyframes để thể hiện mang uốn sóng liên tục, không co giãn toàn bộ đầu/nhân vật hoặc ghép đầu cố định vào các mảnh thân.
+- 60Hz là đồng hồ, không đảm bảo độ mượt khi pose giữ quá lâu hoặc chuyển pose bị giật. Kiểm tra pose cadence/loop seam ở tốc độ thật; sửa idle chỉ trong phạm vi nhân vật Owner yêu cầu, giữ idle Spinosaurus đã duyệt.
+
 ## 1. Lập hồ sơ nhân vật trước khi chọn động tác
 
 Mở file ảnh thật, ghi nguồn, kích thước và SHA-256 khi xử lý asset. Tách rõ: **quan sát từ ảnh**, **Owner quy định**, **đề xuất thiết kế**, **cần xác nhận**. Ảnh tĩnh không chứng minh được dáng đi, khả năng bay, biến hình hoặc kỹ năng.

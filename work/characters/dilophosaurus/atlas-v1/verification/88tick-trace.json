@@ -1,0 +1,672 @@
+[
+  {
+    "tick": 0,
+    "body_frame": 0,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 1,
+    "body_frame": 0,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 2,
+    "body_frame": 0,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 3,
+    "body_frame": 0,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 4,
+    "body_frame": 1,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 5,
+    "body_frame": 1,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 6,
+    "body_frame": 1,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 7,
+    "body_frame": 1,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 8,
+    "body_frame": 2,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 9,
+    "body_frame": 2,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 10,
+    "body_frame": 2,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 11,
+    "body_frame": 2,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 12,
+    "body_frame": 3,
+    "slash": "air_slash_a_fx",
+    "phase": 0,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 13,
+    "body_frame": 3,
+    "slash": "air_slash_a_fx",
+    "phase": 1,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 14,
+    "body_frame": 3,
+    "slash": "air_slash_a_fx",
+    "phase": 2,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 15,
+    "body_frame": 3,
+    "slash": "air_slash_a_fx",
+    "phase": 3,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 16,
+    "body_frame": 4,
+    "slash": "air_slash_a_fx",
+    "phase": 4,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 17,
+    "body_frame": 4,
+    "slash": "air_slash_a_fx",
+    "phase": 5,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 18,
+    "body_frame": 4,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 19,
+    "body_frame": 4,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 20,
+    "body_frame": 5,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 21,
+    "body_frame": 5,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 22,
+    "body_frame": 5,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 23,
+    "body_frame": 6,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 24,
+    "body_frame": 6,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 25,
+    "body_frame": 6,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 26,
+    "body_frame": 6,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 27,
+    "body_frame": 7,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 28,
+    "body_frame": 7,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 29,
+    "body_frame": 7,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 30,
+    "body_frame": 7,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 31,
+    "body_frame": 8,
+    "slash": "air_slash_b_fx",
+    "phase": 0,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 32,
+    "body_frame": 8,
+    "slash": "air_slash_b_fx",
+    "phase": 1,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 33,
+    "body_frame": 8,
+    "slash": "air_slash_b_fx",
+    "phase": 2,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 34,
+    "body_frame": 8,
+    "slash": "air_slash_b_fx",
+    "phase": 3,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 35,
+    "body_frame": 9,
+    "slash": "air_slash_b_fx",
+    "phase": 4,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 36,
+    "body_frame": 9,
+    "slash": "air_slash_b_fx",
+    "phase": 5,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 37,
+    "body_frame": 9,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 38,
+    "body_frame": 10,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 39,
+    "body_frame": 10,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 40,
+    "body_frame": 10,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 41,
+    "body_frame": 10,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 42,
+    "body_frame": 11,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 43,
+    "body_frame": 11,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 44,
+    "body_frame": 11,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 45,
+    "body_frame": 11,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 46,
+    "body_frame": 12,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 47,
+    "body_frame": 12,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 48,
+    "body_frame": 12,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 49,
+    "body_frame": 12,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 50,
+    "body_frame": 13,
+    "slash": "air_slash_c_fx",
+    "phase": 0,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 51,
+    "body_frame": 13,
+    "slash": "air_slash_c_fx",
+    "phase": 1,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 52,
+    "body_frame": 13,
+    "slash": "air_slash_c_fx",
+    "phase": 2,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 53,
+    "body_frame": 14,
+    "slash": "air_slash_c_fx",
+    "phase": 3,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 54,
+    "body_frame": 14,
+    "slash": "air_slash_c_fx",
+    "phase": 4,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 55,
+    "body_frame": 14,
+    "slash": "air_slash_c_fx",
+    "phase": 5,
+    "point": [
+      320,
+      168
+    ]
+  },
+  {
+    "tick": 56,
+    "body_frame": 14,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 57,
+    "body_frame": 15,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 58,
+    "body_frame": 15,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 59,
+    "body_frame": 15,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 60,
+    "body_frame": 15,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 61,
+    "body_frame": 16,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 62,
+    "body_frame": 16,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 63,
+    "body_frame": 16,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 64,
+    "body_frame": 16,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 65,
+    "body_frame": 17,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 66,
+    "body_frame": 17,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 67,
+    "body_frame": 17,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 68,
+    "body_frame": 18,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 69,
+    "body_frame": 18,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 70,
+    "body_frame": 18,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 71,
+    "body_frame": 19,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 72,
+    "body_frame": 19,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 73,
+    "body_frame": 19,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 74,
+    "body_frame": 20,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 75,
+    "body_frame": 20,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 76,
+    "body_frame": 20,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 77,
+    "body_frame": 21,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 78,
+    "body_frame": 21,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 79,
+    "body_frame": 21,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 80,
+    "body_frame": 22,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 81,
+    "body_frame": 22,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 82,
+    "body_frame": 22,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 83,
+    "body_frame": 23,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 84,
+    "body_frame": 23,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 85,
+    "body_frame": 23,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 86,
+    "body_frame": 23,
+    "slash": null,
+    "phase": null,
+    "point": null
+  },
+  {
+    "tick": 87,
+    "body_frame": 23,
+    "slash": null,
+    "phase": null,
+    "point": null
+  }
+]

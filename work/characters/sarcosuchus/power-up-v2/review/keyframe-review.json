@@ -1,0 +1,17 @@
+{
+  "status": "owner_approved",
+  "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+  "filmstrips_opened": [
+    "power_up-composite",
+    "energy_charge_fx",
+    "energy_blast_fx"
+  ],
+  "three_backgrounds": true,
+  "body_frames_unchanged": 55,
+  "teeth_overlap_pixels": 0,
+  "launch_texture_equals_last_charge": true,
+  "real_time": "Chromium Rust WASM body power_up0..8→0 on light/dark/checker; all46ticks layer/frame/point contract checked; screenshots0/4/5/7/9/10/13 reviewed.",
+  "owner_approved": true,
+  "approved_at": "2026-11-13T02:57:36.459561+00:00",
+  "owner_message": "ok anh chốt luôn cá sấu theo qui tình thực hiện chốt xong báo anh để anh yêu cầu sang nhân vật mới"
+}

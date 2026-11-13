@@ -1,0 +1,9 @@
+{
+  "full_fx_bbox_px": {
+    "x": 83,
+    "y": 171,
+    "w": 252,
+    "h": 53
+  },
+  "method": "Union of body poses and all46ticks power-up with charge/projectile contract positions; excludes unpositioned FX-local canvas."
+}

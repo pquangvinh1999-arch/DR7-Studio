@@ -245,21 +245,38 @@ for (const ch of apiPayload.roster.characters) {
     assert.deepEqual(Array.from(projLayers, x => x.layer), ['Body', 'Projectile']);
     assert.equal(projLayers[1].frame, bundle.animations[p.projectile_clip].frames[0]);
   }
+  if(contract.target_slashes) {
+    const q=contract.target_slashes,anim=bundle.animations[q.body_clip];let total=anim.frames.reduce((s,f)=>s+f.duration_ticks,0),visible=0;
+    for(let tick=0;tick<total;tick++) {
+      let index=0,elapsed=tick;while(index<anim.frames.length-1&&elapsed>=anim.frames[index].duration_ticks){elapsed-=anim.frames[index].duration_ticks;index++;}
+      const layers=T.getLayerFramesForStep(q.body_clip,index,{elapsedMs:elapsed*1000/60,auraEnabled:false});
+      const strike=q.strikes.find(x=>tick>=x.at_tick&&tick<x.at_tick+x.duration_ticks);
+      assert.deepEqual(Array.from(layers,x=>x.layer),strike?['Body','TargetSlash']:['Body']);
+      if(strike){visible++;assert.equal(layers[1].frame,bundle.animations[strike.clip].frames[tick-strike.at_tick]);assert.deepEqual(Array.from(layers[1].point),Array.from(q.default_target_canvas_px));
+        const custom=T.getLayerFramesForStep(q.body_clip,index,{elapsedMs:elapsed*1000/60,auraEnabled:false,targetCanvasPx:[280,150]});assert.deepEqual(Array.from(custom[1].point),[280,150]);}
+    }
+    assert.equal(q.strikes.length,3);assert.equal(visible,18);assert.equal(q.active_window_ticks[1]-q.active_window_ticks[0],60);
+  }
   if(contract.charge) {
     const q=contract.charge,p=contract.projectile;
     const start=T.getLayerFramesForStep(q.body_clip,0,{elapsedMs:0,auraEnabled:false});
     assert.deepEqual(Array.from(start,x=>x.layer),['Body','Charge']);
     assert.deepEqual(Array.from(start[1].point),Array.from(q.origin_canvas_px_by_frame[0]));
-    const lastCharge=T.getLayerFramesForStep(q.body_clip,1,{elapsedMs:15*1000/60,auraEnabled:false});
-    assert.equal(lastCharge[1].frame,bundle.animations[q.effect_clip].frames[5]);
-    for(let elapsed=0;elapsed<16;elapsed++) {
+    const body=bundle.animations[q.body_clip],charge=bundle.animations[q.effect_clip];
+    const last=q.release_frame-1;
+    const lastCharge=T.getLayerFramesForStep(q.body_clip,last,{elapsedMs:(body.frames[last].duration_ticks-1)*1000/60,auraEnabled:false});
+    const phaseAt=(frames,tick)=>{let i=0;while(i<frames.length-1 && tick>=frames[i].duration_ticks){tick-=frames[i].duration_ticks;i++;}return i;};
+    const release=body.frames.slice(0,q.release_frame).reduce((s,f)=>s+f.duration_ticks,0);
+    assert.equal(lastCharge[1].frame,charge.frames[phaseAt(charge.frames,release-1)]);
+    for(let elapsed=0;elapsed<p.lifetime_ticks;elapsed++) {
       const bodyElapsed=elapsed*1000/60;
-      const layers=T.getLayerFramesForStep(q.body_clip,2,{elapsedMs:bodyElapsed,auraEnabled:false});
+      const layers=T.getLayerFramesForStep(q.body_clip,p.release_frame,{elapsedMs:bodyElapsed,auraEnabled:false});
       assert.deepEqual(Array.from(layers,x=>x.layer),['Body','Projectile']);
       assert.deepEqual(Array.from(layers[1].point),[p.origin_canvas_px[0]+elapsed*p.velocity_px_per_tick[0],p.origin_canvas_px[1]]);
-      assert.equal(layers[1].frame,bundle.animations[p.projectile_clip].frames[Math.floor(elapsed/4)]);
+      const projectile=bundle.animations[p.projectile_clip];
+      assert.equal(layers[1].frame,projectile.frames[phaseAt(projectile.frames,elapsed)]);
     }
-    const gone=T.getLayerFramesForStep(q.body_clip,2,{elapsedMs:16*1000/60,auraEnabled:false});
+    const gone=T.getLayerFramesForStep(q.body_clip,p.release_frame,{elapsedMs:p.lifetime_ticks*1000/60,auraEnabled:false});
     assert.deepEqual(Array.from(gone,x=>x.layer),['Body']);
   }
   assert.equal(T.getLayerFramesForStep(motion,0,{auraEnabled:false}).length,1);

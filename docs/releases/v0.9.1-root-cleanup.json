@@ -1,0 +1,39 @@
+{
+  "scope": "Root upload duplicates and their Godot sidecars only",
+  "updated_at": "2026-11-13T05:01:50.190031+00:00",
+  "deleted_pngs": 2,
+  "deleted_imports": 2,
+  "removed_bytes": 77817,
+  "files": [
+    {
+      "path": "image.png",
+      "bytes": 33439,
+      "sha256": "2772a0e7e7b6cef7062cb47221c8c55b84d1311d19f0ee29b404a3745079c5ee",
+      "canonical_source": "work/characters/tasmanian_king_crab/atlas-v1/source/power-orb-owner.png",
+      "kind": "duplicate_uploaded_source"
+    },
+    {
+      "path": "image.png.import",
+      "bytes": 919,
+      "sha256": "c45e3c4a436f71af3c1cf9095369d6755673f365ccc182b58e24b99b8c4fc24b",
+      "canonical_source": "work/characters/tasmanian_king_crab/atlas-v1/source/power-orb-owner.png",
+      "kind": "Godot_sidecar_for_removed_duplicate"
+    },
+    {
+      "path": "image copy.png",
+      "bytes": 42525,
+      "sha256": "8c7f70a42344094cfce44ca961bc7ad2c72761cebe3061da985b3b74a1c8acde",
+      "canonical_source": "work/characters/sarcosuchus/atlas-v1/source/power-up-owner.png",
+      "kind": "duplicate_uploaded_source"
+    },
+    {
+      "path": "image copy.png.import",
+      "bytes": 934,
+      "sha256": "4b95ee7ac816bb57564f629f84aa3f46c9dfc3e43885b0419ec9f2ed9b307dd5",
+      "canonical_source": "work/characters/sarcosuchus/atlas-v1/source/power-up-owner.png",
+      "kind": "Godot_sidecar_for_removed_duplicate"
+    }
+  ],
+  "test_reference_fixed": "tests/test_sarcosuchus_contract.py now uses canonical archived source",
+  "runtime_assets_changed": false
+}

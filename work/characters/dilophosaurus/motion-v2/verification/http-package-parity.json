@@ -1,0 +1,97 @@
+{
+  "bundle_count": 6,
+  "HTTP": {
+    "assets/dilophosaurus/godot_bundle/godot/dilophosaurus-atlas-00.png": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
+    "assets/dilophosaurus/godot_bundle/godot/dilophosaurus.tres": "a69d4809b0858a87e4d69f6d6f0e9edf098c28cdbaf8556b83b0b3a294ebbead",
+    "assets/dilophosaurus/godot_bundle/engine-export.json": "70e247fa18ba1c1a380405957ac8449570836ee6b4b84be91fc7670dd7b56669",
+    "tools/preview/rust_combat_sim.wasm": "d8a8dc6b3fcdf50a373aebab83e1e842daaba2852e3dfc63439a03235740474c"
+  },
+  "zip_files": 965,
+  "zip_crc_ok": true,
+  "extracted_project": "/tmp/dr7-dilo-godot-xqt8xi6w",
+  "shared_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_light",
+      "hit",
+      "ko",
+      "turn",
+      "power_up"
+    ],
+    "effect_clips": [
+      "air_slash_a_fx",
+      "air_slash_b_fx",
+      "air_slash_c_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "projectile": null,
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 20,
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true
+    },
+    "target_slashes": {
+      "body_clip": "power_up",
+      "active_window_ticks": [
+        8,
+        68
+      ],
+      "default_target_canvas_px": [
+        320,
+        168
+      ],
+      "strikes": [
+        {
+          "at_tick": 12,
+          "angle_deg": -40,
+          "direction": "top_to_bottom",
+          "clip": "air_slash_a_fx",
+          "duration_ticks": 6
+        },
+        {
+          "at_tick": 31,
+          "angle_deg": 35,
+          "direction": "bottom_to_top",
+          "clip": "air_slash_b_fx",
+          "duration_ticks": 6
+        },
+        {
+          "at_tick": 50,
+          "angle_deg": -70,
+          "direction": "top_to_bottom",
+          "clip": "air_slash_c_fx",
+          "duration_ticks": 6
+        }
+      ],
+      "target_rule": "All three hit the same independently supplied enemy/dummy point; no body/frill emission, no travel.",
+      "target_override": "Godot set_slash_target_global or set_slash_target_canvas; browser options.targetCanvasPx.",
+      "angle_art": "Baked whole-FX rotations and directional alpha sweep, no body transforms."
+    }
+  }
+}

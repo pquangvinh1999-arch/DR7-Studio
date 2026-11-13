@@ -1,0 +1,47 @@
+{
+  "status": "owner_approved",
+  "method": "imagegen_complete_body_keyframes",
+  "checks": {
+    "body_connections": true,
+    "whole_pose_sequence": true,
+    "perspective_turns": true,
+    "phase_timing": true,
+    "three_backgrounds": true,
+    "character_identity": true,
+    "head_stability": true,
+    "idle_cadence": true
+  },
+  "review_evidence": "work/characters/dilophosaurus/motion-v2/review/keyframe-review.json",
+  "owner_approved": true,
+  "unresolved_structural_failures": [],
+  "naturalness_verdict": "owner_approved",
+  "notes": "Only idle/power revised. Complete generated poses; no part slicing/patching. Active head shows residual1px outline/position variation, not pixel-locked. Large head/fan inflation removed; small membrane fold/edge changes repeated every16ticks. Owner must judge feel. Frozen other actions retain prior review by exact SHA. Owner subsequently accepted this entire revision; no image or timing changes during finalization.",
+  "filmstrips_opened": [
+    "filmstrip-idle.png",
+    "filmstrip-power_wave.png",
+    "filmstrip-power_up.png",
+    "head-front-eight-phases.png",
+    "filmstrip-power_up-composite.png"
+  ],
+  "backgrounds": [
+    "light",
+    "dark",
+    "checker"
+  ],
+  "previous_rejected_atlas_sha256": "c1f163930cade1d9d42a945a4a7c7b879c9ada2681f75cf768718a30fc96a5f0",
+  "head_limit_evidence": "work/characters/dilophosaurus/motion-v2/verification/head-front-stability.json",
+  "runtime_review": "21body/backgroundsequences observed,88tickdeterministictrace; see headless skipped-pose warning",
+  "idle_timing": {
+    "old_poses": 4,
+    "old_hold_ticks": 30,
+    "new_poses": 12,
+    "new_hold_ticks": 10,
+    "period_ticks": 120
+  },
+  "turn": "Keep unchanged by explicit Owner instruction",
+  "atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
+  "timing_proof": "verification/browser-runtime.json",
+  "approved_at": "2026-11-13T04:57:15.924909+00:00",
+  "owner_message": "dilophosaurus  đã xong chốt hoạt ảnh giúp anh tiếp thành theo qui trình để sang nhân vật tiếp theo",
+  "owner_feedback": "dilophosaurus  đã xong chốt hoạt ảnh giúp anh tiếp thành theo qui trình để sang nhân vật tiếp theo"
+}

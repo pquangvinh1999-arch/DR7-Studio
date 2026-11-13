@@ -1,0 +1,27 @@
+[
+  {
+    "character_id": "t_rex",
+    "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
+    "unchanged": true
+  },
+  {
+    "character_id": "spinosaurus",
+    "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+    "unchanged": true
+  },
+  {
+    "character_id": "pteranodon",
+    "atlas_sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2",
+    "unchanged": true
+  },
+  {
+    "character_id": "tasmanian_king_crab",
+    "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+    "unchanged": true
+  },
+  {
+    "character_id": "sarcosuchus",
+    "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+    "unchanged": true
+  }
+]

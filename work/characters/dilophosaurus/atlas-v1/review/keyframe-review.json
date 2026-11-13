@@ -1,0 +1,36 @@
+{
+  "status": "fail",
+  "method": "imagegen_complete_body_keyframes",
+  "atlas_sha256": "c1f163930cade1d9d42a945a4a7c7b879c9ada2681f75cf768718a30fc96a5f0",
+  "checks": {
+    "body_connections": true,
+    "whole_pose_sequence": true,
+    "perspective_turns": true,
+    "phase_timing": true,
+    "three_backgrounds": true,
+    "character_identity": true
+  },
+  "review_evidence": "work/characters/dilophosaurus/atlas-v1/review/keyframe-review.json",
+  "unresolved_structural_failures": [
+    "Owner reported head scale oscillation in power_up; requires steady head with high-speed undulation of two neck frills.",
+    "Owner reported idle too slow/choppy; measured4poses x30ticks =500ms per pose."
+  ],
+  "owner_approved": false,
+  "naturalness_verdict": "pending_owner_real_time_review",
+  "notes": "New wholebody poses; neckfrills physically pulse, no VFX emission from frills. Three source-preserving directional slash sweeps at same independent target. Visual quality remains Owner Human Test gate.",
+  "filmstrips_opened": [
+    "idle",
+    "walk",
+    "attack_light",
+    "hit",
+    "ko",
+    "turn",
+    "power_up",
+    "air_slash_a_fx",
+    "air_slash_b_fx",
+    "air_slash_c_fx"
+  ],
+  "composite_review": "Opened power_up-composite on light/dark/checker; 3same-targetangle sweeps, no emissionfromfrills. All10clipfilmstrips opened on3backgrounds.",
+  "real_time": "Chromium RustWASM playback21action/backgroundsequences, everybodyframe traversed, idle/walk forwardseams checked;88tick compositeframe/targetcontract validated.",
+  "owner_feedback": "Owner báo power_up làm đầu/mang to nhỏ nhanh thay vì đầu cố định và mang uốn lượn; idle chậm/khựng. Turn chỉ được yêu cầu xóa nếu là khống chế, nhưng thực tế là đổi hướng nên chưa xóa."
+}

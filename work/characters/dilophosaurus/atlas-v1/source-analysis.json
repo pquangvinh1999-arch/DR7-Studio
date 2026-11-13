@@ -1,0 +1,24 @@
+{
+  "source": "work/characters/dilophosaurus/master-review/frill-v2/image.png",
+  "sha256": "f09380c8b17329c1a7bcb2253305543470a55badf1fbe61ba6a5ecbf9cb5730d",
+  "size_px": [
+    83,
+    95
+  ],
+  "corner_RGBA": [
+    6,
+    7,
+    13,
+    255
+  ],
+  "observed_pose_count": 1,
+  "non_background_bbox_xywh_at_delta16": [
+    8,
+    7,
+    44,
+    80
+  ],
+  "visible_candidate_pixels": 1174,
+  "analysis_only": true,
+  "proposed_processing": "Preserve Owner crescent art. Pocket-first background key/unmix, temporal alpha reveal/erase along vertical axis both directions; angle/placement instances independent of body, no emission at frills. Runtime duration/placement pending Owner answers."
+}

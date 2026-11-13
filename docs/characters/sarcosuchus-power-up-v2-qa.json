@@ -1,0 +1,386 @@
+{
+  "character_id": "sarcosuchus",
+  "revision": "power-up-v2",
+  "status": "owner_approved",
+  "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3494,
+          2082
+        ],
+        "cells": 69,
+        "clips": [
+          "idle",
+          "walk",
+          "attack_nomal",
+          "power_up",
+          "hit",
+          "ko",
+          "turn",
+          "energy_blast_fx",
+          "energy_charge_fx"
+        ]
+      }
+    ]
+  },
+  "body_frames_frozen": 55,
+  "frames": 71,
+  "clip_references": 71,
+  "charge_frames": 10,
+  "source_fx_frames": 6,
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_nomal",
+      "power_up",
+      "hit",
+      "ko",
+      "turn"
+    ],
+    "effect_clips": [
+      "energy_charge_fx",
+      "energy_blast_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "charge": {
+      "body_clip": "power_up",
+      "effect_clip": "energy_charge_fx",
+      "release_frame": 2,
+      "origin_canvas_px_by_frame": [
+        [
+          236,
+          201
+        ],
+        [
+          239,
+          193
+        ]
+      ],
+      "clock": "body_ticks_before_release",
+      "growth": "10 baked60Hz FX poses, fade32→255, width1→10px; jaw-matched"
+    },
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "energy_blast_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 18,
+      "origin_canvas_px": [
+        244,
+        194
+      ],
+      "velocity_px_per_tick": [
+        4,
+        0
+      ],
+      "launch_size_matches_charge": true
+    },
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 20,
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true
+    }
+  },
+  "growth": [
+    {
+      "tick": 0,
+      "body_frame": 0,
+      "bbox_xyxy": [
+        176,
+        128,
+        177,
+        129
+      ],
+      "size_px": [
+        1,
+        1
+      ],
+      "opacity_multiplier": 32
+    },
+    {
+      "tick": 1,
+      "body_frame": 0,
+      "bbox_xyxy": [
+        175,
+        127,
+        177,
+        129
+      ],
+      "size_px": [
+        2,
+        2
+      ],
+      "opacity_multiplier": 64
+    },
+    {
+      "tick": 2,
+      "body_frame": 0,
+      "bbox_xyxy": [
+        175,
+        127,
+        177,
+        129
+      ],
+      "size_px": [
+        2,
+        2
+      ],
+      "opacity_multiplier": 96
+    },
+    {
+      "tick": 3,
+      "body_frame": 0,
+      "bbox_xyxy": [
+        175,
+        127,
+        178,
+        130
+      ],
+      "size_px": [
+        3,
+        3
+      ],
+      "opacity_multiplier": 128
+    },
+    {
+      "tick": 4,
+      "body_frame": 0,
+      "bbox_xyxy": [
+        174,
+        126,
+        178,
+        130
+      ],
+      "size_px": [
+        4,
+        4
+      ],
+      "opacity_multiplier": 160
+    },
+    {
+      "tick": 5,
+      "body_frame": 1,
+      "bbox_xyxy": [
+        174,
+        126,
+        179,
+        130
+      ],
+      "size_px": [
+        5,
+        4
+      ],
+      "opacity_multiplier": 192
+    },
+    {
+      "tick": 6,
+      "body_frame": 1,
+      "bbox_xyxy": [
+        173,
+        126,
+        179,
+        131
+      ],
+      "size_px": [
+        6,
+        5
+      ],
+      "opacity_multiplier": 224
+    },
+    {
+      "tick": 7,
+      "body_frame": 1,
+      "bbox_xyxy": [
+        173,
+        125,
+        180,
+        131
+      ],
+      "size_px": [
+        7,
+        6
+      ],
+      "opacity_multiplier": 255
+    },
+    {
+      "tick": 8,
+      "body_frame": 1,
+      "bbox_xyxy": [
+        172,
+        124,
+        181,
+        132
+      ],
+      "size_px": [
+        9,
+        8
+      ],
+      "opacity_multiplier": 255
+    },
+    {
+      "tick": 9,
+      "body_frame": 1,
+      "bbox_xyxy": [
+        171,
+        123,
+        181,
+        132
+      ],
+      "size_px": [
+        10,
+        9
+      ],
+      "opacity_multiplier": 255
+    }
+  ],
+  "map_sync_metrics": {
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "foot_anchor_px": [
+      176,
+      224
+    ],
+    "body_only_bbox_px": {
+      "x": 89,
+      "y": 190,
+      "w": 157,
+      "h": 34
+    },
+    "full_fx_bbox_px": {
+      "x": 83,
+      "y": 171,
+      "w": 236,
+      "h": 53
+    },
+    "reference_ppu_64": 64,
+    "world_size_at_64ppu_m": {
+      "body_w_m": 2.453,
+      "body_h_m": 0.531,
+      "aura_w_m": 3.688,
+      "aura_h_m": 0.828
+    },
+    "tile_32px_span": {
+      "body_tiles_w": 4.906,
+      "body_tiles_h": 1.062,
+      "full_fx_tiles_w": 7.375,
+      "full_fx_tiles_h": 1.656
+    }
+  },
+  "motion_quality": {
+    "status": "owner_approved",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true
+    },
+    "review_evidence": "work/characters/sarcosuchus/power-up-v2/review/keyframe-review.json",
+    "unresolved_structural_failures": [],
+    "owner_approved": true,
+    "naturalness_verdict": "owner_approved",
+    "notes": "Owner accepted the entire current character after Human Test, including power_up-v2 mouth-fit progressive sphere and identical-size launch. All body poses/ticks/events frozen.",
+    "approved_at": "2026-11-13T02:57:36.459561+00:00",
+    "owner_feedback": "ok anh chốt luôn cá sấu theo qui tình thực hiện chốt xong báo anh để anh yêu cầu sang nhân vật mới"
+  },
+  "technical_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 36,
+    "godot_bundles": 5,
+    "power_tick_tests": 2,
+    "rust_tests": 2,
+    "wasm_release_exit_code": 0,
+    "browser_ticks_verified": 46,
+    "browser_real_time_backgrounds": 3,
+    "browser_page_errors": [],
+    "downloaded_godot_pack_tests_exit_code": 0,
+    "HTTP_atlas_meta_tres_WASM_byte_parity": true
+  },
+  "teeth_evidence": "work/characters/sarcosuchus/power-up-v2/verification/teeth-overlap.json",
+  "warnings": [
+    "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'sarcosuchus' hiện có 7 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win."
+  ],
+  "protected_peer_files_unchanged": 716,
+  "body_pngs_ticks_events_unchanged": 55,
+  "owner_feedback": "Cầu phải xuất hiện/lớn dần theo hàm mở, vừa miệng, không che răng, phóng với cùng kích thước cuối lúc gồng.",
+  "previous_bright_tooth_overlap": [
+    10,
+    24,
+    28
+  ],
+  "current_bright_tooth_overlap": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "bright_tooth_test_limits": "ROI Canvas[228:253,182:210], RGB thresholds130/120/85 identify bright tooth/jaw pixels; visual review on3backgrounds remains independent.",
+  "max_sphere_size_px": [
+    10,
+    9
+  ],
+  "last_charge_equals_first_projectile_RGBA": true,
+  "preview_url": "http://localhost:8080/?character=sarcosuchus&clip=power_up&frame=0&paused=1",
+  "owner_approval_file": "assets/sarcosuchus/owner_approval.json",
+  "approved_at": "2026-11-13T02:57:36.459561+00:00",
+  "owner_message": "ok anh chốt luôn cá sấu theo qui tình thực hiện chốt xong báo anh để anh yêu cầu sang nhân vật mới",
+  "finalization_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 36,
+    "godot_bundles": 5,
+    "power_tick_tests": 2,
+    "rust_tests": 2,
+    "wasm_release_build_exit_code": 0,
+    "HTTP_ZIP_owner_approved_byte_parity": true,
+    "approved_runtime_files_unchanged": 168,
+    "approved_peer_files_unchanged": 716
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema": "dr7-studio.source-sheet-analysis.v1",
-  "source": "image.png",
+  "source": "work/characters/tasmanian_king_crab/atlas-v1/source/power-orb-owner.png",
   "sha256": "2772a0e7e7b6cef7062cb47221c8c55b84d1311d19f0ee29b404a3745079c5ee",
   "size_px": [
     600,
@@ -379,5 +379,6 @@
     "aura_loop use/location and remaining clip scope",
     "release frame2 refers to body or FX",
     "add2fade/bridge frames after white orb then wrap"
-  ]
+  ],
+  "original_upload": "image.png"
 }

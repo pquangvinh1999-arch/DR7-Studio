@@ -1254,6 +1254,16 @@
         const point=charge.origin_canvas_px_by_frame[index];
         layers.push({layer:'Charge',bundle:b.id,frame:sampleFxFrame(b.animations[charge.effect_clip],tick),point,pivot:contract.fx_pivot_px,angle:0});
       }
+      const slashes=contract.target_slashes;
+      if(slashes && bodyName===slashes.body_clip) {
+        const point=options.targetCanvasPx||slashes.default_target_canvas_px;
+        for(const strike of slashes.strikes) {
+          const elapsed=tick-strike.at_tick;
+          if(elapsed>=0 && elapsed<strike.duration_ticks) {
+            layers.push({layer:'TargetSlash',bundle:b.id,frame:sampleFxFrame(b.animations[strike.clip],elapsed),point,pivot:contract.fx_pivot_px,angle:0});
+          }
+        }
+      }
       const p=contract.projectile;
       if(!p)return layers;
       if(p.kind==='linear_energy') {

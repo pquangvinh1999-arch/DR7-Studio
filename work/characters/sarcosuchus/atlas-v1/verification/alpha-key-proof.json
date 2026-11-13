@@ -1,0 +1,436 @@
+[
+  {
+    "file": "attack_nomal_00.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "attack_nomal_01.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "attack_nomal_02.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "attack_nomal_03.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "attack_nomal_04.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "attack_nomal_05.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "attack_nomal_06.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "attack_nomal_07.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "charge_small.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "alpha_hardness_pct": 87.895,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "energy_blast_00.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "alpha_hardness_pct": 88.064,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "energy_blast_01.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "alpha_hardness_pct": 86.967,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "energy_blast_02.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "alpha_hardness_pct": 86.863,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "energy_blast_03.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "alpha_hardness_pct": 78.599,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "energy_blast_04.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "alpha_hardness_pct": 77.207,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "energy_blast_05.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "alpha_hardness_pct": 40.415,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "hit_00.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "hit_01.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "hit_02.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "hit_03.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "hit_04.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "hit_05.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_00.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_01.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_02.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_03.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_04.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_05.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_06.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_07.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_08.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_09.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_10.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "idle_11.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "ko_00.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "ko_01.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "ko_02.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "ko_03.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "ko_04.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "ko_05.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "ko_06.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "ko_07.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "power_up_00.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "power_up_01.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "power_up_02.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "power_up_03.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "power_up_04.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "power_up_05.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "power_up_06.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "power_up_07.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "power_up_08.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "turn_00.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "turn_01.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "turn_02.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "turn_03.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "walk_00.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "walk_01.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "walk_02.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "walk_03.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "walk_04.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "walk_05.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "walk_06.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  },
+  {
+    "file": "walk_07.png",
+    "opaque_key_px": 0,
+    "outer_ring_spill_fraction": null,
+    "alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0
+  }
+]

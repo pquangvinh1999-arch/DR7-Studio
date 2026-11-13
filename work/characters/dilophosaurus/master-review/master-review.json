@@ -1,0 +1,66 @@
+{
+  "status": "master_pending_owner",
+  "art_source": "built-in imagegen",
+  "source": "work/characters/dilophosaurus/master-review/concept-v1.png",
+  "source_sha256": "d5eb0092d53ee207dc37c7723d2cc7ba6c1d67fe9fda47a65e139a25f1a78591",
+  "source_canvas_size_px": [
+    1536,
+    1024
+  ],
+  "source_alpha_range": [
+    0,
+    254
+  ],
+  "source_alpha_binarization_threshold": 128,
+  "source_subject_bbox_xyxy": [
+    136,
+    236,
+    1293,
+    895
+  ],
+  "source_root_x": 807.0,
+  "root_detector": "Median darkRGBmax<80 in largest dense-body column interval; density threshold0.6*95thpercentile column occupancy. Used only for whole-pose registration, not to repaint art.",
+  "body_scale": 0.13569576490924806,
+  "sampled_buffer_size_px": [
+    157,
+    89
+  ],
+  "source_aspect_preserved": "Whole-pose uniform scale, outputheight rounded to a whole pixel; silhouettewidth measured afterNearest. No per-axis stretch or limb/part editing.",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "metrics": {
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/master-review/master-gameplay-v1.png",
+    "file_sha256": "5c8fa448d1f4210bf06a7f6d148f315fde03d22deaf4cc076d45213b7f24138f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      135,
+      157,
+      89
+    ],
+    "visible_pixels": 3192,
+    "rgb_colors": 2132,
+    "edge_acutance_sobel": 343.49,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9924218503315441,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  "size_rule": "Proposed review width157px against Spinosaurus; preserve Dilophosaurus natural aspect. Owner has not approved size.",
+  "limits": [
+    "Static master only; no animation/atlas/roster admission.",
+    "Sobel measured but not forced to match a scalar; perceivedfinish/anatomy pendingOwner.",
+    "Game palette is an artistic choice, not a claim of palaeocolour."
+  ]
+}

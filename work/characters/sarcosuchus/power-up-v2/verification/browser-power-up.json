@@ -1,0 +1,514 @@
+{
+  "ticks": [
+    {
+      "tick": 0,
+      "layers": [
+        "Body",
+        "Charge"
+      ],
+      "fxIndex": 0,
+      "point": [
+        236,
+        201
+      ]
+    },
+    {
+      "tick": 1,
+      "layers": [
+        "Body",
+        "Charge"
+      ],
+      "fxIndex": 1,
+      "point": [
+        236,
+        201
+      ]
+    },
+    {
+      "tick": 2,
+      "layers": [
+        "Body",
+        "Charge"
+      ],
+      "fxIndex": 2,
+      "point": [
+        236,
+        201
+      ]
+    },
+    {
+      "tick": 3,
+      "layers": [
+        "Body",
+        "Charge"
+      ],
+      "fxIndex": 3,
+      "point": [
+        236,
+        201
+      ]
+    },
+    {
+      "tick": 4,
+      "layers": [
+        "Body",
+        "Charge"
+      ],
+      "fxIndex": 4,
+      "point": [
+        236,
+        201
+      ]
+    },
+    {
+      "tick": 5,
+      "layers": [
+        "Body",
+        "Charge"
+      ],
+      "fxIndex": 5,
+      "point": [
+        239,
+        193
+      ]
+    },
+    {
+      "tick": 6,
+      "layers": [
+        "Body",
+        "Charge"
+      ],
+      "fxIndex": 6,
+      "point": [
+        239,
+        193
+      ]
+    },
+    {
+      "tick": 7,
+      "layers": [
+        "Body",
+        "Charge"
+      ],
+      "fxIndex": 7,
+      "point": [
+        239,
+        193
+      ]
+    },
+    {
+      "tick": 8,
+      "layers": [
+        "Body",
+        "Charge"
+      ],
+      "fxIndex": 8,
+      "point": [
+        239,
+        193
+      ]
+    },
+    {
+      "tick": 9,
+      "layers": [
+        "Body",
+        "Charge"
+      ],
+      "fxIndex": 9,
+      "point": [
+        239,
+        193
+      ]
+    },
+    {
+      "tick": 10,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 0,
+      "point": [
+        244,
+        194
+      ]
+    },
+    {
+      "tick": 11,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 0,
+      "point": [
+        248,
+        194
+      ]
+    },
+    {
+      "tick": 12,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 0,
+      "point": [
+        252,
+        194
+      ]
+    },
+    {
+      "tick": 13,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 1,
+      "point": [
+        256,
+        194
+      ]
+    },
+    {
+      "tick": 14,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 1,
+      "point": [
+        260,
+        194
+      ]
+    },
+    {
+      "tick": 15,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 1,
+      "point": [
+        264,
+        194
+      ]
+    },
+    {
+      "tick": 16,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 2,
+      "point": [
+        268,
+        194
+      ]
+    },
+    {
+      "tick": 17,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 2,
+      "point": [
+        272,
+        194
+      ]
+    },
+    {
+      "tick": 18,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 2,
+      "point": [
+        276,
+        194
+      ]
+    },
+    {
+      "tick": 19,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 3,
+      "point": [
+        280,
+        194
+      ]
+    },
+    {
+      "tick": 20,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 3,
+      "point": [
+        284,
+        194
+      ]
+    },
+    {
+      "tick": 21,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 3,
+      "point": [
+        288,
+        194
+      ]
+    },
+    {
+      "tick": 22,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 4,
+      "point": [
+        292,
+        194
+      ]
+    },
+    {
+      "tick": 23,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 4,
+      "point": [
+        296,
+        194
+      ]
+    },
+    {
+      "tick": 24,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 4,
+      "point": [
+        300,
+        194
+      ]
+    },
+    {
+      "tick": 25,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 5,
+      "point": [
+        304,
+        194
+      ]
+    },
+    {
+      "tick": 26,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 5,
+      "point": [
+        308,
+        194
+      ]
+    },
+    {
+      "tick": 27,
+      "layers": [
+        "Body",
+        "Projectile"
+      ],
+      "fxIndex": 5,
+      "point": [
+        312,
+        194
+      ]
+    },
+    {
+      "tick": 28,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 29,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 30,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 31,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 32,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 33,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 34,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 35,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 36,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 37,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 38,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 39,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 40,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 41,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 42,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 43,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 44,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    },
+    {
+      "tick": 45,
+      "layers": [
+        "Body"
+      ],
+      "fxIndex": null
+    }
+  ],
+  "playback": [
+    {
+      "bg": "light",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        0
+      ]
+    },
+    {
+      "bg": "dark",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        0
+      ]
+    },
+    {
+      "bg": "checker",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        0
+      ]
+    }
+  ],
+  "pageErrors": []
+}

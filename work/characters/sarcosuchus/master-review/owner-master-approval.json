@@ -1,0 +1,22 @@
+{
+  "status": "owner_approved_master_only",
+  "approved_at": "2026-11-13T01:51:47.167425+00:00",
+  "owner_message": "ok anh đã xem qua [Image #1]  anh thấy mẫu chuẩn rồi đó giờ giúp anh dựng atlas. nhân vật hoạt ảnh giống với spino nhưng bỏ attack_heavy, attack_nomal tấn công bằng hàm \"cắn\", power_up dùng /workspaces/DR7-Studio/image copy.png,",
+  "file": "work/characters/sarcosuchus/master-review/master-gameplay-v1.png",
+  "sha256": "8adeda8cbb99493640c296748c76cb05df7110cee909e43b84b844a5e8675ddc",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "body_bbox_px": [
+    89,
+    190,
+    157,
+    34
+  ],
+  "anchor_px": [
+    176,
+    224
+  ],
+  "scope": "Master identity/style/size approved; new atlas/motion will require Human Test."
+}

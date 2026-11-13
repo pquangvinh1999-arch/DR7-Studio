@@ -1,0 +1,1685 @@
+[
+  {
+    "clip": "idle",
+    "index": 0,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/idle.png",
+    "source_sha256": "cfef3ae4dbb247052f4908c53ed27b38cdf393ba06efad8a486fa46f324d8dac",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      27,
+      394,
+      381,
+      633
+    ],
+    "shared_action_scale": 0.4435028248587571,
+    "shared_source_row_ground_y": 633,
+    "source_anatomical_root_x": 232.18471337579618,
+    "canvas_bbox_xyxy": [
+      85,
+      128,
+      242,
+      224
+    ],
+    "whole_canonical_pose": true,
+    "body_part_transform": false,
+    "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+  },
+  {
+    "clip": "idle",
+    "index": 1,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/idle.png",
+    "source_sha256": "cfef3ae4dbb247052f4908c53ed27b38cdf393ba06efad8a486fa46f324d8dac",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      396,
+      394,
+      746,
+      633
+    ],
+    "shared_action_scale": 0.4435028248587571,
+    "shared_source_row_ground_y": 633,
+    "source_anatomical_root_x": 607.1847133757962,
+    "canvas_bbox_xyxy": [
+      82,
+      118,
+      238,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "dbbf4fe652a482f74e3d62c2c3d8ca93c81daa1723a7b44e58a04363233e5f42"
+  },
+  {
+    "clip": "idle",
+    "index": 2,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/idle.png",
+    "source_sha256": "cfef3ae4dbb247052f4908c53ed27b38cdf393ba06efad8a486fa46f324d8dac",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      773,
+      394,
+      1127,
+      633
+    ],
+    "shared_action_scale": 0.4435028248587571,
+    "shared_source_row_ground_y": 633,
+    "source_anatomical_root_x": 989.1847133757962,
+    "canvas_bbox_xyxy": [
+      80,
+      118,
+      237,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "b3c5fea325a322a6f30321a1657814335520d5159d7762f3f1e9c10dda378676"
+  },
+  {
+    "clip": "idle",
+    "index": 3,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/idle.png",
+    "source_sha256": "cfef3ae4dbb247052f4908c53ed27b38cdf393ba06efad8a486fa46f324d8dac",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      1156,
+      394,
+      1508,
+      633
+    ],
+    "shared_action_scale": 0.4435028248587571,
+    "shared_source_row_ground_y": 633,
+    "source_anatomical_root_x": 1372.1847133757963,
+    "canvas_bbox_xyxy": [
+      80,
+      118,
+      236,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "6db058ea3e60a44f8a221baf2a31970c3283ddc4f0f97d0363f3dffed51efe23"
+  },
+  {
+    "clip": "walk",
+    "index": 0,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/walk.png",
+    "source_sha256": "60dae0731936067e1127e114bcece27943dfdd17d9b56a08ab897e09df78ea93",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      13,
+      175,
+      363,
+      403
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 404,
+    "source_anatomical_root_x": 215.86624203821654,
+    "canvas_bbox_xyxy": [
+      85,
+      121,
+      242,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f"
+  },
+  {
+    "clip": "walk",
+    "index": 1,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/walk.png",
+    "source_sha256": "60dae0731936067e1127e114bcece27943dfdd17d9b56a08ab897e09df78ea93",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      399,
+      171,
+      747,
+      401
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 404,
+    "source_anatomical_root_x": 596.8662420382166,
+    "canvas_bbox_xyxy": [
+      87,
+      119,
+      243,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd"
+  },
+  {
+    "clip": "walk",
+    "index": 2,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/walk.png",
+    "source_sha256": "60dae0731936067e1127e114bcece27943dfdd17d9b56a08ab897e09df78ea93",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      777,
+      171,
+      1130,
+      404
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 404,
+    "source_anatomical_root_x": 980.8662420382166,
+    "canvas_bbox_xyxy": [
+      85,
+      119,
+      243,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21"
+  },
+  {
+    "clip": "walk",
+    "index": 3,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/walk.png",
+    "source_sha256": "60dae0731936067e1127e114bcece27943dfdd17d9b56a08ab897e09df78ea93",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      1160,
+      171,
+      1515,
+      402
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 404,
+    "source_anatomical_root_x": 1361.8662420382166,
+    "canvas_bbox_xyxy": [
+      85,
+      119,
+      245,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373"
+  },
+  {
+    "clip": "walk",
+    "index": 4,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/walk.png",
+    "source_sha256": "60dae0731936067e1127e114bcece27943dfdd17d9b56a08ab897e09df78ea93",
+    "ownership_component_ids": [
+      5
+    ],
+    "source_bbox_xyxy": [
+      10,
+      684,
+      363,
+      914
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 917,
+    "source_anatomical_root_x": 212.86624203821654,
+    "canvas_bbox_xyxy": [
+      85,
+      119,
+      243,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4"
+  },
+  {
+    "clip": "walk",
+    "index": 5,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/walk.png",
+    "source_sha256": "60dae0731936067e1127e114bcece27943dfdd17d9b56a08ab897e09df78ea93",
+    "ownership_component_ids": [
+      6
+    ],
+    "source_bbox_xyxy": [
+      393,
+      685,
+      747,
+      914
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 917,
+    "source_anatomical_root_x": 594.8662420382166,
+    "canvas_bbox_xyxy": [
+      85,
+      120,
+      244,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42"
+  },
+  {
+    "clip": "walk",
+    "index": 6,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/walk.png",
+    "source_sha256": "60dae0731936067e1127e114bcece27943dfdd17d9b56a08ab897e09df78ea93",
+    "ownership_component_ids": [
+      7
+    ],
+    "source_bbox_xyxy": [
+      777,
+      685,
+      1130,
+      915
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 917,
+    "source_anatomical_root_x": 980.8662420382166,
+    "canvas_bbox_xyxy": [
+      85,
+      120,
+      243,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af"
+  },
+  {
+    "clip": "walk",
+    "index": 7,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/walk.png",
+    "source_sha256": "60dae0731936067e1127e114bcece27943dfdd17d9b56a08ab897e09df78ea93",
+    "ownership_component_ids": [
+      8
+    ],
+    "source_bbox_xyxy": [
+      1160,
+      687,
+      1515,
+      917
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 917,
+    "source_anatomical_root_x": 1367.8662420382166,
+    "canvas_bbox_xyxy": [
+      83,
+      121,
+      242,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83"
+  },
+  {
+    "clip": "attack_light",
+    "index": 0,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/attack_light.png",
+    "source_sha256": "b06013fece91b0f039a284e2459184c7ee1e71626b2a732888b870de17d6c859",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      17,
+      181,
+      380,
+      409
+    ],
+    "shared_action_scale": 0.4325068870523416,
+    "shared_source_row_ground_y": 410,
+    "source_anatomical_root_x": 227.40127388535032,
+    "canvas_bbox_xyxy": [
+      85,
+      128,
+      242,
+      224
+    ],
+    "whole_canonical_pose": true,
+    "body_part_transform": false,
+    "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+  },
+  {
+    "clip": "attack_light",
+    "index": 1,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/attack_light.png",
+    "source_sha256": "b06013fece91b0f039a284e2459184c7ee1e71626b2a732888b870de17d6c859",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      393,
+      194,
+      754,
+      409
+    ],
+    "shared_action_scale": 0.4325068870523416,
+    "shared_source_row_ground_y": 410,
+    "source_anatomical_root_x": 608.4012738853503,
+    "canvas_bbox_xyxy": [
+      83,
+      131,
+      239,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb"
+  },
+  {
+    "clip": "attack_light",
+    "index": 2,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/attack_light.png",
+    "source_sha256": "b06013fece91b0f039a284e2459184c7ee1e71626b2a732888b870de17d6c859",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      766,
+      185,
+      1118,
+      410
+    ],
+    "shared_action_scale": 0.4325068870523416,
+    "shared_source_row_ground_y": 410,
+    "source_anatomical_root_x": 983.4012738853503,
+    "canvas_bbox_xyxy": [
+      82,
+      127,
+      234,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49"
+  },
+  {
+    "clip": "attack_light",
+    "index": 3,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/attack_light.png",
+    "source_sha256": "b06013fece91b0f039a284e2459184c7ee1e71626b2a732888b870de17d6c859",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      1135,
+      177,
+      1518,
+      409
+    ],
+    "shared_action_scale": 0.4325068870523416,
+    "shared_source_row_ground_y": 410,
+    "source_anatomical_root_x": 1362.4012738853503,
+    "canvas_bbox_xyxy": [
+      78,
+      123,
+      243,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac"
+  },
+  {
+    "clip": "attack_light",
+    "index": 4,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/attack_light.png",
+    "source_sha256": "b06013fece91b0f039a284e2459184c7ee1e71626b2a732888b870de17d6c859",
+    "ownership_component_ids": [
+      7
+    ],
+    "source_bbox_xyxy": [
+      17,
+      674,
+      384,
+      897
+    ],
+    "shared_action_scale": 0.4325068870523416,
+    "shared_source_row_ground_y": 897,
+    "source_anatomical_root_x": 224.40127388535032,
+    "canvas_bbox_xyxy": [
+      87,
+      128,
+      245,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e"
+  },
+  {
+    "clip": "attack_light",
+    "index": 5,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/attack_light.png",
+    "source_sha256": "b06013fece91b0f039a284e2459184c7ee1e71626b2a732888b870de17d6c859",
+    "ownership_component_ids": [
+      8
+    ],
+    "source_bbox_xyxy": [
+      393,
+      678,
+      754,
+      897
+    ],
+    "shared_action_scale": 0.4325068870523416,
+    "shared_source_row_ground_y": 897,
+    "source_anatomical_root_x": 608.4012738853503,
+    "canvas_bbox_xyxy": [
+      83,
+      129,
+      239,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408"
+  },
+  {
+    "clip": "attack_light",
+    "index": 6,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/attack_light.png",
+    "source_sha256": "b06013fece91b0f039a284e2459184c7ee1e71626b2a732888b870de17d6c859",
+    "ownership_component_ids": [
+      6
+    ],
+    "source_bbox_xyxy": [
+      767,
+      669,
+      1118,
+      897
+    ],
+    "shared_action_scale": 0.4325068870523416,
+    "shared_source_row_ground_y": 897,
+    "source_anatomical_root_x": 983.4012738853503,
+    "canvas_bbox_xyxy": [
+      83,
+      125,
+      234,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6"
+  },
+  {
+    "clip": "attack_light",
+    "index": 7,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/attack_light.png",
+    "source_sha256": "b06013fece91b0f039a284e2459184c7ee1e71626b2a732888b870de17d6c859",
+    "ownership_component_ids": [
+      5
+    ],
+    "source_bbox_xyxy": [
+      1143,
+      667,
+      1503,
+      897
+    ],
+    "shared_action_scale": 0.4325068870523416,
+    "shared_source_row_ground_y": 897,
+    "source_anatomical_root_x": 1363.4012738853503,
+    "canvas_bbox_xyxy": [
+      81,
+      125,
+      236,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9"
+  },
+  {
+    "clip": "hit",
+    "index": 0,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/hit.png",
+    "source_sha256": "4c485681f4b6425b7abb2bc26f95c4a1db04ad5cf63f8872c61b213b58dae320",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      27,
+      171,
+      473,
+      445
+    ],
+    "shared_action_scale": 0.35201793721973096,
+    "shared_source_row_ground_y": 445,
+    "source_anatomical_root_x": 285.50955414012736,
+    "canvas_bbox_xyxy": [
+      85,
+      128,
+      242,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701"
+  },
+  {
+    "clip": "hit",
+    "index": 1,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/hit.png",
+    "source_sha256": "4c485681f4b6425b7abb2bc26f95c4a1db04ad5cf63f8872c61b213b58dae320",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      544,
+      137,
+      929,
+      445
+    ],
+    "shared_action_scale": 0.35201793721973096,
+    "shared_source_row_ground_y": 445,
+    "source_anatomical_root_x": 792.5095541401274,
+    "canvas_bbox_xyxy": [
+      89,
+      116,
+      224,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f"
+  },
+  {
+    "clip": "hit",
+    "index": 2,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/hit.png",
+    "source_sha256": "4c485681f4b6425b7abb2bc26f95c4a1db04ad5cf63f8872c61b213b58dae320",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      1052,
+      138,
+      1437,
+      445
+    ],
+    "shared_action_scale": 0.35201793721973096,
+    "shared_source_row_ground_y": 445,
+    "source_anatomical_root_x": 1310.5095541401274,
+    "canvas_bbox_xyxy": [
+      85,
+      116,
+      221,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69"
+  },
+  {
+    "clip": "hit",
+    "index": 3,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/hit.png",
+    "source_sha256": "4c485681f4b6425b7abb2bc26f95c4a1db04ad5cf63f8872c61b213b58dae320",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      36,
+      651,
+      437,
+      950
+    ],
+    "shared_action_scale": 0.35201793721973096,
+    "shared_source_row_ground_y": 951,
+    "source_anatomical_root_x": 287.50955414012736,
+    "canvas_bbox_xyxy": [
+      88,
+      118,
+      229,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5"
+  },
+  {
+    "clip": "hit",
+    "index": 4,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/hit.png",
+    "source_sha256": "4c485681f4b6425b7abb2bc26f95c4a1db04ad5cf63f8872c61b213b58dae320",
+    "ownership_component_ids": [
+      5
+    ],
+    "source_bbox_xyxy": [
+      538,
+      663,
+      960,
+      951
+    ],
+    "shared_action_scale": 0.35201793721973096,
+    "shared_source_row_ground_y": 951,
+    "source_anatomical_root_x": 784.5095541401274,
+    "canvas_bbox_xyxy": [
+      89,
+      123,
+      238,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3"
+  },
+  {
+    "clip": "hit",
+    "index": 5,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/hit.png",
+    "source_sha256": "4c485681f4b6425b7abb2bc26f95c4a1db04ad5cf63f8872c61b213b58dae320",
+    "ownership_component_ids": [
+      6
+    ],
+    "source_bbox_xyxy": [
+      1047,
+      667,
+      1480,
+      951
+    ],
+    "shared_action_scale": 0.35201793721973096,
+    "shared_source_row_ground_y": 951,
+    "source_anatomical_root_x": 1300.5095541401274,
+    "canvas_bbox_xyxy": [
+      87,
+      124,
+      239,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08"
+  },
+  {
+    "clip": "ko",
+    "index": 0,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/ko.png",
+    "source_sha256": "18b306b6165adbfe18ac253637567eda842b7a4ad25c3d30534196584d55cefb",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      17,
+      167,
+      367,
+      415
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 418,
+    "source_anatomical_root_x": 219.86624203821654,
+    "canvas_bbox_xyxy": [
+      85,
+      111,
+      242,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491"
+  },
+  {
+    "clip": "ko",
+    "index": 1,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/ko.png",
+    "source_sha256": "18b306b6165adbfe18ac253637567eda842b7a4ad25c3d30534196584d55cefb",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      401,
+      188,
+      745,
+      413
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 418,
+    "source_anatomical_root_x": 609.8662420382166,
+    "canvas_bbox_xyxy": [
+      82,
+      121,
+      237,
+      222
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299"
+  },
+  {
+    "clip": "ko",
+    "index": 2,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/ko.png",
+    "source_sha256": "18b306b6165adbfe18ac253637567eda842b7a4ad25c3d30534196584d55cefb",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      779,
+      219,
+      1124,
+      416
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 418,
+    "source_anatomical_root_x": 1005.8662420382166,
+    "canvas_bbox_xyxy": [
+      75,
+      135,
+      229,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07"
+  },
+  {
+    "clip": "ko",
+    "index": 3,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/ko.png",
+    "source_sha256": "18b306b6165adbfe18ac253637567eda842b7a4ad25c3d30534196584d55cefb",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      1157,
+      254,
+      1509,
+      418
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 418,
+    "source_anatomical_root_x": 1403.8662420382166,
+    "canvas_bbox_xyxy": [
+      66,
+      150,
+      223,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284"
+  },
+  {
+    "clip": "ko",
+    "index": 4,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/ko.png",
+    "source_sha256": "18b306b6165adbfe18ac253637567eda842b7a4ad25c3d30534196584d55cefb",
+    "ownership_component_ids": [
+      5
+    ],
+    "source_bbox_xyxy": [
+      8,
+      729,
+      369,
+      886
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 886,
+    "source_anatomical_root_x": 264.86624203821657,
+    "canvas_bbox_xyxy": [
+      61,
+      154,
+      223,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4"
+  },
+  {
+    "clip": "ko",
+    "index": 5,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/ko.png",
+    "source_sha256": "18b306b6165adbfe18ac253637567eda842b7a4ad25c3d30534196584d55cefb",
+    "ownership_component_ids": [
+      6,
+      9
+    ],
+    "source_bbox_xyxy": [
+      389,
+      753,
+      752,
+      881
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 886,
+    "source_anatomical_root_x": 652.8662420382166,
+    "canvas_bbox_xyxy": [
+      59,
+      164,
+      220,
+      222
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d"
+  },
+  {
+    "clip": "ko",
+    "index": 6,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/ko.png",
+    "source_sha256": "18b306b6165adbfe18ac253637567eda842b7a4ad25c3d30534196584d55cefb",
+    "ownership_component_ids": [
+      7
+    ],
+    "source_bbox_xyxy": [
+      772,
+      767,
+      1137,
+      880
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 886,
+    "source_anatomical_root_x": 1041.8662420382166,
+    "canvas_bbox_xyxy": [
+      55,
+      171,
+      219,
+      221
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145"
+  },
+  {
+    "clip": "ko",
+    "index": 7,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/ko.png",
+    "source_sha256": "18b306b6165adbfe18ac253637567eda842b7a4ad25c3d30534196584d55cefb",
+    "ownership_component_ids": [
+      8
+    ],
+    "source_bbox_xyxy": [
+      1157,
+      779,
+      1524,
+      879
+    ],
+    "shared_action_scale": 0.44857142857142857,
+    "shared_source_row_ground_y": 886,
+    "source_anatomical_root_x": 1427.8662420382166,
+    "canvas_bbox_xyxy": [
+      54,
+      176,
+      219,
+      221
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175"
+  },
+  {
+    "clip": "turn",
+    "index": 0,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/turn.png",
+    "source_sha256": "df39dc1d79cd237712a5d40c6823b398e66e34cb2ce67d58edec2f977f8ffd25",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      9,
+      391,
+      427,
+      671
+    ],
+    "shared_action_scale": 0.37559808612440193,
+    "shared_source_row_ground_y": 673,
+    "source_anatomical_root_x": 251.28025477707007,
+    "canvas_bbox_xyxy": [
+      85,
+      128,
+      242,
+      224
+    ],
+    "whole_canonical_pose": true,
+    "body_part_transform": false,
+    "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+  },
+  {
+    "clip": "turn",
+    "index": 1,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/turn.png",
+    "source_sha256": "df39dc1d79cd237712a5d40c6823b398e66e34cb2ce67d58edec2f977f8ffd25",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      440,
+      374,
+      736,
+      673
+    ],
+    "shared_action_scale": 0.37559808612440193,
+    "shared_source_row_ground_y": 673,
+    "source_anatomical_root_x": 588.0,
+    "canvas_bbox_xyxy": [
+      120,
+      112,
+      232,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8"
+  },
+  {
+    "clip": "turn",
+    "index": 2,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/turn.png",
+    "source_sha256": "df39dc1d79cd237712a5d40c6823b398e66e34cb2ce67d58edec2f977f8ffd25",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      802,
+      376,
+      1050,
+      673
+    ],
+    "shared_action_scale": 0.37559808612440193,
+    "shared_source_row_ground_y": 673,
+    "source_anatomical_root_x": 926.0,
+    "canvas_bbox_xyxy": [
+      130,
+      113,
+      223,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c"
+  },
+  {
+    "clip": "turn",
+    "index": 3,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/turn.png",
+    "source_sha256": "df39dc1d79cd237712a5d40c6823b398e66e34cb2ce67d58edec2f977f8ffd25",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      1086,
+      391,
+      1526,
+      672
+    ],
+    "shared_action_scale": 0.37559808612440193,
+    "shared_source_row_ground_y": 673,
+    "source_anatomical_root_x": 1270.968152866242,
+    "canvas_bbox_xyxy": [
+      107,
+      118,
+      272,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3"
+  },
+  {
+    "clip": "power_up",
+    "index": 0,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      10,
+      78,
+      253,
+      231
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 231,
+    "source_anatomical_root_x": 150.84713375796179,
+    "canvas_bbox_xyxy": [
+      85,
+      128,
+      242,
+      224
+    ],
+    "whole_canonical_pose": true,
+    "body_part_transform": false,
+    "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+  },
+  {
+    "clip": "power_up",
+    "index": 1,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      263,
+      82,
+      509,
+      230
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 231,
+    "source_anatomical_root_x": 407.8471337579618,
+    "canvas_bbox_xyxy": [
+      82,
+      128,
+      241,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e"
+  },
+  {
+    "clip": "power_up",
+    "index": 2,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      515,
+      71,
+      772,
+      230
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 231,
+    "source_anatomical_root_x": 661.8471337579617,
+    "canvas_bbox_xyxy": [
+      81,
+      121,
+      247,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "7fc5eff9640fc82dfedb30a5ba6dcb1a5b0addace1c01a84144eeaff8b9ed703"
+  },
+  {
+    "clip": "power_up",
+    "index": 3,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      5,
+      8
+    ],
+    "source_bbox_xyxy": [
+      769,
+      82,
+      1023,
+      230
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 231,
+    "source_anatomical_root_x": 915.8471337579617,
+    "canvas_bbox_xyxy": [
+      81,
+      128,
+      242,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "49be4a1640a08e28caedd026e17345e8c182bc21215a6ee3c2aae8c2f8acc30d"
+  },
+  {
+    "clip": "power_up",
+    "index": 4,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      1,
+      7,
+      9
+    ],
+    "source_bbox_xyxy": [
+      1023,
+      70,
+      1281,
+      230
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 231,
+    "source_anatomical_root_x": 1171.8471337579617,
+    "canvas_bbox_xyxy": [
+      80,
+      120,
+      247,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "161256808343c0c0a45729422b107b8ea2bc49a7b73c97b39ffdc95575c85d9b"
+  },
+  {
+    "clip": "power_up",
+    "index": 5,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      6
+    ],
+    "source_bbox_xyxy": [
+      1277,
+      86,
+      1528,
+      230
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 231,
+    "source_anatomical_root_x": 1425.8471337579617,
+    "canvas_bbox_xyxy": [
+      80,
+      130,
+      242,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "030e9f305a99fff2a73a1eeb30df97f74eb9461f789b81edf0e426a80f31466f"
+  },
+  {
+    "clip": "power_up",
+    "index": 6,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      12
+    ],
+    "source_bbox_xyxy": [
+      5,
+      317,
+      265,
+      481
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 481,
+    "source_anatomical_root_x": 151.84713375796179,
+    "canvas_bbox_xyxy": [
+      81,
+      119,
+      249,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "789b45fefc26427a05988146af740341ae6a61d7cc71e022017290fb9cb47ca0"
+  },
+  {
+    "clip": "power_up",
+    "index": 7,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      13
+    ],
+    "source_bbox_xyxy": [
+      258,
+      333,
+      515,
+      481
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 481,
+    "source_anatomical_root_x": 406.8471337579618,
+    "canvas_bbox_xyxy": [
+      80,
+      128,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "ff90dccc9ad2bf4e1551854c9e990e1dbff1c082dcf384cc17bb678688c49bc0"
+  },
+  {
+    "clip": "power_up",
+    "index": 8,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      11,
+      16
+    ],
+    "source_bbox_xyxy": [
+      513,
+      316,
+      772,
+      481
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 481,
+    "source_anatomical_root_x": 660.8471337579617,
+    "canvas_bbox_xyxy": [
+      81,
+      118,
+      248,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "ba2b55e3edf877c2196f0ab3f7931c4c4d4f721e977a5fe4cbd16adc0ca94d20"
+  },
+  {
+    "clip": "power_up",
+    "index": 9,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      14,
+      17
+    ],
+    "source_bbox_xyxy": [
+      767,
+      333,
+      1024,
+      481
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 481,
+    "source_anatomical_root_x": 916.8471337579617,
+    "canvas_bbox_xyxy": [
+      79,
+      128,
+      245,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "12d8bcb4a42e06586e576557bceae72db30bc48aa71bbb78349a0f0948f74d27"
+  },
+  {
+    "clip": "power_up",
+    "index": 10,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      10
+    ],
+    "source_bbox_xyxy": [
+      1022,
+      314,
+      1284,
+      481
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 481,
+    "source_anatomical_root_x": 1171.8471337579617,
+    "canvas_bbox_xyxy": [
+      79,
+      116,
+      248,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "432f879963fd2dfbd50d23b901a8666316cd4b221cb5a5299a94959220077344"
+  },
+  {
+    "clip": "power_up",
+    "index": 11,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      15
+    ],
+    "source_bbox_xyxy": [
+      1275,
+      333,
+      1533,
+      481
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 481,
+    "source_anatomical_root_x": 1427.8471337579617,
+    "canvas_bbox_xyxy": [
+      77,
+      128,
+      244,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "5efa4ed40a7769897b05c23da16087b36a961b82410d8b028c08d05870eb70db"
+  },
+  {
+    "clip": "power_up",
+    "index": 12,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      19
+    ],
+    "source_bbox_xyxy": [
+      3,
+      570,
+      267,
+      736
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 737,
+    "source_anatomical_root_x": 150.84713375796179,
+    "canvas_bbox_xyxy": [
+      80,
+      116,
+      251,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "06f6707ad9bb2e4151c7af9079f30cd169df54d6888b091b9eacc601b18dbdf5"
+  },
+  {
+    "clip": "power_up",
+    "index": 13,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      22
+    ],
+    "source_bbox_xyxy": [
+      257,
+      588,
+      516,
+      737
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 737,
+    "source_anatomical_root_x": 405.8471337579618,
+    "canvas_bbox_xyxy": [
+      80,
+      128,
+      247,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "d6120981de93b1b516ac521da49b7faf5571af5f4730014e66d7e6b89c9f4fd4"
+  },
+  {
+    "clip": "power_up",
+    "index": 14,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      20,
+      21
+    ],
+    "source_bbox_xyxy": [
+      512,
+      570,
+      776,
+      736
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 737,
+    "source_anatomical_root_x": 660.8471337579617,
+    "canvas_bbox_xyxy": [
+      80,
+      116,
+      250,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "f07aaaeeb7e8f3c68c9c7ac6facfa0bc37675760f9e1e8d295b27c9a5e829c7e"
+  },
+  {
+    "clip": "power_up",
+    "index": 15,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      23,
+      25
+    ],
+    "source_bbox_xyxy": [
+      767,
+      589,
+      1024,
+      736
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 737,
+    "source_anatomical_root_x": 915.8471337579617,
+    "canvas_bbox_xyxy": [
+      80,
+      128,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "5123eef555f438be47d188bc58473b186febc0b250532cfea2373ee3cfbcad62"
+  },
+  {
+    "clip": "power_up",
+    "index": 16,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      18
+    ],
+    "source_bbox_xyxy": [
+      1021,
+      569,
+      1285,
+      736
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 737,
+    "source_anatomical_root_x": 1169.8471337579617,
+    "canvas_bbox_xyxy": [
+      80,
+      115,
+      250,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "457984669051be3a05b89f227937ebd70f32a0a194e6ca022b8c6fa6f736402a"
+  },
+  {
+    "clip": "power_up",
+    "index": 17,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      24
+    ],
+    "source_bbox_xyxy": [
+      1276,
+      589,
+      1533,
+      736
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 737,
+    "source_anatomical_root_x": 1426.8471337579617,
+    "canvas_bbox_xyxy": [
+      79,
+      128,
+      245,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "2cd8bef85c9b963c0772a45a38537538d10e86845eb37be88dff8656ff56ece6"
+  },
+  {
+    "clip": "power_up",
+    "index": 18,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      31,
+      32
+    ],
+    "source_bbox_xyxy": [
+      5,
+      839,
+      260,
+      992
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 993,
+    "source_anatomical_root_x": 150.84713375796179,
+    "canvas_bbox_xyxy": [
+      83,
+      125,
+      247,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b"
+  },
+  {
+    "clip": "power_up",
+    "index": 19,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      29
+    ],
+    "source_bbox_xyxy": [
+      260,
+      838,
+      510,
+      992
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 993,
+    "source_anatomical_root_x": 404.8471337579618,
+    "canvas_bbox_xyxy": [
+      82,
+      124,
+      244,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49"
+  },
+  {
+    "clip": "power_up",
+    "index": 20,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      26
+    ],
+    "source_bbox_xyxy": [
+      516,
+      834,
+      762,
+      992
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 993,
+    "source_anatomical_root_x": 659.8471337579617,
+    "canvas_bbox_xyxy": [
+      84,
+      122,
+      242,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595"
+  },
+  {
+    "clip": "power_up",
+    "index": 21,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      27
+    ],
+    "source_bbox_xyxy": [
+      770,
+      837,
+      1015,
+      992
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 993,
+    "source_anatomical_root_x": 914.8471337579617,
+    "canvas_bbox_xyxy": [
+      82,
+      123,
+      241,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d"
+  },
+  {
+    "clip": "power_up",
+    "index": 22,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      30
+    ],
+    "source_bbox_xyxy": [
+      1025,
+      838,
+      1268,
+      992
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 993,
+    "source_anatomical_root_x": 1169.8471337579617,
+    "canvas_bbox_xyxy": [
+      82,
+      124,
+      239,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736"
+  },
+  {
+    "clip": "power_up",
+    "index": 23,
+    "source_sheet": "work/characters/dilophosaurus/atlas-v1/generated/power_up.png",
+    "source_sha256": "f757ed2bdbf89dbec8ed845f9f06d395a3f402e7cc6b9f4b04b53b3752066ac0",
+    "ownership_component_ids": [
+      28
+    ],
+    "source_bbox_xyxy": [
+      1280,
+      837,
+      1524,
+      993
+    ],
+    "shared_action_scale": 0.6460905349794238,
+    "shared_source_row_ground_y": 993,
+    "source_anatomical_root_x": 1424.8471337579617,
+    "canvas_bbox_xyxy": [
+      85,
+      128,
+      242,
+      224
+    ],
+    "whole_canonical_pose": true,
+    "body_part_transform": false,
+    "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+  }
+]

@@ -1,0 +1,158 @@
+[loop.sh] Đang kiểm tra Hiến pháp AGENTS.md, đồng bộ Engine ⇄ Localhost 1:1 và bộ nhớ dự án...
+[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.
+[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.
+[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.
+[WARN] Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.
+[WARN] Nhân vật 'sarcosuchus' hiện có 7 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.
+[WARN] Nhân vật 'dilophosaurus' hiện có 7 hoạt ảnh (idle, walk, attack_light, hit, ko, turn, power_up); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_heavy, aura_loop, win.
+[OK] Kiểm tra kỹ thuật / Hiến pháp / Engine ⇄ Localhost (6 gói SHA-256), VERSION v0.9.1. Nghiệm thu Owner theo motion_quality riêng.
+[loop.sh] Đang chạy Python Unit Tests...
+test_60hz_browser_timeline_keeps_fractional_milliseconds (test_character_asset_contracts.CharacterAssetContracts.test_60hz_browser_timeline_keeps_fractional_milliseconds) ... ok
+test_binary_receipts_and_individual_frames (test_character_asset_contracts.CharacterAssetContracts.test_binary_receipts_and_individual_frames) ... ok
+test_independent_fx_contract (test_character_asset_contracts.CharacterAssetContracts.test_independent_fx_contract) ... ok
+test_one_page_and_owner_exclusions (test_character_asset_contracts.CharacterAssetContracts.test_one_page_and_owner_exclusions) ... ok
+test_idle_cadence_and_frozen_turn_other_actions_and_fx (test_dilophosaurus_contract.DilophosaurusContract.test_idle_cadence_and_frozen_turn_other_actions_and_fx) ... ok
+test_one_second_pulses_three_hits_same_target_no_emission (test_dilophosaurus_contract.DilophosaurusContract.test_one_second_pulses_three_hits_same_target_no_emission) ... ok
+test_owner_approved_revision_is_frozen (test_dilophosaurus_contract.DilophosaurusContract.test_owner_approved_revision_is_frozen) ... ok
+test_owner_scope_and_master_identity (test_dilophosaurus_contract.DilophosaurusContract.test_owner_scope_and_master_identity) ... ok
+test_source_fx_and_forward_walk_ground_contacts (test_dilophosaurus_contract.DilophosaurusContract.test_source_fx_and_forward_walk_ground_contacts) ... ok
+test_engine_localhost_zero_drift_parity_and_dynamic_roster (test_governance_and_preview.GovernanceAndPreviewTests.test_engine_localhost_zero_drift_parity_and_dynamic_roster) ... ok
+test_frontend_js_wasm_exports_3tabs_and_n_character_roster (test_governance_and_preview.GovernanceAndPreviewTests.test_frontend_js_wasm_exports_3tabs_and_n_character_roster) ... ok
+test_hybrid_engine_benchmark_report_and_wasm_artifact (test_governance_and_preview.GovernanceAndPreviewTests.test_hybrid_engine_benchmark_report_and_wasm_artifact) ... ok
+test_loop_sh_check_and_agy_hook (test_governance_and_preview.GovernanceAndPreviewTests.test_loop_sh_check_and_agy_hook) ... ok
+test_old_test_characters_completely_purged (test_governance_and_preview.GovernanceAndPreviewTests.test_old_test_characters_completely_purged) ... ok
+test_preview_server_zip (test_governance_and_preview.GovernanceAndPreviewTests.test_preview_server_zip) ... ok
+test_single_agents_md_and_dual_cli_compatibility (test_governance_and_preview.GovernanceAndPreviewTests.test_single_agents_md_and_dual_cli_compatibility) ... ok
+test_skills_md_remains_empty_until_owner_approval_and_lerning_md_populated (test_governance_and_preview.GovernanceAndPreviewTests.test_skills_md_remains_empty_until_owner_approval_and_lerning_md_populated) ... ok
+test_version_sync_across_all_manifests (test_governance_and_preview.GovernanceAndPreviewTests.test_version_sync_across_all_manifests) ... ok
+test_both_godot_fx_prefabs_follow_the_shared_contract (test_pteranodon_size_contract.PteranodonSizeContract.test_both_godot_fx_prefabs_follow_the_shared_contract) ... ok
+test_runtime_matches_owner_approved_size_sample (test_pteranodon_size_contract.PteranodonSizeContract.test_runtime_matches_owner_approved_size_sample) ... ok
+test_size_change_preserves_all_authored_action_timing (test_pteranodon_size_contract.PteranodonSizeContract.test_size_change_preserves_all_authored_action_timing) ... ok
+test_charge_fits_jaw_and_launch_keeps_its_size (test_sarcosuchus_contract.SarcosuchusContract.test_charge_fits_jaw_and_launch_keeps_its_size) ... ok
+test_exact_owner_action_scope_and_size (test_sarcosuchus_contract.SarcosuchusContract.test_exact_owner_action_scope_and_size) ... ok
+test_source_six_in_order_once_and_mouth_release (test_sarcosuchus_contract.SarcosuchusContract.test_source_six_in_order_once_and_mouth_release) ... ok
+test_walk_is_forward_unique_cycle_and_body_alpha_is_hard (test_sarcosuchus_contract.SarcosuchusContract.test_walk_is_forward_unique_cycle_and_body_alpha_is_hard) ... ok
+test_identity_failure_blocks_technically_valid_motion (test_spinosaurus_contract.MotionQualityGate.test_identity_failure_blocks_technically_valid_motion) ... ok
+test_review_binds_to_actual_atlas_and_visual_checks (test_spinosaurus_contract.MotionQualityGate.test_review_binds_to_actual_atlas_and_visual_checks) ... ok
+test_self_review_is_not_owner_approval (test_spinosaurus_contract.MotionQualityGate.test_self_review_is_not_owner_approval) ... ok
+test_technical_success_cannot_override_structural_failure (test_spinosaurus_contract.MotionQualityGate.test_technical_success_cannot_override_structural_failure) ... ok
+test_each_body_frame_has_generated_whole_cell_provenance (test_spinosaurus_contract.SpinosaurusContract.test_each_body_frame_has_generated_whole_cell_provenance) ... ok
+test_fireball_source_unchanged (test_spinosaurus_contract.SpinosaurusContract.test_fireball_source_unchanged) ... ok
+test_gait_scope_preserves_other_clips_and_walk_middle (test_spinosaurus_contract.SpinosaurusContract.test_gait_scope_preserves_other_clips_and_walk_middle) ... ok
+test_heavy_body_preserved_and_contact_effect_starts_at_five (test_spinosaurus_contract.SpinosaurusContract.test_heavy_body_preserved_and_contact_effect_starts_at_five) ... ok
+test_owner_approval_is_bound_to_final_no_run_atlas (test_spinosaurus_contract.SpinosaurusContract.test_owner_approval_is_bound_to_final_no_run_atlas) ... ok
+test_pixel_frames_and_bite_vfx (test_spinosaurus_contract.SpinosaurusContract.test_pixel_frames_and_bite_vfx) ... ok
+test_real_turn_poses_and_accelerated_tail_timing (test_spinosaurus_contract.SpinosaurusContract.test_real_turn_poses_and_accelerated_tail_timing) ... ok
+test_scope_scale_and_master_identity (test_spinosaurus_contract.SpinosaurusContract.test_scope_scale_and_master_identity) ... ok
+test_walk_only_and_run_fully_removed (test_spinosaurus_contract.SpinosaurusContract.test_walk_only_and_run_fully_removed) ... ok
+test_exact_owner_action_scope_and_size (test_tasmanian_contract.TasmanianContract.test_exact_owner_action_scope_and_size) ... ok
+test_source_six_plus_two_bridges_and_release_from_peak (test_tasmanian_contract.TasmanianContract.test_source_six_plus_two_bridges_and_release_from_peak) ... ok
+test_walk_is_forward_unique_cycle_and_body_alpha_is_hard (test_tasmanian_contract.TasmanianContract.test_walk_is_forward_unique_cycle_and_body_alpha_is_hard) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 2.718s
+
+OK
+[loop.sh] Đang chạy Godot 4.7.2 Headless Engine Verification...
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[OK] spinosaurus -> idle frames=12 loop=true speed=60.0
+[OK] spinosaurus -> walk frames=8 loop=true speed=60.0
+[OK] spinosaurus -> attack_light frames=8 loop=false speed=60.0
+[OK] spinosaurus -> attack_heavy frames=12 loop=false speed=60.0
+[OK] spinosaurus -> power_up frames=9 loop=false speed=60.0
+[OK] spinosaurus -> hit frames=6 loop=false speed=60.0
+[OK] spinosaurus -> ko frames=8 loop=false speed=60.0
+[OK] spinosaurus -> turn frames=4 loop=false speed=60.0
+[OK] spinosaurus -> fireball_fx frames=4 loop=false speed=60.0
+[OK] spinosaurus AnimatedSprite2D centered=false offset=(-176.0, -224.0) filter=1
+[OK] Combined 1-Layer Prefab verified: res://scenes/Spinosaurus.tscn (9 clips)
+[OK] Perspective facing transition commits after turn, both directions
+[OK] t_rex -> idle frames=8 loop=true speed=60.0
+[OK] t_rex -> walk frames=10 loop=true speed=60.0
+[OK] t_rex -> run frames=8 loop=true speed=60.0
+[OK] t_rex -> attack_light frames=8 loop=false speed=60.0
+[OK] t_rex -> attack_heavy frames=12 loop=false speed=60.0
+[OK] t_rex -> power_up frames=9 loop=false speed=60.0
+[OK] t_rex -> hit frames=6 loop=false speed=60.0
+[OK] t_rex -> ko frames=8 loop=false speed=60.0
+[OK] t_rex -> fireball_fx frames=4 loop=false speed=60.0
+[OK] t_rex AnimatedSprite2D centered=false offset=(-176.0, -224.0) filter=1
+[OK] Combined 1-Layer Prefab verified: res://scenes/TRex.tscn (9 clips)
+[OK] pteranodon -> idle frames=8 loop=true speed=60.0
+[OK] pteranodon -> walk frames=8 loop=true speed=60.0
+[OK] pteranodon -> run frames=8 loop=true speed=60.0
+[OK] pteranodon -> attack_light frames=8 loop=false speed=60.0
+[OK] pteranodon -> power_up frames=8 loop=false speed=60.0
+[OK] pteranodon -> hit frames=6 loop=false speed=60.0
+[OK] pteranodon -> ko frames=8 loop=false speed=60.0
+[OK] pteranodon -> sonic_screech_fx frames=7 loop=false speed=60.0
+[OK] pteranodon AnimatedSprite2D centered=false offset=(-176.0, -200.0) filter=1
+[OK] Combined 1-Layer Prefab verified: res://scenes/Pteranodon.tscn (8 clips)
+[OK] tasmanian_king_crab -> idle frames=8 loop=true speed=60.0
+[OK] tasmanian_king_crab -> walk frames=8 loop=true speed=60.0
+[OK] tasmanian_king_crab -> attack_nomal frames=8 loop=false speed=60.0
+[OK] tasmanian_king_crab -> power_up frames=8 loop=false speed=60.0
+[OK] tasmanian_king_crab -> hit frames=6 loop=false speed=60.0
+[OK] tasmanian_king_crab -> ko frames=8 loop=false speed=60.0
+[OK] tasmanian_king_crab -> power_orb_loop frames=8 loop=true speed=60.0
+[OK] tasmanian_king_crab -> power_orb_projectile frames=4 loop=false speed=60.0
+[OK] tasmanian_king_crab AnimatedSprite2D centered=false offset=(-176.0, -224.0) filter=1
+[OK] Combined 1-Layer Prefab verified: res://scenes/TasmanianKingCrab.tscn (8 clips)
+[OK] sarcosuchus -> idle frames=12 loop=true speed=60.0
+[OK] sarcosuchus -> walk frames=8 loop=true speed=60.0
+[OK] sarcosuchus -> attack_nomal frames=8 loop=false speed=60.0
+[OK] sarcosuchus -> power_up frames=9 loop=false speed=60.0
+[OK] sarcosuchus -> hit frames=6 loop=false speed=60.0
+[OK] sarcosuchus -> ko frames=8 loop=false speed=60.0
+[OK] sarcosuchus -> turn frames=4 loop=false speed=60.0
+[OK] sarcosuchus -> energy_blast_fx frames=6 loop=false speed=60.0
+[OK] sarcosuchus -> energy_charge_fx frames=10 loop=false speed=60.0
+[OK] sarcosuchus AnimatedSprite2D centered=false offset=(-176.0, -224.0) filter=1
+[OK] Combined 1-Layer Prefab verified: res://scenes/Sarcosuchus.tscn (9 clips)
+[OK] Perspective facing transition commits after turn, both directions
+[OK] dilophosaurus -> walk frames=8 loop=true speed=60.0
+[OK] dilophosaurus -> attack_light frames=8 loop=false speed=60.0
+[OK] dilophosaurus -> hit frames=6 loop=false speed=60.0
+[OK] dilophosaurus -> ko frames=8 loop=false speed=60.0
+[OK] dilophosaurus -> turn frames=4 loop=false speed=60.0
+[OK] dilophosaurus -> air_slash_a_fx frames=6 loop=false speed=60.0
+[OK] dilophosaurus -> air_slash_b_fx frames=6 loop=false speed=60.0
+[OK] dilophosaurus -> air_slash_c_fx frames=6 loop=false speed=60.0
+[OK] dilophosaurus -> idle frames=12 loop=true speed=60.0
+[OK] dilophosaurus -> power_up frames=38 loop=false speed=60.0
+[OK] dilophosaurus AnimatedSprite2D centered=false offset=(-176.0, -224.0) filter=1
+[OK] Combined 1-Layer Prefab verified: res://scenes/Dilophosaurus.tscn (10 clips)
+[OK] Perspective facing transition commits after turn, both directions
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[OK] Tasmanian charge0..5 -> launch bodyframe2/tick24 -> peak/new6/new7/source0 -> hidden tick40;60ticks verified
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[OK] Sarcosuchus charge0..9 (1→10px) -> same-size launch bodyframe2/tick10 -> six source FX left-to-right once -> hidden tick28;46ticks verified
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[OK] Dilophosaurus88ticks,3slashes x6ticks at12/31/50,same target; canvas/global target override including facing verified; visible_ticks=18
+[loop.sh] Đang chạy Rust 1.99.1 Real-Time >2,000 Combat Engine Unit Tests...
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running unittests src/lib.rs (engines/rust_combat_sim/target/debug/deps/rust_combat_sim-7d475aae14e2e86c)
+
+running 2 tests
+test tests::test_oneshot_and_loop_clip_stepper ... ok
+test tests::test_2000_fighters_realtime_budget_and_spatial_grid ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+
+     Running unittests src/main.rs (engines/rust_combat_sim/target/debug/deps/rust_bench-dae2624f584c4a96)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests rust_combat_sim
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[OK] Kiểm thử kỹ thuật './loop.sh test' (Governance + Python + Godot 4 + Rust) exit 0. Nghiệm thu chuyển động theo motion_quality và Owner Human Test riêng.

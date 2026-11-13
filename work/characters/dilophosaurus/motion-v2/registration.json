@@ -1,0 +1,422 @@
+[
+  {
+    "clip": "idle",
+    "phase": 0,
+    "source_bbox_xyxy": [
+      24,
+      108,
+      337,
+      299
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 205.42038216560508,
+    "ground": 299,
+    "bbox_xyxy": [
+      85,
+      128,
+      242,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "idle",
+    "phase": 1,
+    "source_bbox_xyxy": [
+      408,
+      109,
+      721,
+      298
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 588.9203821656051,
+    "ground": 299,
+    "bbox_xyxy": [
+      85,
+      129,
+      242,
+      223
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "idle",
+    "phase": 2,
+    "source_bbox_xyxy": [
+      792,
+      109,
+      1105,
+      299
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 972.9203821656051,
+    "ground": 299,
+    "bbox_xyxy": [
+      85,
+      129,
+      242,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "idle",
+    "phase": 3,
+    "source_bbox_xyxy": [
+      1176,
+      108,
+      1489,
+      299
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 1356.9203821656051,
+    "ground": 299,
+    "bbox_xyxy": [
+      85,
+      129,
+      242,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "idle",
+    "phase": 4,
+    "source_bbox_xyxy": [
+      24,
+      450,
+      337,
+      639
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 205.92038216560508,
+    "ground": 639,
+    "bbox_xyxy": [
+      85,
+      129,
+      242,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "idle",
+    "phase": 5,
+    "source_bbox_xyxy": [
+      408,
+      450,
+      721,
+      639
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 589.9203821656051,
+    "ground": 639,
+    "bbox_xyxy": [
+      85,
+      129,
+      242,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "idle",
+    "phase": 6,
+    "source_bbox_xyxy": [
+      792,
+      451,
+      1105,
+      639
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 973.9203821656051,
+    "ground": 639,
+    "bbox_xyxy": [
+      85,
+      129,
+      242,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "idle",
+    "phase": 7,
+    "source_bbox_xyxy": [
+      1176,
+      450,
+      1489,
+      639
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 1358.9203821656051,
+    "ground": 639,
+    "bbox_xyxy": [
+      84,
+      129,
+      241,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "idle",
+    "phase": 8,
+    "source_bbox_xyxy": [
+      24,
+      790,
+      336,
+      981
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 205.92038216560508,
+    "ground": 981,
+    "bbox_xyxy": [
+      85,
+      129,
+      241,
+      223
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "idle",
+    "phase": 9,
+    "source_bbox_xyxy": [
+      408,
+      791,
+      720,
+      981
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 590.9203821656051,
+    "ground": 981,
+    "bbox_xyxy": [
+      84,
+      129,
+      241,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "idle",
+    "phase": 10,
+    "source_bbox_xyxy": [
+      792,
+      791,
+      1104,
+      981
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 973.9203821656051,
+    "ground": 981,
+    "bbox_xyxy": [
+      85,
+      129,
+      241,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "idle",
+    "phase": 11,
+    "source_bbox_xyxy": [
+      1176,
+      791,
+      1488,
+      981
+    ],
+    "scale": 0.5026178010471204,
+    "source_root_x": 1357.9203821656051,
+    "ground": 981,
+    "bbox_xyxy": [
+      85,
+      129,
+      241,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "b55910af539cbcb2c88b36d88e2b7fbf92740b37d44a82de9d188b52ae6133a8"
+  },
+  {
+    "clip": "power_wave",
+    "phase": 0,
+    "source_bbox_xyxy": [
+      25,
+      198,
+      356,
+      401
+    ],
+    "scale": 0.5015105740181269,
+    "source_root_x": 216.85350318471336,
+    "ground": 402,
+    "bbox_xyxy": [
+      80,
+      122,
+      246,
+      223
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "f5af8191f227eed9488bc7855690c29c4d54f2626902b7416d4b8992b9c87642"
+  },
+  {
+    "clip": "power_wave",
+    "phase": 1,
+    "source_bbox_xyxy": [
+      409,
+      198,
+      740,
+      401
+    ],
+    "scale": 0.5015105740181269,
+    "source_root_x": 600.8535031847134,
+    "ground": 402,
+    "bbox_xyxy": [
+      80,
+      122,
+      246,
+      223
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "f5af8191f227eed9488bc7855690c29c4d54f2626902b7416d4b8992b9c87642"
+  },
+  {
+    "clip": "power_wave",
+    "phase": 2,
+    "source_bbox_xyxy": [
+      793,
+      198,
+      1124,
+      401
+    ],
+    "scale": 0.5015105740181269,
+    "source_root_x": 984.8535031847134,
+    "ground": 402,
+    "bbox_xyxy": [
+      80,
+      122,
+      246,
+      223
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "f5af8191f227eed9488bc7855690c29c4d54f2626902b7416d4b8992b9c87642"
+  },
+  {
+    "clip": "power_wave",
+    "phase": 3,
+    "source_bbox_xyxy": [
+      1176,
+      198,
+      1508,
+      402
+    ],
+    "scale": 0.5015105740181269,
+    "source_root_x": 1368.8535031847134,
+    "ground": 402,
+    "bbox_xyxy": [
+      79,
+      122,
+      246,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "f5af8191f227eed9488bc7855690c29c4d54f2626902b7416d4b8992b9c87642"
+  },
+  {
+    "clip": "power_wave",
+    "phase": 4,
+    "source_bbox_xyxy": [
+      25,
+      713,
+      355,
+      914
+    ],
+    "scale": 0.5015105740181269,
+    "source_root_x": 216.85350318471336,
+    "ground": 914,
+    "bbox_xyxy": [
+      80,
+      123,
+      245,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "f5af8191f227eed9488bc7855690c29c4d54f2626902b7416d4b8992b9c87642"
+  },
+  {
+    "clip": "power_wave",
+    "phase": 5,
+    "source_bbox_xyxy": [
+      408,
+      711,
+      740,
+      913
+    ],
+    "scale": 0.5015105740181269,
+    "source_root_x": 600.8535031847134,
+    "ground": 914,
+    "bbox_xyxy": [
+      80,
+      122,
+      246,
+      223
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "f5af8191f227eed9488bc7855690c29c4d54f2626902b7416d4b8992b9c87642"
+  },
+  {
+    "clip": "power_wave",
+    "phase": 6,
+    "source_bbox_xyxy": [
+      792,
+      710,
+      1124,
+      914
+    ],
+    "scale": 0.5015105740181269,
+    "source_root_x": 984.8535031847134,
+    "ground": 914,
+    "bbox_xyxy": [
+      79,
+      122,
+      245,
+      224
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "f5af8191f227eed9488bc7855690c29c4d54f2626902b7416d4b8992b9c87642"
+  },
+  {
+    "clip": "power_wave",
+    "phase": 7,
+    "source_bbox_xyxy": [
+      1177,
+      710,
+      1508,
+      913
+    ],
+    "scale": 0.5015105740181269,
+    "source_root_x": 1368.8535031847134,
+    "ground": 914,
+    "bbox_xyxy": [
+      80,
+      122,
+      246,
+      223
+    ],
+    "whole_pose_only": true,
+    "source_sha256": "f5af8191f227eed9488bc7855690c29c4d54f2626902b7416d4b8992b9c87642"
+  }
+]

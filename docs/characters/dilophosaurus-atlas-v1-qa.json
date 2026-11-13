@@ -1,0 +1,224 @@
+{
+  "character_id": "dilophosaurus",
+  "status": "owner_requested_motion_rework",
+  "atlas_sha256": "c1f163930cade1d9d42a945a4a7c7b879c9ada2681f75cf768718a30fc96a5f0",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3494,
+          2342
+        ],
+        "cells": 76,
+        "clips": [
+          "idle",
+          "walk",
+          "attack_light",
+          "hit",
+          "ko",
+          "turn",
+          "power_up",
+          "air_slash_a_fx",
+          "air_slash_b_fx",
+          "air_slash_c_fx"
+        ]
+      }
+    ]
+  },
+  "frames": 80,
+  "clip_references": 80,
+  "body_poses": 62,
+  "source_FX_poses": 1,
+  "baked_FX_phases": 18,
+  "body_clips": [
+    "idle",
+    "walk",
+    "attack_light",
+    "hit",
+    "ko",
+    "turn",
+    "power_up"
+  ],
+  "map_sync_metrics": {
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "foot_anchor_px": [
+      176,
+      224
+    ],
+    "body_only_bbox_px": {
+      "x": 85,
+      "y": 128,
+      "w": 157,
+      "h": 96
+    },
+    "full_fx_bbox_px": {
+      "x": 54,
+      "y": 111,
+      "w": 291,
+      "h": 113
+    },
+    "reference_ppu_64": 64,
+    "world_size_at_64ppu_m": {
+      "body_w_m": 2.453,
+      "body_h_m": 1.5,
+      "aura_w_m": 4.547,
+      "aura_h_m": 1.766
+    },
+    "tile_32px_span": {
+      "body_tiles_w": 4.906,
+      "body_tiles_h": 3,
+      "full_fx_tiles_w": 9.094,
+      "full_fx_tiles_h": 3.531
+    }
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_light",
+      "hit",
+      "ko",
+      "turn",
+      "power_up"
+    ],
+    "effect_clips": [
+      "air_slash_a_fx",
+      "air_slash_b_fx",
+      "air_slash_c_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "projectile": null,
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 20,
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true
+    },
+    "target_slashes": {
+      "body_clip": "power_up",
+      "active_window_ticks": [
+        8,
+        68
+      ],
+      "default_target_canvas_px": [
+        320,
+        168
+      ],
+      "strikes": [
+        {
+          "at_tick": 12,
+          "angle_deg": -40,
+          "direction": "top_to_bottom",
+          "clip": "air_slash_a_fx",
+          "duration_ticks": 6
+        },
+        {
+          "at_tick": 31,
+          "angle_deg": 35,
+          "direction": "bottom_to_top",
+          "clip": "air_slash_b_fx",
+          "duration_ticks": 6
+        },
+        {
+          "at_tick": 50,
+          "angle_deg": -70,
+          "direction": "top_to_bottom",
+          "clip": "air_slash_c_fx",
+          "duration_ticks": 6
+        }
+      ],
+      "target_rule": "All three hit the same independently supplied enemy/dummy point; no body/frill emission, no travel.",
+      "target_override": "Godot set_slash_target_global or set_slash_target_canvas; browser options.targetCanvasPx.",
+      "angle_art": "Baked whole-FX rotations and directional alpha sweep, no body transforms."
+    }
+  },
+  "motion_quality": {
+    "status": "fail",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "c1f163930cade1d9d42a945a4a7c7b879c9ada2681f75cf768718a30fc96a5f0",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": false,
+      "three_backgrounds": true,
+      "character_identity": true,
+      "head_stability": false,
+      "idle_cadence": false
+    },
+    "review_evidence": "work/characters/dilophosaurus/atlas-v1/review/keyframe-review.json",
+    "unresolved_structural_failures": [
+      "Owner reported head scale oscillation in power_up; requires steady head with high-speed undulation of two neck frills.",
+      "Owner reported idle too slow/choppy; measured4poses x30ticks =500ms per pose."
+    ],
+    "owner_approved": false,
+    "naturalness_verdict": "owner_reported_rework_required",
+    "notes": "New wholebody poses; neckfrills physically pulse, no VFX emission from frills. Three source-preserving directional slash sweeps at same independent target. Visual quality remains Owner Human Test gate.",
+    "owner_feedback": "Owner báo power_up làm đầu/mang to nhỏ nhanh thay vì đầu cố định và mang uốn lượn; idle chậm/khựng. Turn chỉ được yêu cầu xóa nếu là khống chế, nhưng thực tế là đổi hướng nên chưa xóa."
+  },
+  "technical_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 39,
+    "godot_bundles": 6,
+    "custom_godot_tick_tests": 3,
+    "rust_tests": 2,
+    "wasm_release_build_exit_code": 0,
+    "target_slash_Godot_ticks_checked": 88,
+    "browser_sequences": 21,
+    "browser_ticks_checked": 88,
+    "browser_page_errors": [],
+    "HTTP_atlas_TRES_metadata_WASM_byte_parity": true,
+    "standalone_godot_import_bundles_power_test_exit_code": 0
+  },
+  "protected_peer_files_unchanged": 909,
+  "preview_url": "http://localhost:8080/?character=dilophosaurus&clip=power_up&frame=0&paused=1",
+  "warnings": [
+    "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'sarcosuchus' hiện có 7 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'dilophosaurus' hiện có 7 hoạt ảnh (idle, walk, attack_light, hit, ko, turn, power_up); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] dilophosaurus: motion=reviewed_pending_owner; Owner Human Test chưa nghiệm thu."
+  ],
+  "source_FX_provenance": "work/characters/dilophosaurus/atlas-v1/fx-source-evidence.json",
+  "registration": "work/characters/dilophosaurus/atlas-v1/registration.json",
+  "motion_limits": "Complete body/frame strips and browser runtime stills reviewed on3backgrounds. Timing traces and pixel metrics do not certify natural motion. Owner Human Test pending. Four-pose idle retains2s cycle; walk8poses forwardcycle. No Spino artwork/rig reused.",
+  "rejected_candidate_evidence": {
+    "walk_v1": "frame7floor218vs224; wholecycle regenerated, fixed finalpose supportsground223/224.",
+    "turn_v1": "whitecontamination:121/488brightboundarypixels;generated mattecleanup1/560, final threebackgrounds reviewed.",
+    "registration_v1": "dark-onlyROIfollowed changinglegshadows, causing up35pxXdrift;replaced with calibrated silhouettes in fixedhipROI, walkbboxleft83..87."
+  },
+  "latest_owner_feedback": "Owner báo power_up làm đầu/mang to nhỏ nhanh thay vì đầu cố định và mang uốn lượn; idle chậm/khựng. Turn chỉ được yêu cầu xóa nếu là khống chế, nhưng thực tế là đổi hướng nên chưa xóa."
+}

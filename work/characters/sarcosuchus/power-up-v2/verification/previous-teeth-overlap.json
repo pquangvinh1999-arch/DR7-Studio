@@ -1,0 +1,80 @@
+[
+  {
+    "old_body_frame": 0,
+    "overlapped_bright_tooth_pixels": 10,
+    "example_canvas_px": [
+      [
+        238,
+        198
+      ],
+      [
+        239,
+        198
+      ],
+      [
+        242,
+        198
+      ],
+      [
+        235,
+        204
+      ],
+      [
+        240,
+        204
+      ]
+    ]
+  },
+  {
+    "old_body_frame": 1,
+    "overlapped_bright_tooth_pixels": 24,
+    "example_canvas_px": [
+      [
+        231,
+        183
+      ],
+      [
+        229,
+        184
+      ],
+      [
+        234,
+        185
+      ],
+      [
+        229,
+        188
+      ],
+      [
+        243,
+        198
+      ]
+    ]
+  },
+  {
+    "old_body_frame": 2,
+    "overlapped_bright_tooth_pixels": 28,
+    "example_canvas_px": [
+      [
+        245,
+        182
+      ],
+      [
+        241,
+        185
+      ],
+      [
+        251,
+        185
+      ],
+      [
+        240,
+        186
+      ],
+      [
+        248,
+        186
+      ]
+    ]
+  }
+]

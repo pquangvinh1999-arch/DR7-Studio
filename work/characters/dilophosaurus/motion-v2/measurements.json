@@ -1,0 +1,2552 @@
+[
+  {
+    "clip": "walk",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-00.png",
+    "file_sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      121,
+      157,
+      103
+    ],
+    "visible_pixels": 4970,
+    "rgb_colors": 4549,
+    "edge_acutance_sobel": 329.982,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9971751412429378,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-01.png",
+    "file_sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      87,
+      119,
+      156,
+      104
+    ],
+    "visible_pixels": 4767,
+    "rgb_colors": 4370,
+    "edge_acutance_sobel": 319.015,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9970544918998527,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-02.png",
+    "file_sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      119,
+      158,
+      105
+    ],
+    "visible_pixels": 4622,
+    "rgb_colors": 4298,
+    "edge_acutance_sobel": 336.09,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9984832069339111,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-03.png",
+    "file_sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      119,
+      160,
+      104
+    ],
+    "visible_pixels": 4685,
+    "rgb_colors": 4362,
+    "edge_acutance_sobel": 328.033,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9995729233397395,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-04.png",
+    "file_sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      119,
+      158,
+      104
+    ],
+    "visible_pixels": 4799,
+    "rgb_colors": 4457,
+    "edge_acutance_sobel": 341.283,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9979118813948632,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-05.png",
+    "file_sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      120,
+      159,
+      103
+    ],
+    "visible_pixels": 4657,
+    "rgb_colors": 4314,
+    "edge_acutance_sobel": 340.453,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9974165769644779,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-06.png",
+    "file_sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      120,
+      158,
+      103
+    ],
+    "visible_pixels": 4565,
+    "rgb_colors": 4274,
+    "edge_acutance_sobel": 325.266,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9975845410628019,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "walk",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-07.png",
+    "file_sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      83,
+      121,
+      159,
+      103
+    ],
+    "visible_pixels": 4832,
+    "rgb_colors": 4434,
+    "edge_acutance_sobel": 337.877,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9979257415473968,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-08.png",
+    "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      128,
+      157,
+      96
+    ],
+    "visible_pixels": 4205,
+    "rgb_colors": 3442,
+    "edge_acutance_sobel": 368.345,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.994980879541109,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-09.png",
+    "file_sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      83,
+      131,
+      156,
+      93
+    ],
+    "visible_pixels": 4738,
+    "rgb_colors": 4447,
+    "edge_acutance_sobel": 340.528,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987320371935756,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-10.png",
+    "file_sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      82,
+      127,
+      152,
+      97
+    ],
+    "visible_pixels": 4636,
+    "rgb_colors": 4377,
+    "edge_acutance_sobel": 334.357,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9974048442906575,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-11.png",
+    "file_sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      78,
+      123,
+      165,
+      101
+    ],
+    "visible_pixels": 4953,
+    "rgb_colors": 4640,
+    "edge_acutance_sobel": 347.934,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985844287158746,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-12.png",
+    "file_sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      87,
+      128,
+      158,
+      96
+    ],
+    "visible_pixels": 4679,
+    "rgb_colors": 4414,
+    "edge_acutance_sobel": 350.511,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987160282473786,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-13.png",
+    "file_sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      83,
+      129,
+      156,
+      95
+    ],
+    "visible_pixels": 4757,
+    "rgb_colors": 4435,
+    "edge_acutance_sobel": 339.647,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987371079772679,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-14.png",
+    "file_sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      83,
+      125,
+      151,
+      99
+    ],
+    "visible_pixels": 4647,
+    "rgb_colors": 4361,
+    "edge_acutance_sobel": 338.067,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9995694294940797,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "attack_light",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-15.png",
+    "file_sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      81,
+      125,
+      155,
+      99
+    ],
+    "visible_pixels": 4652,
+    "rgb_colors": 4363,
+    "edge_acutance_sobel": 345.494,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9974137931034482,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-16.png",
+    "file_sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      128,
+      157,
+      96
+    ],
+    "visible_pixels": 4737,
+    "rgb_colors": 4290,
+    "edge_acutance_sobel": 348.41,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9974603174603175,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-17.png",
+    "file_sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      89,
+      116,
+      135,
+      108
+    ],
+    "visible_pixels": 4610,
+    "rgb_colors": 4160,
+    "edge_acutance_sobel": 330.026,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9965171963430561,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-18.png",
+    "file_sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      116,
+      136,
+      108
+    ],
+    "visible_pixels": 4603,
+    "rgb_colors": 4113,
+    "edge_acutance_sobel": 338.008,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9976040078414289,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-19.png",
+    "file_sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      88,
+      118,
+      141,
+      106
+    ],
+    "visible_pixels": 4547,
+    "rgb_colors": 4079,
+    "edge_acutance_sobel": 340.479,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.996689472522622,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-20.png",
+    "file_sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      89,
+      123,
+      149,
+      101
+    ],
+    "visible_pixels": 4555,
+    "rgb_colors": 4093,
+    "edge_acutance_sobel": 342.883,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9982405981966131,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "hit",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-21.png",
+    "file_sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      87,
+      124,
+      152,
+      100
+    ],
+    "visible_pixels": 4643,
+    "rgb_colors": 4210,
+    "edge_acutance_sobel": 343.433,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9978415713360673,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-22.png",
+    "file_sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      111,
+      157,
+      112
+    ],
+    "visible_pixels": 4931,
+    "rgb_colors": 4521,
+    "edge_acutance_sobel": 375.605,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985783915515841,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-23.png",
+    "file_sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      82,
+      121,
+      155,
+      101
+    ],
+    "visible_pixels": 4764,
+    "rgb_colors": 4377,
+    "edge_acutance_sobel": 359.188,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.997896508203618,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-24.png",
+    "file_sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      75,
+      135,
+      154,
+      88
+    ],
+    "visible_pixels": 4720,
+    "rgb_colors": 4315,
+    "edge_acutance_sobel": 352.544,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9974511469838573,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-25.png",
+    "file_sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      66,
+      150,
+      157,
+      74
+    ],
+    "visible_pixels": 4573,
+    "rgb_colors": 4254,
+    "edge_acutance_sobel": 339.049,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9995624589805294,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-26.png",
+    "file_sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      61,
+      154,
+      162,
+      70
+    ],
+    "visible_pixels": 4393,
+    "rgb_colors": 4098,
+    "edge_acutance_sobel": 331.74,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.998175598631699,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-27.png",
+    "file_sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      59,
+      164,
+      161,
+      58
+    ],
+    "visible_pixels": 4169,
+    "rgb_colors": 3885,
+    "edge_acutance_sobel": 338.686,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9975955758595816,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-28.png",
+    "file_sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      55,
+      171,
+      164,
+      50
+    ],
+    "visible_pixels": 3894,
+    "rgb_colors": 3644,
+    "edge_acutance_sobel": 324.321,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.997941327843541,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "ko",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-29.png",
+    "file_sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      54,
+      176,
+      165,
+      45
+    ],
+    "visible_pixels": 3626,
+    "rgb_colors": 3399,
+    "edge_acutance_sobel": 339.806,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.996401882092444,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "turn",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-30.png",
+    "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      128,
+      157,
+      96
+    ],
+    "visible_pixels": 4205,
+    "rgb_colors": 3442,
+    "edge_acutance_sobel": 368.345,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.994980879541109,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "turn",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-31.png",
+    "file_sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      120,
+      112,
+      112,
+      112
+    ],
+    "visible_pixels": 5065,
+    "rgb_colors": 4724,
+    "edge_acutance_sobel": 320.647,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9982195845697329,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "turn",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-32.png",
+    "file_sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      130,
+      113,
+      93,
+      111
+    ],
+    "visible_pixels": 4626,
+    "rgb_colors": 4316,
+    "edge_acutance_sobel": 346.776,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9971794315469733,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "turn",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-33.png",
+    "file_sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      107,
+      118,
+      165,
+      106
+    ],
+    "visible_pixels": 5175,
+    "rgb_colors": 4615,
+    "edge_acutance_sobel": 352.606,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9949485136972994,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_a_fx",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-34.png",
+    "file_sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      162,
+      102,
+      9,
+      15
+    ],
+    "visible_pixels": 50,
+    "rgb_colors": 42,
+    "edge_acutance_sobel": 499.103,
+    "alpha_hardness_pct": 99.97965494791666,
+    "visible_alpha_hardness_pct": 60.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9583333333333334,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_a_fx",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-35.png",
+    "file_sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      161,
+      102,
+      15,
+      30
+    ],
+    "visible_pixels": 190,
+    "rgb_colors": 142,
+    "edge_acutance_sobel": 577.791,
+    "alpha_hardness_pct": 99.95625813802084,
+    "visible_alpha_hardness_pct": 77.36842105263158,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9069767441860465,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_a_fx",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-36.png",
+    "file_sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      161,
+      102,
+      35,
+      46
+    ],
+    "visible_pixels": 415,
+    "rgb_colors": 290,
+    "edge_acutance_sobel": 542.559,
+    "alpha_hardness_pct": 99.8870849609375,
+    "visible_alpha_hardness_pct": 73.25301204819277,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.8707865168539326,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_a_fx",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-37.png",
+    "file_sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      161,
+      117,
+      35,
+      31
+    ],
+    "visible_pixels": 365,
+    "rgb_colors": 249,
+    "edge_acutance_sobel": 567.81,
+    "alpha_hardness_pct": 99.90743001302084,
+    "visible_alpha_hardness_pct": 75.06849315068493,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.8571428571428571,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_a_fx",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-38.png",
+    "file_sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      164,
+      132,
+      32,
+      16
+    ],
+    "visible_pixels": 225,
+    "rgb_colors": 155,
+    "edge_acutance_sobel": 553.643,
+    "alpha_hardness_pct": 99.93082682291666,
+    "visible_alpha_hardness_pct": 69.77777777777779,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.8369565217391305,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_a_fx",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-39.png",
+    "file_sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      173,
+      142,
+      23,
+      6
+    ],
+    "visible_pixels": 78,
+    "rgb_colors": 63,
+    "edge_acutance_sobel": 522.292,
+    "alpha_hardness_pct": 99.969482421875,
+    "visible_alpha_hardness_pct": 61.53846153846154,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.8695652173913043,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_b_fx",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-40.png",
+    "file_sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      159,
+      138,
+      11,
+      13
+    ],
+    "visible_pixels": 61,
+    "rgb_colors": 48,
+    "edge_acutance_sobel": 393.963,
+    "alpha_hardness_pct": 99.96846516927084,
+    "visible_alpha_hardness_pct": 49.18032786885246,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9107142857142857,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_b_fx",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-41.png",
+    "file_sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      159,
+      125,
+      16,
+      26
+    ],
+    "visible_pixels": 190,
+    "rgb_colors": 153,
+    "edge_acutance_sobel": 534.322,
+    "alpha_hardness_pct": 99.9420166015625,
+    "visible_alpha_hardness_pct": 70.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9005847953216374,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_b_fx",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-42.png",
+    "file_sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      159,
+      111,
+      40,
+      40
+    ],
+    "visible_pixels": 415,
+    "rgb_colors": 292,
+    "edge_acutance_sobel": 556.073,
+    "alpha_hardness_pct": 99.88199869791666,
+    "visible_alpha_hardness_pct": 72.04819277108435,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.8795518207282913,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_b_fx",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-43.png",
+    "file_sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      159,
+      111,
+      40,
+      27
+    ],
+    "visible_pixels": 354,
+    "rgb_colors": 244,
+    "edge_acutance_sobel": 620.644,
+    "alpha_hardness_pct": 99.91353352864584,
+    "visible_alpha_hardness_pct": 75.98870056497175,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.8737541528239202,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_b_fx",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-44.png",
+    "file_sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      163,
+      111,
+      36,
+      14
+    ],
+    "visible_pixels": 225,
+    "rgb_colors": 148,
+    "edge_acutance_sobel": 645.673,
+    "alpha_hardness_pct": 99.93998209635416,
+    "visible_alpha_hardness_pct": 73.77777777777777,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.8602150537634409,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_b_fx",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-45.png",
+    "file_sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      171,
+      111,
+      28,
+      5
+    ],
+    "visible_pixels": 90,
+    "rgb_colors": 68,
+    "edge_acutance_sobel": 645.359,
+    "alpha_hardness_pct": 99.96541341145834,
+    "visible_alpha_hardness_pct": 62.22222222222222,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.8734177215189873,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_c_fx",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-46.png",
+    "file_sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      156,
+      109,
+      5,
+      11
+    ],
+    "visible_pixels": 34,
+    "rgb_colors": 31,
+    "edge_acutance_sobel": 477.257,
+    "alpha_hardness_pct": 99.98372395833334,
+    "visible_alpha_hardness_pct": 52.94117647058824,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9375,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_c_fx",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-47.png",
+    "file_sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      156,
+      109,
+      45,
+      22
+    ],
+    "visible_pixels": 138,
+    "rgb_colors": 121,
+    "edge_acutance_sobel": 515.411,
+    "alpha_hardness_pct": 99.95320638020834,
+    "visible_alpha_hardness_pct": 66.66666666666666,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9545454545454546,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_c_fx",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-48.png",
+    "file_sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      156,
+      109,
+      45,
+      34
+    ],
+    "visible_pixels": 413,
+    "rgb_colors": 319,
+    "edge_acutance_sobel": 542.371,
+    "alpha_hardness_pct": 99.88606770833334,
+    "visible_alpha_hardness_pct": 72.88135593220339,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9289617486338798,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_c_fx",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-49.png",
+    "file_sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      157,
+      120,
+      44,
+      23
+    ],
+    "visible_pixels": 379,
+    "rgb_colors": 290,
+    "edge_acutance_sobel": 563.067,
+    "alpha_hardness_pct": 99.90234375,
+    "visible_alpha_hardness_pct": 74.67018469656992,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9281437125748503,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_c_fx",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-50.png",
+    "file_sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      162,
+      131,
+      37,
+      12
+    ],
+    "visible_pixels": 275,
+    "rgb_colors": 203,
+    "edge_acutance_sobel": 583.39,
+    "alpha_hardness_pct": 99.932861328125,
+    "visible_alpha_hardness_pct": 76.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9145299145299145,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "air_slash_c_fx",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-51.png",
+    "file_sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      170,
+      138,
+      27,
+      5
+    ],
+    "visible_pixels": 86,
+    "rgb_colors": 60,
+    "edge_acutance_sobel": 805.261,
+    "alpha_hardness_pct": 99.98067220052084,
+    "visible_alpha_hardness_pct": 77.90697674418605,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.8840579710144928,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-52.png",
+    "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      128,
+      157,
+      96
+    ],
+    "visible_pixels": 4205,
+    "rgb_colors": 3442,
+    "edge_acutance_sobel": 368.345,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.994980879541109,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-53.png",
+    "file_sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      129,
+      157,
+      94
+    ],
+    "visible_pixels": 4321,
+    "rgb_colors": 4026,
+    "edge_acutance_sobel": 356.599,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9976803525864069,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-54.png",
+    "file_sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      129,
+      157,
+      95
+    ],
+    "visible_pixels": 4328,
+    "rgb_colors": 4024,
+    "edge_acutance_sobel": 356.831,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9976830398517146,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-55.png",
+    "file_sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      129,
+      157,
+      95
+    ],
+    "visible_pixels": 4341,
+    "rgb_colors": 4044,
+    "edge_acutance_sobel": 348.892,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9983844911147012,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-56.png",
+    "file_sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      129,
+      157,
+      95
+    ],
+    "visible_pixels": 4338,
+    "rgb_colors": 4036,
+    "edge_acutance_sobel": 358.997,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9988457987072945,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-57.png",
+    "file_sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      129,
+      157,
+      95
+    ],
+    "visible_pixels": 4341,
+    "rgb_colors": 4054,
+    "edge_acutance_sobel": 358.407,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9990774907749077,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-58.png",
+    "file_sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      129,
+      157,
+      95
+    ],
+    "visible_pixels": 4312,
+    "rgb_colors": 4007,
+    "edge_acutance_sobel": 352.884,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9993037827802275,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-59.png",
+    "file_sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      84,
+      129,
+      157,
+      95
+    ],
+    "visible_pixels": 4321,
+    "rgb_colors": 4047,
+    "edge_acutance_sobel": 354.344,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9983773759851646,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 8,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-60.png",
+    "file_sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      129,
+      156,
+      94
+    ],
+    "visible_pixels": 4326,
+    "rgb_colors": 4035,
+    "edge_acutance_sobel": 352.953,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9988428604489702,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 9,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-61.png",
+    "file_sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      84,
+      129,
+      157,
+      95
+    ],
+    "visible_pixels": 4312,
+    "rgb_colors": 4040,
+    "edge_acutance_sobel": 354.27,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9983736059479554,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 10,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-62.png",
+    "file_sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      129,
+      156,
+      95
+    ],
+    "visible_pixels": 4337,
+    "rgb_colors": 4011,
+    "edge_acutance_sobel": 350.077,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9976889299745783,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "idle",
+    "position": 11,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-63.png",
+    "file_sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      129,
+      156,
+      95
+    ],
+    "visible_pixels": 4336,
+    "rgb_colors": 4044,
+    "edge_acutance_sobel": 361.306,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9988455322096513,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 0,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-72.png",
+    "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      128,
+      157,
+      96
+    ],
+    "visible_pixels": 4205,
+    "rgb_colors": 3442,
+    "edge_acutance_sobel": 368.345,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.994980879541109,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 1,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-73.png",
+    "file_sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      82,
+      128,
+      159,
+      95
+    ],
+    "visible_pixels": 4691,
+    "rgb_colors": 4405,
+    "edge_acutance_sobel": 326.491,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989329918907384,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 2,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-64.png",
+    "file_sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5644,
+    "rgb_colors": 5339,
+    "edge_acutance_sobel": 341.753,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985803016858917,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 3,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-65.png",
+    "file_sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5624,
+    "rgb_colors": 5326,
+    "edge_acutance_sobel": 341.497,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985754985754985,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 4,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-66.png",
+    "file_sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5598,
+    "rgb_colors": 5333,
+    "edge_acutance_sobel": 341.271,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9991060253888789,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 5,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-67.png",
+    "file_sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      79,
+      122,
+      167,
+      102
+    ],
+    "visible_pixels": 5613,
+    "rgb_colors": 5320,
+    "edge_acutance_sobel": 346.694,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9980360649883949,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 6,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-68.png",
+    "file_sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      123,
+      165,
+      101
+    ],
+    "visible_pixels": 5604,
+    "rgb_colors": 5309,
+    "edge_acutance_sobel": 333.722,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9982120507777579,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 7,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-69.png",
+    "file_sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5598,
+    "rgb_colors": 5304,
+    "edge_acutance_sobel": 337.502,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989266547406083,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 8,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-70.png",
+    "file_sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      79,
+      122,
+      166,
+      102
+    ],
+    "visible_pixels": 5605,
+    "rgb_colors": 5316,
+    "edge_acutance_sobel": 334.594,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989281886387996,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 9,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-71.png",
+    "file_sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5614,
+    "rgb_colors": 5319,
+    "edge_acutance_sobel": 335.196,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987511150758251,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 10,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-64.png",
+    "file_sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5644,
+    "rgb_colors": 5339,
+    "edge_acutance_sobel": 341.753,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985803016858917,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 11,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-65.png",
+    "file_sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5624,
+    "rgb_colors": 5326,
+    "edge_acutance_sobel": 341.497,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985754985754985,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 12,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-66.png",
+    "file_sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5598,
+    "rgb_colors": 5333,
+    "edge_acutance_sobel": 341.271,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9991060253888789,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 13,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-67.png",
+    "file_sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      79,
+      122,
+      167,
+      102
+    ],
+    "visible_pixels": 5613,
+    "rgb_colors": 5320,
+    "edge_acutance_sobel": 346.694,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9980360649883949,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 14,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-68.png",
+    "file_sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      123,
+      165,
+      101
+    ],
+    "visible_pixels": 5604,
+    "rgb_colors": 5309,
+    "edge_acutance_sobel": 333.722,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9982120507777579,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 15,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-69.png",
+    "file_sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5598,
+    "rgb_colors": 5304,
+    "edge_acutance_sobel": 337.502,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989266547406083,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 16,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-70.png",
+    "file_sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      79,
+      122,
+      166,
+      102
+    ],
+    "visible_pixels": 5605,
+    "rgb_colors": 5316,
+    "edge_acutance_sobel": 334.594,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989281886387996,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 17,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-71.png",
+    "file_sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5614,
+    "rgb_colors": 5319,
+    "edge_acutance_sobel": 335.196,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987511150758251,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 18,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-64.png",
+    "file_sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5644,
+    "rgb_colors": 5339,
+    "edge_acutance_sobel": 341.753,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985803016858917,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 19,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-65.png",
+    "file_sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5624,
+    "rgb_colors": 5326,
+    "edge_acutance_sobel": 341.497,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985754985754985,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 20,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-66.png",
+    "file_sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5598,
+    "rgb_colors": 5333,
+    "edge_acutance_sobel": 341.271,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9991060253888789,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 21,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-67.png",
+    "file_sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      79,
+      122,
+      167,
+      102
+    ],
+    "visible_pixels": 5613,
+    "rgb_colors": 5320,
+    "edge_acutance_sobel": 346.694,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9980360649883949,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 22,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-68.png",
+    "file_sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      123,
+      165,
+      101
+    ],
+    "visible_pixels": 5604,
+    "rgb_colors": 5309,
+    "edge_acutance_sobel": 333.722,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9982120507777579,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 23,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-69.png",
+    "file_sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5598,
+    "rgb_colors": 5304,
+    "edge_acutance_sobel": 337.502,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989266547406083,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 24,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-70.png",
+    "file_sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      79,
+      122,
+      166,
+      102
+    ],
+    "visible_pixels": 5605,
+    "rgb_colors": 5316,
+    "edge_acutance_sobel": 334.594,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989281886387996,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 25,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-71.png",
+    "file_sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5614,
+    "rgb_colors": 5319,
+    "edge_acutance_sobel": 335.196,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987511150758251,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 26,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-64.png",
+    "file_sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5644,
+    "rgb_colors": 5339,
+    "edge_acutance_sobel": 341.753,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985803016858917,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 27,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-65.png",
+    "file_sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5624,
+    "rgb_colors": 5326,
+    "edge_acutance_sobel": 341.497,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9985754985754985,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 28,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-66.png",
+    "file_sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5598,
+    "rgb_colors": 5333,
+    "edge_acutance_sobel": 341.271,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9991060253888789,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 29,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-67.png",
+    "file_sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      79,
+      122,
+      167,
+      102
+    ],
+    "visible_pixels": 5613,
+    "rgb_colors": 5320,
+    "edge_acutance_sobel": 346.694,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9980360649883949,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 30,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-68.png",
+    "file_sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      123,
+      165,
+      101
+    ],
+    "visible_pixels": 5604,
+    "rgb_colors": 5309,
+    "edge_acutance_sobel": 333.722,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9982120507777579,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 31,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-69.png",
+    "file_sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      80,
+      122,
+      166,
+      101
+    ],
+    "visible_pixels": 5598,
+    "rgb_colors": 5304,
+    "edge_acutance_sobel": 337.502,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989266547406083,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 32,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-74.png",
+    "file_sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      83,
+      125,
+      164,
+      98
+    ],
+    "visible_pixels": 4995,
+    "rgb_colors": 4759,
+    "edge_acutance_sobel": 312.426,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987973541791942,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 33,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-75.png",
+    "file_sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      82,
+      124,
+      162,
+      99
+    ],
+    "visible_pixels": 4760,
+    "rgb_colors": 4479,
+    "edge_acutance_sobel": 324.553,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9983164983164983,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 34,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-76.png",
+    "file_sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      84,
+      122,
+      158,
+      101
+    ],
+    "visible_pixels": 4866,
+    "rgb_colors": 4592,
+    "edge_acutance_sobel": 315.872,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9987654320987654,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 35,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-77.png",
+    "file_sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      82,
+      123,
+      159,
+      100
+    ],
+    "visible_pixels": 4750,
+    "rgb_colors": 4498,
+    "edge_acutance_sobel": 326.994,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9989462592202318,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 36,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-78.png",
+    "file_sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      82,
+      124,
+      157,
+      99
+    ],
+    "visible_pixels": 4750,
+    "rgb_colors": 4464,
+    "edge_acutance_sobel": 308.525,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9983125922801097,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  {
+    "clip": "power_up",
+    "position": 37,
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-79.png",
+    "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      128,
+      157,
+      96
+    ],
+    "visible_pixels": 4205,
+    "rgb_colors": 3442,
+    "edge_acutance_sobel": 368.345,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.994980879541109,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  }
+]

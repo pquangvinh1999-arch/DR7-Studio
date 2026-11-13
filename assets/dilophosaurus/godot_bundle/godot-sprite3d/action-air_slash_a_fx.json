@@ -1,0 +1,52 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "air_slash_a_fx",
+  "frame_size": [
+    384,
+    256
+  ],
+  "output_origin": [
+    176.0,
+    224.0
+  ],
+  "sprite3d_offset": [
+    16.0,
+    96.0
+  ],
+  "reference_subject_height_px": 96.0,
+  "world_height": 0.96,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.96,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 17,
+  "fps": 60.0,
+  "frames": [
+    "frames/frame-034.png",
+    "frames/frame-035.png",
+    "frames/frame-036.png",
+    "frames/frame-037.png",
+    "frames/frame-038.png",
+    "frames/frame-039.png"
+  ],
+  "frame_sha256": [
+    "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64",
+    "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5",
+    "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686",
+    "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623",
+    "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec",
+    "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e"
+  ],
+  "durations_ms": [
+    17,
+    16,
+    17,
+    17,
+    16,
+    17
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": []
+}

@@ -1,0 +1,2691 @@
+{
+  "scope": "Dilophosaurus stage PNG copies only; no runtime/master/source/review changes",
+  "date": "2026-11-13T04:57:37.067110+00:00",
+  "deleted_png_count": 447,
+  "saved_bytes": 13780675,
+  "recovery": "Exact bytes remain in canonical runtime paths; approved full-frame archive retained. Historical staging installers are not the approved rebuild entry.",
+  "files": [
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_b_fx_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-041.png",
+      "bytes": 1438,
+      "sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/attack_light_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-010.png",
+      "bytes": 16468,
+      "sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/hit_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-018.png",
+      "bytes": 15963,
+      "sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/walk_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-001.png",
+      "bytes": 16553,
+      "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_c_fx_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-047.png",
+      "bytes": 1243,
+      "sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_b_fx_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-042.png",
+      "bytes": 2343,
+      "sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/attack_light_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-011.png",
+      "bytes": 17444,
+      "sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/ko_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-022.png",
+      "bytes": 17167,
+      "sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_b_fx_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-040.png",
+      "bytes": 836,
+      "sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/attack_light_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/attack_light_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-013.png",
+      "bytes": 16830,
+      "sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/power_up_23.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/hit_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-020.png",
+      "bytes": 16046,
+      "sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_b_fx_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-045.png",
+      "bytes": 913,
+      "sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_a_fx_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-036.png",
+      "bytes": 2383,
+      "sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_a_fx_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-035.png",
+      "bytes": 1437,
+      "sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/walk_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-003.png",
+      "bytes": 16340,
+      "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/power_up_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/power_up_21.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-077.png",
+      "bytes": 16210,
+      "sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_a_fx_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-039.png",
+      "bytes": 886,
+      "sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/hit_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-021.png",
+      "bytes": 16150,
+      "sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_c_fx_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-049.png",
+      "bytes": 2173,
+      "sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/ko_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-027.png",
+      "bytes": 13949,
+      "sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/attack_light_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-009.png",
+      "bytes": 16629,
+      "sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_a_fx_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-034.png",
+      "bytes": 825,
+      "sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_c_fx_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-046.png",
+      "bytes": 719,
+      "sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/attack_light_07.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-015.png",
+      "bytes": 16454,
+      "sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/idle_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/walk_06.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-006.png",
+      "bytes": 15792,
+      "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/power_up_19.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-075.png",
+      "bytes": 16376,
+      "sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/hit_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-017.png",
+      "bytes": 16033,
+      "sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/ko_06.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-028.png",
+      "bytes": 12976,
+      "sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/walk_07.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-007.png",
+      "bytes": 16834,
+      "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_b_fx_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-044.png",
+      "bytes": 1421,
+      "sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/power_up_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-073.png",
+      "bytes": 15993,
+      "sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/walk_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-002.png",
+      "bytes": 16046,
+      "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/power_up_20.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-076.png",
+      "bytes": 16536,
+      "sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_c_fx_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-048.png",
+      "bytes": 2389,
+      "sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_a_fx_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-038.png",
+      "bytes": 1470,
+      "sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/power_up_18.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-074.png",
+      "bytes": 17094,
+      "sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/turn_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-031.png",
+      "bytes": 17995,
+      "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/turn_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-033.png",
+      "bytes": 18042,
+      "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/attack_light_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-012.png",
+      "bytes": 16604,
+      "sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/walk_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-000.png",
+      "bytes": 17123,
+      "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/ko_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-024.png",
+      "bytes": 16302,
+      "sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_a_fx_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-037.png",
+      "bytes": 2057,
+      "sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/walk_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-005.png",
+      "bytes": 16142,
+      "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/walk_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-004.png",
+      "bytes": 16710,
+      "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/power_up_22.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-078.png",
+      "bytes": 16273,
+      "sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/ko_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-023.png",
+      "bytes": 16483,
+      "sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_c_fx_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-050.png",
+      "bytes": 1655,
+      "sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/ko_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-026.png",
+      "bytes": 15144,
+      "sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/hit_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-019.png",
+      "bytes": 15885,
+      "sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/ko_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-025.png",
+      "bytes": 15735,
+      "sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/turn_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-032.png",
+      "bytes": 16749,
+      "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/attack_light_06.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-014.png",
+      "bytes": 16473,
+      "sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/turn_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_b_fx_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-043.png",
+      "bytes": 1989,
+      "sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/hit_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-016.png",
+      "bytes": 16448,
+      "sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/ko_07.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-029.png",
+      "bytes": 12104,
+      "sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/raw_frames/air_slash_c_fx_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-051.png",
+      "bytes": 819,
+      "sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-32.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-028.png",
+      "bytes": 12976,
+      "sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-16.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-012.png",
+      "bytes": 16604,
+      "sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-25.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-021.png",
+      "bytes": 16150,
+      "sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-07.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-003.png",
+      "bytes": 16340,
+      "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-24.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-020.png",
+      "bytes": 16046,
+      "sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-20.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-016.png",
+      "bytes": 16448,
+      "sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-60.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-078.png",
+      "bytes": 16273,
+      "sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-67.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-039.png",
+      "bytes": 886,
+      "sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-34.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-30.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-026.png",
+      "bytes": 15144,
+      "sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-001.png",
+      "bytes": 16553,
+      "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-19.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-015.png",
+      "bytes": 16454,
+      "sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-12.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-75.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-047.png",
+      "bytes": 1243,
+      "sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-76.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-048.png",
+      "bytes": 2389,
+      "sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-57.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-075.png",
+      "bytes": 16376,
+      "sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-26.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-022.png",
+      "bytes": 17167,
+      "sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-62.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-034.png",
+      "bytes": 825,
+      "sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-28.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-024.png",
+      "bytes": 16302,
+      "sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-59.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-077.png",
+      "bytes": 16210,
+      "sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-33.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-029.png",
+      "bytes": 12104,
+      "sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-09.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-005.png",
+      "bytes": 16142,
+      "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-72.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-044.png",
+      "bytes": 1421,
+      "sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-000.png",
+      "bytes": 17123,
+      "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-68.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-040.png",
+      "bytes": 836,
+      "sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-36.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-032.png",
+      "bytes": 16749,
+      "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-17.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-013.png",
+      "bytes": 16830,
+      "sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-39.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-073.png",
+      "bytes": 15993,
+      "sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-78.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-050.png",
+      "bytes": 1655,
+      "sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-13.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-009.png",
+      "bytes": 16629,
+      "sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-79.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-051.png",
+      "bytes": 819,
+      "sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-69.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-041.png",
+      "bytes": 1438,
+      "sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-64.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-036.png",
+      "bytes": 2383,
+      "sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-73.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-045.png",
+      "bytes": 913,
+      "sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-38.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-70.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-042.png",
+      "bytes": 2343,
+      "sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-37.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-033.png",
+      "bytes": 18042,
+      "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-29.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-025.png",
+      "bytes": 15735,
+      "sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-06.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-002.png",
+      "bytes": 16046,
+      "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-61.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-22.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-018.png",
+      "bytes": 15963,
+      "sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-65.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-037.png",
+      "bytes": 2057,
+      "sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-35.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-031.png",
+      "bytes": 17995,
+      "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-21.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-017.png",
+      "bytes": 16033,
+      "sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-56.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-074.png",
+      "bytes": 17094,
+      "sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-74.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-046.png",
+      "bytes": 719,
+      "sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-77.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-049.png",
+      "bytes": 2173,
+      "sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-14.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-010.png",
+      "bytes": 16468,
+      "sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-71.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-043.png",
+      "bytes": 1989,
+      "sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-10.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-006.png",
+      "bytes": 15792,
+      "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-31.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-027.png",
+      "bytes": 13949,
+      "sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-27.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-023.png",
+      "bytes": 16483,
+      "sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-66.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-038.png",
+      "bytes": 1470,
+      "sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-18.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-014.png",
+      "bytes": 16473,
+      "sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-23.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-019.png",
+      "bytes": 15885,
+      "sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-58.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-076.png",
+      "bytes": 16536,
+      "sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-08.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-004.png",
+      "bytes": 16710,
+      "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-63.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-035.png",
+      "bytes": 1437,
+      "sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-11.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-007.png",
+      "bytes": 16834,
+      "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/clips/frames/frame-15.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-011.png",
+      "bytes": 17444,
+      "sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-072.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-044.png",
+      "bytes": 1421,
+      "sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-064.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-036.png",
+      "bytes": 2383,
+      "sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-065.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-037.png",
+      "bytes": 2057,
+      "sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-039.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-073.png",
+      "bytes": 15993,
+      "sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-075.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-047.png",
+      "bytes": 1243,
+      "sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-061.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-069.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-041.png",
+      "bytes": 1438,
+      "sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-028.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-024.png",
+      "bytes": 16302,
+      "sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-062.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-034.png",
+      "bytes": 825,
+      "sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-024.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-020.png",
+      "bytes": 16046,
+      "sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-067.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-039.png",
+      "bytes": 886,
+      "sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-021.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-017.png",
+      "bytes": 16033,
+      "sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-057.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-075.png",
+      "bytes": 16376,
+      "sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-005.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-001.png",
+      "bytes": 16553,
+      "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-014.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-010.png",
+      "bytes": 16468,
+      "sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-026.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-022.png",
+      "bytes": 17167,
+      "sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-017.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-013.png",
+      "bytes": 16830,
+      "sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-037.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-033.png",
+      "bytes": 18042,
+      "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-030.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-026.png",
+      "bytes": 15144,
+      "sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-076.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-048.png",
+      "bytes": 2389,
+      "sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-015.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-011.png",
+      "bytes": 17444,
+      "sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-008.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-004.png",
+      "bytes": 16710,
+      "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-012.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-020.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-016.png",
+      "bytes": 16448,
+      "sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-007.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-003.png",
+      "bytes": 16340,
+      "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-004.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-000.png",
+      "bytes": 17123,
+      "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-011.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-007.png",
+      "bytes": 16834,
+      "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-059.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-077.png",
+      "bytes": 16210,
+      "sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-051.png",
+      "bytes": 819,
+      "sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-077.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-049.png",
+      "bytes": 2173,
+      "sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-023.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-019.png",
+      "bytes": 15885,
+      "sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-034.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-066.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-038.png",
+      "bytes": 1470,
+      "sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-027.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-023.png",
+      "bytes": 16483,
+      "sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-022.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-018.png",
+      "bytes": 15963,
+      "sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-035.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-031.png",
+      "bytes": 17995,
+      "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-033.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-029.png",
+      "bytes": 12104,
+      "sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-009.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-005.png",
+      "bytes": 16142,
+      "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-010.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-006.png",
+      "bytes": 15792,
+      "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-025.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-021.png",
+      "bytes": 16150,
+      "sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-071.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-043.png",
+      "bytes": 1989,
+      "sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-006.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-002.png",
+      "bytes": 16046,
+      "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-068.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-040.png",
+      "bytes": 836,
+      "sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-000.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-032.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-028.png",
+      "bytes": 12976,
+      "sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-063.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-035.png",
+      "bytes": 1437,
+      "sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-078.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-050.png",
+      "bytes": 1655,
+      "sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-060.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-078.png",
+      "bytes": 16273,
+      "sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-038.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-056.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-074.png",
+      "bytes": 17094,
+      "sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-058.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-076.png",
+      "bytes": 16536,
+      "sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-016.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-012.png",
+      "bytes": 16604,
+      "sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-036.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-032.png",
+      "bytes": 16749,
+      "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-013.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-009.png",
+      "bytes": 16629,
+      "sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-074.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-046.png",
+      "bytes": 719,
+      "sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-018.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-014.png",
+      "bytes": 16473,
+      "sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-029.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-025.png",
+      "bytes": 15735,
+      "sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-070.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-042.png",
+      "bytes": 2343,
+      "sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-031.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-027.png",
+      "bytes": 13949,
+      "sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-019.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-015.png",
+      "bytes": 16454,
+      "sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9"
+    },
+    {
+      "path": "work/characters/dilophosaurus/atlas-v1/stage/godot_bundle/godot-sprite3d/frames/frame-073.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-045.png",
+      "bytes": 913,
+      "sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_wave_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-068.png",
+      "bytes": 18498,
+      "sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_b_fx_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-041.png",
+      "bytes": 1438,
+      "sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/attack_light_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-010.png",
+      "bytes": 16468,
+      "sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-055.png",
+      "bytes": 15266,
+      "sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/hit_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-018.png",
+      "bytes": 15963,
+      "sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_recover_22.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-078.png",
+      "bytes": 16273,
+      "sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/walk_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-001.png",
+      "bytes": 16553,
+      "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_c_fx_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-047.png",
+      "bytes": 1243,
+      "sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_08.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-060.png",
+      "bytes": 15113,
+      "sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_b_fx_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-042.png",
+      "bytes": 2343,
+      "sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_recover_20.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-076.png",
+      "bytes": 16536,
+      "sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_11.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-063.png",
+      "bytes": 15265,
+      "sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/attack_light_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-011.png",
+      "bytes": 17444,
+      "sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_wave_06.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-070.png",
+      "bytes": 18560,
+      "sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/ko_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-022.png",
+      "bytes": 17167,
+      "sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_b_fx_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-040.png",
+      "bytes": 836,
+      "sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/attack_light_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/attack_light_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-013.png",
+      "bytes": 16830,
+      "sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/hit_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-020.png",
+      "bytes": 16046,
+      "sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-057.png",
+      "bytes": 15216,
+      "sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_b_fx_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-045.png",
+      "bytes": 913,
+      "sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_10.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-062.png",
+      "bytes": 15234,
+      "sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_a_fx_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-036.png",
+      "bytes": 2383,
+      "sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_06.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-058.png",
+      "bytes": 15178,
+      "sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_a_fx_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-035.png",
+      "bytes": 1437,
+      "sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_wave_07.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-071.png",
+      "bytes": 18558,
+      "sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/walk_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-003.png",
+      "bytes": 16340,
+      "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_recover_18.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-074.png",
+      "bytes": 17094,
+      "sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_09.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-061.png",
+      "bytes": 15070,
+      "sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_a_fx_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-039.png",
+      "bytes": 886,
+      "sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_07.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-059.png",
+      "bytes": 15085,
+      "sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/hit_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-021.png",
+      "bytes": 16150,
+      "sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_c_fx_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-049.png",
+      "bytes": 2173,
+      "sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/ko_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-027.png",
+      "bytes": 13949,
+      "sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/attack_light_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-009.png",
+      "bytes": 16629,
+      "sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_wave_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-066.png",
+      "bytes": 18477,
+      "sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_a_fx_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-034.png",
+      "bytes": 825,
+      "sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_c_fx_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-046.png",
+      "bytes": 719,
+      "sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/attack_light_07.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-015.png",
+      "bytes": 16454,
+      "sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-056.png",
+      "bytes": 15282,
+      "sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_recover_21.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-077.png",
+      "bytes": 16210,
+      "sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_wave_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-067.png",
+      "bytes": 18582,
+      "sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/walk_06.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-006.png",
+      "bytes": 15792,
+      "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_wave_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-065.png",
+      "bytes": 18574,
+      "sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/hit_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-017.png",
+      "bytes": 16033,
+      "sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/ko_06.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-028.png",
+      "bytes": 12976,
+      "sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/walk_07.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-007.png",
+      "bytes": 16834,
+      "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_wave_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-069.png",
+      "bytes": 18545,
+      "sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_b_fx_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-044.png",
+      "bytes": 1421,
+      "sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/walk_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-002.png",
+      "bytes": 16046,
+      "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_prepare_1.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-073.png",
+      "bytes": 15993,
+      "sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_c_fx_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-048.png",
+      "bytes": 2389,
+      "sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_a_fx_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-038.png",
+      "bytes": 1470,
+      "sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/turn_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-031.png",
+      "bytes": 17995,
+      "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-053.png",
+      "bytes": 15117,
+      "sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/idle_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-054.png",
+      "bytes": 15205,
+      "sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/turn_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-033.png",
+      "bytes": 18042,
+      "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/attack_light_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-012.png",
+      "bytes": 16604,
+      "sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/walk_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-000.png",
+      "bytes": 17123,
+      "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_recover_23.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/ko_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-024.png",
+      "bytes": 16302,
+      "sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_a_fx_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-037.png",
+      "bytes": 2057,
+      "sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/walk_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-005.png",
+      "bytes": 16142,
+      "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/walk_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-004.png",
+      "bytes": 16710,
+      "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/ko_01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-023.png",
+      "bytes": 16483,
+      "sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_c_fx_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-050.png",
+      "bytes": 1655,
+      "sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/ko_04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-026.png",
+      "bytes": 15144,
+      "sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/hit_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-019.png",
+      "bytes": 15885,
+      "sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/ko_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-025.png",
+      "bytes": 15735,
+      "sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/turn_02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-032.png",
+      "bytes": 16749,
+      "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/attack_light_06.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-014.png",
+      "bytes": 16473,
+      "sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/turn_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_wave_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-064.png",
+      "bytes": 18615,
+      "sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_recover_19.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-075.png",
+      "bytes": 16376,
+      "sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_b_fx_03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-043.png",
+      "bytes": 1989,
+      "sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/hit_00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-016.png",
+      "bytes": 16448,
+      "sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/ko_07.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-029.png",
+      "bytes": 12104,
+      "sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/air_slash_c_fx_05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-051.png",
+      "bytes": 819,
+      "sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/raw_frames/power_prepare_0.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/contact-sheet.png",
+      "canonical": "assets/dilophosaurus/clips/contact-sheet.png",
+      "bytes": 956100,
+      "sha256": "cc74750917ef6447c89ce6d9845d130c60ffa1acb5eea96ccd6f24f4b80017e6"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/onion-08.png",
+      "canonical": "assets/dilophosaurus/clips/review/onion-08.png",
+      "bytes": 184068,
+      "sha256": "b5a3b19d7b36d925fed70bb2c451c73d3c9af474413bd00aa7a019d950bf9bea"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/filmstrip-09.png",
+      "canonical": "assets/dilophosaurus/clips/review/filmstrip-09.png",
+      "bytes": 1867626,
+      "sha256": "2e82701c68fc59770088b1ab820b90f454237cfb6ab5ef553ddc5178d837f401"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/onion-00.png",
+      "canonical": "assets/dilophosaurus/clips/review/onion-00.png",
+      "bytes": 134604,
+      "sha256": "5082cf80c0883049ab99d881428cb0899ef9c8b6a7c874b771fc111195a159f0"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/onion-06.png",
+      "canonical": "assets/dilophosaurus/clips/review/onion-06.png",
+      "bytes": 16054,
+      "sha256": "c016892d458ddd0270601772e1534e72e62b298244e9cc597fd257a0f3a48dd7"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/onion-05.png",
+      "canonical": "assets/dilophosaurus/clips/review/onion-05.png",
+      "bytes": 17020,
+      "sha256": "5298437e2d7e58f7fb2592e91e3ec82907fca4f1f6c22b8ef7904f564e91285c"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/filmstrip-01.png",
+      "canonical": "assets/dilophosaurus/clips/review/filmstrip-01.png",
+      "bytes": 371823,
+      "sha256": "afd7bb548d1b7594d453bcd63087222c7e0c8914b3927a9f962fcfb08d764585"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/filmstrip-00.png",
+      "canonical": "assets/dilophosaurus/clips/review/filmstrip-00.png",
+      "bytes": 366704,
+      "sha256": "2d3bbf2754ab04732095ba1bbbf613d8e4c37fb664e422c3c7f2cd2714bd8f81"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/onion-03.png",
+      "canonical": "assets/dilophosaurus/clips/review/onion-03.png",
+      "bytes": 125207,
+      "sha256": "647861299aacbfe282654802d32c37c45e371c306a49993515e508fbf2956ee8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/filmstrip-06.png",
+      "canonical": "assets/dilophosaurus/clips/review/filmstrip-06.png",
+      "bytes": 34021,
+      "sha256": "81c8ad8e2c7a024ed5e4fa994b104325d204d82299009d5b097bba449e9253ab"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/onion-01.png",
+      "canonical": "assets/dilophosaurus/clips/review/onion-01.png",
+      "bytes": 135559,
+      "sha256": "b9987648cbf56cef2ba1dc5aa220411f9df7dcc4edc7064adbc92eae516b5988"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/filmstrip-03.png",
+      "canonical": "assets/dilophosaurus/clips/review/filmstrip-03.png",
+      "bytes": 342505,
+      "sha256": "03421915a86161fbc5158477941902cf3aacc26c2bdc6d8594b259ef3ee182e9"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/onion-04.png",
+      "canonical": "assets/dilophosaurus/clips/review/onion-04.png",
+      "bytes": 72785,
+      "sha256": "db36db833189d9b832c088e7cf1f27bc81c7f6db69f6bbd465e95115d82bbb3f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/turn-test.png",
+      "canonical": "assets/dilophosaurus/clips/review/turn-test.png",
+      "bytes": 179985,
+      "sha256": "7e9c84a6b77ccc20147a658d51e89eff8f3602a63b9acf0d9fcee046e427321d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/filmstrip-04.png",
+      "canonical": "assets/dilophosaurus/clips/review/filmstrip-04.png",
+      "bytes": 200302,
+      "sha256": "bc9a6505a698ca9cf09661b668669c3101e6f2a585d03c6ecc8df2ad3dac822c"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/onion-07.png",
+      "canonical": "assets/dilophosaurus/clips/review/onion-07.png",
+      "bytes": 17144,
+      "sha256": "d0bf766b3ac65058490e3e728ffc781bf421daffa3eec7fc28142cb3be93f3f3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/filmstrip-05.png",
+      "canonical": "assets/dilophosaurus/clips/review/filmstrip-05.png",
+      "bytes": 35521,
+      "sha256": "ab1c3f3ce083a340d625c74b0bedfe04d79ac0a5ec0cd5a79168aa30288a06fd"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/filmstrip-08.png",
+      "canonical": "assets/dilophosaurus/clips/review/filmstrip-08.png",
+      "bytes": 518593,
+      "sha256": "ea9200303144db6592c164ae486deee0dd0b159d236a44965ff0fc82fc4420ff"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/onion-02.png",
+      "canonical": "assets/dilophosaurus/clips/review/onion-02.png",
+      "bytes": 101264,
+      "sha256": "2cb8392cfcd62d06fe694165383d4ce9aebf090445ff1f12976d8dea460c90b4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/filmstrip-02.png",
+      "canonical": "assets/dilophosaurus/clips/review/filmstrip-02.png",
+      "bytes": 277356,
+      "sha256": "b0fbf8e32bfdac857dc8efd45df5c0657934297b312594c47a7bf3727fc673ca"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/filmstrip-07.png",
+      "canonical": "assets/dilophosaurus/clips/review/filmstrip-07.png",
+      "bytes": 35551,
+      "sha256": "04871b58d11bc84f7b9e4f3977d7d0f0c41879f8ea7f28bd7a7d284f3f3be9da"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/review/onion-09.png",
+      "canonical": "assets/dilophosaurus/clips/review/onion-09.png",
+      "bytes": 653807,
+      "sha256": "60a7762623186d88bea4dcddf6b89e613fb057197185a105afa65f6ff5b9a6bc"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-32.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-032.png",
+      "bytes": 16749,
+      "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-53.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-053.png",
+      "bytes": 15117,
+      "sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-16.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-016.png",
+      "bytes": 16448,
+      "sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-25.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-025.png",
+      "bytes": 15735,
+      "sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-54.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-054.png",
+      "bytes": 15205,
+      "sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-47.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-047.png",
+      "bytes": 1243,
+      "sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-07.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-007.png",
+      "bytes": 16834,
+      "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-45.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-045.png",
+      "bytes": 913,
+      "sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-50.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-050.png",
+      "bytes": 1655,
+      "sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-24.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-024.png",
+      "bytes": 16302,
+      "sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-20.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-020.png",
+      "bytes": 16046,
+      "sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-60.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-060.png",
+      "bytes": 15113,
+      "sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-67.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-067.png",
+      "bytes": 18582,
+      "sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-34.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-034.png",
+      "bytes": 825,
+      "sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-30.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-05.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-005.png",
+      "bytes": 16142,
+      "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-19.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-019.png",
+      "bytes": 15885,
+      "sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-12.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-012.png",
+      "bytes": 16604,
+      "sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-75.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-075.png",
+      "bytes": 16376,
+      "sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-43.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-043.png",
+      "bytes": 1989,
+      "sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-42.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-042.png",
+      "bytes": 2343,
+      "sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-76.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-076.png",
+      "bytes": 16536,
+      "sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-55.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-055.png",
+      "bytes": 15266,
+      "sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-57.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-057.png",
+      "bytes": 15216,
+      "sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-01.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-001.png",
+      "bytes": 16553,
+      "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-26.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-026.png",
+      "bytes": 15144,
+      "sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-62.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-062.png",
+      "bytes": 15234,
+      "sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-28.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-028.png",
+      "bytes": 12976,
+      "sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-59.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-059.png",
+      "bytes": 15085,
+      "sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-33.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-033.png",
+      "bytes": 18042,
+      "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-09.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-009.png",
+      "bytes": 16629,
+      "sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-72.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-04.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-004.png",
+      "bytes": 16710,
+      "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-48.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-048.png",
+      "bytes": 2389,
+      "sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-51.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-051.png",
+      "bytes": 819,
+      "sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-68.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-068.png",
+      "bytes": 18498,
+      "sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-40.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-040.png",
+      "bytes": 836,
+      "sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-36.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-036.png",
+      "bytes": 2383,
+      "sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-17.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-017.png",
+      "bytes": 16033,
+      "sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-39.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-039.png",
+      "bytes": 886,
+      "sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-46.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-046.png",
+      "bytes": 719,
+      "sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-78.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-078.png",
+      "bytes": 16273,
+      "sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-13.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-013.png",
+      "bytes": 16830,
+      "sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-79.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-69.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-069.png",
+      "bytes": 18545,
+      "sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-64.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-064.png",
+      "bytes": 18615,
+      "sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-73.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-073.png",
+      "bytes": 15993,
+      "sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-38.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-038.png",
+      "bytes": 1470,
+      "sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-44.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-044.png",
+      "bytes": 1421,
+      "sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-70.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-070.png",
+      "bytes": 18560,
+      "sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-37.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-037.png",
+      "bytes": 2057,
+      "sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-000.png",
+      "bytes": 17123,
+      "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-29.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-029.png",
+      "bytes": 12104,
+      "sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-49.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-049.png",
+      "bytes": 2173,
+      "sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-06.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-006.png",
+      "bytes": 15792,
+      "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-61.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-061.png",
+      "bytes": 15070,
+      "sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-03.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-003.png",
+      "bytes": 16340,
+      "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-22.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-022.png",
+      "bytes": 17167,
+      "sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-65.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-065.png",
+      "bytes": 18574,
+      "sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-02.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-002.png",
+      "bytes": 16046,
+      "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-41.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-041.png",
+      "bytes": 1438,
+      "sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-35.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-035.png",
+      "bytes": 1437,
+      "sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-21.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-021.png",
+      "bytes": 16150,
+      "sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-56.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-056.png",
+      "bytes": 15282,
+      "sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-74.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-074.png",
+      "bytes": 17094,
+      "sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-77.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-077.png",
+      "bytes": 16210,
+      "sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-14.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-014.png",
+      "bytes": 16473,
+      "sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-71.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-071.png",
+      "bytes": 18558,
+      "sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-52.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-10.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-010.png",
+      "bytes": 16468,
+      "sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-31.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-031.png",
+      "bytes": 17995,
+      "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-27.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-027.png",
+      "bytes": 13949,
+      "sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-66.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-066.png",
+      "bytes": 18477,
+      "sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-18.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-018.png",
+      "bytes": 15963,
+      "sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-23.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-023.png",
+      "bytes": 16483,
+      "sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-58.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-058.png",
+      "bytes": 15178,
+      "sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-08.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-63.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-063.png",
+      "bytes": 15265,
+      "sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-11.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-011.png",
+      "bytes": 17444,
+      "sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/clips/frames/frame-15.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-015.png",
+      "bytes": 16454,
+      "sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/aseprite/dilophosaurus.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot/dilophosaurus-atlas-00.png",
+      "bytes": 942440,
+      "sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot/dilophosaurus-atlas-00.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot/dilophosaurus-atlas-00.png",
+      "bytes": 942440,
+      "sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-042.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-042.png",
+      "bytes": 2343,
+      "sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-053.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-053.png",
+      "bytes": 15117,
+      "sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-047.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-047.png",
+      "bytes": 1243,
+      "sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-003.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-003.png",
+      "bytes": 16340,
+      "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-041.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-041.png",
+      "bytes": 1438,
+      "sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-072.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-064.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-064.png",
+      "bytes": 18615,
+      "sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-065.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-065.png",
+      "bytes": 18574,
+      "sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-002.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-002.png",
+      "bytes": 16046,
+      "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-039.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-039.png",
+      "bytes": 886,
+      "sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-075.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-075.png",
+      "bytes": 16376,
+      "sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-061.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-061.png",
+      "bytes": 15070,
+      "sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-069.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-069.png",
+      "bytes": 18545,
+      "sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-028.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-028.png",
+      "bytes": 12976,
+      "sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-062.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-062.png",
+      "bytes": 15234,
+      "sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-024.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-024.png",
+      "bytes": 16302,
+      "sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-067.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-067.png",
+      "bytes": 18582,
+      "sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-021.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-021.png",
+      "bytes": 16150,
+      "sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-057.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-057.png",
+      "bytes": 15216,
+      "sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-005.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-005.png",
+      "bytes": 16142,
+      "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-014.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-014.png",
+      "bytes": 16473,
+      "sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-026.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-026.png",
+      "bytes": 15144,
+      "sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-017.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-017.png",
+      "bytes": 16033,
+      "sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-037.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-037.png",
+      "bytes": 2057,
+      "sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-051.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-051.png",
+      "bytes": 819,
+      "sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-045.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-045.png",
+      "bytes": 913,
+      "sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-030.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-076.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-076.png",
+      "bytes": 16536,
+      "sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-015.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-015.png",
+      "bytes": 16454,
+      "sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-008.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-012.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-012.png",
+      "bytes": 16604,
+      "sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-020.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-020.png",
+      "bytes": 16046,
+      "sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-044.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-044.png",
+      "bytes": 1421,
+      "sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-007.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-007.png",
+      "bytes": 16834,
+      "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-004.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-004.png",
+      "bytes": 16710,
+      "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-011.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-011.png",
+      "bytes": 17444,
+      "sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-059.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-059.png",
+      "bytes": 15085,
+      "sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-052.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-079.png",
+      "bytes": 14911,
+      "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-050.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-050.png",
+      "bytes": 1655,
+      "sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-077.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-077.png",
+      "bytes": 16210,
+      "sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-023.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-023.png",
+      "bytes": 16483,
+      "sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-034.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-034.png",
+      "bytes": 825,
+      "sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-066.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-066.png",
+      "bytes": 18477,
+      "sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-027.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-027.png",
+      "bytes": 13949,
+      "sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-022.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-022.png",
+      "bytes": 17167,
+      "sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-035.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-035.png",
+      "bytes": 1437,
+      "sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-033.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-033.png",
+      "bytes": 18042,
+      "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-009.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-009.png",
+      "bytes": 16629,
+      "sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-010.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-010.png",
+      "bytes": 16468,
+      "sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-025.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-025.png",
+      "bytes": 15735,
+      "sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-071.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-071.png",
+      "bytes": 18558,
+      "sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-006.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-006.png",
+      "bytes": 15792,
+      "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-068.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-068.png",
+      "bytes": 18498,
+      "sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-000.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-000.png",
+      "bytes": 17123,
+      "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-032.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-032.png",
+      "bytes": 16749,
+      "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-040.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-040.png",
+      "bytes": 836,
+      "sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-063.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-063.png",
+      "bytes": 15265,
+      "sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-078.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-078.png",
+      "bytes": 16273,
+      "sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-048.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-048.png",
+      "bytes": 2389,
+      "sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-060.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-060.png",
+      "bytes": 15113,
+      "sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-038.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-038.png",
+      "bytes": 1470,
+      "sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-043.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-043.png",
+      "bytes": 1989,
+      "sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-056.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-056.png",
+      "bytes": 15282,
+      "sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-058.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-058.png",
+      "bytes": 15178,
+      "sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-016.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-016.png",
+      "bytes": 16448,
+      "sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-046.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-046.png",
+      "bytes": 719,
+      "sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-055.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-055.png",
+      "bytes": 15266,
+      "sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-036.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-036.png",
+      "bytes": 2383,
+      "sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-013.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-013.png",
+      "bytes": 16830,
+      "sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-074.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-074.png",
+      "bytes": 17094,
+      "sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-001.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-001.png",
+      "bytes": 16553,
+      "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-018.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-018.png",
+      "bytes": 15963,
+      "sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-049.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-049.png",
+      "bytes": 2173,
+      "sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-029.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-029.png",
+      "bytes": 12104,
+      "sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-054.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-054.png",
+      "bytes": 15205,
+      "sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-070.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-070.png",
+      "bytes": 18560,
+      "sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-031.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-031.png",
+      "bytes": 17995,
+      "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-019.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-019.png",
+      "bytes": 15885,
+      "sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5"
+    },
+    {
+      "path": "work/characters/dilophosaurus/motion-v2/stage/godot_bundle/godot-sprite3d/frames/frame-073.png",
+      "canonical": "assets/dilophosaurus/godot_bundle/godot-sprite3d/frames/frame-073.png",
+      "bytes": 15993,
+      "sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e"
+    }
+  ]
+}

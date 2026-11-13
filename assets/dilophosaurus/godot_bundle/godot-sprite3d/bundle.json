@@ -1,0 +1,60 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d_bundle.v1",
+  "default_action": "idle",
+  "world_height": 0.96,
+  "world_height_max_drift": 0.0,
+  "pixel_size": 0.01,
+  "pixel_size_max_drift": 0.0,
+  "actions": {
+    "walk": {
+      "contract": "action-walk.json",
+      "loop": true,
+      "clip": "walk"
+    },
+    "attack_light": {
+      "contract": "action-attack_light.json",
+      "loop": false,
+      "clip": "attack_light"
+    },
+    "hit": {
+      "contract": "action-hit.json",
+      "loop": false,
+      "clip": "hit"
+    },
+    "ko": {
+      "contract": "action-ko.json",
+      "loop": false,
+      "clip": "ko"
+    },
+    "turn": {
+      "contract": "action-turn.json",
+      "loop": false,
+      "clip": "turn"
+    },
+    "air_slash_a_fx": {
+      "contract": "action-air_slash_a_fx.json",
+      "loop": false,
+      "clip": "air_slash_a_fx"
+    },
+    "air_slash_b_fx": {
+      "contract": "action-air_slash_b_fx.json",
+      "loop": false,
+      "clip": "air_slash_b_fx"
+    },
+    "air_slash_c_fx": {
+      "contract": "action-air_slash_c_fx.json",
+      "loop": false,
+      "clip": "air_slash_c_fx"
+    },
+    "idle": {
+      "contract": "action-idle.json",
+      "loop": true,
+      "clip": "idle"
+    },
+    "power_up": {
+      "contract": "action-power_up.json",
+      "loop": false,
+      "clip": "power_up"
+    }
+  }
+}

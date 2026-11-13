@@ -1,0 +1,19 @@
+{
+  "route": "built-in image_gen",
+  "intent": "generate",
+  "reference_roles": {
+    "docs/art-standards/t-rex-sharpness-reference.png": "style/sharpness",
+    "assets/spinosaurus/clips/frames/frame-00.png": "camera/style only"
+  },
+  "prompt_spec_file": "work/characters/dilophosaurus/master-review/prompt-v1.txt",
+  "saved_source": "work/characters/dilophosaurus/master-review/concept-v1.png",
+  "source_sha256": "d5eb0092d53ee207dc37c7723d2cc7ba6c1d67fe9fda47a65e139a25f1a78591",
+  "source_size_px": [
+    1536,
+    1024
+  ],
+  "master_sha256": "5c8fa448d1f4210bf06a7f6d148f315fde03d22deaf4cc076d45213b7f24138f",
+  "model": "not reported by built-in tool",
+  "cost": "not reported by built-in tool",
+  "warning": "doctor skills.install installed skills drifted from their install manifest(2changed):projectOwner overrides retained; no auto reinstall performed. Video route unavailable; no video requested."
+}

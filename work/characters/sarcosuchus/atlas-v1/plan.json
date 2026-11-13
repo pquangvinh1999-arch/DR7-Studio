@@ -1,0 +1,99 @@
+{
+  "status": "technical_verified_pending_owner",
+  "master": "work/characters/sarcosuchus/master-review/master-gameplay-v1.png",
+  "master_sha256": "8adeda8cbb99493640c296748c76cb05df7110cee909e43b84b844a5e8675ddc",
+  "body_actions": {
+    "idle": 12,
+    "walk": 8,
+    "attack_nomal": 8,
+    "power_up": 9,
+    "hit": 6,
+    "ko": 8,
+    "turn": 4
+  },
+  "ticks": {
+    "idle": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "walk": [
+      7,
+      8,
+      7,
+      8,
+      7,
+      8,
+      7,
+      8
+    ],
+    "attack_nomal": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      5,
+      5,
+      6
+    ],
+    "power_up": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6
+    ],
+    "hit": [
+      4,
+      4,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ko": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      15
+    ],
+    "turn": [
+      6,
+      4,
+      4,
+      6
+    ]
+  },
+  "facing": "side3/4+X, forwardfourlegwalk, bite+X, turnrightfrontleft20tick; nofakeflipintermediate",
+  "excluded": [
+    "run",
+    "jump",
+    "attack_heavy",
+    "aura_loop",
+    "guard",
+    "win"
+  ],
+  "power_up_owner_choice": "Bodyreleaseframe2;6FXleft-to-rightone-shot confirmed byOwner",
+  "source_fx": "source/power-up-owner.png",
+  "source_fx_sha256": "8c7f70a42344094cfce44ca961bc7ad2c72761cebe3061da985b3b74a1c8acde",
+  "source_FX_AI_redraw": false,
+  "art_source": "built-inimagegen new whole-bodyposes"
+}

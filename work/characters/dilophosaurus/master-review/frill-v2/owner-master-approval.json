@@ -1,0 +1,22 @@
+{
+  "status": "owner_approved_master_only",
+  "approved_at": "2026-11-13T03:44:31.893056+00:00",
+  "owner_message": "anh đã xem [Image #1] và những mẫu tương tự của bản v2, anh chốt demo và bắt đầu tạo atlas",
+  "master_path": "work/characters/dilophosaurus/master-review/frill-v2/master-gameplay-v2.png",
+  "master_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "body_with_frills_bbox_px": [
+    85,
+    128,
+    157,
+    96
+  ],
+  "scope": "Master appearance approved for new animation production. New atlas/motion not yet approved."
+}

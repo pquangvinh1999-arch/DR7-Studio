@@ -285,4 +285,35 @@
 - Đổi exporter --godot-fpsauto:timingbasis`ticks at60Hz`, relativedurations4/4 vàpower_up8/16/5/5/5/6/7/8. Godotverifiedtick0..59:charge0..5,launchframe2/tick24,fade5/6/7/0,hide40. Loop32Python/E2E+4Godotbundle+charge+2Rustexit0,WASM0,Chromium đủ6bodyclips/khôngruntimeerror,ZIPstandalone0. LogsởTasmanianatlas-v1/verification.
 - Pteranodonsize-sync mới cũng đượcsửa3fileexportmetadata/tres,cả474PNGpeer giữSHA. T-rexlegacy cócùngfractionaldurations nhưng ngoài phạmvi sửa nên ghiISS-TREX-TICK-LEGACY,khôngtựsửa hoặc báođãfix.
 
+### [LRN-039] Sarcosuchus — nền xanh không hết chỉ bằng ngưỡng khoảng cách màu
+- FX nguồn `image copy.png`690×159 có nềnRGB(0,128,0). Lần key đầu dùng max-channel delta>16 vàunmix các mép delta<48 vẫn để61/87pixel mép xanh ởsphere0; ví dụ Canvas(172,113)RGBA(9,121,48,218). Không nhận opaque_key_px=0 là đủ chứng minh sạchviền.
+- Sửa cho chính nguồn FXxanh/trắng này: giữ ownershipcomponent2D, pocket-first mask; với pixel nhiễmG>max(R,B), giải alpha=1−(G−max(R,B))/128 rồi unmixRGB bằng nền đã đo. Không áp công thức này choart cómàuxanh lá chủđích. Không AI redrawFX.
+- Kiểm chứng `verification/alpha-key-proof.json`: cả6sourceFX+1charge nhỏ cóopaque_key_px=0,pocket0,outer_ring_spill_fraction=0;55bodypose alpha100%. Regressiontest source FX xanh/trắng vàclock Godot46tick exit0; fullsuite35Python/E2E+5Godotbundle+2charge+2Rustexit0. Đây là QA kỹthuật, không thay Owner motion review.
+
+### [LRN-040] Full-FX envelope phải đo sau khi đặt FX theo contract
+- Union các PNGFX cópivotCanvas(176,128) trướcposition choSarcosuchus ra bbox(83,109,252,115); đó là toạđộlocalFX, không phải envelope gameplay.
+- Sửa installer chỉunionbody+composite46tickpower_up với chargeanchors/mouthrelease/velocitythật; `verification/gameplay-envelope.json` đo bbox(83,171,252,53). Đồngbộroster/QA/PPU64/tile32 từcùngkếtquả; không sửa PNG,timing hoặcpeerassets.
+
+### [LRN-041] Sarcosuchus — cầu phải fit khoảng mở hàm, không fit theo toàn thân
+- Owner báopower_up cầu che răng vàmất hoạtảnh mởmiệng. FXcũ max33×29px, điểmneo(237,202)/(239,190), phóng(244,194); phép đoROI miệng RGB sángcho10/24/28pixel răng/hàm bịphủ ởbody0/1/2. Alpha/key/tick đúng vẫn không đạt yêu cầu che khuất.
+- Sửa chỉFX:10pose/tick60Hz, width1→10px, alpha32→255, cựcđại10×9px; neo(236,201)/(239,193). LastchargePNG=firstlaunchPNG chínhxácRGBA, giữreleasebody2/tick10 và6sourceFXoneshot/TTL18. Không tăng cỡ lúcphóng;55bodyPNG/ticks/events và716peerfiles giữSHA,khôngAIredraw.
+- Kiểm chứng:teeth-overlap.json0pixelqua11mốc0..10 trongROI Canvas[228:253,182:210],RGB≥130/120/85; đây là chỉ báo răng sáng, không thay review bằngmắt. Mởfilmstrip/composite3nền;loop36Python/E2E+5Godotbundle+2chargetests+2Rustexit0,WASM0,GodotZIPstandalone0. Revisionmới vẫn chờOwnerHumanTest,khôngghiPIPE005.
+
+### [LRN-042] Dilophosaurus — cadence, torso anchor và white matte phải kiểm độc lập
+- Walk nguồn đầu8pose cóframe7bottomCanvas218 so vớiground224,bothfeetair vànhịp chân khôngđổivai trò. Không dùngpingpong/alpha/hold đểvá. Sinh lại nguyên8pose với plantedfoot mỗi pha; finalbottom223/224, near/farlegs đổi support qua nửa chu kỳ,0..7→0. Idle12pose đầu trôi tỷlệ giữa cácrow; thay bằng4wholepose thở nhẹ,giữ2speriod,khôngscale riêng chi/cổ.
+- Anchor dùngdark-onlyROI bịkéo theo bóng chân,rootwalk4=137.37 thay vì~215.87 khiếnbboxleft119/121pxvs85px. Thay bằngtorso silhouette centroid trongROIhip cốđịnh,calibrateoffset từpose0; finalbboxleft83..87,khôngcăn theoFX/frill/headbounds. Chỉ dịch nguyênpose,cùngscale/action,groundrowchung.
+- TurnnguồnwhiteRGB backgroundalpha8trêncorner,threshold128vẫngiữviềnpha trắng:turn1 có121/488boundarypixelminRGB>190. Generatedmattecleanup bằngimagegen trêntrọnsheet4pose giữcơthể, final1/560(cácvùngclaw/highlight đượcreviewbằngmắt); khôngerode mù hoặcghépchi đểgiấulỗi. Nativealpha/hash/tickđúng vẫnkhôngchứngminh sạchviền.
+- Kiểmchứng:39Python/E2E+6Godotbundle+3customticktests+2Rustexit0,WASM0;Godot88tickđúng3slash12/31/50,6tick/strike,sametarget,overrideglobal/local kểcảfacing. Chromium21action/backgroundsequences/88tickcontract0errors,ZIPstandalone0;909peerfileskhôngđổi. QA docs/characters/dilophosaurus-atlas-v1-qa.json. MotionnaturalnesspendingOwner,khôngPIPE006.
+
+### [LRN-043] Dilophosaurus — 60Hz không thay pose cadence; giữ turn khác stun
+- Owner xác nhận giữ `turn` để quay người. Chỉ sửa idle/power_up; walk/cắn/hit/ko/turn và18PNG FX giữ SHA/tick/event. Choáng theo quy trình là giữ pose hit và VFX đầu độc lập, không thêm clip thân khống chế. Chưa triển khai gameplay choáng trong task này.
+- Idle cũ4×30tick giữ500ms/pose. Bản sửa12×10tick giữ167ms/pose, vẫn120tick/vòng và idle0 đúng canonical. Power dùng8wholepose mang uốn nhỏ, lặp30bước×2tick trong cửa sổ8..68; prep/recovery tổng88tick và3slash12/31/50 không đổi. Không cắt/ghép đầu cố định hoặc warp mang. Guide toàn pose2×Nearest giữ footprint tốt hơn guide1× quá nhỏ; chỉ crop/register wholepose. Đầu trước còn dao động outline khoảng1px: ROI Canvas[228,128,19,49], bboxxmax245/246,ymin129/130,ymax173/174. Không nhận là pixel-locked hay Owner đã duyệt.
+- Build clip chạy nền phải chờ hoàn tất trước export: lần gọi export sớm báo `clips manifest not found`; sau build exit0, export lại exit0/1page76cell. Lượt browser đầu timeout vì kiểm đủ số pose được RAF quan sát: runtime có thể bỏ hiển thị pose33ms khi headless chậm dù timeline vẫn đúng. Tách trace đủ88tick/38index khỏi trace phát thật, ghi rõ skipped thay vì tuyên bố60FPS. Không tăng hold để che giới hạn renderer.
+- Kiểm chứng: loop.sh test40Python/E2E+6Godotbundle+3customticktests+2Rust exit0; WASMrelease0; ZIPGodotimport/bundle/power exit0. 909peerfile không đổi. Atlas mới3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157, canvas384×256,anchor176224,Nearest. Bằng chứng motion-v2/verification và docs/characters/dilophosaurus-motion-v2-qa.json. Bản sửa vẫn chờ Human Test; không ghi PIPE006.
+
+### [LRN-044] Dọn PNG upload ở gốc phải rà cả test và sidecar
+- Owner chỉ ra `image.png`/`image copy.png` và2`.import` còn sót sau chốt. Cua đã có source SHA2772a0e7e7b6cef7062cb47221c8c55b84d1311d19f0ee29b404a3745079c5ee trong `work/characters/tasmanian_king_crab/atlas-v1/source/power-orb-owner.png`; cá sấu có SHA8c7f70a42344094cfce44ca961bc7ad2c72761cebe3061da985b3b74a1c8acde trong `work/characters/sarcosuchus/atlas-v1/source/power-up-owner.png`. Hai ảnh gốc repo là duplicate, không phải nguồn duy nhất.
+- `tests/test_sarcosuchus_contract.py` vẫn đọc upload gốc. Đổi sang canonical source cùng SHA, cập nhật source-analysis giữ original_upload, rồi xóa2PNG và2sidecar liên quan (77817byte). Không xóa `.import` của texture runtime còn dùng. Rà orphan sidecar ngoài cache/build:0 trước dọn; nguồn chuẩn/master/runtime giữ nguyên.
+- Kiểm chứng sau dọn: loop.sh test41Python/E2E+6Godotbundle+3ticktests+2Rust exit0, WASMrelease0; báo cáo `docs/releases/v0.9.1-root-cleanup.json`. Bài học: chốt asset phải rà file upload ở root và đường dẫn kiểm thử, không chỉ stage PNG.
+
 <!-- LERNING_ENTRIES_END -->

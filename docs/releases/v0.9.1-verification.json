@@ -1,0 +1,84 @@
+{
+  "version": "0.9.1",
+  "owner_approved": true,
+  "atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
+  "HTTP_byte_parity": true,
+  "ZIP_byte_parity": true,
+  "zip_crc_ok": true,
+  "zip_files": 965,
+  "runtime_checks": {
+    "assets/dilophosaurus/godot_bundle/godot/dilophosaurus-atlas-00.png": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
+    "assets/dilophosaurus/godot_bundle/godot/dilophosaurus.tres": "a69d4809b0858a87e4d69f6d6f0e9edf098c28cdbaf8556b83b0b3a294ebbead",
+    "assets/dilophosaurus/godot_bundle/engine-export.json": "48f7dbe9208a34395114b90af8e344aa231ff93f946e546fcaee27626d9ac03b",
+    "assets/roster.json": "19e5fc0f17f21f4d205ff403d6b60b3b01ea98fd0f55023d3134719a7ff35a25"
+  },
+  "motion_quality_API": {
+    "ok_for_human_test": true,
+    "release_approved": true,
+    "characters": {
+      "spinosaurus": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "t_rex": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "pteranodon": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "tasmanian_king_crab": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "sarcosuchus": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      },
+      "dilophosaurus": {
+        "ok_for_human_test": true,
+        "release_approved": true,
+        "status": "owner_approved",
+        "errors": []
+      }
+    },
+    "errors": []
+  },
+  "workflow_id": "PIPE-006",
+  "PNG_cleanup": {
+    "count": 447,
+    "removed_duplicate_bytes": 13780675
+  },
+  "runtime_files_unchanged": 189,
+  "peer_files_unchanged": 909,
+  "technical_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 41,
+    "godot_bundles": 6,
+    "custom_godot_tick_tests": 3,
+    "rust_tests": 2,
+    "wasm_build_exit_code": 0
+  },
+  "cleanup_report": "docs/releases/v0.9.1-png-cleanup.json",
+  "approval_file": "assets/dilophosaurus/owner_approval.json",
+  "root_cleanup_report": "docs/releases/v0.9.1-root-cleanup.json",
+  "post_root_cleanup_tests": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 41,
+    "godot_bundles": 6,
+    "custom_godot_tick_tests": 3,
+    "rust_tests": 2,
+    "wasm_build_exit_code": 0
+  }
+}

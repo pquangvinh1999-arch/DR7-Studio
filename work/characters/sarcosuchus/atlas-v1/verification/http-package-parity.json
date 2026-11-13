@@ -1,0 +1,90 @@
+{
+  "bundle_count": 5,
+  "HTTP": {
+    "assets/sarcosuchus/godot_bundle/godot/sarcosuchus-atlas-00.png": "d9d9fa877440550e42746a71ea3affb307ea5a18ef9d7abe00c829344842888c",
+    "assets/sarcosuchus/godot_bundle/godot/sarcosuchus.tres": "8cc06ca429f310d68795e4cde18aa5a9bd035e7d2a7276ad31bafb90bbaee3a7",
+    "assets/sarcosuchus/godot_bundle/engine-export.json": "0f8ea32b736106fc8dd3aac27b1ba3542818639a4b410739e7ca72aa72385fd3",
+    "tools/preview/rust_combat_sim.wasm": "d5e29817cfa4539ca790f8654f5f2cc8228825ab6b51c5998aca44b5e9661429"
+  },
+  "zip_files": 762,
+  "zip_crc_ok": true,
+  "extracted_project": "/tmp/dr7-sarco-godot-7ulq_cv1",
+  "shared_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_nomal",
+      "power_up",
+      "hit",
+      "ko",
+      "turn"
+    ],
+    "effect_clips": [
+      "energy_charge_fx",
+      "energy_blast_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "charge": {
+      "body_clip": "power_up",
+      "effect_clip": "energy_charge_fx",
+      "release_frame": 2,
+      "origin_canvas_px_by_frame": [
+        [
+          237,
+          202
+        ],
+        [
+          239,
+          190
+        ]
+      ],
+      "clock": "body_ticks_before_release"
+    },
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "energy_blast_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 18,
+      "origin_canvas_px": [
+        244,
+        194
+      ],
+      "velocity_px_per_tick": [
+        4,
+        0
+      ]
+    },
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 20,
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true
+    }
+  },
+  "roster_envelope_matches": true
+}

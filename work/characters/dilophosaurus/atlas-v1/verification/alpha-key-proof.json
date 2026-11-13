@@ -1,0 +1,706 @@
+[
+  {
+    "file": "air_slash_a_fx_00.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 60.0,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_a_fx_01.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 77.36842105263158,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_a_fx_02.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 73.25301204819277,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_a_fx_03.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 75.06849315068493,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_a_fx_04.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 69.77777777777779,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_a_fx_05.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 61.53846153846154,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_b_fx_00.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 49.18032786885246,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_b_fx_01.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 70.0,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_b_fx_02.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 72.04819277108435,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_b_fx_03.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 75.98870056497175,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_b_fx_04.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 73.77777777777777,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_b_fx_05.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 62.22222222222222,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_c_fx_00.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 52.94117647058824,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_c_fx_01.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 66.66666666666666,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_c_fx_02.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 72.88135593220339,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_c_fx_03.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 74.67018469656992,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_c_fx_04.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 76.0,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "air_slash_c_fx_05.png",
+    "is_fx": true,
+    "visible_alpha_hardness_pct": 77.90697674418605,
+    "visible_key_pixels": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_key_fraction": 0.0
+  },
+  {
+    "file": "attack_light_00.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "attack_light_01.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "attack_light_02.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "attack_light_03.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "attack_light_04.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "attack_light_05.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "attack_light_06.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "attack_light_07.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "hit_00.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "hit_01.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "hit_02.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "hit_03.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "hit_04.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "hit_05.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_00.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_01.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_02.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_03.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_04.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_05.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_06.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_07.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_08.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_09.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_10.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "idle_11.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "ko_00.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "ko_01.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "ko_02.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "ko_03.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "ko_04.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "ko_05.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "ko_06.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "ko_07.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_00.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_01.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_02.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_03.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_04.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_05.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_06.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_07.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_08.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_09.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_10.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_11.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_12.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_13.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_14.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_15.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_16.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_17.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_18.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_19.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_20.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_21.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_22.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "power_up_23.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "turn_00.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "turn_01.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "turn_02.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "turn_03.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "walk_00.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "walk_01.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "walk_02.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "walk_03.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "walk_04.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "walk_05.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "walk_06.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  },
+  {
+    "file": "walk_07.png",
+    "is_fx": false,
+    "visible_alpha_hardness_pct": 100.0,
+    "visible_key_pixels": null,
+    "enclosed_key_pockets": null,
+    "outer_ring_key_fraction": null
+  }
+]

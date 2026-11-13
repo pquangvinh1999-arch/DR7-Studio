@@ -1,0 +1,144 @@
+{
+  "source": "work/characters/sarcosuchus/atlas-v1/source/power-up-owner.png",
+  "sha256": "8c7f70a42344094cfce44ca961bc7ad2c72761cebe3061da985b3b74a1c8acde",
+  "size_px": [
+    690,
+    159
+  ],
+  "key_rgba": [
+    0,
+    128,
+    0,
+    255
+  ],
+  "observed_visual_poses": 6,
+  "components_2d_dilation5x5": [
+    {
+      "label": 1,
+      "bbox_xywh": [
+        569,
+        43,
+        20,
+        14
+      ],
+      "pixels": 159
+    },
+    {
+      "label": 2,
+      "bbox_xywh": [
+        615,
+        43,
+        18,
+        18
+      ],
+      "pixels": 145
+    },
+    {
+      "label": 3,
+      "bbox_xywh": [
+        447,
+        45,
+        100,
+        74
+      ],
+      "pixels": 4433
+    },
+    {
+      "label": 5,
+      "bbox_xywh": [
+        617,
+        51,
+        50,
+        68
+      ],
+      "pixels": 611
+    },
+    {
+      "label": 6,
+      "bbox_xywh": [
+        327,
+        57,
+        70,
+        62
+      ],
+      "pixels": 3094
+    },
+    {
+      "label": 7,
+      "bbox_xywh": [
+        575,
+        59,
+        30,
+        34
+      ],
+      "pixels": 308
+    },
+    {
+      "label": 8,
+      "bbox_xywh": [
+        657,
+        59,
+        10,
+        14
+      ],
+      "pixels": 100
+    },
+    {
+      "label": 9,
+      "bbox_xywh": [
+        7,
+        61,
+        66,
+        58
+      ],
+      "pixels": 3016
+    },
+    {
+      "label": 10,
+      "bbox_xywh": [
+        87,
+        73,
+        96,
+        46
+      ],
+      "pixels": 3190
+    },
+    {
+      "label": 11,
+      "bbox_xywh": [
+        217,
+        73,
+        82,
+        46
+      ],
+      "pixels": 2945
+    },
+    {
+      "label": 13,
+      "bbox_xywh": [
+        199,
+        95,
+        8,
+        6
+      ],
+      "pixels": 39
+    },
+    {
+      "label": 14,
+      "bbox_xywh": [
+        577,
+        97,
+        32,
+        16
+      ],
+      "pixels": 191
+    }
+  ],
+  "mode": "source_analysis_owner_confirmed",
+  "proposed_fx_order": "left_to_right:orb,flight1,flight2,burst1,burst2,fade",
+  "proposed_release": "bodypower_up frame2 inheritedSpino",
+  "pending_question": null,
+  "owner_confirmed_power_up": "Release at body frame2 (zero based), source6FX left-to-right once",
+  "clarification_status": "answered",
+  "original_upload": "image copy.png"
+}

@@ -1,0 +1,707 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "art_source": "host_image",
+  "pixel_art": true,
+  "sampling": "nearest",
+  "body_height_px": 96,
+  "anchor_px": [
+    176,
+    224
+  ],
+  "shadow": {
+    "rx": 35,
+    "ry": 5,
+    "opacity": 0.3
+  },
+  "frames": [
+    {
+      "name": "walk_00",
+      "file": "raw_frames/walk_00.png"
+    },
+    {
+      "name": "walk_01",
+      "file": "raw_frames/walk_01.png"
+    },
+    {
+      "name": "walk_02",
+      "file": "raw_frames/walk_02.png"
+    },
+    {
+      "name": "walk_03",
+      "file": "raw_frames/walk_03.png"
+    },
+    {
+      "name": "walk_04",
+      "file": "raw_frames/walk_04.png"
+    },
+    {
+      "name": "walk_05",
+      "file": "raw_frames/walk_05.png"
+    },
+    {
+      "name": "walk_06",
+      "file": "raw_frames/walk_06.png"
+    },
+    {
+      "name": "walk_07",
+      "file": "raw_frames/walk_07.png"
+    },
+    {
+      "name": "attack_light_00",
+      "file": "raw_frames/attack_light_00.png"
+    },
+    {
+      "name": "attack_light_01",
+      "file": "raw_frames/attack_light_01.png"
+    },
+    {
+      "name": "attack_light_02",
+      "file": "raw_frames/attack_light_02.png"
+    },
+    {
+      "name": "attack_light_03",
+      "file": "raw_frames/attack_light_03.png"
+    },
+    {
+      "name": "attack_light_04",
+      "file": "raw_frames/attack_light_04.png"
+    },
+    {
+      "name": "attack_light_05",
+      "file": "raw_frames/attack_light_05.png"
+    },
+    {
+      "name": "attack_light_06",
+      "file": "raw_frames/attack_light_06.png"
+    },
+    {
+      "name": "attack_light_07",
+      "file": "raw_frames/attack_light_07.png"
+    },
+    {
+      "name": "hit_00",
+      "file": "raw_frames/hit_00.png"
+    },
+    {
+      "name": "hit_01",
+      "file": "raw_frames/hit_01.png"
+    },
+    {
+      "name": "hit_02",
+      "file": "raw_frames/hit_02.png"
+    },
+    {
+      "name": "hit_03",
+      "file": "raw_frames/hit_03.png"
+    },
+    {
+      "name": "hit_04",
+      "file": "raw_frames/hit_04.png"
+    },
+    {
+      "name": "hit_05",
+      "file": "raw_frames/hit_05.png"
+    },
+    {
+      "name": "ko_00",
+      "file": "raw_frames/ko_00.png"
+    },
+    {
+      "name": "ko_01",
+      "file": "raw_frames/ko_01.png"
+    },
+    {
+      "name": "ko_02",
+      "file": "raw_frames/ko_02.png"
+    },
+    {
+      "name": "ko_03",
+      "file": "raw_frames/ko_03.png"
+    },
+    {
+      "name": "ko_04",
+      "file": "raw_frames/ko_04.png"
+    },
+    {
+      "name": "ko_05",
+      "file": "raw_frames/ko_05.png"
+    },
+    {
+      "name": "ko_06",
+      "file": "raw_frames/ko_06.png"
+    },
+    {
+      "name": "ko_07",
+      "file": "raw_frames/ko_07.png"
+    },
+    {
+      "name": "turn_00",
+      "file": "raw_frames/turn_00.png"
+    },
+    {
+      "name": "turn_01",
+      "file": "raw_frames/turn_01.png"
+    },
+    {
+      "name": "turn_02",
+      "file": "raw_frames/turn_02.png"
+    },
+    {
+      "name": "turn_03",
+      "file": "raw_frames/turn_03.png"
+    },
+    {
+      "name": "air_slash_a_fx_00",
+      "file": "raw_frames/air_slash_a_fx_00.png"
+    },
+    {
+      "name": "air_slash_a_fx_01",
+      "file": "raw_frames/air_slash_a_fx_01.png"
+    },
+    {
+      "name": "air_slash_a_fx_02",
+      "file": "raw_frames/air_slash_a_fx_02.png"
+    },
+    {
+      "name": "air_slash_a_fx_03",
+      "file": "raw_frames/air_slash_a_fx_03.png"
+    },
+    {
+      "name": "air_slash_a_fx_04",
+      "file": "raw_frames/air_slash_a_fx_04.png"
+    },
+    {
+      "name": "air_slash_a_fx_05",
+      "file": "raw_frames/air_slash_a_fx_05.png"
+    },
+    {
+      "name": "air_slash_b_fx_00",
+      "file": "raw_frames/air_slash_b_fx_00.png"
+    },
+    {
+      "name": "air_slash_b_fx_01",
+      "file": "raw_frames/air_slash_b_fx_01.png"
+    },
+    {
+      "name": "air_slash_b_fx_02",
+      "file": "raw_frames/air_slash_b_fx_02.png"
+    },
+    {
+      "name": "air_slash_b_fx_03",
+      "file": "raw_frames/air_slash_b_fx_03.png"
+    },
+    {
+      "name": "air_slash_b_fx_04",
+      "file": "raw_frames/air_slash_b_fx_04.png"
+    },
+    {
+      "name": "air_slash_b_fx_05",
+      "file": "raw_frames/air_slash_b_fx_05.png"
+    },
+    {
+      "name": "air_slash_c_fx_00",
+      "file": "raw_frames/air_slash_c_fx_00.png"
+    },
+    {
+      "name": "air_slash_c_fx_01",
+      "file": "raw_frames/air_slash_c_fx_01.png"
+    },
+    {
+      "name": "air_slash_c_fx_02",
+      "file": "raw_frames/air_slash_c_fx_02.png"
+    },
+    {
+      "name": "air_slash_c_fx_03",
+      "file": "raw_frames/air_slash_c_fx_03.png"
+    },
+    {
+      "name": "air_slash_c_fx_04",
+      "file": "raw_frames/air_slash_c_fx_04.png"
+    },
+    {
+      "name": "air_slash_c_fx_05",
+      "file": "raw_frames/air_slash_c_fx_05.png"
+    },
+    {
+      "name": "idle_00",
+      "file": "raw_frames/idle_00.png"
+    },
+    {
+      "name": "idle_01",
+      "file": "raw_frames/idle_01.png"
+    },
+    {
+      "name": "idle_02",
+      "file": "raw_frames/idle_02.png"
+    },
+    {
+      "name": "idle_03",
+      "file": "raw_frames/idle_03.png"
+    },
+    {
+      "name": "idle_04",
+      "file": "raw_frames/idle_04.png"
+    },
+    {
+      "name": "idle_05",
+      "file": "raw_frames/idle_05.png"
+    },
+    {
+      "name": "idle_06",
+      "file": "raw_frames/idle_06.png"
+    },
+    {
+      "name": "idle_07",
+      "file": "raw_frames/idle_07.png"
+    },
+    {
+      "name": "idle_08",
+      "file": "raw_frames/idle_08.png"
+    },
+    {
+      "name": "idle_09",
+      "file": "raw_frames/idle_09.png"
+    },
+    {
+      "name": "idle_10",
+      "file": "raw_frames/idle_10.png"
+    },
+    {
+      "name": "idle_11",
+      "file": "raw_frames/idle_11.png"
+    },
+    {
+      "name": "power_wave_00",
+      "file": "raw_frames/power_wave_00.png"
+    },
+    {
+      "name": "power_wave_01",
+      "file": "raw_frames/power_wave_01.png"
+    },
+    {
+      "name": "power_wave_02",
+      "file": "raw_frames/power_wave_02.png"
+    },
+    {
+      "name": "power_wave_03",
+      "file": "raw_frames/power_wave_03.png"
+    },
+    {
+      "name": "power_wave_04",
+      "file": "raw_frames/power_wave_04.png"
+    },
+    {
+      "name": "power_wave_05",
+      "file": "raw_frames/power_wave_05.png"
+    },
+    {
+      "name": "power_wave_06",
+      "file": "raw_frames/power_wave_06.png"
+    },
+    {
+      "name": "power_wave_07",
+      "file": "raw_frames/power_wave_07.png"
+    },
+    {
+      "name": "power_prepare_0",
+      "file": "raw_frames/power_prepare_0.png"
+    },
+    {
+      "name": "power_prepare_1",
+      "file": "raw_frames/power_prepare_1.png"
+    },
+    {
+      "name": "power_recover_18",
+      "file": "raw_frames/power_recover_18.png"
+    },
+    {
+      "name": "power_recover_19",
+      "file": "raw_frames/power_recover_19.png"
+    },
+    {
+      "name": "power_recover_20",
+      "file": "raw_frames/power_recover_20.png"
+    },
+    {
+      "name": "power_recover_21",
+      "file": "raw_frames/power_recover_21.png"
+    },
+    {
+      "name": "power_recover_22",
+      "file": "raw_frames/power_recover_22.png"
+    },
+    {
+      "name": "power_recover_23",
+      "file": "raw_frames/power_recover_23.png"
+    }
+  ],
+  "clips": {
+    "walk": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "ticks": [
+        7,
+        8,
+        7,
+        8,
+        7,
+        8,
+        7,
+        8
+      ],
+      "loop_policy": "cycle",
+      "role": "player",
+      "events": []
+    },
+    "attack_light": {
+      "frames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 2,
+        "strike": 4,
+        "recover": 6,
+        "end": 7
+      },
+      "hitstop_ticks": 3,
+      "events": [
+        {
+          "name": "tell",
+          "at": 1
+        },
+        {
+          "name": "hit",
+          "at": 4
+        },
+        {
+          "name": "end",
+          "at": 7
+        }
+      ]
+    },
+    "hit": {
+      "frames": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "ticks": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "events": [
+        {
+          "name": "in",
+          "at": 0
+        },
+        {
+          "name": "end",
+          "at": 5
+        }
+      ]
+    },
+    "ko": {
+      "frames": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        15
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "events": [
+        {
+          "name": "in",
+          "at": 0
+        },
+        {
+          "name": "hold",
+          "at": 7
+        }
+      ]
+    },
+    "turn": {
+      "frames": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "ticks": [
+        6,
+        4,
+        4,
+        6
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "events": [
+        {
+          "name": "in",
+          "at": 0
+        },
+        {
+          "name": "end",
+          "at": 3
+        }
+      ]
+    },
+    "air_slash_a_fx": {
+      "frames": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "ticks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx",
+      "events": []
+    },
+    "air_slash_b_fx": {
+      "frames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "ticks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx",
+      "events": []
+    },
+    "air_slash_c_fx": {
+      "frames": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "ticks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx",
+      "events": []
+    },
+    "idle": {
+      "frames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "ticks": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "loop_policy": "cycle",
+      "role": "player"
+    },
+    "power_up": {
+      "frames": [
+        72,
+        73,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "ticks": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        5
+      ],
+      "loop_policy": "oneshot",
+      "role": "player",
+      "hitstop_ticks": 0,
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 2,
+        "strike": 4,
+        "recover": 32,
+        "end": 37
+      },
+      "events": [
+        {
+          "at": 1,
+          "name": "tell"
+        },
+        {
+          "at": 37,
+          "name": "end"
+        }
+      ]
+    }
+  },
+  "states": {
+    "idle": "idle",
+    "moving": "walk",
+    "attack": "attack_light",
+    "power": "power_up",
+    "hurt": "hit",
+    "dead": "ko",
+    "turn": "turn"
+  }
+}

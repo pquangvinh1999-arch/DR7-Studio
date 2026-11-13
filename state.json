@@ -1,9 +1,9 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-12T09:56:04.580977+00:00",
+  "updated_at": "2026-11-13T05:02:54.890069+00:00",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
-    "version": "0.7.0",
+    "version": "0.9.1",
     "version_history": [
       {
         "version": "0.1.0",
@@ -49,6 +49,26 @@
         "version": "0.7.0",
         "date": "2026-11-12T09:24:34.628136+00:00",
         "summary": "Tasmanian King Crab atlas demo:6bodyclips,normalclawdissolve,independentcharge/projectile orb6source+2bridge,releasebodyframe2. PendingOwnerHumanTest."
+      },
+      {
+        "version": "0.8.0",
+        "date": "2026-11-13T02:10:25.956385+00:00",
+        "summary": "Sarcosuchus demo:7bodyactions55poses, jaw bite,6sourceFX left-to-right once, mouth release bodyframe2/tick10. Pending Owner Human Test."
+      },
+      {
+        "version": "0.8.1",
+        "date": "2026-11-13T02:24:46.613561+00:00",
+        "summary": "Sarcosuchus power_up: progressive jaw-fit10x9px orb,10charge tick poses, identical size at launch; body/timing frozen. Owner review pending."
+      },
+      {
+        "version": "0.9.0",
+        "date": "2026-11-13T04:05:54.089146+00:00",
+        "summary": "Dilophosaurus atlas demo:7bodyactions,1secondphysicalfrillpulse,3same-targetslashangles. PendingOwnerHumanTest."
+      },
+      {
+        "version": "0.9.1",
+        "date": "2026-11-13T04:44:48.416845+00:00",
+        "summary": "Dilophosaurus idle/power motion correction; turn and all other clips/FX retained. Owner review pending."
       }
     ],
     "genre": "2D Dragon Ball Real-Time Mass Action / RPG",
@@ -89,9 +109,14 @@
     "version_file": "VERSION"
   },
   "current_focus": {
-    "active_task_id": "TASK-058",
-    "status": "completed",
-    "summary": "ĐãchốtTasmanian/PIPE004/receiptAtlas+TRES+PrefabSHA,v0.7.0;4charOwnerapproved. Ptera157x107,Tasma133x64,Spino157x74;Godot/local/ZIPđồngbộ.32Python/E2E+4Godotbundle+charge60tick+2Rustexit0,WASM0;HTTP/ZIPstandalone0. Release2d04bf9199fe24cc6fda49cf231380e9c1047a66đãpushmain;CI43195522136completed/success. LegacyT-rextickissueđãbáogiữnguyên. ChờOwnermôtảnhânvậttiếptheo."
+    "active_task_id": "TASK-063",
+    "status": "verified_ready_for_main_push",
+    "summary": "Owner requested push v0.9.1 session to main. Sarcosuchus PIPE005 and Dilophosaurus PIPE006 approved;6characters total. Removed2root duplicatePNGs+2.import, preserved canonicalSHA sources, fixed Sarco source regression test. loop41Python/E2E+6Godot+3ticktests+2Rust exit0,WASM0. Runtime/art/timing unchanged. Preparing release commit and main push.",
+    "concept_file": "work/characters/dilophosaurus/concept.json",
+    "review_image": "work/characters/dilophosaurus/master-review/frill-v2/comparison-checker.png",
+    "atlas_plan": "work/characters/dilophosaurus/atlas-v1/plan.json",
+    "preview_url": "http://localhost:8080/?character=dilophosaurus&clip=power_up&frame=0&paused=1",
+    "qa_report": "docs/characters/dilophosaurus-motion-v2-qa.json"
   },
   "open_issues": [
     {
@@ -475,6 +500,48 @@
       "timestamp": "2026-11-12T09:56:04.580977+00:00",
       "status": "completed",
       "summary": "ĐãchốtTasmanian/PIPE004/receiptAtlas+TRES+PrefabSHA,v0.7.0;4charOwnerapproved. Ptera157x107,Tasma133x64,Spino157x74;Godot/local/ZIPđồngbộ.32Python/E2E+4Godotbundle+charge60tick+2Rustexit0,WASM0;HTTP/ZIPstandalone0. Release2d04bf9199fe24cc6fda49cf231380e9c1047a66đãpushmain;CI43195522136completed/success. LegacyT-rextickissueđãbáogiữnguyên. ChờOwnermôtảnhânvậttiếptheo."
+    },
+    {
+      "id": "TASK-059",
+      "timestamp": "2026-11-13T01:08:42.749425+00:00",
+      "status": "master_ready_for_owner_review",
+      "summary": "Sarcosuchusmasterdemo đãsinhbuilt-inimagegen,readyOwnerreview. Chuẩnnguồn1536x1024→wholeposeNearest157x34 trên384x256,anchor176224,darktorso root835nguồn,alpha100%,Sobel254.471đothực/khôngép scalar. Mốcwidth157bằngSpino theoaxisOwnerđãchốt; giữnaturallowcroc,heightkhôngép74. SHA8adeda8cbb99493640c296748c76cb05df7110cee909e43b84b844a5e8675ddc. Đãmở3boardlight/dark/checkerở1x/2xNearest. Nét/nhận diệnpendingOwner;khôngclip/atlas/roster/bundle/skillsPIPE mới. 4charapprovedgiữ nguyên."
+    },
+    {
+      "id": "TASK-060",
+      "timestamp": "2026-11-13T02:58:41.997729+00:00",
+      "status": "completed",
+      "summary": "Đã chốt Sarcosuchus power-up-v2/v0.8.1 theo Owner Human Test; PIPE005/receipt atlas+TRES+prefab+manifest+runtimeSHA, frozen-source approved-final-frames.7bodyactions55poses+16FX/9clips, atlas3494x2082/69cells, cầu10x9progressive/same-size launch body2tick10. loop36Python/E2E+5Godotbundles+2charge+2Rust exit0,WASM0,HTTP/ZIPcurrent owner_approved/release_approved true;168runtimefiles +716peerfiles giữSHA. Sẵn sàng nhận nhân vật mới."
+    },
+    {
+      "id": "TASK-061",
+      "timestamp": "2026-11-13T03:03:58.848179+00:00",
+      "status": "master_ready_for_owner_review",
+      "summary": "Dilophosaurus staticmasterdemo generated built-inimagegen; proposed157x89px,camera3/4+X,canvas384x256,anchor176224,bbox85/135/157/89,hardbodyalpha100%,measuredSobel343.49(no scalarforcing). Paired red crests,mossgreen leanbiped,longtail. Openedlight/dark/checker1x/2xboards. MasterSHA5c8fa448d1f4210bf06a7f6d148f315fde03d22deaf4cc076d45213b7f24138f. Ownerstyle/sizeapprovalpending; noatlas/animation/roster.5approvedatlasesunchanged."
+    },
+    {
+      "id": "TASK-061",
+      "timestamp": "2026-11-13T03:17:52.243872+00:00",
+      "status": "frill_revision_ready_for_owner_review",
+      "summary": "Dilophosaurusfrill-v2 staticmaster edited bybuilt-inimagegen:Owneracceptedbaseappearance andrequested2neckfrillsfromimage.png. Addedpairedyellow/orange/scallopedfrillsnear/far; previousscale/root/groundfixed. Measured157x96px,bbox85/128/157/96,canvas384x256,anchor176224,alpha100%,Sobel368.345(no scalarforcing),SHA93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8. Opened3backgrounds1x/2xcomparisons. Noanimation/atlas/roster;5approvedatlasSHAunchanged. RevisedmasterpendingOwner."
+    },
+    {
+      "id": "TASK-061",
+      "timestamp": "2026-11-13T04:11:28.757569+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Dilophosaurus atlasdemo v0.9.0 ready:7bodyactions/62wholeposes+18source-derivedFXphases,10clips,80refs/76cells/1page3494x2342,Nearest60Hz. Master157x96/anchor176224. power88ticks:prep8,active60(1s),recover20;frillsphysicalpulse,mouthwide/forwardreach.3slashes12/31/50ticks6each,angles-40/+35/-70,sametarget320168;nofrill/bodyemission/travel. Runtimeenemy-targetoverride worksGodotglobal/local(includingflip) andJS. loop39Python/E2E+6Godotbundle+3ticktests+2Rust exit0,WASM0,Chromium21sequences/88ticks0errors,HTTP/ZIPstandalone0.909peerfilesunchanged. Owner atlasHumanTestpending;noPIPE006."
+    },
+    {
+      "id": "TASK-062",
+      "timestamp": "2026-11-13T04:58:52.847863+00:00",
+      "status": "completed",
+      "summary": "Dilophosaurus Owner-approved motion-v2/v0.9.1, PIPE-006;7bodyactions+3FX,turn retained.189runtimefile hashes unchanged,909peerfiles unchanged. Frozen final frames and receipt. Cleanup447byte-identical stagePNGs/13780675bytes; master/source/review preserved. loop41Python/E2E+6Godotbundle+3ticktests+2Rust exit0,WASM0,HTTP/ZIPparity and all6release_approved=true. Ready for next Owner character; no new art or timing edits."
+    },
+    {
+      "id": "TASK-063",
+      "timestamp": "2026-11-13T05:02:54.890069+00:00",
+      "status": "verified_ready_for_main_push",
+      "summary": "Owner requested push v0.9.1 session to main. Sarcosuchus PIPE005 and Dilophosaurus PIPE006 approved;6characters total. Removed2root duplicatePNGs+2.import, preserved canonicalSHA sources, fixed Sarco source regression test. loop41Python/E2E+6Godot+3ticktests+2Rust exit0,WASM0. Runtime/art/timing unchanged. Preparing release commit and main push."
     }
   ],
   "quick_resume_commands": [
@@ -483,23 +550,24 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "Chờ Owner mô tả nhân vật tiếp theo. Tasmanian đã nghiệm thu, không tự sửa art/timing. LegacyT-rex tick issue được ghi riêng, không tự mở rộng phạm vi.",
-    "asset_status": "Cả4nhânvật Ownerapproved; Tasmanian6bodyclips+2FX, Ptera157x107, Spino157x74,Tasma133x64.",
-    "approval_file": "assets/tasmanian_king_crab/owner_approval.json",
-    "cleanup_report": "docs/releases/v0.6.0-png-cleanup.json",
-    "verification": "docs/releases/v0.7.0-verification.json",
+    "next_action": "Finish verification and push approved v0.9.1 session plus root cleanup to origin/main.",
+    "asset_status": "6 nhân vật Owner-approved: t_rex,spinosaurus,pteranodon,tasmanian_king_crab,sarcosuchus,dilophosaurus.",
+    "approval_file": "assets/dilophosaurus/owner_approval.json",
+    "cleanup_report": "docs/releases/v0.9.1-root-cleanup.json",
+    "verification": "docs/releases/v0.9.1-verification.json",
     "git_checkpoint": {
       "branch": "main",
       "remote": "origin",
       "source_code_commit": "2d04bf9199fe24cc6fda49cf231380e9c1047a66",
       "ci_status": "success",
       "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43195522136",
-      "note": "Release source đãpush vàCIđạt; bản ghi handoff đượccommit tiếp. Xem git log/origin/main đểlấyHEADcuối."
+      "note": "Mốc main đã push gần nhất vẫn là v0.7.0; Sarcosuchus v0.8.1 được chốt trong workspace ở task này, chưa có commit/push mới."
     },
-    "active_character_concept": "docs/characters/tasmanian-king-crab-atlas-v1.md",
-    "review_evidence": "work/characters/tasmanian_king_crab/atlas-v1/review/keyframe-review.json",
-    "latest_delivery": "assets/tasmanian_king_crab/godot_bundle",
-    "preview_url": "http://localhost:8080/?character=tasmanian_king_crab&clip=power_up&frame=0&paused=1"
+    "active_character_concept": "work/characters/dilophosaurus/concept.json",
+    "review_evidence": "work/characters/dilophosaurus/motion-v2/review/keyframe-review.json",
+    "latest_delivery": "assets/dilophosaurus/godot_bundle",
+    "preview_url": "http://localhost:8080/?character=dilophosaurus&clip=power_up&frame=0&paused=1",
+    "local_version": "0.9.1"
   },
   "approved_workflows": [
     {
@@ -533,6 +601,22 @@
       "approved_at": "2026-11-12T09:51:08.495780+00:00",
       "approval_file": "assets/tasmanian_king_crab/owner_approval.json",
       "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1"
+    },
+    {
+      "id": "PIPE-005",
+      "character_id": "sarcosuchus",
+      "display_name": "Sarcosuchus",
+      "approved_at": "2026-11-13T02:57:36.459561+00:00",
+      "approval_file": "assets/sarcosuchus/owner_approval.json",
+      "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951"
+    },
+    {
+      "id": "PIPE-006",
+      "character_id": "dilophosaurus",
+      "display_name": "Dilophosaurus",
+      "approved_at": "2026-11-13T04:57:15.924909+00:00",
+      "approval_file": "assets/dilophosaurus/owner_approval.json",
+      "atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157"
     }
   ],
   "owner_defaults": {
@@ -552,6 +636,27 @@
       "reference_sobel": 245.516,
       "scope": "Owner-selected sharpness standard for future characters; animation approval independent"
     },
-    "character_identity_rule": "One canonical identity master/SHA per character for every action. Rejected-action artwork is motion guide only; compare proportions/palette/shading independently from sharpness/motion. character_identity=false blocks delivery."
+    "character_identity_rule": "One canonical identity master/SHA per character for every action. Rejected-action artwork is motion guide only; compare proportions/palette/shading independently from sharpness/motion. character_identity=false blocks delivery.",
+    "adverse_status_effects": {
+      "body_clips": "Do not add separate crowd-control/stun body animations.",
+      "stun": "Freeze a suitable existing hit pose; independently clocked VFX above head; end by status duration.",
+      "turn_meaning": "Facing-change transition, not stun/control.",
+      "scope": "All existing and future characters; current task records the policy, no new gameplay effect implementation claimed."
+    },
+    "turn_policy": "Keep existing turn for authored facing rotation; explicitly confirmed by Owner. It is not stun. No removal."
+  },
+  "session_bootstrap": {
+    "loaded_at": "2026-11-13T01:01:44.309572+00:00",
+    "status": "ready_for_owner_request",
+    "read_files": [
+      "AGENTS.md",
+      "state.json",
+      "skills.md",
+      "lerning.md",
+      ".agents/skills/dr7-governance/SKILL.md",
+      ".agents/skills/create_atlas/SKILL.md"
+    ],
+    "status_command_exit_code": 0,
+    "instruction_precedence": "Hiến pháp Owner cung cấp trong phiên hiện tại ưu tiên ghi chép engine_evaluation cũ trong state.json; chưa thay đổi kiến trúc hoặc asset."
   }
 }

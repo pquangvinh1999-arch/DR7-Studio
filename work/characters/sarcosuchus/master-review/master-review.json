@@ -1,0 +1,66 @@
+{
+  "status": "master_pending_owner",
+  "art_source": "built-in imagegen",
+  "source": "work/characters/sarcosuchus/master-review/concept-v1.png",
+  "source_sha256": "9d52bbb5b0a41def0e7c88f9eee3de7238076c9cfdf635de160cb91c869ca6e5",
+  "source_canvas_size_px": [
+    1536,
+    1024
+  ],
+  "source_alpha_range": [
+    0,
+    254
+  ],
+  "source_alpha_binarization_threshold": 128,
+  "source_subject_bbox_xyxy": [
+    41,
+    586,
+    1482,
+    902
+  ],
+  "source_root_x": 835.0,
+  "root_detector": "Median darkRGBmax<80 in largest dense-body column interval; density threshold0.6*95thpercentile column occupancy. Used only for whole-pose registration, not to repaint art.",
+  "body_scale": 0.10895211658570438,
+  "sampled_buffer_size_px": [
+    157,
+    34
+  ],
+  "source_aspect_preserved": "Whole-pose uniform scale, outputheight rounded to a whole pixel; silhouettewidth measured afterNearest. No per-axis stretch or limb/part editing.",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "metrics": {
+    "file": "/workspaces/DR7-Studio/work/characters/sarcosuchus/master-review/master-gameplay-v1.png",
+    "file_sha256": "8adeda8cbb99493640c296748c76cb05df7110cee909e43b84b844a5e8675ddc",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      89,
+      190,
+      157,
+      34
+    ],
+    "visible_pixels": 2943,
+    "rgb_colors": 2651,
+    "edge_acutance_sobel": 254.471,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 1.0,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  "size_rule": "Spinosaurus idle0 width157px; preserve Sarcosuchus lower natural aspect.",
+  "limits": [
+    "Static master only; no animation/atlas/roster admission.",
+    "Sobel measured but not forced to match a scalar; perceivedfinish/anatomy pendingOwner.",
+    "Game palette is an artistic choice, not a claim of palaeocolour."
+  ]
+}

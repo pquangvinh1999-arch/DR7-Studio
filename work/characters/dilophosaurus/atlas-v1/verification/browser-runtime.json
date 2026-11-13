@@ -1,0 +1,1173 @@
+{
+  "tickTrace": [
+    {
+      "tick": 0,
+      "body": 0,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 1,
+      "body": 0,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 2,
+      "body": 0,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 3,
+      "body": 0,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 4,
+      "body": 1,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 5,
+      "body": 1,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 6,
+      "body": 1,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 7,
+      "body": 1,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 8,
+      "body": 2,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 9,
+      "body": 2,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 10,
+      "body": 2,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 11,
+      "body": 2,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 12,
+      "body": 3,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 1555,
+        "y": 1563
+      }
+    },
+    {
+      "tick": 13,
+      "body": 3,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 1943,
+        "y": 1563
+      }
+    },
+    {
+      "tick": 14,
+      "body": 3,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 2331,
+        "y": 1563
+      }
+    },
+    {
+      "tick": 15,
+      "body": 3,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 2719,
+        "y": 1563
+      }
+    },
+    {
+      "tick": 16,
+      "body": 4,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 3107,
+        "y": 1563
+      }
+    },
+    {
+      "tick": 17,
+      "body": 4,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 3,
+        "y": 1823
+      }
+    },
+    {
+      "tick": 18,
+      "body": 4,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 19,
+      "body": 4,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 20,
+      "body": 5,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 21,
+      "body": 5,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 22,
+      "body": 5,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 23,
+      "body": 6,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 24,
+      "body": 6,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 25,
+      "body": 6,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 26,
+      "body": 6,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 27,
+      "body": 7,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 28,
+      "body": 7,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 29,
+      "body": 7,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 30,
+      "body": 7,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 31,
+      "body": 8,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 391,
+        "y": 1823
+      }
+    },
+    {
+      "tick": 32,
+      "body": 8,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 779,
+        "y": 1823
+      }
+    },
+    {
+      "tick": 33,
+      "body": 8,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 1167,
+        "y": 1823
+      }
+    },
+    {
+      "tick": 34,
+      "body": 8,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 1555,
+        "y": 1823
+      }
+    },
+    {
+      "tick": 35,
+      "body": 9,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 1943,
+        "y": 1823
+      }
+    },
+    {
+      "tick": 36,
+      "body": 9,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 2331,
+        "y": 1823
+      }
+    },
+    {
+      "tick": 37,
+      "body": 9,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 38,
+      "body": 10,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 39,
+      "body": 10,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 40,
+      "body": 10,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 41,
+      "body": 10,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 42,
+      "body": 11,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 43,
+      "body": 11,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 44,
+      "body": 11,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 45,
+      "body": 11,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 46,
+      "body": 12,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 47,
+      "body": 12,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 48,
+      "body": 12,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 49,
+      "body": 12,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 50,
+      "body": 13,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 2719,
+        "y": 1823
+      }
+    },
+    {
+      "tick": 51,
+      "body": 13,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 3107,
+        "y": 1823
+      }
+    },
+    {
+      "tick": 52,
+      "body": 13,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 3,
+        "y": 2083
+      }
+    },
+    {
+      "tick": 53,
+      "body": 14,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 391,
+        "y": 2083
+      }
+    },
+    {
+      "tick": 54,
+      "body": 14,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 779,
+        "y": 2083
+      }
+    },
+    {
+      "tick": 55,
+      "body": 14,
+      "layers": [
+        "Body",
+        "TargetSlash"
+      ],
+      "point": [
+        320,
+        168
+      ],
+      "rect": {
+        "x": 1167,
+        "y": 2083
+      }
+    },
+    {
+      "tick": 56,
+      "body": 14,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 57,
+      "body": 15,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 58,
+      "body": 15,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 59,
+      "body": 15,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 60,
+      "body": 15,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 61,
+      "body": 16,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 62,
+      "body": 16,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 63,
+      "body": 16,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 64,
+      "body": 16,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 65,
+      "body": 17,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 66,
+      "body": 17,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 67,
+      "body": 17,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 68,
+      "body": 18,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 69,
+      "body": 18,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 70,
+      "body": 18,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 71,
+      "body": 19,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 72,
+      "body": 19,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 73,
+      "body": 19,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 74,
+      "body": 20,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 75,
+      "body": 20,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 76,
+      "body": 20,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 77,
+      "body": 21,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 78,
+      "body": 21,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 79,
+      "body": 21,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 80,
+      "body": 22,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 81,
+      "body": 22,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 82,
+      "body": 22,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 83,
+      "body": 23,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 84,
+      "body": 23,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 85,
+      "body": 23,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 86,
+      "body": 23,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    },
+    {
+      "tick": 87,
+      "body": 23,
+      "layers": [
+        "Body"
+      ],
+      "rect": null
+    }
+  ],
+  "sequences": [
+    {
+      "bg": "light",
+      "clip": "idle",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "bg": "light",
+      "clip": "walk",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ]
+    },
+    {
+      "bg": "light",
+      "clip": "attack_light",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "bg": "light",
+      "clip": "power_up",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "bg": "light",
+      "clip": "hit",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "bg": "light",
+      "clip": "ko",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "bg": "light",
+      "clip": "turn",
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "bg": "dark",
+      "clip": "idle",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "bg": "dark",
+      "clip": "walk",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ]
+    },
+    {
+      "bg": "dark",
+      "clip": "attack_light",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "bg": "dark",
+      "clip": "power_up",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "bg": "dark",
+      "clip": "hit",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "bg": "dark",
+      "clip": "ko",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "bg": "dark",
+      "clip": "turn",
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "bg": "checker",
+      "clip": "idle",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    {
+      "bg": "checker",
+      "clip": "walk",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ]
+    },
+    {
+      "bg": "checker",
+      "clip": "attack_light",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "bg": "checker",
+      "clip": "power_up",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "bg": "checker",
+      "clip": "hit",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "bg": "checker",
+      "clip": "ko",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "bg": "checker",
+      "clip": "turn",
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "pageErrors": []
+}

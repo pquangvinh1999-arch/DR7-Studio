@@ -1,0 +1,49 @@
+{
+  "status": "frill_revision_pending_owner",
+  "art_source": "built-in imagegen edit",
+  "edit_target": "work/characters/dilophosaurus/master-review/concept-v1.png",
+  "frill_reference": "work/characters/dilophosaurus/master-review/image.png",
+  "reference_sha256": "4909294df2742040c820a6e24912bc21509c81d1e21cc81725316dea1cc3cb80",
+  "source_sha256": "bcdb41e526090e6e1d12f738cb9aecc8b13d4297271d461bb1d0f41618be2a4c",
+  "source_size_px": [
+    1536,
+    1024
+  ],
+  "source_alpha_threshold": 128,
+  "fixed_scale_from_v1": 0.13569576490924806,
+  "source_root_x": 807.0,
+  "source_ground_y": 895,
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "metrics": {
+    "file": "/workspaces/DR7-Studio/work/characters/dilophosaurus/master-review/frill-v2/master-gameplay-v2.png",
+    "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      85,
+      128,
+      157,
+      96
+    ],
+    "visible_pixels": 4205,
+    "rgb_colors": 3442,
+    "edge_acutance_sobel": 368.345,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.994980879541109,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  "limits": "Generated edit preserves visual identity and pose by reference; does not claim original body pixels remained byte-identical. No body-part cut/warp. Paired frill design is explicitly requested game styling. Master only; no animation/roster admission.",
+  "visual_review": "Opened comparison-light/dark/checker at1x and2xNearest; two attached neck lobes, larger near fan on screen-left of jaw, far fan visible above/right behind crests and below jaw. Jaw/teeth/chest/arms visible. Revised appearance pending Owner."
+}

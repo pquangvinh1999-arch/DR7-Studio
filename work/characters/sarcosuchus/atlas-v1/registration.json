@@ -1,0 +1,1487 @@
+[
+  {
+    "clip": "idle",
+    "index": 0,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      61,
+      211,
+      320,
+      268
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 268,
+    "source_anatomical_root_x": 204.52229299363057,
+    "canvas_bbox_xyxy": [
+      89,
+      190,
+      246,
+      224
+    ],
+    "whole_canonical_pose": true,
+    "body_part_transform": false,
+    "sha256": "8adeda8cbb99493640c296748c76cb05df7110cee909e43b84b844a5e8675ddc"
+  },
+  {
+    "clip": "idle",
+    "index": 1,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      444,
+      211,
+      704,
+      268
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 268,
+    "source_anatomical_root_x": 588.5222929936306,
+    "canvas_bbox_xyxy": [
+      88,
+      189,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "b43d1f7f27200dd4dd11b4752164635b21c37216f30d6f062ee0e8c164193d45"
+  },
+  {
+    "clip": "idle",
+    "index": 2,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      828,
+      211,
+      1088,
+      268
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 268,
+    "source_anatomical_root_x": 972.5222929936306,
+    "canvas_bbox_xyxy": [
+      88,
+      189,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "e5fe1fb6e046878c9e394af579cb47db4aa79a6d1b7787bd09551ae4087d6a0e"
+  },
+  {
+    "clip": "idle",
+    "index": 3,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      1212,
+      211,
+      1472,
+      268
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 268,
+    "source_anatomical_root_x": 1356.5222929936306,
+    "canvas_bbox_xyxy": [
+      88,
+      189,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "1a5d050fb4e90409ff48cf6f5326f2e4d1093122786d058086b9394ab7b42c20"
+  },
+  {
+    "clip": "idle",
+    "index": 4,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      5
+    ],
+    "source_bbox_xyxy": [
+      60,
+      532,
+      320,
+      590
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 590,
+    "source_anatomical_root_x": 204.52229299363057,
+    "canvas_bbox_xyxy": [
+      88,
+      189,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "863d65534cea8e9bb2242191e2e4774850f209544d5e93ca956a68133d6acee7"
+  },
+  {
+    "clip": "idle",
+    "index": 5,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      6
+    ],
+    "source_bbox_xyxy": [
+      444,
+      532,
+      704,
+      589
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 590,
+    "source_anatomical_root_x": 588.5222929936306,
+    "canvas_bbox_xyxy": [
+      88,
+      189,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "cb3f3b356f4b7750639a93ac71552c2805ae9ee7dea202933a1253c39d2236cc"
+  },
+  {
+    "clip": "idle",
+    "index": 6,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      7
+    ],
+    "source_bbox_xyxy": [
+      828,
+      532,
+      1088,
+      589
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 590,
+    "source_anatomical_root_x": 972.5222929936306,
+    "canvas_bbox_xyxy": [
+      88,
+      189,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "879d02c2b82d2cbe5c748bfb0015f5a7f341b0a40ea119f0c7340e59f692cbf4"
+  },
+  {
+    "clip": "idle",
+    "index": 7,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      8
+    ],
+    "source_bbox_xyxy": [
+      1212,
+      532,
+      1472,
+      589
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 590,
+    "source_anatomical_root_x": 1356.5222929936306,
+    "canvas_bbox_xyxy": [
+      88,
+      189,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "d500f5cb62f0ef6589509d2739af9bd31c06d406c2538c66c8b26108c8df6e7a"
+  },
+  {
+    "clip": "idle",
+    "index": 8,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      9
+    ],
+    "source_bbox_xyxy": [
+      60,
+      852,
+      320,
+      908
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 909,
+    "source_anatomical_root_x": 204.52229299363057,
+    "canvas_bbox_xyxy": [
+      88,
+      189,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "ee6acc063edd04e03bad5575c22977b6fa140b312c9e9ba7adeb9b3c56916ea0"
+  },
+  {
+    "clip": "idle",
+    "index": 9,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      10
+    ],
+    "source_bbox_xyxy": [
+      444,
+      852,
+      704,
+      909
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 909,
+    "source_anatomical_root_x": 588.5222929936306,
+    "canvas_bbox_xyxy": [
+      88,
+      189,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "d3602e262b40806b42cb5f87b1ab3bfed873ac798b0e328388e699849c6e3406"
+  },
+  {
+    "clip": "idle",
+    "index": 10,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      11
+    ],
+    "source_bbox_xyxy": [
+      828,
+      852,
+      1088,
+      909
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 909,
+    "source_anatomical_root_x": 972.5222929936306,
+    "canvas_bbox_xyxy": [
+      88,
+      189,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "3957f1e03408c0c15c7feb42ec1e44dde1fc3beccdd0abc2bb6ffdc428dd4534"
+  },
+  {
+    "clip": "idle",
+    "index": 11,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/idle.png",
+    "source_sha256": "4ccf014af62ba704c7d5679ecb0daf138fa53b5788c4b4f0bf1b33d5da058dbc",
+    "ownership_component_ids": [
+      12
+    ],
+    "source_bbox_xyxy": [
+      1212,
+      852,
+      1472,
+      909
+    ],
+    "shared_action_scale": 0.6061776061776062,
+    "shared_source_row_ground_y": 909,
+    "source_anatomical_root_x": 1356.5222929936306,
+    "canvas_bbox_xyxy": [
+      89,
+      189,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "96403c79e32ce1df44ffc8a26fc1e45380843bbb285287eb85511e5654872c30"
+  },
+  {
+    "clip": "walk",
+    "index": 0,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/walk.png",
+    "source_sha256": "aff1e979dc6c911ddfb68f5480dbe483bb05df8fde22dbe6373f23ae8ffbeec8",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      64,
+      212,
+      329,
+      270
+    ],
+    "shared_action_scale": 0.5924528301886792,
+    "shared_source_row_ground_y": 270,
+    "source_anatomical_root_x": 210.84713375796179,
+    "canvas_bbox_xyxy": [
+      89,
+      190,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "a564283e253f6f16302acece10271853fd599a1914c0067e56c7b6718b50cfa5"
+  },
+  {
+    "clip": "walk",
+    "index": 1,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/walk.png",
+    "source_sha256": "aff1e979dc6c911ddfb68f5480dbe483bb05df8fde22dbe6373f23ae8ffbeec8",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      445,
+      213,
+      713,
+      270
+    ],
+    "shared_action_scale": 0.5924528301886792,
+    "shared_source_row_ground_y": 270,
+    "source_anatomical_root_x": 594.8471337579617,
+    "canvas_bbox_xyxy": [
+      87,
+      190,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "1e0104dcf751e4e7c4ba30ebdd2b99a8b70b808737874796891e3a6a16540c73"
+  },
+  {
+    "clip": "walk",
+    "index": 2,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/walk.png",
+    "source_sha256": "aff1e979dc6c911ddfb68f5480dbe483bb05df8fde22dbe6373f23ae8ffbeec8",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      827,
+      213,
+      1097,
+      270
+    ],
+    "shared_action_scale": 0.5924528301886792,
+    "shared_source_row_ground_y": 270,
+    "source_anatomical_root_x": 978.8471337579617,
+    "canvas_bbox_xyxy": [
+      87,
+      190,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "a821f22c6c49fda9c68cba5654666db8b7217b9466637449111956fd6d12dbb0"
+  },
+  {
+    "clip": "walk",
+    "index": 3,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/walk.png",
+    "source_sha256": "aff1e979dc6c911ddfb68f5480dbe483bb05df8fde22dbe6373f23ae8ffbeec8",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      1212,
+      213,
+      1481,
+      270
+    ],
+    "shared_action_scale": 0.5924528301886792,
+    "shared_source_row_ground_y": 270,
+    "source_anatomical_root_x": 1362.8471337579617,
+    "canvas_bbox_xyxy": [
+      87,
+      190,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "e4a3205451ee56be8300149005b11663c675d103845de4513fa21009fd0a96c5"
+  },
+  {
+    "clip": "walk",
+    "index": 4,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/walk.png",
+    "source_sha256": "aff1e979dc6c911ddfb68f5480dbe483bb05df8fde22dbe6373f23ae8ffbeec8",
+    "ownership_component_ids": [
+      5
+    ],
+    "source_bbox_xyxy": [
+      57,
+      533,
+      329,
+      591
+    ],
+    "shared_action_scale": 0.5924528301886792,
+    "shared_source_row_ground_y": 591,
+    "source_anatomical_root_x": 210.84713375796179,
+    "canvas_bbox_xyxy": [
+      85,
+      190,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "df0209c67e000c3fb6b949c8e4e4cd1d6f9d2c029bbb784682ccc3da77fd2917"
+  },
+  {
+    "clip": "walk",
+    "index": 5,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/walk.png",
+    "source_sha256": "aff1e979dc6c911ddfb68f5480dbe483bb05df8fde22dbe6373f23ae8ffbeec8",
+    "ownership_component_ids": [
+      6
+    ],
+    "source_bbox_xyxy": [
+      441,
+      533,
+      713,
+      591
+    ],
+    "shared_action_scale": 0.5924528301886792,
+    "shared_source_row_ground_y": 591,
+    "source_anatomical_root_x": 594.8471337579617,
+    "canvas_bbox_xyxy": [
+      85,
+      190,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "3582f0b1e7935b341bb0b78bd7894431100c08d61de1fb6e287b123ce2ad287a"
+  },
+  {
+    "clip": "walk",
+    "index": 6,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/walk.png",
+    "source_sha256": "aff1e979dc6c911ddfb68f5480dbe483bb05df8fde22dbe6373f23ae8ffbeec8",
+    "ownership_component_ids": [
+      7
+    ],
+    "source_bbox_xyxy": [
+      823,
+      533,
+      1097,
+      591
+    ],
+    "shared_action_scale": 0.5924528301886792,
+    "shared_source_row_ground_y": 591,
+    "source_anatomical_root_x": 978.8471337579617,
+    "canvas_bbox_xyxy": [
+      84,
+      190,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "164fd7a7f3bb05bc3ccce4b7ca3588a31abfd530519dba8d29872fba891bd568"
+  },
+  {
+    "clip": "walk",
+    "index": 7,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/walk.png",
+    "source_sha256": "aff1e979dc6c911ddfb68f5480dbe483bb05df8fde22dbe6373f23ae8ffbeec8",
+    "ownership_component_ids": [
+      8
+    ],
+    "source_bbox_xyxy": [
+      1207,
+      533,
+      1481,
+      590
+    ],
+    "shared_action_scale": 0.5924528301886792,
+    "shared_source_row_ground_y": 591,
+    "source_anatomical_root_x": 1362.8471337579617,
+    "canvas_bbox_xyxy": [
+      84,
+      190,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "04251d431376dce5ffbd2e70664445ad40ceb0188e384e0965d7c3f33b0b7b1e"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 0,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/attack_nomal.png",
+    "source_sha256": "ed5a15429f2fed1a6bbf46bee3ceccd2a42db1b2d8790b0b86d0a6394df38934",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      49,
+      207,
+      342,
+      271
+    ],
+    "shared_action_scale": 0.5358361774744027,
+    "shared_source_row_ground_y": 271,
+    "source_anatomical_root_x": 211.36305732484075,
+    "canvas_bbox_xyxy": [
+      89,
+      190,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "c7da536e811ee513b5061825a123b9fe31918d1d4d0399217a8b803bca4325bb"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 1,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/attack_nomal.png",
+    "source_sha256": "ed5a15429f2fed1a6bbf46bee3ceccd2a42db1b2d8790b0b86d0a6394df38934",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      432,
+      207,
+      714,
+      271
+    ],
+    "shared_action_scale": 0.5358361774744027,
+    "shared_source_row_ground_y": 271,
+    "source_anatomical_root_x": 595.3630573248407,
+    "canvas_bbox_xyxy": [
+      88,
+      190,
+      240,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "41d8daae6d55a7ddee9c7e96ff41a7585fc34323a3c987612179a4fa3b0222f5"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 2,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/attack_nomal.png",
+    "source_sha256": "ed5a15429f2fed1a6bbf46bee3ceccd2a42db1b2d8790b0b86d0a6394df38934",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      815,
+      182,
+      1090,
+      271
+    ],
+    "shared_action_scale": 0.5358361774744027,
+    "shared_source_row_ground_y": 271,
+    "source_anatomical_root_x": 979.3630573248407,
+    "canvas_bbox_xyxy": [
+      88,
+      176,
+      235,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "73664fecc92562d736d4ff4a01814e431941a4e789026211dae3e92fff9e75d5"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 3,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/attack_nomal.png",
+    "source_sha256": "ed5a15429f2fed1a6bbf46bee3ceccd2a42db1b2d8790b0b86d0a6394df38934",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      1200,
+      193,
+      1493,
+      271
+    ],
+    "shared_action_scale": 0.5358361774744027,
+    "shared_source_row_ground_y": 271,
+    "source_anatomical_root_x": 1363.3630573248408,
+    "canvas_bbox_xyxy": [
+      88,
+      182,
+      245,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "74f07970348713c1ccdbfe178a156a9c597432c2b09f1258d0f99ad3b5d777b1"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 4,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/attack_nomal.png",
+    "source_sha256": "ed5a15429f2fed1a6bbf46bee3ceccd2a42db1b2d8790b0b86d0a6394df38934",
+    "ownership_component_ids": [
+      5
+    ],
+    "source_bbox_xyxy": [
+      49,
+      527,
+      349,
+      591
+    ],
+    "shared_action_scale": 0.5358361774744027,
+    "shared_source_row_ground_y": 591,
+    "source_anatomical_root_x": 211.36305732484075,
+    "canvas_bbox_xyxy": [
+      89,
+      190,
+      250,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "ed4a56340930806ad7a3a95a7790d0b734de342dabd939314a147d555ab97ae8"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 5,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/attack_nomal.png",
+    "source_sha256": "ed5a15429f2fed1a6bbf46bee3ceccd2a42db1b2d8790b0b86d0a6394df38934",
+    "ownership_component_ids": [
+      6
+    ],
+    "source_bbox_xyxy": [
+      433,
+      527,
+      725,
+      591
+    ],
+    "shared_action_scale": 0.5358361774744027,
+    "shared_source_row_ground_y": 591,
+    "source_anatomical_root_x": 595.3630573248407,
+    "canvas_bbox_xyxy": [
+      89,
+      190,
+      245,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "6736629c97daed6a295de73375b4ab2b56a033afcd3beb89730f317e583821d0"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 6,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/attack_nomal.png",
+    "source_sha256": "ed5a15429f2fed1a6bbf46bee3ceccd2a42db1b2d8790b0b86d0a6394df38934",
+    "ownership_component_ids": [
+      7
+    ],
+    "source_bbox_xyxy": [
+      817,
+      527,
+      1101,
+      591
+    ],
+    "shared_action_scale": 0.5358361774744027,
+    "shared_source_row_ground_y": 591,
+    "source_anatomical_root_x": 979.3630573248407,
+    "canvas_bbox_xyxy": [
+      89,
+      190,
+      241,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "decc436c2d2ce170078115221232c60bb622ed6e4f36078df939ad3e3caf467c"
+  },
+  {
+    "clip": "attack_nomal",
+    "index": 7,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/attack_nomal.png",
+    "source_sha256": "ed5a15429f2fed1a6bbf46bee3ceccd2a42db1b2d8790b0b86d0a6394df38934",
+    "ownership_component_ids": [
+      8
+    ],
+    "source_bbox_xyxy": [
+      1200,
+      528,
+      1493,
+      591
+    ],
+    "shared_action_scale": 0.5358361774744027,
+    "shared_source_row_ground_y": 591,
+    "source_anatomical_root_x": 1363.3630573248408,
+    "canvas_bbox_xyxy": [
+      88,
+      190,
+      245,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "73b012c926c73821fa57590dcc50d932493b6b17e0081a51ab19e7f7ddd7fdb2"
+  },
+  {
+    "clip": "power_up",
+    "index": 0,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/power_up.png",
+    "source_sha256": "e0f81696a393b7a01bc112df24cc7e095e74a5c47dc96147b7d32bcbf478eb69",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      42,
+      210,
+      333,
+      275
+    ],
+    "shared_action_scale": 0.5395189003436426,
+    "shared_source_row_ground_y": 275,
+    "source_anatomical_root_x": 203.25477707006368,
+    "canvas_bbox_xyxy": [
+      89,
+      189,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "0cbf596681a0b2f4565d6c6a3b20790e4753eb4fb417f38593b92203b8141822"
+  },
+  {
+    "clip": "power_up",
+    "index": 1,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/power_up.png",
+    "source_sha256": "e0f81696a393b7a01bc112df24cc7e095e74a5c47dc96147b7d32bcbf478eb69",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      426,
+      177,
+      719,
+      275
+    ],
+    "shared_action_scale": 0.5395189003436426,
+    "shared_source_row_ground_y": 275,
+    "source_anatomical_root_x": 587.2547770700637,
+    "canvas_bbox_xyxy": [
+      89,
+      171,
+      247,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "57e3017cfab9cca627f618b6e80427e4cae6fd672e3a48ed42bfed1220aab343"
+  },
+  {
+    "clip": "power_up",
+    "index": 2,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/power_up.png",
+    "source_sha256": "e0f81696a393b7a01bc112df24cc7e095e74a5c47dc96147b7d32bcbf478eb69",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      809,
+      188,
+      1116,
+      275
+    ],
+    "shared_action_scale": 0.5395189003436426,
+    "shared_source_row_ground_y": 275,
+    "source_anatomical_root_x": 971.2547770700637,
+    "canvas_bbox_xyxy": [
+      88,
+      177,
+      254,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "47b8da0a712e759cd9d7a67efa1f981936d8519855a6c2d4aa46114bfdccf79d"
+  },
+  {
+    "clip": "power_up",
+    "index": 3,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/power_up.png",
+    "source_sha256": "e0f81696a393b7a01bc112df24cc7e095e74a5c47dc96147b7d32bcbf478eb69",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      1194,
+      194,
+      1504,
+      275
+    ],
+    "shared_action_scale": 0.5395189003436426,
+    "shared_source_row_ground_y": 275,
+    "source_anatomical_root_x": 1355.2547770700637,
+    "canvas_bbox_xyxy": [
+      89,
+      180,
+      256,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "8a830254b38af117ca44f759400a167ed4a0e5f759bf667848faa35685533f9b"
+  },
+  {
+    "clip": "power_up",
+    "index": 4,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/power_up.png",
+    "source_sha256": "e0f81696a393b7a01bc112df24cc7e095e74a5c47dc96147b7d32bcbf478eb69",
+    "ownership_component_ids": [
+      5
+    ],
+    "source_bbox_xyxy": [
+      42,
+      528,
+      349,
+      595
+    ],
+    "shared_action_scale": 0.5395189003436426,
+    "shared_source_row_ground_y": 595,
+    "source_anatomical_root_x": 203.25477707006368,
+    "canvas_bbox_xyxy": [
+      89,
+      188,
+      255,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "f07fe20c48dae994daec084304ffabee4e250a50cd6bcd8a46846e82330b386a"
+  },
+  {
+    "clip": "power_up",
+    "index": 5,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/power_up.png",
+    "source_sha256": "e0f81696a393b7a01bc112df24cc7e095e74a5c47dc96147b7d32bcbf478eb69",
+    "ownership_component_ids": [
+      6
+    ],
+    "source_bbox_xyxy": [
+      426,
+      533,
+      722,
+      595
+    ],
+    "shared_action_scale": 0.5395189003436426,
+    "shared_source_row_ground_y": 595,
+    "source_anatomical_root_x": 587.2547770700637,
+    "canvas_bbox_xyxy": [
+      89,
+      191,
+      249,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "997c15d2fd8093b6da892a73ea37dd87cd2858ffa3c7fca0d4bf711f8cfb933b"
+  },
+  {
+    "clip": "power_up",
+    "index": 6,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/power_up.png",
+    "source_sha256": "e0f81696a393b7a01bc112df24cc7e095e74a5c47dc96147b7d32bcbf478eb69",
+    "ownership_component_ids": [
+      7
+    ],
+    "source_bbox_xyxy": [
+      810,
+      534,
+      1103,
+      595
+    ],
+    "shared_action_scale": 0.5395189003436426,
+    "shared_source_row_ground_y": 595,
+    "source_anatomical_root_x": 971.2547770700637,
+    "canvas_bbox_xyxy": [
+      89,
+      191,
+      247,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "d194efaa900a9d15fe8eaee756c1380a363c4e7b526296607aaf35dad267d293"
+  },
+  {
+    "clip": "power_up",
+    "index": 7,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/power_up.png",
+    "source_sha256": "e0f81696a393b7a01bc112df24cc7e095e74a5c47dc96147b7d32bcbf478eb69",
+    "ownership_component_ids": [
+      8
+    ],
+    "source_bbox_xyxy": [
+      1195,
+      535,
+      1486,
+      595
+    ],
+    "shared_action_scale": 0.5395189003436426,
+    "shared_source_row_ground_y": 595,
+    "source_anatomical_root_x": 1355.2547770700637,
+    "canvas_bbox_xyxy": [
+      90,
+      192,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "d54f5b57de1ad97fdca84793b6d247944d7ed06d13e3d280ae7893a7c9dc6a6c"
+  },
+  {
+    "clip": "power_up",
+    "index": 8,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/power_up.png",
+    "source_sha256": "e0f81696a393b7a01bc112df24cc7e095e74a5c47dc96147b7d32bcbf478eb69",
+    "ownership_component_ids": [
+      9
+    ],
+    "source_bbox_xyxy": [
+      43,
+      886,
+      333,
+      947
+    ],
+    "shared_action_scale": 0.5395189003436426,
+    "shared_source_row_ground_y": 947,
+    "source_anatomical_root_x": 203.25477707006368,
+    "canvas_bbox_xyxy": [
+      90,
+      191,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "0dd637eccb38a1cb5431cef9b9710fcc91f78857b0f31f9ad9f63d88ede70b3a"
+  },
+  {
+    "clip": "hit",
+    "index": 0,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/hit.png",
+    "source_sha256": "8d8380c9e59d8bf80a8db382da5aec578cdeb9346db3b7cde73fa87f9b901eef",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      50,
+      212,
+      335,
+      273
+    ],
+    "shared_action_scale": 0.5508771929824562,
+    "shared_source_row_ground_y": 274,
+    "source_anatomical_root_x": 207.92993630573247,
+    "canvas_bbox_xyxy": [
+      89,
+      190,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "bbe166d90ba6a97dd0527ac38b7576f0ef4bf333aec76f02dbe04eb957efd277"
+  },
+  {
+    "clip": "hit",
+    "index": 1,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/hit.png",
+    "source_sha256": "8d8380c9e59d8bf80a8db382da5aec578cdeb9346db3b7cde73fa87f9b901eef",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      430,
+      202,
+      703,
+      273
+    ],
+    "shared_action_scale": 0.5508771929824562,
+    "shared_source_row_ground_y": 274,
+    "source_anatomical_root_x": 591.9299363057324,
+    "canvas_bbox_xyxy": [
+      87,
+      185,
+      237,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "6d18adfc99caa6444de3df61a7d1e59a815e42e8b83d9a724dcf8c6fb6304c39"
+  },
+  {
+    "clip": "hit",
+    "index": 2,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/hit.png",
+    "source_sha256": "8d8380c9e59d8bf80a8db382da5aec578cdeb9346db3b7cde73fa87f9b901eef",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      815,
+      212,
+      1085,
+      274
+    ],
+    "shared_action_scale": 0.5508771929824562,
+    "shared_source_row_ground_y": 274,
+    "source_anatomical_root_x": 975.9299363057324,
+    "canvas_bbox_xyxy": [
+      87,
+      190,
+      236,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "107d379f43d1511a89eb555a7583d90affadd0bf1dcf74a83752bc54c519b8a1"
+  },
+  {
+    "clip": "hit",
+    "index": 3,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/hit.png",
+    "source_sha256": "8d8380c9e59d8bf80a8db382da5aec578cdeb9346db3b7cde73fa87f9b901eef",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      1197,
+      217,
+      1465,
+      274
+    ],
+    "shared_action_scale": 0.5508771929824562,
+    "shared_source_row_ground_y": 274,
+    "source_anatomical_root_x": 1359.9299363057326,
+    "canvas_bbox_xyxy": [
+      86,
+      193,
+      234,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "73bbe6d9f234b7df47cc04d218cc6d644d80cd0bedb8febc0944a7041bdf39c1"
+  },
+  {
+    "clip": "hit",
+    "index": 4,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/hit.png",
+    "source_sha256": "8d8380c9e59d8bf80a8db382da5aec578cdeb9346db3b7cde73fa87f9b901eef",
+    "ownership_component_ids": [
+      5
+    ],
+    "source_bbox_xyxy": [
+      48,
+      535,
+      331,
+      597
+    ],
+    "shared_action_scale": 0.5508771929824562,
+    "shared_source_row_ground_y": 597,
+    "source_anatomical_root_x": 207.92993630573247,
+    "canvas_bbox_xyxy": [
+      88,
+      190,
+      244,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "2783726250e442fdcfe5892ef9dabdfa2572f820a3131de638519e63e828e8d9"
+  },
+  {
+    "clip": "hit",
+    "index": 5,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/hit.png",
+    "source_sha256": "8d8380c9e59d8bf80a8db382da5aec578cdeb9346db3b7cde73fa87f9b901eef",
+    "ownership_component_ids": [
+      6
+    ],
+    "source_bbox_xyxy": [
+      433,
+      536,
+      719,
+      597
+    ],
+    "shared_action_scale": 0.5508771929824562,
+    "shared_source_row_ground_y": 597,
+    "source_anatomical_root_x": 591.9299363057324,
+    "canvas_bbox_xyxy": [
+      88,
+      190,
+      246,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "f2c8668dedee5c094f7a3c00725bce1f05629b4358b1e65bc27d0e437fc4520f"
+  },
+  {
+    "clip": "ko",
+    "index": 0,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/ko.png",
+    "source_sha256": "53b6ec8770aea02eb7ed9ddaa34c3ebdeeccae02c2e7249ffb7bd5471243a600",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      53,
+      216,
+      335,
+      288
+    ],
+    "shared_action_scale": 0.5567375886524822,
+    "shared_source_row_ground_y": 289,
+    "source_anatomical_root_x": 209.26751592356686,
+    "canvas_bbox_xyxy": [
+      89,
+      183,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "68b90ccbe493811982c93b87442e53822909ea384faa7dda153c1219e94c12b2"
+  },
+  {
+    "clip": "ko",
+    "index": 1,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/ko.png",
+    "source_sha256": "53b6ec8770aea02eb7ed9ddaa34c3ebdeeccae02c2e7249ffb7bd5471243a600",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      438,
+      216,
+      719,
+      288
+    ],
+    "shared_action_scale": 0.5567375886524822,
+    "shared_source_row_ground_y": 289,
+    "source_anatomical_root_x": 593.2675159235669,
+    "canvas_bbox_xyxy": [
+      90,
+      183,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "3d3df9e750b81030a526e95869afedc93145fe726fc89e733bbb5d5dce6a5467"
+  },
+  {
+    "clip": "ko",
+    "index": 2,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/ko.png",
+    "source_sha256": "53b6ec8770aea02eb7ed9ddaa34c3ebdeeccae02c2e7249ffb7bd5471243a600",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      819,
+      224,
+      1103,
+      288
+    ],
+    "shared_action_scale": 0.5567375886524822,
+    "shared_source_row_ground_y": 289,
+    "source_anatomical_root_x": 977.2675159235669,
+    "canvas_bbox_xyxy": [
+      88,
+      188,
+      246,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "a347c6bdfec15ef10add2dd5a6ea05c22bb6f50399e08f17c02af0b3a72d0f9e"
+  },
+  {
+    "clip": "ko",
+    "index": 3,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/ko.png",
+    "source_sha256": "53b6ec8770aea02eb7ed9ddaa34c3ebdeeccae02c2e7249ffb7bd5471243a600",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      1196,
+      232,
+      1489,
+      289
+    ],
+    "shared_action_scale": 0.5567375886524822,
+    "shared_source_row_ground_y": 289,
+    "source_anatomical_root_x": 1361.2675159235669,
+    "canvas_bbox_xyxy": [
+      84,
+      192,
+      247,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "ec01da678584be9802e93a47e933b4066b8400b483b6b330b357f954f2aac6f0"
+  },
+  {
+    "clip": "ko",
+    "index": 4,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/ko.png",
+    "source_sha256": "53b6ec8770aea02eb7ed9ddaa34c3ebdeeccae02c2e7249ffb7bd5471243a600",
+    "ownership_component_ids": [
+      5
+    ],
+    "source_bbox_xyxy": [
+      44,
+      555,
+      338,
+      611
+    ],
+    "shared_action_scale": 0.5567375886524822,
+    "shared_source_row_ground_y": 614,
+    "source_anatomical_root_x": 209.26751592356686,
+    "canvas_bbox_xyxy": [
+      84,
+      191,
+      248,
+      222
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "16988de4ed60448883bf29845df695e6b766d3747200f36e64bb45ede95e00d7"
+  },
+  {
+    "clip": "ko",
+    "index": 5,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/ko.png",
+    "source_sha256": "53b6ec8770aea02eb7ed9ddaa34c3ebdeeccae02c2e7249ffb7bd5471243a600",
+    "ownership_component_ids": [
+      6
+    ],
+    "source_bbox_xyxy": [
+      428,
+      557,
+      722,
+      612
+    ],
+    "shared_action_scale": 0.5567375886524822,
+    "shared_source_row_ground_y": 614,
+    "source_anatomical_root_x": 593.2675159235669,
+    "canvas_bbox_xyxy": [
+      84,
+      192,
+      248,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "9ef4f039d0b60583c4ce9da09f27b163961e759ce0dc133328bb9c4a8b1bdf19"
+  },
+  {
+    "clip": "ko",
+    "index": 6,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/ko.png",
+    "source_sha256": "53b6ec8770aea02eb7ed9ddaa34c3ebdeeccae02c2e7249ffb7bd5471243a600",
+    "ownership_component_ids": [
+      7
+    ],
+    "source_bbox_xyxy": [
+      811,
+      561,
+      1106,
+      613
+    ],
+    "shared_action_scale": 0.5567375886524822,
+    "shared_source_row_ground_y": 614,
+    "source_anatomical_root_x": 977.2675159235669,
+    "canvas_bbox_xyxy": [
+      83,
+      194,
+      248,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "742a91e53c1e0370080122e06dfa28b8ee40d7f50f018c63165e0fe6fc2357da"
+  },
+  {
+    "clip": "ko",
+    "index": 7,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/ko.png",
+    "source_sha256": "53b6ec8770aea02eb7ed9ddaa34c3ebdeeccae02c2e7249ffb7bd5471243a600",
+    "ownership_component_ids": [
+      8
+    ],
+    "source_bbox_xyxy": [
+      1196,
+      565,
+      1491,
+      614
+    ],
+    "shared_action_scale": 0.5567375886524822,
+    "shared_source_row_ground_y": 614,
+    "source_anatomical_root_x": 1361.2675159235669,
+    "canvas_bbox_xyxy": [
+      84,
+      197,
+      248,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "c7d1008d065cd52f0993c6f05f7993ad9fec3d45b14c10a2aec8be1b28282ffe"
+  },
+  {
+    "clip": "turn",
+    "index": 0,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/turn.png",
+    "source_sha256": "de6c8e21a4fbbc4769dda1638f95a6b6c199dec7d129dc51c7304c32ddf9617b",
+    "ownership_component_ids": [
+      3
+    ],
+    "source_bbox_xyxy": [
+      55,
+      219,
+      351,
+      288
+    ],
+    "shared_action_scale": 0.5304054054054054,
+    "shared_source_row_ground_y": 291,
+    "source_anatomical_root_x": 219.02547770700636,
+    "canvas_bbox_xyxy": [
+      89,
+      190,
+      246,
+      224
+    ],
+    "whole_canonical_pose": true,
+    "body_part_transform": false,
+    "sha256": "8adeda8cbb99493640c296748c76cb05df7110cee909e43b84b844a5e8675ddc"
+  },
+  {
+    "clip": "turn",
+    "index": 1,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/turn.png",
+    "source_sha256": "de6c8e21a4fbbc4769dda1638f95a6b6c199dec7d129dc51c7304c32ddf9617b",
+    "ownership_component_ids": [
+      2
+    ],
+    "source_bbox_xyxy": [
+      483,
+      202,
+      689,
+      290
+    ],
+    "shared_action_scale": 0.5304054054054054,
+    "shared_source_row_ground_y": 291,
+    "source_anatomical_root_x": 600,
+    "canvas_bbox_xyxy": [
+      114,
+      177,
+      223,
+      223
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "c39c33d86675c2e972a2e2765336cd19ba770afdf3e5fc50efc02ef075a7c887"
+  },
+  {
+    "clip": "turn",
+    "index": 2,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/turn.png",
+    "source_sha256": "de6c8e21a4fbbc4769dda1638f95a6b6c199dec7d129dc51c7304c32ddf9617b",
+    "ownership_component_ids": [
+      1
+    ],
+    "source_bbox_xyxy": [
+      884,
+      200,
+      1048,
+      291
+    ],
+    "shared_action_scale": 0.5304054054054054,
+    "shared_source_row_ground_y": 291,
+    "source_anatomical_root_x": 960,
+    "canvas_bbox_xyxy": [
+      136,
+      176,
+      223,
+      224
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "70ac40ee930d5e5200371db359e21f29cd01a1a6453a4a35f70ae4103eb46f8b"
+  },
+  {
+    "clip": "turn",
+    "index": 3,
+    "source_sheet": "work/characters/sarcosuchus/atlas-v1/generated/turn.png",
+    "source_sha256": "de6c8e21a4fbbc4769dda1638f95a6b6c199dec7d129dc51c7304c32ddf9617b",
+    "ownership_component_ids": [
+      4
+    ],
+    "source_bbox_xyxy": [
+      1188,
+      219,
+      1489,
+      288
+    ],
+    "shared_action_scale": 0.5304054054054054,
+    "shared_source_row_ground_y": 291,
+    "source_anatomical_root_x": 1322.2038216560509,
+    "canvas_bbox_xyxy": [
+      105,
+      186,
+      264,
+      222
+    ],
+    "whole_canonical_pose": false,
+    "body_part_transform": false,
+    "sha256": "acec1f871068f82848a81a1e228c2732990386df037394fce7596a2a8ae6315f"
+  }
+]

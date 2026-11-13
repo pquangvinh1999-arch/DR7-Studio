@@ -1,0 +1,11 @@
+{
+  "version": "0.8.1",
+  "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+  "owner_approved": true,
+  "release_approved": true,
+  "runtime_files_unchanged": 168,
+  "HTTP_byte_parity": true,
+  "ZIP_byte_parity": true,
+  "zip_files": 780,
+  "workflow_id": "PIPE-005"
+}

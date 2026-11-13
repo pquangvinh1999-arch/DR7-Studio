@@ -1,0 +1,318 @@
+{
+  "character_id": "dilophosaurus",
+  "status": "owner_approved",
+  "atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3494,
+          2342
+        ],
+        "cells": 76,
+        "clips": [
+          "walk",
+          "attack_light",
+          "hit",
+          "ko",
+          "turn",
+          "air_slash_a_fx",
+          "air_slash_b_fx",
+          "air_slash_c_fx",
+          "idle",
+          "power_up"
+        ]
+      }
+    ]
+  },
+  "frames": 80,
+  "clip_references": 102,
+  "map_sync_metrics": {
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "foot_anchor_px": [
+      176,
+      224
+    ],
+    "body_only_bbox_px": {
+      "x": 85,
+      "y": 128,
+      "w": 157,
+      "h": 96
+    },
+    "full_fx_bbox_px": {
+      "x": 54,
+      "y": 111,
+      "w": 291,
+      "h": 113
+    },
+    "reference_ppu_64": 64,
+    "world_size_at_64ppu_m": {
+      "body_w_m": 2.453,
+      "body_h_m": 1.5,
+      "aura_w_m": 4.547,
+      "aura_h_m": 1.766
+    },
+    "tile_32px_span": {
+      "body_tiles_w": 4.906,
+      "body_tiles_h": 3,
+      "full_fx_tiles_w": 9.094,
+      "full_fx_tiles_h": 3.531
+    }
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_light",
+      "hit",
+      "ko",
+      "turn",
+      "power_up"
+    ],
+    "effect_clips": [
+      "air_slash_a_fx",
+      "air_slash_b_fx",
+      "air_slash_c_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "projectile": null,
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 20,
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true
+    },
+    "target_slashes": {
+      "body_clip": "power_up",
+      "active_window_ticks": [
+        8,
+        68
+      ],
+      "default_target_canvas_px": [
+        320,
+        168
+      ],
+      "strikes": [
+        {
+          "at_tick": 12,
+          "angle_deg": -40,
+          "direction": "top_to_bottom",
+          "clip": "air_slash_a_fx",
+          "duration_ticks": 6
+        },
+        {
+          "at_tick": 31,
+          "angle_deg": 35,
+          "direction": "bottom_to_top",
+          "clip": "air_slash_b_fx",
+          "duration_ticks": 6
+        },
+        {
+          "at_tick": 50,
+          "angle_deg": -70,
+          "direction": "top_to_bottom",
+          "clip": "air_slash_c_fx",
+          "duration_ticks": 6
+        }
+      ],
+      "target_rule": "All three hit the same independently supplied enemy/dummy point; no body/frill emission, no travel.",
+      "target_override": "Godot set_slash_target_global or set_slash_target_canvas; browser options.targetCanvasPx.",
+      "angle_art": "Baked whole-FX rotations and directional alpha sweep, no body transforms."
+    }
+  },
+  "motion_quality": {
+    "status": "owner_approved",
+    "method": "imagegen_complete_body_keyframes",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true,
+      "head_stability": true,
+      "idle_cadence": true
+    },
+    "review_evidence": "work/characters/dilophosaurus/motion-v2/review/keyframe-review.json",
+    "owner_approved": true,
+    "unresolved_structural_failures": [],
+    "naturalness_verdict": "owner_approved",
+    "notes": "Only idle/power revised. Complete generated poses; no part slicing/patching. Active head shows residual1px outline/position variation, not pixel-locked. Large head/fan inflation removed; small membrane fold/edge changes repeated every16ticks. Owner must judge feel. Frozen other actions retain prior review by exact SHA. Owner subsequently accepted this entire revision; no image or timing changes during finalization.",
+    "filmstrips_opened": [
+      "filmstrip-idle.png",
+      "filmstrip-power_wave.png",
+      "filmstrip-power_up.png",
+      "head-front-eight-phases.png",
+      "filmstrip-power_up-composite.png"
+    ],
+    "backgrounds": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "previous_rejected_atlas_sha256": "c1f163930cade1d9d42a945a4a7c7b879c9ada2681f75cf768718a30fc96a5f0",
+    "head_limit_evidence": "work/characters/dilophosaurus/motion-v2/verification/head-front-stability.json",
+    "runtime_review": "21body/backgroundsequences observed,88tickdeterministictrace; see headless skipped-pose warning",
+    "idle_timing": {
+      "old_poses": 4,
+      "old_hold_ticks": 30,
+      "new_poses": 12,
+      "new_hold_ticks": 10,
+      "period_ticks": 120
+    },
+    "turn": "Keep unchanged by explicit Owner instruction",
+    "atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
+    "timing_proof": "verification/browser-runtime.json",
+    "approved_at": "2026-11-13T04:57:15.924909+00:00",
+    "owner_message": "dilophosaurus  đã xong chốt hoạt ảnh giúp anh tiếp thành theo qui trình để sang nhân vật tiếp theo",
+    "owner_feedback": "dilophosaurus  đã xong chốt hoạt ảnh giúp anh tiếp thành theo qui trình để sang nhân vật tiếp theo"
+  },
+  "technical_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 40,
+    "godot_bundles": 6,
+    "custom_godot_tick_tests": 3,
+    "rust_tests": 2,
+    "wasm_release_build_exit_code": 0,
+    "Godot_ticks_checked": 88,
+    "browser_fixed_ticks_checked": 88,
+    "browser_real_time_sequences": 21,
+    "browser_page_errors": [],
+    "HTTP_atlas_TRES_metadata_WASM_byte_parity": true,
+    "standalone_godot_checks": [
+      {
+        "name": "standalone-import",
+        "exit_code": 0
+      },
+      {
+        "name": "standalone-bundles",
+        "exit_code": 0
+      },
+      {
+        "name": "standalone-power",
+        "exit_code": 0
+      }
+    ]
+  },
+  "frozen_clips": [
+    "walk",
+    "attack_light",
+    "hit",
+    "ko",
+    "turn",
+    "air_slash_a_fx",
+    "air_slash_b_fx",
+    "air_slash_c_fx"
+  ],
+  "protected_peer_files_unchanged": 909,
+  "previous_owner_feedback": "Head/fans inflated rather than membranes undulating; idle held each pose500ms. Turn explicitly retained.",
+  "browser_observation": {
+    "mode": "Chromium headless SwiftShader",
+    "skipped_pose_observations": [
+      {
+        "bg": "light",
+        "clip": "power_up",
+        "skipped": [
+          3,
+          6,
+          9,
+          12,
+          15,
+          18,
+          21,
+          24,
+          27,
+          30
+        ]
+      },
+      {
+        "bg": "dark",
+        "clip": "power_up",
+        "skipped": [
+          3,
+          6,
+          9,
+          12,
+          15,
+          18,
+          21,
+          24,
+          30
+        ]
+      },
+      {
+        "bg": "checker",
+        "clip": "power_up",
+        "skipped": [
+          3,
+          6,
+          9,
+          12,
+          15,
+          18,
+          21,
+          24,
+          27,
+          30
+        ]
+      }
+    ],
+    "note": "RAF reached correct ends/loops but did not display every33ms power pose. Tick sampling covers every38bodyframe and all18slash ticks. This is not a60FPS rendering acceptance."
+  },
+  "warnings": [
+    "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 't_rex' hiện có 8 hoạt ảnh (idle, walk, run, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'sarcosuchus' hiện có 7 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'dilophosaurus' hiện có 7 hoạt ảnh (idle, walk, attack_light, hit, ko, turn, power_up); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Chromium headless real-time RAF skipped some power_up pose observations; exact indices in browser_observation. No60FPS claim."
+  ],
+  "preview_url": "http://localhost:8080/?character=dilophosaurus&clip=power_up&frame=0&paused=1",
+  "head_limit": "Active head still has1px outline/position variation in front-head ROI. No large scale pumping; not pixel-identical.",
+  "review_evidence": "work/characters/dilophosaurus/motion-v2/review",
+  "verification_evidence": "work/characters/dilophosaurus/motion-v2/verification",
+  "owner_approval_file": "assets/dilophosaurus/owner_approval.json",
+  "approved_at": "2026-11-13T04:57:15.924909+00:00",
+  "owner_message": "dilophosaurus  đã xong chốt hoạt ảnh giúp anh tiếp thành theo qui trình để sang nhân vật tiếp theo",
+  "finalization_verification": "docs/releases/v0.9.1-verification.json",
+  "finalization_tests": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 41,
+    "godot_bundles": 6,
+    "custom_godot_tick_tests": 3,
+    "rust_tests": 2,
+    "wasm_build_exit_code": 0
+  }
+}

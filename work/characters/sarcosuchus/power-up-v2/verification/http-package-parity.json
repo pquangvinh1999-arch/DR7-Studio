@@ -1,0 +1,91 @@
+{
+  "bundle_count": 5,
+  "HTTP": {
+    "assets/sarcosuchus/godot_bundle/godot/sarcosuchus-atlas-00.png": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+    "assets/sarcosuchus/godot_bundle/godot/sarcosuchus.tres": "4c18caf3d32edbbc7dfc3fabf9d3b981fd19157dab5afb372e174af2dfd14a61",
+    "assets/sarcosuchus/godot_bundle/engine-export.json": "6481023cbe09988f237a2e46849e793fadd35745939bf16671a537d034312f6f",
+    "tools/preview/rust_combat_sim.wasm": "89e690b0748ec52dcedca10eff7e209e239b8832fb2639dc46eac56e26b2f332"
+  },
+  "zip_files": 780,
+  "zip_crc_ok": true,
+  "extracted_project": "/tmp/dr7-sarco-v2-godot-ae9qhz1m",
+  "shared_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_nomal",
+      "power_up",
+      "hit",
+      "ko",
+      "turn"
+    ],
+    "effect_clips": [
+      "energy_charge_fx",
+      "energy_blast_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "charge": {
+      "body_clip": "power_up",
+      "effect_clip": "energy_charge_fx",
+      "release_frame": 2,
+      "origin_canvas_px_by_frame": [
+        [
+          236,
+          201
+        ],
+        [
+          239,
+          193
+        ]
+      ],
+      "clock": "body_ticks_before_release",
+      "growth": "10 baked60Hz FX poses, fade32\u2192255, width1\u219210px; jaw-matched"
+    },
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "energy_blast_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 18,
+      "origin_canvas_px": [
+        244,
+        194
+      ],
+      "velocity_px_per_tick": [
+        4,
+        0
+      ],
+      "launch_size_matches_charge": true
+    },
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 20,
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true
+    }
+  }
+}

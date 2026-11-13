@@ -1,0 +1,231 @@
+{
+  "character_id": "sarcosuchus",
+  "status": "superseded_owner_requested_power_up_fix",
+  "atlas_sha256": "d9d9fa877440550e42746a71ea3affb307ea5a18ef9d7abe00c829344842888c",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          3106,
+          2082
+        ],
+        "cells": 61,
+        "clips": [
+          "idle",
+          "walk",
+          "attack_nomal",
+          "power_up",
+          "hit",
+          "ko",
+          "turn",
+          "energy_blast_fx",
+          "energy_charge_fx"
+        ]
+      }
+    ]
+  },
+  "frames": 62,
+  "body_frames": 55,
+  "fx_frames": 7,
+  "clips": 9,
+  "body_clips": [
+    "idle",
+    "walk",
+    "attack_nomal",
+    "power_up",
+    "hit",
+    "ko",
+    "turn"
+  ],
+  "owner_source_fx_frames": 6,
+  "new_bridge_fx_frames": 0,
+  "scaled_charge_variant_frames": 1,
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "anchor_px": [
+    176,
+    224
+  ],
+  "map_sync_metrics": {
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "foot_anchor_px": [
+      176,
+      224
+    ],
+    "body_only_bbox_px": {
+      "x": 89,
+      "y": 190,
+      "w": 157,
+      "h": 34
+    },
+    "full_fx_bbox_px": {
+      "x": 83,
+      "y": 171,
+      "w": 252,
+      "h": 53
+    },
+    "reference_ppu_64": 64,
+    "world_size_at_64ppu_m": {
+      "body_w_m": 2.453,
+      "body_h_m": 0.531,
+      "aura_w_m": 3.938,
+      "aura_h_m": 0.828
+    },
+    "tile_32px_span": {
+      "body_tiles_w": 4.906,
+      "body_tiles_h": 1.062,
+      "full_fx_tiles_w": 7.875,
+      "full_fx_tiles_h": 1.656
+    }
+  },
+  "motion_quality": {
+    "status": "reviewed_pending_owner",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "d9d9fa877440550e42746a71ea3affb307ea5a18ef9d7abe00c829344842888c",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true,
+      "fx_jaw_visibility": false
+    },
+    "review_evidence": "work/characters/sarcosuchus/atlas-v1/review/keyframe-review.json",
+    "unresolved_structural_failures": [
+      "Sphere occluded teeth: measured bright-pixel overlaps10/24/28 atbody0/1/2; corrected only inpower-up-v2."
+    ],
+    "owner_approved": false,
+    "naturalness_verdict": "pending_owner_real_time_review",
+    "notes": "Seven full-body action sequences reviewed on light/dark/checker. Jaw remains connected throughout bite; turn has real three-quarter views. Gait cadence and naturalness remain pending Owner Human Test. No part rig or card rotation."
+  },
+  "technical_checks": {
+    "loop_test_exit_code": 0,
+    "python_e2e_tests": 35,
+    "godot_bundles": 5,
+    "godot_power_tick_test_exit_code": 0,
+    "rust_tests": 2,
+    "wasm_release_build_exit_code": 0,
+    "browser_page_errors": [],
+    "browser_sequences": 21,
+    "HTTP_atlas_tres_meta_WASM_byte_parity": true,
+    "standalone_godot_bundle_and_power_tests_exit_code": 0
+  },
+  "fx_source_evidence": "work/characters/sarcosuchus/atlas-v1/fx-source-evidence.json",
+  "registration": "work/characters/sarcosuchus/atlas-v1/registration.json",
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_nomal",
+      "power_up",
+      "hit",
+      "ko",
+      "turn"
+    ],
+    "effect_clips": [
+      "energy_charge_fx",
+      "energy_blast_fx"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "charge": {
+      "body_clip": "power_up",
+      "effect_clip": "energy_charge_fx",
+      "release_frame": 2,
+      "origin_canvas_px_by_frame": [
+        [
+          237,
+          202
+        ],
+        [
+          239,
+          190
+        ]
+      ],
+      "clock": "body_ticks_before_release"
+    },
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "energy_blast_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 18,
+      "origin_canvas_px": [
+        244,
+        194
+      ],
+      "velocity_px_per_tick": [
+        4,
+        0
+      ]
+    },
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ticks": 20,
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true
+    }
+  },
+  "clip_frame_references": 63,
+  "protected_peer_files": 716,
+  "preview_url": "http://localhost:8080/?character=sarcosuchus&clip=power_up&frame=0&paused=1",
+  "warnings": [
+    "Sarcosuchus excluded by Owner: run,jump,guard,attack_heavy,aura_loop,win; attack_light is absent because normal bite uses Owner ID attack_nomal.",
+    "motion=reviewed_pending_owner; Owner Human Test chưa nghiệm thu.",
+    "Existing ISS-TREX-TICK-LEGACY remains out of scope; no approved peer assets changed."
+  ],
+  "fx_cleanup": {
+    "before_example": {
+      "file": "energy_blast_00.png",
+      "canvas_px": [
+        172,
+        113
+      ],
+      "RGBA": [
+        9,
+        121,
+        48,
+        218
+      ],
+      "edge_green_pixels": 61,
+      "edge_pixels": 87
+    },
+    "after_evidence": "work/characters/sarcosuchus/atlas-v1/verification/alpha-key-proof.json",
+    "method": "Green-key foreground bound G<=max(R,B) for source blue/white FX; alpha solve and unmix all contaminated pixels. No AI redraw."
+  },
+  "superseded_by": "docs/characters/sarcosuchus-power-up-v2-qa.json",
+  "owner_feedback": "Power_up sphere covers teeth/opening mouth; revision requested."
+}

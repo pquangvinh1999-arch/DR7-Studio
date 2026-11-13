@@ -1,0 +1,19 @@
+{
+  "frame": 1,
+  "bright_outline_pixels": 1,
+  "edge_pixels": 560,
+  "examples": [
+    {
+      "canvas_px": [
+        202,
+        184
+      ],
+      "RGBA": [
+        246,
+        236,
+        211,
+        255
+      ]
+    }
+  ]
+}
