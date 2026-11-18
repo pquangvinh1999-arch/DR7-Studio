@@ -527,10 +527,10 @@
         54
       ],
       "ticks": [
+        2,
+        5,
         6,
-        4,
-        4,
-        6
+        3
       ],
       "loop_policy": "oneshot",
       "role": "player",

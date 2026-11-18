@@ -1,0 +1,15 @@
+{
+  "schema": "dr7-studio.ritual_approval_receipt.v1",
+  "status": "owner_approved",
+  "workflow_id": "PIPE-020",
+  "supersedes": "PIPE-018",
+  "archived_previous_receipt": "docs/releases/shenron_summon-v0.13.1-approval.json",
+  "approved_at": "2026-11-16T02:10:11+00:00",
+  "owner_message": "ok anh chốt toàn bộ phiên này giúp anh chốt theo qui trình rồi push lên main",
+  "release_version": "0.14.0",
+  "character_receipt": "assets/shenron/owner_approval.json",
+  "sequence_sha256": "1e5a985bc6a38f3368e47757176b4b183cf35aa89c43fa029e5a046ec765488c",
+  "atlas_sha256": "c82ec5e8460a2bf01ef515793e87cfdf2be96f448eeab1b914d9e9fec7215aba",
+  "dissolve_mask_sha256": "fbede0b918a87743dac48c8e97abc3a6a32fbd4af30fcf2bdf33e052d790800f",
+  "dissolve_shader_sha256": "57c118a280c1f6430d2aa1c2122c967fde4850ad8eaa763ad0c8bf30a867bb54"
+}

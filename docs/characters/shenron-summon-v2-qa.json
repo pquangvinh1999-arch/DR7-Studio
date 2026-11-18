@@ -1,0 +1,159 @@
+{
+  "revision": "shenron-summon-v2-flash-hover",
+  "updated_at": "2026-11-15T12:23:04.964067+00:00",
+  "technical_checks": {
+    "command": "./loop.sh test",
+    "exit_code": 0,
+    "log": "work/rituals/shenron_summon/v2-flash-hover/evidence/full-test-2.log",
+    "attempt": 2
+  },
+  "runtime_parity": {
+    "native_samples": 22,
+    "browser_wasm_samples": 22,
+    "errors": [],
+    "maximum_numeric_difference": [
+      5.7705970903043635e-05,
+      "/4/balls/2/position/0"
+    ],
+    "numeric_tolerance": 0.0002,
+    "precision_note": "Godot Vector2 float32 versus JS float64; identical textures, regions and ticks."
+  },
+  "browser": {
+    "errors": [],
+    "telemetry": {
+      "phases": [
+        {
+          "phase": "flight",
+          "tick": 0,
+          "wall_ms": 3.599999999627471
+        },
+        {
+          "phase": "gather",
+          "tick": 163.986,
+          "wall_ms": 2507.4000000003725
+        },
+        {
+          "phase": "vanish",
+          "tick": 211.986,
+          "wall_ms": 3307.9000000003725
+        },
+        {
+          "phase": "flash",
+          "tick": 235.986,
+          "wall_ms": 3695
+        },
+        {
+          "phase": "ground_glow",
+          "tick": 276.9839999999999,
+          "wall_ms": 4382
+        },
+        {
+          "phase": "dragon_reveal",
+          "tick": 303.98399999999987,
+          "wall_ms": 4848.799999998882
+        },
+        {
+          "phase": "ready",
+          "tick": 361.98599999999993,
+          "wall_ms": 5797.5
+        }
+      ],
+      "launches": [
+        {
+          "number": 1,
+          "tick": 0
+        },
+        {
+          "number": 2,
+          "tick": 33.995999999999995
+        },
+        {
+          "number": 3,
+          "tick": 46.99200000000002
+        },
+        {
+          "number": 4,
+          "tick": 57
+        },
+        {
+          "number": 5,
+          "tick": 80.99400000000001
+        },
+        {
+          "number": 6,
+          "tick": 95.99400000000001
+        },
+        {
+          "number": 7,
+          "tick": 116.99400000000001
+        }
+      ],
+      "tick": 399.9839999999999
+    },
+    "dismiss": true,
+    "replay": true,
+    "bodyAtlasSha": "e94502bbed02ed036f66aa8a5a3dcbf42f111898b3c83deb90b0a4c0669688b2"
+  },
+  "contract": "assets/rituals/shenron_summon/sequence.json",
+  "pixel_ground_metrics": {
+    "file": "assets/rituals/shenron_summon/ground-cluster.png",
+    "file_sha256": "b083670c97ea0eff71d3b4588ef79283ad1428b0297d7f0713d3cdb2a258ff8d",
+    "canvas_size_px": [
+      144,
+      136
+    ],
+    "body_bbox_px": [
+      0,
+      0,
+      144,
+      136
+    ],
+    "visible_pixels": 13555,
+    "rgb_colors": 12085,
+    "edge_acutance_sobel": 614.006,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9978556640047324,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  "motion_quality": {
+    "status": "owner_approved",
+    "evidence": [
+      "work/rituals/shenron_summon/v2-flash-hover/evidence/tick-230.png",
+      "work/rituals/shenron_summon/v2-flash-hover/evidence/tick-240.png",
+      "work/rituals/shenron_summon/v2-flash-hover/evidence/tick-250.png",
+      "work/rituals/shenron_summon/v2-flash-hover/evidence/tick-258.png",
+      "work/rituals/shenron_summon/v2-flash-hover/evidence/tick-312.png",
+      "work/rituals/shenron_summon/v2-flash-hover/evidence/tick-330.png",
+      "work/rituals/shenron_summon/v2-flash-hover/evidence/tick-360.png"
+    ],
+    "note": "Intentional reveal mask exposes whole-body sprite bottom→top; original atlas frames retain connected anatomy.",
+    "owner_approved": true
+  },
+  "warnings_log": "work/rituals/shenron_summon/v2-flash-hover/evidence/warnings.log",
+  "repair_history": [
+    {
+      "attempt": 1,
+      "exit_code": 1,
+      "error": "FileNotFoundError: assets/shenron/godot_bundle/../clips-v1/animation-clips.json",
+      "log": "work/rituals/shenron_summon/v2-flash-hover/evidence/full-test-1.log"
+    },
+    {
+      "attempt": 2,
+      "exit_code": 0,
+      "fix": "Rebase deployed export source.path to ../clips/animation-clips.json",
+      "log": "work/rituals/shenron_summon/v2-flash-hover/evidence/full-test-2.log"
+    }
+  ],
+  "owner_approved": true,
+  "approved_at": "2026-11-15T12:36:59.698744+00:00",
+  "owner_message": "ok anh chốt combo gọi rồng thần này tiến hành chốt theo qui trình giúp anh nhé",
+  "finalization_checks": {
+    "command": "./loop.sh test",
+    "exit_code": 0,
+    "log": "docs/releases/v0.13.0-shenron-tests.log"
+  },
+  "release_version": "0.13.0"
+}

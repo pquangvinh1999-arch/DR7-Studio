@@ -1,0 +1,55 @@
+{
+  "schema": "dr7-studio.release_finalization.v1",
+  "release_version": "0.16.0",
+  "approved_at": "2026-11-16T15:27:40.485077+00:00",
+  "owner_message": "ok chốt theo qui tình rồi push code lên main giúp anh",
+  "workflows_included": [
+    "PIPE-021"
+  ],
+  "supersedes_release": "0.15.0",
+  "status": "completed",
+  "approval_files": {
+    "floating_camera": {
+      "path": "assets/floating_camera/owner_approval.json",
+      "sha256": "ebdd2615aaab8376301bc8135b5a6dad0a5c833d385559e05fcfc77d18d5cade"
+    }
+  },
+  "artifact_sha256": {
+    "floating_camera_source_gif": "6407b76ed53641bf33facfb04ede9fcde4371eb673603b7671c26c60eaa05421",
+    "floating_camera_atlas": "c40954fa72f5bee0f5dd5f6a6d47ad42b8827f214e213b58c6ee7e330e4d607e",
+    "floating_camera_tres": "3429b23612e734451e1a0dce8cf8a94a92a404a637cd905034f09b93585e6802",
+    "floating_camera_prefab": "6f3528518baed67d3bd12cd7d64da196a46a0575f917cd6531843c4bfa3b3973",
+    "floating_camera_fighter_gd": "af393b77529da79a56aa6babcd8e4ab6c7631dac12e3df4ddbc76f565700eb96",
+    "floating_camera_clips_json": "364629fdfdafdc41d9ad753cadcfd043afbeeb1eaafaba4640915843c557388c",
+    "floating_camera_engine_export": "ae0df963c8cfbd5407d6293886a353415ff84d68ecae3c05e0739d83f0db2497",
+    "godot_web_pck": "507dbbbcf26948aa1bcee0c2bfbbe29755e27d102290967145f6790d1c8935f5",
+    "android_debug_apk": "ae1450681393e0833f16cf4f9c0b27e0c59242e2eb5090d026c261e6a51f874a"
+  },
+  "cleanup_verified": {
+    "review_dir_removed": true,
+    "work_dir_removed": true,
+    "root_floating_camera_gif_removed": true,
+    "root_image_png_removed": true
+  },
+  "localhost_parity": {
+    "api_bundles": {
+      "http_status": 200,
+      "bytes": 702383,
+      "characters": 11,
+      "review_characters": 0
+    },
+    "floating_camera_atlas": {
+      "http_status": 200,
+      "sha256": "c40954fa72f5bee0f5dd5f6a6d47ad42b8827f214e213b58c6ee7e330e4d607e"
+    },
+    "godot_web_index": {
+      "http_status": 200,
+      "bytes": 5485
+    },
+    "android_debug_apk": {
+      "http_status": 200,
+      "sha256": "ae1450681393e0833f16cf4f9c0b27e0c59242e2eb5090d026c261e6a51f874a",
+      "bytes": 66648473
+    }
+  }
+}

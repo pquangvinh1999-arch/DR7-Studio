@@ -1,0 +1,128 @@
+{
+  "schema": "dr7-studio.owner_approval_receipt.v1",
+  "status": "owner_approved",
+  "workflow_id": "PIPE-004",
+  "character_id": "tasmanian_king_crab",
+  "display_name": "Tasmanian King Crab",
+  "approved_at": "2026-11-12T09:51:08.495780+00:00",
+  "owner_message": "ok chốt tasmanian và thông số điều chỉnh lúc này đồng bộ bundle godot theo đúng qui trình sau đó push code lên main giúp anh để sang nhân vật tiếp theo",
+  "approved_revision": "atlas-v1 / v0.7.0",
+  "atlas_path": "assets/tasmanian_king_crab/godot_bundle/godot/tasmanian_king_crab-atlas-00.png",
+  "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+  "tres_path": "assets/tasmanian_king_crab/godot_bundle/godot/tasmanian_king_crab.tres",
+  "tres_sha256": "044211888a3bdca7bbacf678968e086f38176e7804e47a0ac558184e697a171b",
+  "prefab_path": "scenes/TasmanianKingCrab.tscn",
+  "prefab_sha256": "fbd294ef5eda2ebeb5ea6f7256bb62b2d2edaffbbae702d70d6140e78e5670b5",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "body_only_bbox_px": {
+    "x": 110,
+    "y": 160,
+    "w": 133,
+    "h": 64
+  },
+  "full_fx_bbox_px": {
+    "x": 92,
+    "y": 109,
+    "w": 254,
+    "h": 115
+  },
+  "present_clips": [
+    "idle",
+    "walk",
+    "attack_nomal",
+    "power_up",
+    "hit",
+    "ko"
+  ],
+  "effect_clips": [
+    "power_orb_loop",
+    "power_orb_projectile"
+  ],
+  "excluded_clips": [
+    "run",
+    "jump",
+    "guard",
+    "attack_light",
+    "attack_heavy",
+    "aura_loop",
+    "win"
+  ],
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_nomal",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "power_orb_loop",
+      "power_orb_projectile"
+    ],
+    "locomotion": {
+      "kind": "ground",
+      "clip": "walk",
+      "walk_cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      128
+    ],
+    "charge": {
+      "body_clip": "power_up",
+      "effect_clip": "power_orb_loop",
+      "release_frame": 2,
+      "origin_canvas_px_by_frame": [
+        [
+          196,
+          203
+        ],
+        [
+          220,
+          149
+        ]
+      ],
+      "clock": "body_ticks_before_release"
+    },
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "power_orb_projectile",
+      "release_frame": 2,
+      "lifetime_ticks": 16,
+      "origin_canvas_px": [
+        267,
+        157
+      ],
+      "velocity_px_per_tick": [
+        4,
+        0
+      ]
+    }
+  },
+  "release_version": "0.7.0",
+  "qa_report": "docs/characters/tasmanian-king-crab-atlas-v1-qa.json",
+  "approval_scope": "Owner accepted current Tasmanian appearance, motion, pixel dissolve, size and orb sequence after Human Test; confirms current bundle adjustments and requests main push."
+}

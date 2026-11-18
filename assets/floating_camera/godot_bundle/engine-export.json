@@ -1,0 +1,720 @@
+{
+  "schema": "generate2dsprite.engine_export.v1",
+  "name": "floating_camera",
+  "tool": {
+    "name": "export_engine.py",
+    "version": "0.4.0"
+  },
+  "source": {
+    "path": "../clips/animation-clips.json",
+    "sha256": "364629fdfdafdc41d9ad753cadcfd043afbeeb1eaafaba4640915843c557388c"
+  },
+  "targets": [
+    "godot-spriteframes"
+  ],
+  "frame_size": [
+    192,
+    160
+  ],
+  "anchor_px": [
+    96.0,
+    112.0
+  ],
+  "sampling": "nearest",
+  "pixel_art": true,
+  "art_source": "existing",
+  "default_clip": "idle",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          982,
+          658
+        ],
+        "cells": 18,
+        "clips": [
+          "idle",
+          "walk",
+          "attack_light",
+          "projectile_fx",
+          "hit",
+          "ko"
+        ]
+      }
+    ]
+  },
+  "scale": {
+    "pixel_size": 0.01,
+    "subject_height_px": 74.0,
+    "world_height": 0.74,
+    "source": "Godot default pixel size",
+    "subject_height_source": "body_height_px"
+  },
+  "clips": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "duration_ms": [
+        67,
+        66,
+        67,
+        67,
+        66,
+        67,
+        67,
+        66
+      ],
+      "total_duration_ms": 533,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "role": "enemy",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 31.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "tick_hz": 60,
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      }
+    },
+    "walk": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "duration_ms": [
+        67,
+        66,
+        67,
+        67,
+        66,
+        67,
+        67,
+        66
+      ],
+      "total_duration_ms": 533,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "role": "enemy",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 31.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "tick_hz": 60,
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      }
+    },
+    "attack_light": {
+      "frames": [
+        9,
+        10
+      ],
+      "duration_ms": [
+        200,
+        133
+      ],
+      "total_duration_ms": 333,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "custom:launch",
+          "at_ms": 200,
+          "at": 1,
+          "position": 1,
+          "data": {
+            "projectile": "projectile_fx"
+          }
+        }
+      ],
+      "page": 0,
+      "role": "enemy",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          12,
+          8
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 19.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        12,
+        8
+      ],
+      "tick_hz": 60,
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          12.0,
+          8.0
+        ]
+      }
+    },
+    "projectile_fx": {
+      "frames": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "duration_ms": [
+        67,
+        66,
+        67,
+        67
+      ],
+      "total_duration_ms": 267,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 16.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "tick_hz": 60,
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      }
+    },
+    "hit": {
+      "frames": [
+        15
+      ],
+      "duration_ms": [
+        133
+      ],
+      "total_duration_ms": 133,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [],
+      "page": 0,
+      "role": "enemy",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          8
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 7.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        8
+      ],
+      "tick_hz": 60,
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          8.0
+        ]
+      }
+    },
+    "ko": {
+      "frames": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "duration_ms": [
+        67,
+        66,
+        84,
+        100,
+        83,
+        67
+      ],
+      "total_duration_ms": 467,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [],
+      "page": 0,
+      "role": "enemy",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          5,
+          6,
+          5,
+          4
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 28.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        4,
+        4,
+        5,
+        6,
+        5,
+        4
+      ],
+      "tick_hz": 60,
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          4.0,
+          4.0,
+          5.0,
+          6.0,
+          5.0,
+          4.0
+        ]
+      }
+    }
+  },
+  "states": {
+    "idle": "idle",
+    "moving": "walk",
+    "attack": "attack_light",
+    "hurt": "hit",
+    "dead": "ko"
+  },
+  "unused_frames": [
+    8
+  ],
+  "mapping": {
+    "anchor_px": [
+      96.0,
+      112.0
+    ],
+    "frame_size": [
+      192,
+      160
+    ],
+    "anchor_normalized_top_left": [
+      0.5,
+      0.7
+    ],
+    "sampling": "nearest",
+    "godot": {
+      "animated_sprite_2d": {
+        "centered": false,
+        "offset": [
+          -96.0,
+          -112.0
+        ],
+        "texture_filter": 1
+      },
+      "animated_sprite_3d": {
+        "centered": true,
+        "offset": [
+          0.0,
+          32.0
+        ],
+        "pixel_size": 0.01,
+        "texture_filter": 0
+      }
+    },
+    "unity": {
+      "pivot": [
+        0.5,
+        0.30000000000000004
+      ],
+      "pixels_per_unit": 100.0,
+      "filter_mode": "Point"
+    },
+    "phaser": {
+      "origin": [
+        0.5,
+        0.7
+      ],
+      "pixel_art": true
+    },
+    "pixi": {
+      "anchor": [
+        0.5,
+        0.7
+      ],
+      "scale_mode": "nearest"
+    },
+    "pitch_compensation": {
+      "applies_to": "yaw-only (fixed-y) billboards seen by a pitched camera",
+      "formula": "scale_y = 1 / cos(camera_pitch), applied about the anchor"
+    }
+  },
+  "files": [
+    {
+      "path": "godot/floating_camera-atlas-00.png",
+      "sha256": "c40954fa72f5bee0f5dd5f6a6d47ad42b8827f214e213b58c6ee7e330e4d607e",
+      "bytes": 10050
+    },
+    {
+      "path": "godot/floating_camera.tres",
+      "sha256": "3429b23612e734451e1a0dce8cf8a94a92a404a637cd905034f09b93585e6802",
+      "bytes": 5097
+    },
+    {
+      "path": "godot/floating_camera.tscn",
+      "sha256": "4268f2237f1b004038345b915bb0ed06be392a66dd060c0f5cd005b3b613e380",
+      "bytes": 312
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "method": "round trip: every written atlas, Aseprite JSON, SpriteFrames .tres, scene .tscn and Sprite3D contract was parsed back and compared with the source frames (exact RGBA), integer durations, loop flags, events and the shared anchor",
+    "notProven": [
+      "Imports into the Aseprite, Godot 4, Phaser, PixiJS and Unity editors or runtimes were not run; only parse-level round trips were checked.",
+      "Engine import settings (filter, compression, mipmaps) are not written; set them as engine-export.md describes.",
+      "Animation quality, timing feel and silhouette consistency are not judged."
+    ],
+    "checks": [
+      {
+        "id": "godot_spriteframes_roundtrip",
+        "status": "pass",
+        "value": {
+          "animations": 6
+        },
+        "threshold": null
+      },
+      {
+        "id": "godot_spriteframes_duration_error_ms",
+        "status": "pass",
+        "value": 0.6666666666666714,
+        "threshold": 1.0
+      },
+      {
+        "id": "atlas_max_side_px",
+        "status": "pass",
+        "value": 982,
+        "threshold": 4096
+      },
+      {
+        "id": "source_frame_hashes",
+        "status": "pass",
+        "value": {
+          "verified": 21,
+          "frames": 21
+        },
+        "threshold": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../clips-70x74/animation-clips.json",
+        "sha256": "364629fdfdafdc41d9ad753cadcfd043afbeeb1eaafaba4640915843c557388c",
+        "bytes": 55691
+      },
+      {
+        "path": "../clips-70x74/frames/frame-00.png",
+        "sha256": "72054fbea73d302c2c6ee433ba31276c9ac25a4012a197832c4364e7444341fa",
+        "bytes": 1122
+      },
+      {
+        "path": "../clips-70x74/frames/frame-01.png",
+        "sha256": "cd6c225e60125efb6fa7bc7e14e7498b0c58faebfdbf1e74e8366120e4825007",
+        "bytes": 1117
+      },
+      {
+        "path": "../clips-70x74/frames/frame-02.png",
+        "sha256": "561d47410ded800484e222ec40581bcd5878f8245638f6b7dd0b0c6e7ba7611a",
+        "bytes": 1110
+      },
+      {
+        "path": "../clips-70x74/frames/frame-03.png",
+        "sha256": "cd6c225e60125efb6fa7bc7e14e7498b0c58faebfdbf1e74e8366120e4825007",
+        "bytes": 1117
+      },
+      {
+        "path": "../clips-70x74/frames/frame-04.png",
+        "sha256": "72054fbea73d302c2c6ee433ba31276c9ac25a4012a197832c4364e7444341fa",
+        "bytes": 1122
+      },
+      {
+        "path": "../clips-70x74/frames/frame-05.png",
+        "sha256": "d630e03a4cd6353c1e53a46905c7026e2eeb27a73e440c92f03b8c322c896686",
+        "bytes": 1102
+      },
+      {
+        "path": "../clips-70x74/frames/frame-06.png",
+        "sha256": "0bdb350438d12ba87ca99372c242817593b7606d2c0341cbfa17a93868cdc73b",
+        "bytes": 1092
+      },
+      {
+        "path": "../clips-70x74/frames/frame-07.png",
+        "sha256": "d630e03a4cd6353c1e53a46905c7026e2eeb27a73e440c92f03b8c322c896686",
+        "bytes": 1102
+      },
+      {
+        "path": "../clips-70x74/frames/frame-09.png",
+        "sha256": "93d5e3375fe9a684fe92f6f19524e5a98ea83f457a1fd84af2ad390f4ff8e790",
+        "bytes": 1251
+      },
+      {
+        "path": "../clips-70x74/frames/frame-10.png",
+        "sha256": "5f6393d652ee635158259bb169464be850eef33914961380d9a09789843c3862",
+        "bytes": 1316
+      },
+      {
+        "path": "../clips-70x74/frames/frame-11.png",
+        "sha256": "1637365e0c4dba12584cd40720de6ae4cb1bc76b37312fbff64fead2d520a640",
+        "bytes": 372
+      },
+      {
+        "path": "../clips-70x74/frames/frame-12.png",
+        "sha256": "f3a4483fac55ea6981fecaedec7ddc1ffee6af2699bbe208fb512710228822cb",
+        "bytes": 410
+      },
+      {
+        "path": "../clips-70x74/frames/frame-13.png",
+        "sha256": "25a3d4b6a0bbe691257739024b809b592bd07bf4666ca8f60b2deb0b994bd339",
+        "bytes": 380
+      },
+      {
+        "path": "../clips-70x74/frames/frame-14.png",
+        "sha256": "8e2ecb551b974af9e4ca02e7345d40395e13cfb98340e0dfd5a8567ce6fa5860",
+        "bytes": 425
+      },
+      {
+        "path": "../clips-70x74/frames/frame-15.png",
+        "sha256": "c34f0018c33fd043f303ebed2ddae7a0570963944c9e55cfb1192633a2b21c82",
+        "bytes": 1001
+      },
+      {
+        "path": "../clips-70x74/frames/frame-16.png",
+        "sha256": "f4350a58f02e6af4df537c4ae79eb88b8167b4653e6ec3397317599cd3d45700",
+        "bytes": 753
+      },
+      {
+        "path": "../clips-70x74/frames/frame-17.png",
+        "sha256": "11e0378bbd24a0a6973cd77a8a48ae175bff9e6c039cc81dfe02d8805c8e4df7",
+        "bytes": 967
+      },
+      {
+        "path": "../clips-70x74/frames/frame-18.png",
+        "sha256": "eeba9451a510ccb5cd702cb28d9e080293735c82130386c50676adf561997aa7",
+        "bytes": 1256
+      },
+      {
+        "path": "../clips-70x74/frames/frame-19.png",
+        "sha256": "e6d3eb22d377e8e01eb696eeadc9a12f6c4f77869bfa2a264e60fd9ef5ddcedd",
+        "bytes": 813
+      },
+      {
+        "path": "../clips-70x74/frames/frame-20.png",
+        "sha256": "e71fc2de5ed84debebc76fbd022d71d4d0faa45997bbd7a7e94734f12078a514",
+        "bytes": 599
+      },
+      {
+        "path": "../clips-70x74/frames/frame-21.png",
+        "sha256": "110eff83ddc97251f7c3f683ae87ee70149fb99326687c497a3b434dbeeb137f",
+        "bytes": 384
+      }
+    ],
+    "outputs": [
+      {
+        "path": "godot/floating_camera-atlas-00.png",
+        "sha256": "c40954fa72f5bee0f5dd5f6a6d47ad42b8827f214e213b58c6ee7e330e4d607e"
+      },
+      {
+        "path": "godot/floating_camera.tres",
+        "sha256": "3429b23612e734451e1a0dce8cf8a94a92a404a637cd905034f09b93585e6802"
+      },
+      {
+        "path": "godot/floating_camera.tscn",
+        "sha256": "4268f2237f1b004038345b915bb0ed06be392a66dd060c0f5cd005b3b613e380"
+      }
+    ],
+    "tool": {
+      "name": "export_engine.py",
+      "version": "0.4.0"
+    }
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_light",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "projectile_fx"
+    ],
+    "locomotion": {
+      "kind": "flight",
+      "clip": "walk",
+      "default_scale": 1.0,
+      "screen_speed_px_per_second": 150,
+      "speed_px_per_second": 150,
+      "flight_default_y": 300,
+      "default_spawn_facing": "right",
+      "allow_turn_or_flip": true,
+      "preserve_phase_on_idle_walk": true,
+      "patrol": {
+        "enabled": true,
+        "clip": "walk",
+        "speed_px_per_second": 150,
+        "min_x": 300,
+        "max_x": 1620
+      }
+    },
+    "turning": {
+      "method": "instant_flip",
+      "clip": null
+    },
+    "fx_pivot_px": [
+      96,
+      70
+    ],
+    "projectile": {
+      "body_clip": "attack_light",
+      "projectile_clip": "projectile_fx",
+      "release_frame": 1,
+      "origin_local_px": [
+        21,
+        -6
+      ],
+      "velocity_px_per_second": [
+        380,
+        0
+      ],
+      "source_forward": "right (+X)"
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    }
+  }
+}

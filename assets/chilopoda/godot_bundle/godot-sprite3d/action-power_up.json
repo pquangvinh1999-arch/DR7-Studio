@@ -65,7 +65,7 @@
   "loop_policy": "oneshot",
   "events_ms": [
     {
-      "name": "custom:dual_laser_release",
+      "name": "custom:fireball_release",
       "at_ms": 267,
       "at": 3,
       "position": 3

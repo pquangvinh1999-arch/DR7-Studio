@@ -1,0 +1,123 @@
+{
+  "schema": "dr7-studio.owner_approval_receipt.v1",
+  "status": "owner_approved",
+  "workflow_id": "PIPE-021",
+  "character_id": "floating_camera",
+  "display_name": "Floating Camera",
+  "approved_at": "2026-11-16T15:27:40.485077+00:00",
+  "owner_message": "ok chốt theo qui tình rồi push code lên main giúp anh",
+  "approval_basis": "Owner verified Floating Camera 70x74 (1-pass direct Nearest resample from 20x24 FloatingCamera.gif source, exact 13 source colors, 100% hard binary alpha, Sobel 133.691, idle=walk seamless bobbing phase continuity, flight speed 150 px/s at default_y=300, +X muzzle origin [21,-6] with top_level projectile_fx, flying AI attack_light fallback >=50px, Godot Web & Android Debug APK 1:1 sync) and approved finalization + push to main.",
+  "approved_revision": "size70x74-idle-phase-v1 / v0.16.0",
+  "release_version": "0.16.0",
+  "atlas_path": "assets/floating_camera/godot_bundle/godot/floating_camera-atlas-00.png",
+  "atlas_sha256": "c40954fa72f5bee0f5dd5f6a6d47ad42b8827f214e213b58c6ee7e330e4d607e",
+  "tres_path": "assets/floating_camera/godot_bundle/godot/floating_camera.tres",
+  "tres_sha256": "3429b23612e734451e1a0dce8cf8a94a92a404a637cd905034f09b93585e6802",
+  "prefab_path": "scenes/FloatingCamera.tscn",
+  "prefab_sha256": "6f3528518baed67d3bd12cd7d64da196a46a0575f917cd6531843c4bfa3b3973",
+  "clips_manifest_path": "assets/floating_camera/clips/animation-clips.json",
+  "clips_manifest_sha256": "364629fdfdafdc41d9ad753cadcfd043afbeeb1eaafaba4640915843c557388c",
+  "engine_export_path": "assets/floating_camera/godot_bundle/engine-export.json",
+  "engine_export_sha256": "ae0df963c8cfbd5407d6293886a353415ff84d68ecae3c05e0739d83f0db2497",
+  "canonical_source": {
+    "path": "assets/floating_camera/source/FloatingCamera.gif",
+    "sha256": "6407b76ed53641bf33facfb04ede9fcde4371eb673603b7671c26c60eaa05421"
+  },
+  "canvas_size_px": [
+    192,
+    160
+  ],
+  "foot_anchor_px": [
+    96,
+    112
+  ],
+  "body_only_bbox_px": {
+    "x": 61,
+    "y": 38,
+    "w": 70,
+    "h": 74
+  },
+  "full_fx_bbox_px": {
+    "x": 47,
+    "y": 28,
+    "w": 116,
+    "h": 115
+  },
+  "present_clips": [
+    "idle",
+    "walk",
+    "attack_light",
+    "projectile_fx",
+    "hit",
+    "ko"
+  ],
+  "effect_clips": [
+    "projectile_fx"
+  ],
+  "not_applicable_clips": {
+    "run": "Owner only requested flight from row 1 poses.",
+    "jump": "Flying monster hovering in mid-air (no ground jump).",
+    "guard": "guard/win excluded project-wide per Owner rule.",
+    "win": "guard/win excluded project-wide per Owner rule.",
+    "attack_heavy": "Owner scoped attack to row 2 skill + projectile_fx (no separate attack_heavy).",
+    "aura_loop": "No continuous body aura in source sheet.",
+    "turn": "Owner scoped finalized 70x74 asset to available source poses with instant horizontal flip (+X muzzle forward)."
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "attack_light",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "projectile_fx"
+    ],
+    "locomotion": {
+      "kind": "flight",
+      "clip": "walk",
+      "default_scale": 1.0,
+      "screen_speed_px_per_second": 150,
+      "speed_px_per_second": 150,
+      "flight_default_y": 300,
+      "default_spawn_facing": "right",
+      "allow_turn_or_flip": true,
+      "preserve_phase_on_idle_walk": true,
+      "patrol": {
+        "enabled": true,
+        "clip": "walk",
+        "speed_px_per_second": 150,
+        "min_x": 300,
+        "max_x": 1620
+      }
+    },
+    "turning": {
+      "method": "instant_flip",
+      "clip": null
+    },
+    "fx_pivot_px": [
+      96,
+      70
+    ],
+    "projectile": {
+      "body_clip": "attack_light",
+      "projectile_clip": "projectile_fx",
+      "release_frame": 1,
+      "origin_local_px": [
+        21,
+        -6
+      ],
+      "velocity_px_per_second": [
+        380,
+        0
+      ],
+      "source_forward": "right (+X)"
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    }
+  }
+}

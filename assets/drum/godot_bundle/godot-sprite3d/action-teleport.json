@@ -1,0 +1,59 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "teleport",
+  "frame_size": [
+    128,
+    96
+  ],
+  "output_origin": [
+    56.0,
+    84.0
+  ],
+  "sprite3d_offset": [
+    8.0,
+    36.0
+  ],
+  "reference_subject_height_px": 50.0,
+  "world_height": 0.5,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.5,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 75,
+  "fps": 13.333333333333334,
+  "frames": [
+    "frames/frame-006.png",
+    "frames/frame-007.png",
+    "frames/frame-008.png",
+    "frames/frame-009.png"
+  ],
+  "frame_sha256": [
+    "08fd16023b7cb3c8dad93ec312572a71b28ad2684854911635b0306f56c9c9e5",
+    "77030ec90f4b2ca9c04e78cdb1d694fe59c4edae5c26cdc45561d0a2a2bc1704",
+    "59d43ef9e1c5e233034c4794c2a0e45186d6f28186ce0600999d4ddafb36b2b1",
+    "6a69569501cb3017f30e16835ba37badadbe2a77498534569f61f635f3ee5a4e"
+  ],
+  "durations_ms": [
+    67,
+    66,
+    67,
+    100
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": [
+    {
+      "name": "custom:teleport_relocate",
+      "at_ms": 133,
+      "at": 2,
+      "position": 2
+    },
+    {
+      "name": "end",
+      "at_ms": 200,
+      "at": 3,
+      "position": 3
+    }
+  ]
+}

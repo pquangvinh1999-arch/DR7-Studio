@@ -7,8 +7,8 @@
   },
   "source": {
     "path": "../clips/animation-clips.json",
-    "sha256": "2b962b1586d399194129b2e0a678ac7966cee5b65e52851c81bbc31f0d215350",
-    "bytes": 148958,
+    "sha256": "d408a20096eb3bd9bf150d3a51705d72b3b4d20c6f6e8eae3a911e4a81702715",
+    "bytes": 151849,
     "schema": "generate2dsprite.animation_clips.v2"
   },
   "targets": [
@@ -459,12 +459,12 @@
         33
       ],
       "duration_ms": [
-        100,
-        67,
-        66,
-        100
+        33,
+        84,
+        83,
+        33
       ],
-      "total_duration_ms": 333,
+      "total_duration_ms": 233,
       "loop": false,
       "loop_policy": "oneshot",
       "events_ms": [
@@ -476,7 +476,7 @@
         },
         {
           "name": "end",
-          "at_ms": 233,
+          "at_ms": 200,
           "at": 3,
           "position": 3
         }
@@ -487,22 +487,22 @@
         "hz": 60,
         "max_drift_ms": 0.333,
         "frame_ticks": [
-          6,
-          4,
-          4,
-          6
+          2,
+          5,
+          5,
+          2
         ],
         "zero_tick_positions": [],
         "even": false,
-        "cycle_ticks": 19.98,
+        "cycle_ticks": 13.98,
         "cycle_aligned": false,
         "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
       },
       "ticks": [
-        6,
-        4,
-        4,
-        6
+        2,
+        5,
+        5,
+        2
       ],
       "tick_hz": 60,
       "aseprite": {
@@ -514,10 +514,10 @@
         "speed": 60.0,
         "basis": "ticks at 60 Hz",
         "relative_durations": [
-          6.0,
-          4.0,
-          4.0,
-          6.0
+          2.0,
+          5.0,
+          5.0,
+          2.0
         ]
       },
       "sprite3d": {
@@ -1185,22 +1185,22 @@
   "files": [
     {
       "path": "aseprite/dilophosaurus.png",
-      "sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
-      "bytes": 942440
+      "sha256": "b56bdb47d903f14ea8072831dda6eb039f7d883a5cdadbbecf9548c9458e097b",
+      "bytes": 912948
     },
     {
       "path": "aseprite/dilophosaurus.json",
-      "sha256": "5e549dce2720f88c31ce102c23807b3015e7bc57374a133f190e8df6a606e2f3",
-      "bytes": 42730
+      "sha256": "bebbdcb2e287de44e1f862046d1b70dbdd5ab7ac1073bee1615258c4fa66afb0",
+      "bytes": 42728
     },
     {
       "path": "godot/dilophosaurus-atlas-00.png",
-      "sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
-      "bytes": 942440
+      "sha256": "b56bdb47d903f14ea8072831dda6eb039f7d883a5cdadbbecf9548c9458e097b",
+      "bytes": 912948
     },
     {
       "path": "godot/dilophosaurus.tres",
-      "sha256": "a69d4809b0858a87e4d69f6d6f0e9edf098c28cdbaf8556b83b0b3a294ebbead",
+      "sha256": "a44943d6217361d9a06cd4ade7e417de96e01e897bb1b20679bfd92e91bbf2a1",
       "bytes": 18880
     },
     {
@@ -1210,43 +1210,43 @@
     },
     {
       "path": "godot-sprite3d/frames/frame-000.png",
-      "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f",
-      "bytes": 17123
+      "sha256": "bed1c2c480025b001673dfe84bd6ef67ca25502c8e21a941276570069901b361",
+      "bytes": 14770
     },
     {
       "path": "godot-sprite3d/frames/frame-001.png",
-      "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd",
-      "bytes": 16553
+      "sha256": "7c09eafaa912998dba74cf86d08b6825308da7eefc6f499ddf6a4c1956b75c05",
+      "bytes": 14300
     },
     {
       "path": "godot-sprite3d/frames/frame-002.png",
-      "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21",
-      "bytes": 16046
+      "sha256": "2b5a8fd2e15584647f706321f9511e7f44da7b0b17d7321971214fb2b5e1fb2b",
+      "bytes": 13792
     },
     {
       "path": "godot-sprite3d/frames/frame-003.png",
-      "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373",
-      "bytes": 16340
+      "sha256": "eb5f940b514a3b8aafc9b20c2a4ad7164f1cf3ac1d7cbd2724a641e31973d0d8",
+      "bytes": 14158
     },
     {
       "path": "godot-sprite3d/frames/frame-004.png",
-      "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4",
-      "bytes": 16710
+      "sha256": "c658714da78f2e050f3c7efe955636fec8a8da5271a7327f8c30230492174f8c",
+      "bytes": 14458
     },
     {
       "path": "godot-sprite3d/frames/frame-005.png",
-      "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42",
-      "bytes": 16142
+      "sha256": "221a4a24d2af5a5a6b84a844043e1d17f45d0588452bff427b7919a5e3429694",
+      "bytes": 13991
     },
     {
       "path": "godot-sprite3d/frames/frame-006.png",
-      "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af",
-      "bytes": 15792
+      "sha256": "898ecb104c2f42b424a5a885c3af6d5097d483d1ea8685e814c5aef6252f489b",
+      "bytes": 13741
     },
     {
       "path": "godot-sprite3d/frames/frame-007.png",
-      "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83",
-      "bytes": 16834
+      "sha256": "23709f2560da247d423a84b9035759ca0c8aabc4fbc331af2a98c3747d3b29db",
+      "bytes": 14555
     },
     {
       "path": "godot-sprite3d/frames/frame-008.png",
@@ -1365,18 +1365,18 @@
     },
     {
       "path": "godot-sprite3d/frames/frame-031.png",
-      "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8",
-      "bytes": 17995
+      "sha256": "25be55eda62fd95e9fa5c706b4ea8f39bc488cecffaa4bab2576913cd180ddc4",
+      "bytes": 13787
     },
     {
       "path": "godot-sprite3d/frames/frame-032.png",
-      "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c",
-      "bytes": 16749
+      "sha256": "98168813fa7624a04606b507b0cdaaac4dc8c7bdc4034a7ae067cb2061d34ceb",
+      "bytes": 12783
     },
     {
       "path": "godot-sprite3d/frames/frame-033.png",
-      "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3",
-      "bytes": 18042
+      "sha256": "4c39eefdf5f04cecd7440578faa214bd86e5dcc28558d22020680e271cde5add",
+      "bytes": 15166
     },
     {
       "path": "godot-sprite3d/frames/frame-034.png",
@@ -1475,58 +1475,58 @@
     },
     {
       "path": "godot-sprite3d/frames/frame-053.png",
-      "sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374",
-      "bytes": 15117
+      "sha256": "8f401d11e258291569936a7f51c1f051155e57bcaa376813cf2bbad220fff078",
+      "bytes": 15082
     },
     {
       "path": "godot-sprite3d/frames/frame-054.png",
-      "sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e",
-      "bytes": 15205
+      "sha256": "cb27e1518261dcb42da2ceb983286e082fa0c0218a01afddd7fb6fd3715ae1e9",
+      "bytes": 15149
     },
     {
       "path": "godot-sprite3d/frames/frame-055.png",
-      "sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647",
-      "bytes": 15266
+      "sha256": "70e8b39fd98c6e5bf549324e62aa0366f63d2fa583f5afd46dbad7f8e06aec9b",
+      "bytes": 15238
     },
     {
       "path": "godot-sprite3d/frames/frame-056.png",
-      "sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05",
-      "bytes": 15282
+      "sha256": "60a44772dd044c71504e1ed7fd7e79c46363b841536d42d389427be741f4264f",
+      "bytes": 15237
     },
     {
       "path": "godot-sprite3d/frames/frame-057.png",
-      "sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf",
-      "bytes": 15216
+      "sha256": "b70642d85ff607909b404cdaaaf1739e2a90a7c345235511a13a78a3d47278e9",
+      "bytes": 15167
     },
     {
       "path": "godot-sprite3d/frames/frame-058.png",
-      "sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20",
-      "bytes": 15178
+      "sha256": "fd4a224c1eed2e9103e60d05e820b574a7964280af0030efb57e7f4d4a3b7368",
+      "bytes": 15104
     },
     {
       "path": "godot-sprite3d/frames/frame-059.png",
-      "sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c",
-      "bytes": 15085
+      "sha256": "f2db29c207498986bb42f236c817c6c5b1c0058be9129abf9fe6096f200e733b",
+      "bytes": 15053
     },
     {
       "path": "godot-sprite3d/frames/frame-060.png",
-      "sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238",
-      "bytes": 15113
+      "sha256": "3bc5dc107e4c6692b147bdf84d111692f8c5cc6625d598bce254fabc3d014383",
+      "bytes": 15067
     },
     {
       "path": "godot-sprite3d/frames/frame-061.png",
-      "sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3",
-      "bytes": 15070
+      "sha256": "18dcc2397ad79c31c276d3723f75e053a5e055a6a0bf5fb7e4e47c5b529ba64a",
+      "bytes": 15065
     },
     {
       "path": "godot-sprite3d/frames/frame-062.png",
-      "sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1",
-      "bytes": 15234
+      "sha256": "a3f6502e0e39eb90ee33e443bb1d7a3bbbb1463e92704b4d26cac95f74bd33cb",
+      "bytes": 15194
     },
     {
       "path": "godot-sprite3d/frames/frame-063.png",
-      "sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b",
-      "bytes": 15265
+      "sha256": "38b6a220cbfd8f930c16a8e19aa02e8f81e383ac57394de522f9180062cdfc2b",
+      "bytes": 15242
     },
     {
       "path": "godot-sprite3d/frames/frame-064.png",
@@ -1610,7 +1610,7 @@
     },
     {
       "path": "godot-sprite3d/action-walk.json",
-      "sha256": "f53d769c959a9047495352e2ad5f82ec2628ec2ad7f11a7bae871c72cd017bc0",
+      "sha256": "5b4726b95c38d9c268c56bda79e4c483e3c7fe79bc50ccf5697dab4b2ebbb01c",
       "bytes": 1481
     },
     {
@@ -1630,8 +1630,8 @@
     },
     {
       "path": "godot-sprite3d/action-turn.json",
-      "sha256": "d6e8cfedc1f2272ccda22cef25b32fbef3e5a0d0d39741a493e0a8cd81a5464a",
-      "bytes": 1237
+      "sha256": "a2400844c7d92a250383eedbea2c1bcb52996f107c262620e44250746ae1d192",
+      "bytes": 1235
     },
     {
       "path": "godot-sprite3d/action-air_slash_a_fx.json",
@@ -1650,7 +1650,7 @@
     },
     {
       "path": "godot-sprite3d/action-idle.json",
-      "sha256": "f54b2d6dd89a184927410f2075b83b0a80ef1742d72dadf5c59f9d37c12ae264",
+      "sha256": "6bdcdb57dc52be1ebcc33501d66255e30cb9eadb319427d4ee7c7eec3ea732cc",
       "bytes": 1917
     },
     {
@@ -1660,7 +1660,7 @@
     },
     {
       "path": "godot-sprite3d/dilophosaurus.tres",
-      "sha256": "1c1439888faffbb30abe3a6e7faa9ac3db5432c95fc767e9d81cfb6178333226",
+      "sha256": "24e0caa94958693050c5bcb1b58594478ccd4d0ca82d6bfa055031bcc6f4ddce",
       "bytes": 12824
     },
     {
@@ -1752,407 +1752,407 @@
     ],
     "inputs": [
       {
-        "path": "../clips/animation-clips.json",
-        "sha256": "2b962b1586d399194129b2e0a678ac7966cee5b65e52851c81bbc31f0d215350",
-        "bytes": 148958
+        "path": "../dilophosaurus_clips2/animation-clips.json",
+        "sha256": "d408a20096eb3bd9bf150d3a51705d72b3b4d20c6f6e8eae3a911e4a81702715",
+        "bytes": 151849
       },
       {
-        "path": "../clips/frames/frame-00.png",
-        "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f",
-        "bytes": 17123
+        "path": "../dilophosaurus_clips2/frames/frame-00.png",
+        "sha256": "bed1c2c480025b001673dfe84bd6ef67ca25502c8e21a941276570069901b361",
+        "bytes": 14770
       },
       {
-        "path": "../clips/frames/frame-01.png",
-        "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd",
-        "bytes": 16553
+        "path": "../dilophosaurus_clips2/frames/frame-01.png",
+        "sha256": "7c09eafaa912998dba74cf86d08b6825308da7eefc6f499ddf6a4c1956b75c05",
+        "bytes": 14300
       },
       {
-        "path": "../clips/frames/frame-02.png",
-        "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21",
-        "bytes": 16046
+        "path": "../dilophosaurus_clips2/frames/frame-02.png",
+        "sha256": "2b5a8fd2e15584647f706321f9511e7f44da7b0b17d7321971214fb2b5e1fb2b",
+        "bytes": 13792
       },
       {
-        "path": "../clips/frames/frame-03.png",
-        "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373",
-        "bytes": 16340
+        "path": "../dilophosaurus_clips2/frames/frame-03.png",
+        "sha256": "eb5f940b514a3b8aafc9b20c2a4ad7164f1cf3ac1d7cbd2724a641e31973d0d8",
+        "bytes": 14158
       },
       {
-        "path": "../clips/frames/frame-04.png",
-        "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4",
-        "bytes": 16710
+        "path": "../dilophosaurus_clips2/frames/frame-04.png",
+        "sha256": "c658714da78f2e050f3c7efe955636fec8a8da5271a7327f8c30230492174f8c",
+        "bytes": 14458
       },
       {
-        "path": "../clips/frames/frame-05.png",
-        "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42",
-        "bytes": 16142
+        "path": "../dilophosaurus_clips2/frames/frame-05.png",
+        "sha256": "221a4a24d2af5a5a6b84a844043e1d17f45d0588452bff427b7919a5e3429694",
+        "bytes": 13991
       },
       {
-        "path": "../clips/frames/frame-06.png",
-        "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af",
-        "bytes": 15792
+        "path": "../dilophosaurus_clips2/frames/frame-06.png",
+        "sha256": "898ecb104c2f42b424a5a885c3af6d5097d483d1ea8685e814c5aef6252f489b",
+        "bytes": 13741
       },
       {
-        "path": "../clips/frames/frame-07.png",
-        "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83",
-        "bytes": 16834
+        "path": "../dilophosaurus_clips2/frames/frame-07.png",
+        "sha256": "23709f2560da247d423a84b9035759ca0c8aabc4fbc331af2a98c3747d3b29db",
+        "bytes": 14555
       },
       {
-        "path": "../clips/frames/frame-08.png",
+        "path": "../dilophosaurus_clips2/frames/frame-08.png",
         "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911
       },
       {
-        "path": "../clips/frames/frame-09.png",
+        "path": "../dilophosaurus_clips2/frames/frame-09.png",
         "sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb",
         "bytes": 16629
       },
       {
-        "path": "../clips/frames/frame-10.png",
+        "path": "../dilophosaurus_clips2/frames/frame-10.png",
         "sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49",
         "bytes": 16468
       },
       {
-        "path": "../clips/frames/frame-11.png",
+        "path": "../dilophosaurus_clips2/frames/frame-11.png",
         "sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac",
         "bytes": 17444
       },
       {
-        "path": "../clips/frames/frame-12.png",
+        "path": "../dilophosaurus_clips2/frames/frame-12.png",
         "sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e",
         "bytes": 16604
       },
       {
-        "path": "../clips/frames/frame-13.png",
+        "path": "../dilophosaurus_clips2/frames/frame-13.png",
         "sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408",
         "bytes": 16830
       },
       {
-        "path": "../clips/frames/frame-14.png",
+        "path": "../dilophosaurus_clips2/frames/frame-14.png",
         "sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6",
         "bytes": 16473
       },
       {
-        "path": "../clips/frames/frame-15.png",
+        "path": "../dilophosaurus_clips2/frames/frame-15.png",
         "sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9",
         "bytes": 16454
       },
       {
-        "path": "../clips/frames/frame-16.png",
+        "path": "../dilophosaurus_clips2/frames/frame-16.png",
         "sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701",
         "bytes": 16448
       },
       {
-        "path": "../clips/frames/frame-17.png",
+        "path": "../dilophosaurus_clips2/frames/frame-17.png",
         "sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f",
         "bytes": 16033
       },
       {
-        "path": "../clips/frames/frame-18.png",
+        "path": "../dilophosaurus_clips2/frames/frame-18.png",
         "sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69",
         "bytes": 15963
       },
       {
-        "path": "../clips/frames/frame-19.png",
+        "path": "../dilophosaurus_clips2/frames/frame-19.png",
         "sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5",
         "bytes": 15885
       },
       {
-        "path": "../clips/frames/frame-20.png",
+        "path": "../dilophosaurus_clips2/frames/frame-20.png",
         "sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3",
         "bytes": 16046
       },
       {
-        "path": "../clips/frames/frame-21.png",
+        "path": "../dilophosaurus_clips2/frames/frame-21.png",
         "sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08",
         "bytes": 16150
       },
       {
-        "path": "../clips/frames/frame-22.png",
+        "path": "../dilophosaurus_clips2/frames/frame-22.png",
         "sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491",
         "bytes": 17167
       },
       {
-        "path": "../clips/frames/frame-23.png",
+        "path": "../dilophosaurus_clips2/frames/frame-23.png",
         "sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299",
         "bytes": 16483
       },
       {
-        "path": "../clips/frames/frame-24.png",
+        "path": "../dilophosaurus_clips2/frames/frame-24.png",
         "sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07",
         "bytes": 16302
       },
       {
-        "path": "../clips/frames/frame-25.png",
+        "path": "../dilophosaurus_clips2/frames/frame-25.png",
         "sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284",
         "bytes": 15735
       },
       {
-        "path": "../clips/frames/frame-26.png",
+        "path": "../dilophosaurus_clips2/frames/frame-26.png",
         "sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4",
         "bytes": 15144
       },
       {
-        "path": "../clips/frames/frame-27.png",
+        "path": "../dilophosaurus_clips2/frames/frame-27.png",
         "sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d",
         "bytes": 13949
       },
       {
-        "path": "../clips/frames/frame-28.png",
+        "path": "../dilophosaurus_clips2/frames/frame-28.png",
         "sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145",
         "bytes": 12976
       },
       {
-        "path": "../clips/frames/frame-29.png",
+        "path": "../dilophosaurus_clips2/frames/frame-29.png",
         "sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175",
         "bytes": 12104
       },
       {
-        "path": "../clips/frames/frame-30.png",
+        "path": "../dilophosaurus_clips2/frames/frame-30.png",
         "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911
       },
       {
-        "path": "../clips/frames/frame-31.png",
-        "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8",
-        "bytes": 17995
+        "path": "../dilophosaurus_clips2/frames/frame-31.png",
+        "sha256": "25be55eda62fd95e9fa5c706b4ea8f39bc488cecffaa4bab2576913cd180ddc4",
+        "bytes": 13787
       },
       {
-        "path": "../clips/frames/frame-32.png",
-        "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c",
-        "bytes": 16749
+        "path": "../dilophosaurus_clips2/frames/frame-32.png",
+        "sha256": "98168813fa7624a04606b507b0cdaaac4dc8c7bdc4034a7ae067cb2061d34ceb",
+        "bytes": 12783
       },
       {
-        "path": "../clips/frames/frame-33.png",
-        "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3",
-        "bytes": 18042
+        "path": "../dilophosaurus_clips2/frames/frame-33.png",
+        "sha256": "4c39eefdf5f04cecd7440578faa214bd86e5dcc28558d22020680e271cde5add",
+        "bytes": 15166
       },
       {
-        "path": "../clips/frames/frame-34.png",
+        "path": "../dilophosaurus_clips2/frames/frame-34.png",
         "sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64",
         "bytes": 825
       },
       {
-        "path": "../clips/frames/frame-35.png",
+        "path": "../dilophosaurus_clips2/frames/frame-35.png",
         "sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5",
         "bytes": 1437
       },
       {
-        "path": "../clips/frames/frame-36.png",
+        "path": "../dilophosaurus_clips2/frames/frame-36.png",
         "sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686",
         "bytes": 2383
       },
       {
-        "path": "../clips/frames/frame-37.png",
+        "path": "../dilophosaurus_clips2/frames/frame-37.png",
         "sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623",
         "bytes": 2057
       },
       {
-        "path": "../clips/frames/frame-38.png",
+        "path": "../dilophosaurus_clips2/frames/frame-38.png",
         "sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec",
         "bytes": 1470
       },
       {
-        "path": "../clips/frames/frame-39.png",
+        "path": "../dilophosaurus_clips2/frames/frame-39.png",
         "sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e",
         "bytes": 886
       },
       {
-        "path": "../clips/frames/frame-40.png",
+        "path": "../dilophosaurus_clips2/frames/frame-40.png",
         "sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf",
         "bytes": 836
       },
       {
-        "path": "../clips/frames/frame-41.png",
+        "path": "../dilophosaurus_clips2/frames/frame-41.png",
         "sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae",
         "bytes": 1438
       },
       {
-        "path": "../clips/frames/frame-42.png",
+        "path": "../dilophosaurus_clips2/frames/frame-42.png",
         "sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b",
         "bytes": 2343
       },
       {
-        "path": "../clips/frames/frame-43.png",
+        "path": "../dilophosaurus_clips2/frames/frame-43.png",
         "sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded",
         "bytes": 1989
       },
       {
-        "path": "../clips/frames/frame-44.png",
+        "path": "../dilophosaurus_clips2/frames/frame-44.png",
         "sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178",
         "bytes": 1421
       },
       {
-        "path": "../clips/frames/frame-45.png",
+        "path": "../dilophosaurus_clips2/frames/frame-45.png",
         "sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac",
         "bytes": 913
       },
       {
-        "path": "../clips/frames/frame-46.png",
+        "path": "../dilophosaurus_clips2/frames/frame-46.png",
         "sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073",
         "bytes": 719
       },
       {
-        "path": "../clips/frames/frame-47.png",
+        "path": "../dilophosaurus_clips2/frames/frame-47.png",
         "sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc",
         "bytes": 1243
       },
       {
-        "path": "../clips/frames/frame-48.png",
+        "path": "../dilophosaurus_clips2/frames/frame-48.png",
         "sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15",
         "bytes": 2389
       },
       {
-        "path": "../clips/frames/frame-49.png",
+        "path": "../dilophosaurus_clips2/frames/frame-49.png",
         "sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4",
         "bytes": 2173
       },
       {
-        "path": "../clips/frames/frame-50.png",
+        "path": "../dilophosaurus_clips2/frames/frame-50.png",
         "sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1",
         "bytes": 1655
       },
       {
-        "path": "../clips/frames/frame-51.png",
+        "path": "../dilophosaurus_clips2/frames/frame-51.png",
         "sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e",
         "bytes": 819
       },
       {
-        "path": "../clips/frames/frame-52.png",
+        "path": "../dilophosaurus_clips2/frames/frame-52.png",
         "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911
       },
       {
-        "path": "../clips/frames/frame-53.png",
-        "sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374",
-        "bytes": 15117
+        "path": "../dilophosaurus_clips2/frames/frame-53.png",
+        "sha256": "8f401d11e258291569936a7f51c1f051155e57bcaa376813cf2bbad220fff078",
+        "bytes": 15082
       },
       {
-        "path": "../clips/frames/frame-54.png",
-        "sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e",
-        "bytes": 15205
+        "path": "../dilophosaurus_clips2/frames/frame-54.png",
+        "sha256": "cb27e1518261dcb42da2ceb983286e082fa0c0218a01afddd7fb6fd3715ae1e9",
+        "bytes": 15149
       },
       {
-        "path": "../clips/frames/frame-55.png",
-        "sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647",
-        "bytes": 15266
+        "path": "../dilophosaurus_clips2/frames/frame-55.png",
+        "sha256": "70e8b39fd98c6e5bf549324e62aa0366f63d2fa583f5afd46dbad7f8e06aec9b",
+        "bytes": 15238
       },
       {
-        "path": "../clips/frames/frame-56.png",
-        "sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05",
-        "bytes": 15282
+        "path": "../dilophosaurus_clips2/frames/frame-56.png",
+        "sha256": "60a44772dd044c71504e1ed7fd7e79c46363b841536d42d389427be741f4264f",
+        "bytes": 15237
       },
       {
-        "path": "../clips/frames/frame-57.png",
-        "sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf",
-        "bytes": 15216
+        "path": "../dilophosaurus_clips2/frames/frame-57.png",
+        "sha256": "b70642d85ff607909b404cdaaaf1739e2a90a7c345235511a13a78a3d47278e9",
+        "bytes": 15167
       },
       {
-        "path": "../clips/frames/frame-58.png",
-        "sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20",
-        "bytes": 15178
+        "path": "../dilophosaurus_clips2/frames/frame-58.png",
+        "sha256": "fd4a224c1eed2e9103e60d05e820b574a7964280af0030efb57e7f4d4a3b7368",
+        "bytes": 15104
       },
       {
-        "path": "../clips/frames/frame-59.png",
-        "sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c",
-        "bytes": 15085
+        "path": "../dilophosaurus_clips2/frames/frame-59.png",
+        "sha256": "f2db29c207498986bb42f236c817c6c5b1c0058be9129abf9fe6096f200e733b",
+        "bytes": 15053
       },
       {
-        "path": "../clips/frames/frame-60.png",
-        "sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238",
-        "bytes": 15113
+        "path": "../dilophosaurus_clips2/frames/frame-60.png",
+        "sha256": "3bc5dc107e4c6692b147bdf84d111692f8c5cc6625d598bce254fabc3d014383",
+        "bytes": 15067
       },
       {
-        "path": "../clips/frames/frame-61.png",
-        "sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3",
-        "bytes": 15070
+        "path": "../dilophosaurus_clips2/frames/frame-61.png",
+        "sha256": "18dcc2397ad79c31c276d3723f75e053a5e055a6a0bf5fb7e4e47c5b529ba64a",
+        "bytes": 15065
       },
       {
-        "path": "../clips/frames/frame-62.png",
-        "sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1",
-        "bytes": 15234
+        "path": "../dilophosaurus_clips2/frames/frame-62.png",
+        "sha256": "a3f6502e0e39eb90ee33e443bb1d7a3bbbb1463e92704b4d26cac95f74bd33cb",
+        "bytes": 15194
       },
       {
-        "path": "../clips/frames/frame-63.png",
-        "sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b",
-        "bytes": 15265
+        "path": "../dilophosaurus_clips2/frames/frame-63.png",
+        "sha256": "38b6a220cbfd8f930c16a8e19aa02e8f81e383ac57394de522f9180062cdfc2b",
+        "bytes": 15242
       },
       {
-        "path": "../clips/frames/frame-64.png",
+        "path": "../dilophosaurus_clips2/frames/frame-64.png",
         "sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6",
         "bytes": 18615
       },
       {
-        "path": "../clips/frames/frame-65.png",
+        "path": "../dilophosaurus_clips2/frames/frame-65.png",
         "sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917",
         "bytes": 18574
       },
       {
-        "path": "../clips/frames/frame-66.png",
+        "path": "../dilophosaurus_clips2/frames/frame-66.png",
         "sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188",
         "bytes": 18477
       },
       {
-        "path": "../clips/frames/frame-67.png",
+        "path": "../dilophosaurus_clips2/frames/frame-67.png",
         "sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1",
         "bytes": 18582
       },
       {
-        "path": "../clips/frames/frame-68.png",
+        "path": "../dilophosaurus_clips2/frames/frame-68.png",
         "sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197",
         "bytes": 18498
       },
       {
-        "path": "../clips/frames/frame-69.png",
+        "path": "../dilophosaurus_clips2/frames/frame-69.png",
         "sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d",
         "bytes": 18545
       },
       {
-        "path": "../clips/frames/frame-70.png",
+        "path": "../dilophosaurus_clips2/frames/frame-70.png",
         "sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea",
         "bytes": 18560
       },
       {
-        "path": "../clips/frames/frame-71.png",
+        "path": "../dilophosaurus_clips2/frames/frame-71.png",
         "sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548",
         "bytes": 18558
       },
       {
-        "path": "../clips/frames/frame-72.png",
+        "path": "../dilophosaurus_clips2/frames/frame-72.png",
         "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911
       },
       {
-        "path": "../clips/frames/frame-73.png",
+        "path": "../dilophosaurus_clips2/frames/frame-73.png",
         "sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e",
         "bytes": 15993
       },
       {
-        "path": "../clips/frames/frame-74.png",
+        "path": "../dilophosaurus_clips2/frames/frame-74.png",
         "sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b",
         "bytes": 17094
       },
       {
-        "path": "../clips/frames/frame-75.png",
+        "path": "../dilophosaurus_clips2/frames/frame-75.png",
         "sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49",
         "bytes": 16376
       },
       {
-        "path": "../clips/frames/frame-76.png",
+        "path": "../dilophosaurus_clips2/frames/frame-76.png",
         "sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595",
         "bytes": 16536
       },
       {
-        "path": "../clips/frames/frame-77.png",
+        "path": "../dilophosaurus_clips2/frames/frame-77.png",
         "sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d",
         "bytes": 16210
       },
       {
-        "path": "../clips/frames/frame-78.png",
+        "path": "../dilophosaurus_clips2/frames/frame-78.png",
         "sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736",
         "bytes": 16273
       },
       {
-        "path": "../clips/frames/frame-79.png",
+        "path": "../dilophosaurus_clips2/frames/frame-79.png",
         "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911
       }
@@ -2160,19 +2160,19 @@
     "outputs": [
       {
         "path": "aseprite/dilophosaurus.png",
-        "sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157"
+        "sha256": "b56bdb47d903f14ea8072831dda6eb039f7d883a5cdadbbecf9548c9458e097b"
       },
       {
         "path": "aseprite/dilophosaurus.json",
-        "sha256": "5e549dce2720f88c31ce102c23807b3015e7bc57374a133f190e8df6a606e2f3"
+        "sha256": "bebbdcb2e287de44e1f862046d1b70dbdd5ab7ac1073bee1615258c4fa66afb0"
       },
       {
         "path": "godot/dilophosaurus-atlas-00.png",
-        "sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157"
+        "sha256": "b56bdb47d903f14ea8072831dda6eb039f7d883a5cdadbbecf9548c9458e097b"
       },
       {
         "path": "godot/dilophosaurus.tres",
-        "sha256": "a69d4809b0858a87e4d69f6d6f0e9edf098c28cdbaf8556b83b0b3a294ebbead"
+        "sha256": "a44943d6217361d9a06cd4ade7e417de96e01e897bb1b20679bfd92e91bbf2a1"
       },
       {
         "path": "godot/dilophosaurus.tscn",
@@ -2180,35 +2180,35 @@
       },
       {
         "path": "godot-sprite3d/frames/frame-000.png",
-        "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f"
+        "sha256": "bed1c2c480025b001673dfe84bd6ef67ca25502c8e21a941276570069901b361"
       },
       {
         "path": "godot-sprite3d/frames/frame-001.png",
-        "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd"
+        "sha256": "7c09eafaa912998dba74cf86d08b6825308da7eefc6f499ddf6a4c1956b75c05"
       },
       {
         "path": "godot-sprite3d/frames/frame-002.png",
-        "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21"
+        "sha256": "2b5a8fd2e15584647f706321f9511e7f44da7b0b17d7321971214fb2b5e1fb2b"
       },
       {
         "path": "godot-sprite3d/frames/frame-003.png",
-        "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373"
+        "sha256": "eb5f940b514a3b8aafc9b20c2a4ad7164f1cf3ac1d7cbd2724a641e31973d0d8"
       },
       {
         "path": "godot-sprite3d/frames/frame-004.png",
-        "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4"
+        "sha256": "c658714da78f2e050f3c7efe955636fec8a8da5271a7327f8c30230492174f8c"
       },
       {
         "path": "godot-sprite3d/frames/frame-005.png",
-        "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42"
+        "sha256": "221a4a24d2af5a5a6b84a844043e1d17f45d0588452bff427b7919a5e3429694"
       },
       {
         "path": "godot-sprite3d/frames/frame-006.png",
-        "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af"
+        "sha256": "898ecb104c2f42b424a5a885c3af6d5097d483d1ea8685e814c5aef6252f489b"
       },
       {
         "path": "godot-sprite3d/frames/frame-007.png",
-        "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83"
+        "sha256": "23709f2560da247d423a84b9035759ca0c8aabc4fbc331af2a98c3747d3b29db"
       },
       {
         "path": "godot-sprite3d/frames/frame-008.png",
@@ -2304,15 +2304,15 @@
       },
       {
         "path": "godot-sprite3d/frames/frame-031.png",
-        "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8"
+        "sha256": "25be55eda62fd95e9fa5c706b4ea8f39bc488cecffaa4bab2576913cd180ddc4"
       },
       {
         "path": "godot-sprite3d/frames/frame-032.png",
-        "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c"
+        "sha256": "98168813fa7624a04606b507b0cdaaac4dc8c7bdc4034a7ae067cb2061d34ceb"
       },
       {
         "path": "godot-sprite3d/frames/frame-033.png",
-        "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3"
+        "sha256": "4c39eefdf5f04cecd7440578faa214bd86e5dcc28558d22020680e271cde5add"
       },
       {
         "path": "godot-sprite3d/frames/frame-034.png",
@@ -2392,47 +2392,47 @@
       },
       {
         "path": "godot-sprite3d/frames/frame-053.png",
-        "sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374"
+        "sha256": "8f401d11e258291569936a7f51c1f051155e57bcaa376813cf2bbad220fff078"
       },
       {
         "path": "godot-sprite3d/frames/frame-054.png",
-        "sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e"
+        "sha256": "cb27e1518261dcb42da2ceb983286e082fa0c0218a01afddd7fb6fd3715ae1e9"
       },
       {
         "path": "godot-sprite3d/frames/frame-055.png",
-        "sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647"
+        "sha256": "70e8b39fd98c6e5bf549324e62aa0366f63d2fa583f5afd46dbad7f8e06aec9b"
       },
       {
         "path": "godot-sprite3d/frames/frame-056.png",
-        "sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05"
+        "sha256": "60a44772dd044c71504e1ed7fd7e79c46363b841536d42d389427be741f4264f"
       },
       {
         "path": "godot-sprite3d/frames/frame-057.png",
-        "sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf"
+        "sha256": "b70642d85ff607909b404cdaaaf1739e2a90a7c345235511a13a78a3d47278e9"
       },
       {
         "path": "godot-sprite3d/frames/frame-058.png",
-        "sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20"
+        "sha256": "fd4a224c1eed2e9103e60d05e820b574a7964280af0030efb57e7f4d4a3b7368"
       },
       {
         "path": "godot-sprite3d/frames/frame-059.png",
-        "sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c"
+        "sha256": "f2db29c207498986bb42f236c817c6c5b1c0058be9129abf9fe6096f200e733b"
       },
       {
         "path": "godot-sprite3d/frames/frame-060.png",
-        "sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238"
+        "sha256": "3bc5dc107e4c6692b147bdf84d111692f8c5cc6625d598bce254fabc3d014383"
       },
       {
         "path": "godot-sprite3d/frames/frame-061.png",
-        "sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3"
+        "sha256": "18dcc2397ad79c31c276d3723f75e053a5e055a6a0bf5fb7e4e47c5b529ba64a"
       },
       {
         "path": "godot-sprite3d/frames/frame-062.png",
-        "sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1"
+        "sha256": "a3f6502e0e39eb90ee33e443bb1d7a3bbbb1463e92704b4d26cac95f74bd33cb"
       },
       {
         "path": "godot-sprite3d/frames/frame-063.png",
-        "sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b"
+        "sha256": "38b6a220cbfd8f930c16a8e19aa02e8f81e383ac57394de522f9180062cdfc2b"
       },
       {
         "path": "godot-sprite3d/frames/frame-064.png",
@@ -2500,7 +2500,7 @@
       },
       {
         "path": "godot-sprite3d/action-walk.json",
-        "sha256": "f53d769c959a9047495352e2ad5f82ec2628ec2ad7f11a7bae871c72cd017bc0"
+        "sha256": "5b4726b95c38d9c268c56bda79e4c483e3c7fe79bc50ccf5697dab4b2ebbb01c"
       },
       {
         "path": "godot-sprite3d/action-attack_light.json",
@@ -2516,7 +2516,7 @@
       },
       {
         "path": "godot-sprite3d/action-turn.json",
-        "sha256": "d6e8cfedc1f2272ccda22cef25b32fbef3e5a0d0d39741a493e0a8cd81a5464a"
+        "sha256": "a2400844c7d92a250383eedbea2c1bcb52996f107c262620e44250746ae1d192"
       },
       {
         "path": "godot-sprite3d/action-air_slash_a_fx.json",
@@ -2532,7 +2532,7 @@
       },
       {
         "path": "godot-sprite3d/action-idle.json",
-        "sha256": "f54b2d6dd89a184927410f2075b83b0a80ef1742d72dadf5c59f9d37c12ae264"
+        "sha256": "6bdcdb57dc52be1ebcc33501d66255e30cb9eadb319427d4ee7c7eec3ea732cc"
       },
       {
         "path": "godot-sprite3d/action-power_up.json",
@@ -2540,7 +2540,7 @@
       },
       {
         "path": "godot-sprite3d/dilophosaurus.tres",
-        "sha256": "1c1439888faffbb30abe3a6e7faa9ac3db5432c95fc767e9d81cfb6178333226"
+        "sha256": "24e0caa94958693050c5bcb1b58594478ccd4d0ca82d6bfa055031bcc6f4ddce"
       },
       {
         "path": "godot-sprite3d/dilophosaurus.tscn",
@@ -2583,7 +2583,10 @@
         5,
         6,
         7
-      ]
+      ],
+      "default_scale": 1.75,
+      "screen_speed_px_per_second": 155,
+      "speed_px_per_second": 88.571429
     },
     "aura": {
       "loop_clip": null,
@@ -2599,9 +2602,17 @@
       "clip": "turn",
       "from": "right",
       "to": "left",
-      "duration_ticks": 20,
+      "duration_ticks": 14,
       "method": "complete_perspective_poses",
-      "mirror_sequence_for_reverse": true
+      "mirror_sequence_for_reverse": true,
+      "ticks": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "duration_ms": 233,
+      "speed_boost_pct": 43
     },
     "target_slashes": {
       "body_clip": "power_up",
@@ -2658,8 +2669,16 @@
       "power_up"
     ],
     "turn_retained": true,
+    "approved_at": "2026-11-15T05:52:31.727116+00:00",
+    "release_version": "0.12.0",
+    "owner_animation_approved": true,
+    "step2_visual_fix_at": "2026-11-14T09:26:26.764136+00:00",
+    "step2_visual_fix_summary": "Step-2 visual fix: Nearest-rescale walk_00..07 (95.5/104 anchored at [176,224]) so walk matches idle ~95px height with all walk feet grounded at y=223; ground idle_01/08 & soften idle_01..11 luminance variance toward idle_00.",
+    "previous_owner_approval_file": "work/characters/dilophosaurus/step2-visual-fix/snapshot-before/owner_approval.json",
+    "previous_atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
+    "previous_revision_atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
+    "calibration_update": "turn[1..3] downscaled via Nearest to ~95-96px matching idle/walk; default_scale=1.75, screen_speed=155px/s; turn ticks [2,5,5,2] (+43% speed)",
     "owner_approval_file": "assets/dilophosaurus/owner_approval.json",
-    "approved_at": "2026-11-13T04:57:15.924909+00:00",
-    "release_version": "0.9.1"
+    "workflow_id": "PIPE-014"
   }
 }

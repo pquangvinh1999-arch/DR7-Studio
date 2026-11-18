@@ -39,6 +39,9 @@ class GovernanceAndPreviewTests(unittest.TestCase):
             "lerning.md",
             "loop.sh",
             "Human Test",
+            "diagonal_body_sheen",
+            "drop_physics",
+            "pickup_physics",
         ):
             self.assertIn(keyword, text)
 
@@ -78,25 +81,71 @@ class GovernanceAndPreviewTests(unittest.TestCase):
         m_sk = re.search(r"<!-- SKILLS_ENTRIES_START -->(.*?)<!-- SKILLS_ENTRIES_END -->", skills_txt, re.S)
         self.assertIsNotNone(m_sk)
         sk_entries = re.findall(r"^###\s+\[([^]]+)\]", m_sk.group(1), re.M)
-        workflows = json.loads((REPO_ROOT / "state.json").read_text()).get("approved_workflows", [])
-        self.assertEqual(set(sk_entries), {w["id"] for w in workflows}, "Every workflow needs recorded Owner acceptance")
+        st_data = json.loads((REPO_ROOT / "state.json").read_text())
+        workflows = st_data.get("approved_workflows", [])
+        item_workflows = st_data.get("approved_item_workflows", [])
+        self.assertEqual(
+            set(sk_entries),
+            {w["id"] for w in workflows} | {w["id"] for w in item_workflows},
+            "Every character & item workflow needs recorded Owner acceptance",
+        )
+        for iw in item_workflows:
+            i_receipt = json.loads((REPO_ROOT / iw["approval_file"]).read_text())
+            self.assertEqual(i_receipt["status"], "owner_approved")
+            self.assertEqual(i_receipt["item_set_id"], iw["item_set_id"])
+            self.assertTrue(i_receipt["owner_message"].strip())
+            i_atlas = REPO_ROOT / i_receipt["atlas_path"]
+            self.assertEqual(hashlib.sha256(i_atlas.read_bytes()).hexdigest(), i_receipt["atlas_sha256"])
+        # Verify ritual sequence SHA-256 matches approved ritual receipt when status is owner_approved
+        ritual_seq_path = REPO_ROOT / "assets" / "rituals" / "shenron_summon" / "sequence.json"
+        if ritual_seq_path.is_file():
+            ritual_seq = json.loads(ritual_seq_path.read_text())
+            if ritual_seq.get("qa", {}).get("status") == "owner_approved":
+                ritual_receipt = json.loads((REPO_ROOT / "assets" / "rituals" / "shenron_summon" / "owner_approval.json").read_text())
+                self.assertEqual(ritual_receipt["status"], "owner_approved")
+                self.assertEqual(hashlib.sha256(ritual_seq_path.read_bytes()).hexdigest(), ritual_receipt["sequence_sha256"])
+        by_id = {w["id"]: w for w in workflows}
         for workflow in workflows:
             receipt = json.loads((REPO_ROOT / workflow["approval_file"]).read_text())
             self.assertEqual(receipt["status"], "owner_approved")
             self.assertEqual(receipt["character_id"], workflow["character_id"])
             self.assertTrue(receipt["owner_message"].strip())
             atlas = REPO_ROOT / "assets" / receipt["character_id"] / "godot_bundle/godot" / (receipt["character_id"] + "-atlas-00.png")
-            approved_atlas = REPO_ROOT / workflow["approved_atlas_path"] if workflow.get("approved_atlas_path") else atlas
-            self.assertEqual(hashlib.sha256(approved_atlas.read_bytes()).hexdigest(), receipt["atlas_sha256"])
-            if approved_atlas != atlas:
-                # An accepted historical revision must not approve unseen new art.
+            if workflow.get("archived_atlas_purged") and workflow.get("superseded_by"):
+                self.assertEqual(workflow.get("atlas_sha256"), receipt["atlas_sha256"])
+                approved_atlas = None
+            else:
+                approved_atlas = REPO_ROOT / workflow["approved_atlas_path"] if workflow.get("approved_atlas_path") else atlas
+                self.assertEqual(hashlib.sha256(approved_atlas.read_bytes()).hexdigest(), receipt["atlas_sha256"])
+            if approved_atlas is None or approved_atlas != atlas:
                 ch = next(c for c in json.loads((REPO_ROOT / "assets/roster.json").read_text())["characters"]
                           if c["character_id"] == receipt["character_id"])
                 review = ch["motion_quality"]
-                self.assertEqual(review["status"], "reviewed_pending_owner")
-                self.assertEqual(review["atlas_sha256"], hashlib.sha256(atlas.read_bytes()).hexdigest())
-                self.assertFalse(review["owner_approved"])
-                self.assertEqual(review["previous_revision_atlas_sha256"], receipt["atlas_sha256"])
+                sup_id = workflow.get("superseded_by")
+                if sup_id:
+                    seen = {workflow["id"]}
+                    cur_id = sup_id
+                    while cur_id:
+                        self.assertNotIn(cur_id, seen, "Cycle in superseded_by chain")
+                        seen.add(cur_id)
+                        sup = by_id[cur_id]
+                        cur_id = sup.get("superseded_by")
+                    sup_receipt = json.loads((REPO_ROOT / sup["approval_file"]).read_text())
+                    self.assertEqual(sup["character_id"], receipt["character_id"])
+                    self.assertEqual(sup_receipt["status"], "owner_approved")
+                    self.assertEqual(sup_receipt["atlas_sha256"], hashlib.sha256(atlas.read_bytes()).hexdigest())
+                    if sup.get("approved_atlas_path") or sup.get("archived_atlas_purged"):
+                        self.assertEqual(review["status"], "reviewed_pending_owner")
+                        self.assertFalse(review["owner_approved"])
+                        self.assertEqual(review["previous_revision_atlas_sha256"], sup_receipt["atlas_sha256"])
+                    else:
+                        self.assertTrue(review["owner_approved"])
+                else:
+                    # An accepted historical revision must not approve unseen new art.
+                    self.assertEqual(review["status"], "reviewed_pending_owner")
+                    self.assertEqual(review["atlas_sha256"], hashlib.sha256(atlas.read_bytes()).hexdigest())
+                    self.assertFalse(review["owner_approved"])
+                    self.assertEqual(review["previous_revision_atlas_sha256"], receipt["atlas_sha256"])
 
         lerning_txt = (REPO_ROOT / "lerning.md").read_text(encoding="utf-8")
         m_lr = re.search(r"<!-- LERNING_ENTRIES_START -->(.*?)<!-- LERNING_ENTRIES_END -->", lerning_txt, re.S)
@@ -168,10 +217,15 @@ class GovernanceAndPreviewTests(unittest.TestCase):
             self.assertIn("project.godot", names)
             self.assertIn("assets/roster.json", names)
             self.assertIn("scenes/CharacterFighter2D.gd", names)
-            self.assertIn("tests/SkillAnimator2D.gd", names)
+            self.assertIn("scenes/SkillAnimator2D.gd", names)
+            self.assertIn("scenes/runtime/DisplayPolicy.gd", names)
+            self.assertIn("scenes/net/WebSocketTransport.gd", names)
+            self.assertIn("assets/maps/rocky_plateau/device-profiles.json", names)
+            self.assertFalse(any("/godot-sprite3d/" in n or "/aseprite/" in n or "/source/" in n for n in names),
+                             "Godot export ZIP should exclude sprite3d/aseprite/source bloat")
             self.assertNotIn("scenes/Trunks_Rage.tscn", names)
 
-    def test_frontend_js_wasm_exports_3tabs_and_n_character_roster(self) -> None:
+    def test_frontend_js_wasm_exports_2tabs_and_n_character_roster(self) -> None:
         res = subprocess.run(
             ["node", str(REPO_ROOT / "tests" / "test_frontend_wasm_e2e.mjs")],
             capture_output=True,

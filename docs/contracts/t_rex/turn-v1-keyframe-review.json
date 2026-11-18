@@ -1,0 +1,189 @@
+{
+  "schema": "dr7-studio.keyframe_review.v1",
+  "character_id": "t_rex",
+  "revision": "turn-v1",
+  "status": "owner_approved",
+  "method": "imagegen_complete_body_keyframes",
+  "turn_method": "complete_perspective_poses",
+  "atlas_sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c",
+  "previous_revision_atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
+  "canonical_master_sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+  "front_proportion_guide": "assets/t_rex/clips/frames/frame-38.png",
+  "turn_poses": [
+    {
+      "index": 0,
+      "file": "work/characters/t_rex/turn-v1/source/turn_00.png",
+      "file_sha256": "a450b5730829bdbb3a4dd294f4a5615a8f1b6ad64a0f15394743966238085544",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        69,
+        103,
+        188,
+        123
+      ],
+      "visible_pixels": 8356,
+      "rgb_colors": 6226,
+      "edge_acutance_sobel": 218.251,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.9920270596762503,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    },
+    {
+      "index": 1,
+      "file": "work/characters/t_rex/turn-v1/source/turn_01.png",
+      "file_sha256": "8601e2339477e84b91e74fd2dac1d62cbe368ee75af60acbc07be9b919058b89",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        103,
+        100,
+        141,
+        126
+      ],
+      "visible_pixels": 7973,
+      "rgb_colors": 5945,
+      "edge_acutance_sobel": 203.449,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.9910012674271229,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    },
+    {
+      "index": 2,
+      "file": "work/characters/t_rex/turn-v1/source/turn_02.png",
+      "file_sha256": "ee5a72682b442a4fae3fbc08f2602d5be8b14aa887b3025665ffe3ae4fa152a7",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        115,
+        96,
+        107,
+        130
+      ],
+      "visible_pixels": 6848,
+      "rgb_colors": 5492,
+      "edge_acutance_sobel": 177.687,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.9939714747831201,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    },
+    {
+      "index": 3,
+      "file": "work/characters/t_rex/turn-v1/source/turn_03.png",
+      "file_sha256": "21649b5bfc42e59fbf83c20b7a707981054d1d47bab026a6dbecffbc5805fedf",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        101,
+        101,
+        149,
+        125
+      ],
+      "visible_pixels": 7935,
+      "rgb_colors": 5845,
+      "edge_acutance_sobel": 220.831,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.9923741738688358,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    },
+    {
+      "index": 4,
+      "file": "work/characters/t_rex/turn-v1/source/turn_04.png",
+      "file_sha256": "b20c48b784e1f1aa4f9984135ea5ed6204e86009fd97283d0ca189f539f4a49f",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        95,
+        101,
+        190,
+        125
+      ],
+      "visible_pixels": 8608,
+      "rgb_colors": 6287,
+      "edge_acutance_sobel": 181.419,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.9922298092771368,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    }
+  ],
+  "ticks": [
+    6,
+    3,
+    3,
+    3,
+    6
+  ],
+  "duration_ms": [
+    100,
+    50,
+    50,
+    50,
+    100
+  ],
+  "total_duration_ms": 350,
+  "total_duration_ticks": 21,
+  "visual_checks": {
+    "turn_lineup_1x": "work/characters/t_rex/turn-v1/review/turn-lineup-1x.png",
+    "turn_rim_4x": "work/characters/t_rex/turn-v1/review/turn-rim-4x.png",
+    "turn_test": "work/characters/t_rex/turn-v1/review/turn-test.png",
+    "filmstrip_turn": "work/characters/t_rex/turn-v1/review/filmstrip-turn.png",
+    "transition_continuity": "work/characters/t_rex/turn-v1/review/transition-continuity.png",
+    "walk_turn_walk_webps": [
+      "work/characters/t_rex/turn-v1/review/walk-turn-walk-r2l-light.webp",
+      "work/characters/t_rex/turn-v1/review/walk-turn-walk-r2l-dark.webp",
+      "work/characters/t_rex/turn-v1/review/walk-turn-walk-r2l-checker.webp",
+      "work/characters/t_rex/turn-v1/review/walk-turn-walk-l2r-light.webp",
+      "work/characters/t_rex/turn-v1/review/walk-turn-walk-l2r-dark.webp",
+      "work/characters/t_rex/turn-v1/review/walk-turn-walk-l2r-checker.webp"
+    ],
+    "run_turn_run_webps": [
+      "work/characters/t_rex/turn-v1/review/run-turn-run-r2l-light.webp",
+      "work/characters/t_rex/turn-v1/review/run-turn-run-r2l-dark.webp",
+      "work/characters/t_rex/turn-v1/review/run-turn-run-r2l-checker.webp",
+      "work/characters/t_rex/turn-v1/review/run-turn-run-l2r-light.webp",
+      "work/characters/t_rex/turn-v1/review/run-turn-run-l2r-dark.webp",
+      "work/characters/t_rex/turn-v1/review/run-turn-run-l2r-checker.webp"
+    ],
+    "body_connections": true,
+    "whole_pose_sequence": true,
+    "perspective_turns": true,
+    "phase_timing": true,
+    "three_backgrounds": true,
+    "character_identity": true,
+    "zero_alpha_halo_or_pockets": true,
+    "non_turn_73_frames_preserved": true
+  },
+  "iss_trex_tick_legacy": {
+    "status": "resolved_by_owner_decision_exact_ticks",
+    "owner_decision": "Re-export T-rex turn-v1 with --godot-fps auto so godot.relative_durations equals exact authored 60Hz ticks (fixing attack_heavy frame 5 0.96 -> 1.0 tick) while keeping all 73 original PNGs, clip order, duration_ms, events, and keys intact."
+  },
+  "owner_approved": true,
+  "approved_at": "2026-11-14T07:12:14+00:00",
+  "owner_message": "ok anh duyệt t-rex bắt đàu với nhân vật tiếp theo",
+  "workflow_id": "PIPE-010"
+}

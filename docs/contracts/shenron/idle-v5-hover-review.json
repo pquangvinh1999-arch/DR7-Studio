@@ -1,0 +1,17 @@
+{
+  "revision": "idle-v5-hover",
+  "status": "owner_approved",
+  "owner_approved": true,
+  "visual_review": "filmstrip-hover-3bg.png; whole poses and loop seam inspected",
+  "hover_provenance": "whole-pose-hover.json",
+  "playback": "browser-playback-unrecorded.json",
+  "reviewed": [
+    "whole-pose filmstrip on light/dark/checker",
+    "real-time 0→7→0 on three backgrounds",
+    "all8 seams including7→0",
+    "summon bottom→top reveal and flash/off snapshots230/240/250/258"
+  ],
+  "unresolved_structural_failures": [],
+  "approved_at": "2026-11-15T12:36:59.698744+00:00",
+  "owner_message": "ok anh chốt combo gọi rồng thần này tiến hành chốt theo qui trình giúp anh nhé"
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "dr7.arena_stage.v1",
+  "stage_id": "rocky_plateau",
+  "display_name": "Cao nguyên Đá (Landscape 16:9 Sample Map)",
+  "viewport": {
+    "width": 1920,
+    "height": 1080,
+    "aspect_ratio": "16:9",
+    "orientation": "landscape",
+    "stretch_mode": "canvas_items",
+    "stretch_aspect": "expand",
+    "stretch_scale_mode": "fractional",
+    "pixel_perfect_toggle_supported": true,
+    "pixel_perfect_min_height_px": 1080,
+    "renderer": "gl_compatibility",
+    "device_profiles_path": "assets/maps/rocky_plateau/device-profiles.json",
+    "handheld_orientation_code": 0,
+    "ppu_reference": 64,
+    "tile_px": 32
+  },
+  "map": {
+    "background_path": "assets/maps/rocky_plateau/rocky-plateau-bg.jpg",
+    "background_res_path": "res://assets/maps/rocky_plateau/rocky-plateau-bg.jpg",
+    "background_web_path": "/assets/maps/rocky_plateau/rocky-plateau-bg.jpg",
+    "source_size_px": [1199, 675],
+    "sha256": "0af6a984cc9de1e4c3b8389bc177c8092624af67d1a1399f5d06741466f62be6",
+    "render_rect_px": [0, 0, 1920, 1080],
+    "fit_mode": "cover_16_9"
+  },
+  "gameplay": {
+    "ground_y": 840,
+    "walkable_bounds_x": [140, 1780],
+    "player_spawn_x": 560,
+    "player_spawn_facing_left_x": 1240,
+    "dummy_spawn_x": 1360,
+    "character_scale_default": 2,
+    "character_scale_options": [1, 2, 3],
+    "character_scale_min": 0.5,
+    "character_scale_max": 3.0,
+    "character_scale_step": 0.05,
+    "character_scale_presets": [1, 1.25, 1.5, 1.75, 2, 2.5, 3],
+    "texture_filter": "nearest",
+    "screen_shake_enabled": false,
+    "ground_shadow_ellipse_enabled": false,
+    "burrow_dust_scale_default": 2.65,
+    "burrow_dust_scale_options": [1, 1.5, 2.25, 2.65],
+    "flight": {
+      "min_y": 60,
+      "max_y": 840,
+      "default_y": 250,
+      "screen_middle_y": 540,
+      "middle_offset_px": -290,
+      "vertical_speed_px_per_s": 240
+    },
+    "jump_velocity_px_per_s": -780,
+    "gravity_px_per_s2": 2000,
+    "utility_ai": {
+      "enabled_by_default": false,
+      "distance_metric": "body_edge_2d",
+      "close_edge_px": 50,
+      "mid_max_edge_px": 200,
+      "heavy_max_edge_px": 200,
+      "attack_cooldown_s": 1.0,
+      "light_hits_before_heavy": 2,
+      "zone_width_max_px": 500,
+      "zone_width_default_px": 480,
+      "monster_count_per_map": [5, 7],
+      "monster_spacing_max_px": 500,
+      "special_roles": {
+        "chilopoda": "burrow_far_laser_close",
+        "flight": "hover_no_chase_ranged_far_melee_close"
+      }
+    }
+  },
+  "phone_bezel": {
+    "web_path": "/preview-assets/phone-frame-landscape-16x9.png",
+    "repo_path": "tools/preview/assets/phone-frame-landscape-16x9.png",
+    "sha256": "73d642a753e6d4d18a01911f2f9d85777d409e05b704ed3e6482797fc624607d",
+    "image_size_px": [2096, 1166],
+    "screen_hole_px": [88, 53, 1920, 1080],
+    "default_enabled": true
+  }
+}

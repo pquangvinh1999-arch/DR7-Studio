@@ -1,0 +1,5 @@
+{
+  "command": "./loop.sh test",
+  "exit_code": 0,
+  "log": "docs/releases/v0.13.0-shenron-tests.log"
+}

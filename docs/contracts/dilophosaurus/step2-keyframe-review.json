@@ -1,0 +1,36 @@
+{
+  "status": "reviewed_pending_owner",
+  "method": "imagegen_complete_body_keyframes",
+  "atlas_sha256": "5c2bcdfcde2a71a6b9733b1128d20ed781250597bebdfc3e8fb23b5290328cbf",
+  "previous_revision_atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
+  "reviewed_at": "2026-11-14T09:26:26.764136+00:00",
+  "checks": {
+    "body_connections": true,
+    "whole_pose_sequence": true,
+    "perspective_turns": true,
+    "phase_timing": true,
+    "three_backgrounds": true,
+    "character_identity": true
+  },
+  "unresolved_structural_failures": [],
+  "naturalness_verdict": "reviewed_pending_owner",
+  "owner_approved": false,
+  "notes": "Step-2 visual fix: Nearest-rescale walk_00..07 (95.5/104 anchored at [176,224]) so walk matches idle ~95px height with all walk feet grounded at y=223; ground idle_01/08 & soften idle_01..11 luminance variance toward idle_00.",
+  "filmstrips_opened": [
+    "filmstrip-00.png",
+    "filmstrip-01.png",
+    "filmstrip-02.png",
+    "filmstrip-03.png",
+    "filmstrip-04.png",
+    "filmstrip-05.png",
+    "filmstrip-06.png",
+    "filmstrip-07.png",
+    "filmstrip-08.png",
+    "filmstrip-09.png"
+  ],
+  "backgrounds": [
+    "light",
+    "dark",
+    "checker"
+  ]
+}

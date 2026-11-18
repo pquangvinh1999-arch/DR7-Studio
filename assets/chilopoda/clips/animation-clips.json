@@ -1,8 +1,8 @@
 {
   "schema": "generate2dsprite.animation_clips.v2",
   "source_manifest": {
-    "path": "../clips_manifest.json",
-    "file_sha256": "8e1c6aac8fe1d89096e70df17e1cc987eb1d181caff9bf1fb9bc6b840c72371a",
+    "path": "../chilopoda_in/manifest.json",
+    "file_sha256": "6d66e251d04d973033ce11c6741fa4980347f205de6d45b16a992690ae0436cd",
     "copy": "source-manifest.json"
   },
   "frame_size": [
@@ -28,7 +28,7 @@
       "index": 0,
       "name": "idle_00",
       "source": {
-        "path": "../raw_frames/idle_00.png",
+        "path": "../chilopoda_in/raw_frames/idle_00.png",
         "file_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185,
         "size": [
@@ -56,7 +56,7 @@
       "index": 1,
       "name": "idle_01",
       "source": {
-        "path": "../raw_frames/idle_01.png",
+        "path": "../chilopoda_in/raw_frames/idle_01.png",
         "file_sha256": "23c9b13bf868ab67debd90aa99f0e7d1a1ee84b58793d06d2c9bb867de1c3c9f",
         "bytes": 11955,
         "size": [
@@ -76,7 +76,7 @@
       "index": 2,
       "name": "idle_02",
       "source": {
-        "path": "../raw_frames/idle_02.png",
+        "path": "../chilopoda_in/raw_frames/idle_02.png",
         "file_sha256": "c3160fa7d695dded9505d25262a13c099a73b8b81ff09071199a87caf253e3c6",
         "bytes": 11985,
         "size": [
@@ -96,7 +96,7 @@
       "index": 3,
       "name": "idle_03",
       "source": {
-        "path": "../raw_frames/idle_03.png",
+        "path": "../chilopoda_in/raw_frames/idle_03.png",
         "file_sha256": "57c4c11da5a46b37b719a1ece4d398af1f7e61766650ca071cd684d41c8bacd0",
         "bytes": 11993,
         "size": [
@@ -116,7 +116,7 @@
       "index": 4,
       "name": "idle_04",
       "source": {
-        "path": "../raw_frames/idle_04.png",
+        "path": "../chilopoda_in/raw_frames/idle_04.png",
         "file_sha256": "be6f2648ae2c7892030de7c5c7d5f6402022b73457565b8266cdbb856e6a8a9f",
         "bytes": 11914,
         "size": [
@@ -136,7 +136,7 @@
       "index": 5,
       "name": "idle_05",
       "source": {
-        "path": "../raw_frames/idle_05.png",
+        "path": "../chilopoda_in/raw_frames/idle_05.png",
         "file_sha256": "2b6eeb552f5c0ef23b0ca702811f7c3913ede07c43e7e16c66c94dc684e5653f",
         "bytes": 12044,
         "size": [
@@ -156,7 +156,7 @@
       "index": 6,
       "name": "idle_06",
       "source": {
-        "path": "../raw_frames/idle_06.png",
+        "path": "../chilopoda_in/raw_frames/idle_06.png",
         "file_sha256": "5246f7faf330aeb6c365f6c13d9791fcbccf00f581acc0cb4cd9d903fc4efc44",
         "bytes": 11815,
         "size": [
@@ -176,7 +176,7 @@
       "index": 7,
       "name": "idle_07",
       "source": {
-        "path": "../raw_frames/idle_07.png",
+        "path": "../chilopoda_in/raw_frames/idle_07.png",
         "file_sha256": "8c77286d6f297c3feced5a15d6dc4e2d8c0f16847f7ec7315bef21df48e7f5f6",
         "bytes": 11714,
         "size": [
@@ -196,7 +196,7 @@
       "index": 8,
       "name": "idle_08",
       "source": {
-        "path": "../raw_frames/idle_08.png",
+        "path": "../chilopoda_in/raw_frames/idle_08.png",
         "file_sha256": "a2c3416ff8c39c8c02aee9b650265c915e84cd589dad00ed08f8650c7d3668c8",
         "bytes": 11700,
         "size": [
@@ -216,7 +216,7 @@
       "index": 9,
       "name": "idle_09",
       "source": {
-        "path": "../raw_frames/idle_09.png",
+        "path": "../chilopoda_in/raw_frames/idle_09.png",
         "file_sha256": "25ad2203fff1f3f9c89ac7787096cc904a10597be1995f919e02b45bcae82157",
         "bytes": 11654,
         "size": [
@@ -236,7 +236,7 @@
       "index": 10,
       "name": "idle_10",
       "source": {
-        "path": "../raw_frames/idle_10.png",
+        "path": "../chilopoda_in/raw_frames/idle_10.png",
         "file_sha256": "0c0842fc02b91f38008b4b95252316bfe23b5ad84a44e23643d8fc2f77090994",
         "bytes": 11589,
         "size": [
@@ -256,7 +256,7 @@
       "index": 11,
       "name": "idle_11",
       "source": {
-        "path": "../raw_frames/idle_11.png",
+        "path": "../chilopoda_in/raw_frames/idle_11.png",
         "file_sha256": "ae574085bd2b21bb1781c964de6586964b149760701c9df25b57db0735af8a7d",
         "bytes": 11552,
         "size": [
@@ -276,7 +276,7 @@
       "index": 12,
       "name": "walk_00",
       "source": {
-        "path": "../raw_frames/walk_00.png",
+        "path": "../chilopoda_in/raw_frames/walk_00.png",
         "file_sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
         "bytes": 9194,
         "size": [
@@ -299,7 +299,7 @@
       "index": 13,
       "name": "walk_01",
       "source": {
-        "path": "../raw_frames/walk_01.png",
+        "path": "../chilopoda_in/raw_frames/walk_01.png",
         "file_sha256": "ee312e682fea2a0214a0c5d6abf4b7c89e10d2c5d2515c30defba4aa5ba21c67",
         "bytes": 9208,
         "size": [
@@ -319,7 +319,7 @@
       "index": 14,
       "name": "walk_02",
       "source": {
-        "path": "../raw_frames/walk_02.png",
+        "path": "../chilopoda_in/raw_frames/walk_02.png",
         "file_sha256": "fd300eba348acf533888f425a21bd9ab4f94a8f1375b2ca3bd4e0056c899a847",
         "bytes": 9201,
         "size": [
@@ -339,7 +339,7 @@
       "index": 15,
       "name": "walk_03",
       "source": {
-        "path": "../raw_frames/walk_03.png",
+        "path": "../chilopoda_in/raw_frames/walk_03.png",
         "file_sha256": "b2255cd097b24ce7f95919848bba93215a9d4a2cea27ecc8e5d42dac9a1f86f5",
         "bytes": 9250,
         "size": [
@@ -359,7 +359,7 @@
       "index": 16,
       "name": "walk_04",
       "source": {
-        "path": "../raw_frames/walk_04.png",
+        "path": "../chilopoda_in/raw_frames/walk_04.png",
         "file_sha256": "00e2dcdef9c5b1f3f8673b01c43e54477e9c9856c4b5f87f17fb7e772eaa70f2",
         "bytes": 9198,
         "size": [
@@ -379,7 +379,7 @@
       "index": 17,
       "name": "walk_05",
       "source": {
-        "path": "../raw_frames/walk_05.png",
+        "path": "../chilopoda_in/raw_frames/walk_05.png",
         "file_sha256": "7bc2fc9ee5f68627064e778955fa0bbd4ef6d8d479add95579b2eedd98cffd1d",
         "bytes": 9239,
         "size": [
@@ -399,7 +399,7 @@
       "index": 18,
       "name": "walk_06",
       "source": {
-        "path": "../raw_frames/walk_06.png",
+        "path": "../chilopoda_in/raw_frames/walk_06.png",
         "file_sha256": "23a388e180ce3208db5a1e64e8400f1ffccf58b0e8b939be95105aa633ce5e43",
         "bytes": 9366,
         "size": [
@@ -419,7 +419,7 @@
       "index": 19,
       "name": "walk_07",
       "source": {
-        "path": "../raw_frames/walk_07.png",
+        "path": "../chilopoda_in/raw_frames/walk_07.png",
         "file_sha256": "78fd67c399b06a800fb92aa4fb9d48b4741e51f46bf92bfe89ede4d75ff1ceab",
         "bytes": 9176,
         "size": [
@@ -439,7 +439,7 @@
       "index": 20,
       "name": "walk_08",
       "source": {
-        "path": "../raw_frames/walk_08.png",
+        "path": "../chilopoda_in/raw_frames/walk_08.png",
         "file_sha256": "610f322a6aa2054a86e77d446b873b7f58bbcc6d25b4eb0b832f3175424d967a",
         "bytes": 9146,
         "size": [
@@ -459,7 +459,7 @@
       "index": 21,
       "name": "walk_09",
       "source": {
-        "path": "../raw_frames/walk_09.png",
+        "path": "../chilopoda_in/raw_frames/walk_09.png",
         "file_sha256": "4780e74a072b0ec5317052984007013f7fc1001ad8ee51d8c061a35de2b6d2a8",
         "bytes": 9202,
         "size": [
@@ -479,7 +479,7 @@
       "index": 22,
       "name": "walk_10",
       "source": {
-        "path": "../raw_frames/walk_10.png",
+        "path": "../chilopoda_in/raw_frames/walk_10.png",
         "file_sha256": "ef973762539c6572eac0b278e898ab64817dcb341ab0f4044102d5331dc53f59",
         "bytes": 9154,
         "size": [
@@ -499,7 +499,7 @@
       "index": 23,
       "name": "walk_11",
       "source": {
-        "path": "../raw_frames/walk_11.png",
+        "path": "../chilopoda_in/raw_frames/walk_11.png",
         "file_sha256": "df7fc9a251df75c2d3093a25a3e66dffd167bf01f1efe090b6cdfa8fb1bddd0c",
         "bytes": 9124,
         "size": [
@@ -519,7 +519,7 @@
       "index": 24,
       "name": "attack_light_00",
       "source": {
-        "path": "../raw_frames/attack_light_00.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_00.png",
         "file_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185,
         "size": [
@@ -547,7 +547,7 @@
       "index": 25,
       "name": "attack_light_01",
       "source": {
-        "path": "../raw_frames/attack_light_01.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_01.png",
         "file_sha256": "caecb420c4005ef00a67a03ea19d7c0ebc6f9273dd68769dcc9609c0092ed843",
         "bytes": 13035,
         "size": [
@@ -567,7 +567,7 @@
       "index": 26,
       "name": "attack_light_02",
       "source": {
-        "path": "../raw_frames/attack_light_02.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_02.png",
         "file_sha256": "2b6517027548ecea9b3847420d5e4745177465c5b34e87e98ad983f0204d11bf",
         "bytes": 12354,
         "size": [
@@ -587,7 +587,7 @@
       "index": 27,
       "name": "attack_light_03",
       "source": {
-        "path": "../raw_frames/attack_light_03.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_03.png",
         "file_sha256": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
         "bytes": 11925,
         "size": [
@@ -609,7 +609,7 @@
       "index": 28,
       "name": "attack_light_04",
       "source": {
-        "path": "../raw_frames/attack_light_04.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_04.png",
         "file_sha256": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
         "bytes": 11516,
         "size": [
@@ -631,7 +631,7 @@
       "index": 29,
       "name": "attack_light_05",
       "source": {
-        "path": "../raw_frames/attack_light_05.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_05.png",
         "file_sha256": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
         "bytes": 11530,
         "size": [
@@ -653,7 +653,7 @@
       "index": 30,
       "name": "attack_light_06",
       "source": {
-        "path": "../raw_frames/attack_light_06.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_06.png",
         "file_sha256": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
         "bytes": 10776,
         "size": [
@@ -675,7 +675,7 @@
       "index": 31,
       "name": "attack_light_07",
       "source": {
-        "path": "../raw_frames/attack_light_07.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_07.png",
         "file_sha256": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
         "bytes": 11424,
         "size": [
@@ -697,7 +697,7 @@
       "index": 32,
       "name": "attack_light_08",
       "source": {
-        "path": "../raw_frames/attack_light_08.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_08.png",
         "file_sha256": "0fdb02ed9da70639df0cb6677e9484c092c645cc9d6b40619c4a57406ca54afa",
         "bytes": 11194,
         "size": [
@@ -717,7 +717,7 @@
       "index": 33,
       "name": "attack_light_09",
       "source": {
-        "path": "../raw_frames/attack_light_09.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_09.png",
         "file_sha256": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
         "bytes": 11931,
         "size": [
@@ -739,7 +739,7 @@
       "index": 34,
       "name": "attack_light_10",
       "source": {
-        "path": "../raw_frames/attack_light_10.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_10.png",
         "file_sha256": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
         "bytes": 11369,
         "size": [
@@ -761,7 +761,7 @@
       "index": 35,
       "name": "attack_light_11",
       "source": {
-        "path": "../raw_frames/attack_light_11.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_11.png",
         "file_sha256": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
         "bytes": 11296,
         "size": [
@@ -783,7 +783,7 @@
       "index": 36,
       "name": "attack_light_12",
       "source": {
-        "path": "../raw_frames/attack_light_12.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_12.png",
         "file_sha256": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
         "bytes": 11430,
         "size": [
@@ -805,7 +805,7 @@
       "index": 37,
       "name": "attack_light_13",
       "source": {
-        "path": "../raw_frames/attack_light_13.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_13.png",
         "file_sha256": "2bb735e69eb97753406e2c570436cdbfe39ea759868d806dd5db30810d08e944",
         "bytes": 12276,
         "size": [
@@ -825,7 +825,7 @@
       "index": 38,
       "name": "attack_light_14",
       "source": {
-        "path": "../raw_frames/attack_light_14.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_14.png",
         "file_sha256": "5b3902f97e7f8bddf7614b79b0748acad9779433f051b0f4b7f8af92cce36be6",
         "bytes": 12633,
         "size": [
@@ -845,7 +845,7 @@
       "index": 39,
       "name": "attack_light_15",
       "source": {
-        "path": "../raw_frames/attack_light_15.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_15.png",
         "file_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185,
         "size": [
@@ -873,7 +873,7 @@
       "index": 40,
       "name": "hit_00",
       "source": {
-        "path": "../raw_frames/hit_00.png",
+        "path": "../chilopoda_in/raw_frames/hit_00.png",
         "file_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185,
         "size": [
@@ -901,7 +901,7 @@
       "index": 41,
       "name": "hit_01",
       "source": {
-        "path": "../raw_frames/hit_01.png",
+        "path": "../chilopoda_in/raw_frames/hit_01.png",
         "file_sha256": "0d30b2595cd5b63bd373919001c289bc67ab1bf27d95e99168476a6160ad5c44",
         "bytes": 11723,
         "size": [
@@ -921,7 +921,7 @@
       "index": 42,
       "name": "hit_02",
       "source": {
-        "path": "../raw_frames/hit_02.png",
+        "path": "../chilopoda_in/raw_frames/hit_02.png",
         "file_sha256": "3abd58c1d441bc6c1ed1f8b129b2719450e99851166b666501afc9c355a33ea5",
         "bytes": 11968,
         "size": [
@@ -941,7 +941,7 @@
       "index": 43,
       "name": "hit_03",
       "source": {
-        "path": "../raw_frames/hit_03.png",
+        "path": "../chilopoda_in/raw_frames/hit_03.png",
         "file_sha256": "fdf59c7ab4097c8567308a53d8fd4c299b5c3f95a19550a1f393fed7b2459c70",
         "bytes": 12095,
         "size": [
@@ -961,7 +961,7 @@
       "index": 44,
       "name": "hit_04",
       "source": {
-        "path": "../raw_frames/hit_04.png",
+        "path": "../chilopoda_in/raw_frames/hit_04.png",
         "file_sha256": "7080610cb095528878b87cd05ce67103561095002b65c08b01b940ea8867758e",
         "bytes": 11927,
         "size": [
@@ -981,7 +981,7 @@
       "index": 45,
       "name": "hit_05",
       "source": {
-        "path": "../raw_frames/hit_05.png",
+        "path": "../chilopoda_in/raw_frames/hit_05.png",
         "file_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185,
         "size": [
@@ -1009,7 +1009,7 @@
       "index": 46,
       "name": "ko_00",
       "source": {
-        "path": "../raw_frames/ko_00.png",
+        "path": "../chilopoda_in/raw_frames/ko_00.png",
         "file_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185,
         "size": [
@@ -1037,7 +1037,7 @@
       "index": 47,
       "name": "ko_01",
       "source": {
-        "path": "../raw_frames/ko_01.png",
+        "path": "../chilopoda_in/raw_frames/ko_01.png",
         "file_sha256": "5167d2ef98c0181fac13167ed893684df20627b3eca020e4db0b690fa0ce3155",
         "bytes": 12152,
         "size": [
@@ -1057,7 +1057,7 @@
       "index": 48,
       "name": "ko_02",
       "source": {
-        "path": "../raw_frames/ko_02.png",
+        "path": "../chilopoda_in/raw_frames/ko_02.png",
         "file_sha256": "a66cc18dcddca152ef605502f3eafb177e433e3e8835b702d21fb1fd1f24fa3d",
         "bytes": 11502,
         "size": [
@@ -1077,7 +1077,7 @@
       "index": 49,
       "name": "ko_03",
       "source": {
-        "path": "../raw_frames/ko_03.png",
+        "path": "../chilopoda_in/raw_frames/ko_03.png",
         "file_sha256": "d62952bbe8165e90d01b53c156b0575b2cf68b5fb9d465cd1279e16c725a360c",
         "bytes": 10288,
         "size": [
@@ -1097,7 +1097,7 @@
       "index": 50,
       "name": "ko_04",
       "source": {
-        "path": "../raw_frames/ko_04.png",
+        "path": "../chilopoda_in/raw_frames/ko_04.png",
         "file_sha256": "70e48189521c8cace6ffc942a19f710582b005284cf33bd529de218a099bb01e",
         "bytes": 9766,
         "size": [
@@ -1117,7 +1117,7 @@
       "index": 51,
       "name": "ko_05",
       "source": {
-        "path": "../raw_frames/ko_05.png",
+        "path": "../chilopoda_in/raw_frames/ko_05.png",
         "file_sha256": "aafdd92172f6c9c4caf472616073763ae679251be638e11443a1fcc3cc73f809",
         "bytes": 8570,
         "size": [
@@ -1137,7 +1137,7 @@
       "index": 52,
       "name": "ko_06",
       "source": {
-        "path": "../raw_frames/ko_06.png",
+        "path": "../chilopoda_in/raw_frames/ko_06.png",
         "file_sha256": "160ad0cc7cdf5485a7e3a365f27f7d4f60d95610c3f0b03631618ba63cf6ee2e",
         "bytes": 7439,
         "size": [
@@ -1157,7 +1157,7 @@
       "index": 53,
       "name": "ko_07",
       "source": {
-        "path": "../raw_frames/ko_07.png",
+        "path": "../chilopoda_in/raw_frames/ko_07.png",
         "file_sha256": "6626088d2c03101262a55a7a807e93aa67e4616676fb7c32f0be93a235e0dc99",
         "bytes": 7409,
         "size": [
@@ -1177,7 +1177,7 @@
       "index": 54,
       "name": "power_up_00",
       "source": {
-        "path": "../raw_frames/power_up_00.png",
+        "path": "../chilopoda_in/raw_frames/power_up_00.png",
         "file_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185,
         "size": [
@@ -1205,7 +1205,7 @@
       "index": 55,
       "name": "power_up_01",
       "source": {
-        "path": "../raw_frames/power_up_01.png",
+        "path": "../chilopoda_in/raw_frames/power_up_01.png",
         "file_sha256": "dfb29e4accea232ee38f4865b14a81aefc60adaf858b147e751f44fed6492a68",
         "bytes": 12460,
         "size": [
@@ -1225,7 +1225,7 @@
       "index": 56,
       "name": "power_up_02",
       "source": {
-        "path": "../raw_frames/power_up_02.png",
+        "path": "../chilopoda_in/raw_frames/power_up_02.png",
         "file_sha256": "4776ed37dfdeaefcee450ffc9d968d813658eba5fc1a6bbbaa29bc44be1b0f02",
         "bytes": 12333,
         "size": [
@@ -1245,7 +1245,7 @@
       "index": 57,
       "name": "power_up_03",
       "source": {
-        "path": "../raw_frames/power_up_03.png",
+        "path": "../chilopoda_in/raw_frames/power_up_03.png",
         "file_sha256": "45917b9e11852da0e034f137d0cce18b614fbda848f861ddb94897446affa2f2",
         "bytes": 12358,
         "size": [
@@ -1265,7 +1265,7 @@
       "index": 58,
       "name": "power_up_04",
       "source": {
-        "path": "../raw_frames/power_up_04.png",
+        "path": "../chilopoda_in/raw_frames/power_up_04.png",
         "file_sha256": "12f33db012435c8fc61dbb499f8922206ab475a1116071eb45bc569b163e8d31",
         "bytes": 12229,
         "size": [
@@ -1285,7 +1285,7 @@
       "index": 59,
       "name": "power_up_05",
       "source": {
-        "path": "../raw_frames/power_up_05.png",
+        "path": "../chilopoda_in/raw_frames/power_up_05.png",
         "file_sha256": "140f7be452ea3fe6a7c5850499553997c857aaa679a32be281f7c4da9171988a",
         "bytes": 12157,
         "size": [
@@ -1305,7 +1305,7 @@
       "index": 60,
       "name": "power_up_06",
       "source": {
-        "path": "../raw_frames/power_up_06.png",
+        "path": "../chilopoda_in/raw_frames/power_up_06.png",
         "file_sha256": "59828d93288ba21b23d623f7c2d6d44ec4785d789d2d129fea4aa6284650fbe0",
         "bytes": 11833,
         "size": [
@@ -1325,7 +1325,7 @@
       "index": 61,
       "name": "power_up_07",
       "source": {
-        "path": "../raw_frames/power_up_07.png",
+        "path": "../chilopoda_in/raw_frames/power_up_07.png",
         "file_sha256": "7e9d803dcc22a63e08607cd0c92c1348054fb62be6e137ef627267902d60526d",
         "bytes": 11653,
         "size": [
@@ -1345,7 +1345,7 @@
       "index": 62,
       "name": "power_up_08",
       "source": {
-        "path": "../raw_frames/power_up_08.png",
+        "path": "../chilopoda_in/raw_frames/power_up_08.png",
         "file_sha256": "3af065d2d60acbe1b0ddcbf0bac1458564b66f74c9235921625a1bc15ec2218f",
         "bytes": 11579,
         "size": [
@@ -1365,7 +1365,7 @@
       "index": 63,
       "name": "power_up_09",
       "source": {
-        "path": "../raw_frames/power_up_09.png",
+        "path": "../chilopoda_in/raw_frames/power_up_09.png",
         "file_sha256": "6fae9474e2eb34d403acc743204d6cdfc8d2225be12a299030e14312ad1ffd54",
         "bytes": 11590,
         "size": [
@@ -1385,7 +1385,7 @@
       "index": 64,
       "name": "power_up_10",
       "source": {
-        "path": "../raw_frames/power_up_10.png",
+        "path": "../chilopoda_in/raw_frames/power_up_10.png",
         "file_sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185,
         "size": [
@@ -1413,7 +1413,7 @@
       "index": 65,
       "name": "turn_00",
       "source": {
-        "path": "../raw_frames/turn_00.png",
+        "path": "../chilopoda_in/raw_frames/turn_00.png",
         "file_sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
         "bytes": 9194,
         "size": [
@@ -1436,7 +1436,7 @@
       "index": 66,
       "name": "turn_01",
       "source": {
-        "path": "../raw_frames/turn_01.png",
+        "path": "../chilopoda_in/raw_frames/turn_01.png",
         "file_sha256": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
         "bytes": 11925,
         "size": [
@@ -1458,7 +1458,7 @@
       "index": 67,
       "name": "turn_02",
       "source": {
-        "path": "../raw_frames/turn_02.png",
+        "path": "../chilopoda_in/raw_frames/turn_02.png",
         "file_sha256": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
         "bytes": 11516,
         "size": [
@@ -1480,7 +1480,7 @@
       "index": 68,
       "name": "turn_03",
       "source": {
-        "path": "../raw_frames/turn_03.png",
+        "path": "../chilopoda_in/raw_frames/turn_03.png",
         "file_sha256": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
         "bytes": 11530,
         "size": [
@@ -1502,7 +1502,7 @@
       "index": 69,
       "name": "turn_04",
       "source": {
-        "path": "../raw_frames/turn_04.png",
+        "path": "../chilopoda_in/raw_frames/turn_04.png",
         "file_sha256": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
         "bytes": 10776,
         "size": [
@@ -1524,7 +1524,7 @@
       "index": 70,
       "name": "turn_05",
       "source": {
-        "path": "../raw_frames/turn_05.png",
+        "path": "../chilopoda_in/raw_frames/turn_05.png",
         "file_sha256": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
         "bytes": 11424,
         "size": [
@@ -1546,7 +1546,7 @@
       "index": 71,
       "name": "turn_06",
       "source": {
-        "path": "../raw_frames/turn_06.png",
+        "path": "../chilopoda_in/raw_frames/turn_06.png",
         "file_sha256": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
         "bytes": 11931,
         "size": [
@@ -1568,7 +1568,7 @@
       "index": 72,
       "name": "turn_07",
       "source": {
-        "path": "../raw_frames/turn_07.png",
+        "path": "../chilopoda_in/raw_frames/turn_07.png",
         "file_sha256": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
         "bytes": 11369,
         "size": [
@@ -1590,7 +1590,7 @@
       "index": 73,
       "name": "turn_08",
       "source": {
-        "path": "../raw_frames/turn_08.png",
+        "path": "../chilopoda_in/raw_frames/turn_08.png",
         "file_sha256": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
         "bytes": 11296,
         "size": [
@@ -1612,7 +1612,7 @@
       "index": 74,
       "name": "turn_09",
       "source": {
-        "path": "../raw_frames/turn_09.png",
+        "path": "../chilopoda_in/raw_frames/turn_09.png",
         "file_sha256": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
         "bytes": 11430,
         "size": [
@@ -1634,7 +1634,7 @@
       "index": 75,
       "name": "turn_10",
       "source": {
-        "path": "../raw_frames/turn_10.png",
+        "path": "../chilopoda_in/raw_frames/turn_10.png",
         "file_sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
         "bytes": 9194,
         "size": [
@@ -1657,7 +1657,7 @@
       "index": 76,
       "name": "burrow_dust_fx_00",
       "source": {
-        "path": "../raw_frames/burrow_dust_fx_00.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_00.png",
         "file_sha256": "aa41b4158a9be7fe3eae725d31574b431178cdd403176c74c988e802ef28eaab",
         "bytes": 704,
         "size": [
@@ -1677,7 +1677,7 @@
       "index": 77,
       "name": "burrow_dust_fx_01",
       "source": {
-        "path": "../raw_frames/burrow_dust_fx_01.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_01.png",
         "file_sha256": "46fa835123167e74e6597ee08e4f4a4241e33652743aee056759910d4164dd47",
         "bytes": 951,
         "size": [
@@ -1697,7 +1697,7 @@
       "index": 78,
       "name": "burrow_dust_fx_02",
       "source": {
-        "path": "../raw_frames/burrow_dust_fx_02.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_02.png",
         "file_sha256": "f2af95345d2d8e26804b27a680b921631582874ab6fdb190bf4969a740fd59bd",
         "bytes": 2173,
         "size": [
@@ -1717,7 +1717,7 @@
       "index": 79,
       "name": "burrow_dust_fx_03",
       "source": {
-        "path": "../raw_frames/burrow_dust_fx_03.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_03.png",
         "file_sha256": "8c650dacd80af463a12fc1706632096e5f2479aaa2999c2f145a6e82aba63189",
         "bytes": 3635,
         "size": [
@@ -1737,7 +1737,7 @@
       "index": 80,
       "name": "burrow_dust_fx_04",
       "source": {
-        "path": "../raw_frames/burrow_dust_fx_04.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_04.png",
         "file_sha256": "132d606abc877affdb1987227ec2303dfe12428bc60a4361f964480ecc96dc67",
         "bytes": 3223,
         "size": [
@@ -1757,7 +1757,7 @@
       "index": 81,
       "name": "burrow_dust_fx_05",
       "source": {
-        "path": "../raw_frames/burrow_dust_fx_05.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_05.png",
         "file_sha256": "d904fbe5bcfc8582fe80aa0e6906b3b5ed2817d1f6039364c18873cdfee1ba05",
         "bytes": 2376,
         "size": [
@@ -1777,7 +1777,7 @@
       "index": 82,
       "name": "burrow_dust_fx_06",
       "source": {
-        "path": "../raw_frames/burrow_dust_fx_06.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_06.png",
         "file_sha256": "95077c5c65b28d0a997e6c88caa12d289c94c6fb0b8df94cc42cefcb09769a6b",
         "bytes": 1644,
         "size": [
@@ -1797,7 +1797,7 @@
       "index": 83,
       "name": "burrow_dust_fx_07",
       "source": {
-        "path": "../raw_frames/burrow_dust_fx_07.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_07.png",
         "file_sha256": "f1d6c8331400f3f6d4ca1115fd68698ce627fb491a999f3a7c1ec096e800f712",
         "bytes": 1183,
         "size": [
@@ -1815,70 +1815,10 @@
     },
     {
       "index": 84,
-      "name": "antenna_glow_fx_00",
+      "name": "fireball_fx_00",
       "source": {
-        "path": "../raw_frames/antenna_glow_fx_00.png",
-        "file_sha256": "1c927d381b52eb2a38ce3111ac539b82dc0209175172b1a9f6f9ae651b0190ad",
-        "bytes": 473,
-        "size": [
-          384,
-          256
-        ],
-        "mode": "RGBA"
-      },
-      "rgba_pixel_sha256": "360f3f010768839d91bdbf575403959039853f07dc58eaa4c7e2cae3a75a6edc",
-      "transparent_pixel_count": 98303,
-      "visible_pixel_count": 1,
-      "near_duplicates": [],
-      "holds": [],
-      "file": "frames/frame-84.png"
-    },
-    {
-      "index": 85,
-      "name": "antenna_glow_fx_01",
-      "source": {
-        "path": "../raw_frames/antenna_glow_fx_01.png",
-        "file_sha256": "2e1c822cf5ed006064c2f497350bb959807d8279962d805f225cd75ca7a35d37",
-        "bytes": 472,
-        "size": [
-          384,
-          256
-        ],
-        "mode": "RGBA"
-      },
-      "rgba_pixel_sha256": "7bc8de965625c6d373519d386f04c886b1c3f614202c75e86b250accb116ddb6",
-      "transparent_pixel_count": 98303,
-      "visible_pixel_count": 1,
-      "near_duplicates": [],
-      "holds": [],
-      "file": "frames/frame-85.png"
-    },
-    {
-      "index": 86,
-      "name": "antenna_glow_fx_02",
-      "source": {
-        "path": "../raw_frames/antenna_glow_fx_02.png",
-        "file_sha256": "3e7e8dd77a2eb7ff7694aee80e98f2ceaa36b207e37bcf5c6b7b9e6ec913c650",
-        "bytes": 473,
-        "size": [
-          384,
-          256
-        ],
-        "mode": "RGBA"
-      },
-      "rgba_pixel_sha256": "e168e9c96cc835f4f55d39b9617c0708c94542dedef648342c7e3d7f27bc7a76",
-      "transparent_pixel_count": 98303,
-      "visible_pixel_count": 1,
-      "near_duplicates": [],
-      "holds": [],
-      "file": "frames/frame-86.png"
-    },
-    {
-      "index": 87,
-      "name": "antenna_glow_fx_03",
-      "source": {
-        "path": "../raw_frames/antenna_glow_fx_03.png",
-        "file_sha256": "6cd3f34464ee351da027bb9cd443535293e83cdbf8fb1e414b6181be87ac41c7",
+        "path": "../chilopoda_in/raw_frames/fireball_fx_00.png",
+        "file_sha256": "508f438490da68849d53f58915f89b780082a050e6f9d3b390ba479ecb101965",
         "bytes": 512,
         "size": [
           384,
@@ -1886,129 +1826,189 @@
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "db0ed2ceb2f3ffce2222cb539c0718df66ce579760dd9839a3482b3e600e9163",
-      "transparent_pixel_count": 98298,
-      "visible_pixel_count": 6,
+      "rgba_pixel_sha256": "cb3851eb53f435b3c6548d71d9f7d595f4eab2bb37b5c57a689ffa0c7ef4d818",
+      "transparent_pixel_count": 98297,
+      "visible_pixel_count": 7,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-84.png"
+    },
+    {
+      "index": 85,
+      "name": "fireball_fx_01",
+      "source": {
+        "path": "../chilopoda_in/raw_frames/fireball_fx_01.png",
+        "file_sha256": "8c37e5a0c7e65feee3ca6051e3071bfc7f5abf371d23341bf74b95edcbd753de",
+        "bytes": 593,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "edea2b6e6ba99c6a18eb4903c34b8baf7683ec8119e1d7aea0a879fc9b201a60",
+      "transparent_pixel_count": 98276,
+      "visible_pixel_count": 28,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-85.png"
+    },
+    {
+      "index": 86,
+      "name": "fireball_fx_02",
+      "source": {
+        "path": "../chilopoda_in/raw_frames/fireball_fx_02.png",
+        "file_sha256": "29a4ec64b1e460aa32c441c59d39c6740b94d816ffe40cf6f4cd82de769b7609",
+        "bytes": 660,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "ee73471798fd12d58ca6348caaf086b18ce0729770c2d972743305b8a06edd0d",
+      "transparent_pixel_count": 98246,
+      "visible_pixel_count": 58,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-86.png"
+    },
+    {
+      "index": 87,
+      "name": "fireball_fx_03",
+      "source": {
+        "path": "../chilopoda_in/raw_frames/fireball_fx_03.png",
+        "file_sha256": "8b01ffc7d9ddf2bfba2883248aac51881197339b89b3b01460c0c57578803f80",
+        "bytes": 826,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "b72bdf7cf99f46ed9601c4a81dc5fe1918482fa629b0c44ce4fa42e11f025e6f",
+      "transparent_pixel_count": 98178,
+      "visible_pixel_count": 126,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-87.png"
     },
     {
       "index": 88,
-      "name": "antenna_glow_fx_04",
+      "name": "fireball_fx_04",
       "source": {
-        "path": "../raw_frames/antenna_glow_fx_04.png",
-        "file_sha256": "98d985442706a31c557b3bf36ef791d14f5d99cead59195b8042c0f1b0d4f296",
-        "bytes": 472,
+        "path": "../chilopoda_in/raw_frames/fireball_fx_04.png",
+        "file_sha256": "96f1dad60a179a36576da04401c4977c5fc5d09e9213243b949b709bfa928ebf",
+        "bytes": 999,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "2b6bfc0e01043c370e1cfc26ecd3c19b6dbc0c36ebd5974f0f3aa3dbb9bd5d98",
-      "transparent_pixel_count": 98303,
-      "visible_pixel_count": 1,
+      "rgba_pixel_sha256": "a7460b196276d2c680f85fbfa8d3b8951f3a9d9152bb3dae0753a75110d856cd",
+      "transparent_pixel_count": 98087,
+      "visible_pixel_count": 217,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-88.png"
     },
     {
       "index": 89,
-      "name": "antenna_glow_fx_05",
+      "name": "fireball_fx_05",
       "source": {
-        "path": "../raw_frames/antenna_glow_fx_05.png",
-        "file_sha256": "98297c6cb19f362068f0562590395e93079724241f07af34a47c2b5dfebeaf7d",
-        "bytes": 473,
+        "path": "../chilopoda_in/raw_frames/fireball_fx_05.png",
+        "file_sha256": "8d9b61b47157ae54e8aa6c73f1e2da8053ca9efa91a6007df7c989697dc6195e",
+        "bytes": 1199,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "482c7f708246c1096cfab1b89a1b7163702a1e7520fcbb8bd2ae5ad2706b8b03",
-      "transparent_pixel_count": 98303,
-      "visible_pixel_count": 1,
+      "rgba_pixel_sha256": "2d0f7ee7bdd305eaaa99789031f6fa721eb7bea1a675c29b08bf868aa5442248",
+      "transparent_pixel_count": 97918,
+      "visible_pixel_count": 386,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-89.png"
     },
     {
       "index": 90,
-      "name": "red_laser_fx_00",
+      "name": "fireball_fx_06",
       "source": {
-        "path": "../raw_frames/red_laser_fx_00.png",
-        "file_sha256": "c64b3b2f22f73c562ea4fee1c8924e3910e543e4934f8341fce143e50f1da07a",
-        "bytes": 618,
+        "path": "../chilopoda_in/raw_frames/fireball_fx_06.png",
+        "file_sha256": "107206ebce97eb3478e28be86e680364bad8bf4a3b8717bd05aa45a0075316fb",
+        "bytes": 1393,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "814bf1d74a24c23f5a79fdca2e3b1a159e785c503d4fdd151eddf86e1c712cc8",
-      "transparent_pixel_count": 98270,
-      "visible_pixel_count": 34,
+      "rgba_pixel_sha256": "db281f0274b920cef978aa544316a560e1c520fd186f8b49985856d70ce3551f",
+      "transparent_pixel_count": 97797,
+      "visible_pixel_count": 507,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-90.png"
     },
     {
       "index": 91,
-      "name": "red_laser_fx_01",
+      "name": "fireball_fx_07",
       "source": {
-        "path": "../raw_frames/red_laser_fx_01.png",
-        "file_sha256": "e490387efdeacfa85e64aca8efaf17be42e67c43c5d8bdde1804cd61d5092ae8",
-        "bytes": 686,
+        "path": "../chilopoda_in/raw_frames/fireball_fx_07.png",
+        "file_sha256": "2ca2344ba4b81916ffe1b84ea25fd1cb9d52782d138aba3eddaaf45dfd44b492",
+        "bytes": 1536,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "4ddab9a5addb8571be4fd77c6eeceb46bc1ca08871cff62df6d00cac9e362278",
-      "transparent_pixel_count": 98259,
-      "visible_pixel_count": 45,
+      "rgba_pixel_sha256": "c9d0acb586733b754745fe9fc52fe12a17bd6c1551681b751acf79d5e6044ede",
+      "transparent_pixel_count": 97688,
+      "visible_pixel_count": 616,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-91.png"
     },
     {
       "index": 92,
-      "name": "red_laser_fx_02",
+      "name": "fireball_fx_08",
       "source": {
-        "path": "../raw_frames/red_laser_fx_02.png",
-        "file_sha256": "f84a625dfd22521882939fc682c5b8a8bc9b14a9909bcd2d62d052bfc33290d7",
-        "bytes": 618,
+        "path": "../chilopoda_in/raw_frames/fireball_fx_08.png",
+        "file_sha256": "a0e228379c8b6abfe8265787a368b60284a301839874b9fd2bb270e9e3c9fad0",
+        "bytes": 1841,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "efe31bf0ec3e4673cc8e16675408852bb82accc0ebdc2cf7d42cad7ba7070fb3",
-      "transparent_pixel_count": 98270,
-      "visible_pixel_count": 34,
+      "rgba_pixel_sha256": "d8ea9af3569aeb3cc0bbc05b4e534860d8c34e76a931497a8c70c66931803760",
+      "transparent_pixel_count": 97398,
+      "visible_pixel_count": 906,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-92.png"
     },
     {
       "index": 93,
-      "name": "red_laser_fx_03",
+      "name": "fireball_fx_09",
       "source": {
-        "path": "../raw_frames/red_laser_fx_03.png",
-        "file_sha256": "e8b74f2193ed15aea18da3f1c20c5704aed9436c60fa4a09e27402f15ba3c521",
-        "bytes": 610,
+        "path": "../chilopoda_in/raw_frames/fireball_fx_09.png",
+        "file_sha256": "9b9ab01a7507381f3eeab0078ab521d83d5e991492e8686c097a1810ea80d238",
+        "bytes": 1800,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "85cdea4fda0703192f308296808c0724fb3e3f420c5261d950eab3003ec6e082",
-      "transparent_pixel_count": 98272,
-      "visible_pixel_count": 32,
+      "rgba_pixel_sha256": "b37fa6cbcc555f32c21819b5c5854d5ffc8f14fd06135d810652d40fa9a442e8",
+      "transparent_pixel_count": 97356,
+      "visible_pixel_count": 948,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-93.png"
@@ -3347,7 +3347,7 @@
       "tick_hz": 60,
       "events_ms": [
         {
-          "name": "custom:dual_laser_release",
+          "name": "custom:fireball_release",
           "at_ms": 267,
           "at": 3,
           "position": 3,
@@ -4029,166 +4029,14 @@
         "changed_visible_pixels": 138
       }
     },
-    "antenna_glow_fx": {
+    "fireball_fx": {
       "frames": [
         84,
         85,
         86,
         87,
         88,
-        89
-      ],
-      "duration_ms": [
-        33,
-        34,
-        33,
-        33,
-        34,
-        33
-      ],
-      "loop": false,
-      "total_duration_ms": 200,
-      "nominal_fps": 30.0,
-      "average_fps": 30.0,
-      "loop_policy": "oneshot",
-      "timing_source": "ticks",
-      "ticks": [
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "tick_hz": 60,
-      "fps_rational": "30/1",
-      "events_ms": [],
-      "role": "fx",
-      "tick_grid": {
-        "hz": 60,
-        "max_drift_ms": 0.333,
-        "frame_ticks": [
-          2,
-          2,
-          2,
-          2,
-          2,
-          2
-        ],
-        "zero_tick_positions": [],
-        "even": true,
-        "cycle_ticks": 12.0,
-        "cycle_aligned": true,
-        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
-      },
-      "holds": [],
-      "preview": {
-        "file": "clips/clip-08.webp",
-        "decoded_frames": [
-          {
-            "index": 0,
-            "start_ms": 0,
-            "duration_ms": 33,
-            "clip_positions": [
-              0
-            ]
-          },
-          {
-            "index": 1,
-            "start_ms": 33,
-            "duration_ms": 34,
-            "clip_positions": [
-              1
-            ]
-          },
-          {
-            "index": 2,
-            "start_ms": 67,
-            "duration_ms": 33,
-            "clip_positions": [
-              2
-            ]
-          },
-          {
-            "index": 3,
-            "start_ms": 100,
-            "duration_ms": 33,
-            "clip_positions": [
-              3
-            ]
-          },
-          {
-            "index": 4,
-            "start_ms": 133,
-            "duration_ms": 34,
-            "clip_positions": [
-              4
-            ]
-          },
-          {
-            "index": 5,
-            "start_ms": 167,
-            "duration_ms": 33,
-            "clip_positions": [
-              5
-            ]
-          }
-        ],
-        "decoded_frame_count": 6,
-        "total_duration_ms": 200,
-        "native_loop_count": 1,
-        "timeline_verified": true,
-        "alpha_and_visible_rgb_exact": true,
-        "hidden_rgb_guaranteed": false,
-        "lossless": true,
-        "file_sha256": "671908bb94c694598185aadd0c15055d40695396db57f8a40f3e3fe55e5fb302"
-      },
-      "transitions": [
-        {
-          "from_position": 0,
-          "to_position": 1,
-          "premultiplied_rgb_mae": 0.00132,
-          "alpha_mae": 0.001404,
-          "changed_visible_pixels": 1
-        },
-        {
-          "from_position": 1,
-          "to_position": 2,
-          "premultiplied_rgb_mae": 0.000568,
-          "alpha_mae": 1e-05,
-          "changed_visible_pixels": 1
-        },
-        {
-          "from_position": 2,
-          "to_position": 3,
-          "premultiplied_rgb_mae": 0.001348,
-          "alpha_mae": 0.001638,
-          "changed_visible_pixels": 6
-        },
-        {
-          "from_position": 3,
-          "to_position": 4,
-          "premultiplied_rgb_mae": 0.001994,
-          "alpha_mae": 0.001668,
-          "changed_visible_pixels": 6
-        },
-        {
-          "from_position": 4,
-          "to_position": 5,
-          "premultiplied_rgb_mae": 0.001244,
-          "alpha_mae": 0.001516,
-          "changed_visible_pixels": 1
-        }
-      ],
-      "last_to_first": {
-        "applies_to_playback": false,
-        "premultiplied_rgb_mae": 2.2e-05,
-        "alpha_mae": 0.000132,
-        "changed_visible_pixels": 1
-      }
-    },
-    "red_laser_fx": {
-      "frames": [
+        89,
         90,
         91,
         92,
@@ -4198,15 +4046,27 @@
         17,
         16,
         17,
+        17,
+        16,
+        17,
+        17,
+        16,
+        17,
         17
       ],
       "loop": false,
-      "total_duration_ms": 67,
+      "total_duration_ms": 167,
       "nominal_fps": 60.0,
-      "average_fps": 59.701492537313435,
+      "average_fps": 59.880239520958085,
       "loop_policy": "oneshot",
       "timing_source": "ticks",
       "ticks": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1,
         1,
         1,
@@ -4223,17 +4083,23 @@
           1,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           1
         ],
         "zero_tick_positions": [],
         "even": true,
-        "cycle_ticks": 4.02,
+        "cycle_ticks": 10.02,
         "cycle_aligned": false,
         "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
       },
       "holds": [],
       "preview": {
-        "file": "clips/clip-09.webp",
+        "file": "clips/clip-08.webp",
         "decoded_frames": [
           {
             "index": 0,
@@ -4266,45 +4132,135 @@
             "clip_positions": [
               3
             ]
+          },
+          {
+            "index": 4,
+            "start_ms": 67,
+            "duration_ms": 16,
+            "clip_positions": [
+              4
+            ]
+          },
+          {
+            "index": 5,
+            "start_ms": 83,
+            "duration_ms": 17,
+            "clip_positions": [
+              5
+            ]
+          },
+          {
+            "index": 6,
+            "start_ms": 100,
+            "duration_ms": 17,
+            "clip_positions": [
+              6
+            ]
+          },
+          {
+            "index": 7,
+            "start_ms": 117,
+            "duration_ms": 16,
+            "clip_positions": [
+              7
+            ]
+          },
+          {
+            "index": 8,
+            "start_ms": 133,
+            "duration_ms": 17,
+            "clip_positions": [
+              8
+            ]
+          },
+          {
+            "index": 9,
+            "start_ms": 150,
+            "duration_ms": 17,
+            "clip_positions": [
+              9
+            ]
           }
         ],
-        "decoded_frame_count": 4,
-        "total_duration_ms": 67,
+        "decoded_frame_count": 10,
+        "total_duration_ms": 167,
         "native_loop_count": 1,
         "timeline_verified": true,
         "alpha_and_visible_rgb_exact": true,
         "hidden_rgb_guaranteed": false,
         "lossless": true,
-        "file_sha256": "7db9180967e5f76d8187e9a07250ac963dbbffb78ff1d82469e5945c4e482576"
+        "file_sha256": "4cb63ac473f6297c9591c493e4836682d32747733fcdaf3df3c2e984cce9a554"
       },
       "transitions": [
         {
           "from_position": 0,
           "to_position": 1,
-          "premultiplied_rgb_mae": 0.009531,
-          "alpha_mae": 0.002411,
-          "changed_visible_pixels": 45
+          "premultiplied_rgb_mae": 0.037625,
+          "alpha_mae": 0.070038,
+          "changed_visible_pixels": 31
         },
         {
           "from_position": 1,
           "to_position": 2,
-          "premultiplied_rgb_mae": 0.012041,
-          "alpha_mae": 0.002909,
-          "changed_visible_pixels": 45
+          "premultiplied_rgb_mae": 0.043918,
+          "alpha_mae": 0.083008,
+          "changed_visible_pixels": 50
         },
         {
           "from_position": 2,
           "to_position": 3,
-          "premultiplied_rgb_mae": 0.011346,
-          "alpha_mae": 0.013814,
-          "changed_visible_pixels": 36
+          "premultiplied_rgb_mae": 0.130507,
+          "alpha_mae": 0.243835,
+          "changed_visible_pixels": 133
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 0.155707,
+          "alpha_mae": 0.272369,
+          "changed_visible_pixels": 199
+        },
+        {
+          "from_position": 4,
+          "to_position": 5,
+          "premultiplied_rgb_mae": 0.252469,
+          "alpha_mae": 0.469513,
+          "changed_visible_pixels": 358
+        },
+        {
+          "from_position": 5,
+          "to_position": 6,
+          "premultiplied_rgb_mae": 0.252197,
+          "alpha_mae": 0.407257,
+          "changed_visible_pixels": 447
+        },
+        {
+          "from_position": 6,
+          "to_position": 7,
+          "premultiplied_rgb_mae": 0.366238,
+          "alpha_mae": 0.578461,
+          "changed_visible_pixels": 592
+        },
+        {
+          "from_position": 7,
+          "to_position": 8,
+          "premultiplied_rgb_mae": 0.523492,
+          "alpha_mae": 0.861206,
+          "changed_visible_pixels": 829
+        },
+        {
+          "from_position": 8,
+          "to_position": 9,
+          "premultiplied_rgb_mae": 0.904243,
+          "alpha_mae": 1.566772,
+          "changed_visible_pixels": 1108
         }
       ],
       "last_to_first": {
         "applies_to_playback": false,
-        "premultiplied_rgb_mae": 0.011853,
-        "alpha_mae": 0.013295,
-        "changed_visible_pixels": 36
+        "premultiplied_rgb_mae": 1.147352,
+        "alpha_mae": 2.466888,
+        "changed_visible_pixels": 953
       }
     }
   },
@@ -4586,7 +4542,7 @@
     "requested_scale": 1,
     "annotated_with_shared_root": true,
     "not_a_runtime_atlas": true,
-    "file_sha256": "bbc750d3959f8f69aa3fa9852334abcc07d86c8a65584f314d5a08a1cd20564f"
+    "file_sha256": "42a6b1af0c7cffec7af65dd582cd329f4cf805ce325592574922c7878eb7ddbc"
   },
   "review": {
     "scale": 1,
@@ -4677,24 +4633,14 @@
         "positions_shown": 8,
         "truncated": false
       },
-      "antenna_glow_fx": {
+      "fireball_fx": {
         "file": "review/filmstrip-08.png",
         "backgrounds": [
           "light",
           "dark",
           "checker"
         ],
-        "positions_shown": 6,
-        "truncated": false
-      },
-      "red_laser_fx": {
-        "file": "review/filmstrip-09.png",
-        "backgrounds": [
-          "light",
-          "dark",
-          "checker"
-        ],
-        "positions_shown": 4,
+        "positions_shown": 10,
         "truncated": false
       }
     },
@@ -4747,16 +4693,10 @@
         "positions_shown": 8,
         "truncated": false
       },
-      "antenna_glow_fx": {
+      "fireball_fx": {
         "file": "review/onion-08.png",
         "background": "checker",
-        "positions_shown": 6,
-        "truncated": false
-      },
-      "red_laser_fx": {
-        "file": "review/onion-09.png",
-        "background": "checker",
-        "positions_shown": 4,
+        "positions_shown": 10,
         "truncated": false
       }
     },
@@ -4907,7 +4847,7 @@
           "turn_slide_px": 0.0
         },
         {
-          "clip": "antenna_glow_fx",
+          "clip": "fireball_fx",
           "frame": 84,
           "anchor_screen_x": 1080,
           "rows": [
@@ -4921,27 +4861,10 @@
             ]
           ],
           "mirrored_offset_px": -32,
-          "turn_slide_px": 1.0
-        },
-        {
-          "clip": "red_laser_fx",
-          "frame": 90,
-          "anchor_screen_x": 1512,
-          "rows": [
-            [
-              608,
-              864
-            ],
-            [
-              880,
-              1136
-            ]
-          ],
-          "mirrored_offset_px": -32,
-          "turn_slide_px": 1.0
+          "turn_slide_px": 0.0
         }
       ],
-      "clips_shown": 10,
+      "clips_shown": 9,
       "truncated": false
     }
   },
@@ -4972,7 +4895,7 @@
       {
         "id": "webp_timeline",
         "status": "pass",
-        "value": 10,
+        "value": 9,
         "threshold": null
       },
       {
@@ -5008,479 +4931,479 @@
     ],
     "inputs": [
       {
-        "path": "../clips_manifest.json",
-        "sha256": "8e1c6aac8fe1d89096e70df17e1cc987eb1d181caff9bf1fb9bc6b840c72371a",
-        "bytes": 12319
+        "path": "../chilopoda_in/manifest.json",
+        "sha256": "6d66e251d04d973033ce11c6741fa4980347f205de6d45b16a992690ae0436cd",
+        "bytes": 12126
       },
       {
-        "path": "../raw_frames/idle_00.png",
+        "path": "../chilopoda_in/raw_frames/idle_00.png",
         "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185
       },
       {
-        "path": "../raw_frames/idle_01.png",
+        "path": "../chilopoda_in/raw_frames/idle_01.png",
         "sha256": "23c9b13bf868ab67debd90aa99f0e7d1a1ee84b58793d06d2c9bb867de1c3c9f",
         "bytes": 11955
       },
       {
-        "path": "../raw_frames/idle_02.png",
+        "path": "../chilopoda_in/raw_frames/idle_02.png",
         "sha256": "c3160fa7d695dded9505d25262a13c099a73b8b81ff09071199a87caf253e3c6",
         "bytes": 11985
       },
       {
-        "path": "../raw_frames/idle_03.png",
+        "path": "../chilopoda_in/raw_frames/idle_03.png",
         "sha256": "57c4c11da5a46b37b719a1ece4d398af1f7e61766650ca071cd684d41c8bacd0",
         "bytes": 11993
       },
       {
-        "path": "../raw_frames/idle_04.png",
+        "path": "../chilopoda_in/raw_frames/idle_04.png",
         "sha256": "be6f2648ae2c7892030de7c5c7d5f6402022b73457565b8266cdbb856e6a8a9f",
         "bytes": 11914
       },
       {
-        "path": "../raw_frames/idle_05.png",
+        "path": "../chilopoda_in/raw_frames/idle_05.png",
         "sha256": "2b6eeb552f5c0ef23b0ca702811f7c3913ede07c43e7e16c66c94dc684e5653f",
         "bytes": 12044
       },
       {
-        "path": "../raw_frames/idle_06.png",
+        "path": "../chilopoda_in/raw_frames/idle_06.png",
         "sha256": "5246f7faf330aeb6c365f6c13d9791fcbccf00f581acc0cb4cd9d903fc4efc44",
         "bytes": 11815
       },
       {
-        "path": "../raw_frames/idle_07.png",
+        "path": "../chilopoda_in/raw_frames/idle_07.png",
         "sha256": "8c77286d6f297c3feced5a15d6dc4e2d8c0f16847f7ec7315bef21df48e7f5f6",
         "bytes": 11714
       },
       {
-        "path": "../raw_frames/idle_08.png",
+        "path": "../chilopoda_in/raw_frames/idle_08.png",
         "sha256": "a2c3416ff8c39c8c02aee9b650265c915e84cd589dad00ed08f8650c7d3668c8",
         "bytes": 11700
       },
       {
-        "path": "../raw_frames/idle_09.png",
+        "path": "../chilopoda_in/raw_frames/idle_09.png",
         "sha256": "25ad2203fff1f3f9c89ac7787096cc904a10597be1995f919e02b45bcae82157",
         "bytes": 11654
       },
       {
-        "path": "../raw_frames/idle_10.png",
+        "path": "../chilopoda_in/raw_frames/idle_10.png",
         "sha256": "0c0842fc02b91f38008b4b95252316bfe23b5ad84a44e23643d8fc2f77090994",
         "bytes": 11589
       },
       {
-        "path": "../raw_frames/idle_11.png",
+        "path": "../chilopoda_in/raw_frames/idle_11.png",
         "sha256": "ae574085bd2b21bb1781c964de6586964b149760701c9df25b57db0735af8a7d",
         "bytes": 11552
       },
       {
-        "path": "../raw_frames/walk_00.png",
+        "path": "../chilopoda_in/raw_frames/walk_00.png",
         "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
         "bytes": 9194
       },
       {
-        "path": "../raw_frames/walk_01.png",
+        "path": "../chilopoda_in/raw_frames/walk_01.png",
         "sha256": "ee312e682fea2a0214a0c5d6abf4b7c89e10d2c5d2515c30defba4aa5ba21c67",
         "bytes": 9208
       },
       {
-        "path": "../raw_frames/walk_02.png",
+        "path": "../chilopoda_in/raw_frames/walk_02.png",
         "sha256": "fd300eba348acf533888f425a21bd9ab4f94a8f1375b2ca3bd4e0056c899a847",
         "bytes": 9201
       },
       {
-        "path": "../raw_frames/walk_03.png",
+        "path": "../chilopoda_in/raw_frames/walk_03.png",
         "sha256": "b2255cd097b24ce7f95919848bba93215a9d4a2cea27ecc8e5d42dac9a1f86f5",
         "bytes": 9250
       },
       {
-        "path": "../raw_frames/walk_04.png",
+        "path": "../chilopoda_in/raw_frames/walk_04.png",
         "sha256": "00e2dcdef9c5b1f3f8673b01c43e54477e9c9856c4b5f87f17fb7e772eaa70f2",
         "bytes": 9198
       },
       {
-        "path": "../raw_frames/walk_05.png",
+        "path": "../chilopoda_in/raw_frames/walk_05.png",
         "sha256": "7bc2fc9ee5f68627064e778955fa0bbd4ef6d8d479add95579b2eedd98cffd1d",
         "bytes": 9239
       },
       {
-        "path": "../raw_frames/walk_06.png",
+        "path": "../chilopoda_in/raw_frames/walk_06.png",
         "sha256": "23a388e180ce3208db5a1e64e8400f1ffccf58b0e8b939be95105aa633ce5e43",
         "bytes": 9366
       },
       {
-        "path": "../raw_frames/walk_07.png",
+        "path": "../chilopoda_in/raw_frames/walk_07.png",
         "sha256": "78fd67c399b06a800fb92aa4fb9d48b4741e51f46bf92bfe89ede4d75ff1ceab",
         "bytes": 9176
       },
       {
-        "path": "../raw_frames/walk_08.png",
+        "path": "../chilopoda_in/raw_frames/walk_08.png",
         "sha256": "610f322a6aa2054a86e77d446b873b7f58bbcc6d25b4eb0b832f3175424d967a",
         "bytes": 9146
       },
       {
-        "path": "../raw_frames/walk_09.png",
+        "path": "../chilopoda_in/raw_frames/walk_09.png",
         "sha256": "4780e74a072b0ec5317052984007013f7fc1001ad8ee51d8c061a35de2b6d2a8",
         "bytes": 9202
       },
       {
-        "path": "../raw_frames/walk_10.png",
+        "path": "../chilopoda_in/raw_frames/walk_10.png",
         "sha256": "ef973762539c6572eac0b278e898ab64817dcb341ab0f4044102d5331dc53f59",
         "bytes": 9154
       },
       {
-        "path": "../raw_frames/walk_11.png",
+        "path": "../chilopoda_in/raw_frames/walk_11.png",
         "sha256": "df7fc9a251df75c2d3093a25a3e66dffd167bf01f1efe090b6cdfa8fb1bddd0c",
         "bytes": 9124
       },
       {
-        "path": "../raw_frames/attack_light_00.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_00.png",
         "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185
       },
       {
-        "path": "../raw_frames/attack_light_01.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_01.png",
         "sha256": "caecb420c4005ef00a67a03ea19d7c0ebc6f9273dd68769dcc9609c0092ed843",
         "bytes": 13035
       },
       {
-        "path": "../raw_frames/attack_light_02.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_02.png",
         "sha256": "2b6517027548ecea9b3847420d5e4745177465c5b34e87e98ad983f0204d11bf",
         "bytes": 12354
       },
       {
-        "path": "../raw_frames/attack_light_03.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_03.png",
         "sha256": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
         "bytes": 11925
       },
       {
-        "path": "../raw_frames/attack_light_04.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_04.png",
         "sha256": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
         "bytes": 11516
       },
       {
-        "path": "../raw_frames/attack_light_05.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_05.png",
         "sha256": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
         "bytes": 11530
       },
       {
-        "path": "../raw_frames/attack_light_06.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_06.png",
         "sha256": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
         "bytes": 10776
       },
       {
-        "path": "../raw_frames/attack_light_07.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_07.png",
         "sha256": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
         "bytes": 11424
       },
       {
-        "path": "../raw_frames/attack_light_08.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_08.png",
         "sha256": "0fdb02ed9da70639df0cb6677e9484c092c645cc9d6b40619c4a57406ca54afa",
         "bytes": 11194
       },
       {
-        "path": "../raw_frames/attack_light_09.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_09.png",
         "sha256": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
         "bytes": 11931
       },
       {
-        "path": "../raw_frames/attack_light_10.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_10.png",
         "sha256": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
         "bytes": 11369
       },
       {
-        "path": "../raw_frames/attack_light_11.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_11.png",
         "sha256": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
         "bytes": 11296
       },
       {
-        "path": "../raw_frames/attack_light_12.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_12.png",
         "sha256": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
         "bytes": 11430
       },
       {
-        "path": "../raw_frames/attack_light_13.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_13.png",
         "sha256": "2bb735e69eb97753406e2c570436cdbfe39ea759868d806dd5db30810d08e944",
         "bytes": 12276
       },
       {
-        "path": "../raw_frames/attack_light_14.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_14.png",
         "sha256": "5b3902f97e7f8bddf7614b79b0748acad9779433f051b0f4b7f8af92cce36be6",
         "bytes": 12633
       },
       {
-        "path": "../raw_frames/attack_light_15.png",
+        "path": "../chilopoda_in/raw_frames/attack_light_15.png",
         "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185
       },
       {
-        "path": "../raw_frames/hit_00.png",
+        "path": "../chilopoda_in/raw_frames/hit_00.png",
         "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185
       },
       {
-        "path": "../raw_frames/hit_01.png",
+        "path": "../chilopoda_in/raw_frames/hit_01.png",
         "sha256": "0d30b2595cd5b63bd373919001c289bc67ab1bf27d95e99168476a6160ad5c44",
         "bytes": 11723
       },
       {
-        "path": "../raw_frames/hit_02.png",
+        "path": "../chilopoda_in/raw_frames/hit_02.png",
         "sha256": "3abd58c1d441bc6c1ed1f8b129b2719450e99851166b666501afc9c355a33ea5",
         "bytes": 11968
       },
       {
-        "path": "../raw_frames/hit_03.png",
+        "path": "../chilopoda_in/raw_frames/hit_03.png",
         "sha256": "fdf59c7ab4097c8567308a53d8fd4c299b5c3f95a19550a1f393fed7b2459c70",
         "bytes": 12095
       },
       {
-        "path": "../raw_frames/hit_04.png",
+        "path": "../chilopoda_in/raw_frames/hit_04.png",
         "sha256": "7080610cb095528878b87cd05ce67103561095002b65c08b01b940ea8867758e",
         "bytes": 11927
       },
       {
-        "path": "../raw_frames/hit_05.png",
+        "path": "../chilopoda_in/raw_frames/hit_05.png",
         "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185
       },
       {
-        "path": "../raw_frames/ko_00.png",
+        "path": "../chilopoda_in/raw_frames/ko_00.png",
         "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185
       },
       {
-        "path": "../raw_frames/ko_01.png",
+        "path": "../chilopoda_in/raw_frames/ko_01.png",
         "sha256": "5167d2ef98c0181fac13167ed893684df20627b3eca020e4db0b690fa0ce3155",
         "bytes": 12152
       },
       {
-        "path": "../raw_frames/ko_02.png",
+        "path": "../chilopoda_in/raw_frames/ko_02.png",
         "sha256": "a66cc18dcddca152ef605502f3eafb177e433e3e8835b702d21fb1fd1f24fa3d",
         "bytes": 11502
       },
       {
-        "path": "../raw_frames/ko_03.png",
+        "path": "../chilopoda_in/raw_frames/ko_03.png",
         "sha256": "d62952bbe8165e90d01b53c156b0575b2cf68b5fb9d465cd1279e16c725a360c",
         "bytes": 10288
       },
       {
-        "path": "../raw_frames/ko_04.png",
+        "path": "../chilopoda_in/raw_frames/ko_04.png",
         "sha256": "70e48189521c8cace6ffc942a19f710582b005284cf33bd529de218a099bb01e",
         "bytes": 9766
       },
       {
-        "path": "../raw_frames/ko_05.png",
+        "path": "../chilopoda_in/raw_frames/ko_05.png",
         "sha256": "aafdd92172f6c9c4caf472616073763ae679251be638e11443a1fcc3cc73f809",
         "bytes": 8570
       },
       {
-        "path": "../raw_frames/ko_06.png",
+        "path": "../chilopoda_in/raw_frames/ko_06.png",
         "sha256": "160ad0cc7cdf5485a7e3a365f27f7d4f60d95610c3f0b03631618ba63cf6ee2e",
         "bytes": 7439
       },
       {
-        "path": "../raw_frames/ko_07.png",
+        "path": "../chilopoda_in/raw_frames/ko_07.png",
         "sha256": "6626088d2c03101262a55a7a807e93aa67e4616676fb7c32f0be93a235e0dc99",
         "bytes": 7409
       },
       {
-        "path": "../raw_frames/power_up_00.png",
+        "path": "../chilopoda_in/raw_frames/power_up_00.png",
         "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185
       },
       {
-        "path": "../raw_frames/power_up_01.png",
+        "path": "../chilopoda_in/raw_frames/power_up_01.png",
         "sha256": "dfb29e4accea232ee38f4865b14a81aefc60adaf858b147e751f44fed6492a68",
         "bytes": 12460
       },
       {
-        "path": "../raw_frames/power_up_02.png",
+        "path": "../chilopoda_in/raw_frames/power_up_02.png",
         "sha256": "4776ed37dfdeaefcee450ffc9d968d813658eba5fc1a6bbbaa29bc44be1b0f02",
         "bytes": 12333
       },
       {
-        "path": "../raw_frames/power_up_03.png",
+        "path": "../chilopoda_in/raw_frames/power_up_03.png",
         "sha256": "45917b9e11852da0e034f137d0cce18b614fbda848f861ddb94897446affa2f2",
         "bytes": 12358
       },
       {
-        "path": "../raw_frames/power_up_04.png",
+        "path": "../chilopoda_in/raw_frames/power_up_04.png",
         "sha256": "12f33db012435c8fc61dbb499f8922206ab475a1116071eb45bc569b163e8d31",
         "bytes": 12229
       },
       {
-        "path": "../raw_frames/power_up_05.png",
+        "path": "../chilopoda_in/raw_frames/power_up_05.png",
         "sha256": "140f7be452ea3fe6a7c5850499553997c857aaa679a32be281f7c4da9171988a",
         "bytes": 12157
       },
       {
-        "path": "../raw_frames/power_up_06.png",
+        "path": "../chilopoda_in/raw_frames/power_up_06.png",
         "sha256": "59828d93288ba21b23d623f7c2d6d44ec4785d789d2d129fea4aa6284650fbe0",
         "bytes": 11833
       },
       {
-        "path": "../raw_frames/power_up_07.png",
+        "path": "../chilopoda_in/raw_frames/power_up_07.png",
         "sha256": "7e9d803dcc22a63e08607cd0c92c1348054fb62be6e137ef627267902d60526d",
         "bytes": 11653
       },
       {
-        "path": "../raw_frames/power_up_08.png",
+        "path": "../chilopoda_in/raw_frames/power_up_08.png",
         "sha256": "3af065d2d60acbe1b0ddcbf0bac1458564b66f74c9235921625a1bc15ec2218f",
         "bytes": 11579
       },
       {
-        "path": "../raw_frames/power_up_09.png",
+        "path": "../chilopoda_in/raw_frames/power_up_09.png",
         "sha256": "6fae9474e2eb34d403acc743204d6cdfc8d2225be12a299030e14312ad1ffd54",
         "bytes": 11590
       },
       {
-        "path": "../raw_frames/power_up_10.png",
+        "path": "../chilopoda_in/raw_frames/power_up_10.png",
         "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
         "bytes": 12185
       },
       {
-        "path": "../raw_frames/turn_00.png",
+        "path": "../chilopoda_in/raw_frames/turn_00.png",
         "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
         "bytes": 9194
       },
       {
-        "path": "../raw_frames/turn_01.png",
+        "path": "../chilopoda_in/raw_frames/turn_01.png",
         "sha256": "627c992ca48ab66a8ed1035c1656d587faae0c4f064c1f9a462b4c24d4a38057",
         "bytes": 11925
       },
       {
-        "path": "../raw_frames/turn_02.png",
+        "path": "../chilopoda_in/raw_frames/turn_02.png",
         "sha256": "abf68ceadcc946ded4f8fe5bf18486063179c8c2b8908c0f82bcfb06ab77dbbe",
         "bytes": 11516
       },
       {
-        "path": "../raw_frames/turn_03.png",
+        "path": "../chilopoda_in/raw_frames/turn_03.png",
         "sha256": "ce42a6ff8e17a131ecfc7fc68b0d0952c64110680072944127b654b1f17b82b7",
         "bytes": 11530
       },
       {
-        "path": "../raw_frames/turn_04.png",
+        "path": "../chilopoda_in/raw_frames/turn_04.png",
         "sha256": "bfb526d1da922abb435b5c07f35e7e201baf118f7438adfe5c248deb2e34230c",
         "bytes": 10776
       },
       {
-        "path": "../raw_frames/turn_05.png",
+        "path": "../chilopoda_in/raw_frames/turn_05.png",
         "sha256": "91b59610f7f7224ec129945ab2b12e7fe0cd43d9225328f575da762d3752fb55",
         "bytes": 11424
       },
       {
-        "path": "../raw_frames/turn_06.png",
+        "path": "../chilopoda_in/raw_frames/turn_06.png",
         "sha256": "63b34fd4d75e54dc33d71cb6269466b3b85ea52d88a4f1417e3ee8d57cf16e1a",
         "bytes": 11931
       },
       {
-        "path": "../raw_frames/turn_07.png",
+        "path": "../chilopoda_in/raw_frames/turn_07.png",
         "sha256": "657cd959a521c98b18d1189d5d5ad5461858f98715d2a370cedbbecabd2795b8",
         "bytes": 11369
       },
       {
-        "path": "../raw_frames/turn_08.png",
+        "path": "../chilopoda_in/raw_frames/turn_08.png",
         "sha256": "2bbc6b7ae41d244de40aa61bacfa0d06a9245886ea921f44863dce2c145c38cb",
         "bytes": 11296
       },
       {
-        "path": "../raw_frames/turn_09.png",
+        "path": "../chilopoda_in/raw_frames/turn_09.png",
         "sha256": "206f4a2763a976b0be967278f156f679de57dcbf66fe636f17e49eae909568dd",
         "bytes": 11430
       },
       {
-        "path": "../raw_frames/turn_10.png",
+        "path": "../chilopoda_in/raw_frames/turn_10.png",
         "sha256": "1faacdc800b8ed63a7588ef600d27b255c6f02653ea9982de0fcd11189ece497",
         "bytes": 9194
       },
       {
-        "path": "../raw_frames/burrow_dust_fx_00.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_00.png",
         "sha256": "aa41b4158a9be7fe3eae725d31574b431178cdd403176c74c988e802ef28eaab",
         "bytes": 704
       },
       {
-        "path": "../raw_frames/burrow_dust_fx_01.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_01.png",
         "sha256": "46fa835123167e74e6597ee08e4f4a4241e33652743aee056759910d4164dd47",
         "bytes": 951
       },
       {
-        "path": "../raw_frames/burrow_dust_fx_02.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_02.png",
         "sha256": "f2af95345d2d8e26804b27a680b921631582874ab6fdb190bf4969a740fd59bd",
         "bytes": 2173
       },
       {
-        "path": "../raw_frames/burrow_dust_fx_03.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_03.png",
         "sha256": "8c650dacd80af463a12fc1706632096e5f2479aaa2999c2f145a6e82aba63189",
         "bytes": 3635
       },
       {
-        "path": "../raw_frames/burrow_dust_fx_04.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_04.png",
         "sha256": "132d606abc877affdb1987227ec2303dfe12428bc60a4361f964480ecc96dc67",
         "bytes": 3223
       },
       {
-        "path": "../raw_frames/burrow_dust_fx_05.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_05.png",
         "sha256": "d904fbe5bcfc8582fe80aa0e6906b3b5ed2817d1f6039364c18873cdfee1ba05",
         "bytes": 2376
       },
       {
-        "path": "../raw_frames/burrow_dust_fx_06.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_06.png",
         "sha256": "95077c5c65b28d0a997e6c88caa12d289c94c6fb0b8df94cc42cefcb09769a6b",
         "bytes": 1644
       },
       {
-        "path": "../raw_frames/burrow_dust_fx_07.png",
+        "path": "../chilopoda_in/raw_frames/burrow_dust_fx_07.png",
         "sha256": "f1d6c8331400f3f6d4ca1115fd68698ce627fb491a999f3a7c1ec096e800f712",
         "bytes": 1183
       },
       {
-        "path": "../raw_frames/antenna_glow_fx_00.png",
-        "sha256": "1c927d381b52eb2a38ce3111ac539b82dc0209175172b1a9f6f9ae651b0190ad",
-        "bytes": 473
-      },
-      {
-        "path": "../raw_frames/antenna_glow_fx_01.png",
-        "sha256": "2e1c822cf5ed006064c2f497350bb959807d8279962d805f225cd75ca7a35d37",
-        "bytes": 472
-      },
-      {
-        "path": "../raw_frames/antenna_glow_fx_02.png",
-        "sha256": "3e7e8dd77a2eb7ff7694aee80e98f2ceaa36b207e37bcf5c6b7b9e6ec913c650",
-        "bytes": 473
-      },
-      {
-        "path": "../raw_frames/antenna_glow_fx_03.png",
-        "sha256": "6cd3f34464ee351da027bb9cd443535293e83cdbf8fb1e414b6181be87ac41c7",
+        "path": "../chilopoda_in/raw_frames/fireball_fx_00.png",
+        "sha256": "508f438490da68849d53f58915f89b780082a050e6f9d3b390ba479ecb101965",
         "bytes": 512
       },
       {
-        "path": "../raw_frames/antenna_glow_fx_04.png",
-        "sha256": "98d985442706a31c557b3bf36ef791d14f5d99cead59195b8042c0f1b0d4f296",
-        "bytes": 472
+        "path": "../chilopoda_in/raw_frames/fireball_fx_01.png",
+        "sha256": "8c37e5a0c7e65feee3ca6051e3071bfc7f5abf371d23341bf74b95edcbd753de",
+        "bytes": 593
       },
       {
-        "path": "../raw_frames/antenna_glow_fx_05.png",
-        "sha256": "98297c6cb19f362068f0562590395e93079724241f07af34a47c2b5dfebeaf7d",
-        "bytes": 473
+        "path": "../chilopoda_in/raw_frames/fireball_fx_02.png",
+        "sha256": "29a4ec64b1e460aa32c441c59d39c6740b94d816ffe40cf6f4cd82de769b7609",
+        "bytes": 660
       },
       {
-        "path": "../raw_frames/red_laser_fx_00.png",
-        "sha256": "c64b3b2f22f73c562ea4fee1c8924e3910e543e4934f8341fce143e50f1da07a",
-        "bytes": 618
+        "path": "../chilopoda_in/raw_frames/fireball_fx_03.png",
+        "sha256": "8b01ffc7d9ddf2bfba2883248aac51881197339b89b3b01460c0c57578803f80",
+        "bytes": 826
       },
       {
-        "path": "../raw_frames/red_laser_fx_01.png",
-        "sha256": "e490387efdeacfa85e64aca8efaf17be42e67c43c5d8bdde1804cd61d5092ae8",
-        "bytes": 686
+        "path": "../chilopoda_in/raw_frames/fireball_fx_04.png",
+        "sha256": "96f1dad60a179a36576da04401c4977c5fc5d09e9213243b949b709bfa928ebf",
+        "bytes": 999
       },
       {
-        "path": "../raw_frames/red_laser_fx_02.png",
-        "sha256": "f84a625dfd22521882939fc682c5b8a8bc9b14a9909bcd2d62d052bfc33290d7",
-        "bytes": 618
+        "path": "../chilopoda_in/raw_frames/fireball_fx_05.png",
+        "sha256": "8d9b61b47157ae54e8aa6c73f1e2da8053ca9efa91a6007df7c989697dc6195e",
+        "bytes": 1199
       },
       {
-        "path": "../raw_frames/red_laser_fx_03.png",
-        "sha256": "e8b74f2193ed15aea18da3f1c20c5704aed9436c60fa4a09e27402f15ba3c521",
-        "bytes": 610
+        "path": "../chilopoda_in/raw_frames/fireball_fx_06.png",
+        "sha256": "107206ebce97eb3478e28be86e680364bad8bf4a3b8717bd05aa45a0075316fb",
+        "bytes": 1393
+      },
+      {
+        "path": "../chilopoda_in/raw_frames/fireball_fx_07.png",
+        "sha256": "2ca2344ba4b81916ffe1b84ea25fd1cb9d52782d138aba3eddaaf45dfd44b492",
+        "bytes": 1536
+      },
+      {
+        "path": "../chilopoda_in/raw_frames/fireball_fx_08.png",
+        "sha256": "a0e228379c8b6abfe8265787a368b60284a301839874b9fd2bb270e9e3c9fad0",
+        "bytes": 1841
+      },
+      {
+        "path": "../chilopoda_in/raw_frames/fireball_fx_09.png",
+        "sha256": "9b9ab01a7507381f3eeab0078ab521d83d5e991492e8686c097a1810ea80d238",
+        "bytes": 1800
       }
     ],
     "outputs": [
@@ -5906,53 +5829,53 @@
       },
       {
         "path": "frames/frame-84.png",
-        "sha256": "1c927d381b52eb2a38ce3111ac539b82dc0209175172b1a9f6f9ae651b0190ad",
-        "bytes": 473
-      },
-      {
-        "path": "frames/frame-85.png",
-        "sha256": "2e1c822cf5ed006064c2f497350bb959807d8279962d805f225cd75ca7a35d37",
-        "bytes": 472
-      },
-      {
-        "path": "frames/frame-86.png",
-        "sha256": "3e7e8dd77a2eb7ff7694aee80e98f2ceaa36b207e37bcf5c6b7b9e6ec913c650",
-        "bytes": 473
-      },
-      {
-        "path": "frames/frame-87.png",
-        "sha256": "6cd3f34464ee351da027bb9cd443535293e83cdbf8fb1e414b6181be87ac41c7",
+        "sha256": "508f438490da68849d53f58915f89b780082a050e6f9d3b390ba479ecb101965",
         "bytes": 512
       },
       {
+        "path": "frames/frame-85.png",
+        "sha256": "8c37e5a0c7e65feee3ca6051e3071bfc7f5abf371d23341bf74b95edcbd753de",
+        "bytes": 593
+      },
+      {
+        "path": "frames/frame-86.png",
+        "sha256": "29a4ec64b1e460aa32c441c59d39c6740b94d816ffe40cf6f4cd82de769b7609",
+        "bytes": 660
+      },
+      {
+        "path": "frames/frame-87.png",
+        "sha256": "8b01ffc7d9ddf2bfba2883248aac51881197339b89b3b01460c0c57578803f80",
+        "bytes": 826
+      },
+      {
         "path": "frames/frame-88.png",
-        "sha256": "98d985442706a31c557b3bf36ef791d14f5d99cead59195b8042c0f1b0d4f296",
-        "bytes": 472
+        "sha256": "96f1dad60a179a36576da04401c4977c5fc5d09e9213243b949b709bfa928ebf",
+        "bytes": 999
       },
       {
         "path": "frames/frame-89.png",
-        "sha256": "98297c6cb19f362068f0562590395e93079724241f07af34a47c2b5dfebeaf7d",
-        "bytes": 473
+        "sha256": "8d9b61b47157ae54e8aa6c73f1e2da8053ca9efa91a6007df7c989697dc6195e",
+        "bytes": 1199
       },
       {
         "path": "frames/frame-90.png",
-        "sha256": "c64b3b2f22f73c562ea4fee1c8924e3910e543e4934f8341fce143e50f1da07a",
-        "bytes": 618
+        "sha256": "107206ebce97eb3478e28be86e680364bad8bf4a3b8717bd05aa45a0075316fb",
+        "bytes": 1393
       },
       {
         "path": "frames/frame-91.png",
-        "sha256": "e490387efdeacfa85e64aca8efaf17be42e67c43c5d8bdde1804cd61d5092ae8",
-        "bytes": 686
+        "sha256": "2ca2344ba4b81916ffe1b84ea25fd1cb9d52782d138aba3eddaaf45dfd44b492",
+        "bytes": 1536
       },
       {
         "path": "frames/frame-92.png",
-        "sha256": "f84a625dfd22521882939fc682c5b8a8bc9b14a9909bcd2d62d052bfc33290d7",
-        "bytes": 618
+        "sha256": "a0e228379c8b6abfe8265787a368b60284a301839874b9fd2bb270e9e3c9fad0",
+        "bytes": 1841
       },
       {
         "path": "frames/frame-93.png",
-        "sha256": "e8b74f2193ed15aea18da3f1c20c5704aed9436c60fa4a09e27402f15ba3c521",
-        "bytes": 610
+        "sha256": "9b9ab01a7507381f3eeab0078ab521d83d5e991492e8686c097a1810ea80d238",
+        "bytes": 1800
       },
       {
         "path": "clips/clip-00.webp",
@@ -5996,18 +5919,13 @@
       },
       {
         "path": "clips/clip-08.webp",
-        "sha256": "671908bb94c694598185aadd0c15055d40695396db57f8a40f3e3fe55e5fb302",
-        "bytes": 406
-      },
-      {
-        "path": "clips/clip-09.webp",
-        "sha256": "7db9180967e5f76d8187e9a07250ac963dbbffb78ff1d82469e5945c4e482576",
-        "bytes": 916
+        "sha256": "4cb63ac473f6297c9591c493e4836682d32747733fcdaf3df3c2e984cce9a554",
+        "bytes": 2986
       },
       {
         "path": "contact-sheet.png",
-        "sha256": "bbc750d3959f8f69aa3fa9852334abcc07d86c8a65584f314d5a08a1cd20564f",
-        "bytes": 830093
+        "sha256": "42a6b1af0c7cffec7af65dd582cd329f4cf805ce325592574922c7878eb7ddbc",
+        "bytes": 834695
       },
       {
         "path": "review/filmstrip-00.png",
@@ -6061,8 +5979,8 @@
       },
       {
         "path": "review/filmstrip-05.png",
-        "sha256": "8805d067e28687f80039c6d6d7b1f555780e23eab2dd02f4c5cd830add800627",
-        "bytes": 403481
+        "sha256": "d5944f0183bf79eae9372d531d190f729af95d2cc9cffc2d1e96e3e5bea85522",
+        "bytes": 403382
       },
       {
         "path": "review/onion-05.png",
@@ -6091,28 +6009,18 @@
       },
       {
         "path": "review/filmstrip-08.png",
-        "sha256": "819a8b4a0bc222bde3605f5a5c5f30077ed28d71033ba2ad4dd8c2ad62e177db",
-        "bytes": 30349
+        "sha256": "09640ec32a915845047da0cfc7cb7e9e318d7d3673272ee6c69309031172d2b1",
+        "bytes": 73620
       },
       {
         "path": "review/onion-08.png",
-        "sha256": "5f4510a7d584815568be08c71feea8f21835717342a6e45c353f55d28393f196",
-        "bytes": 12045
-      },
-      {
-        "path": "review/filmstrip-09.png",
-        "sha256": "10f567eee7745c0ea9d718e632befc0de8c49d2de35d331cdc028ea781e38598",
-        "bytes": 25736
-      },
-      {
-        "path": "review/onion-09.png",
-        "sha256": "059d03ca33ae470897af76ab1528235f6b279d922a9260aeb6027e81332cad02",
-        "bytes": 9556
+        "sha256": "a0fbca4dd8cf1de57e828876157fc09d7571d5f67d3e7f0cb13607d2ae9a3db2",
+        "bytes": 31321
       },
       {
         "path": "review/turn-test.png",
-        "sha256": "e4744445b4bf8f29df134317d3ae99442ba86b79b554cdaa7d64b4138fe81c21",
-        "bytes": 93023
+        "sha256": "c7f575204b5aa2cbaa1a9e94f9f1e0f64f920348fd0d8f7424b23496475161c3",
+        "bytes": 91168
       }
     ],
     "tool": {

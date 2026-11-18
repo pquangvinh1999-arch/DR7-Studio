@@ -1,0 +1,22 @@
+{
+  "schema": "dr7-studio.item_approval_receipt.v1",
+  "status": "owner_approved",
+  "workflow_id": "ITEM-001",
+  "item_set_id": "dragon_balls",
+  "display_name": "Bộ 7 Viên Ngọc Rồng (1× = 32×32)",
+  "approved_at": "2026-11-16T02:10:11+00:00",
+  "owner_message": "ok anh chốt toàn bộ phiên này giúp anh chốt theo qui trình rồi push lên main",
+  "approval_basis": "Owner verified 1x (32x32 px) Dragon Balls 1..7 stars extracted read-only from canonical owner-1 source (alpha_hardness_pct=100%, 0 pockets), shared single-page 304x80 Nearest atlas + 60Hz diagonal_body_sheen overlay, bag icon mode hiding FX completely, arena Hide/Show button, monster death drop (+10px jump -> fall to ground_y -> +10px roll -> start sheen), and shrink-to-collector pickup flight synchronized 1:1 Godot 4 <-> localhost:8080, codified into AGENTS.md Section 7.5.",
+  "release_version": "0.14.0",
+  "atlas_path": "assets/items/dragon_balls/godot/dragon_balls-atlas-00.png",
+  "atlas_sha256": "5ee1a97b09624b6c15c7a895ff436cb7aab9ccd10964d5485dcace3a59e40bb2",
+  "tres_path": "assets/items/dragon_balls/godot/dragon_balls.tres",
+  "tres_sha256": "2f3c4dab5e21a3918b4fb4a458f5ff096c9a9c7c5ddd2bad07320bec89c6b5a5",
+  "export_path": "assets/items/dragon_balls/item-export.json",
+  "export_sha256": "07294ccb2fe6e920beb9ba43bcfb64fe78a6c116ce5f75917c560998d99f5da7",
+  "prefab_path": "scenes/items/DragonBallItem2D.tscn",
+  "prefab_sha256": "dab264947885b708f68d9b0aa678a3864681b915a89df400ab3c59898d4641cf",
+  "script_path": "scenes/items/DragonBallItem2D.gd",
+  "script_sha256": "9303ffb5a1f292d3b4345dc212bb358f59b2de670a187f502bd1441187fda68b",
+  "qa_doc_path": "docs/items/dragon-balls-v1-qa.json"
+}

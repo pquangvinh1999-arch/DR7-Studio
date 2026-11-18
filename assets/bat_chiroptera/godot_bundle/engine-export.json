@@ -7,8 +7,8 @@
   },
   "source": {
     "path": "../clips/animation-clips.json",
-    "sha256": "7c7d2cbbc50d3f2d7e27cd871439fe903c773102f23a35ecbef99b5ae56fe027",
-    "bytes": 109424,
+    "sha256": "37fe1cc686edcbdf25394c82db0954a3de49c2928de6968f800724ff1943c96e",
+    "bytes": 121409,
     "schema": "generate2dsprite.animation_clips.v2"
   },
   "targets": [
@@ -41,10 +41,10 @@
       {
         "index": 0,
         "size": [
-          3106,
+          3494,
           2082
         ],
-        "cells": 61,
+        "cells": 66,
         "clips": [
           "idle",
           "walk",
@@ -53,7 +53,8 @@
           "power_up",
           "hit",
           "ko",
-          "sonic_screech_fx"
+          "sonic_screech_fx",
+          "turn"
         ]
       }
     ]
@@ -851,6 +852,101 @@
         "speed": 60.0,
         "basis": "ticks at 60 Hz"
       }
+    },
+    "turn": {
+      "frames": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "duration_ms": [
+        33,
+        50,
+        67,
+        50,
+        50
+      ],
+      "total_duration_ms": 250,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0
+        },
+        {
+          "name": "end",
+          "at_ms": 200,
+          "at": 4,
+          "position": 4
+        }
+      ],
+      "page": 0,
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 2,
+        "strike": 2,
+        "recover": 3,
+        "end": 4
+      },
+      "keys_ms": {
+        "wind_start": 0,
+        "wind_peak": 83,
+        "strike": 83,
+        "recover": 150,
+        "end": 200
+      },
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          2,
+          3,
+          4,
+          3,
+          3
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 15.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        2,
+        3,
+        4,
+        3,
+        3
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "bat_chiroptera.json",
+        "from": 61,
+        "to": 65
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          2.0,
+          3.0,
+          4.0,
+          3.0,
+          3.0
+        ]
+      },
+      "sprite3d": {
+        "action": "turn",
+        "contract": "action-turn.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
     }
   },
   "states": {
@@ -860,7 +956,8 @@
     "attack_light": "attack_light",
     "power_up": "power_up",
     "hit": "hit",
-    "ko": "ko"
+    "ko": "ko",
+    "turn": "turn"
   },
   "unused_frames": [],
   "mapping": {
@@ -926,23 +1023,23 @@
   "files": [
     {
       "path": "aseprite/bat_chiroptera.png",
-      "sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
-      "bytes": 736035
+      "sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084",
+      "bytes": 818767
     },
     {
       "path": "aseprite/bat_chiroptera.json",
-      "sha256": "ef09b7a47939dec5b4f511039244a5d0bf95646adcdc41ec9eed3174298f2206",
-      "bytes": 26753
+      "sha256": "8343c7eb8a24daf989e94b9f5ac8b62f96af920c4c26da27596700203657e052",
+      "bytes": 28988
     },
     {
       "path": "godot/bat_chiroptera-atlas-00.png",
-      "sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
-      "bytes": 736035
+      "sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084",
+      "bytes": 818767
     },
     {
       "path": "godot/bat_chiroptera.tres",
-      "sha256": "474821e9f45798527befd83c1ea942244d3e50558b17663a72b78f336af2c960",
-      "bytes": 13756
+      "sha256": "cd63ce273820be744e4417b0a6dacc00243caa89c5d7886c19e78502f71d71cd",
+      "bytes": 14893
     },
     {
       "path": "godot/bat_chiroptera.tscn",
@@ -1255,6 +1352,31 @@
       "bytes": 1084
     },
     {
+      "path": "godot-sprite3d/frames/frame-061.png",
+      "sha256": "442ead5e3e19fc63d2bbec226150febccba2bc30d719b8b8a2cf2b9928003324",
+      "bytes": 14355
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-062.png",
+      "sha256": "b1f8c7437f0611feba14deb4d6d09f73d6a6d219285f83b96c1325a63e914abb",
+      "bytes": 15544
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-063.png",
+      "sha256": "6fb7fc43b0565f1afb3508d688287c6f69c1874dea55c1ed3936d29b17e1ec5b",
+      "bytes": 17645
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-064.png",
+      "sha256": "8168a05f281e0ac9265c12263c374deb220adff0eab91efb985fd864eaf16201",
+      "bytes": 17229
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-065.png",
+      "sha256": "22301a46f36ad48e266667003cf9ade8d04d770e6a7aa11800b03424306487f9",
+      "bytes": 15497
+    },
+    {
       "path": "godot-sprite3d/action-idle.json",
       "sha256": "6f0fad0fe506ee105943e40fe58c17a20337b7532e2e2a064ae12b08712f5495",
       "bytes": 1494
@@ -1295,9 +1417,14 @@
       "bytes": 1394
     },
     {
+      "path": "godot-sprite3d/action-turn.json",
+      "sha256": "3ab4326c97e5290c909eab078bbb2f7e2e1793a01132edae97b22d0d6fd5c909",
+      "bytes": 1329
+    },
+    {
       "path": "godot-sprite3d/bat_chiroptera.tres",
-      "sha256": "12fbf808332c51ed6fd13420df6819e1b202555e066fc173493b8e944629fa4b",
-      "bytes": 8803
+      "sha256": "2a3bbdaa828590f5fab40b020e1a2a3fd97ffc506733471c5c75bf70feea672d",
+      "bytes": 9541
     },
     {
       "path": "godot-sprite3d/bat_chiroptera.tscn",
@@ -1306,8 +1433,8 @@
     },
     {
       "path": "godot-sprite3d/bundle.json",
-      "sha256": "6c7efad93ff5e4fb8dfa66bc4041d48ca64782009b50e1cf10ec9c87d86a6138",
-      "bytes": 1082
+      "sha256": "791a600d5711d647bbc957d9a2f082e58ba1d7262f050d64e4e5e0b95e5f3ac9",
+      "bytes": 1183
     }
   ],
   "qa": {
@@ -1324,7 +1451,7 @@
         "status": "pass",
         "value": {
           "pages": 1,
-          "frames": 61
+          "frames": 66
         },
         "threshold": null
       },
@@ -1338,7 +1465,7 @@
         "id": "godot_spriteframes_roundtrip",
         "status": "pass",
         "value": {
-          "animations": 8
+          "animations": 9
         },
         "threshold": null
       },
@@ -1352,7 +1479,7 @@
         "id": "godot_sprite3d_frames_roundtrip",
         "status": "pass",
         "value": {
-          "animations": 8
+          "animations": 9
         },
         "threshold": null
       },
@@ -1366,354 +1493,379 @@
         "id": "sprite3d_paths_relative",
         "status": "pass",
         "value": {
-          "contracts": 8
+          "contracts": 9
         },
         "threshold": null
       },
       {
         "id": "atlas_max_side_px",
         "status": "pass",
-        "value": 3106,
+        "value": 3494,
         "threshold": 4096
       },
       {
         "id": "source_frame_hashes",
         "status": "pass",
         "value": {
-          "verified": 61,
-          "frames": 61
+          "verified": 66,
+          "frames": 66
         },
         "threshold": null
       }
     ],
     "inputs": [
       {
-        "path": "../clips/animation-clips.json",
-        "sha256": "7c7d2cbbc50d3f2d7e27cd871439fe903c773102f23a35ecbef99b5ae56fe027",
-        "bytes": 109424
+        "path": "../bat_chiroptera_clips/animation-clips.json",
+        "sha256": "37fe1cc686edcbdf25394c82db0954a3de49c2928de6968f800724ff1943c96e",
+        "bytes": 121409
       },
       {
-        "path": "../clips/frames/frame-00.png",
+        "path": "../bat_chiroptera_clips/frames/frame-00.png",
         "sha256": "b8656aaba4eb84dc255f24096d889bcb848fb6cb7af53403476ad10372d7555d",
         "bytes": 15335
       },
       {
-        "path": "../clips/frames/frame-01.png",
+        "path": "../bat_chiroptera_clips/frames/frame-01.png",
         "sha256": "fcaeb3ef4f08c73301d2cd340855d875991b038104fcdf2b4b08f21ec5991c56",
         "bytes": 13896
       },
       {
-        "path": "../clips/frames/frame-02.png",
+        "path": "../bat_chiroptera_clips/frames/frame-02.png",
         "sha256": "b5561516c68e3715970e1bf4c7afaf8ce0936fe91826d34ca98c1f2ca91d1040",
         "bytes": 11699
       },
       {
-        "path": "../clips/frames/frame-03.png",
+        "path": "../bat_chiroptera_clips/frames/frame-03.png",
         "sha256": "fdaced4b7a904f85f7e169f745199890371e1c54711c0a8fa380079f9306d99d",
         "bytes": 14183
       },
       {
-        "path": "../clips/frames/frame-04.png",
+        "path": "../bat_chiroptera_clips/frames/frame-04.png",
         "sha256": "f4fcba3fda8478eb5580847f4446c4da811f4b8a4ab007da34fae98a886bb1ff",
         "bytes": 12190
       },
       {
-        "path": "../clips/frames/frame-05.png",
+        "path": "../bat_chiroptera_clips/frames/frame-05.png",
         "sha256": "957f6435a4ccf8e57e51c6a32af2e36fb9d560ad450e615d3b27523723404e52",
         "bytes": 12605
       },
       {
-        "path": "../clips/frames/frame-06.png",
+        "path": "../bat_chiroptera_clips/frames/frame-06.png",
         "sha256": "fc5a4b7a304c81b530bd71ebbab648e63e30dd27082b4d6c16c43bad606db198",
         "bytes": 14104
       },
       {
-        "path": "../clips/frames/frame-07.png",
+        "path": "../bat_chiroptera_clips/frames/frame-07.png",
         "sha256": "b0e9c01612bae972792d9b704e17481f3b423b48ccf8a7f65c376f873b86818b",
         "bytes": 15685
       },
       {
-        "path": "../clips/frames/frame-08.png",
+        "path": "../bat_chiroptera_clips/frames/frame-08.png",
         "sha256": "7a3826b587c4eedb90537a81a10fd594f7494041d84493bd49179aca0ff5973e",
         "bytes": 15778
       },
       {
-        "path": "../clips/frames/frame-09.png",
+        "path": "../bat_chiroptera_clips/frames/frame-09.png",
         "sha256": "2c1513580743ed2c53cfcb1b8b607ade292bb061041b4b6e6870c197d264d565",
         "bytes": 12609
       },
       {
-        "path": "../clips/frames/frame-10.png",
+        "path": "../bat_chiroptera_clips/frames/frame-10.png",
         "sha256": "87e604865a38a8c6807fcccf89c39301d4c4d6a4ce478abf0ad3e2d553e2fb9e",
         "bytes": 9787
       },
       {
-        "path": "../clips/frames/frame-11.png",
+        "path": "../bat_chiroptera_clips/frames/frame-11.png",
         "sha256": "faa1c57ce6c421b8055d783bc020a29dfca545684d7fca6db95532b0d9853f18",
         "bytes": 13334
       },
       {
-        "path": "../clips/frames/frame-12.png",
+        "path": "../bat_chiroptera_clips/frames/frame-12.png",
         "sha256": "51bf26546c0a3e3d1e7f4e8d6a5f21f8b8fe0cbae1fc7a2df35b52b3ab07145d",
         "bytes": 12231
       },
       {
-        "path": "../clips/frames/frame-13.png",
+        "path": "../bat_chiroptera_clips/frames/frame-13.png",
         "sha256": "c90aa88e41d01b7c03da608896d0ee509f7ab154e8484893e4052c8a7ba1bb59",
         "bytes": 10018
       },
       {
-        "path": "../clips/frames/frame-14.png",
+        "path": "../bat_chiroptera_clips/frames/frame-14.png",
         "sha256": "6c60c7f04de25170378e0307e9cf8afcc945475da9850cc4aed469ee152fb921",
         "bytes": 12537
       },
       {
-        "path": "../clips/frames/frame-15.png",
+        "path": "../bat_chiroptera_clips/frames/frame-15.png",
         "sha256": "c1a7b778164acc566f075d9c6e2f8ff0a2c4bd1901ac0c59be67ace2bcde0d0f",
         "bytes": 14609
       },
       {
-        "path": "../clips/frames/frame-16.png",
+        "path": "../bat_chiroptera_clips/frames/frame-16.png",
         "sha256": "20acd72509be20698868a98f64ed7c8538610c5fa5b1d36f3a353a8e5cf3c7e6",
         "bytes": 13859
       },
       {
-        "path": "../clips/frames/frame-17.png",
+        "path": "../bat_chiroptera_clips/frames/frame-17.png",
         "sha256": "fd8a4ca47636e95928cd483db606fd66f4393bf89652b15da31d84cc184bee39",
         "bytes": 10990
       },
       {
-        "path": "../clips/frames/frame-18.png",
+        "path": "../bat_chiroptera_clips/frames/frame-18.png",
         "sha256": "1adbee200b2f4997412efdb054e92814d9bd4a877dfe74ffb9b99cf7ee076f57",
         "bytes": 8563
       },
       {
-        "path": "../clips/frames/frame-19.png",
+        "path": "../bat_chiroptera_clips/frames/frame-19.png",
         "sha256": "b8ac9c87f5acebcf201f0fa17e6644fdde8f7fa3c6d89c4ce399a2699fb16c4a",
         "bytes": 13095
       },
       {
-        "path": "../clips/frames/frame-20.png",
+        "path": "../bat_chiroptera_clips/frames/frame-20.png",
         "sha256": "603a25afbfc7476b0cdf46caddce5c3c0ad8deacc2bcb32a5658d06253eeecc2",
         "bytes": 11048
       },
       {
-        "path": "../clips/frames/frame-21.png",
+        "path": "../bat_chiroptera_clips/frames/frame-21.png",
         "sha256": "7f63cd8bf963114194a26f88c6033c7a40b79a43309d064d747c09c601c4f700",
         "bytes": 9031
       },
       {
-        "path": "../clips/frames/frame-22.png",
+        "path": "../bat_chiroptera_clips/frames/frame-22.png",
         "sha256": "d7f055fa8e309fb1b2724c50c340c66c386bdfe3b172f550c3475ded0f400030",
         "bytes": 11762
       },
       {
-        "path": "../clips/frames/frame-23.png",
+        "path": "../bat_chiroptera_clips/frames/frame-23.png",
         "sha256": "6b6c4534e6c0922f67ff56f2aff85e2317c670791cb8dad8d16af1d45b7978b2",
         "bytes": 13921
       },
       {
-        "path": "../clips/frames/frame-24.png",
+        "path": "../bat_chiroptera_clips/frames/frame-24.png",
         "sha256": "e9c0fa1b7e06c5f2bacf5a3de6de57be754f881e2a50b28990f64d19d2060250",
         "bytes": 14880
       },
       {
-        "path": "../clips/frames/frame-25.png",
+        "path": "../bat_chiroptera_clips/frames/frame-25.png",
         "sha256": "f8976ee5314518581fd17c38b23ce7ff0a7e4519597027a19ea97c9abaa4253b",
         "bytes": 14371
       },
       {
-        "path": "../clips/frames/frame-26.png",
+        "path": "../bat_chiroptera_clips/frames/frame-26.png",
         "sha256": "7b209c409b674fed7975e17ae720836447569311f1ddb6003fb24f490d7c2540",
         "bytes": 12647
       },
       {
-        "path": "../clips/frames/frame-27.png",
+        "path": "../bat_chiroptera_clips/frames/frame-27.png",
         "sha256": "3ece9ce39855aeec30dd84bf2cf97a09086e2d73e4d23fc27a959dc5f5b92524",
         "bytes": 13408
       },
       {
-        "path": "../clips/frames/frame-28.png",
+        "path": "../bat_chiroptera_clips/frames/frame-28.png",
         "sha256": "18e4610dc6ad139e7177600a93b000cd389c688515f349314a42f3f46238ddba",
         "bytes": 11221
       },
       {
-        "path": "../clips/frames/frame-29.png",
+        "path": "../bat_chiroptera_clips/frames/frame-29.png",
         "sha256": "81b1b760e9681090350094bdf23ed5e01023636572a272e7bbbadd785da0b854",
         "bytes": 10194
       },
       {
-        "path": "../clips/frames/frame-30.png",
+        "path": "../bat_chiroptera_clips/frames/frame-30.png",
         "sha256": "2ab74dfb74de30c84f6d065c11dd33037a0411a98d2cf2c661ba4d891f082eb9",
         "bytes": 13030
       },
       {
-        "path": "../clips/frames/frame-31.png",
+        "path": "../bat_chiroptera_clips/frames/frame-31.png",
         "sha256": "4634a4e2652ceaa3607ed1516630f4440ed5bbcc5cd9b77e697867d12bbb391f",
         "bytes": 14944
       },
       {
-        "path": "../clips/frames/frame-32.png",
+        "path": "../bat_chiroptera_clips/frames/frame-32.png",
         "sha256": "ef62adef77c20675b658bdbd5461931dcdde72113a6f4c987928ef35e565b707",
         "bytes": 16500
       },
       {
-        "path": "../clips/frames/frame-33.png",
+        "path": "../bat_chiroptera_clips/frames/frame-33.png",
         "sha256": "4e101c13007e6a38939ce05629681fde51d6f3b3d39aa31dd934ab2b5d1905ee",
         "bytes": 17521
       },
       {
-        "path": "../clips/frames/frame-34.png",
+        "path": "../bat_chiroptera_clips/frames/frame-34.png",
         "sha256": "ef8a206c83de2c47e137c220d682156be6f7ef0083d5587771437355d41a1c4c",
         "bytes": 13472
       },
       {
-        "path": "../clips/frames/frame-35.png",
+        "path": "../bat_chiroptera_clips/frames/frame-35.png",
         "sha256": "d9d162c336faa9f66d3cd039563defcde345473934cb7ded3b202b9ef5218b57",
         "bytes": 18086
       },
       {
-        "path": "../clips/frames/frame-36.png",
+        "path": "../bat_chiroptera_clips/frames/frame-36.png",
         "sha256": "0aba33ee8fd3406011f69f345a237f46a3f07bc1ba4f3d0b3c95691bd46596b4",
         "bytes": 15063
       },
       {
-        "path": "../clips/frames/frame-37.png",
+        "path": "../bat_chiroptera_clips/frames/frame-37.png",
         "sha256": "45655bbb9455e38fd490502bcc00349a72f53c2a25b92ed80c643cd77fbbf0c7",
         "bytes": 12118
       },
       {
-        "path": "../clips/frames/frame-38.png",
+        "path": "../bat_chiroptera_clips/frames/frame-38.png",
         "sha256": "b50b330aae621086cd3ea0fa22e16bf737e23a9b2242e6f4d9d6aca1d9221f6d",
         "bytes": 15999
       },
       {
-        "path": "../clips/frames/frame-39.png",
+        "path": "../bat_chiroptera_clips/frames/frame-39.png",
         "sha256": "602d5c862ed0db67bedbc545a4d64e495568718d3429ba36d03035fe2eb19f79",
         "bytes": 16550
       },
       {
-        "path": "../clips/frames/frame-40.png",
+        "path": "../bat_chiroptera_clips/frames/frame-40.png",
         "sha256": "bb70684cdc03a32075c74e06bd651543ba928eb3691b592b420f42012316f703",
         "bytes": 17010
       },
       {
-        "path": "../clips/frames/frame-41.png",
+        "path": "../bat_chiroptera_clips/frames/frame-41.png",
         "sha256": "ba7a207ed692631a08f411bee7da5378324e1aaab8b737fc56a39d501705e3a1",
         "bytes": 16441
       },
       {
-        "path": "../clips/frames/frame-42.png",
+        "path": "../bat_chiroptera_clips/frames/frame-42.png",
         "sha256": "c156469bde8b04b570c6d62fb8b5924c9425f5df507398bd6d431f3baf22bfe8",
         "bytes": 16098
       },
       {
-        "path": "../clips/frames/frame-43.png",
+        "path": "../bat_chiroptera_clips/frames/frame-43.png",
         "sha256": "cf89c4efe526a08dbfc392132dd9789e6d6b60a9eeacfbd37cda3ff557cbfdd2",
         "bytes": 12806
       },
       {
-        "path": "../clips/frames/frame-44.png",
+        "path": "../bat_chiroptera_clips/frames/frame-44.png",
         "sha256": "f2bc93ad8c1aa0ebb301250400b14ccdadf6b3a4ea5be0252be5302cf73a9ba0",
         "bytes": 14830
       },
       {
-        "path": "../clips/frames/frame-45.png",
+        "path": "../bat_chiroptera_clips/frames/frame-45.png",
         "sha256": "ead59a85af90feb2ec7a71a3dd8c1f939d5bb89b0d0e76cadb6d12b4a08bb937",
         "bytes": 17121
       },
       {
-        "path": "../clips/frames/frame-46.png",
+        "path": "../bat_chiroptera_clips/frames/frame-46.png",
         "sha256": "95b008f1da879f21641e61f67ac8697046ff6a35490fc75ab21ee44fb7185d75",
         "bytes": 15034
       },
       {
-        "path": "../clips/frames/frame-47.png",
+        "path": "../bat_chiroptera_clips/frames/frame-47.png",
         "sha256": "79a7553981b3af376a5d93ff6d858a792d49d962c8771449ccd91f98de9e3008",
         "bytes": 13818
       },
       {
-        "path": "../clips/frames/frame-48.png",
+        "path": "../bat_chiroptera_clips/frames/frame-48.png",
         "sha256": "38e1958ee8199226e753cc3c2a5c9c39228507680a3ea0f2d42125700c376222",
         "bytes": 15562
       },
       {
-        "path": "../clips/frames/frame-49.png",
+        "path": "../bat_chiroptera_clips/frames/frame-49.png",
         "sha256": "5e2ea2469ffe309419c34ffcb3743473f78696ff50a43ca9fabf4f64782baddf",
         "bytes": 13984
       },
       {
-        "path": "../clips/frames/frame-50.png",
+        "path": "../bat_chiroptera_clips/frames/frame-50.png",
         "sha256": "37c4ca251e3d2c308ffec81d0fd68981627e73814cf706abe72b83ae885f09f7",
         "bytes": 13818
       },
       {
-        "path": "../clips/frames/frame-51.png",
+        "path": "../bat_chiroptera_clips/frames/frame-51.png",
         "sha256": "14c496faba73f96c67d521ea209b86783d3980eec7acf0110cf7dd5e3a87a6f1",
         "bytes": 14017
       },
       {
-        "path": "../clips/frames/frame-52.png",
+        "path": "../bat_chiroptera_clips/frames/frame-52.png",
         "sha256": "026e2581052a72863ee7b08adb5056d70a71328a0d3c5a890f6e70fca42685e8",
         "bytes": 14434
       },
       {
-        "path": "../clips/frames/frame-53.png",
+        "path": "../bat_chiroptera_clips/frames/frame-53.png",
         "sha256": "738a25fd0ffe7c01ebeca50c4deadfe894303382225ef9b2941528bf5816ca9c",
         "bytes": 15317
       },
       {
-        "path": "../clips/frames/frame-54.png",
+        "path": "../bat_chiroptera_clips/frames/frame-54.png",
         "sha256": "ecc15c5121e78d5a07acf37f666ff7fb4a6f62e6dde9a513b4585d5f78e11cde",
         "bytes": 811
       },
       {
-        "path": "../clips/frames/frame-55.png",
+        "path": "../bat_chiroptera_clips/frames/frame-55.png",
         "sha256": "f059a954fd77e2c621777e162213eba86bdadcc01c061918427020244dea91c4",
         "bytes": 1015
       },
       {
-        "path": "../clips/frames/frame-56.png",
+        "path": "../bat_chiroptera_clips/frames/frame-56.png",
         "sha256": "44018d7d8abc9a0afc6a07f69baa02d112df43f57dcbf2faea0b4c486a24df1d",
         "bytes": 1213
       },
       {
-        "path": "../clips/frames/frame-57.png",
+        "path": "../bat_chiroptera_clips/frames/frame-57.png",
         "sha256": "a6feda5ddf3c132b9c7b55f2be0f8aaf292981e46766721ac64e2e60f843ffd0",
         "bytes": 1442
       },
       {
-        "path": "../clips/frames/frame-58.png",
+        "path": "../bat_chiroptera_clips/frames/frame-58.png",
         "sha256": "18d8d0717f08161a5973ec6e26397c442564a4b463257279576589d737621492",
         "bytes": 1592
       },
       {
-        "path": "../clips/frames/frame-59.png",
+        "path": "../bat_chiroptera_clips/frames/frame-59.png",
         "sha256": "72ebba9878c9a61e6f4430346881502dd563c9d73908a907153daca4238223f8",
         "bytes": 1180
       },
       {
-        "path": "../clips/frames/frame-60.png",
+        "path": "../bat_chiroptera_clips/frames/frame-60.png",
         "sha256": "25eb34163925c3700f922807126aff686f9d3b99cfa16c397d03e55fcc195489",
         "bytes": 1084
+      },
+      {
+        "path": "../bat_chiroptera_clips/frames/frame-61.png",
+        "sha256": "442ead5e3e19fc63d2bbec226150febccba2bc30d719b8b8a2cf2b9928003324",
+        "bytes": 14355
+      },
+      {
+        "path": "../bat_chiroptera_clips/frames/frame-62.png",
+        "sha256": "b1f8c7437f0611feba14deb4d6d09f73d6a6d219285f83b96c1325a63e914abb",
+        "bytes": 15544
+      },
+      {
+        "path": "../bat_chiroptera_clips/frames/frame-63.png",
+        "sha256": "6fb7fc43b0565f1afb3508d688287c6f69c1874dea55c1ed3936d29b17e1ec5b",
+        "bytes": 17645
+      },
+      {
+        "path": "../bat_chiroptera_clips/frames/frame-64.png",
+        "sha256": "8168a05f281e0ac9265c12263c374deb220adff0eab91efb985fd864eaf16201",
+        "bytes": 17229
+      },
+      {
+        "path": "../bat_chiroptera_clips/frames/frame-65.png",
+        "sha256": "22301a46f36ad48e266667003cf9ade8d04d770e6a7aa11800b03424306487f9",
+        "bytes": 15497
       }
     ],
     "outputs": [
       {
         "path": "aseprite/bat_chiroptera.png",
-        "sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a"
+        "sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084"
       },
       {
         "path": "aseprite/bat_chiroptera.json",
-        "sha256": "ef09b7a47939dec5b4f511039244a5d0bf95646adcdc41ec9eed3174298f2206"
+        "sha256": "8343c7eb8a24daf989e94b9f5ac8b62f96af920c4c26da27596700203657e052"
       },
       {
         "path": "godot/bat_chiroptera-atlas-00.png",
-        "sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a"
+        "sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084"
       },
       {
         "path": "godot/bat_chiroptera.tres",
-        "sha256": "474821e9f45798527befd83c1ea942244d3e50558b17663a72b78f336af2c960"
+        "sha256": "cd63ce273820be744e4417b0a6dacc00243caa89c5d7886c19e78502f71d71cd"
       },
       {
         "path": "godot/bat_chiroptera.tscn",
@@ -1964,6 +2116,26 @@
         "sha256": "25eb34163925c3700f922807126aff686f9d3b99cfa16c397d03e55fcc195489"
       },
       {
+        "path": "godot-sprite3d/frames/frame-061.png",
+        "sha256": "442ead5e3e19fc63d2bbec226150febccba2bc30d719b8b8a2cf2b9928003324"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-062.png",
+        "sha256": "b1f8c7437f0611feba14deb4d6d09f73d6a6d219285f83b96c1325a63e914abb"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-063.png",
+        "sha256": "6fb7fc43b0565f1afb3508d688287c6f69c1874dea55c1ed3936d29b17e1ec5b"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-064.png",
+        "sha256": "8168a05f281e0ac9265c12263c374deb220adff0eab91efb985fd864eaf16201"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-065.png",
+        "sha256": "22301a46f36ad48e266667003cf9ade8d04d770e6a7aa11800b03424306487f9"
+      },
+      {
         "path": "godot-sprite3d/action-idle.json",
         "sha256": "6f0fad0fe506ee105943e40fe58c17a20337b7532e2e2a064ae12b08712f5495"
       },
@@ -1996,8 +2168,12 @@
         "sha256": "ea33ce038238576e0dde66d5f147095c397e0209616fb2540e1526a6c3cc2aa6"
       },
       {
+        "path": "godot-sprite3d/action-turn.json",
+        "sha256": "3ab4326c97e5290c909eab078bbb2f7e2e1793a01132edae97b22d0d6fd5c909"
+      },
+      {
         "path": "godot-sprite3d/bat_chiroptera.tres",
-        "sha256": "12fbf808332c51ed6fd13420df6819e1b202555e066fc173493b8e944629fa4b"
+        "sha256": "2a3bbdaa828590f5fab40b020e1a2a3fd97ffc506733471c5c75bf70feea672d"
       },
       {
         "path": "godot-sprite3d/bat_chiroptera.tscn",
@@ -2005,7 +2181,7 @@
       },
       {
         "path": "godot-sprite3d/bundle.json",
-        "sha256": "6c7efad93ff5e4fb8dfa66bc4041d48ca64782009b50e1cf10ec9c87d86a6138"
+        "sha256": "791a600d5711d647bbc957d9a2f082e58ba1d7262f050d64e4e5e0b95e5f3ac9"
       }
     ],
     "tool": {
@@ -2018,6 +2194,7 @@
       "idle",
       "walk",
       "run",
+      "turn",
       "attack_light",
       "power_up",
       "hit",
@@ -2038,7 +2215,19 @@
         5,
         6,
         7
-      ]
+      ],
+      "patrol": {
+        "enabled": true,
+        "clip": "walk",
+        "speed_px_per_second": 104.545455,
+        "min_x": 80,
+        "max_x": 880,
+        "endpoint_turn_clip": "turn"
+      },
+      "default_scale": 1.1,
+      "screen_speed_px_per_second": 115,
+      "speed_px_per_second": 104.545455,
+      "flight_default_y": 250
     },
     "aura": {
       "loop_clip": null,
@@ -2064,6 +2253,24 @@
         0.0
       ],
       "palette": "purple"
+    },
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ms": 250,
+      "duration_ticks": 15,
+      "ticks": [
+        2,
+        3,
+        4,
+        3,
+        3
+      ],
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true,
+      "whole_body_rotation": true,
+      "speed_boost_pct": 40
     }
   },
   "provenance": {
@@ -2079,7 +2286,14 @@
     "fx_evidence": "work/characters/bat_chiroptera/atlas-v1/fx-source-evidence.json",
     "owner_animation_approved": true,
     "owner_approval_file": "assets/bat_chiroptera/owner_approval.json",
-    "approved_at": "2026-11-13T06:34:45.229155+00:00",
-    "release_version": "0.10.0"
+    "revision": "turn-v1",
+    "previous_revision_atlas_sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084",
+    "previous_revision_approval_file": "assets/bat_chiroptera/owner_approval.json",
+    "turn_method": "complete_perspective_poses",
+    "turn_reference": "spinosaurus_turn_mechanics_only",
+    "workflow_id": "PIPE-016",
+    "approved_at": "2026-11-15T05:52:31.727116+00:00",
+    "release_version": "0.12.0",
+    "calibration_update": "default_scale=1.1, screen_speed=115px/s, flight_default_y=250; turn ticks [2,3,4,3,3] (+40% speed)"
   }
 }

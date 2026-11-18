@@ -45,6 +45,11 @@
       "contract": "action-sonic_screech_fx.json",
       "loop": false,
       "clip": "sonic_screech_fx"
+    },
+    "turn": {
+      "contract": "action-turn.json",
+      "loop": false,
+      "clip": "turn"
     }
   }
 }

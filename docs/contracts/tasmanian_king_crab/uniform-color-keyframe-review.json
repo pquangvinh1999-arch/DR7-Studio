@@ -1,0 +1,108 @@
+{
+  "status": "reviewed_pending_owner",
+  "method": "imagegen_complete_body_keyframes",
+  "atlas_sha256": "c62f2776ffb15133fae9128436c899e222d3e4ed717c2abc46cd64db579da30d",
+  "previous_revision_atlas_sha256": "9321a34b4aa7e4405583aa829f40d33d2aabc33a6bf796151dc5d7292fc43f0c",
+  "reviewed_at": "2026-11-15T04:36:50.583682+00:00",
+  "checks": {
+    "body_connections": true,
+    "whole_pose_sequence": true,
+    "perspective_turns": true,
+    "phase_timing": true,
+    "three_backgrounds": true,
+    "character_identity": true
+  },
+  "unresolved_structural_failures": [],
+  "naturalness_verdict": "reviewed_pending_owner",
+  "owner_approved": false,
+  "notes": "Uniform-color-v1: removed idle glare/white flash and unified all 5 body clips (idle, attack_nomal, power_up, hit, ko) to canonical walk luminance CDF & RGB tone curve; walk & orb FX unchanged.",
+  "stats_bt601": {
+    "walk": {
+      "lum_min": 77.6,
+      "lum_max": 79.43,
+      "lum_mean": 78.58,
+      "p95_max": 153.69,
+      "gt180_max_pct": 1.9,
+      "rgb_mean": [
+        129.22,
+        59.91,
+        41.87
+      ]
+    },
+    "idle": {
+      "lum_min": 78.41,
+      "lum_max": 78.77,
+      "lum_mean": 78.59,
+      "p95_max": 153.21,
+      "gt180_max_pct": 1.82,
+      "rgb_mean": [
+        129.62,
+        59.79,
+        41.55
+      ]
+    },
+    "attack_nomal": {
+      "lum_min": 76.42,
+      "lum_max": 80.06,
+      "lum_mean": 78.57,
+      "p95_max": 154.26,
+      "gt180_max_pct": 1.99,
+      "rgb_mean": [
+        129.49,
+        59.87,
+        41.27
+      ]
+    },
+    "power_up": {
+      "lum_min": 75.05,
+      "lum_max": 81.44,
+      "lum_mean": 78.68,
+      "p95_max": 156.63,
+      "gt180_max_pct": 1.96,
+      "rgb_mean": [
+        129.42,
+        60.03,
+        41.68
+      ]
+    },
+    "hit": {
+      "lum_min": 76.46,
+      "lum_max": 80.51,
+      "lum_mean": 78.55,
+      "p95_max": 153.36,
+      "gt180_max_pct": 1.95,
+      "rgb_mean": [
+        129.58,
+        59.81,
+        41.17
+      ]
+    },
+    "ko": {
+      "lum_min": 77.5,
+      "lum_max": 79.38,
+      "lum_mean": 78.57,
+      "p95_max": 154.62,
+      "gt180_max_pct": 1.89,
+      "rgb_mean": [
+        129.36,
+        59.84,
+        41.86
+      ]
+    }
+  },
+  "filmstrips_opened": [
+    "filmstrip-00.png",
+    "filmstrip-01.png",
+    "filmstrip-02.png",
+    "filmstrip-03.png",
+    "filmstrip-04.png",
+    "filmstrip-05.png",
+    "filmstrip-06.png",
+    "filmstrip-07.png"
+  ],
+  "backgrounds": [
+    "light",
+    "dark",
+    "checker"
+  ]
+}

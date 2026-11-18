@@ -1,8 +1,8 @@
 {
   "schema": "generate2dsprite.animation_clips.v2",
   "source_manifest": {
-    "path": "../clips_manifest.json",
-    "file_sha256": "9da3f11a9a50f892601bd27b5aa712aeee2ded82e9ab964c770399df62132605",
+    "path": "../dilophosaurus_in2/manifest.json",
+    "file_sha256": "7e74004436424462c19a94303465194636d7fa397fdf9a3c8d5978024afa855e",
     "copy": "source-manifest.json"
   },
   "frame_size": [
@@ -28,18 +28,18 @@
       "index": 0,
       "name": "walk_00",
       "source": {
-        "path": "../raw_frames/walk_00.png",
-        "file_sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f",
-        "bytes": 17123,
+        "path": "../dilophosaurus_in2/raw_frames/walk_00.png",
+        "file_sha256": "bed1c2c480025b001673dfe84bd6ef67ca25502c8e21a941276570069901b361",
+        "bytes": 14770,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "8725d8821c71e2251f21847ccb8b3ed6d781e6386c7a510f13cac6c42249efcc",
-      "transparent_pixel_count": 93334,
-      "visible_pixel_count": 4970,
+      "rgba_pixel_sha256": "f8e27521dbd01962cb0290ce5e782640e02c36de0096754ad550d86abbcfed4c",
+      "transparent_pixel_count": 94127,
+      "visible_pixel_count": 4177,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-00.png"
@@ -48,18 +48,18 @@
       "index": 1,
       "name": "walk_01",
       "source": {
-        "path": "../raw_frames/walk_01.png",
-        "file_sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd",
-        "bytes": 16553,
+        "path": "../dilophosaurus_in2/raw_frames/walk_01.png",
+        "file_sha256": "7c09eafaa912998dba74cf86d08b6825308da7eefc6f499ddf6a4c1956b75c05",
+        "bytes": 14300,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "c9d1d3a31cef19394d21fabf413cf712647a39b49e6c0f006584c22d0869f611",
-      "transparent_pixel_count": 93537,
-      "visible_pixel_count": 4767,
+      "rgba_pixel_sha256": "504c4b31133a342ece9d13f2f2eb38eb55a41acd11ad474a5ddbed3af8f39f79",
+      "transparent_pixel_count": 94287,
+      "visible_pixel_count": 4017,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-01.png"
@@ -68,18 +68,18 @@
       "index": 2,
       "name": "walk_02",
       "source": {
-        "path": "../raw_frames/walk_02.png",
-        "file_sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21",
-        "bytes": 16046,
+        "path": "../dilophosaurus_in2/raw_frames/walk_02.png",
+        "file_sha256": "2b5a8fd2e15584647f706321f9511e7f44da7b0b17d7321971214fb2b5e1fb2b",
+        "bytes": 13792,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "04fe6d80eba7545ec8a0f1bbe02495bbb3c402540fb6031d891abb4147c43f66",
-      "transparent_pixel_count": 93682,
-      "visible_pixel_count": 4622,
+      "rgba_pixel_sha256": "b554952fb031d46c01a641263d7a86bb4c04ab0461d4878c985eb6be0732aeb6",
+      "transparent_pixel_count": 94427,
+      "visible_pixel_count": 3877,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-02.png"
@@ -88,18 +88,18 @@
       "index": 3,
       "name": "walk_03",
       "source": {
-        "path": "../raw_frames/walk_03.png",
-        "file_sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373",
-        "bytes": 16340,
+        "path": "../dilophosaurus_in2/raw_frames/walk_03.png",
+        "file_sha256": "eb5f940b514a3b8aafc9b20c2a4ad7164f1cf3ac1d7cbd2724a641e31973d0d8",
+        "bytes": 14158,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "7f40db403663c55aa470b4960b0212e778be2c56b3fc07d25ba44fadec25e5aa",
-      "transparent_pixel_count": 93619,
-      "visible_pixel_count": 4685,
+      "rgba_pixel_sha256": "67500c30f39ac62d36f6dde426afc316e2b5cce69ccd3aea7678fd15b9a1f874",
+      "transparent_pixel_count": 94342,
+      "visible_pixel_count": 3962,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-03.png"
@@ -108,18 +108,18 @@
       "index": 4,
       "name": "walk_04",
       "source": {
-        "path": "../raw_frames/walk_04.png",
-        "file_sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4",
-        "bytes": 16710,
+        "path": "../dilophosaurus_in2/raw_frames/walk_04.png",
+        "file_sha256": "c658714da78f2e050f3c7efe955636fec8a8da5271a7327f8c30230492174f8c",
+        "bytes": 14458,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "6964fedffa94a1e2a9d738a536227d82a40d8a3b368fc20b675e03f4577a7ed3",
-      "transparent_pixel_count": 93505,
-      "visible_pixel_count": 4799,
+      "rgba_pixel_sha256": "4d8696e1d76700f8cfb80924bb247a554e7b65344025c81474f1ce9e45a08a34",
+      "transparent_pixel_count": 94263,
+      "visible_pixel_count": 4041,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-04.png"
@@ -128,18 +128,18 @@
       "index": 5,
       "name": "walk_05",
       "source": {
-        "path": "../raw_frames/walk_05.png",
-        "file_sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42",
-        "bytes": 16142,
+        "path": "../dilophosaurus_in2/raw_frames/walk_05.png",
+        "file_sha256": "221a4a24d2af5a5a6b84a844043e1d17f45d0588452bff427b7919a5e3429694",
+        "bytes": 13991,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "fe723139f5250c2f526f09a1006242bf1354722a2f9bb7681b90089f73e01b56",
-      "transparent_pixel_count": 93647,
-      "visible_pixel_count": 4657,
+      "rgba_pixel_sha256": "2828290d3504f4a5722b4a67626fd9bf0b576cc7102b8755a510dd939062d38e",
+      "transparent_pixel_count": 94386,
+      "visible_pixel_count": 3918,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-05.png"
@@ -148,18 +148,18 @@
       "index": 6,
       "name": "walk_06",
       "source": {
-        "path": "../raw_frames/walk_06.png",
-        "file_sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af",
-        "bytes": 15792,
+        "path": "../dilophosaurus_in2/raw_frames/walk_06.png",
+        "file_sha256": "898ecb104c2f42b424a5a885c3af6d5097d483d1ea8685e814c5aef6252f489b",
+        "bytes": 13741,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "6aad9de206465e678fc9b5d4199d753900e2a73550680d8c3b1d18de02e2c676",
-      "transparent_pixel_count": 93739,
-      "visible_pixel_count": 4565,
+      "rgba_pixel_sha256": "bcba1e62acd8e404f4c0e855a77453d2cac0b944aac679af48a04d14e3f7ca0b",
+      "transparent_pixel_count": 94441,
+      "visible_pixel_count": 3863,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-06.png"
@@ -168,18 +168,18 @@
       "index": 7,
       "name": "walk_07",
       "source": {
-        "path": "../raw_frames/walk_07.png",
-        "file_sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83",
-        "bytes": 16834,
+        "path": "../dilophosaurus_in2/raw_frames/walk_07.png",
+        "file_sha256": "23709f2560da247d423a84b9035759ca0c8aabc4fbc331af2a98c3747d3b29db",
+        "bytes": 14555,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "d8cdeba420a5b86cd48c510abcbe372576abf8b03bf67d3b5b61efea8fcad998",
-      "transparent_pixel_count": 93472,
-      "visible_pixel_count": 4832,
+      "rgba_pixel_sha256": "57f1873f1488d52db47bda93c72a2fb3de953bac3cc8bd337b2983f50d44dff5",
+      "transparent_pixel_count": 94224,
+      "visible_pixel_count": 4080,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-07.png"
@@ -188,7 +188,7 @@
       "index": 8,
       "name": "attack_light_00",
       "source": {
-        "path": "../raw_frames/attack_light_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_00.png",
         "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911,
         "size": [
@@ -213,7 +213,7 @@
       "index": 9,
       "name": "attack_light_01",
       "source": {
-        "path": "../raw_frames/attack_light_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_01.png",
         "file_sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb",
         "bytes": 16629,
         "size": [
@@ -233,7 +233,7 @@
       "index": 10,
       "name": "attack_light_02",
       "source": {
-        "path": "../raw_frames/attack_light_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_02.png",
         "file_sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49",
         "bytes": 16468,
         "size": [
@@ -253,7 +253,7 @@
       "index": 11,
       "name": "attack_light_03",
       "source": {
-        "path": "../raw_frames/attack_light_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_03.png",
         "file_sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac",
         "bytes": 17444,
         "size": [
@@ -273,7 +273,7 @@
       "index": 12,
       "name": "attack_light_04",
       "source": {
-        "path": "../raw_frames/attack_light_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_04.png",
         "file_sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e",
         "bytes": 16604,
         "size": [
@@ -293,7 +293,7 @@
       "index": 13,
       "name": "attack_light_05",
       "source": {
-        "path": "../raw_frames/attack_light_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_05.png",
         "file_sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408",
         "bytes": 16830,
         "size": [
@@ -313,7 +313,7 @@
       "index": 14,
       "name": "attack_light_06",
       "source": {
-        "path": "../raw_frames/attack_light_06.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_06.png",
         "file_sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6",
         "bytes": 16473,
         "size": [
@@ -333,7 +333,7 @@
       "index": 15,
       "name": "attack_light_07",
       "source": {
-        "path": "../raw_frames/attack_light_07.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_07.png",
         "file_sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9",
         "bytes": 16454,
         "size": [
@@ -353,7 +353,7 @@
       "index": 16,
       "name": "hit_00",
       "source": {
-        "path": "../raw_frames/hit_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_00.png",
         "file_sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701",
         "bytes": 16448,
         "size": [
@@ -373,7 +373,7 @@
       "index": 17,
       "name": "hit_01",
       "source": {
-        "path": "../raw_frames/hit_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_01.png",
         "file_sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f",
         "bytes": 16033,
         "size": [
@@ -393,7 +393,7 @@
       "index": 18,
       "name": "hit_02",
       "source": {
-        "path": "../raw_frames/hit_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_02.png",
         "file_sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69",
         "bytes": 15963,
         "size": [
@@ -413,7 +413,7 @@
       "index": 19,
       "name": "hit_03",
       "source": {
-        "path": "../raw_frames/hit_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_03.png",
         "file_sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5",
         "bytes": 15885,
         "size": [
@@ -433,7 +433,7 @@
       "index": 20,
       "name": "hit_04",
       "source": {
-        "path": "../raw_frames/hit_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_04.png",
         "file_sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3",
         "bytes": 16046,
         "size": [
@@ -453,7 +453,7 @@
       "index": 21,
       "name": "hit_05",
       "source": {
-        "path": "../raw_frames/hit_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_05.png",
         "file_sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08",
         "bytes": 16150,
         "size": [
@@ -473,7 +473,7 @@
       "index": 22,
       "name": "ko_00",
       "source": {
-        "path": "../raw_frames/ko_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_00.png",
         "file_sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491",
         "bytes": 17167,
         "size": [
@@ -493,7 +493,7 @@
       "index": 23,
       "name": "ko_01",
       "source": {
-        "path": "../raw_frames/ko_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_01.png",
         "file_sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299",
         "bytes": 16483,
         "size": [
@@ -513,7 +513,7 @@
       "index": 24,
       "name": "ko_02",
       "source": {
-        "path": "../raw_frames/ko_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_02.png",
         "file_sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07",
         "bytes": 16302,
         "size": [
@@ -533,7 +533,7 @@
       "index": 25,
       "name": "ko_03",
       "source": {
-        "path": "../raw_frames/ko_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_03.png",
         "file_sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284",
         "bytes": 15735,
         "size": [
@@ -553,7 +553,7 @@
       "index": 26,
       "name": "ko_04",
       "source": {
-        "path": "../raw_frames/ko_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_04.png",
         "file_sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4",
         "bytes": 15144,
         "size": [
@@ -573,7 +573,7 @@
       "index": 27,
       "name": "ko_05",
       "source": {
-        "path": "../raw_frames/ko_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_05.png",
         "file_sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d",
         "bytes": 13949,
         "size": [
@@ -593,7 +593,7 @@
       "index": 28,
       "name": "ko_06",
       "source": {
-        "path": "../raw_frames/ko_06.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_06.png",
         "file_sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145",
         "bytes": 12976,
         "size": [
@@ -613,7 +613,7 @@
       "index": 29,
       "name": "ko_07",
       "source": {
-        "path": "../raw_frames/ko_07.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_07.png",
         "file_sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175",
         "bytes": 12104,
         "size": [
@@ -633,7 +633,7 @@
       "index": 30,
       "name": "turn_00",
       "source": {
-        "path": "../raw_frames/turn_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/turn_00.png",
         "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911,
         "size": [
@@ -658,18 +658,18 @@
       "index": 31,
       "name": "turn_01",
       "source": {
-        "path": "../raw_frames/turn_01.png",
-        "file_sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8",
-        "bytes": 17995,
+        "path": "../dilophosaurus_in2/raw_frames/turn_01.png",
+        "file_sha256": "25be55eda62fd95e9fa5c706b4ea8f39bc488cecffaa4bab2576913cd180ddc4",
+        "bytes": 13787,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "32417043a2df4cfe1578046fc9349c5c48886e97e26e71488ff3704219ee34db",
-      "transparent_pixel_count": 93239,
-      "visible_pixel_count": 5065,
+      "rgba_pixel_sha256": "c87ef2613241d496d9ba0a3b4f6711d6aab66b91e29eab46e7cd96980316a321",
+      "transparent_pixel_count": 94580,
+      "visible_pixel_count": 3724,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-31.png"
@@ -678,18 +678,18 @@
       "index": 32,
       "name": "turn_02",
       "source": {
-        "path": "../raw_frames/turn_02.png",
-        "file_sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c",
-        "bytes": 16749,
+        "path": "../dilophosaurus_in2/raw_frames/turn_02.png",
+        "file_sha256": "98168813fa7624a04606b507b0cdaaac4dc8c7bdc4034a7ae067cb2061d34ceb",
+        "bytes": 12783,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "94b5a70ddcf27d82d81f2446e6bac0de8301e49ef37ee0f54dc85afa7dcb90a3",
-      "transparent_pixel_count": 93678,
-      "visible_pixel_count": 4626,
+      "rgba_pixel_sha256": "53c5baf9ccc5a3b1db17c4b2736c4081e70031fb70defc55af728970e1ae113f",
+      "transparent_pixel_count": 94918,
+      "visible_pixel_count": 3386,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-32.png"
@@ -698,18 +698,18 @@
       "index": 33,
       "name": "turn_03",
       "source": {
-        "path": "../raw_frames/turn_03.png",
-        "file_sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3",
-        "bytes": 18042,
+        "path": "../dilophosaurus_in2/raw_frames/turn_03.png",
+        "file_sha256": "4c39eefdf5f04cecd7440578faa214bd86e5dcc28558d22020680e271cde5add",
+        "bytes": 15166,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "046abffb22b339686ec3bf20e8d1f64970efd22f5f0d259d3863cb82cfa06616",
-      "transparent_pixel_count": 93129,
-      "visible_pixel_count": 5175,
+      "rgba_pixel_sha256": "6c34ddce29db4570cd2471dec7c3ea8227f36933a2def72966ebb00cc3083132",
+      "transparent_pixel_count": 94063,
+      "visible_pixel_count": 4241,
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-33.png"
@@ -718,7 +718,7 @@
       "index": 34,
       "name": "air_slash_a_fx_00",
       "source": {
-        "path": "../raw_frames/air_slash_a_fx_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_00.png",
         "file_sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64",
         "bytes": 825,
         "size": [
@@ -738,7 +738,7 @@
       "index": 35,
       "name": "air_slash_a_fx_01",
       "source": {
-        "path": "../raw_frames/air_slash_a_fx_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_01.png",
         "file_sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5",
         "bytes": 1437,
         "size": [
@@ -758,7 +758,7 @@
       "index": 36,
       "name": "air_slash_a_fx_02",
       "source": {
-        "path": "../raw_frames/air_slash_a_fx_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_02.png",
         "file_sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686",
         "bytes": 2383,
         "size": [
@@ -778,7 +778,7 @@
       "index": 37,
       "name": "air_slash_a_fx_03",
       "source": {
-        "path": "../raw_frames/air_slash_a_fx_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_03.png",
         "file_sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623",
         "bytes": 2057,
         "size": [
@@ -798,7 +798,7 @@
       "index": 38,
       "name": "air_slash_a_fx_04",
       "source": {
-        "path": "../raw_frames/air_slash_a_fx_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_04.png",
         "file_sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec",
         "bytes": 1470,
         "size": [
@@ -818,7 +818,7 @@
       "index": 39,
       "name": "air_slash_a_fx_05",
       "source": {
-        "path": "../raw_frames/air_slash_a_fx_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_05.png",
         "file_sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e",
         "bytes": 886,
         "size": [
@@ -838,7 +838,7 @@
       "index": 40,
       "name": "air_slash_b_fx_00",
       "source": {
-        "path": "../raw_frames/air_slash_b_fx_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_00.png",
         "file_sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf",
         "bytes": 836,
         "size": [
@@ -858,7 +858,7 @@
       "index": 41,
       "name": "air_slash_b_fx_01",
       "source": {
-        "path": "../raw_frames/air_slash_b_fx_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_01.png",
         "file_sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae",
         "bytes": 1438,
         "size": [
@@ -878,7 +878,7 @@
       "index": 42,
       "name": "air_slash_b_fx_02",
       "source": {
-        "path": "../raw_frames/air_slash_b_fx_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_02.png",
         "file_sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b",
         "bytes": 2343,
         "size": [
@@ -898,7 +898,7 @@
       "index": 43,
       "name": "air_slash_b_fx_03",
       "source": {
-        "path": "../raw_frames/air_slash_b_fx_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_03.png",
         "file_sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded",
         "bytes": 1989,
         "size": [
@@ -918,7 +918,7 @@
       "index": 44,
       "name": "air_slash_b_fx_04",
       "source": {
-        "path": "../raw_frames/air_slash_b_fx_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_04.png",
         "file_sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178",
         "bytes": 1421,
         "size": [
@@ -938,7 +938,7 @@
       "index": 45,
       "name": "air_slash_b_fx_05",
       "source": {
-        "path": "../raw_frames/air_slash_b_fx_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_05.png",
         "file_sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac",
         "bytes": 913,
         "size": [
@@ -958,7 +958,7 @@
       "index": 46,
       "name": "air_slash_c_fx_00",
       "source": {
-        "path": "../raw_frames/air_slash_c_fx_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_00.png",
         "file_sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073",
         "bytes": 719,
         "size": [
@@ -978,7 +978,7 @@
       "index": 47,
       "name": "air_slash_c_fx_01",
       "source": {
-        "path": "../raw_frames/air_slash_c_fx_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_01.png",
         "file_sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc",
         "bytes": 1243,
         "size": [
@@ -998,7 +998,7 @@
       "index": 48,
       "name": "air_slash_c_fx_02",
       "source": {
-        "path": "../raw_frames/air_slash_c_fx_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_02.png",
         "file_sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15",
         "bytes": 2389,
         "size": [
@@ -1018,7 +1018,7 @@
       "index": 49,
       "name": "air_slash_c_fx_03",
       "source": {
-        "path": "../raw_frames/air_slash_c_fx_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_03.png",
         "file_sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4",
         "bytes": 2173,
         "size": [
@@ -1038,7 +1038,7 @@
       "index": 50,
       "name": "air_slash_c_fx_04",
       "source": {
-        "path": "../raw_frames/air_slash_c_fx_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_04.png",
         "file_sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1",
         "bytes": 1655,
         "size": [
@@ -1058,7 +1058,7 @@
       "index": 51,
       "name": "air_slash_c_fx_05",
       "source": {
-        "path": "../raw_frames/air_slash_c_fx_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_05.png",
         "file_sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e",
         "bytes": 819,
         "size": [
@@ -1078,7 +1078,7 @@
       "index": 52,
       "name": "idle_00",
       "source": {
-        "path": "../raw_frames/idle_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/idle_00.png",
         "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911,
         "size": [
@@ -1103,16 +1103,16 @@
       "index": 53,
       "name": "idle_01",
       "source": {
-        "path": "../raw_frames/idle_01.png",
-        "file_sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374",
-        "bytes": 15117,
+        "path": "../dilophosaurus_in2/raw_frames/idle_01.png",
+        "file_sha256": "8f401d11e258291569936a7f51c1f051155e57bcaa376813cf2bbad220fff078",
+        "bytes": 15082,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "15b29ccd90f330298fa4d0420f269a80ff909c425b0c47cdc2cdd0ef7a41d6c9",
+      "rgba_pixel_sha256": "86f2a1e4cd17f4f771892ae9f89654ebdf7ac4275826a09303c83a662efbc5c9",
       "transparent_pixel_count": 93983,
       "visible_pixel_count": 4321,
       "near_duplicates": [],
@@ -1123,16 +1123,16 @@
       "index": 54,
       "name": "idle_02",
       "source": {
-        "path": "../raw_frames/idle_02.png",
-        "file_sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e",
-        "bytes": 15205,
+        "path": "../dilophosaurus_in2/raw_frames/idle_02.png",
+        "file_sha256": "cb27e1518261dcb42da2ceb983286e082fa0c0218a01afddd7fb6fd3715ae1e9",
+        "bytes": 15149,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "68fe2e6fd4640b188cb3d6fdb9756b2af05d92a434da3aa5c1afe25edb4c2971",
+      "rgba_pixel_sha256": "9d4802a43e7aea07e954104bd9f48a51803288eda3db1f56d1fc7130ae30476f",
       "transparent_pixel_count": 93976,
       "visible_pixel_count": 4328,
       "near_duplicates": [],
@@ -1143,16 +1143,16 @@
       "index": 55,
       "name": "idle_03",
       "source": {
-        "path": "../raw_frames/idle_03.png",
-        "file_sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647",
-        "bytes": 15266,
+        "path": "../dilophosaurus_in2/raw_frames/idle_03.png",
+        "file_sha256": "70e8b39fd98c6e5bf549324e62aa0366f63d2fa583f5afd46dbad7f8e06aec9b",
+        "bytes": 15238,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "12f5fca14ca143d97e6b01c865451b1a7fe1a496a223b52851ace8eef0e61f40",
+      "rgba_pixel_sha256": "99f020713b4a6f8b6b95e0fc138126ca6724e4c73d8bec9d5f2f045609f25fec",
       "transparent_pixel_count": 93963,
       "visible_pixel_count": 4341,
       "near_duplicates": [],
@@ -1163,16 +1163,16 @@
       "index": 56,
       "name": "idle_04",
       "source": {
-        "path": "../raw_frames/idle_04.png",
-        "file_sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05",
-        "bytes": 15282,
+        "path": "../dilophosaurus_in2/raw_frames/idle_04.png",
+        "file_sha256": "60a44772dd044c71504e1ed7fd7e79c46363b841536d42d389427be741f4264f",
+        "bytes": 15237,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "80393acd5ff7a1cd8866395b2897e25d10a73cb8101bab8284923029823923b7",
+      "rgba_pixel_sha256": "304f88f27c8b1780cbfb71afddadf2e47c9f7bf7fee18f936e2e77da88c7a7ea",
       "transparent_pixel_count": 93966,
       "visible_pixel_count": 4338,
       "near_duplicates": [],
@@ -1183,16 +1183,16 @@
       "index": 57,
       "name": "idle_05",
       "source": {
-        "path": "../raw_frames/idle_05.png",
-        "file_sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf",
-        "bytes": 15216,
+        "path": "../dilophosaurus_in2/raw_frames/idle_05.png",
+        "file_sha256": "b70642d85ff607909b404cdaaaf1739e2a90a7c345235511a13a78a3d47278e9",
+        "bytes": 15167,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "8df2ed8e8f6c40707a987feafd9d8bb6211e82036372ab82e99da1bdc77efb92",
+      "rgba_pixel_sha256": "70440b79358369500e4ef7b2dcc5a76af0fb712845e7f67ba5f4ffe5f92209ee",
       "transparent_pixel_count": 93963,
       "visible_pixel_count": 4341,
       "near_duplicates": [],
@@ -1203,16 +1203,16 @@
       "index": 58,
       "name": "idle_06",
       "source": {
-        "path": "../raw_frames/idle_06.png",
-        "file_sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20",
-        "bytes": 15178,
+        "path": "../dilophosaurus_in2/raw_frames/idle_06.png",
+        "file_sha256": "fd4a224c1eed2e9103e60d05e820b574a7964280af0030efb57e7f4d4a3b7368",
+        "bytes": 15104,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "9c4d2831aa48d09256ddd34562f5c3c23d8ffa41527be8ed2d0560b5b4948bbf",
+      "rgba_pixel_sha256": "df1c285a5a37ec2ef908772331fa3198210e9cdda4d2a528571f0886b4e4849a",
       "transparent_pixel_count": 93992,
       "visible_pixel_count": 4312,
       "near_duplicates": [],
@@ -1223,16 +1223,16 @@
       "index": 59,
       "name": "idle_07",
       "source": {
-        "path": "../raw_frames/idle_07.png",
-        "file_sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c",
-        "bytes": 15085,
+        "path": "../dilophosaurus_in2/raw_frames/idle_07.png",
+        "file_sha256": "f2db29c207498986bb42f236c817c6c5b1c0058be9129abf9fe6096f200e733b",
+        "bytes": 15053,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "43a3174bcc31fc43db6f302f62004cc8a0a42c443f873cfa0dbc48f9ce07da44",
+      "rgba_pixel_sha256": "a2c1ea68718667b3c4b67b4cdbd2450d414ef42cf887f5e5452159da03451dd8",
       "transparent_pixel_count": 93983,
       "visible_pixel_count": 4321,
       "near_duplicates": [],
@@ -1243,16 +1243,16 @@
       "index": 60,
       "name": "idle_08",
       "source": {
-        "path": "../raw_frames/idle_08.png",
-        "file_sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238",
-        "bytes": 15113,
+        "path": "../dilophosaurus_in2/raw_frames/idle_08.png",
+        "file_sha256": "3bc5dc107e4c6692b147bdf84d111692f8c5cc6625d598bce254fabc3d014383",
+        "bytes": 15067,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "0c7afa4294dac5b578ebf2a4c64641532d77a53e06004f653d5e81978eafb382",
+      "rgba_pixel_sha256": "a3b1b19958a55afcb1212d6430eb1059b58e26e4db080b48866a2ab002df0145",
       "transparent_pixel_count": 93978,
       "visible_pixel_count": 4326,
       "near_duplicates": [],
@@ -1263,16 +1263,16 @@
       "index": 61,
       "name": "idle_09",
       "source": {
-        "path": "../raw_frames/idle_09.png",
-        "file_sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3",
-        "bytes": 15070,
+        "path": "../dilophosaurus_in2/raw_frames/idle_09.png",
+        "file_sha256": "18dcc2397ad79c31c276d3723f75e053a5e055a6a0bf5fb7e4e47c5b529ba64a",
+        "bytes": 15065,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "36f41b4f5e422c7f0e37ebf56f01eaf2f969eb77aec15879a0404a9e59d7ccd1",
+      "rgba_pixel_sha256": "c5102bbb106c2cf6d6bc10cbb10509dad13091811b4160e988704ca35b0a9c3f",
       "transparent_pixel_count": 93992,
       "visible_pixel_count": 4312,
       "near_duplicates": [],
@@ -1283,16 +1283,16 @@
       "index": 62,
       "name": "idle_10",
       "source": {
-        "path": "../raw_frames/idle_10.png",
-        "file_sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1",
-        "bytes": 15234,
+        "path": "../dilophosaurus_in2/raw_frames/idle_10.png",
+        "file_sha256": "a3f6502e0e39eb90ee33e443bb1d7a3bbbb1463e92704b4d26cac95f74bd33cb",
+        "bytes": 15194,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "60bdd44f8d77555ef9a360d4841f405f86c5613e7d4d280dd0d65c74baf76564",
+      "rgba_pixel_sha256": "ad74662a4cb36b42cbd3a857a1a6ebfd3a1dbaf15c0d335a74a694099bc83cac",
       "transparent_pixel_count": 93967,
       "visible_pixel_count": 4337,
       "near_duplicates": [],
@@ -1303,16 +1303,16 @@
       "index": 63,
       "name": "idle_11",
       "source": {
-        "path": "../raw_frames/idle_11.png",
-        "file_sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b",
-        "bytes": 15265,
+        "path": "../dilophosaurus_in2/raw_frames/idle_11.png",
+        "file_sha256": "38b6a220cbfd8f930c16a8e19aa02e8f81e383ac57394de522f9180062cdfc2b",
+        "bytes": 15242,
         "size": [
           384,
           256
         ],
         "mode": "RGBA"
       },
-      "rgba_pixel_sha256": "83bc1b6a0e3bb56d7118beda604a0a6f5cb7291a522001caeb5dde2263a474fb",
+      "rgba_pixel_sha256": "1a462eca07ef92c373e014a71044693789f264775342026e1996f69162ed4ea3",
       "transparent_pixel_count": 93968,
       "visible_pixel_count": 4336,
       "near_duplicates": [],
@@ -1323,7 +1323,7 @@
       "index": 64,
       "name": "power_wave_00",
       "source": {
-        "path": "../raw_frames/power_wave_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_00.png",
         "file_sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6",
         "bytes": 18615,
         "size": [
@@ -1343,7 +1343,7 @@
       "index": 65,
       "name": "power_wave_01",
       "source": {
-        "path": "../raw_frames/power_wave_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_01.png",
         "file_sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917",
         "bytes": 18574,
         "size": [
@@ -1363,7 +1363,7 @@
       "index": 66,
       "name": "power_wave_02",
       "source": {
-        "path": "../raw_frames/power_wave_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_02.png",
         "file_sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188",
         "bytes": 18477,
         "size": [
@@ -1383,7 +1383,7 @@
       "index": 67,
       "name": "power_wave_03",
       "source": {
-        "path": "../raw_frames/power_wave_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_03.png",
         "file_sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1",
         "bytes": 18582,
         "size": [
@@ -1403,7 +1403,7 @@
       "index": 68,
       "name": "power_wave_04",
       "source": {
-        "path": "../raw_frames/power_wave_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_04.png",
         "file_sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197",
         "bytes": 18498,
         "size": [
@@ -1423,7 +1423,7 @@
       "index": 69,
       "name": "power_wave_05",
       "source": {
-        "path": "../raw_frames/power_wave_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_05.png",
         "file_sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d",
         "bytes": 18545,
         "size": [
@@ -1443,7 +1443,7 @@
       "index": 70,
       "name": "power_wave_06",
       "source": {
-        "path": "../raw_frames/power_wave_06.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_06.png",
         "file_sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea",
         "bytes": 18560,
         "size": [
@@ -1463,7 +1463,7 @@
       "index": 71,
       "name": "power_wave_07",
       "source": {
-        "path": "../raw_frames/power_wave_07.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_07.png",
         "file_sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548",
         "bytes": 18558,
         "size": [
@@ -1483,7 +1483,7 @@
       "index": 72,
       "name": "power_prepare_0",
       "source": {
-        "path": "../raw_frames/power_prepare_0.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_prepare_0.png",
         "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911,
         "size": [
@@ -1508,7 +1508,7 @@
       "index": 73,
       "name": "power_prepare_1",
       "source": {
-        "path": "../raw_frames/power_prepare_1.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_prepare_1.png",
         "file_sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e",
         "bytes": 15993,
         "size": [
@@ -1528,7 +1528,7 @@
       "index": 74,
       "name": "power_recover_18",
       "source": {
-        "path": "../raw_frames/power_recover_18.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_18.png",
         "file_sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b",
         "bytes": 17094,
         "size": [
@@ -1548,7 +1548,7 @@
       "index": 75,
       "name": "power_recover_19",
       "source": {
-        "path": "../raw_frames/power_recover_19.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_19.png",
         "file_sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49",
         "bytes": 16376,
         "size": [
@@ -1568,7 +1568,7 @@
       "index": 76,
       "name": "power_recover_20",
       "source": {
-        "path": "../raw_frames/power_recover_20.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_20.png",
         "file_sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595",
         "bytes": 16536,
         "size": [
@@ -1588,7 +1588,7 @@
       "index": 77,
       "name": "power_recover_21",
       "source": {
-        "path": "../raw_frames/power_recover_21.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_21.png",
         "file_sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d",
         "bytes": 16210,
         "size": [
@@ -1608,7 +1608,7 @@
       "index": 78,
       "name": "power_recover_22",
       "source": {
-        "path": "../raw_frames/power_recover_22.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_22.png",
         "file_sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736",
         "bytes": 16273,
         "size": [
@@ -1628,7 +1628,7 @@
       "index": 79,
       "name": "power_recover_23",
       "source": {
-        "path": "../raw_frames/power_recover_23.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_23.png",
         "file_sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911,
         "size": [
@@ -1713,15 +1713,15 @@
       "holds": [],
       "seam": {
         "frames": 8,
-        "seam": 1.869011,
-        "adjacent_median": 2.250046,
-        "adjacent_p95": 3.309666,
-        "adjacent_max": 3.460482,
-        "seam_over_median": 0.830655,
-        "seam_over_p95": 0.564713,
+        "seam": 1.888285,
+        "adjacent_median": 1.959429,
+        "adjacent_p95": 2.644613,
+        "adjacent_max": 2.774892,
+        "seam_over_median": 0.963691,
+        "seam_over_p95": 0.714012,
         "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
-        "adjacent_mean": 2.404487,
-        "wrap_ratio": 0.777301
+        "adjacent_mean": 2.052444,
+        "wrap_ratio": 0.920018
       },
       "preview": {
         "file": "clips/clip-00.webp",
@@ -1798,64 +1798,64 @@
         "alpha_and_visible_rgb_exact": true,
         "hidden_rgb_guaranteed": false,
         "lossless": true,
-        "file_sha256": "4a95692c7da9e2edb52203e85dd39dda535650d90635e13cf6c1bbe453f45bf4"
+        "file_sha256": "1a31bbda657117ed650aadb50edc11889de94db63a161b878300538e2afcfd53"
       },
       "transitions": [
         {
           "from_position": 0,
           "to_position": 1,
-          "premultiplied_rgb_mae": 2.828444,
-          "alpha_mae": 5.356598,
-          "changed_visible_pixels": 5900
+          "premultiplied_rgb_mae": 2.27316,
+          "alpha_mae": 4.28009,
+          "changed_visible_pixels": 4922
         },
         {
           "from_position": 1,
           "to_position": 2,
-          "premultiplied_rgb_mae": 1.212067,
-          "alpha_mae": 2.155609,
-          "changed_visible_pixels": 5106
+          "premultiplied_rgb_mae": 1.183835,
+          "alpha_mae": 2.012939,
+          "changed_visible_pixels": 4335
         },
         {
           "from_position": 2,
           "to_position": 3,
-          "premultiplied_rgb_mae": 1.980645,
-          "alpha_mae": 2.581024,
-          "changed_visible_pixels": 5150
+          "premultiplied_rgb_mae": 1.809299,
+          "alpha_mae": 2.409821,
+          "changed_visible_pixels": 4383
         },
         {
           "from_position": 3,
           "to_position": 4,
-          "premultiplied_rgb_mae": 2.204773,
-          "alpha_mae": 3.792419,
-          "changed_visible_pixels": 5473
+          "premultiplied_rgb_mae": 1.906769,
+          "alpha_mae": 3.239899,
+          "changed_visible_pixels": 4626
         },
         {
           "from_position": 4,
           "to_position": 5,
-          "premultiplied_rgb_mae": 1.766886,
-          "alpha_mae": 2.63031,
-          "changed_visible_pixels": 5232
+          "premultiplied_rgb_mae": 1.54146,
+          "alpha_mae": 2.269745,
+          "changed_visible_pixels": 4417
         },
         {
           "from_position": 5,
           "to_position": 6,
-          "premultiplied_rgb_mae": 1.872538,
-          "alpha_mae": 3.382568,
-          "changed_visible_pixels": 5261
+          "premultiplied_rgb_mae": 1.617459,
+          "alpha_mae": 2.897491,
+          "changed_visible_pixels": 4447
         },
         {
           "from_position": 6,
           "to_position": 7,
-          "premultiplied_rgb_mae": 2.446947,
-          "alpha_mae": 4.490204,
-          "changed_visible_pixels": 5563
+          "premultiplied_rgb_mae": 1.916361,
+          "alpha_mae": 3.613434,
+          "changed_visible_pixels": 4668
         }
       ],
       "last_to_first": {
         "applies_to_playback": true,
-        "premultiplied_rgb_mae": 1.672312,
-        "alpha_mae": 2.459106,
-        "changed_visible_pixels": 5371
+        "premultiplied_rgb_mae": 1.71617,
+        "alpha_mae": 2.404633,
+        "changed_visible_pixels": 4589
       }
     },
     "attack_light": {
@@ -2481,22 +2481,22 @@
         33
       ],
       "duration_ms": [
-        100,
-        67,
-        66,
-        100
+        33,
+        84,
+        83,
+        33
       ],
       "loop": false,
-      "total_duration_ms": 333,
+      "total_duration_ms": 233,
       "nominal_fps": null,
-      "average_fps": 12.012012012012011,
+      "average_fps": 17.167381974248926,
       "loop_policy": "oneshot",
       "timing_source": "ticks",
       "ticks": [
-        6,
-        4,
-        4,
-        6
+        2,
+        5,
+        5,
+        2
       ],
       "tick_hz": 60,
       "events_ms": [
@@ -2509,10 +2509,10 @@
         },
         {
           "name": "end",
-          "at_ms": 233,
+          "at_ms": 200,
           "at": 3,
           "position": 3,
-          "at_tick": 14
+          "at_tick": 12
         }
       ],
       "role": "player",
@@ -2520,14 +2520,14 @@
         "hz": 60,
         "max_drift_ms": 0.333,
         "frame_ticks": [
-          6,
-          4,
-          4,
-          6
+          2,
+          5,
+          5,
+          2
         ],
         "zero_tick_positions": [],
         "even": false,
-        "cycle_ticks": 19.98,
+        "cycle_ticks": 13.98,
         "cycle_aligned": false,
         "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
       },
@@ -2538,73 +2538,73 @@
           {
             "index": 0,
             "start_ms": 0,
-            "duration_ms": 100,
+            "duration_ms": 33,
             "clip_positions": [
               0
             ]
           },
           {
             "index": 1,
-            "start_ms": 100,
-            "duration_ms": 67,
+            "start_ms": 33,
+            "duration_ms": 84,
             "clip_positions": [
               1
             ]
           },
           {
             "index": 2,
-            "start_ms": 167,
-            "duration_ms": 66,
+            "start_ms": 117,
+            "duration_ms": 83,
             "clip_positions": [
               2
             ]
           },
           {
             "index": 3,
-            "start_ms": 233,
-            "duration_ms": 100,
+            "start_ms": 200,
+            "duration_ms": 33,
             "clip_positions": [
               3
             ]
           }
         ],
         "decoded_frame_count": 4,
-        "total_duration_ms": 333,
+        "total_duration_ms": 233,
         "native_loop_count": 1,
         "timeline_verified": true,
         "alpha_and_visible_rgb_exact": true,
         "hidden_rgb_guaranteed": false,
         "lossless": true,
-        "file_sha256": "af5b675c7ed52cbf66cf050fc50c6c56551a47e431a7d08669772cb14f11822a"
+        "file_sha256": "6fe9d7d9d52b888d2b16edb54a2d20ba02ad9c4f7c458a74c04f151cd46f3d08"
       },
       "transitions": [
         {
           "from_position": 0,
           "to_position": 1,
-          "premultiplied_rgb_mae": 4.639859,
-          "alpha_mae": 8.518677,
-          "changed_visible_pixels": 6277
+          "premultiplied_rgb_mae": 3.690667,
+          "alpha_mae": 6.523895,
+          "changed_visible_pixels": 5222
         },
         {
           "from_position": 1,
           "to_position": 2,
-          "premultiplied_rgb_mae": 5.618802,
-          "alpha_mae": 12.713165,
-          "changed_visible_pixels": 7295
+          "premultiplied_rgb_mae": 3.717529,
+          "alpha_mae": 7.366943,
+          "changed_visible_pixels": 4974
         },
         {
           "from_position": 2,
           "to_position": 3,
-          "premultiplied_rgb_mae": 4.848748,
-          "alpha_mae": 8.324127,
-          "changed_visible_pixels": 6503
+          "premultiplied_rgb_mae": 4.03283,
+          "alpha_mae": 7.219086,
+          "changed_visible_pixels": 5205
         }
       ],
       "last_to_first": {
         "applies_to_playback": false,
-        "premultiplied_rgb_mae": 6.58825,
-        "alpha_mae": 16.124268,
-        "changed_visible_pixels": 7798
+        "premultiplied_rgb_mae": 6.372362,
+        "alpha_mae": 15.688477,
+        "changed_visible_pixels": 7247
       }
     },
     "air_slash_a_fx": {
@@ -3160,15 +3160,15 @@
       "holds": [],
       "seam": {
         "frames": 12,
-        "seam": 1.097336,
-        "adjacent_median": 0.76766,
-        "adjacent_p95": 1.065147,
-        "adjacent_max": 1.071503,
-        "seam_over_median": 1.429456,
-        "seam_over_p95": 1.03022,
+        "seam": 1.047127,
+        "adjacent_median": 0.950816,
+        "adjacent_p95": 1.434994,
+        "adjacent_max": 1.449504,
+        "seam_over_median": 1.101293,
+        "seam_over_p95": 0.729708,
         "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
-        "adjacent_mean": 0.721641,
-        "wrap_ratio": 1.520612
+        "adjacent_mean": 0.893987,
+        "wrap_ratio": 1.1713
       },
       "preview": {
         "file": "clips/clip-08.webp",
@@ -3277,92 +3277,92 @@
         "alpha_and_visible_rgb_exact": true,
         "hidden_rgb_guaranteed": false,
         "lossless": true,
-        "file_sha256": "ab19ae7c7c3f0a3adf0e0be01fda55d4767b10f86dd5e9e80516d737a4ec8069"
+        "file_sha256": "a99c6cb30ebfcee17a2e5c2eebd3e46eae8dc4acaaadeddda7c91b06f4834305"
       },
       "transitions": [
         {
           "from_position": 0,
           "to_position": 1,
-          "premultiplied_rgb_mae": 1.098714,
-          "alpha_mae": 0.939026,
-          "changed_visible_pixels": 4441
+          "premultiplied_rgb_mae": 1.42706,
+          "alpha_mae": 1.400757,
+          "changed_visible_pixels": 4532
         },
         {
           "from_position": 1,
           "to_position": 2,
-          "premultiplied_rgb_mae": 0.477173,
-          "alpha_mae": 0.490265,
-          "changed_visible_pixels": 4412
+          "premultiplied_rgb_mae": 1.402632,
+          "alpha_mae": 1.590118,
+          "changed_visible_pixels": 4628
         },
         {
           "from_position": 2,
           "to_position": 3,
-          "premultiplied_rgb_mae": 0.413323,
+          "premultiplied_rgb_mae": 0.410404,
           "alpha_mae": 0.355377,
           "changed_visible_pixels": 4392
         },
         {
           "from_position": 3,
           "to_position": 4,
-          "premultiplied_rgb_mae": 1.080838,
+          "premultiplied_rgb_mae": 1.071059,
           "alpha_mae": 0.827484,
-          "changed_visible_pixels": 4497
+          "changed_visible_pixels": 4498
         },
         {
           "from_position": 4,
           "to_position": 5,
-          "premultiplied_rgb_mae": 0.521779,
+          "premultiplied_rgb_mae": 0.512038,
           "alpha_mae": 0.536957,
-          "changed_visible_pixels": 4433
+          "changed_visible_pixels": 4428
         },
         {
           "from_position": 5,
           "to_position": 6,
-          "premultiplied_rgb_mae": 0.53382,
+          "premultiplied_rgb_mae": 0.52397,
           "alpha_mae": 0.552521,
           "changed_visible_pixels": 4428
         },
         {
           "from_position": 6,
           "to_position": 7,
-          "premultiplied_rgb_mae": 0.975281,
+          "premultiplied_rgb_mae": 0.95734,
           "alpha_mae": 0.931244,
-          "changed_visible_pixels": 4494
+          "changed_visible_pixels": 4492
         },
         {
           "from_position": 7,
           "to_position": 8,
-          "premultiplied_rgb_mae": 1.128632,
-          "alpha_mae": 0.900116,
-          "changed_visible_pixels": 4496
+          "premultiplied_rgb_mae": 1.101325,
+          "alpha_mae": 1.081696,
+          "changed_visible_pixels": 4527
         },
         {
           "from_position": 8,
           "to_position": 9,
-          "premultiplied_rgb_mae": 0.812568,
-          "alpha_mae": 0.632935,
-          "changed_visible_pixels": 4439
+          "premultiplied_rgb_mae": 1.354909,
+          "alpha_mae": 1.348877,
+          "changed_visible_pixels": 4578
         },
         {
           "from_position": 9,
           "to_position": 10,
-          "premultiplied_rgb_mae": 0.860487,
+          "premultiplied_rgb_mae": 0.853271,
           "alpha_mae": 0.635529,
-          "changed_visible_pixels": 4444
+          "changed_visible_pixels": 4445
         },
         {
           "from_position": 10,
           "to_position": 11,
-          "premultiplied_rgb_mae": 0.359826,
+          "premultiplied_rgb_mae": 0.356472,
           "alpha_mae": 0.163422,
-          "changed_visible_pixels": 4355
+          "changed_visible_pixels": 4357
         }
       ],
       "last_to_first": {
         "applies_to_playback": true,
-        "premultiplied_rgb_mae": 1.131948,
+        "premultiplied_rgb_mae": 1.065002,
         "alpha_mae": 0.9935,
-        "changed_visible_pixels": 4461
+        "changed_visible_pixels": 4457
       }
     },
     "power_up": {
@@ -4246,7 +4246,7 @@
     "requested_scale": 1,
     "annotated_with_shared_root": true,
     "not_a_runtime_atlas": true,
-    "file_sha256": "cc74750917ef6447c89ce6d9845d130c60ffa1acb5eea96ccd6f24f4b80017e6"
+    "file_sha256": "b22c38ead981967893764f9814f62cd2b19b701686e91cb438e3307066775170"
   },
   "review": {
     "scale": 1,
@@ -4656,7 +4656,7 @@
       {
         "id": "loop_seam",
         "status": "needs-visual-review",
-        "value": 1.520612,
+        "value": 1.1713,
         "threshold": null
       },
       {
@@ -4668,407 +4668,407 @@
     ],
     "inputs": [
       {
-        "path": "../clips_manifest.json",
-        "sha256": "9da3f11a9a50f892601bd27b5aa712aeee2ded82e9ab964c770399df62132605",
+        "path": "../dilophosaurus_in2/manifest.json",
+        "sha256": "7e74004436424462c19a94303465194636d7fa397fdf9a3c8d5978024afa855e",
         "bytes": 12184
       },
       {
-        "path": "../raw_frames/walk_00.png",
-        "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f",
-        "bytes": 17123
+        "path": "../dilophosaurus_in2/raw_frames/walk_00.png",
+        "sha256": "bed1c2c480025b001673dfe84bd6ef67ca25502c8e21a941276570069901b361",
+        "bytes": 14770
       },
       {
-        "path": "../raw_frames/walk_01.png",
-        "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd",
-        "bytes": 16553
+        "path": "../dilophosaurus_in2/raw_frames/walk_01.png",
+        "sha256": "7c09eafaa912998dba74cf86d08b6825308da7eefc6f499ddf6a4c1956b75c05",
+        "bytes": 14300
       },
       {
-        "path": "../raw_frames/walk_02.png",
-        "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21",
-        "bytes": 16046
+        "path": "../dilophosaurus_in2/raw_frames/walk_02.png",
+        "sha256": "2b5a8fd2e15584647f706321f9511e7f44da7b0b17d7321971214fb2b5e1fb2b",
+        "bytes": 13792
       },
       {
-        "path": "../raw_frames/walk_03.png",
-        "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373",
-        "bytes": 16340
+        "path": "../dilophosaurus_in2/raw_frames/walk_03.png",
+        "sha256": "eb5f940b514a3b8aafc9b20c2a4ad7164f1cf3ac1d7cbd2724a641e31973d0d8",
+        "bytes": 14158
       },
       {
-        "path": "../raw_frames/walk_04.png",
-        "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4",
-        "bytes": 16710
+        "path": "../dilophosaurus_in2/raw_frames/walk_04.png",
+        "sha256": "c658714da78f2e050f3c7efe955636fec8a8da5271a7327f8c30230492174f8c",
+        "bytes": 14458
       },
       {
-        "path": "../raw_frames/walk_05.png",
-        "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42",
-        "bytes": 16142
+        "path": "../dilophosaurus_in2/raw_frames/walk_05.png",
+        "sha256": "221a4a24d2af5a5a6b84a844043e1d17f45d0588452bff427b7919a5e3429694",
+        "bytes": 13991
       },
       {
-        "path": "../raw_frames/walk_06.png",
-        "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af",
-        "bytes": 15792
+        "path": "../dilophosaurus_in2/raw_frames/walk_06.png",
+        "sha256": "898ecb104c2f42b424a5a885c3af6d5097d483d1ea8685e814c5aef6252f489b",
+        "bytes": 13741
       },
       {
-        "path": "../raw_frames/walk_07.png",
-        "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83",
-        "bytes": 16834
+        "path": "../dilophosaurus_in2/raw_frames/walk_07.png",
+        "sha256": "23709f2560da247d423a84b9035759ca0c8aabc4fbc331af2a98c3747d3b29db",
+        "bytes": 14555
       },
       {
-        "path": "../raw_frames/attack_light_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_00.png",
         "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911
       },
       {
-        "path": "../raw_frames/attack_light_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_01.png",
         "sha256": "df60244feb5a83fea69e82926d5a13fec807d457e6c59de481ab907260aeb8eb",
         "bytes": 16629
       },
       {
-        "path": "../raw_frames/attack_light_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_02.png",
         "sha256": "d5b472cc10a37b0e6307e75b3cb243c5558c248767b8cb80e353231b674b5e49",
         "bytes": 16468
       },
       {
-        "path": "../raw_frames/attack_light_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_03.png",
         "sha256": "f2989425fe38ea9200d23450590eec814ea04ced98e30e813915eafb15d367ac",
         "bytes": 17444
       },
       {
-        "path": "../raw_frames/attack_light_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_04.png",
         "sha256": "50c200a1b04471ffca57b32f44dab9fdfbf78df76bcf5d3418b01c3cd609798e",
         "bytes": 16604
       },
       {
-        "path": "../raw_frames/attack_light_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_05.png",
         "sha256": "e54088bad7d5305cf54621e6947ffcd786de96be3f616aebbacd56143750b408",
         "bytes": 16830
       },
       {
-        "path": "../raw_frames/attack_light_06.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_06.png",
         "sha256": "4c282283650f82837913b94decb11b081f4171963cbce1a07944855958a467c6",
         "bytes": 16473
       },
       {
-        "path": "../raw_frames/attack_light_07.png",
+        "path": "../dilophosaurus_in2/raw_frames/attack_light_07.png",
         "sha256": "cf4fc9afdaa94f649c947a86b31d106cf33b2631d738a58bbc04e537bd23a9c9",
         "bytes": 16454
       },
       {
-        "path": "../raw_frames/hit_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_00.png",
         "sha256": "02a2944f060d7beea7012a10c01606fe2faf82b6361e1895e94ddd22176ba701",
         "bytes": 16448
       },
       {
-        "path": "../raw_frames/hit_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_01.png",
         "sha256": "82a64a3c6cd3004602007657e3a36edd8c08dd9b2517cbaa91d3d59260deba9f",
         "bytes": 16033
       },
       {
-        "path": "../raw_frames/hit_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_02.png",
         "sha256": "4d616d3ae9b84a35a47943cca85f103cdcea02be6180c6a29a26e4cf996afb69",
         "bytes": 15963
       },
       {
-        "path": "../raw_frames/hit_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_03.png",
         "sha256": "549ba267e350e452a2db5ad1d60022f56ddf3be87a4446721ad0fbc561e4c2e5",
         "bytes": 15885
       },
       {
-        "path": "../raw_frames/hit_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_04.png",
         "sha256": "adf5431d1b088799b9c0b114eaeae16ce3cce84cc1c05cca7f134f7563a6def3",
         "bytes": 16046
       },
       {
-        "path": "../raw_frames/hit_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/hit_05.png",
         "sha256": "3560ca1ffb1642f52251e2e37292e1780604b2afef1a43ba0ed3e29e10e88a08",
         "bytes": 16150
       },
       {
-        "path": "../raw_frames/ko_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_00.png",
         "sha256": "a1c027555c339fa5dfb10869a902850067151fc79912fc06fc448ae3e7dde491",
         "bytes": 17167
       },
       {
-        "path": "../raw_frames/ko_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_01.png",
         "sha256": "7029f6e1254b0a2bd5b5b5acb33ed26625a7fcf3f6dc4e4deae910f0d4ae1299",
         "bytes": 16483
       },
       {
-        "path": "../raw_frames/ko_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_02.png",
         "sha256": "76967a9dd60eeb8482250ffe3c845bf8e072eb685b92b49f56434d6474fe4c07",
         "bytes": 16302
       },
       {
-        "path": "../raw_frames/ko_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_03.png",
         "sha256": "89b3ee202140eb8cdaf85ebe89e32062db18f36d10d1a7bd9dc5da1d7d6b3284",
         "bytes": 15735
       },
       {
-        "path": "../raw_frames/ko_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_04.png",
         "sha256": "ecce7fa4470dba4a6a2da86c938cd5eaa6572585da303acb373208cb84847ad4",
         "bytes": 15144
       },
       {
-        "path": "../raw_frames/ko_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_05.png",
         "sha256": "20e1f686231f5941b7ee4158d0ed03eac31313b96422093cff0b0287bfec4e6d",
         "bytes": 13949
       },
       {
-        "path": "../raw_frames/ko_06.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_06.png",
         "sha256": "6af5ce65863b8686bd268367e9260b6a176c4c6fae9fe7354971ff9205eaa145",
         "bytes": 12976
       },
       {
-        "path": "../raw_frames/ko_07.png",
+        "path": "../dilophosaurus_in2/raw_frames/ko_07.png",
         "sha256": "52aa12a5bf5c915585b0599a0994bd8bfb44553d62bb2c6f42156066b004f175",
         "bytes": 12104
       },
       {
-        "path": "../raw_frames/turn_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/turn_00.png",
         "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911
       },
       {
-        "path": "../raw_frames/turn_01.png",
-        "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8",
-        "bytes": 17995
+        "path": "../dilophosaurus_in2/raw_frames/turn_01.png",
+        "sha256": "25be55eda62fd95e9fa5c706b4ea8f39bc488cecffaa4bab2576913cd180ddc4",
+        "bytes": 13787
       },
       {
-        "path": "../raw_frames/turn_02.png",
-        "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c",
-        "bytes": 16749
+        "path": "../dilophosaurus_in2/raw_frames/turn_02.png",
+        "sha256": "98168813fa7624a04606b507b0cdaaac4dc8c7bdc4034a7ae067cb2061d34ceb",
+        "bytes": 12783
       },
       {
-        "path": "../raw_frames/turn_03.png",
-        "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3",
-        "bytes": 18042
+        "path": "../dilophosaurus_in2/raw_frames/turn_03.png",
+        "sha256": "4c39eefdf5f04cecd7440578faa214bd86e5dcc28558d22020680e271cde5add",
+        "bytes": 15166
       },
       {
-        "path": "../raw_frames/air_slash_a_fx_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_00.png",
         "sha256": "f7e1c171ba01e5788ae2a565dd4313bc8e79c9e62b6a3959d3a734658ee49f64",
         "bytes": 825
       },
       {
-        "path": "../raw_frames/air_slash_a_fx_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_01.png",
         "sha256": "294a7d0b2602b7683238a7cf8b73ce838a851889cfa48163bd25e546699956c5",
         "bytes": 1437
       },
       {
-        "path": "../raw_frames/air_slash_a_fx_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_02.png",
         "sha256": "3213055bc9402f3957ff42b734b15c24ef456e4db99fa5a2d8480b9fad83b686",
         "bytes": 2383
       },
       {
-        "path": "../raw_frames/air_slash_a_fx_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_03.png",
         "sha256": "38640b259429287747ad1b87246279724cb04ba5a07f417065f6ddcf1f9b4623",
         "bytes": 2057
       },
       {
-        "path": "../raw_frames/air_slash_a_fx_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_04.png",
         "sha256": "61666294a3c0128f466ed543f219e71b88d15897dfdda7be80eef8c05e6213ec",
         "bytes": 1470
       },
       {
-        "path": "../raw_frames/air_slash_a_fx_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_a_fx_05.png",
         "sha256": "2ff226056f36961639ad78fc63861223eba30bfbd7f35aa280f290717ae8596e",
         "bytes": 886
       },
       {
-        "path": "../raw_frames/air_slash_b_fx_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_00.png",
         "sha256": "1e9c4035c8b0e259609fa34a4c5c98c49d5dfe159651a6d044170e0fc64f2bcf",
         "bytes": 836
       },
       {
-        "path": "../raw_frames/air_slash_b_fx_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_01.png",
         "sha256": "a70d78988d1e97533d9c1e629a3f7232f3bfdfd17724c4a3860861ad3cee0fae",
         "bytes": 1438
       },
       {
-        "path": "../raw_frames/air_slash_b_fx_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_02.png",
         "sha256": "cbfdddadf59d640c6b4fb4605e473db93f0058aab3d225c4626dd707602cec8b",
         "bytes": 2343
       },
       {
-        "path": "../raw_frames/air_slash_b_fx_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_03.png",
         "sha256": "99464ba1b27c0b39fcbb18cf381f573d2e47701c9a0da95470e7b5e2c4336ded",
         "bytes": 1989
       },
       {
-        "path": "../raw_frames/air_slash_b_fx_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_04.png",
         "sha256": "a8f124b05eb26348a2ca96e54762f32e12b5c3f39647f38a7e19839ac2fe7178",
         "bytes": 1421
       },
       {
-        "path": "../raw_frames/air_slash_b_fx_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_b_fx_05.png",
         "sha256": "7d3d77ea709583a9435af111294353b7956142694e1a43886f355858c84d8aac",
         "bytes": 913
       },
       {
-        "path": "../raw_frames/air_slash_c_fx_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_00.png",
         "sha256": "9ed90ef38e300c845c0903c8795fa47d8c32ec6874afac690cf801d8497e4073",
         "bytes": 719
       },
       {
-        "path": "../raw_frames/air_slash_c_fx_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_01.png",
         "sha256": "fc1a0f02b6900b9c90bbdca8b858aa6544891be525bb4d7eb20aff8b7a7011bc",
         "bytes": 1243
       },
       {
-        "path": "../raw_frames/air_slash_c_fx_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_02.png",
         "sha256": "23a4c74cdf8371c664ee64b2488eb4c979b2c4ea999e1462b62982c8e02d5f15",
         "bytes": 2389
       },
       {
-        "path": "../raw_frames/air_slash_c_fx_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_03.png",
         "sha256": "0d9a9f3b30dff93ee8de6d941b20c21a0f655cbec90f943d13c3b862cc35d0c4",
         "bytes": 2173
       },
       {
-        "path": "../raw_frames/air_slash_c_fx_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_04.png",
         "sha256": "2d3f53b1d3eeb23cd5de1aed6542e10f1f3d5645d282d46f5e01f2d1431a89a1",
         "bytes": 1655
       },
       {
-        "path": "../raw_frames/air_slash_c_fx_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/air_slash_c_fx_05.png",
         "sha256": "6c449d6221dffc0c6252216c4d4281cf14cafc7c8e19a0cb9d8108f48ff8fa4e",
         "bytes": 819
       },
       {
-        "path": "../raw_frames/idle_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/idle_00.png",
         "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911
       },
       {
-        "path": "../raw_frames/idle_01.png",
-        "sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374",
-        "bytes": 15117
+        "path": "../dilophosaurus_in2/raw_frames/idle_01.png",
+        "sha256": "8f401d11e258291569936a7f51c1f051155e57bcaa376813cf2bbad220fff078",
+        "bytes": 15082
       },
       {
-        "path": "../raw_frames/idle_02.png",
-        "sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e",
-        "bytes": 15205
+        "path": "../dilophosaurus_in2/raw_frames/idle_02.png",
+        "sha256": "cb27e1518261dcb42da2ceb983286e082fa0c0218a01afddd7fb6fd3715ae1e9",
+        "bytes": 15149
       },
       {
-        "path": "../raw_frames/idle_03.png",
-        "sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647",
-        "bytes": 15266
+        "path": "../dilophosaurus_in2/raw_frames/idle_03.png",
+        "sha256": "70e8b39fd98c6e5bf549324e62aa0366f63d2fa583f5afd46dbad7f8e06aec9b",
+        "bytes": 15238
       },
       {
-        "path": "../raw_frames/idle_04.png",
-        "sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05",
-        "bytes": 15282
+        "path": "../dilophosaurus_in2/raw_frames/idle_04.png",
+        "sha256": "60a44772dd044c71504e1ed7fd7e79c46363b841536d42d389427be741f4264f",
+        "bytes": 15237
       },
       {
-        "path": "../raw_frames/idle_05.png",
-        "sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf",
-        "bytes": 15216
+        "path": "../dilophosaurus_in2/raw_frames/idle_05.png",
+        "sha256": "b70642d85ff607909b404cdaaaf1739e2a90a7c345235511a13a78a3d47278e9",
+        "bytes": 15167
       },
       {
-        "path": "../raw_frames/idle_06.png",
-        "sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20",
-        "bytes": 15178
+        "path": "../dilophosaurus_in2/raw_frames/idle_06.png",
+        "sha256": "fd4a224c1eed2e9103e60d05e820b574a7964280af0030efb57e7f4d4a3b7368",
+        "bytes": 15104
       },
       {
-        "path": "../raw_frames/idle_07.png",
-        "sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c",
-        "bytes": 15085
+        "path": "../dilophosaurus_in2/raw_frames/idle_07.png",
+        "sha256": "f2db29c207498986bb42f236c817c6c5b1c0058be9129abf9fe6096f200e733b",
+        "bytes": 15053
       },
       {
-        "path": "../raw_frames/idle_08.png",
-        "sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238",
-        "bytes": 15113
+        "path": "../dilophosaurus_in2/raw_frames/idle_08.png",
+        "sha256": "3bc5dc107e4c6692b147bdf84d111692f8c5cc6625d598bce254fabc3d014383",
+        "bytes": 15067
       },
       {
-        "path": "../raw_frames/idle_09.png",
-        "sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3",
-        "bytes": 15070
+        "path": "../dilophosaurus_in2/raw_frames/idle_09.png",
+        "sha256": "18dcc2397ad79c31c276d3723f75e053a5e055a6a0bf5fb7e4e47c5b529ba64a",
+        "bytes": 15065
       },
       {
-        "path": "../raw_frames/idle_10.png",
-        "sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1",
-        "bytes": 15234
+        "path": "../dilophosaurus_in2/raw_frames/idle_10.png",
+        "sha256": "a3f6502e0e39eb90ee33e443bb1d7a3bbbb1463e92704b4d26cac95f74bd33cb",
+        "bytes": 15194
       },
       {
-        "path": "../raw_frames/idle_11.png",
-        "sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b",
-        "bytes": 15265
+        "path": "../dilophosaurus_in2/raw_frames/idle_11.png",
+        "sha256": "38b6a220cbfd8f930c16a8e19aa02e8f81e383ac57394de522f9180062cdfc2b",
+        "bytes": 15242
       },
       {
-        "path": "../raw_frames/power_wave_00.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_00.png",
         "sha256": "76c79bd2d7478c511c5aadcffeea6cbbebcd523cd4aaed1562d6ca99484293e6",
         "bytes": 18615
       },
       {
-        "path": "../raw_frames/power_wave_01.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_01.png",
         "sha256": "ba0a38f4eeff66a7a824752366a97110f05d0193bff4b21dff5be6617baa4917",
         "bytes": 18574
       },
       {
-        "path": "../raw_frames/power_wave_02.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_02.png",
         "sha256": "8ea8af5eb9e062e20b3d4c35e7276caa8d8f6412db6b81c0567773d7b4bf1188",
         "bytes": 18477
       },
       {
-        "path": "../raw_frames/power_wave_03.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_03.png",
         "sha256": "e805d5e52f2180c2f26572c7048321e5c2919a8cbac5ce70470c54c32900b4e1",
         "bytes": 18582
       },
       {
-        "path": "../raw_frames/power_wave_04.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_04.png",
         "sha256": "6712eab0c676c6ceb73b2bb1e4b491fb4386c1c6afd56395a2ab5ea31c2c4197",
         "bytes": 18498
       },
       {
-        "path": "../raw_frames/power_wave_05.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_05.png",
         "sha256": "5353dc718c611ae4f3b481ac750d0c68b64792a53e2134187fe0a02dc6b2065d",
         "bytes": 18545
       },
       {
-        "path": "../raw_frames/power_wave_06.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_06.png",
         "sha256": "0f3bf439e1c966fb477fc916f9cd483932b4dac2c84bd31954f6b492e9ab2dea",
         "bytes": 18560
       },
       {
-        "path": "../raw_frames/power_wave_07.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_wave_07.png",
         "sha256": "5dfa2fd30e86bf8b85a85386666018ffff310b46b14470140bfb1fffee6e6548",
         "bytes": 18558
       },
       {
-        "path": "../raw_frames/power_prepare_0.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_prepare_0.png",
         "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911
       },
       {
-        "path": "../raw_frames/power_prepare_1.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_prepare_1.png",
         "sha256": "1842d98c57f383f18d56ac2375daf05d563e479df80b4d0fc398da758bc1a35e",
         "bytes": 15993
       },
       {
-        "path": "../raw_frames/power_recover_18.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_18.png",
         "sha256": "964fde0b3131e81d51670ff6e83f31d7357499cbc9245bf2f0255567d87fd57b",
         "bytes": 17094
       },
       {
-        "path": "../raw_frames/power_recover_19.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_19.png",
         "sha256": "e036c258e38400148009d3c82c683b46beca158df986cdd7422a2a63c1552d49",
         "bytes": 16376
       },
       {
-        "path": "../raw_frames/power_recover_20.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_20.png",
         "sha256": "a4c949756f869f1ee97113b66c166f3d91a9348725a852d90f65a69eb1671595",
         "bytes": 16536
       },
       {
-        "path": "../raw_frames/power_recover_21.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_21.png",
         "sha256": "64d58aa53e2dfe762aeca721d0bc19a49670de36deef0a805aa2a5ce9e42fd5d",
         "bytes": 16210
       },
       {
-        "path": "../raw_frames/power_recover_22.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_22.png",
         "sha256": "64b96da1caff194af780c23a786a20b0ae416c4279720e8e63a6494ab030a736",
         "bytes": 16273
       },
       {
-        "path": "../raw_frames/power_recover_23.png",
+        "path": "../dilophosaurus_in2/raw_frames/power_recover_23.png",
         "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8",
         "bytes": 14911
       }
@@ -5076,43 +5076,43 @@
     "outputs": [
       {
         "path": "frames/frame-00.png",
-        "sha256": "c4f7f60755b20bac3cd017208f5ecad09546f50d74304756a7d6e6c1774f932f",
-        "bytes": 17123
+        "sha256": "bed1c2c480025b001673dfe84bd6ef67ca25502c8e21a941276570069901b361",
+        "bytes": 14770
       },
       {
         "path": "frames/frame-01.png",
-        "sha256": "e706c968ca2495eb3f54515de0a0c1d7441ac0e289c548f97314d8b998b218dd",
-        "bytes": 16553
+        "sha256": "7c09eafaa912998dba74cf86d08b6825308da7eefc6f499ddf6a4c1956b75c05",
+        "bytes": 14300
       },
       {
         "path": "frames/frame-02.png",
-        "sha256": "6343f21814decd22cd937da6d2c946789e3c0d13e68df1108c4ac601c0c02b21",
-        "bytes": 16046
+        "sha256": "2b5a8fd2e15584647f706321f9511e7f44da7b0b17d7321971214fb2b5e1fb2b",
+        "bytes": 13792
       },
       {
         "path": "frames/frame-03.png",
-        "sha256": "9d41f7f753afd869b5aa40f53b8fbfcac12fc517adad50f1491ab062a5953373",
-        "bytes": 16340
+        "sha256": "eb5f940b514a3b8aafc9b20c2a4ad7164f1cf3ac1d7cbd2724a641e31973d0d8",
+        "bytes": 14158
       },
       {
         "path": "frames/frame-04.png",
-        "sha256": "e99c6c5b57d2803f6ea777be8ed75eff8fc7f9c55e5a2ff9437e9a470b2b57b4",
-        "bytes": 16710
+        "sha256": "c658714da78f2e050f3c7efe955636fec8a8da5271a7327f8c30230492174f8c",
+        "bytes": 14458
       },
       {
         "path": "frames/frame-05.png",
-        "sha256": "38f0fbd8eeeb462fc24aeddabcc7586949b111cc0f92029073b18ab629198a42",
-        "bytes": 16142
+        "sha256": "221a4a24d2af5a5a6b84a844043e1d17f45d0588452bff427b7919a5e3429694",
+        "bytes": 13991
       },
       {
         "path": "frames/frame-06.png",
-        "sha256": "14cb515b617657bb15e00afa2e095477f7b409b48211d4d9c2ca9aa8d1ab60af",
-        "bytes": 15792
+        "sha256": "898ecb104c2f42b424a5a885c3af6d5097d483d1ea8685e814c5aef6252f489b",
+        "bytes": 13741
       },
       {
         "path": "frames/frame-07.png",
-        "sha256": "d8baa4dc9475d4c8d33dbae8442aeed969d08c11a7b806176a4b4256942eed83",
-        "bytes": 16834
+        "sha256": "23709f2560da247d423a84b9035759ca0c8aabc4fbc331af2a98c3747d3b29db",
+        "bytes": 14555
       },
       {
         "path": "frames/frame-08.png",
@@ -5231,18 +5231,18 @@
       },
       {
         "path": "frames/frame-31.png",
-        "sha256": "de22caea3226a36e472f811a0f4866f3a6b1dd759aa62e78a98f89599e379ad8",
-        "bytes": 17995
+        "sha256": "25be55eda62fd95e9fa5c706b4ea8f39bc488cecffaa4bab2576913cd180ddc4",
+        "bytes": 13787
       },
       {
         "path": "frames/frame-32.png",
-        "sha256": "2ade0f7df7a668644684559192a0e72dcdfaefee0fcdcfaac38994d9a23d888c",
-        "bytes": 16749
+        "sha256": "98168813fa7624a04606b507b0cdaaac4dc8c7bdc4034a7ae067cb2061d34ceb",
+        "bytes": 12783
       },
       {
         "path": "frames/frame-33.png",
-        "sha256": "48b9670d723e1016ea1d6fdf0673bf00cd1591775ab35175848c68c31e0bd1c3",
-        "bytes": 18042
+        "sha256": "4c39eefdf5f04cecd7440578faa214bd86e5dcc28558d22020680e271cde5add",
+        "bytes": 15166
       },
       {
         "path": "frames/frame-34.png",
@@ -5341,58 +5341,58 @@
       },
       {
         "path": "frames/frame-53.png",
-        "sha256": "9bb7320c26c60799e61d459be55cd7076b6a50f00afdd8b3a5683b21a4a91374",
-        "bytes": 15117
+        "sha256": "8f401d11e258291569936a7f51c1f051155e57bcaa376813cf2bbad220fff078",
+        "bytes": 15082
       },
       {
         "path": "frames/frame-54.png",
-        "sha256": "c4c48884ca0ddb75b7fef34e1f311fddb422edd4c04aea6e2772aa7e0cf8511e",
-        "bytes": 15205
+        "sha256": "cb27e1518261dcb42da2ceb983286e082fa0c0218a01afddd7fb6fd3715ae1e9",
+        "bytes": 15149
       },
       {
         "path": "frames/frame-55.png",
-        "sha256": "e6e519b457709b50dc50fbb6ed40ad1130b4c9115ee4074ff4f762aab560b647",
-        "bytes": 15266
+        "sha256": "70e8b39fd98c6e5bf549324e62aa0366f63d2fa583f5afd46dbad7f8e06aec9b",
+        "bytes": 15238
       },
       {
         "path": "frames/frame-56.png",
-        "sha256": "8f3447c4d267482b243f9fef9ae4e005979b2d60077ca0ec7924a17f45828e05",
-        "bytes": 15282
+        "sha256": "60a44772dd044c71504e1ed7fd7e79c46363b841536d42d389427be741f4264f",
+        "bytes": 15237
       },
       {
         "path": "frames/frame-57.png",
-        "sha256": "b26eaaf192b815dfd6f9ebc19e3fb43995b741d2a54d11f6b9ec7d08519005cf",
-        "bytes": 15216
+        "sha256": "b70642d85ff607909b404cdaaaf1739e2a90a7c345235511a13a78a3d47278e9",
+        "bytes": 15167
       },
       {
         "path": "frames/frame-58.png",
-        "sha256": "2f8a34518b649aca2360f55a79faff4e87198009c81b7599b7c49e43243b8b20",
-        "bytes": 15178
+        "sha256": "fd4a224c1eed2e9103e60d05e820b574a7964280af0030efb57e7f4d4a3b7368",
+        "bytes": 15104
       },
       {
         "path": "frames/frame-59.png",
-        "sha256": "3113540ee0bc53e82549759b158091692a924d2f9a94338c59beea6cc141fd9c",
-        "bytes": 15085
+        "sha256": "f2db29c207498986bb42f236c817c6c5b1c0058be9129abf9fe6096f200e733b",
+        "bytes": 15053
       },
       {
         "path": "frames/frame-60.png",
-        "sha256": "c0c9c612cd2d1dde3041dcf7eaed0b8d8226bd5db8bf178e1902dd6ecbedb238",
-        "bytes": 15113
+        "sha256": "3bc5dc107e4c6692b147bdf84d111692f8c5cc6625d598bce254fabc3d014383",
+        "bytes": 15067
       },
       {
         "path": "frames/frame-61.png",
-        "sha256": "c3d904f64cfa3af237c5648fd31d7f20e24cefa8f49acad8c488ed639cdcaff3",
-        "bytes": 15070
+        "sha256": "18dcc2397ad79c31c276d3723f75e053a5e055a6a0bf5fb7e4e47c5b529ba64a",
+        "bytes": 15065
       },
       {
         "path": "frames/frame-62.png",
-        "sha256": "75d3319465b4228636366d15b2dd9521fc4cb57b0a13195b09e37c84325d8ae1",
-        "bytes": 15234
+        "sha256": "a3f6502e0e39eb90ee33e443bb1d7a3bbbb1463e92704b4d26cac95f74bd33cb",
+        "bytes": 15194
       },
       {
         "path": "frames/frame-63.png",
-        "sha256": "562f9f56052fc8b3521d6449fe5bd143364ced6db8fdb16acdec92c5ff158f2b",
-        "bytes": 15265
+        "sha256": "38b6a220cbfd8f930c16a8e19aa02e8f81e383ac57394de522f9180062cdfc2b",
+        "bytes": 15242
       },
       {
         "path": "frames/frame-64.png",
@@ -5476,8 +5476,8 @@
       },
       {
         "path": "clips/clip-00.webp",
-        "sha256": "4a95692c7da9e2edb52203e85dd39dda535650d90635e13cf6c1bbe453f45bf4",
-        "bytes": 88112
+        "sha256": "1a31bbda657117ed650aadb50edc11889de94db63a161b878300538e2afcfd53",
+        "bytes": 76086
       },
       {
         "path": "clips/clip-01.webp",
@@ -5496,8 +5496,8 @@
       },
       {
         "path": "clips/clip-04.webp",
-        "sha256": "af5b675c7ed52cbf66cf050fc50c6c56551a47e431a7d08669772cb14f11822a",
-        "bytes": 47382
+        "sha256": "6fe9d7d9d52b888d2b16edb54a2d20ba02ad9c4f7c458a74c04f151cd46f3d08",
+        "bytes": 39284
       },
       {
         "path": "clips/clip-05.webp",
@@ -5516,8 +5516,8 @@
       },
       {
         "path": "clips/clip-08.webp",
-        "sha256": "ab19ae7c7c3f0a3adf0e0be01fda55d4767b10f86dd5e9e80516d737a4ec8069",
-        "bytes": 120622
+        "sha256": "a99c6cb30ebfcee17a2e5c2eebd3e46eae8dc4acaaadeddda7c91b06f4834305",
+        "bytes": 121968
       },
       {
         "path": "clips/clip-09.webp",
@@ -5526,18 +5526,18 @@
       },
       {
         "path": "contact-sheet.png",
-        "sha256": "cc74750917ef6447c89ce6d9845d130c60ffa1acb5eea96ccd6f24f4b80017e6",
-        "bytes": 956100
+        "sha256": "b22c38ead981967893764f9814f62cd2b19b701686e91cb438e3307066775170",
+        "bytes": 931393
       },
       {
         "path": "review/filmstrip-00.png",
-        "sha256": "2d3bbf2754ab04732095ba1bbbf613d8e4c37fb664e422c3c7f2cd2714bd8f81",
-        "bytes": 366704
+        "sha256": "9a4f9598de0e8ca67386a32c263730a152c8028e602da19ef6880ad70202480f",
+        "bytes": 320106
       },
       {
         "path": "review/onion-00.png",
-        "sha256": "5082cf80c0883049ab99d881428cb0899ef9c8b6a7c874b771fc111195a159f0",
-        "bytes": 134604
+        "sha256": "03a4719c6a7728c4eb8fbc2ab890545c600050a000225a6f921185c6a57ec5ca",
+        "bytes": 118083
       },
       {
         "path": "review/filmstrip-01.png",
@@ -5571,13 +5571,13 @@
       },
       {
         "path": "review/filmstrip-04.png",
-        "sha256": "bc9a6505a698ca9cf09661b668669c3101e6f2a585d03c6ecc8df2ad3dac822c",
-        "bytes": 200302
+        "sha256": "e486e0c6f48044479bd8a5e3629df70b8fd2681fd0688162e4b249e4a2875bab",
+        "bytes": 171393
       },
       {
         "path": "review/onion-04.png",
-        "sha256": "db36db833189d9b832c088e7cf1f27bc81c7f6db69f6bbd465e95115d82bbb3f",
-        "bytes": 72785
+        "sha256": "c3e1fcd1cd4c99323761140cf6bfd41c3f51cd0c44ad3743cdfdaf51be3b4ec0",
+        "bytes": 62392
       },
       {
         "path": "review/filmstrip-05.png",
@@ -5611,13 +5611,13 @@
       },
       {
         "path": "review/filmstrip-08.png",
-        "sha256": "ea9200303144db6592c164ae486deee0dd0b159d236a44965ff0fc82fc4420ff",
-        "bytes": 518593
+        "sha256": "e25007899e2cc269be574ae4c61e2de3a316cce02819b3316b5fd28ae86931f1",
+        "bytes": 518380
       },
       {
         "path": "review/onion-08.png",
-        "sha256": "b5a3b19d7b36d925fed70bb2c451c73d3c9af474413bd00aa7a019d950bf9bea",
-        "bytes": 184068
+        "sha256": "2b45c937f3c7fe19025592afb3d194b0398d5b760ca7e69158aab8c5dc6cafc1",
+        "bytes": 185062
       },
       {
         "path": "review/filmstrip-09.png",
@@ -5631,8 +5631,8 @@
       },
       {
         "path": "review/turn-test.png",
-        "sha256": "7e9c84a6b77ccc20147a658d51e89eff8f3602a63b9acf0d9fcee046e427321d",
-        "bytes": 179985
+        "sha256": "4629f9002492ffae5c95370bbd3dc5c9aff38222cab4bf8d55b7b8267e7f65a5",
+        "bytes": 175700
       }
     ],
     "tool": {

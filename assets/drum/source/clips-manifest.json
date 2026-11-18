@@ -1,0 +1,512 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "art_source": "host_image",
+  "pixel_art": true,
+  "sampling": "nearest",
+  "body_height_px": 50,
+  "anchor_px": [
+    56,
+    84
+  ],
+  "shadow": {
+    "rx": 24,
+    "ry": 3,
+    "opacity": 0.32
+  },
+  "frames": [
+    {
+      "name": "idle_00",
+      "file": "raw_frames/idle_00.png"
+    },
+    {
+      "name": "idle_01",
+      "file": "raw_frames/idle_01.png"
+    },
+    {
+      "name": "idle_02",
+      "file": "raw_frames/idle_02.png"
+    },
+    {
+      "name": "idle_03",
+      "file": "raw_frames/idle_03.png"
+    },
+    {
+      "name": "jump_00",
+      "file": "raw_frames/jump_00.png"
+    },
+    {
+      "name": "jump_01",
+      "file": "raw_frames/jump_01.png"
+    },
+    {
+      "name": "teleport_00",
+      "file": "raw_frames/teleport_00.png"
+    },
+    {
+      "name": "teleport_01",
+      "file": "raw_frames/teleport_01.png"
+    },
+    {
+      "name": "teleport_02",
+      "file": "raw_frames/teleport_02.png"
+    },
+    {
+      "name": "teleport_03",
+      "file": "raw_frames/teleport_03.png"
+    },
+    {
+      "name": "attack_light_00",
+      "file": "raw_frames/attack_light_00.png"
+    },
+    {
+      "name": "attack_light_01",
+      "file": "raw_frames/attack_light_01.png"
+    },
+    {
+      "name": "attack_light_02",
+      "file": "raw_frames/attack_light_02.png"
+    },
+    {
+      "name": "attack_light_03",
+      "file": "raw_frames/attack_light_03.png"
+    },
+    {
+      "name": "attack_light_04",
+      "file": "raw_frames/attack_light_04.png"
+    },
+    {
+      "name": "attack_light_05",
+      "file": "raw_frames/attack_light_05.png"
+    },
+    {
+      "name": "power_up_00",
+      "file": "raw_frames/power_up_00.png"
+    },
+    {
+      "name": "power_up_01",
+      "file": "raw_frames/power_up_01.png"
+    },
+    {
+      "name": "power_up_02",
+      "file": "raw_frames/power_up_02.png"
+    },
+    {
+      "name": "power_up_03",
+      "file": "raw_frames/power_up_03.png"
+    },
+    {
+      "name": "power_up_04",
+      "file": "raw_frames/power_up_04.png"
+    },
+    {
+      "name": "power_up_05",
+      "file": "raw_frames/power_up_05.png"
+    },
+    {
+      "name": "power_up_06",
+      "file": "raw_frames/power_up_06.png"
+    },
+    {
+      "name": "power_up_07",
+      "file": "raw_frames/power_up_07.png"
+    },
+    {
+      "name": "power_up_08",
+      "file": "raw_frames/power_up_08.png"
+    },
+    {
+      "name": "power_up_09",
+      "file": "raw_frames/power_up_09.png"
+    },
+    {
+      "name": "power_up_10",
+      "file": "raw_frames/power_up_10.png"
+    },
+    {
+      "name": "hit_00",
+      "file": "raw_frames/hit_00.png"
+    },
+    {
+      "name": "hit_01",
+      "file": "raw_frames/hit_01.png"
+    },
+    {
+      "name": "hit_02",
+      "file": "raw_frames/hit_02.png"
+    },
+    {
+      "name": "ko_00",
+      "file": "raw_frames/ko_00.png"
+    },
+    {
+      "name": "ko_01",
+      "file": "raw_frames/ko_01.png"
+    },
+    {
+      "name": "ko_02",
+      "file": "raw_frames/ko_02.png"
+    },
+    {
+      "name": "ko_03",
+      "file": "raw_frames/ko_03.png"
+    },
+    {
+      "name": "ko_04",
+      "file": "raw_frames/ko_04.png"
+    },
+    {
+      "name": "ko_05",
+      "file": "raw_frames/ko_05.png"
+    },
+    {
+      "name": "ko_06",
+      "file": "raw_frames/ko_06.png"
+    },
+    {
+      "name": "getup_00",
+      "file": "raw_frames/getup_00.png"
+    },
+    {
+      "name": "getup_01",
+      "file": "raw_frames/getup_01.png"
+    },
+    {
+      "name": "getup_02",
+      "file": "raw_frames/getup_02.png"
+    },
+    {
+      "name": "getup_03",
+      "file": "raw_frames/getup_03.png"
+    },
+    {
+      "name": "fx_orb_00",
+      "file": "raw_frames/fx_orb_00.png"
+    },
+    {
+      "name": "fx_orb_01",
+      "file": "raw_frames/fx_orb_01.png"
+    },
+    {
+      "name": "fx_ring_00",
+      "file": "raw_frames/fx_ring_00.png"
+    },
+    {
+      "name": "fx_ring_01",
+      "file": "raw_frames/fx_ring_01.png"
+    },
+    {
+      "name": "fx_spark_00",
+      "file": "raw_frames/fx_spark_00.png"
+    },
+    {
+      "name": "fx_spark_01",
+      "file": "raw_frames/fx_spark_01.png"
+    },
+    {
+      "name": "fx_spark_02",
+      "file": "raw_frames/fx_spark_02.png"
+    },
+    {
+      "name": "fx_spark_03",
+      "file": "raw_frames/fx_spark_03.png"
+    },
+    {
+      "name": "fx_spark_04",
+      "file": "raw_frames/fx_spark_04.png"
+    },
+    {
+      "name": "walk_00",
+      "file": "raw_frames/walk_00.png"
+    },
+    {
+      "name": "walk_01",
+      "file": "raw_frames/walk_01.png"
+    },
+    {
+      "name": "walk_02",
+      "file": "raw_frames/walk_02.png"
+    },
+    {
+      "name": "walk_03",
+      "file": "raw_frames/walk_03.png"
+    },
+    {
+      "name": "walk_04",
+      "file": "raw_frames/walk_04.png"
+    },
+    {
+      "name": "walk_05",
+      "file": "raw_frames/walk_05.png"
+    },
+    {
+      "name": "walk_06",
+      "file": "raw_frames/walk_06.png"
+    },
+    {
+      "name": "walk_07",
+      "file": "raw_frames/walk_07.png"
+    }
+  ],
+  "clips": {
+    "idle": {
+      "loop_policy": "cycle",
+      "role": "player",
+      "frames": [
+        "idle_00",
+        "idle_01",
+        "idle_02",
+        "idle_03"
+      ],
+      "ticks": [
+        10,
+        9,
+        10,
+        9
+      ]
+    },
+    "walk": {
+      "loop_policy": "cycle",
+      "role": "player",
+      "frames": [
+        "walk_00",
+        "walk_01",
+        "walk_02",
+        "walk_03",
+        "walk_04",
+        "walk_05",
+        "walk_06",
+        "walk_07"
+      ],
+      "ticks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    "jump": {
+      "loop_policy": "oneshot",
+      "role": "player",
+      "frames": [
+        "jump_00",
+        "jump_01"
+      ],
+      "ticks": [
+        8,
+        12
+      ]
+    },
+    "teleport": {
+      "loop_policy": "oneshot",
+      "role": "player",
+      "frames": [
+        "teleport_00",
+        "teleport_01",
+        "teleport_02",
+        "teleport_03"
+      ],
+      "ticks": [
+        4,
+        4,
+        4,
+        6
+      ],
+      "events": [
+        {
+          "at": 2,
+          "name": "custom:teleport_relocate"
+        },
+        {
+          "at": 3,
+          "name": "end"
+        }
+      ]
+    },
+    "attack_light": {
+      "loop_policy": "oneshot",
+      "role": "player",
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 1,
+        "strike": 3,
+        "recover": 5,
+        "end": 5
+      },
+      "hitstop_ticks": 0,
+      "frames": [
+        "attack_light_00",
+        "attack_light_01",
+        "attack_light_02",
+        "attack_light_03",
+        "attack_light_04",
+        "attack_light_05"
+      ],
+      "ticks": [
+        5,
+        4,
+        3,
+        3,
+        4,
+        5
+      ],
+      "events": [
+        {
+          "at": 0,
+          "name": "tell"
+        },
+        {
+          "at": 3,
+          "name": "hit"
+        },
+        {
+          "at": 5,
+          "name": "end"
+        }
+      ]
+    },
+    "power_up": {
+      "loop_policy": "oneshot",
+      "role": "player",
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 9,
+        "strike": 10,
+        "recover": 10,
+        "end": 10
+      },
+      "hitstop_ticks": 0,
+      "frames": [
+        "power_up_00",
+        "power_up_01",
+        "power_up_02",
+        "power_up_03",
+        "power_up_04",
+        "power_up_05",
+        "power_up_06",
+        "power_up_07",
+        "power_up_08",
+        "power_up_09",
+        "power_up_10"
+      ],
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        8
+      ],
+      "events": [
+        {
+          "at": 10,
+          "name": "custom:fireball_release"
+        },
+        {
+          "at": 10,
+          "name": "end"
+        }
+      ]
+    },
+    "hit": {
+      "loop_policy": "oneshot",
+      "role": "player",
+      "frames": [
+        "hit_00",
+        "hit_01",
+        "hit_02"
+      ],
+      "ticks": [
+        5,
+        5,
+        6
+      ]
+    },
+    "ko": {
+      "loop_policy": "oneshot",
+      "role": "player",
+      "frames": [
+        "ko_00",
+        "ko_01",
+        "ko_02",
+        "ko_03",
+        "ko_04",
+        "ko_05",
+        "ko_06"
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        10
+      ]
+    },
+    "getup": {
+      "loop_policy": "oneshot",
+      "role": "player",
+      "frames": [
+        "getup_00",
+        "getup_01",
+        "getup_02",
+        "getup_03"
+      ],
+      "ticks": [
+        5,
+        5,
+        5,
+        6
+      ]
+    },
+    "electric_orb_fx": {
+      "loop_policy": "cycle",
+      "role": "fx",
+      "frames": [
+        "fx_orb_00",
+        "fx_orb_01"
+      ],
+      "ticks": [
+        4,
+        4
+      ]
+    },
+    "electric_ring_fx": {
+      "loop_policy": "cycle",
+      "role": "fx",
+      "frames": [
+        "fx_ring_00",
+        "fx_ring_01",
+        "fx_spark_00",
+        "fx_spark_01",
+        "fx_spark_02",
+        "fx_spark_03",
+        "fx_spark_04"
+      ],
+      "ticks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  },
+  "states": {
+    "idle": "idle",
+    "walk": "walk",
+    "jump": "jump",
+    "attack": "attack_light"
+  }
+}

@@ -1,0 +1,166 @@
+[gd_resource type="SpriteFrames" load_steps=17 format=3]
+
+[ext_resource type="Texture2D" path="dragon_balls-atlas-00.png" id="1_atlas00"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ball_01"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(3, 3, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ball_02"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(39, 3, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ball_03"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(75, 3, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ball_04"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(111, 3, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ball_05"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(147, 3, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ball_06"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(183, 3, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ball_07"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(219, 3, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sparkle_00"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(255, 3, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sparkle_01"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(3, 39, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sparkle_02"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(39, 39, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sparkle_03"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(75, 39, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sparkle_04"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(111, 39, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sparkle_05"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(147, 39, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sparkle_06"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(183, 39, 32, 32)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sparkle_07"]
+atlas = ExtResource("1_atlas00")
+region = Rect2(219, 39, 32, 32)
+filter_clip = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_ball_01")
+}],
+"loop": false,
+"name": &"ball_01",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_ball_02")
+}],
+"loop": false,
+"name": &"ball_02",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_ball_03")
+}],
+"loop": false,
+"name": &"ball_03",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_ball_04")
+}],
+"loop": false,
+"name": &"ball_04",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_ball_05")
+}],
+"loop": false,
+"name": &"ball_05",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_ball_06")
+}],
+"loop": false,
+"name": &"ball_06",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": SubResource("AtlasTexture_ball_07")
+}],
+"loop": false,
+"name": &"ball_07",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_sparkle_00")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_sparkle_01")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_sparkle_02")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_sparkle_03")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_sparkle_04")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_sparkle_05")
+}, {
+"duration": 4.0,
+"texture": SubResource("AtlasTexture_sparkle_06")
+}, {
+"duration": 50.0,
+"texture": SubResource("AtlasTexture_sparkle_07")
+}],
+"loop": true,
+"name": &"sparkle_fx",
+"speed": 60.0
+}]

@@ -1,0 +1,254 @@
+{
+  "sources": [
+    {
+      "file": "image copy.png",
+      "sha256": "0368f9a6c20f634b391dc893d70cc70757e14204b4feade4817b6e861cfbe876",
+      "size": [
+        1152,
+        2048
+      ]
+    },
+    {
+      "file": "image copy 2.png",
+      "sha256": "4191a18babe3d2067f4527dedf4352247e4f94c71be1732e9095fd7bfa7226a9",
+      "size": [
+        1152,
+        2048
+      ]
+    }
+  ],
+  "items": {
+    "ball_2": {
+      "star_count": 2,
+      "star_component_areas": [
+        1079,
+        1113
+      ],
+      "source_box_xyxy": [
+        606,
+        495,
+        938,
+        830
+      ],
+      "source_center_px": [
+        772.0,
+        662.5
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-02.png",
+      "sha256": "87c95359a7c5e54dce6705b0781c439dd874addc5d27f983d8ff542ee33b89c2"
+    },
+    "ball_1": {
+      "star_count": 1,
+      "star_component_areas": [
+        1078
+      ],
+      "source_box_xyxy": [
+        215,
+        496,
+        547,
+        830
+      ],
+      "source_center_px": [
+        381.0,
+        663.0
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-01.png",
+      "sha256": "f1c157beed5f7d1863e467537ed1745b6f842c61aa14be12d635075df9768c91"
+    },
+    "ball_6": {
+      "star_count": 6,
+      "star_component_areas": [
+        1088,
+        1085,
+        1120,
+        1088,
+        1137,
+        1153
+      ],
+      "source_box_xyxy": [
+        16,
+        859,
+        348,
+        1192
+      ],
+      "source_center_px": [
+        182.0,
+        1025.5
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-06.png",
+      "sha256": "ecb0ca354cd1e47dc711472b5df6353057b3221544c19a8e24ee312e3f2eb188"
+    },
+    "ball_7": {
+      "star_count": 7,
+      "star_component_areas": [
+        1053,
+        1111,
+        1154,
+        1096,
+        1107,
+        1151,
+        1163
+      ],
+      "source_box_xyxy": [
+        410,
+        859,
+        744,
+        1192
+      ],
+      "source_center_px": [
+        577.0,
+        1025.5
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-07.png",
+      "sha256": "0d08d45076739d9916b3ebb7a0705aa36e8675056cca58eae2f349bd9297d93c"
+    },
+    "ball_3": {
+      "star_count": 3,
+      "star_component_areas": [
+        1085,
+        1072,
+        1133
+      ],
+      "source_box_xyxy": [
+        805,
+        859,
+        1136,
+        1192
+      ],
+      "source_center_px": [
+        970.5,
+        1025.5
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-03.png",
+      "sha256": "8b9f9a3caedbc819cf9bb4be18f860f5657950ff8ac095c4d6ed4932031832b1"
+    },
+    "ball_5": {
+      "star_count": 5,
+      "star_component_areas": [
+        892,
+        943,
+        901,
+        961,
+        949
+      ],
+      "source_box_xyxy": [
+        215,
+        1212,
+        547,
+        1547
+      ],
+      "source_center_px": [
+        381.0,
+        1379.5
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-05.png",
+      "sha256": "b6f0335445f81091c95050549e8570b659fbf2038a409818d6e2b56798d15b92"
+    },
+    "ball_4": {
+      "star_count": 4,
+      "star_component_areas": [
+        1099,
+        1098,
+        1146,
+        1105
+      ],
+      "source_box_xyxy": [
+        606,
+        1221,
+        939,
+        1555
+      ],
+      "source_center_px": [
+        772.5,
+        1388.0
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-04.png",
+      "sha256": "f019865fd04489a4e35ea8592000683d08af6917197053bce906536d9dfe2d10"
+    },
+    "ground": {
+      "source_box_xyxy": [
+        6,
+        481,
+        1143,
+        1555
+      ],
+      "file": "assets/rituals/shenron_summon/ground-cluster.png",
+      "sha256": "b083670c97ea0eff71d3b4588ef79283ad1428b0297d7f0713d3cdb2a258ff8d",
+      "source_size_px": [
+        1137,
+        1074
+      ],
+      "native_pixel_size_px": [
+        144,
+        136
+      ],
+      "finish": "single premultiplied BOX area reduction; alpha>=0.5 hard; native1px; Nearest; no redraw, sharpening, dithering or forced palette"
+    }
+  },
+  "layout_center_source_px": [
+    576.0,
+    1025.0
+  ],
+  "regions": {
+    "ball_1": [
+      2,
+      2,
+      332,
+      334
+    ],
+    "ball_2": [
+      338,
+      2,
+      332,
+      335
+    ],
+    "ball_3": [
+      674,
+      2,
+      331,
+      333
+    ],
+    "ball_4": [
+      1009,
+      2,
+      333,
+      334
+    ],
+    "ball_5": [
+      1346,
+      2,
+      332,
+      335
+    ],
+    "ball_6": [
+      1682,
+      2,
+      332,
+      333
+    ],
+    "ball_7": [
+      2,
+      341,
+      334,
+      333
+    ],
+    "ground": [
+      340,
+      341,
+      144,
+      136
+    ],
+    "glow": [
+      488,
+      341,
+      320,
+      306
+    ],
+    "core": [
+      812,
+      341,
+      320,
+      306
+    ]
+  }
+}

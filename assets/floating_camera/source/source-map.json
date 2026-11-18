@@ -1,0 +1,571 @@
+{
+  "source": "assets/floating_camera/source/FloatingCamera.gif",
+  "source_sha256": "6407b76ed53641bf33facfb04ede9fcde4371eb673603b7671c26c60eaa05421",
+  "source_size_px": [
+    261,
+    123
+  ],
+  "source_background_rgb": [
+    4,
+    121,
+    188
+  ],
+  "body_target_px": [
+    70,
+    74
+  ],
+  "body_only_bbox_px": {
+    "x": 61,
+    "y": 38,
+    "w": 70,
+    "h": 74
+  },
+  "full_fx_bbox_px": {
+    "x": 47,
+    "y": 28,
+    "w": 116,
+    "h": 115
+  },
+  "canvas_px": [
+    192,
+    160
+  ],
+  "anchor_px": [
+    96,
+    112
+  ],
+  "fx_pivot_px": [
+    96,
+    70
+  ],
+  "origin_local_px": [
+    21,
+    -6
+  ],
+  "horizontal_scale": 3.5,
+  "vertical_scale": 3.0833333333333335,
+  "screen_speed_px_per_second": 150,
+  "flight_default_y": 300,
+  "source_forward": "right (+X); muzzle flash is to the right of the body in source row 2",
+  "art_method": "source crop; exact blue key; 1-pass direct nearest resize from 20x24; no redraw; no blur",
+  "timing_status": "owner_approved",
+  "idle_contract": "same 8 source poses and 60Hz ticks as walk; seamless phase continuity; no world-position translation",
+  "sharpness_metrics": {
+    "edge_acutance_sobel": 133.691,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "rgb_colors": 13,
+    "enclosed_key_pockets": 0,
+    "opaque_key_px": 0,
+    "partial_alpha_px": 0,
+    "outer_ring_spill_fraction": 0.0
+  },
+  "slots": [
+    {
+      "name": "flight-00.png",
+      "source_rect_xyxy": [
+        7,
+        5,
+        27,
+        29
+      ],
+      "canvas_rect_xywh": [
+        61,
+        38,
+        70,
+        74
+      ],
+      "sha256": "72054fbea73d302c2c6ee433ba31276c9ac25a4012a197832c4364e7444341fa",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "flight-01.png",
+      "source_rect_xyxy": [
+        35,
+        6,
+        55,
+        29
+      ],
+      "canvas_rect_xywh": [
+        61,
+        41,
+        70,
+        71
+      ],
+      "sha256": "cd6c225e60125efb6fa7bc7e14e7498b0c58faebfdbf1e74e8366120e4825007",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "flight-02.png",
+      "source_rect_xyxy": [
+        63,
+        7,
+        83,
+        29
+      ],
+      "canvas_rect_xywh": [
+        61,
+        44,
+        70,
+        68
+      ],
+      "sha256": "561d47410ded800484e222ec40581bcd5878f8245638f6b7dd0b0c6e7ba7611a",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "flight-03.png",
+      "source_rect_xyxy": [
+        88,
+        6,
+        108,
+        29
+      ],
+      "canvas_rect_xywh": [
+        61,
+        41,
+        70,
+        71
+      ],
+      "sha256": "cd6c225e60125efb6fa7bc7e14e7498b0c58faebfdbf1e74e8366120e4825007",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "flight-04.png",
+      "source_rect_xyxy": [
+        119,
+        5,
+        139,
+        29
+      ],
+      "canvas_rect_xywh": [
+        61,
+        38,
+        70,
+        74
+      ],
+      "sha256": "72054fbea73d302c2c6ee433ba31276c9ac25a4012a197832c4364e7444341fa",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "flight-05.png",
+      "source_rect_xyxy": [
+        146,
+        5,
+        166,
+        29
+      ],
+      "canvas_rect_xywh": [
+        61,
+        38,
+        70,
+        74
+      ],
+      "sha256": "d630e03a4cd6353c1e53a46905c7026e2eeb27a73e440c92f03b8c322c896686",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "flight-06.png",
+      "source_rect_xyxy": [
+        174,
+        5,
+        194,
+        29
+      ],
+      "canvas_rect_xywh": [
+        61,
+        38,
+        70,
+        74
+      ],
+      "sha256": "0bdb350438d12ba87ca99372c242817593b7606d2c0341cbfa17a93868cdc73b",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "flight-07.png",
+      "source_rect_xyxy": [
+        202,
+        5,
+        222,
+        29
+      ],
+      "canvas_rect_xywh": [
+        61,
+        38,
+        70,
+        74
+      ],
+      "sha256": "d630e03a4cd6353c1e53a46905c7026e2eeb27a73e440c92f03b8c322c896686",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "flight-08.png",
+      "source_rect_xyxy": [
+        227,
+        5,
+        247,
+        29
+      ],
+      "canvas_rect_xywh": [
+        61,
+        38,
+        70,
+        74
+      ],
+      "sha256": "72054fbea73d302c2c6ee433ba31276c9ac25a4012a197832c4364e7444341fa",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "attack_body-00.png",
+      "source_rect_xyxy": [
+        7,
+        43,
+        36,
+        70
+      ],
+      "canvas_rect_xywh": [
+        61,
+        35,
+        102,
+        83
+      ],
+      "sha256": "93d5e3375fe9a684fe92f6f19524e5a98ea83f457a1fd84af2ad390f4ff8e790",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "attack_body-01.png",
+      "source_rect_xyxy": [
+        42,
+        44,
+        67,
+        79
+      ],
+      "canvas_rect_xywh": [
+        61,
+        35,
+        88,
+        108
+      ],
+      "sha256": "5f6393d652ee635158259bb169464be850eef33914961380d9a09789843c3862",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "projectile-00.png",
+      "source_rect_xyxy": [
+        83,
+        57,
+        91,
+        65
+      ],
+      "canvas_rect_xywh": [
+        82,
+        58,
+        28,
+        25
+      ],
+      "sha256": "1637365e0c4dba12584cd40720de6ae4cb1bc76b37312fbff64fead2d520a640",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "projectile-01.png",
+      "source_rect_xyxy": [
+        98,
+        57,
+        106,
+        65
+      ],
+      "canvas_rect_xywh": [
+        82,
+        58,
+        28,
+        25
+      ],
+      "sha256": "f3a4483fac55ea6981fecaedec7ddc1ffee6af2699bbe208fb512710228822cb",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "projectile-02.png",
+      "source_rect_xyxy": [
+        115,
+        57,
+        123,
+        65
+      ],
+      "canvas_rect_xywh": [
+        82,
+        58,
+        28,
+        25
+      ],
+      "sha256": "25a3d4b6a0bbe691257739024b809b592bd07bf4666ca8f60b2deb0b994bd339",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "projectile-03.png",
+      "source_rect_xyxy": [
+        130,
+        57,
+        138,
+        65
+      ],
+      "canvas_rect_xywh": [
+        82,
+        58,
+        28,
+        25
+      ],
+      "sha256": "8e2ecb551b974af9e4ca02e7345d40395e13cfb98340e0dfd5a8567ce6fa5860",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "hit-00.png",
+      "source_rect_xyxy": [
+        4,
+        94,
+        24,
+        118
+      ],
+      "canvas_rect_xywh": [
+        61,
+        38,
+        70,
+        74
+      ],
+      "sha256": "c34f0018c33fd043f303ebed2ddae7a0570963944c9e55cfb1192633a2b21c82",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "explosion-00.png",
+      "source_rect_xyxy": [
+        31,
+        101,
+        47,
+        117
+      ],
+      "canvas_rect_xywh": [
+        68,
+        46,
+        56,
+        49
+      ],
+      "sha256": "f4350a58f02e6af4df537c4ae79eb88b8167b4653e6ec3397317599cd3d45700",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "explosion-01.png",
+      "source_rect_xyxy": [
+        54,
+        94,
+        78,
+        121
+      ],
+      "canvas_rect_xywh": [
+        54,
+        28,
+        84,
+        83
+      ],
+      "sha256": "11e0378bbd24a0a6973cd77a8a48ae175bff9e6c039cc81dfe02d8805c8e4df7",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "explosion-02.png",
+      "source_rect_xyxy": [
+        85,
+        94,
+        111,
+        121
+      ],
+      "canvas_rect_xywh": [
+        50,
+        28,
+        91,
+        83
+      ],
+      "sha256": "eeba9451a510ccb5cd702cb28d9e080293735c82130386c50676adf561997aa7",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "explosion-03.png",
+      "source_rect_xyxy": [
+        116,
+        96,
+        144,
+        120
+      ],
+      "canvas_rect_xywh": [
+        47,
+        33,
+        98,
+        74
+      ],
+      "sha256": "e6d3eb22d377e8e01eb696eeadc9a12f6c4f77869bfa2a264e60fd9ef5ddcedd",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "explosion-04.png",
+      "source_rect_xyxy": [
+        151,
+        101,
+        175,
+        118
+      ],
+      "canvas_rect_xywh": [
+        54,
+        44,
+        84,
+        52
+      ],
+      "sha256": "e71fc2de5ed84debebc76fbd022d71d4d0faa45997bbd7a7e94734f12078a514",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 0,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    },
+    {
+      "name": "explosion-05.png",
+      "source_rect_xyxy": [
+        186,
+        106,
+        196,
+        114
+      ],
+      "canvas_rect_xywh": [
+        78,
+        58,
+        35,
+        25
+      ],
+      "sha256": "110eff83ddc97251f7c3f683ae87ee70149fb99326687c497a3b434dbeeb137f",
+      "qa": {
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "transparent_interior_holes_px": 12,
+        "partial_alpha_px": 0,
+        "outer_ring_spill_fraction": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "character_id": "bat_chiroptera",
+  "revision": "turn-v1",
+  "status": "owner_approved",
+  "owner_approved": true,
+  "owner_score": 100,
+  "score_policy": "10/10 evidence gates verified (10 pts each) + explicit Owner Human Test approval.",
+  "generated_at": "2026-11-13T10:34:00+00:00",
+  "previous_approved_revision": {
+    "version": "0.10.0",
+    "workflow_id": "PIPE-007",
+    "approval_file": "assets/bat_chiroptera/owner_approval.json",
+    "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
+    "archived_snapshot_dir": "work/characters/bat_chiroptera/turn-v1/snapshot-before"
+  },
+  "live_bundle": {
+    "atlas_path": "assets/bat_chiroptera/godot_bundle/godot/bat_chiroptera-atlas-00.png",
+    "atlas_sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084",
+    "atlas_pages": 1,
+    "atlas_size_px": [
+      3494,
+      2082
+    ],
+    "tres_sha256": "dd6ceb829aaffe6156aaf292c3c59308900f8ebb1ccbf9af663761460636549a",
+    "frames": 66,
+    "clips": 9,
+    "preserved_nonturn_frames_00_to_60": 61,
+    "preserved_nonturn_clips": [
+      "idle",
+      "walk",
+      "run",
+      "attack_light",
+      "power_up",
+      "hit",
+      "ko",
+      "sonic_screech_fx"
+    ]
+  },
+  "turn_spec": {
+    "frames": 5,
+    "ticks_60hz": [
+      5,
+      4,
+      3,
+      4,
+      5
+    ],
+    "total_duration_ms": 350,
+    "loop_policy": "oneshot",
+    "events_ms": [
+      {
+        "name": "in",
+        "at_ms": 0,
+        "at": 0,
+        "position": 0,
+        "at_tick": 0
+      },
+      {
+        "name": "end",
+        "at_ms": 267,
+        "at": 4,
+        "position": 4,
+        "at_tick": 16
+      }
+    ],
+    "method": "complete_perspective_poses",
+    "angles_deg": [
+      "+68 (right bank)",
+      "+55 (front-right)",
+      "0 (dead-front lifted to hover baseline y=199)",
+      "-55 (front-left)",
+      "-68 (3/4 left)"
+    ],
+    "turn_sharpness_sobel": [
+      280.011,
+      247.466,
+      265.706,
+      252.205,
+      260.27
+    ],
+    "alpha_hardness_pct": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "enclosed_key_pockets": 0
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "run",
+      "turn",
+      "attack_light",
+      "power_up",
+      "hit",
+      "ko"
+    ],
+    "effect_clips": [
+      "sonic_screech_fx"
+    ],
+    "locomotion": {
+      "kind": "flight",
+      "clip": "walk",
+      "cycle_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "patrol": {
+        "enabled": true,
+        "clip": "walk",
+        "speed_px_per_second": 135,
+        "min_x": 80,
+        "max_x": 880,
+        "endpoint_turn_clip": "turn"
+      }
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      176,
+      141
+    ],
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "sonic_screech_fx",
+      "release_frame": 2,
+      "lifetime_ticks": 14,
+      "origin_canvas_px": [
+        225,
+        165
+      ],
+      "velocity_px_per_tick": [
+        0.0,
+        0.0
+      ],
+      "palette": "purple"
+    },
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ms": 350,
+      "duration_ticks": 21,
+      "ticks": [
+        5,
+        4,
+        3,
+        4,
+        5
+      ],
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true,
+      "whole_body_rotation": true
+    }
+  },
+  "map_sync_metrics": {
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "foot_anchor_px": [
+      176,
+      200
+    ],
+    "body_only_bbox_px": {
+      "x": 113,
+      "y": 119,
+      "w": 126,
+      "h": 81
+    },
+    "full_fx_bbox_px": {
+      "x": 106,
+      "y": 102,
+      "w": 140,
+      "h": 131
+    },
+    "reference_ppu_64": 64,
+    "world_size_at_64ppu_m": {
+      "body_w_m": 1.969,
+      "body_h_m": 1.266,
+      "aura_w_m": 2.188,
+      "aura_h_m": 2.047
+    },
+    "tile_32px_span": {
+      "body_tiles_w": 3.9375,
+      "body_tiles_h": 2.53125,
+      "full_fx_tiles_w": 4.375,
+      "full_fx_tiles_h": 4.09375
+    }
+  },
+  "motion_quality": {
+    "status": "owner_approved",
+    "revision": "turn-v1",
+    "owner_approved": true,
+    "previous_revision_atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
+    "atlas_sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084",
+    "review_evidence": "work/characters/bat_chiroptera/turn-v1/review/keyframe-review.json",
+    "method": "imagegen_complete_body_keyframes",
+    "turn_method": "complete_perspective_poses",
+    "naturalness_verdict": "owner_approved",
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": true,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true,
+      "bidirectional_runtime_wired": true,
+      "two_endpoint_patrol_wired": true
+    },
+    "turn_sharpness_sobel": [
+      280.011,
+      247.466,
+      265.706,
+      252.205,
+      260.27
+    ],
+    "unresolved_structural_failures": [],
+    "approved_at": "2026-11-15T05:52:31.727116+00:00",
+    "owner_message": "ok bat anh chốt giúp anh sang nhân vật tiếp theo trong todo",
+    "workflow_id": "PIPE-009",
+    "owner_feedback": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác"
+  },
+  "runtime_verification": {
+    "godot_controller": "scenes/BatChiropteraFighter2D.gd",
+    "godot_prefab": "scenes/BatChiroptera.tscn",
+    "godot_tests": [
+      "tests/test_character_bundles.gd",
+      "tests/test_bat_sonic.gd",
+      "tests/test_bat_turn.gd"
+    ],
+    "preview_ui": "tools/preview/index.html",
+    "live_browser_evidence": "work/characters/bat_chiroptera/turn-v1/verification/browser-turn-live.json",
+    "screenshots_3bg_and_arena": [
+      "work/characters/bat_chiroptera/turn-v1/review/filmstrip-turn.png",
+      "work/characters/bat_chiroptera/turn-v1/verification/browser-turn-front-light.png",
+      "work/characters/bat_chiroptera/turn-v1/verification/browser-turn-front-dark.png",
+      "work/characters/bat_chiroptera/turn-v1/verification/browser-turn-front-checker.png",
+      "work/characters/bat_chiroptera/turn-v1/verification/browser-arena-r2l-turn.png",
+      "work/characters/bat_chiroptera/turn-v1/verification/browser-arena-l2r-turn.png",
+      "work/characters/bat_chiroptera/turn-v1/verification/browser-arena-powerup.png"
+    ]
+  },
+  "technical_checks": "verified_post_final_edit",
+  "imagegen_quota_note": "Gemini gemini-3.1-flash-image returned HTTP 429 RESOURCE_EXHAUSTED on 4th request (reset timestamp reported as 2026-11-13T14:42:06Z); Bat 5-pose turn completed cleanly from the 3 already-succeeded generated sheets with 0 intra-clip mirroring and 0 AI redraw of non-turn clips.",
+  "workflow_id": "PIPE-009",
+  "release_version": "0.12.0",
+  "approved_at": "2026-11-13T10:50:00+00:00",
+  "owner_message": "ok bat anh chốt giúp anh sang nhân vật tiếp theo trong todo",
+  "owner_approval_file": "assets/bat_chiroptera/owner_approval.json",
+  "gates": [
+    {
+      "id": 1,
+      "name": "Bảo toàn clip cũ",
+      "status": "pass",
+      "score": 10,
+      "evidence": "61/61 non-turn frames frame-00..60 exact SHA/RGBA match against work/characters/bat_chiroptera/turn-v1/snapshot-before/baseline-manifest.json; all non-turn ticks/events/sonic_screech_fx identical."
+    },
+    {
+      "id": 2,
+      "name": "Nhận diện đúng master",
+      "status": "pass",
+      "score": 10,
+      "evidence": "idle0 matches work/characters/bat_chiroptera/approved-master/master.png SHA b8656aaba4eb84dc255f24096d889bcb848fb6cb7af53403476ad10372d7555d; turn poses keep brown-black fur, red-brown wing membranes, large pink ears, pink nose, golden eyes, white fangs, thumb/toe claws; 23 enclosed white pocket px on turn_01 + outer neutral rim specks cleaned cleanly."
+    },
+    {
+      "id": 3,
+      "name": "Cơ thể liên tục",
+      "status": "pass",
+      "score": 10,
+      "evidence": "All 5 turn poses (+68 bank, +55 front-right, 0 dead-front, -55 front-left, -68 3/4 left) verified whole-body connected (n_comp == 1, alpha 100% hard [0,255]) with no cut/warp parts."
+    },
+    {
+      "id": 4,
+      "name": "Phải->trái đúng",
+      "status": "pass",
+      "score": 10,
+      "evidence": "5 distinct whole-body poses progress +68 -> +55 -> 0 -> -55 -> -68 with ticks [5,4,3,4,5]; +X facing retained during turn frames and committed to -X after final pose."
+    },
+    {
+      "id": 5,
+      "name": "Trái->phải đúng",
+      "status": "pass",
+      "score": 10,
+      "evidence": "Independently tested in tests/test_bat_turn.gd, tests/test_frontend_wasm_e2e.mjs, and work/characters/bat_chiroptera/turn-v1/review/walk-turn-walk-l2r-*.webp & arena patrol."
+    },
+    {
+      "id": 6,
+      "name": "Nối state machine đúng",
+      "status": "pass",
+      "score": 10,
+      "evidence": "scenes/BatChiropteraFighter2D.gd & tools/preview/index.html lock turn mid-clip, prevent premature flip, and resume walk or run seamlessly on completion."
+    },
+    {
+      "id": 7,
+      "name": "Root/ground đúng",
+      "status": "pass",
+      "score": 10,
+      "evidence": "Canvas 384x256, flight anchor [176,200] (Godot offset (-176,-200)); turn_02 front torso lifted to hover baseline y=199; head/body centroid anchored without wing-bbox drift."
+    },
+    {
+      "id": 8,
+      "name": "Hai endpoint hoạt động",
+      "status": "pass",
+      "score": 10,
+      "evidence": "Patrol endpoints x=80..880 trigger full 21-tick turn at both boundaries before reversing, verified for both walk patrol and run patrol."
+    },
+    {
+      "id": 9,
+      "name": "Engine⇄localhost đồng bộ",
+      "status": "pass",
+      "score": 10,
+      "evidence": "Single source bat_chiroptera-atlas-00.png (4e4ee4...), bat_chiroptera.tres (dd6ceb...); HTTP + ZIP + disk SHA-256 parity=true in verification/browser-turn-live.json."
+    },
+    {
+      "id": 10,
+      "name": "Chất lượng thực và nghiệm thu",
+      "status": "pass",
+      "score": 10,
+      "evidence": "Reviewed on light/dark/checkerboard backgrounds (filmstrip-turn.png, 4x rim audit panels, browser screenshots) and explicitly approved by Owner at 2026-11-13T10:45:01Z."
+    }
+  ],
+  "atlas_sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084"
+}

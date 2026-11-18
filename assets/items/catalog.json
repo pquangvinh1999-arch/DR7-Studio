@@ -1,0 +1,24 @@
+{
+  "schema": "dr7-studio.item_catalog.v1",
+  "items": [
+    {
+      "item_set_id": "dragon_balls",
+      "display_name": "Bộ 7 Viên Ngọc Rồng (1× = 32×32)",
+      "category": "quest_consumable_item",
+      "status": "owner_approved",
+      "frame_size": [
+        32,
+        32
+      ],
+      "default_map_test_scale": 1.0,
+      "default_bag_scale": 1.0,
+      "export_json": "assets/items/dragon_balls/item-export.json",
+      "export_sha256": "07294ccb2fe6e920beb9ba43bcfb64fe78a6c116ce5f75917c560998d99f5da7",
+      "godot_prefab": "res://scenes/items/DragonBallItem2D.tscn",
+      "godot_tres": "res://assets/items/dragon_balls/godot/dragon_balls.tres",
+      "atlas_path": "assets/items/dragon_balls/godot/dragon_balls-atlas-00.png",
+      "atlas_sha256": "5ee1a97b09624b6c15c7a895ff436cb7aab9ccd10964d5485dcace3a59e40bb2",
+      "variant_count": 7
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "schema": "dr7.shenron_summon.v5",
+  "tick_hz": 60,
+  "atlas": "assets/rituals/shenron_summon/atlas.png",
+  "atlas_sha256": "c82ec5e8460a2bf01ef515793e87cfdf2be96f448eeab1b914d9e9fec7215aba",
+  "items": [
+    {
+      "number": 1,
+      "region": [
+        2,
+        2,
+        332,
+        334
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-01.png",
+      "source_box_xyxy": [
+        215,
+        496,
+        547,
+        830
+      ],
+      "formation_offset_px": [
+        -37.81818181818182,
+        -70.2060606060606
+      ]
+    },
+    {
+      "number": 2,
+      "region": [
+        338,
+        2,
+        332,
+        335
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-02.png",
+      "source_box_xyxy": [
+        606,
+        495,
+        938,
+        830
+      ],
+      "formation_offset_px": [
+        38.012121212121215,
+        -70.3030303030303
+      ]
+    },
+    {
+      "number": 3,
+      "region": [
+        674,
+        2,
+        331,
+        333
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-03.png",
+      "source_box_xyxy": [
+        805,
+        859,
+        1136,
+        1192
+      ],
+      "formation_offset_px": [
+        76.50909090909092,
+        0.09696969696969697
+      ]
+    },
+    {
+      "number": 4,
+      "region": [
+        1009,
+        2,
+        333,
+        334
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-04.png",
+      "source_box_xyxy": [
+        606,
+        1221,
+        939,
+        1555
+      ],
+      "formation_offset_px": [
+        38.10909090909091,
+        70.4
+      ]
+    },
+    {
+      "number": 5,
+      "region": [
+        1346,
+        2,
+        332,
+        335
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-05.png",
+      "source_box_xyxy": [
+        215,
+        1212,
+        547,
+        1547
+      ],
+      "formation_offset_px": [
+        -37.81818181818182,
+        68.75151515151515
+      ]
+    },
+    {
+      "number": 6,
+      "region": [
+        1682,
+        2,
+        332,
+        333
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-06.png",
+      "source_box_xyxy": [
+        16,
+        859,
+        348,
+        1192
+      ],
+      "formation_offset_px": [
+        -76.4121212121212,
+        0.09696969696969697
+      ]
+    },
+    {
+      "number": 7,
+      "region": [
+        2,
+        341,
+        334,
+        333
+      ],
+      "file": "assets/rituals/shenron_summon/items/dragon-ball-07.png",
+      "source_box_xyxy": [
+        410,
+        859,
+        744,
+        1192
+      ],
+      "formation_offset_px": [
+        0.19393939393939394,
+        0.09696969696969697
+      ]
+    }
+  ],
+  "regions": {
+    "ball_1": [
+      2,
+      2,
+      332,
+      334
+    ],
+    "ball_2": [
+      338,
+      2,
+      332,
+      335
+    ],
+    "ball_3": [
+      674,
+      2,
+      331,
+      333
+    ],
+    "ball_4": [
+      1009,
+      2,
+      333,
+      334
+    ],
+    "ball_5": [
+      1346,
+      2,
+      332,
+      335
+    ],
+    "ball_6": [
+      1682,
+      2,
+      332,
+      333
+    ],
+    "ball_7": [
+      2,
+      341,
+      334,
+      333
+    ],
+    "ground": [
+      340,
+      341,
+      144,
+      136
+    ],
+    "glow": [
+      488,
+      341,
+      320,
+      306
+    ],
+    "core": [
+      812,
+      341,
+      320,
+      306
+    ]
+  },
+  "sampling": "nearest",
+  "source_images": [
+    {
+      "file": "assets/rituals/shenron_summon/source/owner-1.png",
+      "sha256": "0368f9a6c20f634b391dc893d70cc70757e14204b4feade4817b6e861cfbe876",
+      "size": [
+        1152,
+        2048
+      ]
+    },
+    {
+      "file": "assets/rituals/shenron_summon/source/owner-2.png",
+      "sha256": "4191a18babe3d2067f4527dedf4352247e4f94c71be1732e9095fd7bfa7226a9",
+      "size": [
+        1152,
+        2048
+      ]
+    }
+  ],
+  "timeline": {
+    "launch_stride_ticks": 18,
+    "flight_ticks": 54,
+    "last_arrival_tick": 162,
+    "gather_hold_ticks": 48,
+    "vanish_start_tick": 210,
+    "flash_start_ticks": [
+      228,
+      246
+    ],
+    "flash_rise_ticks": 2,
+    "flash_hold_ticks": 4,
+    "flash_fall_ticks": 4,
+    "ground_start_tick": 246,
+    "ground_fade_ticks": 2,
+    "dragon_start_tick": 246,
+    "dragon_reveal_curve": "ease_out_quad",
+    "ready_tick": 258,
+    "glow_period_ticks": 48
+  },
+  "dismiss_timeline": {
+    "flash_start_ticks": [
+      0,
+      18
+    ],
+    "flash_rise_ticks": 2,
+    "flash_hold_ticks": 4,
+    "flash_fall_ticks": 4,
+    "vanish_tick": 20,
+    "end_tick": 28
+  },
+  "wishes": [
+    {
+      "id": "heal_full",
+      "label": "1. Hồi đầy Sinh Lực & Ki",
+      "notice": "Shenron đã nhận điều ước: Hồi đầy Sinh Lực & Ki!"
+    },
+    {
+      "id": "max_power",
+      "label": "2. Bộc phát Sức Mạnh Cực Đại",
+      "notice": "Shenron đã nhận điều ước: Bộc phát Sức Mạnh Cực Đại!"
+    },
+    {
+      "id": "wealth_gems",
+      "label": "3. Ban thưởng Ngọc Rồng & Vàng",
+      "notice": "Shenron đã nhận điều ước: Ban thưởng Ngọc Rồng & Vàng!"
+    }
+  ],
+  "layout": {
+    "map_center_px": [
+      960,
+      540
+    ],
+    "ground_y": 840,
+    "ball_display_width_px": 64,
+    "formation_reference_scale": 0.19393939393939394,
+    "flight_arc_height_px": 150,
+    "ground_display_width_px": 144,
+    "dragon_scale": 2.76,
+    "dragon_reference_bottom_canvas_y": 228,
+    "dragon_gap_px": 0,
+    "dragon_reveal_rise_px": 48,
+    "aura_width_px": 420,
+    "aura_height_px": 540
+  },
+  "behavior": {
+    "trigger": "button_only",
+    "freeze_caster_during_sequence": true,
+    "persist_until_dismissed": true,
+    "block_retrigger_while_active": true,
+    "requires_seven_balls_in_gameplay": true,
+    "test_mode_bypass_ball_requirement": true,
+    "auto_dismiss_after_wish": true,
+    "dragon_character_id": "shenron",
+    "dragon_clip": "idle",
+    "body_bundle": "assets/shenron/godot_bundle/engine-export.json"
+  },
+  "qa": {
+    "art_source": "existing_owner_images",
+    "method": "2D component ownership; enclosed highlight preservation; white/gray1px edge unmixing",
+    "source1_items_detected": 7,
+    "star_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "ground_orientation": "source orientation preserved; no AI redraw or geometric repair",
+    "glow_source": "derived alpha silhouette only; independent VFX",
+    "revision": "v5-dismiss-flash-wish",
+    "status": "owner_approved"
+  },
+  "reveal": {
+    "method": "pixel_dissolve",
+    "mask": "assets/rituals/shenron_summon/dissolve-threshold.png",
+    "mask_sha256": "fbede0b918a87743dac48c8e97abc3a6a32fbd4af30fcf2bdf33e052d790800f",
+    "mask_size_px": [
+      96,
+      68
+    ],
+    "cell_size_canvas_px": 4,
+    "threshold_levels": 256,
+    "edge_width": 0.07,
+    "edge_color_rgb": [
+      255,
+      236,
+      156
+    ]
+  }
+}

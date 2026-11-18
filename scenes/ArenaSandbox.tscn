@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/ArenaSandbox.gd" id="1_arena"]
+
+[node name="ArenaSandbox" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1_arena")
+
+[node name="BackgroundLayer" type="Node2D" parent="."]
+z_index = -10
+
+[node name="BackgroundSprite" type="Sprite2D" parent="BackgroundLayer"]
+texture_filter = 2
+centered = false
+
+[node name="FightersLayer" type="Node2D" parent="."]
+z_index = 10
+texture_filter = 1
+
+[node name="HUDLayer" type="CanvasLayer" parent="."]
+
+[node name="HudLabel" type="Label" parent="HUDLayer"]
+offset_left = 20.0
+offset_top = 16.0
+offset_right = 1480.0
+offset_bottom = 52.0
+text = "DR7-Studio 16:9 Landscape Arena (1920x1080)"

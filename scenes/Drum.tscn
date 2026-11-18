@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scenes/DrumFighter2D.gd" id="1_fighter"]
+[ext_resource type="SpriteFrames" path="res://assets/drum/godot_bundle/godot/drum.tres" id="2_frames"]
+[ext_resource type="Script" path="res://tests/SkillAnimator2D.gd" id="3_anim"]
+
+[node name="Drum" type="Node2D"]
+script = ExtResource("1_fighter")
+character_id = "drum"
+engine_export_json = "res://assets/drum/godot_bundle/engine-export.json"
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = ExtResource("2_frames")
+animation = &"idle"
+autoplay = "idle"
+centered = false
+offset = Vector2(-56, -84)
+
+[node name="ChargeFX" type="AnimatedSprite2D" parent="."]
+visible = false
+texture_filter = 1
+sprite_frames = ExtResource("2_frames")
+animation = &"electric_ring_fx"
+centered = false
+offset = Vector2(-64, -48)
+position = Vector2(42, -28)
+
+[node name="ProjectileFX" type="AnimatedSprite2D" parent="."]
+visible = false
+texture_filter = 1
+sprite_frames = ExtResource("2_frames")
+animation = &"electric_orb_fx"
+centered = false
+offset = Vector2(-64, -48)
+position = Vector2(42, -28)
+
+[node name="SkillAnimator" type="Node2D" parent="."]
+script = ExtResource("3_anim")

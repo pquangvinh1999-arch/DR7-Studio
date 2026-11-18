@@ -1,7 +1,7 @@
 {
   "character_id": "chilopoda",
   "status": "owner_approved",
-  "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+  "atlas_sha256": "0561212a81a8203b33a96981e61c2a38502613026820becbadbed447b0dadeba",
   "atlas": {
     "max_size": 4096,
     "padding": 2,
@@ -369,7 +369,7 @@
   "motion_quality": {
     "status": "owner_approved",
     "method": "imagegen_complete_body_keyframes",
-    "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+    "atlas_sha256": "0561212a81a8203b33a96981e61c2a38502613026820becbadbed447b0dadeba",
     "checks": {
       "body_connections": true,
       "whole_pose_sequence": true,
@@ -387,8 +387,9 @@
     "unresolved_structural_failures": [],
     "review_evidence": "work/characters/chilopoda/identity-v2/review/identity-review.json",
     "notes": "New complete-pose action sheets reviewed on light/dark/checker against selected power_up1. Earlier oversized-head render and truncated dive heads rejected and regenerated. Original power1..10 retained. Canonical ready poses use exact selected master; no old master injection. Runtime checks and wall-clock observations recorded separately.",
-    "approved_at": "2026-11-13T08:22:39.853349+00:00",
-    "owner_message": "todo thêm turn cho các nhân vật kia em làm xong chưa? tính toán xem còn 7% quota có thể hoàn thành được không? sau khi xong chilopoda giúp anh chốt nhân vật sau đó trả lời 2 câu hỏi trên"
+    "approved_at": "2026-11-15T05:52:31.727116+00:00",
+    "owner_message": "todo thêm turn cho các nhân vật kia em làm xong chưa? tính toán xem còn 7% quota có thể hoàn thành được không? sau khi xong chilopoda giúp anh chốt nhân vật sau đó trả lời 2 câu hỏi trên",
+    "owner_feedback": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác"
   },
   "technical_checks": {
     "exit_code": 0,
@@ -502,5 +503,6 @@
     "log": "work/characters/chilopoda/identity-v2/verification/finalization-loop-test.log",
     "parity_evidence": "work/characters/chilopoda/identity-v2/verification/finalization-http-zip-parity.json"
   },
-  "finalized_at": "2026-11-13T08:25:19.479017+00:00"
+  "finalized_at": "2026-11-13T08:25:19.479017+00:00",
+  "release_version": "0.12.0"
 }

@@ -59,6 +59,18 @@ pub fn step_clip_timeline(
     (step_idx, elapsed_ms, finished)
 }
 
+/// Flight phase for a sequential seven-item ritual. Negative means not launched.
+/// All durations are supplied by the shared 60Hz sequence contract.
+pub fn summon_flight_progress(tick: f32, index: u32, stride: f32, duration: f32) -> f32 {
+    let elapsed = tick - index as f32 * stride.max(0.0);
+    if elapsed < 0.0 { -1.0 } else { (elapsed / duration.max(1.0)).clamp(0.0, 1.0) }
+}
+
+#[no_mangle]
+pub extern "C" fn wasm_summon_flight_progress(tick: f32, index: u32, stride: f32, duration: f32) -> f32 {
+    summon_flight_progress(tick, index, stride, duration)
+}
+
 /// Structure-of-Arrays (SoA) world state: zero heap allocations during 60Hz tick!
 pub struct CombatWorld {
     pub count: usize,
@@ -394,6 +406,18 @@ pub extern "C" fn wasm_clip_step(
 
 #[cfg(test)]
 mod tests {
+    #[test]
+    fn summon_items_launch_in_numeric_order_and_land_exactly() {
+        for index in 0..7 {
+            let start = index as f32 * 18.0;
+            assert_eq!(super::summon_flight_progress(start - 1.0, index, 18.0, 54.0), -1.0);
+            assert_eq!(super::summon_flight_progress(start, index, 18.0, 54.0), 0.0);
+            assert_eq!(super::summon_flight_progress(start + 27.0, index, 18.0, 54.0), 0.5);
+            assert_eq!(super::summon_flight_progress(start + 54.0, index, 18.0, 54.0), 1.0);
+            assert_eq!(super::summon_flight_progress(10000.0, index, 18.0, 54.0), 1.0);
+        }
+    }
+
     use super::*;
 
     #[test]

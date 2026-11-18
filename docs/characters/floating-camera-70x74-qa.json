@@ -1,0 +1,67 @@
+{
+  "schema": "dr7-studio.character_qa.v1",
+  "character_id": "floating_camera",
+  "display_name": "Floating Camera",
+  "revision": "size70x74-idle-phase-v1 / v0.16.0",
+  "workflow_id": "PIPE-021",
+  "approved_at": "2026-11-16T15:27:40.485077+00:00",
+  "source_sheet": {
+    "path": "assets/floating_camera/source/FloatingCamera.gif",
+    "sha256": "6407b76ed53641bf33facfb04ede9fcde4371eb673603b7671c26c60eaa05421",
+    "size_px": [
+      261,
+      123
+    ],
+    "background_rgb": [
+      4,
+      121,
+      188
+    ],
+    "extraction_slots": 22
+  },
+  "bundle": {
+    "atlas_path": "assets/floating_camera/godot_bundle/godot/floating_camera-atlas-00.png",
+    "atlas_sha256": "c40954fa72f5bee0f5dd5f6a6d47ad42b8827f214e213b58c6ee7e330e4d607e",
+    "atlas_size_px": [
+      982,
+      658
+    ],
+    "tres_sha256": "3429b23612e734451e1a0dce8cf8a94a92a404a637cd905034f09b93585e6802",
+    "prefab_sha256": "6f3528518baed67d3bd12cd7d64da196a46a0575f917cd6531843c4bfa3b3973",
+    "engine_export_sha256": "ae0df963c8cfbd5407d6293886a353415ff84d68ecae3c05e0739d83f0db2497",
+    "sampling": "nearest",
+    "pages": 1
+  },
+  "metrics": {
+    "body_only_bbox_px": {
+      "x": 61,
+      "y": 38,
+      "w": 70,
+      "h": 74
+    },
+    "full_fx_bbox_px": {
+      "x": 47,
+      "y": 28,
+      "w": 116,
+      "h": 115
+    },
+    "canvas_px": [
+      192,
+      160
+    ],
+    "anchor_px": [
+      96,
+      112
+    ],
+    "sharpness_metrics": {
+      "edge_acutance_sobel": 133.691,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "rgb_colors": 13,
+      "enclosed_key_pockets": 0,
+      "opaque_key_px": 0,
+      "partial_alpha_px": 0,
+      "outer_ring_spill_fraction": 0.0
+    }
+  }
+}

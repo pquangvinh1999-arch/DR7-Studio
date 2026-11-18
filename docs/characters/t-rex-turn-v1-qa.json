@@ -1,0 +1,92 @@
+{
+  "schema": "dr7-studio.turn_qa_report.v1",
+  "character_id": "t_rex",
+  "revision": "turn-v1",
+  "status": "owner_approved",
+  "owner_approved": true,
+  "score_max": 100,
+  "gates_completed": 10,
+  "gates_total": 10,
+  "note_score": "10/10 evidence gates verified (10 pts each) + explicit Owner Human Test approval.",
+  "bundles": {
+    "atlas_path": "assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png",
+    "atlas_sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c",
+    "tres_path": "assets/t_rex/godot_bundle/godot/t_rex.tres",
+    "tres_sha256": "ac6a3dd694127137d5e20dcec7b04614e964b4a2667b075a827f473dca1bf6c7",
+    "engine_export_path": "assets/t_rex/godot_bundle/engine-export.json",
+    "engine_export_sha256": "0ee72b465db61801aa701dedb1785aef43af5d7991594614cca7d19d1bf84a48",
+    "prefab_path": "scenes/TRex.tscn",
+    "prefab_sha256": "de4fe76df00bd1427f7a688e0a46d4c2deff39dffb87b826bd435120a34f9e46",
+    "controller_path": "scenes/TRexFighter2D.gd",
+    "controller_sha256": "87136f9299b5b5392a396b60be5d71949564f8a52034bb084a020914239197df"
+  },
+  "turn_contract": {
+    "clip": "turn",
+    "from": "right",
+    "to": "left",
+    "duration_ms": 350,
+    "duration_ticks": 21,
+    "ticks": [
+      6,
+      3,
+      3,
+      3,
+      6
+    ],
+    "method": "complete_perspective_poses",
+    "mirror_sequence_for_reverse": true,
+    "whole_body_rotation": true
+  },
+  "patrol_contract": {
+    "enabled": true,
+    "clip": "walk",
+    "speed_px_per_second": 55,
+    "min_x": 80,
+    "max_x": 880,
+    "endpoint_turn_clip": "turn"
+  },
+  "turn_sharpness_sobel": [
+    218.251,
+    203.449,
+    177.687,
+    220.831,
+    181.419
+  ],
+  "non_turn_preservation": {
+    "preserved_frame_count": 73,
+    "preserved_clip_names": [
+      "idle",
+      "walk",
+      "run",
+      "attack_light",
+      "attack_heavy",
+      "power_up",
+      "hit",
+      "ko",
+      "fireball_fx"
+    ],
+    "legacy_approval_archive": "docs/releases/t_rex-v0.6.0-approval.json",
+    "previous_atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7"
+  },
+  "iss_trex_tick_legacy": {
+    "status": "resolved_by_owner_decision_exact_ticks",
+    "owner_decision": "Re-export T-rex turn-v1 with --godot-fps auto so godot.relative_durations equals exact authored 60Hz ticks (fixing attack_heavy frame 5 0.96 -> 1.0 tick) while keeping all 73 original PNGs, clip order, duration_ms, events, and keys intact."
+  },
+  "gates": {
+    "1_canonical_identity_preserved": true,
+    "2_no_cut_warp_or_card_flip": true,
+    "3_grounded_weight_shift_and_tail_followthrough": true,
+    "4_sharpness_binary_alpha_no_rim_pockets": true,
+    "5_60hz_phase_timing_and_ticks": true,
+    "6_non_turn_73_frames_and_events_unchanged": true,
+    "7_bidirectional_turn_and_input_lock_wired": true,
+    "8_two_endpoint_patrol_walk_and_run_wired": true,
+    "9_godot_wasm_localhost_parity_and_tests": true,
+    "10_owner_human_test_approved": true
+  },
+  "owner_score": 100,
+  "approved_at": "2026-11-14T07:12:14+00:00",
+  "owner_message": "ok anh duyệt t-rex bắt đàu với nhân vật tiếp theo",
+  "workflow_id": "PIPE-010",
+  "owner_approval_file": "assets/t_rex/owner_approval.json"
+}

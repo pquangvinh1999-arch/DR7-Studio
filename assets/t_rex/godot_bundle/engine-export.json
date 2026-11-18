@@ -7,8 +7,8 @@
   },
   "source": {
     "path": "../clips/animation-clips.json",
-    "sha256": "78a683fa464574bd23c3d43f244331ac006ef00328866deb4b1d5bc1b7d338d4",
-    "bytes": 129148,
+    "sha256": "243cf0c12d254f5af984fa2e3e754d3223b9fa7fc86e03b16317e355fc32b7ea",
+    "bytes": 138746,
     "schema": "generate2dsprite.animation_clips.v2"
   },
   "targets": [
@@ -44,7 +44,7 @@
           3494,
           2342
         ],
-        "cells": 73,
+        "cells": 78,
         "clips": [
           "idle",
           "walk",
@@ -54,7 +54,8 @@
           "power_up",
           "hit",
           "ko",
-          "fireball_fx"
+          "fireball_fx",
+          "turn"
         ]
       }
     ]
@@ -131,23 +132,23 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          7.02,
-          6.96,
-          7.02,
-          7.02,
-          6.96,
-          7.02,
-          7.02,
-          6.96
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
         ]
       },
       "sprite3d": {
         "action": "idle",
         "contract": "action-idle.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "walk": {
@@ -236,7 +237,7 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
           6.0,
           6.0,
@@ -254,7 +255,7 @@
         "action": "walk",
         "contract": "action-walk.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "run": {
@@ -335,23 +336,23 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.98,
-          5.04,
-          4.98,
-          4.98,
-          5.04,
-          4.98,
-          4.98,
-          5.04
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
         ]
       },
       "sprite3d": {
         "action": "run",
         "contract": "action-run.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "attack_light": {
@@ -459,15 +460,15 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.98,
-          5.04,
-          3.96,
-          4.02,
-          4.02,
-          4.98,
-          4.98,
+          5.0,
+          5.0,
+          4.0,
+          4.0,
+          4.0,
+          5.0,
+          5.0,
           6.0
         ]
       },
@@ -475,7 +476,7 @@
         "action": "attack_light",
         "contract": "action-attack_light.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "attack_heavy": {
@@ -599,19 +600,19 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.98,
-          4.02,
-          1.98,
-          1.02,
-          1.02,
-          0.96,
-          1.02,
-          1.98,
+          5.0,
+          4.0,
+          2.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          2.0,
           3.0,
-          4.02,
-          4.98,
+          4.0,
+          5.0,
           6.0
         ]
       },
@@ -619,7 +620,7 @@
         "action": "attack_heavy",
         "contract": "action-attack_heavy.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "power_up": {
@@ -728,16 +729,16 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.98,
-          5.04,
-          4.98,
-          4.98,
-          5.04,
-          4.98,
-          4.98,
-          5.04,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
           6.0
         ]
       },
@@ -745,7 +746,7 @@
         "action": "power_up",
         "contract": "action-power_up.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "hit": {
@@ -817,21 +818,21 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.02,
-          3.96,
-          5.04,
-          4.98,
-          4.98,
-          5.04
+          4.0,
+          4.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
         ]
       },
       "sprite3d": {
         "action": "hit",
         "contract": "action-hit.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "ko": {
@@ -917,13 +918,13 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.98,
-          5.04,
-          4.98,
-          4.98,
-          5.04,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
           6.0,
           6.0,
           15.0
@@ -933,7 +934,7 @@
         "action": "ko",
         "contract": "action-ko.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
       }
     },
     "fireball_fx": {
@@ -984,19 +985,114 @@
       },
       "godot": {
         "speed": 60.0,
-        "basis": "fixed fps",
+        "basis": "ticks at 60 Hz",
         "relative_durations": [
-          4.98,
-          5.04,
-          4.98,
-          4.98
+          5.0,
+          5.0,
+          5.0,
+          5.0
         ]
       },
       "sprite3d": {
         "action": "fireball_fx",
         "contract": "action-fireball_fx.json",
         "speed": 60.0,
-        "basis": "fixed fps"
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "turn": {
+      "frames": [
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "duration_ms": [
+        100,
+        50,
+        50,
+        50,
+        100
+      ],
+      "total_duration_ms": 350,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0
+        },
+        {
+          "name": "end",
+          "at_ms": 250,
+          "at": 4,
+          "position": 4
+        }
+      ],
+      "page": 0,
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 2,
+        "strike": 2,
+        "recover": 3,
+        "end": 4
+      },
+      "keys_ms": {
+        "wind_start": 0,
+        "wind_peak": 150,
+        "strike": 150,
+        "recover": 200,
+        "end": 250
+      },
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.0,
+        "frame_ticks": [
+          6,
+          3,
+          3,
+          3,
+          6
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 21.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "t_rex.json",
+        "from": 73,
+        "to": 77
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          6.0,
+          3.0,
+          3.0,
+          3.0,
+          6.0
+        ]
+      },
+      "sprite3d": {
+        "action": "turn",
+        "contract": "action-turn.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
       }
     }
   },
@@ -1074,23 +1170,23 @@
   "files": [
     {
       "path": "aseprite/t_rex.png",
-      "sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
-      "bytes": 1788964
+      "sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c",
+      "bytes": 1904505
     },
     {
       "path": "aseprite/t_rex.json",
-      "sha256": "9466861cf86d8d31e78e9a1a78761fd2858eeb1268f1537189cddc5e21013b37",
-      "bytes": 31795
+      "sha256": "7d6d931c8afb59f8e1847af0c29cd19d45021e02aee9759ac17036d62a6b9e5e",
+      "bytes": 34036
     },
     {
       "path": "godot/t_rex-atlas-00.png",
-      "sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
-      "bytes": 1788964
+      "sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c",
+      "bytes": 1904505
     },
     {
       "path": "godot/t_rex.tres",
-      "sha256": "4c95e9d7a983cd42b7cb8ec7b3569451ee208371641a7d46e353964b699d73b9",
-      "bytes": 16452
+      "sha256": "ac6a3dd694127137d5e20dcec7b04614e964b4a2667b075a827f473dca1bf6c7",
+      "bytes": 17537
     },
     {
       "path": "godot/t_rex.tscn",
@@ -1463,6 +1559,31 @@
       "bytes": 3661
     },
     {
+      "path": "godot-sprite3d/frames/frame-073.png",
+      "sha256": "a450b5730829bdbb3a4dd294f4a5615a8f1b6ad64a0f15394743966238085544",
+      "bytes": 24722
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-074.png",
+      "sha256": "8601e2339477e84b91e74fd2dac1d62cbe368ee75af60acbc07be9b919058b89",
+      "bytes": 23628
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-075.png",
+      "sha256": "ee5a72682b442a4fae3fbc08f2602d5be8b14aa887b3025665ffe3ae4fa152a7",
+      "bytes": 20830
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-076.png",
+      "sha256": "21649b5bfc42e59fbf83c20b7a707981054d1d47bab026a6dbecffbc5805fedf",
+      "bytes": 23593
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-077.png",
+      "sha256": "b20c48b784e1f1aa4f9984135ea5ed6204e86009fd97283d0ca189f539f4a49f",
+      "bytes": 25402
+    },
+    {
       "path": "godot-sprite3d/action-idle.json",
       "sha256": "1a9ceb27dbfcdf6797b96a553a364fb073bdb04d5f341b115f675449e43ba487",
       "bytes": 1495
@@ -1508,9 +1629,14 @@
       "bytes": 1066
     },
     {
+      "path": "godot-sprite3d/action-turn.json",
+      "sha256": "a3233cb3e1234af68755b20cd0c6d58a5e51c5f6eff9d186213c275a223a277a",
+      "bytes": 1346
+    },
+    {
       "path": "godot-sprite3d/t_rex.tres",
-      "sha256": "87199763c4e97cbaeb13182dd6e978dedc8350ca85242fc7225efae5a5c82ebc",
-      "bytes": 10545
+      "sha256": "b6f7f5fe7d1b9f0329634e1b35477214e826e7c5651c56f31263b1fde3ff51d8",
+      "bytes": 11227
     },
     {
       "path": "godot-sprite3d/t_rex.tscn",
@@ -1519,8 +1645,8 @@
     },
     {
       "path": "godot-sprite3d/bundle.json",
-      "sha256": "0973ddbc793cf263d3e05de822190ccd6b118d8768fbf180ebd75de5494ec0c7",
-      "bytes": 1192
+      "sha256": "32b1ca3f84fed405c53b9c03c5182dc7117c02bba87b90c68c17be859bcb92a3",
+      "bytes": 1293
     }
   ],
   "qa": {
@@ -1537,7 +1663,7 @@
         "status": "pass",
         "value": {
           "pages": 1,
-          "frames": 73
+          "frames": 78
         },
         "threshold": null
       },
@@ -1551,35 +1677,35 @@
         "id": "godot_spriteframes_roundtrip",
         "status": "pass",
         "value": {
-          "animations": 9
+          "animations": 10
         },
         "threshold": null
       },
       {
         "id": "godot_spriteframes_duration_error_ms",
         "status": "pass",
-        "value": 1.4210854715202004e-14,
-        "threshold": 1e-06
+        "value": 0.6666666666666714,
+        "threshold": 1.0
       },
       {
         "id": "godot_sprite3d_frames_roundtrip",
         "status": "pass",
         "value": {
-          "animations": 9
+          "animations": 10
         },
         "threshold": null
       },
       {
         "id": "godot_sprite3d_frames_duration_error_ms",
         "status": "pass",
-        "value": 1.4210854715202004e-14,
-        "threshold": 1e-06
+        "value": 0.6666666666666714,
+        "threshold": 1.0
       },
       {
         "id": "sprite3d_paths_relative",
         "status": "pass",
         "value": {
-          "contracts": 9
+          "contracts": 10
         },
         "threshold": null
       },
@@ -1593,8 +1719,8 @@
         "id": "source_frame_hashes",
         "status": "pass",
         "value": {
-          "verified": 73,
-          "frames": 73
+          "verified": 78,
+          "frames": 78
         },
         "threshold": null
       }
@@ -1602,8 +1728,8 @@
     "inputs": [
       {
         "path": "../clips/animation-clips.json",
-        "sha256": "78a683fa464574bd23c3d43f244331ac006ef00328866deb4b1d5bc1b7d338d4",
-        "bytes": 129148
+        "sha256": "243cf0c12d254f5af984fa2e3e754d3223b9fa7fc86e03b16317e355fc32b7ea",
+        "bytes": 138746
       },
       {
         "path": "../clips/frames/frame-00.png",
@@ -1969,24 +2095,49 @@
         "path": "../clips/frames/frame-72.png",
         "sha256": "4f8bfed820ee34fba32a1bca889f2e333f9afbd9f5d2a163f07cd88397e4ec3b",
         "bytes": 3661
+      },
+      {
+        "path": "../clips/frames/frame-73.png",
+        "sha256": "a450b5730829bdbb3a4dd294f4a5615a8f1b6ad64a0f15394743966238085544",
+        "bytes": 24722
+      },
+      {
+        "path": "../clips/frames/frame-74.png",
+        "sha256": "8601e2339477e84b91e74fd2dac1d62cbe368ee75af60acbc07be9b919058b89",
+        "bytes": 23628
+      },
+      {
+        "path": "../clips/frames/frame-75.png",
+        "sha256": "ee5a72682b442a4fae3fbc08f2602d5be8b14aa887b3025665ffe3ae4fa152a7",
+        "bytes": 20830
+      },
+      {
+        "path": "../clips/frames/frame-76.png",
+        "sha256": "21649b5bfc42e59fbf83c20b7a707981054d1d47bab026a6dbecffbc5805fedf",
+        "bytes": 23593
+      },
+      {
+        "path": "../clips/frames/frame-77.png",
+        "sha256": "b20c48b784e1f1aa4f9984135ea5ed6204e86009fd97283d0ca189f539f4a49f",
+        "bytes": 25402
       }
     ],
     "outputs": [
       {
         "path": "aseprite/t_rex.png",
-        "sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7"
+        "sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c"
       },
       {
         "path": "aseprite/t_rex.json",
-        "sha256": "9466861cf86d8d31e78e9a1a78761fd2858eeb1268f1537189cddc5e21013b37"
+        "sha256": "7d6d931c8afb59f8e1847af0c29cd19d45021e02aee9759ac17036d62a6b9e5e"
       },
       {
         "path": "godot/t_rex-atlas-00.png",
-        "sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7"
+        "sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c"
       },
       {
         "path": "godot/t_rex.tres",
-        "sha256": "4c95e9d7a983cd42b7cb8ec7b3569451ee208371641a7d46e353964b699d73b9"
+        "sha256": "ac6a3dd694127137d5e20dcec7b04614e964b4a2667b075a827f473dca1bf6c7"
       },
       {
         "path": "godot/t_rex.tscn",
@@ -2285,6 +2436,26 @@
         "sha256": "4f8bfed820ee34fba32a1bca889f2e333f9afbd9f5d2a163f07cd88397e4ec3b"
       },
       {
+        "path": "godot-sprite3d/frames/frame-073.png",
+        "sha256": "a450b5730829bdbb3a4dd294f4a5615a8f1b6ad64a0f15394743966238085544"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-074.png",
+        "sha256": "8601e2339477e84b91e74fd2dac1d62cbe368ee75af60acbc07be9b919058b89"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-075.png",
+        "sha256": "ee5a72682b442a4fae3fbc08f2602d5be8b14aa887b3025665ffe3ae4fa152a7"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-076.png",
+        "sha256": "21649b5bfc42e59fbf83c20b7a707981054d1d47bab026a6dbecffbc5805fedf"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-077.png",
+        "sha256": "b20c48b784e1f1aa4f9984135ea5ed6204e86009fd97283d0ca189f539f4a49f"
+      },
+      {
         "path": "godot-sprite3d/action-idle.json",
         "sha256": "1a9ceb27dbfcdf6797b96a553a364fb073bdb04d5f341b115f675449e43ba487"
       },
@@ -2321,8 +2492,12 @@
         "sha256": "9377a5d2d4105c7da59a53b28702bbcf7c34681d5ba6395a09e26f4724f14d55"
       },
       {
+        "path": "godot-sprite3d/action-turn.json",
+        "sha256": "a3233cb3e1234af68755b20cd0c6d58a5e51c5f6eff9d186213c275a223a277a"
+      },
+      {
         "path": "godot-sprite3d/t_rex.tres",
-        "sha256": "87199763c4e97cbaeb13182dd6e978dedc8350ca85242fc7225efae5a5c82ebc"
+        "sha256": "b6f7f5fe7d1b9f0329634e1b35477214e826e7c5651c56f31263b1fde3ff51d8"
       },
       {
         "path": "godot-sprite3d/t_rex.tscn",
@@ -2330,7 +2505,7 @@
       },
       {
         "path": "godot-sprite3d/bundle.json",
-        "sha256": "0973ddbc793cf263d3e05de822190ccd6b118d8768fbf180ebd75de5494ec0c7"
+        "sha256": "32b1ca3f84fed405c53b9c03c5182dc7117c02bba87b90c68c17be859bcb92a3"
       }
     ],
     "tool": {
@@ -2343,6 +2518,7 @@
       "idle",
       "walk",
       "run",
+      "turn",
       "attack_light",
       "attack_heavy",
       "power_up",
@@ -2354,7 +2530,18 @@
     ],
     "locomotion": {
       "kind": "ground",
-      "clip": "walk"
+      "clip": "walk",
+      "patrol": {
+        "enabled": true,
+        "clip": "walk",
+        "speed_px_per_second": 68.571429,
+        "min_x": 80,
+        "max_x": 880,
+        "endpoint_turn_clip": "turn"
+      },
+      "default_scale": 1.75,
+      "screen_speed_px_per_second": 120,
+      "speed_px_per_second": 68.571429
     },
     "aura": {
       "loop_clip": null,
@@ -2379,23 +2566,23 @@
         0.0,
         0.0
       ]
-    }
-  },
-  "provenance": {
-    "motion": "imagegen_complete_body_keyframes",
-    "body_processing": "Complete pose style edit, hard alpha threshold128, whole-frame registration. Heavy uses one fixed242/384 nearest scale across all angles. No anatomical cut/warp.",
-    "canonical_identity": {
-      "reference": "work/characters/t_rex/walk-style-v4/walk-00-reference.png",
-      "sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
-      "owner_reference": "T-rex walk frame0",
-      "source_roles": "Walk0 alone determines identity, pixel detail and baked shading; other sheets are original pose-layout references."
     },
-    "owner_animation_approved": false,
-    "atlas_demo_only": false,
-    "baseline_atlas_sha256": "74393d80a74588ed5cce2189bf5d41976939bf633f99780fe0f6998e6498eacb",
-    "animation_constraint": "73 frames/9 clips; preserve all original tick/event/loop metadata and4 fireball PNGs. Heavy redesigned with crouch, pivot step, tail coil/lag and catch-step instead of upright rigid rotation.",
-    "owner_approved": true,
-    "owner_approval_file": "assets/t_rex/owner_approval.json",
-    "release_version": "0.6.0"
+    "turning": {
+      "clip": "turn",
+      "from": "right",
+      "to": "left",
+      "duration_ms": 350,
+      "duration_ticks": 21,
+      "ticks": [
+        6,
+        3,
+        3,
+        3,
+        6
+      ],
+      "method": "complete_perspective_poses",
+      "mirror_sequence_for_reverse": true,
+      "whole_body_rotation": true
+    }
   }
 }

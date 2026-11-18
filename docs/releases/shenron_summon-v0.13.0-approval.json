@@ -1,0 +1,11 @@
+{
+  "schema": "dr7-studio.ritual_approval_receipt.v1",
+  "status": "owner_approved",
+  "workflow_id": "PIPE-017",
+  "approved_at": "2026-11-15T12:36:59.698744+00:00",
+  "owner_message": "ok anh chốt combo gọi rồng thần này tiến hành chốt theo qui trình giúp anh nhé",
+  "release_version": "0.13.0",
+  "character_receipt": "assets/shenron/owner_approval.json",
+  "sequence_sha256": "70905d2edcdf94a3abdb2e791682a78cecb8dbd440e6e9026abd4054a297c542",
+  "atlas_sha256": "c82ec5e8460a2bf01ef515793e87cfdf2be96f448eeab1b914d9e9fec7215aba"
+}

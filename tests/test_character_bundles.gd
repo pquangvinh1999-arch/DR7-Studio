@@ -21,7 +21,7 @@ func _init() -> void:
 	var chars: Array = roster["characters"]
 	if chars.is_empty():
 		var fighter_script: GDScript = load("res://scenes/CharacterFighter2D.gd")
-		var anim_script: GDScript = load("res://tests/SkillAnimator2D.gd")
+		var anim_script: GDScript = load("res://scenes/SkillAnimator2D.gd")
 		if fighter_script == null or anim_script == null:
 			printerr("[FAIL] Không nạp được CharacterFighter2D.gd hoặc SkillAnimator2D.gd")
 			quit(1)
@@ -153,7 +153,10 @@ func _init() -> void:
 			if sf.has_animation(&"run") or prefab_inst.has_clip(&"run") or prefab_inst.play_clip(&"run"):
 				printerr("[FAIL] Owner-excluded run remains available")
 				failures += 1
-		if export_meta.get("render_contract", {}).has("turning"):
+		var turning_val = export_meta.get("render_contract", {}).get("turning", {})
+		var raw_turn_clip = turning_val.get("clip", "") if typeof(turning_val) == TYPE_DICTIONARY else ""
+		var has_turn_clip := typeof(raw_turn_clip) == TYPE_STRING and not str(raw_turn_clip).is_empty()
+		if has_turn_clip:
 			if not prefab_inst.set_facing_left(true) or prefab_inst.scale.x < 0.0:
 				printerr("[FAIL] Facing must start perspective turn without immediate flip")
 				failures += 1
@@ -169,6 +172,11 @@ func _init() -> void:
 				printerr("[FAIL] Reverse turn did not restore right facing")
 				failures += 1
 			print("[OK] Perspective facing transition commits after turn, both directions")
+		elif typeof(turning_val) == TYPE_DICTIONARY and str(turning_val.get("method", "")) == "instant_flip":
+			if not prefab_inst.set_facing_left(true) or not prefab_inst.set_facing_left(false):
+				printerr("[FAIL] Instant-flip facing toggle failed")
+				failures += 1
+			print("[OK] Instant-flip facing transition verified (%s)" % bid)
 		prefab_inst.free()
 
 	if failures > 0:

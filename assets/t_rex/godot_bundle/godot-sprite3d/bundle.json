@@ -50,6 +50,11 @@
       "contract": "action-fireball_fx.json",
       "loop": false,
       "clip": "fireball_fx"
+    },
+    "turn": {
+      "contract": "action-turn.json",
+      "loop": false,
+      "clip": "turn"
     }
   }
 }

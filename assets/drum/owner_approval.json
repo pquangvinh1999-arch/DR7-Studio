@@ -1,0 +1,149 @@
+{
+  "schema": "dr7-studio.owner_approval_receipt.v1",
+  "status": "owner_approved",
+  "workflow_id": "PIPE-019",
+  "character_id": "drum",
+  "display_name": "Drum (Ma Nhân GBA)",
+  "approved_at": "2026-11-15T16:51:40+00:00",
+  "owner_message": "ok drum đã chuẩn rồi | Owner 2026-11-15: tăng kích thước drum lên 2.5 là chuẩn kích thước chốt cho drum",
+  "approval_basis": "Owner verified Drum (PA-1 exact GBA sheet 18-color pixels, finalized 2.5x Nearest runtime scale -> 140x125px / 11.6% 1080p, screen speed 140 px/s = 56.0 * 2.5, walk v6 rebuilt from canonical idle_00 locking 1:1 size parity 55-57x50-51px with natural alternating light foot lift and short forward step, AI ambush teleport <=200px, continuous 0.2s attack_light <=50px, power_up + electric_orb_fx at 200..400px) and finalized 2.5x scale.",
+  "approved_revision": "walk-v6-scale-2.5x / v0.13.1",
+  "release_version": "0.13.1",
+  "atlas_path": "assets/drum/godot_bundle/godot/drum-atlas-00.png",
+  "atlas_sha256": "02b57b829ca4c5dd963249e82bfbf3ee8c900127ec9295dfd036685ece5bebea",
+  "tres_path": "assets/drum/godot_bundle/godot/drum.tres",
+  "tres_sha256": "c8060c07de81fe4ec01ed2fa1aacb7eddaa10bf7c890405d13b3cd3496bff43b",
+  "prefab_path": "scenes/Drum.tscn",
+  "prefab_sha256": "c0c1ba90a0f700c162d9841af059c8a057a6669fb0bf327ea49a0976d3768cb0",
+  "clips_manifest_path": "assets/drum/clips/animation-clips.json",
+  "clips_manifest_sha256": "02522e6feb43961ef23301ee4b9d3227030ad1d7ae7911db2380f66f247f7b22",
+  "engine_export_path": "assets/drum/godot_bundle/engine-export.json",
+  "engine_export_sha256": "16ee76601842e37fbf53d3a4acb8a87c415725ae1e290304dac688b2e81a885d",
+  "canonical_idle00": {
+    "path": "assets/drum/source/raw_frames/idle_00.png",
+    "sha256": "8bb5c3316ef207cc29c71d3edc7d7ccea75d5aceb1d57a27037f567a355ea9da"
+  },
+  "canvas_size_px": [
+    128,
+    96
+  ],
+  "foot_anchor_px": [
+    56,
+    84
+  ],
+  "body_only_bbox_px": {
+    "x": 31,
+    "y": 34,
+    "w": 56,
+    "h": 50
+  },
+  "full_fx_bbox_px": {
+    "x": 20,
+    "y": 18,
+    "w": 89,
+    "h": 66
+  },
+  "present_clips": [
+    "idle",
+    "walk",
+    "jump",
+    "teleport",
+    "attack_light",
+    "power_up",
+    "hit",
+    "ko",
+    "getup",
+    "electric_orb_fx",
+    "electric_ring_fx"
+  ],
+  "effect_clips": [
+    "electric_orb_fx",
+    "electric_ring_fx"
+  ],
+  "not_applicable_clips": {
+    "attack_heavy": "Owner merged Row 3 frames into power_up preparation phase (no separate attack_heavy).",
+    "run": "Owner chose H1 exact GBA sheet + teleport ambush (no separate run).",
+    "guard": "guard/win excluded project-wide per Owner rule.",
+    "aura_loop": "No continuous body aura in source sheet; independent electric orb & ring FX used on cast.",
+    "win": "guard/win excluded project-wide per Owner rule.",
+    "turn": "Owner chose H1 exact GBA sheet with instant horizontal flip."
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "jump",
+      "teleport",
+      "attack_light",
+      "power_up",
+      "hit",
+      "ko",
+      "getup"
+    ],
+    "effect_clips": [
+      "electric_orb_fx",
+      "electric_ring_fx"
+    ],
+    "locomotion": {
+      "kind": "ambush_teleport",
+      "clip": "walk",
+      "patrol": {
+        "enabled": false,
+        "clip": null,
+        "speed_px_per_second": 0.0
+      },
+      "default_scale": 2.5,
+      "speed_px_per_second": 56.0,
+      "screen_speed_px_per_second": 140
+    },
+    "facing": {
+      "camera_view": "side_view_2d",
+      "directions": [
+        "right",
+        "left"
+      ],
+      "default_facing": "right",
+      "owner_instruction": "GBA side-scroller profile facing right; instant flip toward target on ambush teleport & combo."
+    },
+    "turning": {
+      "clip": null,
+      "method": "instant_flip"
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": "electric_ring_fx",
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      64,
+      48
+    ],
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "electric_orb_fx",
+      "charge_clip": "electric_ring_fx",
+      "release_frame": 10,
+      "lifetime_ticks": 39,
+      "origin_canvas_px": [
+        98,
+        56
+      ],
+      "velocity_px_per_tick": [
+        12.0,
+        0.0
+      ],
+      "palette": "cyan"
+    }
+  },
+  "pixel_sharpness_metrics": {
+    "texel_scale_ratio": "Native 1px GBA source sheet (PA-1, 2.5x Nearest runtime scale)",
+    "edge_acutance_sobel": 392.542,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "opaque_key_px": 0,
+    "enclosed_key_pockets": 0,
+    "outer_ring_spill_fraction": 0.0,
+    "reference_note": "PA-1 exact GBA source pixels & 18-color palette preserved 100% verbatim; exact #9205A7 chroma key removal with zero blur, sharpening, or AI redraw."
+  }
+}

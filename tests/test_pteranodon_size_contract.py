@@ -7,12 +7,12 @@ def load(p):return json.loads((ROOT/p).read_text())
 class PteranodonSizeContract(unittest.TestCase):
  def test_runtime_matches_owner_approved_size_sample(self):
   live=Image.open(ROOT/'assets/pteranodon/clips/frames/frame-00.png').convert('RGBA')
-  sample=Image.open(ROOT/'work/reviews/character-size-v1/pteranodon-sample.png').convert('RGBA')
+  sample=Image.open(ROOT/'assets/pteranodon/source/master-sample.png').convert('RGBA')
   self.assertEqual(live.size,(384,256));self.assertEqual(live.tobytes(),sample.tobytes())
   b=live.getchannel('A').getbbox();self.assertEqual((b[2]-b[0],b[3]-b[1]),(157,107))
   self.assertEqual(set(live.getchannel('A').getextrema()),{0,255})
  def test_size_change_preserves_all_authored_action_timing(self):
-  old=load('work/characters/pteranodon/size-sync-v10/source/animation-clips.json')
+  old=load('docs/contracts/pteranodon/size-sync-v10-animation-clips.json')
   new=load('assets/pteranodon/clips/animation-clips.json')
   self.assertEqual(len(new['frames']),61);self.assertEqual(set(new['clips']),set(old['clips']));self.assertEqual(new['states'],old['states'])
   for name,c in new['clips'].items():

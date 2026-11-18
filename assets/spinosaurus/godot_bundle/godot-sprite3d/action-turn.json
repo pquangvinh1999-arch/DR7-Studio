@@ -20,8 +20,8 @@
   "scale_source": "Godot default pixel size",
   "billboard": "enabled",
   "texture_filter": "nearest",
-  "duration_ms": 83,
-  "fps": 12.012012012012011,
+  "duration_ms": 67,
+  "fps": 14.9812734082397,
   "frames": [
     "frames/frame-063.png",
     "frames/frame-064.png",
@@ -35,10 +35,10 @@
     "bf727a31fa23bda1d24941b39457de70db8215229ab57de817afc67f55c60448"
   ],
   "durations_ms": [
+    33,
     100,
-    67,
-    66,
-    100
+    84,
+    50
   ],
   "loop": false,
   "loop_policy": "oneshot",

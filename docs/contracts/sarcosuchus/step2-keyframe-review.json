@@ -1,0 +1,35 @@
+{
+  "status": "reviewed_pending_owner",
+  "method": "imagegen_complete_body_keyframes",
+  "atlas_sha256": "81595756c2d1d7d4ca7ddf530bb972eca8964427311db69a38905502fed2a959",
+  "previous_revision_atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+  "reviewed_at": "2026-11-14T09:26:26.764136+00:00",
+  "checks": {
+    "body_connections": true,
+    "whole_pose_sequence": true,
+    "perspective_turns": true,
+    "phase_timing": true,
+    "three_backgrounds": true,
+    "character_identity": true
+  },
+  "unresolved_structural_failures": [],
+  "naturalness_verdict": "reviewed_pending_owner",
+  "owner_approved": false,
+  "notes": "Step-2 visual fix: stabilize idle luminance (idle_00..11 + turn_00..03), ground hovering frames (idle_05..10, walk_07, hit_00..01, ko_00..06, turn_01/03) onto y=223, soften white toe confetti and plant dark sole contacts at y=223.",
+  "filmstrips_opened": [
+    "filmstrip-00.png",
+    "filmstrip-01.png",
+    "filmstrip-02.png",
+    "filmstrip-03.png",
+    "filmstrip-04.png",
+    "filmstrip-05.png",
+    "filmstrip-06.png",
+    "filmstrip-07.png",
+    "filmstrip-08.png"
+  ],
+  "backgrounds": [
+    "light",
+    "dark",
+    "checker"
+  ]
+}

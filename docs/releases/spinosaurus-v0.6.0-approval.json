@@ -1,0 +1,45 @@
+{
+  "schema": "dr7-studio.owner_approval_receipt.v1",
+  "status": "owner_approved",
+  "workflow_id": "PIPE-003",
+  "character_id": "spinosaurus",
+  "display_name": "Spinosaurus",
+  "approved_at": "2026-11-12T07:38:36.605057+00:00",
+  "owner_message": "ok anh thấy chuẩn rồi chốt 3 character theo qui trình rồi xóa những png không còn dùng theo qui định hiến pháp để giảm tải bộ nhớ repo sau đó push ver này lên main",
+  "approved_revision": "final-no-run",
+  "atlas_path": "assets/spinosaurus/godot_bundle/godot/spinosaurus-atlas-00.png",
+  "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+  "tres_path": "assets/spinosaurus/godot_bundle/godot/spinosaurus.tres",
+  "prefab_path": "scenes/Spinosaurus.tscn",
+  "canvas_size_px": [
+    384,
+    256
+  ],
+  "foot_anchor_px": [
+    176,
+    224
+  ],
+  "present_clips": [
+    "idle",
+    "walk",
+    "attack_light",
+    "attack_heavy",
+    "power_up",
+    "hit",
+    "ko",
+    "turn"
+  ],
+  "effect_clips": [
+    "fireball_fx"
+  ],
+  "excluded_clips": [
+    "run",
+    "jump",
+    "guard",
+    "aura_loop",
+    "win"
+  ],
+  "acceptance_scope": "Owner approves all remaining clips after excluding run. All71 retained frame PNG hashes and timing/events preserved against the human-tested candidate. Run revisions are not accepted or included.",
+  "qa_report": "docs/characters/spinosaurus-final-qa.json",
+  "release_version": "0.6.0"
+}

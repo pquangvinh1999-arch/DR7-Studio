@@ -1,21 +1,21 @@
 extends "res://scenes/CharacterFighter2D.gd"
-## Whole-body ground occlusion, target emergence, two red bolts and endpoint patrol.
+## Whole-body ground occlusion, target emergence, one growing mouth-condensing fireball and endpoint patrol.
 signal combat_hit(kind: String, amount: int, target: Vector2)
 
 var contract: Dictionary = {}
 var creature: Dictionary = {}
 var anchor := Vector2(176, 224)
 var pivot := Vector2(176, 128)
+@export var burrow_dust_scale: float = 2.65
 var dust_sprite: AnimatedSprite2D
-var glows: Array[AnimatedSprite2D] = []
-var lasers: Array[AnimatedSprite2D] = []
+var fireball_sprite: AnimatedSprite2D
 var target_ground_global := Vector2.ZERO
 var target_override := false
 var action_origin_global := Vector2.ZERO
 var action_target_canvas := Vector2(304, 224)
 var action_facing := 1.0
 var bite_emitted := false
-var laser_emitted := [false, false]
+var fireball_emitted := false
 var patrol_running := false
 var patrol_min_x := 80.0
 var patrol_max_x := 880.0
@@ -28,12 +28,18 @@ func _ready() -> void:
 	anchor = _vec(creature.get("anchor_px", [176, 224]))
 	pivot = _vec(contract.get("fx_pivot_px", [176, 128]))
 	dust_sprite = get_node("DustFX") as AnimatedSprite2D
-	glows = [get_node("Glow0") as AnimatedSprite2D, get_node("Glow1") as AnimatedSprite2D]
-	lasers = [get_node("Laser0") as AnimatedSprite2D, get_node("Laser1") as AnimatedSprite2D]
+	fireball_sprite = get_node("FireballFX") as AnimatedSprite2D
 	var mat := ShaderMaterial.new()
 	mat.shader = preload("res://scenes/ChilopodaGroundClip.gdshader")
 	sprite.material = mat
 	action_origin_global = global_position
+	var stage_path := "res://assets/maps/rocky_plateau/arena-stage.json"
+	if FileAccess.file_exists(stage_path):
+		var stage_meta = JSON.parse_string(FileAccess.get_file_as_string(stage_path))
+		if stage_meta is Dictionary:
+			var gp = stage_meta.get("gameplay", {})
+			if gp is Dictionary and gp.has("burrow_dust_scale_default"):
+				burrow_dust_scale = clampf(float(gp["burrow_dust_scale_default"]), 1.0, 4.0)
 	_hide_fx()
 
 func _vec(value: Array) -> Vector2:
@@ -48,7 +54,7 @@ func _capture_action() -> void:
 	action_facing = -1.0 if scale.x < 0.0 else 1.0
 	action_target_canvas = to_local(target_ground_global) + anchor if target_override else _vec(creature.get("target_ground_canvas_px", [304, 224]))
 	bite_emitted = false
-	laser_emitted = [false, false]
+	fireball_emitted = false
 
 func play_clip(clip_name: StringName) -> bool:
 	if _turn_pending and clip_name != _turn_clip:
@@ -67,8 +73,8 @@ func play_clip(clip_name: StringName) -> bool:
 func _hide_fx() -> void:
 	if dust_sprite != null:
 		dust_sprite.visible = false
-	for node in glows + lasers:
-		node.visible = false
+	if fireball_sprite != null:
+		fireball_sprite.visible = false
 
 func _frame_at_tick(clip: StringName, tick: float) -> int:
 	var count := sprite.sprite_frames.get_frame_count(clip)
@@ -80,12 +86,21 @@ func _frame_at_tick(clip: StringName, tick: float) -> int:
 	return maxi(0, count - 1)
 
 func _fx(node: AnimatedSprite2D, clip: StringName, tick: float, point: Vector2, angle := 0.0) -> void:
+	_fx_frame(node, clip, _frame_at_tick(clip, tick), point, angle)
+
+func _fx_frame(node: AnimatedSprite2D, clip: StringName, frame_idx: int, point: Vector2, angle := 0.0) -> void:
+	if node == null or node.sprite_frames == null:
+		return
+	var count := node.sprite_frames.get_frame_count(clip)
+	if count <= 0:
+		return
 	node.stop()
 	node.animation = clip
-	node.frame = _frame_at_tick(clip, tick)
+	node.frame = clampi(frame_idx, 0, count - 1)
 	node.offset = -pivot
 	node.position = point - anchor
 	node.rotation = angle
+	node.scale = Vector2(burrow_dust_scale, burrow_dust_scale) if node == dust_sprite else Vector2.ONE
 	node.visible = true
 
 func _process(_dt: float) -> void:
@@ -115,8 +130,8 @@ func render_action_tick(clip: String, tick: float) -> void:
 		if tick >= float(turn["hidden_start_tick"]) and _turn_pending:
 			scale.x = -absf(scale.x) if _turn_target_left else absf(scale.x)
 		_render_burrow(tick, turn)
-	elif clip == String(creature["laser"]["body_clip"]):
-		_render_laser(tick)
+	elif creature.has("fireball") and clip == String(creature["fireball"]["body_clip"]):
+		_render_fireball(tick)
 
 func _render_burrow(tick: float, b: Dictionary = {}) -> void:
 	if b.is_empty():
@@ -150,27 +165,38 @@ func _render_burrow(tick: float, b: Dictionary = {}) -> void:
 		bite_emitted = true
 		combat_hit.emit("burrow_bite", 120, to_global(action_target_canvas - anchor - Vector2(dx, 0)))
 
-func _render_laser(tick: float) -> void:
-	var l: Dictionary = creature["laser"]
-	var frame := _frame_at_tick(StringName(l["body_clip"]), tick)
-	if tick < float(l["glow_end_tick"]):
-		var phase := mini(3, int(tick/4.0)) if tick < float(l["release_tick"]) else mini(5, 4+int((tick-float(l["release_tick"]))/4.0))
-		for i in range(2):
-			_fx(glows[i], StringName(l["glow_clip"]), float(phase*2), _vec(l["tip_anchors_by_frame"][frame][i]))
-	if tick < float(l["release_tick"]):
+func _render_fireball(tick: float) -> void:
+	var f: Dictionary = creature["fireball"]
+	var frame := _frame_at_tick(StringName(f["body_clip"]), tick)
+	var charge_frames: Array = f.get("charge_frames", [0, 1, 2])
+	var release_tick := float(f.get("release_tick", 16.0))
+	var mouth_anchors: Array = f.get("mouth_anchors_by_frame", [])
+	if mouth_anchors.is_empty():
 		return
+	if tick < release_tick:
+		var charge_pos: Vector2 = _vec(mouth_anchors[mini(frame, mouth_anchors.size() - 1)])
+		var charge_idx := int(charge_frames[mini(frame, charge_frames.size() - 1)])
+		_fx_frame(fireball_sprite, StringName(f["projectile_clip"]), charge_idx, charge_pos)
+		return
+	var release_frame := mini(int(f.get("release_frame", 3)), mouth_anchors.size() - 1)
+	var origin: Vector2 = _vec(mouth_anchors[release_frame])
 	var target := action_target_canvas - Vector2(0, float(creature["target_hit_height_px"]))
-	for i in range(2):
-		var origin := _vec(l["tip_anchors_by_frame"][int(l["release_frame"])][i])
-		var delta := target - origin
-		var elapsed := tick - float(l["release_tick"])
-		var arrival := float(l["release_tick"]) + maxf(0.0, (delta.length()-float(l["target_radius_px"]))/float(l["speed_px_per_tick"]))
-		if tick < arrival:
-			var point := origin + delta.normalized() * float(l["speed_px_per_tick"]) * elapsed
-			_fx(lasers[i], StringName(l["projectile_clip"]), fmod(elapsed, 4.0), point, delta.angle())
-		elif not laser_emitted[i]:
-			laser_emitted[i] = true
-			combat_hit.emit("red_laser_%d" % i, 125, to_global(target-anchor))
+	var delta := target - origin
+	var min_ticks := float(f.get("min_flight_ticks", 14.0))
+	var max_ticks := float(f.get("max_flight_ticks", 25.5))
+	var speed := maxf(1.0, float(f.get("speed_px_per_tick", 26.0)))
+	var raw_ticks := maxf(0.0, (delta.length() - float(f.get("target_radius_px", 2.0))) / speed)
+	var flight_ticks := clampf(maxf(min_ticks, raw_ticks), min_ticks, max_ticks)
+	var elapsed := tick - release_tick
+	if elapsed < flight_ticks:
+		var t := clampf(elapsed / maxf(1.0, flight_ticks), 0.0, 1.0)
+		var point := origin.lerp(target, t)
+		var flight_frames: Array = f.get("flight_frames", [3, 4, 5, 6, 7, 8, 9])
+		var idx := mini(flight_frames.size() - 1, int(floor(t * float(flight_frames.size()))))
+		_fx_frame(fireball_sprite, StringName(f["projectile_clip"]), int(flight_frames[idx]), point, delta.angle())
+	elif not fireball_emitted:
+		fireball_emitted = true
+		combat_hit.emit("fireball", 250, to_global(target - anchor))
 
 func start_patrol(minimum_x: float, maximum_x: float) -> void:
 	patrol_min_x = minimum_x
@@ -185,7 +211,9 @@ func advance_patrol(dt: float) -> void:
 	if not patrol_running or _turn_pending:
 		return
 	var direction := -1.0 if scale.x < 0.0 else 1.0
-	var speed := float(contract["locomotion"]["patrol"]["speed_px_per_second"])
+	var loc: Dictionary = contract.get("locomotion", {})
+	var patrol_cfg: Dictionary = loc.get("patrol", {})
+	var speed := float(loc.get("speed_px_per_second", patrol_cfg.get("speed_px_per_second", 103.703704)))
 	global_position.x = clampf(global_position.x + direction*speed*dt, patrol_min_x, patrol_max_x)
 	if direction > 0.0 and global_position.x >= patrol_max_x:
 		set_facing_left(true)

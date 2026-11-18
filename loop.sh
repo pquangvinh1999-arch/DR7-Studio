@@ -84,7 +84,9 @@ print("======================================================================")
 print(f"• Mục tiêu dự án : {proj['name']} | Mobile: {', '.join(proj['target_platforms'])}")
 print(f"• Hiệu năng      : {proj.get('performance_target', '60 FPS @ >2,000 real-time combat users')}")
 print(f"• Backend        : {proj['backend']}")
-print(f"• Engine         : [{proj['engine_evaluation']['status']}] {', '.join(proj['engine_evaluation']['candidates'])}")
+ee = proj['engine_evaluation']
+ee_parts = ee.get('candidates') or [x for x in (ee.get('phase_1'), ee.get('phase_2')) if x]
+print(f"• Engine         : [{ee['status']}] {' | '.join(ee_parts)}")
 print(f"• Task hiện tại  : {cf['active_task_id']} [{cf['status']}]")
 print(f"  -> {cf['summary']}")
 print(f"• Open Issues    : {len(st.get('open_issues', []))} vấn đề đang mở trong state.json")
@@ -265,6 +267,32 @@ print(f"[OK] Đã ghi nhận {tid} [{tstatus}] vào state.json lúc {now_iso}")
 PY
     ;;
 
+  web-export)
+    mkdir -p "$ROOT_DIR/build/web"
+    echo "[loop.sh] Importing & exporting Godot 4.7.2 Web (Compatibility)..."
+    "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --editor --import >/dev/null
+    "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --export-release "Web" "$ROOT_DIR/build/web/index.html"
+    python3 - "$ROOT_DIR/build/web/index.html" <<'PY'
+from pathlib import Path
+import sys
+
+shell = Path(sys.argv[1])
+html = shell.read_text(encoding="utf-8")
+needle = "#canvas {\n\tdisplay: block;\n}"
+assert needle in html, "Godot Web canvas CSS marker missing"
+shell.write_text(html.replace(needle, "#canvas {\n\tdisplay: block;\n\timage-rendering: pixelated;\n}", 1), encoding="utf-8")
+PY
+    echo "[OK] Godot Web export sẵn sàng tại build/web/index.html"
+    ;;
+
+  apk-debug)
+    mkdir -p "$ROOT_DIR/build/android"
+    echo "[loop.sh] Importing & exporting Godot 4.7.2 Android Debug APK..."
+    "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --editor --import >/dev/null
+    "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --export-debug "Android" "$ROOT_DIR/build/android/dr7-studio-debug.apk"
+    echo "[OK] Android APK xuất xong tại build/android/dr7-studio-debug.apk"
+    ;;
+
   test)
     "$ROOT_DIR/loop.sh" check
     echo "[loop.sh] Đang chạy Python Unit Tests..."
@@ -276,17 +304,28 @@ PY
       "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --script res://tests/test_sarcosuchus_charge.gd
       "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --script res://tests/test_dilophosaurus_power.gd
       "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --script res://tests/test_bat_sonic.gd
+      "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --script res://tests/test_bat_turn.gd
+      "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --script res://tests/test_trex_turn.gd
       "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --script res://tests/test_chilopoda_actions.gd
+      "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --script res://tests/test_arena_sandbox.gd
+      "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --script res://tests/test_floating_camera_actions.gd
+      "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --script res://tests/test_shenron_summon.gd
+      "$ROOT_DIR/tools/godot/godot" --headless --path "$ROOT_DIR" --script res://tests/test_dragon_ball_items.gd
+      if command -v xvfb-run >/dev/null 2>&1; then
+        echo "[loop.sh] Đang chạy Godot Compatibility Shader GPU Tests (opengl3)..."
+        xvfb-run -a "$ROOT_DIR/tools/godot/godot" --rendering-driver opengl3 --path "$ROOT_DIR" --script res://tests/test_compatibility_shaders.gd
+        xvfb-run -a "$ROOT_DIR/tools/godot/godot" --rendering-driver opengl3 --path "$ROOT_DIR" --script res://tests/test_shenron_dissolve_render.gd
+      fi
     fi
     if [ -f "$ROOT_DIR/engines/rust_combat_sim/Cargo.toml" ] && command -v cargo >/dev/null 2>&1; then
       echo "[loop.sh] Đang chạy Rust 1.99.1 Real-Time >2,000 Combat Engine Unit Tests..."
       cargo test --manifest-path "$ROOT_DIR/engines/rust_combat_sim/Cargo.toml"
     fi
-    echo "[OK] Kiểm thử kỹ thuật './loop.sh test' (Governance + Python + Godot 4 + Rust) exit 0. Nghiệm thu chuyển động theo motion_quality và Owner Human Test riêng."
+    echo "[OK] Kiểm thử kỹ thuật './loop.sh test' (Governance + Python + Godot 4 + Shaders + Rust) exit 0. Nghiệm thu chuyển động theo motion_quality và Owner Human Test riêng."
     ;;
 
   *)
-    echo "Cách dùng: ./loop.sh {status|check|test|log-task <ID> <status> <summary>|--agy-session-start}" >&2
+    echo "Cách dùng: ./loop.sh {status|check|test|web-export|apk-debug|log-task <ID> <status> <summary>|--agy-session-start}" >&2
     exit 1
     ;;
 esac

@@ -1,0 +1,158 @@
+{
+  "status": "reviewed_pending_owner",
+  "method": "existing_complete_source_frames",
+  "atlas_sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e",
+  "previous_revision_atlas_sha256": "5e37c84475badd57382880395f177f97159db8796f4009f2f3928a96c3ca196d",
+  "reviewed_at": "2026-11-15T05:24:42.044574+00:00",
+  "checks": {
+    "body_connections": true,
+    "whole_pose_sequence": true,
+    "perspective_turns": true,
+    "phase_timing": true,
+    "three_backgrounds": true,
+    "character_identity": true
+  },
+  "unresolved_structural_failures": [],
+  "naturalness_verdict": "reviewed_pending_owner",
+  "owner_approved": false,
+  "notes": "Walk-edge-uniform-v1: kept idle, walk_01..06, attack_*, power_up, hit, ko, turn, fireball_fx (69/71 PNGs) byte-identical to calibration-v1 (speed 170 px/s); rebuilt ONLY walk_00 & walk_07 from 887x887 walk-seam-v6 source via single Nearest resize (thr=224, h=74, area=4542/4564px, ground=224, torso_x spread=0.75px) to eliminate end-of-loop bloat.",
+  "walk_report": {
+    "frames": [
+      {
+        "index": 0,
+        "w": 168,
+        "h": 74,
+        "bottom": 224,
+        "area": 4542,
+        "torso_x": 186.14,
+        "eye_px": 2
+      },
+      {
+        "index": 1,
+        "w": 177,
+        "h": 72,
+        "bottom": 224,
+        "area": 4592,
+        "torso_x": 186.07,
+        "eye_px": 2
+      },
+      {
+        "index": 2,
+        "w": 177,
+        "h": 73,
+        "bottom": 224,
+        "area": 4538,
+        "torso_x": 186.03,
+        "eye_px": 3
+      },
+      {
+        "index": 3,
+        "w": 177,
+        "h": 73,
+        "bottom": 224,
+        "area": 4604,
+        "torso_x": 185.6,
+        "eye_px": 1
+      },
+      {
+        "index": 4,
+        "w": 179,
+        "h": 76,
+        "bottom": 224,
+        "area": 4627,
+        "torso_x": 186.15,
+        "eye_px": 2
+      },
+      {
+        "index": 5,
+        "w": 179,
+        "h": 73,
+        "bottom": 224,
+        "area": 4502,
+        "torso_x": 186.06,
+        "eye_px": 1
+      },
+      {
+        "index": 6,
+        "w": 179,
+        "h": 72,
+        "bottom": 224,
+        "area": 4624,
+        "torso_x": 185.4,
+        "eye_px": 1
+      },
+      {
+        "index": 7,
+        "w": 167,
+        "h": 74,
+        "bottom": 224,
+        "area": 4564,
+        "torso_x": 185.6,
+        "eye_px": 1
+      }
+    ],
+    "torso_x_spread_px": 0.752
+  },
+  "walk_00_sharpness": {
+    "file": "/workspaces/DR7-Studio/assets/spinosaurus/clips/frames/frame-12.png",
+    "file_sha256": "9eae6d24a6e2c145eaa42c0610a3af2a3f01e5671c55974751c7e080bce59eca",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      91,
+      150,
+      168,
+      74
+    ],
+    "visible_pixels": 4542,
+    "rgb_colors": 2297,
+    "edge_acutance_sobel": 248.324,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9718245853215178,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  "walk_07_sharpness": {
+    "file": "/workspaces/DR7-Studio/assets/spinosaurus/clips/frames/frame-19.png",
+    "file_sha256": "49773210fb7dc8adf3dabf3fc711a1046859963ca1efbe868b3633debca5a496",
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "body_bbox_px": [
+      91,
+      150,
+      167,
+      74
+    ],
+    "visible_pixels": 4564,
+    "rgb_colors": 2291,
+    "edge_acutance_sobel": 247.665,
+    "alpha_hardness_pct": 100.0,
+    "visible_alpha_hardness_pct": 100.0,
+    "minimum_horizontal_constant_rgba_run_px": 1,
+    "single_pixel_run_fraction": 0.9729058478211786,
+    "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+    "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+  },
+  "filmstrips_opened": [
+    "filmstrip-00.png",
+    "filmstrip-01.png",
+    "filmstrip-02.png",
+    "filmstrip-03.png",
+    "filmstrip-04.png",
+    "filmstrip-05.png",
+    "filmstrip-06.png",
+    "filmstrip-07.png",
+    "filmstrip-08.png"
+  ],
+  "backgrounds": [
+    "light",
+    "dark",
+    "checker"
+  ]
+}

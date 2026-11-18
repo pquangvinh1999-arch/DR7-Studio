@@ -1,0 +1,71 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "attack_light",
+  "frame_size": [
+    128,
+    96
+  ],
+  "output_origin": [
+    56.0,
+    84.0
+  ],
+  "sprite3d_offset": [
+    8.0,
+    36.0
+  ],
+  "reference_subject_height_px": 50.0,
+  "world_height": 0.5,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.5,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 67,
+  "fps": 15.0,
+  "frames": [
+    "frames/frame-010.png",
+    "frames/frame-011.png",
+    "frames/frame-012.png",
+    "frames/frame-013.png",
+    "frames/frame-014.png",
+    "frames/frame-015.png"
+  ],
+  "frame_sha256": [
+    "c2c9b85be7c464a3c7c3d9f1008caa3c7fc25036a41519b4fd3c2433496244ad",
+    "691bb23299cf7599829a16dcc7e941da07b536911a9ccfb785eb7f1fbdccc6fa",
+    "a7a58b06a808e8f88b2d484b054feabb23aaec0ada557eee784d55139eac024e",
+    "a73a38fc03d448a1ab874007b960620cb7e42c812ee17473f53b4734c8ae0a56",
+    "5b04677c14e8e6cc887b54902ad9252494c817de30841e6a1fdeb56baa969acb",
+    "bdf07e875aafc6746520e759db5a5b1c34a8c9c7e5e4892dd8a3829d8851e34e"
+  ],
+  "durations_ms": [
+    83,
+    67,
+    50,
+    50,
+    67,
+    83
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": [
+    {
+      "name": "tell",
+      "at_ms": 0,
+      "at": 0,
+      "position": 0
+    },
+    {
+      "name": "hit",
+      "at_ms": 200,
+      "at": 3,
+      "position": 3
+    },
+    {
+      "name": "end",
+      "at_ms": 317,
+      "at": 5,
+      "position": 5
+    }
+  ]
+}

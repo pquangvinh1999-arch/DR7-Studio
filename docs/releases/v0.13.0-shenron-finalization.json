@@ -1,0 +1,50 @@
+{
+  "schema": "dr7-studio.release_finalization.v1",
+  "release_version": "0.13.0",
+  "approved_at": "2026-11-15T12:36:59.698744+00:00",
+  "owner_message": "ok anh chốt combo gọi rồng thần này tiến hành chốt theo qui trình giúp anh nhé",
+  "workflow_id": "PIPE-017",
+  "status": "completed",
+  "owner_approval_file": "assets/shenron/owner_approval.json",
+  "ritual_approval_file": "assets/rituals/shenron_summon/owner_approval.json",
+  "runtime_files_frozen": 48,
+  "atlas_sha256": "e94502bbed02ed036f66aa8a5a3dcbf42f111898b3c83deb90b0a4c0669688b2",
+  "ritual_atlas_sha256": "c82ec5e8460a2bf01ef515793e87cfdf2be96f448eeab1b914d9e9fec7215aba",
+  "technical_log": "docs/releases/v0.13.0-shenron-tests.log",
+  "finalized_at": "2026-11-15T12:38:08.860876+00:00",
+  "technical_checks": {
+    "command": "./loop.sh test",
+    "exit_code": 0,
+    "log": "docs/releases/v0.13.0-shenron-tests.log"
+  },
+  "wasm_build": {
+    "exit_code": 0,
+    "log": "docs/releases/v0.13.0-shenron-wasm.log"
+  },
+  "runtime_sha_verified_files": 48,
+  "localhost_parity": {
+    "ritual": {
+      "http_status": 200,
+      "sha256": "c82ec5e8460a2bf01ef515793e87cfdf2be96f448eeab1b914d9e9fec7215aba"
+    },
+    "body": {
+      "http_status": 200,
+      "sha256": "e94502bbed02ed036f66aa8a5a3dcbf42f111898b3c83deb90b0a4c0669688b2"
+    },
+    "wasm": {
+      "http_status": 200,
+      "sha256": "4fc2ba22ff15bcddb35b4345770d9399b997a5387fc8c074d587001c356f5d8b"
+    }
+  },
+  "warnings": [
+    "[WARN] Nhân vật 'chilopoda' hiện có 7 hoạt ảnh (idle, walk, turn, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'bat_chiroptera' hiện có 9 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko, sonic_screech_fx, turn); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'spinosaurus' hiện có 8 hoạt ảnh (idle, walk, attack_light, attack_heavy, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 't_rex' hiện có 9 hoạt ảnh (idle, walk, run, turn, attack_light, attack_heavy, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, aura_loop, win.",
+    "[WARN] Nhân vật 'pteranodon' hiện có 7 hoạt ảnh (idle, walk, run, attack_light, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'tasmanian_king_crab' hiện có 6 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'sarcosuchus' hiện có 7 hoạt ảnh (idle, walk, attack_nomal, power_up, hit, ko, turn); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_light, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_light, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'dilophosaurus' hiện có 7 hoạt ảnh (idle, walk, attack_light, hit, ko, turn, power_up); thiếu các clip tham chiếu tạm thời: run, jump, guard, attack_heavy, aura_loop, win. Owner đã loại riêng nhân vật: run, jump, guard, attack_heavy, aura_loop, win.",
+    "[WARN] Nhân vật 'shenron' hiện có 1 hoạt ảnh (idle); thiếu các clip tham chiếu tạm thời: walk, run, jump, guard, attack_light, attack_heavy, power_up, aura_loop, hit, ko, win, turn. Owner đã loại riêng nhân vật: walk, run, jump, guard, attack_light, attack_heavy, power_up, aura_loop, hit, ko, win, turn."
+  ]
+}

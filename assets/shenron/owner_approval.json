@@ -1,0 +1,175 @@
+{
+  "schema": "dr7-studio.owner_approval_receipt.v1",
+  "status": "owner_approved",
+  "workflow_id": "PIPE-018",
+  "character_id": "shenron",
+  "display_name": "Shenron",
+  "approved_at": "2026-11-15T13:11:10+00:00",
+  "owner_message": "ok tiếp tục chốt kết quả này giúp anh theo quy trình rồi push lên main",
+  "approval_basis": "Owner approved v3-pixel-dissolve reveal after Godot OpenGL3 shader, Rust/WASM and localhost Canvas2D 1:1 verification.",
+  "approved_revision": "idle-v5-hover + summon-v3-pixel-dissolve",
+  "release_version": "0.13.1",
+  "approval_scope": "Eight approved whole wave poses with whole-body vertical hover (scale 2.76) preserved; seven numbered flights, two full-screen flashes, native 144x136 ground cluster and persistent aura preserved; Shenron post-summon reveal switched to deterministic 96x68 (4x4 cell) pixel_dissolve synced 1:1 between Godot OpenGL3 shader and Browser Canvas2D.",
+  "canvas_size_px": [
+    384,
+    272
+  ],
+  "foot_anchor_px": [
+    192,
+    240
+  ],
+  "body_only_bbox_px": {
+    "x": 45,
+    "y": 27,
+    "w": 294,
+    "h": 201
+  },
+  "full_fx_bbox_px": {
+    "x": 43,
+    "y": 25,
+    "w": 299,
+    "h": 235
+  },
+  "present_clips": [
+    "idle"
+  ],
+  "effect_clips": [],
+  "excluded_clips": [
+    "walk",
+    "run",
+    "jump",
+    "guard",
+    "attack_light",
+    "attack_heavy",
+    "power_up",
+    "aura_loop",
+    "hit",
+    "ko",
+    "win",
+    "turn"
+  ],
+  "render_contract": {
+    "body_clips": [
+      "idle"
+    ],
+    "effect_clips": [],
+    "locomotion": {
+      "kind": "stationary",
+      "clip": "idle",
+      "speed_px_per_second": 0.0,
+      "default_scale": 2.76,
+      "allow_turn_or_flip": false,
+      "lock_spawn_facing": true
+    },
+    "facing": {
+      "camera_view": "front_only",
+      "directions": [
+        "front"
+      ],
+      "owner_instruction": "Owner selected front_only idle-only; no movement, turn or mirror."
+    },
+    "turning": {
+      "clip": null,
+      "method": "not_applicable_stationary_front"
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": null,
+      "independent_clock": true
+    },
+    "projectile": null,
+    "idle_wave": {
+      "clip": "idle",
+      "pose_count": 8,
+      "cycle_ticks": 96,
+      "tick_hz": 60,
+      "tail": "traveling_S_wave_screen_left_and_right",
+      "whiskers": "traveling_S_bends_from_muzzle_to_tips",
+      "master_frame0": "original pixels preserved with16px transparent bottom padding",
+      "breathing": "whole-body hovering; integer dy=[0,-1,-2,-1,0,1,2,1] over96ticks; approved tail/whisker pixels unchanged within each whole pose"
+    }
+  },
+  "canonical_identity": {
+    "path": "assets/shenron/source/master.png",
+    "sha256": "7d32a92302b9af7a4286d8c11f07222d2874c555e3fa51c5f1738e0af87e0526"
+  },
+  "qa_report": "docs/characters/shenron-idle-v5-hover-qa.json",
+  "summon_qa_report": "docs/characters/shenron-summon-v3-qa.json",
+  "frozen_source": "assets/shenron/clips/animation-clips.json",
+  "frozen_ritual": "assets/rituals/shenron_summon",
+  "approved_runtime_files_sha256": {
+    "assets/rituals/shenron_summon/atlas.png": "c82ec5e8460a2bf01ef515793e87cfdf2be96f448eeab1b914d9e9fec7215aba",
+    "assets/rituals/shenron_summon/core.png": "586b1c3a6467cd99653efab6834e1e3f486bd759aba92940a5bd97dc9dbfee70",
+    "assets/rituals/shenron_summon/dissolve-threshold.png": "fbede0b918a87743dac48c8e97abc3a6a32fbd4af30fcf2bdf33e052d790800f",
+    "assets/rituals/shenron_summon/glow.png": "304fd167cf30828ce88337fc0d10f6b4a89ce59651c34a0d7cec2af48960f2d3",
+    "assets/rituals/shenron_summon/ground-cluster.png": "b083670c97ea0eff71d3b4588ef79283ad1428b0297d7f0713d3cdb2a258ff8d",
+    "assets/rituals/shenron_summon/items/dragon-ball-01.png": "f1c157beed5f7d1863e467537ed1745b6f842c61aa14be12d635075df9768c91",
+    "assets/rituals/shenron_summon/items/dragon-ball-02.png": "87c95359a7c5e54dce6705b0781c439dd874addc5d27f983d8ff542ee33b89c2",
+    "assets/rituals/shenron_summon/items/dragon-ball-03.png": "8b9f9a3caedbc819cf9bb4be18f860f5657950ff8ac095c4d6ed4932031832b1",
+    "assets/rituals/shenron_summon/items/dragon-ball-04.png": "f019865fd04489a4e35ea8592000683d08af6917197053bce906536d9dfe2d10",
+    "assets/rituals/shenron_summon/items/dragon-ball-05.png": "b6f0335445f81091c95050549e8570b659fbf2038a409818d6e2b56798d15b92",
+    "assets/rituals/shenron_summon/items/dragon-ball-06.png": "ecb0ca354cd1e47dc711472b5df6353057b3221544c19a8e24ee312e3f2eb188",
+    "assets/rituals/shenron_summon/items/dragon-ball-07.png": "0d08d45076739d9916b3ebb7a0705aa36e8675056cca58eae2f349bd9297d93c",
+    "assets/rituals/shenron_summon/sequence.json": "1ff98d260c7fc96e8c8b2314aa9b44fff85af025e38bcab85b685e279fb8fd5f",
+    "assets/shenron/clips/.gdignore": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "assets/shenron/clips/animation-clips.json": "abdc63df15b1455bd70913e824d65ab61116157a2291fce75c40c9d58a0c082d",
+    "assets/shenron/clips/clips/clip-00.webp": "464921315874422e8d95c45c6ee85bce3a63fe5da4efb5506a6f374d4f1b3727",
+    "assets/shenron/clips/contact-sheet.png": "5780c8308627339db2b76108b253349846ee960197d3f31b906e4908f49305e0",
+    "assets/shenron/clips/frames/frame-00.png": "08ace1e7362bfa65902e36ace917330e931ef66ab44ba5b611b1f31443f483ca",
+    "assets/shenron/clips/frames/frame-01.png": "a552f314f0d848770891e33df02595834ccce11f0ac782cd72922d5698e75309",
+    "assets/shenron/clips/frames/frame-02.png": "4659a4bf3111ca4e3973b559af0578d47581a1d6339020ae96f4aab06ce40546",
+    "assets/shenron/clips/frames/frame-03.png": "8356ea6626bd3b821a9dfe3395cbf7379f15dd6b4f0109579cc915bb2e11d9ee",
+    "assets/shenron/clips/frames/frame-04.png": "287fea4e8a27ab19455452a5030b0b23bc275ac1cdee0506dc8090b570cf0467",
+    "assets/shenron/clips/frames/frame-05.png": "1e8e7f940efc5baf9d4846001a812b6f815150d4ad24054790829d5173aaa688",
+    "assets/shenron/clips/frames/frame-06.png": "065240a6137c1a2faf2bda4a73477ab2cc31d5e430250a5f831586dbe8230d7d",
+    "assets/shenron/clips/frames/frame-07.png": "37515519a7fffdd269b89abd9b836f56014bb921dfb3e33c1d4ed34bd83fb746",
+    "assets/shenron/clips/review/filmstrip-00.png": "4f16dedf5d257beec0a12f3e42fc93d1c83ec0ce493aed66eec4ff4ffbeb7ba6",
+    "assets/shenron/clips/review/onion-00.png": "61ed7adc72aa84bd6d09a79578300203418edcb7a3d68bcf7d49590067ddc12f",
+    "assets/shenron/clips/review/turn-test.png": "1cc85a075a2480236a97c32a64fd8568a59498a4542f4eafed8bb4fe46bbe3dd",
+    "assets/shenron/clips/source-manifest.json": "6699ded81d860d615853835118710df4f26836b45d97fe0949495889c1149681",
+    "assets/shenron/godot_bundle/aseprite/shenron.json": "e5f80a59e5f049e7d88fb4593df455eb1604586a8ec35848500ca955782ed2b3",
+    "assets/shenron/godot_bundle/aseprite/shenron.png": "e94502bbed02ed036f66aa8a5a3dcbf42f111898b3c83deb90b0a4c0669688b2",
+    "assets/shenron/godot_bundle/engine-export.json": "ad19a8d099a7954677cb28096f82754ab256c851fc7765567773e5c13e219876",
+    "assets/shenron/godot_bundle/godot/shenron-atlas-00.png": "e94502bbed02ed036f66aa8a5a3dcbf42f111898b3c83deb90b0a4c0669688b2",
+    "assets/shenron/godot_bundle/godot/shenron.tres": "479f922684c6b0237c4ef89f8933b9c4e5c3f1b4a98196934eeca53b4a3e8af2",
+    "assets/shenron/godot_bundle/godot/shenron.tscn": "0f522ac3a0b8ae8893a2bcb2d1396e2f6d9ddd86daea009ae4907385ab29a7a0",
+    "assets/shenron/godot_bundle/godot-sprite3d/action-idle.json": "ea827a84934745a9fdadaa66d071e650e6b0478623054d89374c83d40de13424",
+    "assets/shenron/godot_bundle/godot-sprite3d/bundle.json": "294ef857d58ca306807da0a5827557db462fc34d545cbf5721ea9ee1a7d8ca51",
+    "assets/shenron/godot_bundle/godot-sprite3d/frames/frame-000.png": "08ace1e7362bfa65902e36ace917330e931ef66ab44ba5b611b1f31443f483ca",
+    "assets/shenron/godot_bundle/godot-sprite3d/frames/frame-001.png": "a552f314f0d848770891e33df02595834ccce11f0ac782cd72922d5698e75309",
+    "assets/shenron/godot_bundle/godot-sprite3d/frames/frame-002.png": "4659a4bf3111ca4e3973b559af0578d47581a1d6339020ae96f4aab06ce40546",
+    "assets/shenron/godot_bundle/godot-sprite3d/frames/frame-003.png": "8356ea6626bd3b821a9dfe3395cbf7379f15dd6b4f0109579cc915bb2e11d9ee",
+    "assets/shenron/godot_bundle/godot-sprite3d/frames/frame-004.png": "287fea4e8a27ab19455452a5030b0b23bc275ac1cdee0506dc8090b570cf0467",
+    "assets/shenron/godot_bundle/godot-sprite3d/frames/frame-005.png": "1e8e7f940efc5baf9d4846001a812b6f815150d4ad24054790829d5173aaa688",
+    "assets/shenron/godot_bundle/godot-sprite3d/frames/frame-006.png": "065240a6137c1a2faf2bda4a73477ab2cc31d5e430250a5f831586dbe8230d7d",
+    "assets/shenron/godot_bundle/godot-sprite3d/frames/frame-007.png": "37515519a7fffdd269b89abd9b836f56014bb921dfb3e33c1d4ed34bd83fb746",
+    "assets/shenron/godot_bundle/godot-sprite3d/shenron.tres": "f9307466f416ec0059247201ff19c2501f94891114e1c529e6b8ebef20c1cce5",
+    "assets/shenron/godot_bundle/godot-sprite3d/shenron.tscn": "e3ebdb188069cb8733761533676e090a4148a83bf80b14fcea76a69c9c462864",
+    "assets/shenron/source/.gdignore": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "assets/shenron/source/master.png": "7d32a92302b9af7a4286d8c11f07222d2874c555e3fa51c5f1738e0af87e0526",
+    "scenes/Shenron.tscn": "f192b50e08005ee84fd9b4e3bc47a1c44eea00bd763dab0fe436d41e330de396",
+    "scenes/ShenronPixelDissolve.gdshader": "57c118a280c1f6430d2aa1c2122c967fde4850ad8eaa763ad0c8bf30a867bb54",
+    "scenes/ShenronSummon2D.gd": "7bda89991c9fd0b186c31dbfcf9cd63f878ff62ae37c3bd34600d77a2e907f28"
+  },
+  "known_technical_limits": "Idle-only/front-only scope accepted by Owner; reference missing-clip WARN remains. Owner Human Test does not establish mobile 2000-entity 60FPS performance.",
+  "atlas_path": "assets/shenron/godot_bundle/godot/shenron-atlas-00.png",
+  "atlas_sha256": "e94502bbed02ed036f66aa8a5a3dcbf42f111898b3c83deb90b0a4c0669688b2",
+  "tres_path": "assets/shenron/godot_bundle/godot/shenron.tres",
+  "tres_sha256": "479f922684c6b0237c4ef89f8933b9c4e5c3f1b4a98196934eeca53b4a3e8af2",
+  "prefab_path": "scenes/Shenron.tscn",
+  "prefab_sha256": "f192b50e08005ee84fd9b4e3bc47a1c44eea00bd763dab0fe436d41e330de396",
+  "clips_manifest_path": "assets/shenron/clips/animation-clips.json",
+  "clips_manifest_sha256": "abdc63df15b1455bd70913e824d65ab61116157a2291fce75c40c9d58a0c082d",
+  "engine_export_path": "assets/shenron/godot_bundle/engine-export.json",
+  "engine_export_sha256": "ad19a8d099a7954677cb28096f82754ab256c851fc7765567773e5c13e219876",
+  "ritual_atlas_path": "assets/rituals/shenron_summon/atlas.png",
+  "ritual_atlas_sha256": "c82ec5e8460a2bf01ef515793e87cfdf2be96f448eeab1b914d9e9fec7215aba",
+  "sequence_path": "assets/rituals/shenron_summon/sequence.json",
+  "sequence_sha256": "1ff98d260c7fc96e8c8b2314aa9b44fff85af025e38bcab85b685e279fb8fd5f",
+  "supersedes": "PIPE-017",
+  "archived_previous_receipt": "docs/releases/shenron-v0.13.0-approval.json",
+  "dissolve_mask_path": "assets/rituals/shenron_summon/dissolve-threshold.png",
+  "dissolve_mask_sha256": "fbede0b918a87743dac48c8e97abc3a6a32fbd4af30fcf2bdf33e052d790800f",
+  "dissolve_shader_path": "scenes/ShenronPixelDissolve.gdshader",
+  "dissolve_shader_sha256": "57c118a280c1f6430d2aa1c2122c967fde4850ad8eaa763ad0c8bf30a867bb54"
+}

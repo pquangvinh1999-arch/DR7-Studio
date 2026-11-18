@@ -1,0 +1,347 @@
+{
+  "schema": "dr7-studio.item_export.v1",
+  "item_set_id": "dragon_balls",
+  "display_name": "Bộ 7 Viên Ngọc Rồng (Item 1×)",
+  "category": "quest_consumable_item",
+  "source_isolation": "Extracted read-only from canonical owner-1 source; assets/rituals/shenron_summon/* untouched.",
+  "source_image": {
+    "file": "assets/rituals/shenron_summon/source/owner-1.png",
+    "sha256": "0368f9a6c20f634b391dc893d70cc70757e14204b4feade4817b6e861cfbe876",
+    "size": [
+      1152,
+      2048
+    ]
+  },
+  "frame_size": [
+    32,
+    32
+  ],
+  "sampling": "nearest",
+  "pixel_art": true,
+  "alpha_mode": "hard_0_255_body_with_fx_overlay",
+  "bag_anchor_px": [
+    16,
+    16
+  ],
+  "map_anchor_px": [
+    16,
+    32
+  ],
+  "map_drop_test_scales": [
+    1.0,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "default_map_test_scale": 1.0,
+  "default_bag_scale": 1.0,
+  "sparkle_fx": {
+    "clip": "sparkle_fx",
+    "style": "diagonal_body_sheen",
+    "position_zone": "full_sphere_diagonal_sweep",
+    "independent_overlay": true,
+    "shared_across_variants": true,
+    "show_on_map_after_roll": true,
+    "show_in_bag": false,
+    "tick_hz": 60,
+    "ticks": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      50
+    ],
+    "total_ticks": 72,
+    "frames": [
+      [
+        255,
+        3,
+        32,
+        32
+      ],
+      [
+        3,
+        39,
+        32,
+        32
+      ],
+      [
+        39,
+        39,
+        32,
+        32
+      ],
+      [
+        75,
+        39,
+        32,
+        32
+      ],
+      [
+        111,
+        39,
+        32,
+        32
+      ],
+      [
+        147,
+        39,
+        32,
+        32
+      ],
+      [
+        183,
+        39,
+        32,
+        32
+      ],
+      [
+        219,
+        39,
+        32,
+        32
+      ]
+    ]
+  },
+  "drop_physics": {
+    "jump_height_px": 10.0,
+    "rise_ticks": 10,
+    "fall_min_ticks": 12,
+    "fall_gravity_px_per_s2": 1800.0,
+    "arc_dx_px": 8.0,
+    "roll_distance_px": 10.0,
+    "roll_ticks": 18,
+    "roll_angle_rad": 0.625,
+    "start_sheen_after_roll": true
+  },
+  "pickup_physics": {
+    "duration_ticks": 30,
+    "start_scale": 1.0,
+    "end_scale": 0.05,
+    "arc_lift_px": 18.0
+  },
+  "atlas": {
+    "pages": 1,
+    "size": [
+      304,
+      80
+    ],
+    "padding": 2,
+    "extrude": 1,
+    "cells": 15,
+    "file": "assets/items/dragon_balls/godot/dragon_balls-atlas-00.png",
+    "sha256": "5ee1a97b09624b6c15c7a895ff436cb7aab9ccd10964d5485dcace3a59e40bb2"
+  },
+  "godot": {
+    "prefab": "res://scenes/items/DragonBallItem2D.tscn",
+    "script": "res://scenes/items/DragonBallItem2D.gd",
+    "frames_tres": "res://assets/items/dragon_balls/godot/dragon_balls.tres",
+    "frames_tres_sha256": "2f3c4dab5e21a3918b4fb4a458f5ff096c9a9c7c5ddd2bad07320bec89c6b5a5",
+    "texture_filter": "nearest"
+  },
+  "variants": [
+    {
+      "number": 1,
+      "item_id": "dragon_ball_01",
+      "display_name": "Ngọc Rồng 1 Sao",
+      "clip": "ball_01",
+      "region": [
+        3,
+        3,
+        32,
+        32
+      ],
+      "file_1x": "assets/items/dragon_balls/source/frames_1x/dragon_ball_01.png",
+      "source_box_xyxy": [
+        211,
+        491,
+        551,
+        833
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "edge_acutance_sobel": 572.531,
+      "alpha_hardness_pct": 100.0
+    },
+    {
+      "number": 2,
+      "item_id": "dragon_ball_02",
+      "display_name": "Ngọc Rồng 2 Sao",
+      "clip": "ball_02",
+      "region": [
+        39,
+        3,
+        32,
+        32
+      ],
+      "file_1x": "assets/items/dragon_balls/source/frames_1x/dragon_ball_02.png",
+      "source_box_xyxy": [
+        602,
+        491,
+        942,
+        833
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "edge_acutance_sobel": 573.302,
+      "alpha_hardness_pct": 100.0
+    },
+    {
+      "number": 3,
+      "item_id": "dragon_ball_03",
+      "display_name": "Ngọc Rồng 3 Sao",
+      "clip": "ball_03",
+      "region": [
+        75,
+        3,
+        32,
+        32
+      ],
+      "file_1x": "assets/items/dragon_balls/source/frames_1x/dragon_ball_03.png",
+      "source_box_xyxy": [
+        801,
+        854,
+        1140,
+        1196
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "edge_acutance_sobel": 576.55,
+      "alpha_hardness_pct": 100.0
+    },
+    {
+      "number": 4,
+      "item_id": "dragon_ball_04",
+      "display_name": "Ngọc Rồng 4 Sao",
+      "clip": "ball_04",
+      "region": [
+        111,
+        3,
+        32,
+        32
+      ],
+      "file_1x": "assets/items/dragon_balls/source/frames_1x/dragon_ball_04.png",
+      "source_box_xyxy": [
+        601,
+        1216,
+        943,
+        1559
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "edge_acutance_sobel": 583.525,
+      "alpha_hardness_pct": 100.0
+    },
+    {
+      "number": 5,
+      "item_id": "dragon_ball_05",
+      "display_name": "Ngọc Rồng 5 Sao",
+      "clip": "ball_05",
+      "region": [
+        147,
+        3,
+        32,
+        32
+      ],
+      "file_1x": "assets/items/dragon_balls/source/frames_1x/dragon_ball_05.png",
+      "source_box_xyxy": [
+        211,
+        1208,
+        551,
+        1550
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "edge_acutance_sobel": 563.522,
+      "alpha_hardness_pct": 100.0
+    },
+    {
+      "number": 6,
+      "item_id": "dragon_ball_06",
+      "display_name": "Ngọc Rồng 6 Sao",
+      "clip": "ball_06",
+      "region": [
+        183,
+        3,
+        32,
+        32
+      ],
+      "file_1x": "assets/items/dragon_balls/source/frames_1x/dragon_ball_06.png",
+      "source_box_xyxy": [
+        12,
+        854,
+        352,
+        1196
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "edge_acutance_sobel": 564.583,
+      "alpha_hardness_pct": 100.0
+    },
+    {
+      "number": 7,
+      "item_id": "dragon_ball_07",
+      "display_name": "Ngọc Rồng 7 Sao",
+      "clip": "ball_07",
+      "region": [
+        219,
+        3,
+        32,
+        32
+      ],
+      "file_1x": "assets/items/dragon_balls/source/frames_1x/dragon_ball_07.png",
+      "source_box_xyxy": [
+        406,
+        854,
+        747,
+        1196
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "edge_acutance_sobel": 575.753,
+      "alpha_hardness_pct": 100.0
+    }
+  ],
+  "qa": {
+    "status": "owner_approved",
+    "owner_approved": true,
+    "body_alpha_hardness_pct": 100.0,
+    "enclosed_key_pockets": 0,
+    "opaque_key_px": 0,
+    "review_sheets": [
+      "assets/items/dragon_balls/clips/review/filmstrip-3bg.png",
+      "assets/items/dragon_balls/clips/review/map-vs-bag-preview.png"
+    ]
+  }
+}

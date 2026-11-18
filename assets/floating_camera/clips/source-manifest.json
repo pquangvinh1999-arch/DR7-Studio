@@ -1,0 +1,134 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "frames": [
+    "frames/flight-00.png",
+    "frames/flight-01.png",
+    "frames/flight-02.png",
+    "frames/flight-03.png",
+    "frames/flight-04.png",
+    "frames/flight-05.png",
+    "frames/flight-06.png",
+    "frames/flight-07.png",
+    "frames/flight-08.png",
+    "frames/attack_body-00.png",
+    "frames/attack_body-01.png",
+    "frames/projectile-00.png",
+    "frames/projectile-01.png",
+    "frames/projectile-02.png",
+    "frames/projectile-03.png",
+    "frames/hit-00.png",
+    "frames/explosion-00.png",
+    "frames/explosion-01.png",
+    "frames/explosion-02.png",
+    "frames/explosion-03.png",
+    "frames/explosion-04.png",
+    "frames/explosion-05.png"
+  ],
+  "anchor_px": [
+    96,
+    112
+  ],
+  "clips": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "ticks": 4,
+      "loop_policy": "cycle",
+      "role": "enemy"
+    },
+    "walk": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "ticks": 4,
+      "loop_policy": "cycle",
+      "role": "enemy"
+    },
+    "attack_light": {
+      "frames": [
+        9,
+        10
+      ],
+      "ticks": [
+        12,
+        8
+      ],
+      "loop_policy": "oneshot",
+      "role": "enemy",
+      "events": [
+        {
+          "at": 1,
+          "name": "custom:launch",
+          "data": {
+            "projectile": "projectile_fx"
+          }
+        }
+      ]
+    },
+    "projectile_fx": {
+      "frames": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "ticks": 4,
+      "loop_policy": "cycle",
+      "role": "fx"
+    },
+    "hit": {
+      "frames": [
+        15
+      ],
+      "ticks": 8,
+      "loop_policy": "oneshot",
+      "role": "enemy"
+    },
+    "ko": {
+      "frames": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "ticks": [
+        4,
+        4,
+        5,
+        6,
+        5,
+        4
+      ],
+      "loop_policy": "oneshot",
+      "role": "enemy"
+    }
+  },
+  "states": {
+    "idle": "idle",
+    "moving": "walk",
+    "attack": "attack_light",
+    "hurt": "hit",
+    "dead": "ko"
+  },
+  "sampling": "nearest",
+  "pixel_art": true,
+  "art_source": "existing",
+  "body_height_px": 74
+}

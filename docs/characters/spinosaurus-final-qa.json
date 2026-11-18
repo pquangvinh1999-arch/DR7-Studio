@@ -2190,10 +2190,10 @@
     "power_up/sheet-rejected-clipped.png"
   ],
   "full_fx_bbox_px": {
-    "x": 87,
-    "y": 104,
-    "w": 274,
-    "h": 120
+    "x": 82,
+    "y": 134,
+    "w": 279,
+    "h": 90
   },
   "render_contract": {
     "body_clips": [
@@ -2221,7 +2221,10 @@
         5,
         6,
         7
-      ]
+      ],
+      "default_scale": 2.0,
+      "screen_speed_px_per_second": 170,
+      "speed_px_per_second": 85.0
     },
     "aura": {
       "loop_clip": null,
@@ -2296,11 +2299,11 @@
       }
     ]
   },
-  "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+  "atlas_sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e",
   "motion_quality": {
     "status": "owner_approved",
     "method": "existing_complete_source_frames",
-    "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+    "atlas_sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e",
     "checks": {
       "body_connections": true,
       "whole_pose_sequence": true,
@@ -2308,15 +2311,94 @@
       "phase_timing": true,
       "three_backgrounds": true
     },
-    "review_evidence": "work/characters/spinosaurus/review-final/keyframe-review.json",
+    "review_evidence": "work/characters/spinosaurus/walk-edge-uniform-v1/keyframe-review.json",
     "unresolved_structural_failures": [],
     "owner_approved": true,
     "previous_revision_atlas_sha256": "578912e9e23d4e486052c76c10b302fd925b1e0194f084814e57e5447b9635aa",
-    "owner_feedback": "ok anh thấy chuẩn rồi chốt 3 character theo qui trình rồi xóa những png không còn dùng theo qui định hiến pháp để giảm tải bộ nhớ repo sau đó push ver này lên main",
+    "owner_feedback": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác",
     "naturalness_verdict": "owner_approved",
-    "approved_at": "2026-11-12T07:38:36.605057+00:00"
+    "approved_at": "2026-11-15T05:52:31.727116+00:00",
+    "notes": "Walk-edge-uniform-v1: kept idle, walk_01..06, attack_*, power_up, hit, ko, turn, fireball_fx (69/71 PNGs) byte-identical to calibration-v1 (speed 170 px/s); rebuilt ONLY walk_00 & walk_07 from 887x887 walk-seam-v6 source via single Nearest resize (thr=224, h=74, area=4542/4564px, ground=224, torso_x spread=0.75px) to eliminate end-of-loop bloat."
   },
   "status": "owner_approved",
   "owner_approval_file": "assets/spinosaurus/owner_approval.json",
-  "release_version": "0.6.0"
+  "release_version": "0.12.0",
+  "walk_edge_uniform_v1": {
+    "frames": [
+      {
+        "index": 0,
+        "w": 168,
+        "h": 74,
+        "bottom": 224,
+        "area": 4542,
+        "torso_x": 186.14,
+        "eye_px": 2
+      },
+      {
+        "index": 1,
+        "w": 177,
+        "h": 72,
+        "bottom": 224,
+        "area": 4592,
+        "torso_x": 186.07,
+        "eye_px": 2
+      },
+      {
+        "index": 2,
+        "w": 177,
+        "h": 73,
+        "bottom": 224,
+        "area": 4538,
+        "torso_x": 186.03,
+        "eye_px": 3
+      },
+      {
+        "index": 3,
+        "w": 177,
+        "h": 73,
+        "bottom": 224,
+        "area": 4604,
+        "torso_x": 185.6,
+        "eye_px": 1
+      },
+      {
+        "index": 4,
+        "w": 179,
+        "h": 76,
+        "bottom": 224,
+        "area": 4627,
+        "torso_x": 186.15,
+        "eye_px": 2
+      },
+      {
+        "index": 5,
+        "w": 179,
+        "h": 73,
+        "bottom": 224,
+        "area": 4502,
+        "torso_x": 186.06,
+        "eye_px": 1
+      },
+      {
+        "index": 6,
+        "w": 179,
+        "h": 72,
+        "bottom": 224,
+        "area": 4624,
+        "torso_x": 185.4,
+        "eye_px": 1
+      },
+      {
+        "index": 7,
+        "w": 167,
+        "h": 74,
+        "bottom": 224,
+        "area": 4564,
+        "torso_x": 185.6,
+        "eye_px": 1
+      }
+    ],
+    "torso_x_spread_px": 0.752
+  },
+  "owner_approved": true
 }

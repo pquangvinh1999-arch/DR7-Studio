@@ -351,44 +351,44 @@
       "file": "raw_frames/burrow_dust_fx_07.png"
     },
     {
-      "name": "antenna_glow_fx_00",
-      "file": "raw_frames/antenna_glow_fx_00.png"
+      "name": "fireball_fx_00",
+      "file": "raw_frames/fireball_fx_00.png"
     },
     {
-      "name": "antenna_glow_fx_01",
-      "file": "raw_frames/antenna_glow_fx_01.png"
+      "name": "fireball_fx_01",
+      "file": "raw_frames/fireball_fx_01.png"
     },
     {
-      "name": "antenna_glow_fx_02",
-      "file": "raw_frames/antenna_glow_fx_02.png"
+      "name": "fireball_fx_02",
+      "file": "raw_frames/fireball_fx_02.png"
     },
     {
-      "name": "antenna_glow_fx_03",
-      "file": "raw_frames/antenna_glow_fx_03.png"
+      "name": "fireball_fx_03",
+      "file": "raw_frames/fireball_fx_03.png"
     },
     {
-      "name": "antenna_glow_fx_04",
-      "file": "raw_frames/antenna_glow_fx_04.png"
+      "name": "fireball_fx_04",
+      "file": "raw_frames/fireball_fx_04.png"
     },
     {
-      "name": "antenna_glow_fx_05",
-      "file": "raw_frames/antenna_glow_fx_05.png"
+      "name": "fireball_fx_05",
+      "file": "raw_frames/fireball_fx_05.png"
     },
     {
-      "name": "red_laser_fx_00",
-      "file": "raw_frames/red_laser_fx_00.png"
+      "name": "fireball_fx_06",
+      "file": "raw_frames/fireball_fx_06.png"
     },
     {
-      "name": "red_laser_fx_01",
-      "file": "raw_frames/red_laser_fx_01.png"
+      "name": "fireball_fx_07",
+      "file": "raw_frames/fireball_fx_07.png"
     },
     {
-      "name": "red_laser_fx_02",
-      "file": "raw_frames/red_laser_fx_02.png"
+      "name": "fireball_fx_08",
+      "file": "raw_frames/fireball_fx_08.png"
     },
     {
-      "name": "red_laser_fx_03",
-      "file": "raw_frames/red_laser_fx_03.png"
+      "name": "fireball_fx_09",
+      "file": "raw_frames/fireball_fx_09.png"
     }
   ],
   "clips": {
@@ -588,7 +588,7 @@
       "events": [
         {
           "at": 3,
-          "name": "custom:dual_laser_release"
+          "name": "custom:fireball_release"
         },
         {
           "at": 10,
@@ -650,30 +650,14 @@
         2
       ]
     },
-    "antenna_glow_fx": {
-      "loop_policy": "oneshot",
-      "role": "fx",
+    "fireball_fx": {
       "frames": [
         84,
         85,
         86,
         87,
         88,
-        89
-      ],
-      "ticks": [
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ]
-    },
-    "red_laser_fx": {
-      "loop_policy": "oneshot",
-      "role": "fx",
-      "frames": [
+        89,
         90,
         91,
         92,
@@ -683,8 +667,16 @@
         1,
         1,
         1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1
-      ]
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx"
     }
   },
   "states": {

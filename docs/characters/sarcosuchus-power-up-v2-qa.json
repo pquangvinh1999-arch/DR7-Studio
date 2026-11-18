@@ -2,7 +2,7 @@
   "character_id": "sarcosuchus",
   "revision": "power-up-v2",
   "status": "owner_approved",
-  "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+  "atlas_sha256": "81595756c2d1d7d4ca7ddf530bb972eca8964427311db69a38905502fed2a959",
   "atlas": {
     "max_size": 4096,
     "padding": 2,
@@ -303,7 +303,7 @@
   "motion_quality": {
     "status": "owner_approved",
     "method": "imagegen_complete_body_keyframes",
-    "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+    "atlas_sha256": "81595756c2d1d7d4ca7ddf530bb972eca8964427311db69a38905502fed2a959",
     "checks": {
       "body_connections": true,
       "whole_pose_sequence": true,
@@ -317,8 +317,8 @@
     "owner_approved": true,
     "naturalness_verdict": "owner_approved",
     "notes": "Owner accepted the entire current character after Human Test, including power_up-v2 mouth-fit progressive sphere and identical-size launch. All body poses/ticks/events frozen.",
-    "approved_at": "2026-11-13T02:57:36.459561+00:00",
-    "owner_feedback": "ok anh chốt luôn cá sấu theo qui tình thực hiện chốt xong báo anh để anh yêu cầu sang nhân vật mới"
+    "approved_at": "2026-11-15T05:52:31.727116+00:00",
+    "owner_feedback": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác"
   },
   "technical_checks": {
     "loop_test_exit_code": 0,
@@ -382,5 +382,7 @@
     "HTTP_ZIP_owner_approved_byte_parity": true,
     "approved_runtime_files_unchanged": 168,
     "approved_peer_files_unchanged": 716
-  }
+  },
+  "release_version": "0.12.0",
+  "owner_approved": true
 }

@@ -20,8 +20,8 @@
   "scale_source": "Godot default pixel size",
   "billboard": "enabled",
   "texture_filter": "nearest",
-  "duration_ms": 83,
-  "fps": 12.012012012012011,
+  "duration_ms": 67,
+  "fps": 14.9812734082397,
   "frames": [
     "frames/frame-051.png",
     "frames/frame-052.png",
@@ -29,16 +29,16 @@
     "frames/frame-054.png"
   ],
   "frame_sha256": [
-    "8adeda8cbb99493640c296748c76cb05df7110cee909e43b84b844a5e8675ddc",
-    "c39c33d86675c2e972a2e2765336cd19ba770afdf3e5fc50efc02ef075a7c887",
-    "70ac40ee930d5e5200371db359e21f29cd01a1a6453a4a35f70ae4103eb46f8b",
-    "acec1f871068f82848a81a1e228c2732990386df037394fce7596a2a8ae6315f"
+    "432dfa03d47aa6fd33f00a2d901fb6e56f8daea1ef9feb720968a792ede1ce9c",
+    "90ca65b71ed228a40749440c6f5c03c2b542d06cc0786e2c6f99c077d718dd13",
+    "cc42e3e48c174e563ee71711772407928a5bb6656f1d023f08b112493ec94068",
+    "1cfb6765648a00562cf26b649367fc1240c506d422dd31537c273e3152149593"
   ],
   "durations_ms": [
+    33,
+    84,
     100,
-    67,
-    66,
-    100
+    50
   ],
   "loop": false,
   "loop_policy": "oneshot",
@@ -51,7 +51,7 @@
     },
     {
       "name": "end",
-      "at_ms": 233,
+      "at_ms": 217,
       "at": 3,
       "position": 3
     }

@@ -7,3 +7,5 @@ Cầu hiện/lớn dần theo hàm mở:10tick FX1→10px, alpha32→255; cực 
 Kỹthuật:loop.sh testexit0,36Python/E2E,5Godotbundle,2charge-tests,2Rust;WASMrelease0. Chromium kiểm46tick,phát0..8→0 trên3nền,0pageerrors. HTTPbyteparity vàGodotZIPimport/bundle/power-testexit0. Atlas1page3494×2082,69cell/71PNG/71cliprefs,Nearest60Hz. WARN clipthamchiếuđãloại vàcác clip đã loại vẫn giữ; motion đã được Owner nghiệm thu.
 
 [Demo](http://localhost:8080/?character=sarcosuchus&clip=power_up&frame=0&paused=1). [Số đo/bằng chứng](sarcosuchus-power-up-v2-qa.json). Đã chốt PIPE-005; biên nhận assets/sarcosuchus/owner_approval.json ràng buộc đúng atlas/TRES/prefab/manifest và PNG runtime.
+
+Cập nhật Owner `2026-11-14` (`TURN-004` đóng): hiệu ứng `turn` hiện hành (`4` pose `frame-51..54`, `ticks [6,4,4,6] = 20` tại `60Hz`, `mirror_sequence_for_reverse: true`) được Owner xác nhận đã chuẩn và chốt giữ nguyên không cần sửa lại.

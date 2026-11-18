@@ -1,9 +1,9 @@
 {
   "schema": "dr7-studio.state.v1",
-  "updated_at": "2026-11-13T08:49:58.701962+00:00",
+  "updated_at": "2026-11-18T12:58:03Z",
   "project": {
     "name": "DR7-Studio — Dragon Ball 2D",
-    "version": "0.11.1",
+    "version": "0.16.0",
     "version_history": [
       {
         "version": "0.1.0",
@@ -84,24 +84,52 @@
         "version": "0.11.1",
         "date": "2026-11-13T08:13:07.867147+00:00",
         "summary": "Owner-selected Chilopoda power_up1 promoted as exact canonical; all body actions regenerated to match, old master removed from ready poses. Gameplay timing/FX/turn contracts preserved."
+      },
+      {
+        "version": "0.11.2",
+        "date": "2026-11-13T10:50:00+00:00",
+        "summary": "Owner-approved Bat turn-v1 (PIPE-009): 5 whole-body perspective turn poses (ticks [5,4,3,4,5]), outer white rim & turn_01 pocket cleanup, bidirectional & two-endpoint runtime while preserving v0.10.0 61 frames/FX and Chilopoda v0.11.1. Turn TODO 1/4 complete; starting T-rex audit."
+      },
+      {
+        "version": "0.13.0",
+        "date": "2026-11-15T12:36:59.698744+00:00",
+        "summary": "Owner nghiệm thu Shenron idle-v5-hover và combo gọi7ngọc/two flashes/pixel ground/persistent aura. PIPE-017."
+      },
+      {
+        "version": "0.13.1",
+        "date": "2026-11-15T13:11:10+00:00",
+        "summary": "Owner nghiệm thu & chốt v3-pixel-dissolve cho hiệu ứng xuất hiện Shenron (96x68 cell 4x4, viền [255,236,156]) đồng bộ 1:1 Godot OpenGL3 shader, Rust/WASM và Browser Canvas2D; PIPE-018 supersedes phần reveal PIPE-017."
+      },
+      {
+        "version": "0.14.0",
+        "date": "2026-11-16T02:10:11+00:00",
+        "summary": "Owner chốt toàn bộ phiên v0.14.0: Drum (PIPE-019), Shenron Summon v5-dismiss-flash-wish (PIPE-020), Hệ thống Item Game assets/items/ & Bộ 7 Ngọc Rồng 1x 32x32 (ITEM-001: quét sáng chéo toàn thân 60Hz, ẩn FX trong balo, nút ẩn/hiện, rơi +10px/lăn 10px & nhặt thu nhỏ bay vào người), và Điều 7.5 Hiến pháp AGENTS.md."
+      },
+      {
+        "version": "0.15.0",
+        "date": "2026-11-16T09:42:12Z",
+        "summary": "Owner chốt toàn bộ phiên v0.15.0: kiến trúc ADR-0001 (D1-D10), dọn /work & ảnh nháp root, Godot 4.7.2 Compatibility + expand + fractional/Pixel Perfect + TouchHUD + Rocky Plateau TileMapLayer, nút tải APK trên localhost:8080, sửa T-rex fireball_fx & Drum Player bool(null)/teleport, mở rộng vùng đi lại fit full màn K70E theo mép thân, bỏ đường chỉ vàng/xanh, và giảm 20% tốc độ nhặt vật phẩm (30 ticks)."
+      },
+      {
+        "version": "0.16.0",
+        "date": "2026-11-16T15:29:15Z",
+        "summary": "Owner chốt chính thức Floating Camera (PIPE-021): quái bay 70x74 1-pass Nearest, nối pha idle<->walk, bắn projectile_fx độc lập +X, AI attack_light fallback, xóa review/ + /work + file tạm root và đóng gói Web/Android APK 1:1."
       }
     ],
     "genre": "2D Dragon Ball Real-Time Mass Action / RPG",
-    "performance_target": "60 FPS mượt tuyệt đối (<= 16.67 ms/frame) khi > 2,000 user giao tranh thời gian thực",
+    "performance_target": "60 FPS mượt tuyệt đối (<= 16.67 ms/frame) ở Pha 1 (<=50 thực thể/khu, 7 map lớn x 5 map nhỏ x 20 khu); scale Pha 2 sang Rust Core Server khi vượt 35,000 thực thể hoặc p99 > 25ms @ 20Hz",
     "target_platforms": [
       "Android Mobile (.apk / .aab)",
-      "iOS Mobile (.ipa)"
+      "iOS Mobile (.ipa)",
+      "Web Compatibility Sandbox (localhost:8080)"
     ],
-    "backend": "Supabase (Auth, PostgreSQL, Inventory, Storage) + Spatial-Grid AoI Binary Delta Sync",
+    "backend": "Pha 1 (0d): Supabase (JWT Auth + ghi Postgres theo lo) + Cloudflare Free Proxy/WAF (chan IP VN/JP) + Godot Headless WebSocket Server (wss:// 443); Pha 2: Rust Core Server (engines/rust_combat_sim) tren VPS (ADR-0001)",
     "engine_evaluation": {
-      "status": "evaluating_candidates_not_finalized",
-      "candidates": [
-        "Godot 4 + GDScript: baseline ứng viên, chưa chốt engine cuối cùng",
-        "Godot 4 + Rust Core qua GDExtension: ứng viên cho combat, chưa có tích hợp hoàn chỉnh được kiểm chứng",
-        "Godot 4 + C++ qua GDExtension hoặc C#: phương án so sánh, chưa triển khai"
-      ],
-      "rule": "Đồng bộ tuyệt đối 1:1 SHA-256 giữa Godot 4, Rust Core và localhost:8080 trên cùng PNG Atlas + .tres + engine-export.json.",
-      "owner_decision": "Owner xác nhận 2026-11-09: Rust và Godot chỉ là định hướng, chưa quyết định cuối cùng. Đánh giá lại bằng test thực tế sau khi hoàn thiện asset, scene và UI. Ghi chép locked/CHÍNH THỨC trước đây không đại diện quyết định hiện hành."
+      "status": "approved_phased_roadmap_adr_0001",
+      "phase_1": "Godot 4.7.2 GDScript (GL Compatibility, Combined 1-Layer) Client + Godot Headless WebSocket Server + Supabase Auth/DB + Cloudflare WAF/Proxy (0d, <=50 thuc the/khu)",
+      "phase_2": "Nang cap Server Combat len Rust Core (engines/rust_combat_sim) tren VPS khi vuot nguong scale (>35,000 thuc the / p99 > 25ms @ 20Hz), giu nguyen Client Godot & NetworkTransport",
+      "rule": "Đồng bộ tuyệt đối 1:1 SHA-256 giữa Godot 4, Rust WASM/Core và localhost:8080 trên cùng PNG Atlas + .tres + engine-export.json + arena-stage.json.",
+      "owner_decision": "Owner chot D1-D10 ngay 2026-11-16 trong docs/adr/0001-architecture-and-scale-roadmap.md va AGENTS.md."
     },
     "supported_agents": [
       "Antigravity CLI (agy)",
@@ -124,27 +152,22 @@
     "version_file": "VERSION"
   },
   "current_focus": {
-    "active_task_id": "TASK-074",
-    "status": "completed",
-    "summary": "Published Owner-approvedv0.11.1 source19da17b62aad8262229e9447f7a54113bb4e3ff5 toorigin/main; GitHubActions43396006048 completed/success. Local51Python/E2E+8Godot+5action+2Rust/WASM andcleancheckout51tests exit0. AGYhandoff included,turntodo0/4. Following documentation checkpoint records verification, without art/timing changes.",
-    "character_id": "chilopoda",
-    "concept_file": "work/characters/chilopoda/demo-v1/spec.json",
-    "review_image": "work/characters/chilopoda/identity-v2/review/filmstrip-power_up.png",
-    "master_image": "work/characters/chilopoda/identity-v2/canonical/master.png",
-    "qa_report": "docs/characters/chilopoda-identity-v2-qa.json",
-    "atlas_plan": "work/characters/chilopoda/identity-v2/plan.json",
-    "preview_url": "http://localhost:8080/?character=chilopoda&clip=power_up&frame=0&paused=1",
-    "repair_ledger": "work/characters/chilopoda/identity-v2/repair-attempts.json"
+    "active_task_id": "BOSS-DRUM-MAP-EVENT",
+    "status": "ready_for_owner_human_test",
+    "summary": "Cấu hình Boss Map Drum: đếm 5' (300s) khi có Tướng Player trong map, hồi sinh 30' (1800s) sau KO; HP=5000, Stamina=200, light_dmg=120, power_dmg=220, scale=2.5, Z=30; tên Drum màu đỏ + thanh máu đỏ 152x17px; teleport đến cạnh Tướng khi xuất hiện & tấn công/truy đuổi toàn map bằng UtilityAI; drop Ngọc Rồng 100%; nút ⚡ Gọi Boss Drum trong Sân Tập.",
+    "next_steps_summary": [
+      "11/11 nhân vật đã hoàn thiện & chốt trên main; sẵn sàng nhận concept/sheet nhân vật, item hoặc map mới từ Owner."
+    ],
+    "review_artifacts": [
+      "assets/floating_camera/owner_approval.json",
+      "docs/characters/floating-camera-70x74-qa.json",
+      "docs/releases/v0.16.0-release-finalization.json",
+      "scenes/FloatingCamera.tscn",
+      "scenes/FloatingCameraFighter2D.gd"
+    ],
+    "preview_url": "http://localhost:8080/?tab=arena"
   },
-  "open_issues": [
-    {
-      "id": "ISS-TREX-TICK-LEGACY",
-      "status": "recorded_out_of_scope",
-      "character_id": "t_rex",
-      "evidence": "assets/t_rex/godot_bundle/engine-export.json:idle.godot.relative_durations[7.02,6.96,...] vsassets/t_rex/clips/animation-clips.json:idle.ticks[7,...].",
-      "action": "Do not alter approved T-rex outside Owner scope; discuss exacttick re-export separately. PNG/hashparity unchanged."
-    }
-  ],
+  "open_issues": [],
   "resolved_issues": [
     {
       "id": "ISS-001",
@@ -160,6 +183,17 @@
       "id": "ISS-003",
       "resolved_at": "2026-11-07T06:52:17Z",
       "resolution": "Loại bỏ hoàn toàn kiến trúc tách đa lớp (Hướng 2) sai cấu trúc và các nhân vật test cũ; bóc tách sạch 100% 20 clip của Trunks Rage bằng 2D Component Ownership Masking + khử viền olive_fringe trên nền #2B3772 + sửa khởi tạo trễ _ensure_nodes() trong CharacterFighter2D.gd (LRN-006)."
+    },
+    {
+      "id": "ISS-TREX-TICK-LEGACY",
+      "resolved_at": "2026-11-14T06:57:17Z",
+      "character_id": "t_rex",
+      "resolution": "Owner chose --godot-fps auto re-export for T-rex turn-v1: aligns godot.relative_durations 1:1 with authored 60Hz ticks (attack_heavy frame 5 fixed 0.96 -> 1.00 tick so 12/12 poses play cleanly at 60Hz), preserving all 73 original frames, clip order, duration_ms, events, and keys."
+    },
+    {
+      "id": "ISS-ANDROID-SDK-20261116",
+      "resolved_at": "2026-11-16T09:42:12Z",
+      "resolution": "Owner verified & finalized v0.15.0 on Redmi K70E APK: packaged tests/SkillAnimator2D.gd, added T-rex ProjectileFX fireball_fx in TRexFighter2D.gd, fixed Drum Player _turn_pending bool(null) & teleport parity, expanded walkable bounds to visible viewport width clamped by character half-body width, removed yellow/blue map limit lines, slowed Dragon Ball pickup speed by 20% (24->30 ticks), and synchronized APK <-> Godot Web."
     }
   ],
   "task_history": [
@@ -627,6 +661,480 @@
       "status": "completed",
       "summary": "Pushedv0.11.1 source19da17b62aad8262229e9447f7a54113bb4e3ff5 toorigin/main. CI43396006048success. Local51tests+Godot/Rust/WASM0 andclean stagedcheckout51tests0; approvedBat+Chilopoda andAGYguideincluded,turntodo0/4. RegenerableZIP/extractedtestprojects excluded,canonical/source/frozen/evidence retained.",
       "completed_at": "2026-11-13T08:49:58.701962+00:00"
+    },
+    {
+      "id": "TASK-075",
+      "timestamp": "2026-11-13T10:50:00+00:00",
+      "status": "completed",
+      "summary": "Bat turn-v1 Owner-approved (PIPE-009 / v0.11.2, 100/100): archived PIPE-007/v0.10.0 receipt+frozen frames, froze 164 runtime files & 66 clips, cleaned 220 byte-identical stage PNG copies (8,463,320 bytes), updated skills.md/lerning.md LRN-048/TODO 1 of 4; verified Godot/Rust/WASM/loop.sh/parity before advancing to T-rex."
+    },
+    {
+      "id": "TASK-076",
+      "timestamp": "2026-11-13T11:01:02+00:00",
+      "status": "blocked_on_image_gen_quota",
+      "summary": "TURN-002 (T-rex turn-v1): saved immutable snapshot-before (73 T-rex frames + 1887 peers, baseline atlas d78b3b75...) and verified canonical walk-00-reference.png == frame-08.png (d4dc74e1..., 188x122, Sobel 230.524). Invoked image-generator for 2x2 turn sheet, which failed with 429 RESOURCE_EXHAUSTED on gemini-3.1-flash-image at 10:58:33Z (quotaResetTimeStamp 2026-11-13T14:42:06Z); forge_doctor confirmed 0 API keys and no codex/grok CLI. Stopped cleanly with live assets/t_rex/ and TRex.tscn untouched; recorded in work/characters/t_rex/turn-v1/quota-blocker.json."
+    },
+    {
+      "id": "TASK-077",
+      "timestamp": "2026-11-13T11:57:30+00:00",
+      "status": "completed",
+      "summary": "Owner plan alignment: Chốt duy nhất Bat (1/4 turn retrofit, PIPE-009 / v0.11.2, 100/100). Ghi nhận kế hoạch vào docs/turn-retrofit-todo.md: T-rex, Pteranodon và Sarcosuchus tạm hoãn chờ reset quota (sau 2026-11-13T14:42:06Z) để tiếp tục tuần tự; snapshot T-rex đã sẵn sàng."
+    },
+    {
+      "id": "TURN-002",
+      "timestamp": "2026-11-14T07:12:14+00:00",
+      "status": "completed",
+      "summary": "T-rex turn-v1 Owner-approved (PIPE-010 / v0.11.2, 100/100): archived PIPE-001/v0.6.0 receipt+frozen snapshot, froze runtime files & 78 clips, cleaned duplicate stage PNGs, resolved ISS-TREX-TICK-LEGACY via --godot-fps auto; verified Godot/Rust/WASM/Chromium/HTTP before advancing to #3 Pteranodon."
+    },
+    {
+      "id": "TURN-003",
+      "timestamp": "2026-11-14T07:33:32Z",
+      "status": "blocked_on_image_gen_quota",
+      "summary": "3/4 TODO turn-retrofit hoàn tất (Bat PIPE-009, T-rex PIPE-010, Sarcosuchus TURN-004/PIPE-005 giữ nguyên theo chốt Owner); chỉ còn lại duy nhất #3 Pteranodon (TURN-003) đang tạm dừng chờ quota gemini-3.1-flash-image reset lúc 2026-11-14T11:38:24Z (hoặc API key/sheet ngoài)."
+    },
+    {
+      "id": "CRAB-002",
+      "timestamp": "2026-11-14T07:31:05Z",
+      "status": "completed",
+      "summary": "Triển khai contract khóa spawn_facing (mặc định right +X, hỗ trợ right/left khi hồi sinh) & di chuyển cua bò ngang tiến/lùi không flip_h (walk 0->7->0) trên assets/roster.json, assets/tasmanian_king_crab/godot_bundle/engine-export.json, scenes/TasmanianFighter2D.gd, tools/preview/index.html và test; giữ nguyên 100% 54 PNG & atlas SHA."
+    },
+    {
+      "id": "TURN-004",
+      "timestamp": "2026-11-14T07:33:32Z",
+      "status": "completed",
+      "summary": "Owner xác nhận 2026-11-14T07:32Z hiệu ứng turn 4 pose ticks [6,4,4,6] của Sarcosuchus đã chuẩn và chốt giữ nguyên bản PIPE-005 / v0.8.1 (71 PNG + atlas SHA 4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951 bảo toàn 100%). Tiến độ TODO turn-retrofit đạt 3/4."
+    },
+    {
+      "id": "MAP-001",
+      "timestamp": "2026-11-14T07:54:11Z",
+      "status": "done",
+      "summary": "Setup Landscape 16:9 1920x1080 mobile viewport + rocky_plateau sample map + watermark-free phone bezel + Godot 4 ArenaSandbox.tscn/project.godot 1:1 APK/iOS parity (default 2x Nearest, 1x/2x/3x scale, zero drift)."
+    },
+    {
+      "id": "ARENA-CAL-001",
+      "timestamp": "2026-11-14T09:00:00Z",
+      "status": "step1_done",
+      "summary": "Triển khai Bước 1 trên localhost:8080 & Godot ArenaSandbox.gd (zero asset mutation): bỏ shake & bóng elip, sửa bug body_only_bbox_px, thêm chỉnh Scale lẻ 0.5-3.0x, Speed px/s live HUD, Burrow Dust 1.5x runtime, xem 1:1 1920x1080, bay Y=[60..840] spawn Y=340 cho Bat & Pteranodon."
+    },
+    {
+      "id": "UI-OPT-001",
+      "timestamp": "2026-11-14T09:10:00Z",
+      "status": "completed",
+      "summary": "Xóa tab ⚡ 2. Stress Test >2,000 User @ 60FPS (Godot + Rust) khỏi tools/preview/index.html (CSS, HTML, WebGL2 setup, texImage2D upload mỗi lần chọn tướng, 2000-fighter WASM loop, fetch /api/benchmarks) & dedup in-flight loadImage để giảm tải UI localhost:8080; giữ Tab 1 (Human Test, giữ rust_wasm stepper) và Tab 2 (Sân Tập Gameplay Thực Chiến), cập nhật AGENTS.md & E2E/governance tests."
+    },
+    {
+      "id": "ARENA-CAL-002",
+      "timestamp": "2026-11-14T09:50:00Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Triển khai 3 trụ cột Owner chốt: (1) burrow_dust_scale = 2.65 trên arena-stage.json, ChilopodaFighter2D.gd & tools/preview/index.html; (2) Bước 2 sửa lỗi pixel có kiểm soát cho tasmanian_king_crab, sarcosuchus, dilophosaurus, spinosaurus (re-pack atlas + Nearest + re-import Godot, giữ bản gốc tại snapshot-before/, chuyển owner_approved=false / reviewed_pending_owner); (3) Shared 1:1 Utility AI (UtilityAIController.gd + ArenaSandbox.gd + tools/preview/index.html + test_arena_sandbox.gd + test_arena_stage_parity.py + test_frontend_wasm_e2e.mjs) dùng body_edge_2d, zone patrol, 1s cooldown, Light->Light->Heavy (<200px) / PowerUp+reset (>=200px), Chilopoda burrow+attack, Flying hover Y=340."
+    },
+    {
+      "id": "CRAB-003",
+      "timestamp": "2026-11-14T13:57:00Z",
+      "status": "completed",
+      "summary": "Bỏ khóa bò ngang CRAB-002 cho tasmanian_king_crab theo chỉ đạo Owner: khôi phục xoay hướng trái/phải bằng flip_h/scale.x không cần clip turn (sideways_strafe=false, lock_spawn_facing=false, allow_turn_or_flip=true) trong roster.json, engine-export.json, TasmanianFighter2D.gd và tools/preview/index.html (bao gồm tự xoay mặt về phía địch sau lưng trước power_up & Tuần tra 2 đầu); giữ nguyên 54 PNG Bước 2 và Sarcosuchus turn."
+    },
+    {
+      "id": "ARENA-CAL-003",
+      "timestamp": "2026-11-14T15:35:00Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Hoàn tất đồng bộ cân chỉnh 8 nhân vật 1:1 Godot 4 <-> localhost:8080 theo bảng thông số Owner chốt: Chilopoda (scale 1.35, speed 140 px/s, dust 2.65x, thay 2 tia laser bằng 1 cầu lửa fireball_fx 10 frame tụ tại miệng & phóng lớn dần khi bay tới mục tiêu gây 250 sát thương), Bat (scale 1.1, 115 px/s, Y=250, turn [2,3,4,3,3] +40%), Spinosaurus (scale 2.0, 130 px/s, walk upscale khớp idle/turn, turn [2,6,5,3] +25%), T-rex (scale 1.75, 120 px/s), Pteranodon (scale 1.5, 140 px/s, Y=250, hủy TURN-003 & instant flip +20%), King Crab (scale 1.25, 115 px/s, instant flip +30%), Sarcosuchus (scale 2.0, 135 px/s, turn [2,5,6,3] +25%), Dilophosaurus (scale 1.75, 155 px/s, turn downscale khớp idle/walk, turn [2,5,5,2] +43%). Khử khựng nối walk<->turn (momentum êm + nối mid-stride frame 1 không chớp idle); cập nhật toàn bộ contract/action/arena/E2E/governance tests."
+    },
+    {
+      "id": "UNIFORM-WALK-COLOR-001",
+      "timestamp": "2026-11-15T04:41:00Z",
+      "status": "superseded_for_spinosaurus_crab_kept",
+      "summary": "Cập nhật Hiến pháp AGENTS.md (Điều 2.3: đồng nhất tuyệt đối kích thước, hình dạng, màu sắc khi có 1 mẫu chuẩn), hoàn tất Tasmanian King Crab uniform-color-v1 (giữ nguyên cho Owner chốt); phần Spinosaurus uniform-walk-v1 được undo về bản calibration-v1 theo yêu cầu Owner."
+    },
+    {
+      "id": "SPINO-UNDO-SPEED-170",
+      "timestamp": "2026-11-15T04:52:00Z",
+      "status": "completed",
+      "summary": "Undo Spinosaurus hoàn toàn về snapshot trước uniform-walk-v1 (atlas SHA 5e37c84475badd57382880395f177f97159db8796f4009f2f3928a96c3ca196d, 71 PNG, .tres, bbox, timings gốc) theo phản ánh khựng từ Owner, đồng thời tăng tốc độ di chuyển lên 170 px/s (screen_speed_px_per_second=170, speed_px_per_second=85.0 với scale 2.0) trong roster.json, engine-export.json, QA doc, test_spinosaurus_contract.py và test_arena_sandbox.gd; giữ nguyên 100% Tasmanian King Crab và các nhân vật còn lại."
+    },
+    {
+      "id": "SPINO-WALK-UNIFORM-002",
+      "timestamp": "2026-11-15T05:26:00Z",
+      "status": "completed",
+      "summary": "Theo Owner chốt 2 phương án: thay riêng walk_00 (#0: 168x74, 4542 px) và walk_07 (#7: 167x74, 4564 px) bằng 1 nhịp Nearest thẳng từ nguồn walk-seam-v6 887x887 (thr=224, ground=224, Sobel 248.324/247.665, giữ mắt cam & torso_x spread 0.752 px), khớp khít walk_01..06 (4502..4627 px, h=72..76); giữ byte-identical idle, walk_01..06 và toàn bộ 69/71 PNG còn lại cùng tốc độ 170 px/s (atlas SHA 51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e)."
+    },
+    {
+      "id": "ALL-CHAR-FINAL-012",
+      "timestamp": "2026-11-15T05:54:08Z",
+      "status": "completed",
+      "summary": "Owner chốt toàn bộ 8 nhân vật (v0.12.0): phát hành owner_approval.json cho spinosaurus (PIPE-011), tasmanian_king_crab (PIPE-012), sarcosuchus (PIPE-013), dilophosaurus (PIPE-014), chilopoda (PIPE-015), bat_chiroptera (PIPE-016); lưu trữ receipt cũ tại docs/releases/; cập nhật roster.json, skills.md, engine-export.json, QA JSONs, contract tests, dọn PNG dư thừa và ghi nhận vào docs/releases/v0.12.0-all-characters-finalization.json."
+    },
+    {
+      "id": "SHENRON-IDLE-HOST-DRAFT",
+      "timestamp": "2026-11-15T08:39:05.955614+00:00",
+      "status": "motion_review_pending",
+      "summary": "Đã tiếp tục Shenron bằng built-in image_gen: sinh idle_02/03 toàn thân, tách nền/palette, build4frame [12,12,12,12]60Hz/800ms và export1page trong work. Đã mở filmstrip3nền; motion actual-speed review pending, chưa thêm roster. Stationary runtime Godot/web + AI đã kiểm thử ./loop.sh test exit0 (attempt2 sau sửa vị trí speed guard)."
+    },
+    {
+      "id": "SHENRON-IDLE-INTEGRATED",
+      "timestamp": "2026-11-15T09:02:35.887934+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Shenron idle đã tích hợp4frame/800ms/60Hz,1atlas778x522,canvas384x256,anchor[192,240],scale2.4; reviewed_pending_owner. Full loop.sh test lần4 exit0, WASMrelease build+NodeE2Eexit0,9bundleparity; localhost sẵn sàng tại ?character=shenron&clip=idle."
+    },
+    {
+      "id": "SHENRON-IDLE-V2-8FRAMES",
+      "timestamp": "2026-11-15T09:15:18.255114+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Shenron idle nâng4→8pose toàn thân: giữ nguyên4pose gốc ở0/2/4/6, thêm4inbetween;6tick/pose tại60Hz,800ms/cycle,scale2.4;atlas1page1166x782. Full ./loop.sh test exit0 ngaylần1;WASMbuildexit0; trìnhduyệt3nền phát0→7→0,servedRGBA/hashkhớp;chờOwnerHumanTest."
+    },
+    {
+      "id": "SHENRON-UNDO-8-TO-4",
+      "timestamp": "2026-11-15T09:19:19.310687+00:00",
+      "status": "completed",
+      "summary": "Đã undo Shenron8→4frame theo Owner, khôi phục byte-identical snapshot cả assets/roster;12tick/pose,800ms/vòng,scale2.4. Full ./loop.sh test exit0; trìnhduyệt3nền và localhost xác nhận4frame,hashđúng; bản8 bịOwnerloại và chỉgiữaudit trong work."
+    },
+    {
+      "id": "SHENRON-SCALE-PLUS15",
+      "timestamp": "2026-11-15T09:32:07.693374+00:00",
+      "status": "completed",
+      "summary": "Scale2.76(+15%);fulltestexit0;waveanimationtimingawaitingOwner."
+    },
+    {
+      "id": "SHENRON-IDLE-V3-WAVE",
+      "timestamp": "2026-11-15T09:44:31.056582+00:00",
+      "status": "ready_for_owner_human_test",
+      "summary": "Đã dựng Shenron wave idle 8 pose toàn thân: đuôi có pha sang trái/phải và hai râu đổi độ cong theo sóng; 12 tick/pose ở 60 Hz = 1.6 giây/vòng. Scale 2.76 (+15%). Canvas 384×272 thêm16px trong suốt dưới để giữ chóp đuôi, anchor[192,240] giữ nguyên. Full ./loop.sh test exit0, WASM build exit0, browser3nền và served atlas khớp; chờ Owner Human Test."
+    },
+    {
+      "id": "SHENRON-SUMMON-WITH-BREATH",
+      "timestamp": "2026-11-15T12:36:59.698744+00:00",
+      "status": "owner_approved",
+      "summary": "Owner chốt idle-v5-hover + summon-v2; PIPE-017, v0.13.0."
+    },
+    {
+      "id": "SHENRON-PIXEL-DISSOLVE",
+      "timestamp": "2026-11-15T13:15:06Z",
+      "status": "completed",
+      "summary": "Owner đã nghiệm thu & chốt v0.13.1 (PIPE-018): pixel_dissolve 96x68 (cell 4x4, viền [255,236,156]) đồng bộ 1:1 Godot OpenGL3 shader, Rust/WASM và Browser Canvas2D."
+    },
+    {
+      "id": "DRUM-PA1-H1",
+      "timestamp": "2026-11-15T16:08:00Z",
+      "status": "completed",
+      "summary": "Đã sửa xong Walk v6 & tốc độ chuẩn 140 px/s cho Drum (combined_1layer, 11 clips, 128x96 Nearest 2x, walk-v6 dựng từ idle_00 gốc qua Codex (local CLI) giữ nguyên kích thước 55-57x50-51px & diện tích 1692-1801px khớp idle_00 56x50/1733px, 2 bàn chân nhấc nhẹ 2-3px rồi bước tới 1 chút luân phiên trái 0..3 / phải 4..7, tốc độ chuẩn 140 px/s tại scale 2.0, bảng màu GBA gốc, SHA-256 02b57b829ca4c5dd963249e82bfbf3ee8c900127ec9295dfd036685ece5bebea), đồng bộ Godot & localhost:8080."
+    },
+    {
+      "id": "SHENRON-SUMMON-V4-FLASH2-DISSOLVE",
+      "timestamp": "2026-11-15T17:20:39Z",
+      "status": "completed",
+      "summary": "Cập nhật PA-A theo yêu cầu Owner cho Shenron Summon v4 (ready_tick=258): ground_start_tick=246 (fade 2 ticks), dragon_start_tick=246 (ease_out_quad 12 ticks -> đạt 97.2% ngay lúc Flash #2 vừa tắt ở tick 256 và 100% tại tick 258); kiểm chứng trực quan 12 frame browser và đồng bộ Godot/JS/tests."
+    },
+    {
+      "id": "SHENRON-SUMMON-V5-DISMISS-WISH",
+      "timestamp": "2026-11-15T17:46:00Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Bổ sung dr7.shenron_summon.v5 (v5-dismiss-flash-wish): Menu Điều Ước 3 lựa chọn khi ready_tick=258 (thông báo xác nhận + đóng popup không tác động chỉ số) tự kích hoạt thu hồi 2 chớp sáng (Flash #1 0..10, khoảng tối 10..18, Flash #2 18..28 ẩn sạch rồng+cụm ngọc+aura tại vanish_tick=20); nút Thu hồi Shenron thủ công dùng chung 2-flash dismiss; cổng 7 ngọc bật test_mode_bypass_ball_requirement=true cho test và requires_seven_balls_in_gameplay=true cho gameplay thật. Đã kiểm thử Godot Headless, Node E2E và chụp/đọc trực quan 7 ảnh Chrome headless."
+    },
+    {
+      "id": "DRUM-SCALE-2-5X",
+      "timestamp": "2026-11-15T17:51:00Z",
+      "status": "completed",
+      "summary": "Tăng chuẩn kích thước chốt của Drum lên default_scale = 2.5 (140x125px / 11.6% 1080p, Nearest, giữ nguyên 100% GBA atlas SHA-256 02b57b829ca4c5dd963249e82bfbf3ee8c900127ec9295dfd036685ece5bebea) và giữ nguyên tốc độ màn hình chuẩn 140 px/s (speed_px_per_second = 56.0 * 2.5 = 140), đồng bộ assets/roster.json, engine-export.json (SHA 16ee76601842e37fbf53d3a4acb8a87c415725ae1e290304dac688b2e81a885d), owner_approval.json, skills.md và kiểm thử Godot + Node + Python."
+    },
+    {
+      "id": "ITEM-DRAGON-BALLS-1X-V1",
+      "timestamp": "2026-11-16T01:30:44Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Bóc tách độc lập 7 viên ngọc rồng 1..7 sao từ image copy.png về 1x (32x32, alpha cứng 0/255, premultiplied BOX, 0 pockets) + shared top-left sparkle_fx (60Hz) vào hệ thống assets/items/dragon_balls/ (tách biệt hoàn toàn khỏi assets/rituals/shenron_summon/); tích hợp prefab Godot DragonBallItem2D.tscn + test thả ngoài map 1x/1.5x/2x/3x và balo 1x trên ArenaSandbox & localhost:8080 (chờ Owner Human Test)."
+    },
+    {
+      "id": "ITEM-DRAGON-BALLS-1X-V2",
+      "timestamp": "2026-11-16T01:50:42Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Đã bổ sung Điều 7.5 vào AGENTS.md (23,086B <= 24,000B) và cổng kiểm tự động trong server.py/loop.sh check bắt buộc mọi item có: icon tĩnh trong balo ẩn FX, quét sáng chéo toàn thân 60Hz, hoạt ảnh rơi (+10px nhảy -> rơi đất -> lăn 10px -> bắt đầu quét sáng), hoạt ảnh thu nhỏ bay vào người nhặt & nút ẩn/hiện trên Sân Tập. Bộ Ngọc Rồng 1x (32x32) chờ Owner Human Test trên localhost:8080."
+    },
+    {
+      "id": "RELEASE-V0-14-0",
+      "timestamp": "2026-11-16T02:16:27Z",
+      "status": "completed",
+      "summary": "Finalized v0.14.0 release: Drum (PIPE-019), Shenron Summon v5 (PIPE-020), Dragon Ball 1x items & drop/pickup loop (ITEM-001), AGENTS.md Section 7.5 item completeness gate, and localhost/WASM parity."
+    },
+    {
+      "id": "ARCH-ROADMAP-V0-15-0",
+      "timestamp": "2026-11-16T04:19:27Z",
+      "status": "completed",
+      "summary": "Nang cap ADR-0001 v0.15.0: don 754MB work/, Godot Compatibility + expand + fractional/Pixel Perfect (<1080p guard), WebSocketTransport, Web export & test toan bo"
+    },
+    {
+      "id": "MAP-ROCKY-PLATEAU-TILES",
+      "timestamp": "2026-11-16T05:00:29Z",
+      "status": "completed",
+      "summary": "Bo sung Dieu 7.6 AGENTS.md; dung 1:1 map Rocky Plateau Pixel Art (3 lop Parallax + TileSet 32x32 + 3 One-Way Platforms + Dynamic Pixel Contact Shadow + Ground Dust FX) va ghim man hinh San Tap len dau trang"
+    },
+    {
+      "id": "PREVIEW-SERVER-UNBLOCK",
+      "timestamp": "2026-11-16T05:37:35Z",
+      "status": "completed",
+      "summary": "Sua loi treo http://localhost:8080/?tab=arena: tang backlog=128, timeout 15s + TCP_NODELAY, peek TLS \\x16 dong ngay <1ms, /favicon.ico 204, gzip API/HTML/WASM, ETag/304, va tai uu tien bat dong bo theo tab + tu mo ?tab=arena"
+    },
+    {
+      "id": "MAP-ORIGINAL-TILE-ASSET-FIX",
+      "timestamp": "2026-11-16T06:11:06Z",
+      "status": "completed",
+      "summary": "Sua loi mat ket noi asset UI (image copy.png) bang HTTP/1.1 keep-alive, timeout 45s + retry 3 lan + tu ve lai roster/filmstrip ngay khi anh ve; xoa 3 buc noi tren rocky_plateau, giu nguyen ban JPG goc + canh noi 20:9 seamless va boc tach ground_tileset.png 1 buc ngang chuan mau goc; cap nhat Dieu 7.6 AGENTS.md & [LRN-075]"
+    },
+    {
+      "id": "GODOT-WEB-FACING-SKILL-PIXEL",
+      "timestamp": "2026-11-16T06:53:12Z",
+      "status": "pending_owner_human_test",
+      "summary": "Godot Web: giữ skill khi di chuyển, queue skill lúc turn hai chiều, vô hiệu jump cho quái thiếu clip, bóng alpha 60/85 đồng bộ Godot/Canvas, canvas pixelated, HUD FPS; test exit 0 và web-export exit 0; chờ Owner Human Test FPS/motion"
+    },
+    {
+      "id": "GODOT-DEVICE-COVER-ACTION",
+      "timestamp": "2026-11-16T08:30:41Z",
+      "status": "pending_owner_k70e_human_test",
+      "summary": "Bổ sung nút & endpoint /api/download-android-debug.apk trên localhost:8080 (kèm ETag, chunked streaming & metadata trong /api/bundles) để Owner tải nhanh dr7-studio-debug.apk cài test thực tế trên Redmi K70E."
+    },
+    {
+      "id": "GODOT-K70E-TREX-DRUM-SYNC",
+      "timestamp": "2026-11-16T09:09:17Z",
+      "status": "pending_owner_k70e_human_test",
+      "summary": "Fixed T-rex missing ProjectileFX fireball_fx in TRexFighter2D.gd, fixed Drum bool(null) _turn_pending crash and Player teleport parity in ArenaSandbox.gd + DrumFighter2D.gd, synchronized APK & Godot Web builds"
+    },
+    {
+      "id": "GODOT-K70E-FULLSCREEN-WALK-PICKUP20",
+      "timestamp": "2026-11-16T09:34:09Z",
+      "status": "pending_owner_k70e_human_test",
+      "summary": "Expanded walkable bounds dynamically to full visible display width clamped by character half-body width, removed yellow/blue map limit lines, slowed item pickup speed by 20% (24->30 ticks), synced APK & Godot Web"
+    },
+    {
+      "id": "RELEASE-V0.15.0-FINAL",
+      "timestamp": "2026-11-16T09:42:12Z",
+      "status": "owner_approved",
+      "summary": "Owner approved v0.15.0 release (ADR-0001, Compatibility/expand, K70E APK + full-display body-edge bounds, T-rex fireball_fx, Drum Player sync, clean terrain without yellow/blue lines, 20% slower item pickup) and push to main"
+    },
+    {
+      "id": "FLOATING-CAMERA-INTAKE",
+      "timestamp": "2026-11-16T13:37:51Z",
+      "status": "awaiting_owner_scope",
+      "summary": "Đã kiểm tra FloatingCamera.gif: GIF tĩnh 261x123, 1 frame, chưa có atlas/bundle/roster. Owner chốt quái bay kích thước hiển thị như Bat (body bbox chuẩn 126x81 px, scale 1.1), tốc độ màn hình 150 px/s, flight_default_y=300 (Bat=250, thấp hơn 50 px). Chờ Owner chọn phạm vi bổ sung hoạt ảnh còn thiếu so với bộ chuẩn; bảo toàn sheet gốc Zero AI Redraw."
+    },
+    {
+      "id": "FLOATING-CAMERA-ASSET",
+      "timestamp": "2026-11-16T13:45:44Z",
+      "status": "in_progress_awaiting_size",
+      "summary": "Owner chốt phạm vi: bay qua lại bằng dòng 1, bắn skill dòng 2, trúng đòn và nổ dòng 3; không bổ sung clip ngoài sheet. Đã tách 22 slot giữ nguyên pixel vào work/characters/floating_camera/source-extraction/ (9 flight, 2 attack_body, 4 projectile, 1 hit, 6 explosion), nguồn SHA-256 6407b76ed53641bf33facfb04ede9fcde4371eb673603b7671c26c60eaa05421. Chờ Owner chọn quy tắc scale do sheet thân 20x24 khác tỷ lệ Bat body 126x81; speed=150px/s, flight_default_y=300. Chưa atlas/scene/roster hoặc motion QA."
+    },
+    {
+      "id": "FLOATING-CAMERA-90X94",
+      "timestamp": "2026-11-16T14:00:43Z",
+      "status": "demo_ready_owner_review",
+      "summary": "Floating Camera source sheet SHA-256 6407b76ed53641bf33facfb04ede9fcde4371eb673603b7671c26c60eaa05421; extracted 22 slots, body flight-00 alpha bbox 90x94 on 192x160 canvas, Nearest, no redraw. Draft 6 clips (idle,walk,attack_light,projectile_fx,hit,ko), 1-page Godot atlas 982x658, 21 runtime frames; source duplicate flight-08 unused as loop endpoint. Speed 150 px/s, flight_default_y=300 recorded in source-map; runtime patrol/attack integration not yet done. Clip builder exit0 WARN near_duplicate_hold value1 (flight positions5-7); visual review light/dark/checker done. Export exit0, Godot import smoke exit0, ./loop.sh test outside sandbox exit0 after sandbox socket-denied run exit1. Human Test/motion approval pending; roster unchanged."
+    },
+    {
+      "id": "FLOATING-CAMERA-HUMAN-TEST",
+      "timestamp": "2026-11-16T14:10:13Z",
+      "status": "human_test_live",
+      "summary": "Owner requested localhost Human Test. Dedicated preview http://localhost:8080/floating-camera-demo live; server routes HTML, Godot-export atlas PNG and parsed SpriteFrames timeline with SHA-256 verification. Demo renders 90x94 body at Y=300, 150px/s patrol, attack row2/projectile FX, hit then explosion row3; shot direction toggle is provisional because sheet lacks direction annotation. HTTP HTML/API/atlas all 200; downloaded atlas SHA matches metadata; JS syntax exit0; ./loop.sh test exit0 (Python78, Godot, shaders, Rust); owner visual/motion review pending. Roster unchanged and official Arena Godot runtime not integrated."
+    },
+    {
+      "id": "FLOATING-CAMERA-MONSTER-LIST",
+      "timestamp": "2026-11-16T14:18:38Z",
+      "status": "human_test_live",
+      "summary": "Floating Camera classified as quái bay. Added a distinct Human Test monster card to the main localhost roster UI and Boss/Quái filter; click opens /floating-camera-demo. Official assets/roster.json remains finalized-only per AGENTS.md pending Owner Human Test. HTTP main/demo/API=200, Node dynamic card test boss_mob=1 z_fighters=0 click route correct exit0; ./loop.sh test exit0. Source size90x94, speed150 px/s, flight Y300 unchanged."
+    },
+    {
+      "id": "FLOATING-CAMERA-70X74",
+      "timestamp": "2026-11-16T15:19:31Z",
+      "status": "human_test_live",
+      "summary": "Floating Camera reduced from 90x94 to 70x74 via 1-pass Nearest direct from 20x24 source FloatingCamera.gif (SX=3.5, SY=74/24, Sobel 133.691, alpha 100%, 0 key pockets/spill, review SHA c40954fa72f5bee0f5dd5f6a6d47ad42b8827f214e213b58c6ee7e330e4d607e). Added seamless idle<->walk phase preservation, has_power_up flying AI fallback (attack_light at >=50px), top_level projectile flight, work/.gdignore, and Godot Web + Android Debug APK export synced for Human Test at localhost:8080 (official roster/skills unchanged pending Owner approval)."
+    },
+    {
+      "id": "FLOATING-CAMERA-FINALIZE",
+      "timestamp": "2026-11-16T15:29:21Z",
+      "status": "completed",
+      "summary": "Owner chốt Floating Camera (PIPE-021, v0.16.0): chuyển chính thức vào assets/floating_camera/, scenes/FloatingCamera.tscn, scenes/FloatingCameraFighter2D.gd và assets/roster.json (11/11 nhân vật hoàn thiện), ghi skills.md & owner_approval.json, xóa sạch review/, work/, FloatingCamera.gif & image.png, xuất Godot Web & Android Debug APK 1:1 và chuẩn bị push lên main."
+    },
+    {
+      "id": "SESSION-LOAD-LOCALHOST",
+      "timestamp": "2026-11-17T00:48:31Z",
+      "status": "completed",
+      "summary": "Nạp trạng thái và quy định dự án; khởi chạy preview localhost:8080."
+    },
+    {
+      "id": "K70E-MAP-AUDIT",
+      "timestamp": "2026-11-17T00:56:45Z",
+      "status": "completed",
+      "summary": "Audit viewport, camera và giới hạn map; ghi chuẩn K70E, parity Godot/APK và camera ngang vào hiến pháp; chiều cao chờ Owner chốt."
+    },
+    {
+      "id": "MAP-DESCENT-CONCEPT",
+      "timestamp": "2026-11-17T01:26:25Z",
+      "status": "ready_for_owner_review",
+      "summary": "Ảnh ý tưởng AI đoạn map nối bên phải, cảnh đồi hạ dần; chưa tích hợp sân tập hoặc kiểm đường nối."
+    },
+    {
+      "id": "MAP-DESCENT-STEPS",
+      "timestamp": "2026-11-17T01:28:15Z",
+      "status": "ready_for_owner_review",
+      "summary": "Chỉnh ảnh demo mặt đất thành các khối bậc hạ dần sang phải; chưa tích hợp sân tập."
+    },
+    {
+      "id": "MAP-CONTINUATION-VIEW",
+      "timestamp": "2026-11-17T02:09:56Z",
+      "status": "ready_for_owner_review",
+      "summary": "Ảnh ý tưởng góc nhìn gần map gốc, mặt đất phẳng; chờ duyệt khớp nối trước khi tạo bậc."
+    },
+    {
+      "id": "MAP-HALF-STEPS",
+      "timestamp": "2026-11-17T02:42:27Z",
+      "status": "ready_for_owner_review",
+      "summary": "Demo nửa trái bằng phẳng, nửa phải hạ dần bằng các bậc đá; chờ Owner duyệt."
+    },
+    {
+      "id": "MAP-RIGHT-SEAM-CONCEPT",
+      "timestamp": "2026-11-17T02:53:45Z",
+      "status": "ready_for_owner_review",
+      "summary": "Demo tiếp nối bên phải vách đá map gốc, bỏ sông giữa ảnh và điều chỉnh tỷ lệ bậc; chưa xác minh đường nối."
+    },
+    {
+      "id": "MAP-CONTINUATION-INTEGRATION",
+      "timestamp": "2026-11-17T03:39:49Z",
+      "status": "in_progress",
+      "summary": "Map 2 đoạn K70E đã chạy trên Godot Web localhost, camera theo player và bậc hạ; ./loop.sh test và web-export exit 0. Còn vết cảnh ở vách đá; APK bị chặn bởi thiếu Android SDK."
+    },
+    {
+      "id": "MAP-SEAM-SOFTEN",
+      "timestamp": "2026-11-17T04:05:19Z",
+      "status": "in_progress",
+      "summary": "Thay đoạn pha ảnh gây bóng đôi bằng vùng chuyển tiếp vẽ lại; kiểm seam x=2400 RGB jump trung bình 7.0096; test/Web export exit 0, localhost HTTP 200; chờ đánh giá K70E và APK."
+    },
+    {
+      "id": "MAP-STEP-TERRAIN",
+      "timestamp": "2026-11-17T04:29:21Z",
+      "status": "in_progress",
+      "summary": "Sửa tile overlay và ảnh ba bậc gần đều; thêm 3 collider, đi xuống rơi/đi lên phải nhảy, chặn một số đạn bằng terrain_blocks_segment. Test/Web export exit 0, localhost HTTP200. Skill runtime đã đóng băng cần audit thêm, APK chưa có Android SDK."
+    },
+    {
+      "id": "MAP-DRUM-SURFACE-SHENRON",
+      "timestamp": "2026-11-17T04:48:58Z",
+      "status": "in_progress",
+      "summary": "Sửa Drum rơi ngay khi qua mép và hạ cao độ bậc cuối 1020->975; AI theo mặt đất; Shenron theo tâm camera/sàn tại vị trí người gọi. test/Web export/check exit0, localhost HTTP200; còn chờ nhìn trên K70E/APK."
+    },
+    {
+      "id": "MAP-STEP-EDGE-HANDOFF",
+      "timestamp": "2026-11-17T04:57:26Z",
+      "status": "ready_for_next_agent",
+      "summary": "Documented unresolved Drum hover at step edge and platform-2 visual depth in docs/map-step-edge-drum-handoff-todo.md; no code or asset fix this session."
+    },
+    {
+      "id": "MAP-STEP-EDGE-ALL-CHARS",
+      "timestamp": "2026-11-17T05:21:33Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Da sua mep bac dia hinh (STEP_ONE_X=2850, STEP_TWO_X=3695, san 840/890/945) cho toan bo nhan vat (walk/run/turn/teleport/burrow/AI/bay/ngoc/bong), sua DisplayPolicy integer vis_h va camera zoom/pan thich nghi moi he may (ke ca iPad & man lon/cao/dai), dong bo Godot Web; cho Owner Human Test va build APK tai may co Android SDK."
+    },
+    {
+      "id": "PIXEL-RULER-MODAL",
+      "timestamp": "2026-11-17T05:52:23Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Da do khoang cach Drum khoanh tron (world_x~355-360) toi Drum doi dien (world_x=1360) ~1000-1005 px tam-tam (~860 px mep than), va them PixelRulerModal (Thuoc Do PX 1:1 World PX dong bo Godot Web <-> APK) trong ArenaSandbox.gd + scenes/runtime/PixelRulerModal.gd; da xuat web-export."
+    },
+    {
+      "id": "FIELD-COMBAT-PAD-HUD",
+      "timestamp": "2026-11-17T07:50:18Z",
+      "status": "DONE",
+      "summary": "Implemented FieldCombatManager (5 ground + 5 flying monsters, 7s respawns + dilophosaurus alternation + flying rotation, homing power_up orbs, 1500HP/100Mana Drum hero spawn toggle & 3s KO respawn, monster Stamina 100->0 3s mini-stun HIT, 67.6% weighted Dragon Ball drops z_index=50 + 1s unlock, Target Pointer button 8), MobileActionPad (Analog + 1..8 flexible circular buttons + settings), OverheadBarsDraw, ArenaTheme (+30% sharper font + frosted UI), Godot headless tests and Web export"
+    },
+    {
+      "id": "FIELD-IMMORTAL-AND-RANGE-TOGGLE",
+      "timestamp": "2026-11-17T08:16:20Z",
+      "status": "DONE",
+      "summary": "Added Hero Immortal toggle and Monster Range visual overlay toggle, synced Web and APK builds"
+    },
+    {
+      "id": "FIELD-FLY-360-ORBIT-ARC-FIX",
+      "timestamp": "2026-11-17T08:43:36Z",
+      "status": "DONE",
+      "summary": "Fixed flying monster turn oscillation, hid duplicate prefab FX in Field Mode without breaking frozen SHA-256 receipts, added elliptical flying orbit + 360-deg curved homing FX + continuous 360-deg analog flight for flying characters, rebuilt synced Web and APK"
+    },
+    {
+      "id": "FIELD-EDGE-COMBAT-ICON-30DROP",
+      "timestamp": "2026-11-17T10:52:22Z",
+      "status": "DONE",
+      "summary": "Restarted localhost:8080 test server, set image copy 6.png as APK/app icon, added exact character body-edge Rect2 interactions (body collision separation, melee/skill edge impacts, skill clash), hit feedback FX (flash/shake/burst/damage popup), direct touch target selection + kept button 8 cycle, auto-approach on normal attack, reduced Dragon Ball drop gate to 30% + star table, rebuilt synced Web & APK"
+    },
+    {
+      "id": "FIELD-SILHOUETTE-X-HIT-EXPLOSION-LAYERS",
+      "timestamp": "2026-11-17T11:29:18Z",
+      "status": "DONE",
+      "summary": "Increased Drum skill speed +50% (1170 px/s), looped monster HIT animation during 3s stun & guarded FloatingCamera hit->ko in Field, fixed hero hit flash + damage subtraction + powerup_explosion FX from image copy 7.png, baked non-box body silhouettes + tâm thân core for all 11 fighters, added sequential calligraphic red X target + double-tap auto-attack, set Z-layering (Monster 10 < Hero 20 < Boss 30), rebuilt synced Web & APK and verified localhost:8080"
+    },
+    {
+      "id": "COMBAT-003",
+      "timestamp": "2026-11-17T11:53:32Z",
+      "status": "completed",
+      "summary": "Tinh chỉnh Combat & FX: giảm rung Drum, giảm 20% size nổ (0.68), 1 chữ X đỏ tại tâm thân trên layer z=60 bỏ viền box, nổ mặc định cho Drum và nhân vật thiếu FX nổ riêng, broken-stamina 1 đòn = 1 clip hit (khóa đánh trả 3s, di chuyển bình thường khi không bị đánh); Web/APK SHA-256 sync & test exit 0"
+    },
+    {
+      "id": "COMBAT-004",
+      "timestamp": "2026-11-17T12:09:36Z",
+      "status": "completed",
+      "summary": "Giảm 20% ánh sáng nháy sáng trúng đòn (tướng/boss/quái) & xóa trễ 1 frame; chữ X cảm ứng chỉ hiện khi thao tác rồi tự mờ ẩn sau 0.75s; đánh thường có 0.2s hồi chiêu và không nhồi đòn; test + Web + APK + localhost HTTP 200 đồng bộ"
+    },
+    {
+      "id": "COMBAT-005",
+      "timestamp": "2026-11-17T12:28:56Z",
+      "status": "completed",
+      "summary": "Giảm thêm 20% hiệu ứng rung (tướng/quái/boss, HIT_SHAKE_SCALE_MUL=0.80) và 20% lóa sáng trúng đòn (HIT_FLASH_BRIGHTNESS_MUL=0.64, HIT_FLASH_ALPHA_MUL=0.80, draw_hit_impact lum=0.64); đồng bộ Web + APK + localhost"
+    },
+    {
+      "id": "LOCAL-001",
+      "timestamp": "2026-11-18T06:01:46Z",
+      "status": "completed",
+      "summary": "Khởi chạy preview localhost:8080; HTTP GET / trả 200."
+    },
+    {
+      "id": "MAP-RIVER-EXTENSION",
+      "timestamp": "2026-11-18T07:31:00Z",
+      "status": "human_test_pending",
+      "summary": "Review map +1800px, hai bậc X4877/X5643, 2 quái bộ + 2 quái bay, 3 cây tiền cảnh; Godot Web/APK export và ./loop.sh test exit 0; chờ Owner xem seam trên K70E."
+    },
+    {
+      "id": "MAP-STEP-EDGE-FIX",
+      "timestamp": "2026-11-18T09:31:44Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Hoan thien review map noi sau mat san combined-depth-review.png (hieu chuan duong noi x=4800), 3 cay tren dai co sau X4940/5420/6050 khong cat tan/choi, va HUD MobileActionPad theo image copy 8.png (analog, nut hanh dong vector + vong xanh, mini-map khong de nut); dong bo Godot Web + Android APK cho Owner Human Test."
+    },
+    {
+      "id": "MAP-STEP-CLIFF-TREES-FX",
+      "timestamp": "2026-11-18T11:08:46Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Chuan hoa mat cat 2.5D 4 bac (wall_x=[2876,3724,4778,5582] + wall_pad<=48 + truot mep roi), xuat planted-trees-review.png co re cam dat cho 3 cay, xoa mini-map WorldPositionMap, giam 40% tuong phan hit-flash/blink (0.60) va nang cap FX va cham danh thuong (melee) & danh nang (heavy); dong bo Web + APK + localhost:8080 cho Owner Human Test."
+    },
+    {
+      "id": "MAP-TREE-REPOSITION",
+      "timestamp": "2026-11-18T11:37:01Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Dua cay #1 len buc trai cach mat cat bac 3 ~30px (X=4695), ha toan bo 3 cay xuong +20px (Y=[828,888,954]) va dong bo Web + APK + localhost:8080."
+    },
+    {
+      "id": "MAP-TREE-CANOPY-PLUS30",
+      "timestamp": "2026-11-18T11:48:19Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Tang kich thuoc tan la cua ca 3 cay len +30% trong planted-trees-review.png (2027x1088, chuyen tiep muot ve than/re 1.0x), cap nhat ArenaSandbox + test_arena_sandbox + dong bo Web, APK & localhost:8080."
+    },
+    {
+      "id": "DAMAGE-POPUP-PLUS20",
+      "timestamp": "2026-11-18T12:21:03Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Tang kich thuoc diem sat thuong noi them 20% (FLOATING_DAMAGE_FONT_SIZE=24/outline=5 trong OverheadBarsDraw.gd va 26px trong tools/preview/index.html), cap nhat test & dong bo Web, APK, localhost:8080."
+    },
+    {
+      "id": "MONSTER-RESPAWN-12S",
+      "timestamp": "2026-11-18T12:39:17Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Tang thoi gian quai hoi sinh trong FieldCombatManager.gd tu 7.0s len 12.0s (RESPAWN_MONSTER_DELAY_S=12.0), cap nhat test_arena_sandbox.gd va dong bo Web + APK."
+    },
+    {
+      "id": "BOSS-DRUM-MAP-EVENT",
+      "timestamp": "2026-11-18T12:58:03Z",
+      "status": "ready_for_owner_human_test",
+      "summary": "Cấu hình Boss Map Drum: đếm 5' (300s) khi có Tướng Player trong map, hồi sinh 30' (1800s) sau KO; HP=5000, Stamina=200, light_dmg=120, power_dmg=220, scale=2.5, Z=30; tên Drum màu đỏ + thanh máu đỏ 152x17px; teleport đến cạnh Tướng khi xuất hiện & tấn công/truy đuổi toàn map bằng UtilityAI; drop Ngọc Rồng 100%; nút ⚡ Gọi Boss Drum trong Sân Tập."
     }
   ],
   "quick_resume_commands": [
@@ -635,36 +1143,29 @@
     "./loop.sh test"
   ],
   "session_resume": {
-    "next_action": "v0.11.1 source andAGYhandoff published/CIgreen. Next itemBat turn,thenT-rex/Pteranodon/Sarcosuchus serially perdocs/AGY-TURN-HANDOFF.md;0/4stillnotstarted. Preserveall8approvedcharacters andsnapshot eachtarget before addingturn.",
-    "asset_status": "8 nhân vật Owner-approved; Chilopoda identity-v2/v0.11.1 frozen at approved-final-frames.",
-    "approval_file": "assets/chilopoda/owner_approval.json",
-    "cleanup_report": "docs/releases/v0.11.1-chilopoda-finalization.json",
-    "verification": "docs/releases/v0.11.1-chilopoda-finalization.json",
+    "next_action": "Đã chốt Floating Camera v0.16.0 (11/11 nhân vật), dọn sạch review/ và /work; sẵn sàng nhiệm vụ mới.",
+    "asset_status": "11/11 nhân vật + Bộ 7 Ngọc Rồng 1x (32x32) + Shenron Summon v5 giữ nguyên SHA-256; đã dọn sạch review/, work/ và file nháp root.",
+    "architecture_adr": "docs/adr/0001-architecture-and-scale-roadmap.md",
+    "approval_file": "assets/floating_camera/owner_approval.json",
+    "ritual_approval_file": "assets/rituals/shenron_summon/owner_approval.json",
+    "cleanup_report": "docs/releases/v0.16.0-release-finalization.json",
+    "verification": "tests/test_compatibility_shaders.gd",
     "git_checkpoint": {
       "branch": "main",
       "remote": "origin",
-      "source_code_commit": "19da17b62aad8262229e9447f7a54113bb4e3ff5",
-      "release_version": "0.11.1",
+      "source_code_commit": "48616ed91e5dae394df4c6e6b1cf80e213e2246b",
+      "release_version": "0.15.0",
       "ci_status": "success",
       "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43396006048",
-      "verified_at": "2026-11-13T08:49:58.701962+00:00",
-      "note": "Source release commit published and CI verified. Following documentation commit records this handoff; no asset/timing changes."
+      "verified_at": "2026-11-16T02:16:27Z",
+      "note": "Finalized Floating Camera PIPE-021 (v0.16.0) on local working tree and pushing to main."
     },
-    "active_character_concept": "work/characters/chilopoda/identity-v2/plan.json",
-    "review_evidence": "work/characters/chilopoda/identity-v2/verification/identity-frame-proof.json",
-    "latest_delivery": "assets/chilopoda/godot_bundle",
-    "preview_url": "http://localhost:8080/?character=chilopoda&clip=power_up&frame=0&paused=1",
-    "local_version": "0.11.1",
-    "handoff_guide": "docs/AGY-TURN-HANDOFF.md",
-    "previous_git_checkpoint": {
-      "branch": "main",
-      "remote": "origin",
-      "source_code_commit": "bafbf1bcdf03f68dfb68e529914335b15168c9fd",
-      "ci_status": "success",
-      "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43369485195",
-      "verified_at": "2026-11-13T05:05:35.819071+00:00",
-      "note": "Source release commit verified on origin/main and CI success. A following documentation commit records this handoff; no asset/timing changes."
-    }
+    "active_character_concept": "assets/floating_camera/source/FloatingCamera.gif",
+    "review_evidence": "docs/contracts/",
+    "latest_delivery": "assets/roster.json",
+    "preview_url": "http://localhost:8080/?tab=arena",
+    "local_version": "0.16.0",
+    "handoff_guide": "docs/adr/0001-architecture-and-scale-roadmap.md"
   },
   "approved_workflows": [
     {
@@ -672,8 +1173,11 @@
       "character_id": "t_rex",
       "display_name": "T-rex",
       "approved_at": "2026-11-12T07:38:36.605057+00:00",
-      "approval_file": "assets/t_rex/owner_approval.json",
-      "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7"
+      "approval_file": "docs/releases/t_rex-v0.6.0-approval.json",
+      "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
+      "revision": "walk-style-v4 / v0.6.0",
+      "superseded_by": "PIPE-010",
+      "archived_atlas_purged": true
     },
     {
       "id": "PIPE-002",
@@ -688,75 +1192,204 @@
       "character_id": "spinosaurus",
       "display_name": "Spinosaurus",
       "approved_at": "2026-11-12T07:38:36.605057+00:00",
-      "approval_file": "assets/spinosaurus/owner_approval.json",
-      "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4"
+      "approval_file": "docs/releases/spinosaurus-v0.6.0-approval.json",
+      "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+      "superseded_by": "PIPE-011",
+      "archived_atlas_purged": true
     },
     {
       "id": "PIPE-004",
       "character_id": "tasmanian_king_crab",
       "display_name": "Tasmanian King Crab",
       "approved_at": "2026-11-12T09:51:08.495780+00:00",
-      "approval_file": "assets/tasmanian_king_crab/owner_approval.json",
-      "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1"
+      "approval_file": "docs/releases/tasmanian_king_crab-v0.7.0-approval.json",
+      "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+      "superseded_by": "PIPE-012",
+      "archived_atlas_purged": true
     },
     {
       "id": "PIPE-005",
       "character_id": "sarcosuchus",
       "display_name": "Sarcosuchus",
       "approved_at": "2026-11-13T02:57:36.459561+00:00",
-      "approval_file": "assets/sarcosuchus/owner_approval.json",
-      "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951"
+      "approval_file": "docs/releases/sarcosuchus-v0.8.1-approval.json",
+      "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+      "superseded_by": "PIPE-013",
+      "archived_atlas_purged": true
     },
     {
       "id": "PIPE-006",
       "character_id": "dilophosaurus",
       "display_name": "Dilophosaurus",
       "approved_at": "2026-11-13T04:57:15.924909+00:00",
-      "approval_file": "assets/dilophosaurus/owner_approval.json",
-      "atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157"
+      "approval_file": "docs/releases/dilophosaurus-v0.9.1-approval.json",
+      "atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
+      "superseded_by": "PIPE-014",
+      "archived_atlas_purged": true
     },
     {
       "id": "PIPE-007",
       "character_id": "bat_chiroptera",
       "display_name": "Bat - Chiroptera",
       "approved_at": "2026-11-13T06:34:45.229155+00:00",
-      "approval_file": "assets/bat_chiroptera/owner_approval.json",
-      "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a"
+      "approval_file": "docs/releases/bat_chiroptera-v0.10.0-approval.json",
+      "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
+      "revision": "atlas-v1 / v0.10.0",
+      "superseded_by": "PIPE-009",
+      "archived_atlas_purged": true
     },
     {
       "id": "PIPE-008",
       "character_id": "chilopoda",
       "display_name": "Chilopoda",
       "approved_at": "2026-11-13T08:22:39.853349+00:00",
+      "approval_file": "docs/releases/chilopoda-v0.11.1-approval.json",
+      "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+      "superseded_by": "PIPE-015",
+      "archived_atlas_purged": true
+    },
+    {
+      "id": "PIPE-009",
+      "character_id": "bat_chiroptera",
+      "display_name": "Bat - Chiroptera",
+      "approved_at": "2026-11-13T10:50:00+00:00",
+      "approval_file": "docs/releases/bat_chiroptera-v0.11.2-approval.json",
+      "atlas_sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084",
+      "revision": "turn-v1 / v0.11.2",
+      "superseded_by": "PIPE-016",
+      "archived_atlas_purged": true
+    },
+    {
+      "id": "PIPE-010",
+      "character_id": "t_rex",
+      "display_name": "T-rex",
+      "approved_at": "2026-11-14T07:12:14+00:00",
+      "approval_file": "assets/t_rex/owner_approval.json",
+      "atlas_sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c",
+      "revision": "turn-v1 / v0.11.2"
+    },
+    {
+      "id": "PIPE-011",
+      "character_id": "spinosaurus",
+      "approved_at": "2026-11-15T05:52:31.727116+00:00",
+      "approval_file": "assets/spinosaurus/owner_approval.json",
+      "supersedes": "PIPE-003",
+      "summary": "Spinosaurus v0.12.0 (walk-edge-uniform-v1 + 170 px/s + step2-visual-fix): giữ idle/walk_01..06/69 PNG gốc, thu đồng đều 1 nhịp Nearest cho walk_00 & walk_07."
+    },
+    {
+      "id": "PIPE-012",
+      "character_id": "tasmanian_king_crab",
+      "approved_at": "2026-11-15T05:52:31.727116+00:00",
+      "approval_file": "assets/tasmanian_king_crab/owner_approval.json",
+      "supersedes": "PIPE-004",
+      "summary": "Tasmanian King Crab v0.12.0 (uniform-color-v1 + facing flip): khử chớp sáng idle và đồng nhất toàn bộ 5 clip thân theo tông chuẩn walk."
+    },
+    {
+      "id": "PIPE-013",
+      "character_id": "sarcosuchus",
+      "approved_at": "2026-11-15T05:52:31.727116+00:00",
+      "approval_file": "assets/sarcosuchus/owner_approval.json",
+      "supersedes": "PIPE-005",
+      "summary": "Sarcosuchus v0.12.0 (step2-visual-fix + calibration-v1): chân chạm đất y=223, ổn định luminance idle, scale 2.0 / 135 px/s, turn [2,5,6,3]."
+    },
+    {
+      "id": "PIPE-014",
+      "character_id": "dilophosaurus",
+      "approved_at": "2026-11-15T05:52:31.727116+00:00",
+      "approval_file": "assets/dilophosaurus/owner_approval.json",
+      "supersedes": "PIPE-006",
+      "summary": "Dilophosaurus v0.12.0 (step2-visual-fix + calibration-v1): đồng nhất cỡ walk/turn ~95-96px theo idle chạm y=223..224, scale 1.75 / 155 px/s, turn [2,5,5,2]."
+    },
+    {
+      "id": "PIPE-015",
+      "character_id": "chilopoda",
+      "approved_at": "2026-11-15T05:52:31.727116+00:00",
       "approval_file": "assets/chilopoda/owner_approval.json",
-      "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d"
+      "supersedes": "PIPE-008",
+      "summary": "Chilopoda v0.12.0 (fireball-v1 + calibration): thay laser đỏ bằng cầu lửa tích tụ đơn tại miệng trong power_up, giữ burrow timing/turn, scale 1.35 / 140 px/s."
+    },
+    {
+      "id": "PIPE-016",
+      "character_id": "bat_chiroptera",
+      "approved_at": "2026-11-15T05:52:31.727116+00:00",
+      "approval_file": "assets/bat_chiroptera/owner_approval.json",
+      "supersedes": "PIPE-009",
+      "summary": "Bat - Chiroptera v0.12.0 (calibration-v1): hiệu chỉnh bay 1920x1080 (scale 1.1, 115 px/s, flight Y=250) và tăng tốc turn [2,3,4,3,3]."
+    },
+    {
+      "id": "PIPE-017",
+      "character_id": "shenron",
+      "approved_at": "2026-11-15T12:36:59.698744+00:00",
+      "approval_file": "docs/releases/shenron-v0.13.0-approval.json",
+      "ritual_approval_file": "docs/releases/shenron_summon-v0.13.0-approval.json",
+      "superseded_by": "PIPE-018",
+      "summary": "Shenron hovering eight-frame idle + full Dragon Ball summon combo (v0.13.0), Owner approved."
+    },
+    {
+      "id": "PIPE-018",
+      "character_id": "shenron",
+      "approved_at": "2026-11-15T13:11:10+00:00",
+      "approval_file": "assets/shenron/owner_approval.json",
+      "ritual_approval_file": "assets/rituals/shenron_summon/owner_approval.json",
+      "supersedes": "PIPE-017",
+      "superseded_by": "PIPE-020",
+      "atlas_sha256": "e94502bbed02ed036f66aa8a5a3dcbf42f111898b3c83deb90b0a4c0669688b2",
+      "ritual_atlas_sha256": "c82ec5e8460a2bf01ef515793e87cfdf2be96f448eeab1b914d9e9fec7215aba",
+      "dissolve_mask_sha256": "fbede0b918a87743dac48c8e97abc3a6a32fbd4af30fcf2bdf33e052d790800f",
+      "summary": "Shenron v0.13.1 (v3-pixel-dissolve): đổi riêng reveal sang pixel dissolve 96x68 (cell 4x4, viền [255,236,156]) đồng bộ 1:1 Godot OpenGL3 shader, Rust/WASM và Browser Canvas2D; giữ nguyên thân idle-v5-hover, bay 7 ngọc, 2 flash trắng, cụm 144x136 và aura."
+    },
+    {
+      "id": "PIPE-019",
+      "character_id": "drum",
+      "approved_at": "2026-11-15T16:51:40+00:00",
+      "approval_file": "assets/drum/owner_approval.json",
+      "atlas_sha256": "02b57b829ca4c5dd963249e82bfbf3ee8c900127ec9295dfd036685ece5bebea",
+      "summary": "Drum v0.13.1 (PA-1 / H1 / walk-v6-scale-2.5x): giữ nguyên 100% pixel/bảng 18 màu GBA gốc @ 2.5x Nearest chốt theo Owner (140x125px / 11.6% 1080p), tốc độ 140 px/s (56.0 * 2.5x), walk v6 dựng từ idle_00 giữ tỷ lệ 1:1 (55-57x50-51px) bước ngắn nhấc chân luân phiên 8 frame, AI quái tốc biến <=200px, attack_light 0.2s <=50px, power_up + cầu điện 200..400px."
+    },
+    {
+      "id": "PIPE-020",
+      "character_id": "shenron",
+      "approved_at": "2026-11-16T02:10:11+00:00",
+      "approval_file": "assets/shenron/owner_approval.json",
+      "ritual_approval_file": "assets/rituals/shenron_summon/owner_approval.json",
+      "supersedes": "PIPE-018",
+      "atlas_sha256": "e94502bbed02ed036f66aa8a5a3dcbf42f111898b3c83deb90b0a4c0669688b2",
+      "ritual_atlas_sha256": "c82ec5e8460a2bf01ef515793e87cfdf2be96f448eeab1b914d9e9fec7215aba",
+      "sequence_sha256": "1e5a985bc6a38f3368e47757176b4b183cf35aa89c43fa029e5a046ec765488c",
+      "dissolve_mask_sha256": "fbede0b918a87743dac48c8e97abc3a6a32fbd4af30fcf2bdf33e052d790800f",
+      "summary": "Shenron Summon v5-dismiss-flash-wish (v0.14.0): hiện cụm ngọc & Shenron ngay tại Flash #2, popup 3 điều ước tự thu hồi 2 chớp sáng đồng bộ 1:1 Godot <-> localhost:8080; dọn ảnh rác root về work/rituals/shenron_summon/v5-dismiss-flash-wish/source/."
+    },
+    {
+      "id": "PIPE-021",
+      "character_id": "floating_camera",
+      "display_name": "Floating Camera",
+      "approved_at": "2026-11-16T15:27:40.485077+00:00",
+      "approval_file": "assets/floating_camera/owner_approval.json",
+      "atlas_sha256": "c40954fa72f5bee0f5dd5f6a6d47ad42b8827f214e213b58c6ee7e330e4d607e",
+      "tres_sha256": "3429b23612e734451e1a0dce8cf8a94a92a404a637cd905034f09b93585e6802",
+      "prefab_sha256": "6f3528518baed67d3bd12cd7d64da196a46a0575f917cd6531843c4bfa3b3973",
+      "revision": "size70x74-idle-phase-v1 / v0.16.0",
+      "summary": "Floating Camera v0.16.0 (quái bay 70x74 1-pass Nearest từ 20x24 nguồn gốc, 13 màu RGB, alpha 100%, 0 pockets/spill, idle=walk nối pha mượt, 150 px/s tại flight_default_y=300, đạn projectile_fx top_level +X, AI attack_light fallback >=50px)."
+    }
+  ],
+  "approved_item_workflows": [
+    {
+      "id": "ITEM-001",
+      "item_set_id": "dragon_balls",
+      "display_name": "Bộ 7 Viên Ngọc Rồng (1× = 32×32)",
+      "approved_at": "2026-11-16T02:10:11+00:00",
+      "approval_file": "assets/items/dragon_balls/owner_approval.json",
+      "atlas_sha256": "5ee1a97b09624b6c15c7a895ff436cb7aab9ccd10964d5485dcace3a59e40bb2",
+      "tres_sha256": "2f3c4dab5e21a3918b4fb4a458f5ff096c9a9c7c5ddd2bad07320bec89c6b5a5",
+      "export_sha256": "d15fadbabcebef6a82c5a0bda3bd78e7d3a0d07332b78438e7f0e1206bab6697",
+      "summary": "Hệ thống item game assets/items/ & Bộ 7 Ngọc Rồng 1x (32x32, alpha cứng 100%, 0 pockets): quét sáng chéo toàn thân 60Hz, balo ẩn FX giữ icon tĩnh, nút Ẩn/Hiện trên Sân Tập, quái chết rơi nhảy +10px -> rơi đất -> lăn 10px -> quét sáng, nhặt bay thu nhỏ vào người nhặt; bổ sung Điều 7.5 Hiến pháp AGENTS.md."
     }
   ],
   "owner_defaults": {
-    "character_art_style": "pixel_art",
-    "avoid": "HD sharpening/detail inflation",
-    "independent_ki_aura": true,
-    "excluded_clips": [
-      "guard",
-      "win"
-    ],
-    "do_not_reask_excluded_clips": true,
-    "character_sharpness_standard": {
-      "path": "docs/art-standards/character-pixel-sharpness.json",
-      "reference_png": "docs/art-standards/t-rex-sharpness-reference.png",
-      "reference_png_sha256": "8c46b31b6fd328fef3b5b4bd8a1d1ebbd30d51f4d5720c673b3f2437ad565311",
-      "gameplay_detail_pitch_px": 1,
-      "reference_sobel": 245.516,
-      "scope": "Owner-selected sharpness standard for future characters; animation approval independent"
-    },
-    "character_identity_rule": "One canonical identity master/SHA per character for every action. Rejected-action artwork is motion guide only; compare proportions/palette/shading independently from sharpness/motion. character_identity=false blocks delivery.",
-    "adverse_status_effects": {
-      "body_clips": "Do not add separate crowd-control/stun body animations.",
-      "stun": "Freeze a suitable existing hit pose; independently clocked VFX above head; end by status duration.",
-      "turn_meaning": "Facing-change transition, not stun/control.",
-      "scope": "All existing and future characters; current task records the policy, no new gameplay effect implementation claimed."
-    },
-    "turn_policy": "Keep existing turn for authored facing rotation; explicitly confirmed by Owner. It is not stun. No removal."
+    "default_powerup_explosion_fx": "assets/fx/powerup_explosion/powerup_explosion.tres",
+    "default_powerup_explosion_scale": 0.68,
+    "clash_explosion_scale": 0.58,
+    "explosion_rule": "Bat ky tuong hoac quai nao (ke ca Drum) khong co hieu ung vu no rieng di kem sheet/atlas hoac yeu cau rieng mac dinh dung assets/fx/powerup_explosion/ khi don chuong va cham muc tieu. Dilophosaurus giu bo 3 nhat chem rieng khong them vu no mac dinh."
   },
   "session_bootstrap": {
     "loaded_at": "2026-11-13T01:01:44.309572+00:00",
@@ -773,8 +1406,8 @@
     "instruction_precedence": "Hiến pháp Owner cung cấp trong phiên hiện tại ưu tiên ghi chép engine_evaluation cũ trong state.json; chưa thay đổi kiến trúc hoặc asset."
   },
   "turn_policy": {
-    "default": "Required for all newcharacteratlases unless Owner explicitly exempts",
-    "exception": "KingCrab sidewayslocomotion,no turn",
+    "default": "Giữ nguyên clip turn ở các nhân vật đã có; nhân vật không có turn (Pteranodon, King Crab) và các nhân vật mới không bắt buộc thêm clip turn nếu xoay hướng ngang nhanh mượt không gây cảm giác lật bìa.",
+    "exception": "Owner 2026-11-14 hủy TURN-003 Pteranodon (+20% flip burst) và giữ King Crab (+30% flip burst); các nhân vật đã có turn giữ nguyên.",
     "contract": "docs/art-standards/turn-contract.md",
     "bidirectional_gate": "Independently verify right-to-left and left-to-right, bothendpoints, actualperspective wholebodyposes; no cardflip",
     "backlog": "docs/turn-retrofit-todo.md",
@@ -784,7 +1417,7 @@
       "pteranodon",
       "sarcosuchus"
     ],
-    "retrofit_gate": "Chilopoda Owner-approved and finalchecks exit0; Bat gate open. Still serialOwneracceptance before advancing eachcharacter.",
+    "retrofit_gate": "Bat (PIPE-009), T-rex (PIPE-010) & Sarcosuchus (TURN-004) đã có turn; Owner 2026-11-14 xác nhận hủy TURN-003 Pteranodon (dùng flip nhanh +20%) và không bắt buộc thêm turn cho nhân vật tương lai.",
     "score": "10evidencegates x10points,100/100 onlyallgates+Owneraccepted; not AIpercentidentity",
     "chilopoda_exception": "Owner-authorized burrow/reorient while fully hidden/emerge in opposite direction; both endpoints and directions independently verified. Future retrofit list remains gated on Chilopoda final approval."
   },
@@ -812,18 +1445,27 @@
     "scope": "Documentation-only handoff for Bat -> T-rex -> Pteranodon -> Sarcosuchus turn retrofit;0/4 unchanged. Chilopoda already Owner-approved; no runtime/art edits."
   },
   "pickup_release": {
-    "version": "0.11.1",
-    "branch": "main",
-    "remote": "origin",
-    "requested_at": "2026-11-13T08:45:02.779468+00:00",
-    "status": "published_source_ci_verified",
-    "handoff": "docs/AGY-TURN-HANDOFF.md",
-    "turn_backlog_completed": 0,
-    "turn_backlog_total": 4,
-    "checks": "docs/releases/v0.11.1-pickup-checks.json",
-    "source_code_commit": "19da17b62aad8262229e9447f7a54113bb4e3ff5",
-    "ci_status": "success",
-    "ci_run_url": "https://github.com/pquangvinh1999-arch/DR7-Studio/actions/runs/43396006048",
-    "verified_at": "2026-11-13T08:49:58.701962+00:00"
-  }
+    "version": "0.14.0",
+    "status": "completed",
+    "release_manifest": "docs/releases/v0.14.0-release-finalization.json",
+    "characters_approved": 10,
+    "items_approved": 1,
+    "approved_at": "2026-11-16T02:10:11+00:00",
+    "verification_log": "docs/releases/v0.14.0-tests.log"
+  },
+  "local_preview": {
+    "url": "http://localhost:8080/?tab=arena",
+    "status": "running",
+    "verified_http_status": 200,
+    "active_characters": 11,
+    "items_in_catalog": 1,
+    "drum_in_roster": true,
+    "drum_clips": 11,
+    "default_scale": 1.0,
+    "arena_url": "http://localhost:8080",
+    "release_version": "0.16.0",
+    "owner_approved": true,
+    "floating_camera_in_roster": true
+  },
+  "last_updated_utc": "2026-11-16T15:29:15Z"
 }

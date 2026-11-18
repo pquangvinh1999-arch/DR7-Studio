@@ -1,0 +1,57 @@
+{
+  "schema": "dr7-studio.item_clips.v1",
+  "item_set_id": "dragon_balls",
+  "frame_size": [
+    32,
+    32
+  ],
+  "tick_hz": 60,
+  "variants": {
+    "ball_01": {
+      "frame_1x": "source/frames_1x/dragon_ball_01.png"
+    },
+    "ball_02": {
+      "frame_1x": "source/frames_1x/dragon_ball_02.png"
+    },
+    "ball_03": {
+      "frame_1x": "source/frames_1x/dragon_ball_03.png"
+    },
+    "ball_04": {
+      "frame_1x": "source/frames_1x/dragon_ball_04.png"
+    },
+    "ball_05": {
+      "frame_1x": "source/frames_1x/dragon_ball_05.png"
+    },
+    "ball_06": {
+      "frame_1x": "source/frames_1x/dragon_ball_06.png"
+    },
+    "ball_07": {
+      "frame_1x": "source/frames_1x/dragon_ball_07.png"
+    }
+  },
+  "fx": {
+    "sparkle_fx": {
+      "ticks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        50
+      ],
+      "loop": true,
+      "frames": [
+        "source/frames_1x/sparkle_00.png",
+        "source/frames_1x/sparkle_01.png",
+        "source/frames_1x/sparkle_02.png",
+        "source/frames_1x/sparkle_03.png",
+        "source/frames_1x/sparkle_04.png",
+        "source/frames_1x/sparkle_05.png",
+        "source/frames_1x/sparkle_06.png",
+        "source/frames_1x/sparkle_07.png"
+      ]
+    }
+  }
+}

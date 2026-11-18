@@ -1,8 +1,8 @@
 {
   "schema": "generate2dsprite.animation_clips.v2",
   "source_manifest": {
-    "path": "../clips_manifest.json",
-    "file_sha256": "f81475534e5b5e0f34c7792930200db045200f59b02bb9e7b4f69ecce7f7854b",
+    "path": "../bat_chiroptera_in/manifest.json",
+    "file_sha256": "f57667c57b44cc0dd96b8dcbcd4de55d288ae0428e9e3618ef1f920bfe954b47",
     "copy": "source-manifest.json"
   },
   "frame_size": [
@@ -28,7 +28,7 @@
       "index": 0,
       "name": "idle_00",
       "source": {
-        "path": "../raw_frames/idle_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_00.png",
         "file_sha256": "b8656aaba4eb84dc255f24096d889bcb848fb6cb7af53403476ad10372d7555d",
         "bytes": 15335,
         "size": [
@@ -48,7 +48,7 @@
       "index": 1,
       "name": "idle_01",
       "source": {
-        "path": "../raw_frames/idle_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_01.png",
         "file_sha256": "fcaeb3ef4f08c73301d2cd340855d875991b038104fcdf2b4b08f21ec5991c56",
         "bytes": 13896,
         "size": [
@@ -68,7 +68,7 @@
       "index": 2,
       "name": "idle_02",
       "source": {
-        "path": "../raw_frames/idle_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_02.png",
         "file_sha256": "b5561516c68e3715970e1bf4c7afaf8ce0936fe91826d34ca98c1f2ca91d1040",
         "bytes": 11699,
         "size": [
@@ -88,7 +88,7 @@
       "index": 3,
       "name": "idle_03",
       "source": {
-        "path": "../raw_frames/idle_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_03.png",
         "file_sha256": "fdaced4b7a904f85f7e169f745199890371e1c54711c0a8fa380079f9306d99d",
         "bytes": 14183,
         "size": [
@@ -108,7 +108,7 @@
       "index": 4,
       "name": "idle_04",
       "source": {
-        "path": "../raw_frames/idle_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_04.png",
         "file_sha256": "f4fcba3fda8478eb5580847f4446c4da811f4b8a4ab007da34fae98a886bb1ff",
         "bytes": 12190,
         "size": [
@@ -128,7 +128,7 @@
       "index": 5,
       "name": "idle_05",
       "source": {
-        "path": "../raw_frames/idle_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_05.png",
         "file_sha256": "957f6435a4ccf8e57e51c6a32af2e36fb9d560ad450e615d3b27523723404e52",
         "bytes": 12605,
         "size": [
@@ -148,7 +148,7 @@
       "index": 6,
       "name": "idle_06",
       "source": {
-        "path": "../raw_frames/idle_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_06.png",
         "file_sha256": "fc5a4b7a304c81b530bd71ebbab648e63e30dd27082b4d6c16c43bad606db198",
         "bytes": 14104,
         "size": [
@@ -168,7 +168,7 @@
       "index": 7,
       "name": "idle_07",
       "source": {
-        "path": "../raw_frames/idle_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_07.png",
         "file_sha256": "b0e9c01612bae972792d9b704e17481f3b423b48ccf8a7f65c376f873b86818b",
         "bytes": 15685,
         "size": [
@@ -188,7 +188,7 @@
       "index": 8,
       "name": "walk_00",
       "source": {
-        "path": "../raw_frames/walk_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_00.png",
         "file_sha256": "7a3826b587c4eedb90537a81a10fd594f7494041d84493bd49179aca0ff5973e",
         "bytes": 15778,
         "size": [
@@ -208,7 +208,7 @@
       "index": 9,
       "name": "walk_01",
       "source": {
-        "path": "../raw_frames/walk_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_01.png",
         "file_sha256": "2c1513580743ed2c53cfcb1b8b607ade292bb061041b4b6e6870c197d264d565",
         "bytes": 12609,
         "size": [
@@ -228,7 +228,7 @@
       "index": 10,
       "name": "walk_02",
       "source": {
-        "path": "../raw_frames/walk_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_02.png",
         "file_sha256": "87e604865a38a8c6807fcccf89c39301d4c4d6a4ce478abf0ad3e2d553e2fb9e",
         "bytes": 9787,
         "size": [
@@ -248,7 +248,7 @@
       "index": 11,
       "name": "walk_03",
       "source": {
-        "path": "../raw_frames/walk_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_03.png",
         "file_sha256": "faa1c57ce6c421b8055d783bc020a29dfca545684d7fca6db95532b0d9853f18",
         "bytes": 13334,
         "size": [
@@ -268,7 +268,7 @@
       "index": 12,
       "name": "walk_04",
       "source": {
-        "path": "../raw_frames/walk_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_04.png",
         "file_sha256": "51bf26546c0a3e3d1e7f4e8d6a5f21f8b8fe0cbae1fc7a2df35b52b3ab07145d",
         "bytes": 12231,
         "size": [
@@ -288,7 +288,7 @@
       "index": 13,
       "name": "walk_05",
       "source": {
-        "path": "../raw_frames/walk_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_05.png",
         "file_sha256": "c90aa88e41d01b7c03da608896d0ee509f7ab154e8484893e4052c8a7ba1bb59",
         "bytes": 10018,
         "size": [
@@ -308,7 +308,7 @@
       "index": 14,
       "name": "walk_06",
       "source": {
-        "path": "../raw_frames/walk_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_06.png",
         "file_sha256": "6c60c7f04de25170378e0307e9cf8afcc945475da9850cc4aed469ee152fb921",
         "bytes": 12537,
         "size": [
@@ -328,7 +328,7 @@
       "index": 15,
       "name": "walk_07",
       "source": {
-        "path": "../raw_frames/walk_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_07.png",
         "file_sha256": "c1a7b778164acc566f075d9c6e2f8ff0a2c4bd1901ac0c59be67ace2bcde0d0f",
         "bytes": 14609,
         "size": [
@@ -348,7 +348,7 @@
       "index": 16,
       "name": "run_00",
       "source": {
-        "path": "../raw_frames/run_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_00.png",
         "file_sha256": "20acd72509be20698868a98f64ed7c8538610c5fa5b1d36f3a353a8e5cf3c7e6",
         "bytes": 13859,
         "size": [
@@ -368,7 +368,7 @@
       "index": 17,
       "name": "run_01",
       "source": {
-        "path": "../raw_frames/run_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_01.png",
         "file_sha256": "fd8a4ca47636e95928cd483db606fd66f4393bf89652b15da31d84cc184bee39",
         "bytes": 10990,
         "size": [
@@ -388,7 +388,7 @@
       "index": 18,
       "name": "run_02",
       "source": {
-        "path": "../raw_frames/run_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_02.png",
         "file_sha256": "1adbee200b2f4997412efdb054e92814d9bd4a877dfe74ffb9b99cf7ee076f57",
         "bytes": 8563,
         "size": [
@@ -408,7 +408,7 @@
       "index": 19,
       "name": "run_03",
       "source": {
-        "path": "../raw_frames/run_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_03.png",
         "file_sha256": "b8ac9c87f5acebcf201f0fa17e6644fdde8f7fa3c6d89c4ce399a2699fb16c4a",
         "bytes": 13095,
         "size": [
@@ -428,7 +428,7 @@
       "index": 20,
       "name": "run_04",
       "source": {
-        "path": "../raw_frames/run_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_04.png",
         "file_sha256": "603a25afbfc7476b0cdf46caddce5c3c0ad8deacc2bcb32a5658d06253eeecc2",
         "bytes": 11048,
         "size": [
@@ -448,7 +448,7 @@
       "index": 21,
       "name": "run_05",
       "source": {
-        "path": "../raw_frames/run_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_05.png",
         "file_sha256": "7f63cd8bf963114194a26f88c6033c7a40b79a43309d064d747c09c601c4f700",
         "bytes": 9031,
         "size": [
@@ -468,7 +468,7 @@
       "index": 22,
       "name": "run_06",
       "source": {
-        "path": "../raw_frames/run_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_06.png",
         "file_sha256": "d7f055fa8e309fb1b2724c50c340c66c386bdfe3b172f550c3475ded0f400030",
         "bytes": 11762,
         "size": [
@@ -488,7 +488,7 @@
       "index": 23,
       "name": "run_07",
       "source": {
-        "path": "../raw_frames/run_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_07.png",
         "file_sha256": "6b6c4534e6c0922f67ff56f2aff85e2317c670791cb8dad8d16af1d45b7978b2",
         "bytes": 13921,
         "size": [
@@ -508,7 +508,7 @@
       "index": 24,
       "name": "attack_light_00",
       "source": {
-        "path": "../raw_frames/attack_light_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_00.png",
         "file_sha256": "e9c0fa1b7e06c5f2bacf5a3de6de57be754f881e2a50b28990f64d19d2060250",
         "bytes": 14880,
         "size": [
@@ -528,7 +528,7 @@
       "index": 25,
       "name": "attack_light_01",
       "source": {
-        "path": "../raw_frames/attack_light_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_01.png",
         "file_sha256": "f8976ee5314518581fd17c38b23ce7ff0a7e4519597027a19ea97c9abaa4253b",
         "bytes": 14371,
         "size": [
@@ -548,7 +548,7 @@
       "index": 26,
       "name": "attack_light_02",
       "source": {
-        "path": "../raw_frames/attack_light_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_02.png",
         "file_sha256": "7b209c409b674fed7975e17ae720836447569311f1ddb6003fb24f490d7c2540",
         "bytes": 12647,
         "size": [
@@ -568,7 +568,7 @@
       "index": 27,
       "name": "attack_light_03",
       "source": {
-        "path": "../raw_frames/attack_light_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_03.png",
         "file_sha256": "3ece9ce39855aeec30dd84bf2cf97a09086e2d73e4d23fc27a959dc5f5b92524",
         "bytes": 13408,
         "size": [
@@ -588,7 +588,7 @@
       "index": 28,
       "name": "attack_light_04",
       "source": {
-        "path": "../raw_frames/attack_light_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_04.png",
         "file_sha256": "18e4610dc6ad139e7177600a93b000cd389c688515f349314a42f3f46238ddba",
         "bytes": 11221,
         "size": [
@@ -608,7 +608,7 @@
       "index": 29,
       "name": "attack_light_05",
       "source": {
-        "path": "../raw_frames/attack_light_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_05.png",
         "file_sha256": "81b1b760e9681090350094bdf23ed5e01023636572a272e7bbbadd785da0b854",
         "bytes": 10194,
         "size": [
@@ -628,7 +628,7 @@
       "index": 30,
       "name": "attack_light_06",
       "source": {
-        "path": "../raw_frames/attack_light_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_06.png",
         "file_sha256": "2ab74dfb74de30c84f6d065c11dd33037a0411a98d2cf2c661ba4d891f082eb9",
         "bytes": 13030,
         "size": [
@@ -648,7 +648,7 @@
       "index": 31,
       "name": "attack_light_07",
       "source": {
-        "path": "../raw_frames/attack_light_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_07.png",
         "file_sha256": "4634a4e2652ceaa3607ed1516630f4440ed5bbcc5cd9b77e697867d12bbb391f",
         "bytes": 14944,
         "size": [
@@ -668,7 +668,7 @@
       "index": 32,
       "name": "power_up_00",
       "source": {
-        "path": "../raw_frames/power_up_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_00.png",
         "file_sha256": "ef62adef77c20675b658bdbd5461931dcdde72113a6f4c987928ef35e565b707",
         "bytes": 16500,
         "size": [
@@ -688,7 +688,7 @@
       "index": 33,
       "name": "power_up_01",
       "source": {
-        "path": "../raw_frames/power_up_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_01.png",
         "file_sha256": "4e101c13007e6a38939ce05629681fde51d6f3b3d39aa31dd934ab2b5d1905ee",
         "bytes": 17521,
         "size": [
@@ -708,7 +708,7 @@
       "index": 34,
       "name": "power_up_02",
       "source": {
-        "path": "../raw_frames/power_up_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_02.png",
         "file_sha256": "ef8a206c83de2c47e137c220d682156be6f7ef0083d5587771437355d41a1c4c",
         "bytes": 13472,
         "size": [
@@ -728,7 +728,7 @@
       "index": 35,
       "name": "power_up_03",
       "source": {
-        "path": "../raw_frames/power_up_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_03.png",
         "file_sha256": "d9d162c336faa9f66d3cd039563defcde345473934cb7ded3b202b9ef5218b57",
         "bytes": 18086,
         "size": [
@@ -748,7 +748,7 @@
       "index": 36,
       "name": "power_up_04",
       "source": {
-        "path": "../raw_frames/power_up_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_04.png",
         "file_sha256": "0aba33ee8fd3406011f69f345a237f46a3f07bc1ba4f3d0b3c95691bd46596b4",
         "bytes": 15063,
         "size": [
@@ -768,7 +768,7 @@
       "index": 37,
       "name": "power_up_05",
       "source": {
-        "path": "../raw_frames/power_up_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_05.png",
         "file_sha256": "45655bbb9455e38fd490502bcc00349a72f53c2a25b92ed80c643cd77fbbf0c7",
         "bytes": 12118,
         "size": [
@@ -788,7 +788,7 @@
       "index": 38,
       "name": "power_up_06",
       "source": {
-        "path": "../raw_frames/power_up_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_06.png",
         "file_sha256": "b50b330aae621086cd3ea0fa22e16bf737e23a9b2242e6f4d9d6aca1d9221f6d",
         "bytes": 15999,
         "size": [
@@ -808,7 +808,7 @@
       "index": 39,
       "name": "power_up_07",
       "source": {
-        "path": "../raw_frames/power_up_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_07.png",
         "file_sha256": "602d5c862ed0db67bedbc545a4d64e495568718d3429ba36d03035fe2eb19f79",
         "bytes": 16550,
         "size": [
@@ -828,7 +828,7 @@
       "index": 40,
       "name": "hit_00",
       "source": {
-        "path": "../raw_frames/hit_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_00.png",
         "file_sha256": "bb70684cdc03a32075c74e06bd651543ba928eb3691b592b420f42012316f703",
         "bytes": 17010,
         "size": [
@@ -848,7 +848,7 @@
       "index": 41,
       "name": "hit_01",
       "source": {
-        "path": "../raw_frames/hit_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_01.png",
         "file_sha256": "ba7a207ed692631a08f411bee7da5378324e1aaab8b737fc56a39d501705e3a1",
         "bytes": 16441,
         "size": [
@@ -868,7 +868,7 @@
       "index": 42,
       "name": "hit_02",
       "source": {
-        "path": "../raw_frames/hit_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_02.png",
         "file_sha256": "c156469bde8b04b570c6d62fb8b5924c9425f5df507398bd6d431f3baf22bfe8",
         "bytes": 16098,
         "size": [
@@ -888,7 +888,7 @@
       "index": 43,
       "name": "hit_03",
       "source": {
-        "path": "../raw_frames/hit_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_03.png",
         "file_sha256": "cf89c4efe526a08dbfc392132dd9789e6d6b60a9eeacfbd37cda3ff557cbfdd2",
         "bytes": 12806,
         "size": [
@@ -908,7 +908,7 @@
       "index": 44,
       "name": "hit_04",
       "source": {
-        "path": "../raw_frames/hit_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_04.png",
         "file_sha256": "f2bc93ad8c1aa0ebb301250400b14ccdadf6b3a4ea5be0252be5302cf73a9ba0",
         "bytes": 14830,
         "size": [
@@ -928,7 +928,7 @@
       "index": 45,
       "name": "hit_05",
       "source": {
-        "path": "../raw_frames/hit_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_05.png",
         "file_sha256": "ead59a85af90feb2ec7a71a3dd8c1f939d5bb89b0d0e76cadb6d12b4a08bb937",
         "bytes": 17121,
         "size": [
@@ -948,7 +948,7 @@
       "index": 46,
       "name": "ko_00",
       "source": {
-        "path": "../raw_frames/ko_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_00.png",
         "file_sha256": "95b008f1da879f21641e61f67ac8697046ff6a35490fc75ab21ee44fb7185d75",
         "bytes": 15034,
         "size": [
@@ -968,7 +968,7 @@
       "index": 47,
       "name": "ko_01",
       "source": {
-        "path": "../raw_frames/ko_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_01.png",
         "file_sha256": "79a7553981b3af376a5d93ff6d858a792d49d962c8771449ccd91f98de9e3008",
         "bytes": 13818,
         "size": [
@@ -988,7 +988,7 @@
       "index": 48,
       "name": "ko_02",
       "source": {
-        "path": "../raw_frames/ko_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_02.png",
         "file_sha256": "38e1958ee8199226e753cc3c2a5c9c39228507680a3ea0f2d42125700c376222",
         "bytes": 15562,
         "size": [
@@ -1008,7 +1008,7 @@
       "index": 49,
       "name": "ko_03",
       "source": {
-        "path": "../raw_frames/ko_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_03.png",
         "file_sha256": "5e2ea2469ffe309419c34ffcb3743473f78696ff50a43ca9fabf4f64782baddf",
         "bytes": 13984,
         "size": [
@@ -1028,7 +1028,7 @@
       "index": 50,
       "name": "ko_04",
       "source": {
-        "path": "../raw_frames/ko_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_04.png",
         "file_sha256": "37c4ca251e3d2c308ffec81d0fd68981627e73814cf706abe72b83ae885f09f7",
         "bytes": 13818,
         "size": [
@@ -1048,7 +1048,7 @@
       "index": 51,
       "name": "ko_05",
       "source": {
-        "path": "../raw_frames/ko_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_05.png",
         "file_sha256": "14c496faba73f96c67d521ea209b86783d3980eec7acf0110cf7dd5e3a87a6f1",
         "bytes": 14017,
         "size": [
@@ -1068,7 +1068,7 @@
       "index": 52,
       "name": "ko_06",
       "source": {
-        "path": "../raw_frames/ko_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_06.png",
         "file_sha256": "026e2581052a72863ee7b08adb5056d70a71328a0d3c5a890f6e70fca42685e8",
         "bytes": 14434,
         "size": [
@@ -1088,7 +1088,7 @@
       "index": 53,
       "name": "ko_07",
       "source": {
-        "path": "../raw_frames/ko_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_07.png",
         "file_sha256": "738a25fd0ffe7c01ebeca50c4deadfe894303382225ef9b2941528bf5816ca9c",
         "bytes": 15317,
         "size": [
@@ -1108,7 +1108,7 @@
       "index": 54,
       "name": "sonic_screech_fx_00",
       "source": {
-        "path": "../raw_frames/sonic_screech_fx_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_00.png",
         "file_sha256": "ecc15c5121e78d5a07acf37f666ff7fb4a6f62e6dde9a513b4585d5f78e11cde",
         "bytes": 811,
         "size": [
@@ -1128,7 +1128,7 @@
       "index": 55,
       "name": "sonic_screech_fx_01",
       "source": {
-        "path": "../raw_frames/sonic_screech_fx_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_01.png",
         "file_sha256": "f059a954fd77e2c621777e162213eba86bdadcc01c061918427020244dea91c4",
         "bytes": 1015,
         "size": [
@@ -1148,7 +1148,7 @@
       "index": 56,
       "name": "sonic_screech_fx_02",
       "source": {
-        "path": "../raw_frames/sonic_screech_fx_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_02.png",
         "file_sha256": "44018d7d8abc9a0afc6a07f69baa02d112df43f57dcbf2faea0b4c486a24df1d",
         "bytes": 1213,
         "size": [
@@ -1168,7 +1168,7 @@
       "index": 57,
       "name": "sonic_screech_fx_03",
       "source": {
-        "path": "../raw_frames/sonic_screech_fx_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_03.png",
         "file_sha256": "a6feda5ddf3c132b9c7b55f2be0f8aaf292981e46766721ac64e2e60f843ffd0",
         "bytes": 1442,
         "size": [
@@ -1188,7 +1188,7 @@
       "index": 58,
       "name": "sonic_screech_fx_04",
       "source": {
-        "path": "../raw_frames/sonic_screech_fx_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_04.png",
         "file_sha256": "18d8d0717f08161a5973ec6e26397c442564a4b463257279576589d737621492",
         "bytes": 1592,
         "size": [
@@ -1208,7 +1208,7 @@
       "index": 59,
       "name": "sonic_screech_fx_05",
       "source": {
-        "path": "../raw_frames/sonic_screech_fx_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_05.png",
         "file_sha256": "72ebba9878c9a61e6f4430346881502dd563c9d73908a907153daca4238223f8",
         "bytes": 1180,
         "size": [
@@ -1228,7 +1228,7 @@
       "index": 60,
       "name": "sonic_screech_fx_06",
       "source": {
-        "path": "../raw_frames/sonic_screech_fx_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_06.png",
         "file_sha256": "25eb34163925c3700f922807126aff686f9d3b99cfa16c397d03e55fcc195489",
         "bytes": 1084,
         "size": [
@@ -1243,6 +1243,106 @@
       "near_duplicates": [],
       "holds": [],
       "file": "frames/frame-60.png"
+    },
+    {
+      "index": 61,
+      "name": "turn_00",
+      "source": {
+        "path": "../bat_chiroptera_in/raw_frames/turn_00.png",
+        "file_sha256": "442ead5e3e19fc63d2bbec226150febccba2bc30d719b8b8a2cf2b9928003324",
+        "bytes": 14355,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "f45c4c1450fbff3e4150adbcea905a8eb38011d39b73bc541dc603c77bfcbbd6",
+      "transparent_pixel_count": 93867,
+      "visible_pixel_count": 4437,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-61.png"
+    },
+    {
+      "index": 62,
+      "name": "turn_01",
+      "source": {
+        "path": "../bat_chiroptera_in/raw_frames/turn_01.png",
+        "file_sha256": "b1f8c7437f0611feba14deb4d6d09f73d6a6d219285f83b96c1325a63e914abb",
+        "bytes": 15544,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "2a130dc8c6bcae7cfb329297779aa888e93813d294980249cc320345212d3f4a",
+      "transparent_pixel_count": 93406,
+      "visible_pixel_count": 4898,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-62.png"
+    },
+    {
+      "index": 63,
+      "name": "turn_02",
+      "source": {
+        "path": "../bat_chiroptera_in/raw_frames/turn_02.png",
+        "file_sha256": "6fb7fc43b0565f1afb3508d688287c6f69c1874dea55c1ed3936d29b17e1ec5b",
+        "bytes": 17645,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "a4cae40b45b4df1397cdb09684d399bfbb234e3380fd79f90d151690eaeea7e8",
+      "transparent_pixel_count": 92642,
+      "visible_pixel_count": 5662,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-63.png"
+    },
+    {
+      "index": 64,
+      "name": "turn_03",
+      "source": {
+        "path": "../bat_chiroptera_in/raw_frames/turn_03.png",
+        "file_sha256": "8168a05f281e0ac9265c12263c374deb220adff0eab91efb985fd864eaf16201",
+        "bytes": 17229,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "6cfe9bbcb50aa9eb0cae80b9dac58aac8d908c05f480353524a99fbe2e6d3455",
+      "transparent_pixel_count": 92603,
+      "visible_pixel_count": 5701,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-64.png"
+    },
+    {
+      "index": 65,
+      "name": "turn_04",
+      "source": {
+        "path": "../bat_chiroptera_in/raw_frames/turn_04.png",
+        "file_sha256": "22301a46f36ad48e266667003cf9ade8d04d770e6a7aa11800b03424306487f9",
+        "bytes": 15497,
+        "size": [
+          384,
+          256
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "150cbf21e308f89c2bcc5c15baaaefd5cf7ac4728f2061432f223e56c91ef5e4",
+      "transparent_pixel_count": 93448,
+      "visible_pixel_count": 4856,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-65.png"
     }
   ],
   "clips": {
@@ -2941,6 +3041,173 @@
         "alpha_mae": 1.188049,
         "changed_visible_pixels": 458
       }
+    },
+    "turn": {
+      "frames": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "duration_ms": [
+        33,
+        50,
+        67,
+        50,
+        50
+      ],
+      "loop": false,
+      "total_duration_ms": 250,
+      "nominal_fps": null,
+      "average_fps": 20.0,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        2,
+        3,
+        4,
+        3,
+        3
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "end",
+          "at_ms": 200,
+          "at": 4,
+          "position": 4,
+          "at_tick": 12
+        }
+      ],
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 2,
+        "strike": 2,
+        "recover": 3,
+        "end": 4
+      },
+      "keys_ms": {
+        "wind_start": 0,
+        "wind_peak": 83,
+        "strike": 83,
+        "recover": 150,
+        "end": 200
+      },
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          2,
+          3,
+          4,
+          3,
+          3
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 15.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-08.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 33,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 33,
+            "duration_ms": 50,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 83,
+            "duration_ms": 67,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 150,
+            "duration_ms": 50,
+            "clip_positions": [
+              3
+            ]
+          },
+          {
+            "index": 4,
+            "start_ms": 200,
+            "duration_ms": 50,
+            "clip_positions": [
+              4
+            ]
+          }
+        ],
+        "decoded_frame_count": 5,
+        "total_duration_ms": 250,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "ec5ce860c43921ff1b1e0851e9842743d461b590211cbe3b9e0fb62c99078dcf"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 1.83492,
+          "alpha_mae": 3.359222,
+          "changed_visible_pixels": 5308
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 3.180257,
+          "alpha_mae": 8.497925,
+          "changed_visible_pixels": 6917
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 3.322361,
+          "alpha_mae": 9.335785,
+          "changed_visible_pixels": 7481
+        },
+        {
+          "from_position": 3,
+          "to_position": 4,
+          "premultiplied_rgb_mae": 1.716766,
+          "alpha_mae": 3.846893,
+          "changed_visible_pixels": 6008
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 2.727461,
+        "alpha_mae": 7.613373,
+        "changed_visible_pixels": 6113
+      }
     }
   },
   "states": {
@@ -2950,7 +3217,8 @@
     "attack_light": "attack_light",
     "power_up": "power_up",
     "hit": "hit",
-    "ko": "ko"
+    "ko": "ko",
+    "turn": "turn"
   },
   "diagnostics": {
     "visible_pixel_duplicate_groups": [],
@@ -2968,7 +3236,7 @@
     "requested_scale": 1,
     "annotated_with_shared_root": true,
     "not_a_runtime_atlas": true,
-    "file_sha256": "5d83ba5afb633adffb2f839d56d40e06cb34c1955bb5753307d603aba7c19535"
+    "file_sha256": "c1de751f7808ad41c3005c46f640de8aa7940a32e3b1ef87d071f04b5c726d28"
   },
   "review": {
     "scale": 1,
@@ -3058,6 +3326,16 @@
         ],
         "positions_shown": 7,
         "truncated": false
+      },
+      "turn": {
+        "file": "review/filmstrip-08.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 5,
+        "truncated": false
       }
     },
     "onion": {
@@ -3107,6 +3385,12 @@
         "file": "review/onion-07.png",
         "background": "checker",
         "positions_shown": 7,
+        "truncated": false
+      },
+      "turn": {
+        "file": "review/onion-08.png",
+        "background": "checker",
+        "positions_shown": 5,
         "truncated": false
       }
     },
@@ -3255,9 +3539,26 @@
           ],
           "mirrored_offset_px": -32,
           "turn_slide_px": 11.0
+        },
+        {
+          "clip": "turn",
+          "frame": 61,
+          "anchor_screen_x": 1080,
+          "rows": [
+            [
+              608,
+              864
+            ],
+            [
+              880,
+              1136
+            ]
+          ],
+          "mirrored_offset_px": -32,
+          "turn_slide_px": 15.0
         }
       ],
-      "clips_shown": 8,
+      "clips_shown": 9,
       "truncated": false
     }
   },
@@ -3282,13 +3583,13 @@
       {
         "id": "png_byte_copy",
         "status": "pass",
-        "value": 61,
+        "value": 66,
         "threshold": null
       },
       {
         "id": "webp_timeline",
         "status": "pass",
-        "value": 8,
+        "value": 9,
         "threshold": null
       },
       {
@@ -3324,314 +3625,339 @@
     ],
     "inputs": [
       {
-        "path": "../clips_manifest.json",
-        "sha256": "f81475534e5b5e0f34c7792930200db045200f59b02bb9e7b4f69ecce7f7854b",
-        "bytes": 10078
+        "path": "../bat_chiroptera_in/manifest.json",
+        "sha256": "f57667c57b44cc0dd96b8dcbcd4de55d288ae0428e9e3618ef1f920bfe954b47",
+        "bytes": 11047
       },
       {
-        "path": "../raw_frames/idle_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_00.png",
         "sha256": "b8656aaba4eb84dc255f24096d889bcb848fb6cb7af53403476ad10372d7555d",
         "bytes": 15335
       },
       {
-        "path": "../raw_frames/idle_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_01.png",
         "sha256": "fcaeb3ef4f08c73301d2cd340855d875991b038104fcdf2b4b08f21ec5991c56",
         "bytes": 13896
       },
       {
-        "path": "../raw_frames/idle_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_02.png",
         "sha256": "b5561516c68e3715970e1bf4c7afaf8ce0936fe91826d34ca98c1f2ca91d1040",
         "bytes": 11699
       },
       {
-        "path": "../raw_frames/idle_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_03.png",
         "sha256": "fdaced4b7a904f85f7e169f745199890371e1c54711c0a8fa380079f9306d99d",
         "bytes": 14183
       },
       {
-        "path": "../raw_frames/idle_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_04.png",
         "sha256": "f4fcba3fda8478eb5580847f4446c4da811f4b8a4ab007da34fae98a886bb1ff",
         "bytes": 12190
       },
       {
-        "path": "../raw_frames/idle_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_05.png",
         "sha256": "957f6435a4ccf8e57e51c6a32af2e36fb9d560ad450e615d3b27523723404e52",
         "bytes": 12605
       },
       {
-        "path": "../raw_frames/idle_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_06.png",
         "sha256": "fc5a4b7a304c81b530bd71ebbab648e63e30dd27082b4d6c16c43bad606db198",
         "bytes": 14104
       },
       {
-        "path": "../raw_frames/idle_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/idle_07.png",
         "sha256": "b0e9c01612bae972792d9b704e17481f3b423b48ccf8a7f65c376f873b86818b",
         "bytes": 15685
       },
       {
-        "path": "../raw_frames/walk_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_00.png",
         "sha256": "7a3826b587c4eedb90537a81a10fd594f7494041d84493bd49179aca0ff5973e",
         "bytes": 15778
       },
       {
-        "path": "../raw_frames/walk_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_01.png",
         "sha256": "2c1513580743ed2c53cfcb1b8b607ade292bb061041b4b6e6870c197d264d565",
         "bytes": 12609
       },
       {
-        "path": "../raw_frames/walk_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_02.png",
         "sha256": "87e604865a38a8c6807fcccf89c39301d4c4d6a4ce478abf0ad3e2d553e2fb9e",
         "bytes": 9787
       },
       {
-        "path": "../raw_frames/walk_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_03.png",
         "sha256": "faa1c57ce6c421b8055d783bc020a29dfca545684d7fca6db95532b0d9853f18",
         "bytes": 13334
       },
       {
-        "path": "../raw_frames/walk_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_04.png",
         "sha256": "51bf26546c0a3e3d1e7f4e8d6a5f21f8b8fe0cbae1fc7a2df35b52b3ab07145d",
         "bytes": 12231
       },
       {
-        "path": "../raw_frames/walk_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_05.png",
         "sha256": "c90aa88e41d01b7c03da608896d0ee509f7ab154e8484893e4052c8a7ba1bb59",
         "bytes": 10018
       },
       {
-        "path": "../raw_frames/walk_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_06.png",
         "sha256": "6c60c7f04de25170378e0307e9cf8afcc945475da9850cc4aed469ee152fb921",
         "bytes": 12537
       },
       {
-        "path": "../raw_frames/walk_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/walk_07.png",
         "sha256": "c1a7b778164acc566f075d9c6e2f8ff0a2c4bd1901ac0c59be67ace2bcde0d0f",
         "bytes": 14609
       },
       {
-        "path": "../raw_frames/run_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_00.png",
         "sha256": "20acd72509be20698868a98f64ed7c8538610c5fa5b1d36f3a353a8e5cf3c7e6",
         "bytes": 13859
       },
       {
-        "path": "../raw_frames/run_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_01.png",
         "sha256": "fd8a4ca47636e95928cd483db606fd66f4393bf89652b15da31d84cc184bee39",
         "bytes": 10990
       },
       {
-        "path": "../raw_frames/run_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_02.png",
         "sha256": "1adbee200b2f4997412efdb054e92814d9bd4a877dfe74ffb9b99cf7ee076f57",
         "bytes": 8563
       },
       {
-        "path": "../raw_frames/run_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_03.png",
         "sha256": "b8ac9c87f5acebcf201f0fa17e6644fdde8f7fa3c6d89c4ce399a2699fb16c4a",
         "bytes": 13095
       },
       {
-        "path": "../raw_frames/run_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_04.png",
         "sha256": "603a25afbfc7476b0cdf46caddce5c3c0ad8deacc2bcb32a5658d06253eeecc2",
         "bytes": 11048
       },
       {
-        "path": "../raw_frames/run_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_05.png",
         "sha256": "7f63cd8bf963114194a26f88c6033c7a40b79a43309d064d747c09c601c4f700",
         "bytes": 9031
       },
       {
-        "path": "../raw_frames/run_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_06.png",
         "sha256": "d7f055fa8e309fb1b2724c50c340c66c386bdfe3b172f550c3475ded0f400030",
         "bytes": 11762
       },
       {
-        "path": "../raw_frames/run_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/run_07.png",
         "sha256": "6b6c4534e6c0922f67ff56f2aff85e2317c670791cb8dad8d16af1d45b7978b2",
         "bytes": 13921
       },
       {
-        "path": "../raw_frames/attack_light_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_00.png",
         "sha256": "e9c0fa1b7e06c5f2bacf5a3de6de57be754f881e2a50b28990f64d19d2060250",
         "bytes": 14880
       },
       {
-        "path": "../raw_frames/attack_light_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_01.png",
         "sha256": "f8976ee5314518581fd17c38b23ce7ff0a7e4519597027a19ea97c9abaa4253b",
         "bytes": 14371
       },
       {
-        "path": "../raw_frames/attack_light_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_02.png",
         "sha256": "7b209c409b674fed7975e17ae720836447569311f1ddb6003fb24f490d7c2540",
         "bytes": 12647
       },
       {
-        "path": "../raw_frames/attack_light_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_03.png",
         "sha256": "3ece9ce39855aeec30dd84bf2cf97a09086e2d73e4d23fc27a959dc5f5b92524",
         "bytes": 13408
       },
       {
-        "path": "../raw_frames/attack_light_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_04.png",
         "sha256": "18e4610dc6ad139e7177600a93b000cd389c688515f349314a42f3f46238ddba",
         "bytes": 11221
       },
       {
-        "path": "../raw_frames/attack_light_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_05.png",
         "sha256": "81b1b760e9681090350094bdf23ed5e01023636572a272e7bbbadd785da0b854",
         "bytes": 10194
       },
       {
-        "path": "../raw_frames/attack_light_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_06.png",
         "sha256": "2ab74dfb74de30c84f6d065c11dd33037a0411a98d2cf2c661ba4d891f082eb9",
         "bytes": 13030
       },
       {
-        "path": "../raw_frames/attack_light_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/attack_light_07.png",
         "sha256": "4634a4e2652ceaa3607ed1516630f4440ed5bbcc5cd9b77e697867d12bbb391f",
         "bytes": 14944
       },
       {
-        "path": "../raw_frames/power_up_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_00.png",
         "sha256": "ef62adef77c20675b658bdbd5461931dcdde72113a6f4c987928ef35e565b707",
         "bytes": 16500
       },
       {
-        "path": "../raw_frames/power_up_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_01.png",
         "sha256": "4e101c13007e6a38939ce05629681fde51d6f3b3d39aa31dd934ab2b5d1905ee",
         "bytes": 17521
       },
       {
-        "path": "../raw_frames/power_up_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_02.png",
         "sha256": "ef8a206c83de2c47e137c220d682156be6f7ef0083d5587771437355d41a1c4c",
         "bytes": 13472
       },
       {
-        "path": "../raw_frames/power_up_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_03.png",
         "sha256": "d9d162c336faa9f66d3cd039563defcde345473934cb7ded3b202b9ef5218b57",
         "bytes": 18086
       },
       {
-        "path": "../raw_frames/power_up_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_04.png",
         "sha256": "0aba33ee8fd3406011f69f345a237f46a3f07bc1ba4f3d0b3c95691bd46596b4",
         "bytes": 15063
       },
       {
-        "path": "../raw_frames/power_up_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_05.png",
         "sha256": "45655bbb9455e38fd490502bcc00349a72f53c2a25b92ed80c643cd77fbbf0c7",
         "bytes": 12118
       },
       {
-        "path": "../raw_frames/power_up_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_06.png",
         "sha256": "b50b330aae621086cd3ea0fa22e16bf737e23a9b2242e6f4d9d6aca1d9221f6d",
         "bytes": 15999
       },
       {
-        "path": "../raw_frames/power_up_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/power_up_07.png",
         "sha256": "602d5c862ed0db67bedbc545a4d64e495568718d3429ba36d03035fe2eb19f79",
         "bytes": 16550
       },
       {
-        "path": "../raw_frames/hit_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_00.png",
         "sha256": "bb70684cdc03a32075c74e06bd651543ba928eb3691b592b420f42012316f703",
         "bytes": 17010
       },
       {
-        "path": "../raw_frames/hit_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_01.png",
         "sha256": "ba7a207ed692631a08f411bee7da5378324e1aaab8b737fc56a39d501705e3a1",
         "bytes": 16441
       },
       {
-        "path": "../raw_frames/hit_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_02.png",
         "sha256": "c156469bde8b04b570c6d62fb8b5924c9425f5df507398bd6d431f3baf22bfe8",
         "bytes": 16098
       },
       {
-        "path": "../raw_frames/hit_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_03.png",
         "sha256": "cf89c4efe526a08dbfc392132dd9789e6d6b60a9eeacfbd37cda3ff557cbfdd2",
         "bytes": 12806
       },
       {
-        "path": "../raw_frames/hit_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_04.png",
         "sha256": "f2bc93ad8c1aa0ebb301250400b14ccdadf6b3a4ea5be0252be5302cf73a9ba0",
         "bytes": 14830
       },
       {
-        "path": "../raw_frames/hit_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/hit_05.png",
         "sha256": "ead59a85af90feb2ec7a71a3dd8c1f939d5bb89b0d0e76cadb6d12b4a08bb937",
         "bytes": 17121
       },
       {
-        "path": "../raw_frames/ko_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_00.png",
         "sha256": "95b008f1da879f21641e61f67ac8697046ff6a35490fc75ab21ee44fb7185d75",
         "bytes": 15034
       },
       {
-        "path": "../raw_frames/ko_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_01.png",
         "sha256": "79a7553981b3af376a5d93ff6d858a792d49d962c8771449ccd91f98de9e3008",
         "bytes": 13818
       },
       {
-        "path": "../raw_frames/ko_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_02.png",
         "sha256": "38e1958ee8199226e753cc3c2a5c9c39228507680a3ea0f2d42125700c376222",
         "bytes": 15562
       },
       {
-        "path": "../raw_frames/ko_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_03.png",
         "sha256": "5e2ea2469ffe309419c34ffcb3743473f78696ff50a43ca9fabf4f64782baddf",
         "bytes": 13984
       },
       {
-        "path": "../raw_frames/ko_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_04.png",
         "sha256": "37c4ca251e3d2c308ffec81d0fd68981627e73814cf706abe72b83ae885f09f7",
         "bytes": 13818
       },
       {
-        "path": "../raw_frames/ko_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_05.png",
         "sha256": "14c496faba73f96c67d521ea209b86783d3980eec7acf0110cf7dd5e3a87a6f1",
         "bytes": 14017
       },
       {
-        "path": "../raw_frames/ko_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_06.png",
         "sha256": "026e2581052a72863ee7b08adb5056d70a71328a0d3c5a890f6e70fca42685e8",
         "bytes": 14434
       },
       {
-        "path": "../raw_frames/ko_07.png",
+        "path": "../bat_chiroptera_in/raw_frames/ko_07.png",
         "sha256": "738a25fd0ffe7c01ebeca50c4deadfe894303382225ef9b2941528bf5816ca9c",
         "bytes": 15317
       },
       {
-        "path": "../raw_frames/sonic_screech_fx_00.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_00.png",
         "sha256": "ecc15c5121e78d5a07acf37f666ff7fb4a6f62e6dde9a513b4585d5f78e11cde",
         "bytes": 811
       },
       {
-        "path": "../raw_frames/sonic_screech_fx_01.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_01.png",
         "sha256": "f059a954fd77e2c621777e162213eba86bdadcc01c061918427020244dea91c4",
         "bytes": 1015
       },
       {
-        "path": "../raw_frames/sonic_screech_fx_02.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_02.png",
         "sha256": "44018d7d8abc9a0afc6a07f69baa02d112df43f57dcbf2faea0b4c486a24df1d",
         "bytes": 1213
       },
       {
-        "path": "../raw_frames/sonic_screech_fx_03.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_03.png",
         "sha256": "a6feda5ddf3c132b9c7b55f2be0f8aaf292981e46766721ac64e2e60f843ffd0",
         "bytes": 1442
       },
       {
-        "path": "../raw_frames/sonic_screech_fx_04.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_04.png",
         "sha256": "18d8d0717f08161a5973ec6e26397c442564a4b463257279576589d737621492",
         "bytes": 1592
       },
       {
-        "path": "../raw_frames/sonic_screech_fx_05.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_05.png",
         "sha256": "72ebba9878c9a61e6f4430346881502dd563c9d73908a907153daca4238223f8",
         "bytes": 1180
       },
       {
-        "path": "../raw_frames/sonic_screech_fx_06.png",
+        "path": "../bat_chiroptera_in/raw_frames/sonic_screech_fx_06.png",
         "sha256": "25eb34163925c3700f922807126aff686f9d3b99cfa16c397d03e55fcc195489",
         "bytes": 1084
+      },
+      {
+        "path": "../bat_chiroptera_in/raw_frames/turn_00.png",
+        "sha256": "442ead5e3e19fc63d2bbec226150febccba2bc30d719b8b8a2cf2b9928003324",
+        "bytes": 14355
+      },
+      {
+        "path": "../bat_chiroptera_in/raw_frames/turn_01.png",
+        "sha256": "b1f8c7437f0611feba14deb4d6d09f73d6a6d219285f83b96c1325a63e914abb",
+        "bytes": 15544
+      },
+      {
+        "path": "../bat_chiroptera_in/raw_frames/turn_02.png",
+        "sha256": "6fb7fc43b0565f1afb3508d688287c6f69c1874dea55c1ed3936d29b17e1ec5b",
+        "bytes": 17645
+      },
+      {
+        "path": "../bat_chiroptera_in/raw_frames/turn_03.png",
+        "sha256": "8168a05f281e0ac9265c12263c374deb220adff0eab91efb985fd864eaf16201",
+        "bytes": 17229
+      },
+      {
+        "path": "../bat_chiroptera_in/raw_frames/turn_04.png",
+        "sha256": "22301a46f36ad48e266667003cf9ade8d04d770e6a7aa11800b03424306487f9",
+        "bytes": 15497
       }
     ],
     "outputs": [
@@ -3941,6 +4267,31 @@
         "bytes": 1084
       },
       {
+        "path": "frames/frame-61.png",
+        "sha256": "442ead5e3e19fc63d2bbec226150febccba2bc30d719b8b8a2cf2b9928003324",
+        "bytes": 14355
+      },
+      {
+        "path": "frames/frame-62.png",
+        "sha256": "b1f8c7437f0611feba14deb4d6d09f73d6a6d219285f83b96c1325a63e914abb",
+        "bytes": 15544
+      },
+      {
+        "path": "frames/frame-63.png",
+        "sha256": "6fb7fc43b0565f1afb3508d688287c6f69c1874dea55c1ed3936d29b17e1ec5b",
+        "bytes": 17645
+      },
+      {
+        "path": "frames/frame-64.png",
+        "sha256": "8168a05f281e0ac9265c12263c374deb220adff0eab91efb985fd864eaf16201",
+        "bytes": 17229
+      },
+      {
+        "path": "frames/frame-65.png",
+        "sha256": "22301a46f36ad48e266667003cf9ade8d04d770e6a7aa11800b03424306487f9",
+        "bytes": 15497
+      },
+      {
         "path": "clips/clip-00.webp",
         "sha256": "fdb0a8238e564d3a8a459397796f0e4b70b096166e33f602fd859a9637cd36e0",
         "bytes": 69306
@@ -3981,9 +4332,14 @@
         "bytes": 1700
       },
       {
+        "path": "clips/clip-08.webp",
+        "sha256": "ec5ce860c43921ff1b1e0851e9842743d461b590211cbe3b9e0fb62c99078dcf",
+        "bytes": 51972
+      },
+      {
         "path": "contact-sheet.png",
-        "sha256": "5d83ba5afb633adffb2f839d56d40e06cb34c1955bb5753307d603aba7c19535",
-        "bytes": 709268
+        "sha256": "c1de751f7808ad41c3005c46f640de8aa7940a32e3b1ef87d071f04b5c726d28",
+        "bytes": 785269
       },
       {
         "path": "review/filmstrip-00.png",
@@ -4066,9 +4422,19 @@
         "bytes": 19916
       },
       {
+        "path": "review/filmstrip-08.png",
+        "sha256": "c5bde538d77c0d5d2c6cf3ae9fd42b87d0d8ba2e9dc3b617d50580880ea75142",
+        "bytes": 236967
+      },
+      {
+        "path": "review/onion-08.png",
+        "sha256": "92de2c8688ba0d3c3b5a91338465ebce96608b9276a90b18b7181278987b5b83",
+        "bytes": 86752
+      },
+      {
         "path": "review/turn-test.png",
-        "sha256": "9e2fba6904f15edaee95732e62eeacaf224557575c67a7865797bedc1adf8d84",
-        "bytes": 219784
+        "sha256": "b5da2d65e75ee4fe3a289ff3e84a9d5f645f7298e18397dbd716caf526dc290b",
+        "bytes": 246591
       }
     ],
     "tool": {

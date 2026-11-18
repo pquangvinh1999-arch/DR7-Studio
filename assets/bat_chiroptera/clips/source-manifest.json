@@ -257,6 +257,26 @@
     {
       "name": "sonic_screech_fx_06",
       "file": "raw_frames/sonic_screech_fx_06.png"
+    },
+    {
+      "name": "turn_00",
+      "file": "raw_frames/turn_00.png"
+    },
+    {
+      "name": "turn_01",
+      "file": "raw_frames/turn_01.png"
+    },
+    {
+      "name": "turn_02",
+      "file": "raw_frames/turn_02.png"
+    },
+    {
+      "name": "turn_03",
+      "file": "raw_frames/turn_03.png"
+    },
+    {
+      "name": "turn_04",
+      "file": "raw_frames/turn_04.png"
     }
   ],
   "states": {
@@ -266,7 +286,8 @@
     "attack_light": "attack_light",
     "power_up": "power_up",
     "hit": "hit",
-    "ko": "ko"
+    "ko": "ko",
+    "turn": "turn"
   },
   "clips": {
     "idle": {
@@ -549,6 +570,41 @@
         2
       ],
       "loop_policy": "oneshot"
+    },
+    "turn": {
+      "role": "player",
+      "frames": [
+        "turn_00",
+        "turn_01",
+        "turn_02",
+        "turn_03",
+        "turn_04"
+      ],
+      "ticks": [
+        2,
+        3,
+        4,
+        3,
+        3
+      ],
+      "loop_policy": "oneshot",
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 2,
+        "strike": 2,
+        "recover": 3,
+        "end": 4
+      },
+      "events": [
+        {
+          "at": 0,
+          "name": "in"
+        },
+        {
+          "at": 4,
+          "name": "end"
+        }
+      ]
     }
   }
 }

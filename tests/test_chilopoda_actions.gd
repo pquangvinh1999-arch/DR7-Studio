@@ -24,8 +24,14 @@ func run_test() -> void:
 		body.pause()
 		hits.clear()
 		var hidden := 0
+		var dust_saw_scaled := false
 		for tick in range(90):
 			fighter.render_action_tick("attack_light", float(tick))
+			if fighter.dust_sprite.visible:
+				if not fighter.dust_sprite.scale.is_equal_approx(Vector2(2.65, 2.65)):
+					fail("burrow dust FX scale expected 2.65x, got %s" % [str(fighter.dust_sprite.scale)])
+					return
+				dust_saw_scaled = true
 			if tick >= 24 and tick < 54:
 				hidden += 1
 				if body.visible:
@@ -40,8 +46,8 @@ func run_test() -> void:
 			if tick < 69 and not hits.is_empty():
 				fail("bite damage emitted before impact")
 				return
-		if hidden != 30 or hits.size() != 1 or hits[0][0] != "burrow_bite":
-			fail("hidden interval/bite one-shot mismatch")
+		if hidden != 30 or not dust_saw_scaled or hits.size() != 1 or hits[0][0] != "burrow_bite":
+			fail("hidden interval/dust scale/bite one-shot mismatch")
 			return
 		fighter._on_skill_finished(&"attack_light")
 		if body.animation != &"idle" or absf(fighter.global_position.x-(100+sign_value*80)) > 0.001:
@@ -52,18 +58,27 @@ func run_test() -> void:
 		fighter.play_clip(&"power_up")
 		body.pause()
 		hits.clear()
+		fighter.render_action_tick("power_up", 0.0)
+		var charge_area: int = fighter.fireball_sprite.sprite_frames.get_frame_texture(&"fireball_fx", fighter.fireball_sprite.frame).get_image().get_used_rect().get_area()
 		fighter.render_action_tick("power_up", 15.0)
-		if fighter.lasers[0].visible or fighter.lasers[1].visible or not fighter.glows[0].visible or not fighter.glows[1].visible:
-			fail("dual antenna charge phase invalid")
+		var fb_mid_charge: int = fighter.fireball_sprite.frame
+		if not fighter.fireball_sprite.visible or fb_mid_charge > 2:
+			fail("mouth fireball charge phase invalid: visible=%s frame=%d" % [str(fighter.fireball_sprite.visible), fb_mid_charge])
 			return
 		fighter.render_action_tick("power_up", 16.0)
-		if not fighter.lasers[0].visible or not fighter.lasers[1].visible or fighter.lasers[0].position == fighter.lasers[1].position:
-			fail("two bolts did not release from distinct antenna tips")
+		var release_pos: Vector2 = fighter.fireball_sprite.position
+		fighter.render_action_tick("power_up", 24.0)
+		var flight_area: int = fighter.fireball_sprite.sprite_frames.get_frame_texture(&"fireball_fx", fighter.fireball_sprite.frame).get_image().get_used_rect().get_area()
+		if not fighter.fireball_sprite.visible or fighter.fireball_sprite.frame < 3 or fighter.fireball_sprite.position.x <= release_pos.x or flight_area <= charge_area:
+			fail("mouth fireball did not launch/grow: vis=%s frame=%d release=%s pos=%s area0=%d area24=%d" % [
+				str(fighter.fireball_sprite.visible), fighter.fireball_sprite.frame, str(release_pos), str(fighter.fireball_sprite.position),
+				charge_area, flight_area
+			])
 			return
 		fighter.render_action_tick("power_up", 41.0)
 		fighter.render_action_tick("power_up", 41.5)
-		if fighter.lasers[0].visible or fighter.lasers[1].visible or hits.size() != 2:
-			fail("bolts did not disappear/emit exactlytwo hits")
+		if fighter.fireball_sprite.visible or hits.size() != 1 or str(hits[0][0]) != "fireball" or int(hits[0][1]) != 250:
+			fail("fireball did not disappear/emit single 250 hit: visible=%s hits=%s" % [str(fighter.fireball_sprite.visible), str(hits)])
 			return
 	# Burrow turn commits facing only during the fully hidden interval, at both endpoints.
 	fighter.scale.x = 1.0
@@ -107,6 +122,6 @@ func run_test() -> void:
 	if fighter.scale.x <= 0 or body.animation != &"walk":
 		fail("left endpoint did not resume rightwalk")
 		return
-	print("[OK] Chilopoda:90tickburrow/30hidden/staytarget,42tickdualredlasers/disappear,mirroredtargets,bothendpointturnandreversal verified")
+	print("[OK] Chilopoda:90tickburrow/30hidden/staytarget,42tickmouthfireball/250hit/disappear,mirroredtargets,bothendpointturnandreversal verified")
 	fighter.free()
 	quit(0)

@@ -1,0 +1,42 @@
+[gd_resource type="SpriteFrames" load_steps=9 format=3]
+
+[ext_resource type="Texture2D" path="frames/frame-000.png" id="1_frame0"]
+[ext_resource type="Texture2D" path="frames/frame-001.png" id="2_frame1"]
+[ext_resource type="Texture2D" path="frames/frame-002.png" id="3_frame2"]
+[ext_resource type="Texture2D" path="frames/frame-003.png" id="4_frame3"]
+[ext_resource type="Texture2D" path="frames/frame-004.png" id="5_frame4"]
+[ext_resource type="Texture2D" path="frames/frame-005.png" id="6_frame5"]
+[ext_resource type="Texture2D" path="frames/frame-006.png" id="7_frame6"]
+[ext_resource type="Texture2D" path="frames/frame-007.png" id="8_frame7"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 12.0,
+"texture": ExtResource("1_frame0")
+}, {
+"duration": 12.0,
+"texture": ExtResource("2_frame1")
+}, {
+"duration": 12.0,
+"texture": ExtResource("3_frame2")
+}, {
+"duration": 12.0,
+"texture": ExtResource("4_frame3")
+}, {
+"duration": 12.0,
+"texture": ExtResource("5_frame4")
+}, {
+"duration": 12.0,
+"texture": ExtResource("6_frame5")
+}, {
+"duration": 12.0,
+"texture": ExtResource("7_frame6")
+}, {
+"duration": 12.0,
+"texture": ExtResource("8_frame7")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 60.0
+}]

@@ -1,0 +1,95 @@
+{
+  "schema": "dr7-studio.map_terrain.v2",
+  "map_id": "rocky_plateau",
+  "art_source": "original_jpg_extracted",
+  "backdrop": {
+    "mode": "original_jpg",
+    "bg_path": "assets/maps/rocky_plateau/rocky-plateau-bg.jpg",
+    "bg_res_path": "res://assets/maps/rocky_plateau/rocky-plateau-bg.jpg",
+    "bg_web_path": "/assets/maps/rocky_plateau/rocky-plateau-bg.jpg",
+    "sha256": "0af6a984cc9de1e4c3b8389bc177c8092624af67d1a1399f5d06741466f62be6",
+    "wing_left": {
+      "path": "assets/maps/rocky_plateau/parallax/wing_left.jpg",
+      "res_path": "res://assets/maps/rocky_plateau/parallax/wing_left.jpg",
+      "web_path": "/assets/maps/rocky_plateau/parallax/wing_left.jpg",
+      "sha256": "e13d3006fab18b516478f9ee84e55586f197579ef04c60138bbfa5d890d6e0bf",
+      "size_px": [
+        320,
+        675
+      ]
+    },
+    "wing_right": {
+      "path": "assets/maps/rocky_plateau/parallax/wing_right.jpg",
+      "res_path": "res://assets/maps/rocky_plateau/parallax/wing_right.jpg",
+      "web_path": "/assets/maps/rocky_plateau/parallax/wing_right.jpg",
+      "sha256": "cb1cb1f27e895378c0f457bc9a23dfe4c266be291680ac985481642768bdfb6b",
+      "size_px": [
+        320,
+        675
+      ]
+    }
+  },
+  "viewport": {
+    "width": 1920,
+    "height": 1080,
+    "ppu_reference": 64,
+    "tile_px": 32
+  },
+  "ground": {
+    "ground_y": 840,
+    "surface_top_y": 824,
+    "render_scale": 2
+  },
+  "tileset": {
+    "path": "assets/maps/rocky_plateau/tiles/ground_tileset.png",
+    "res_path": "res://assets/maps/rocky_plateau/tiles/ground_tileset.png",
+    "web_path": "/assets/maps/rocky_plateau/tiles/ground_tileset.png",
+    "sha256": "797e58ae6e8bf16cd50aa07c240a46e969502f1fe6e242239ff2720f85e60cab",
+    "tile_px": 32,
+    "columns": 30,
+    "rows": 4,
+    "image_size_px": [
+      960,
+      128
+    ],
+    "alpha_hardness_pct": 100.0
+  },
+  "platforms": [],
+  "contact_shadow": {
+    "style": "dynamic_pixel_rect",
+    "ellipse_forbidden": true,
+    "base_half_w_px": 56,
+    "min_half_w_px": 18,
+    "max_height_px": 320,
+    "outer_rgba": [
+      35,
+      22,
+      16,
+      60
+    ],
+    "inner_rgba": [
+      24,
+      14,
+      10,
+      85
+    ]
+  },
+  "dust_fx": {
+    "path": "assets/maps/rocky_plateau/fx/ground_dust.png",
+    "res_path": "res://assets/maps/rocky_plateau/fx/ground_dust.png",
+    "web_path": "/assets/maps/rocky_plateau/fx/ground_dust.png",
+    "sha256": "81708e1a469e8860bff5dfdb9df8ebb97da71ddf99ac5687d8b34b71e304b9dc",
+    "frame_size_1x_px": [
+      32,
+      20
+    ],
+    "frame_count": 6,
+    "tick_hz": 60,
+    "ticks_per_frame": 3,
+    "scale": 2,
+    "anchor_1x_px": [
+      16,
+      17
+    ]
+  }
+}

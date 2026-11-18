@@ -1,8 +1,8 @@
 {
   "schema": "dr7-studio.engine_benchmark.v1",
   "generated_at": "2026-11-07T08:45:08Z",
-  "official_architecture": "Godot 4.7.2 (Mobile APK/iOS Client + Scene/UI + MultiMeshInstance2D) + Rust 1.99.1 Core (GDExtension Client & Authoritative AoI Server) + Supabase",
-  "target_requirement": "60 FPS locked (<= 16.6667 ms/frame) with > 2,000 real-time combat entities on Mobile (Android APK / iOS IPA) + Supabase",
+  "official_architecture": "Phase 1 (0d, <=50 entities/zone): Godot 4.7.2 GDScript GL Compatibility + Swappable NetworkTransport (WebSocket wss:// behind Cloudflare Proxy/WAF) + Supabase (Auth/Postgres) + Godot Headless Server; Phase 2 (>35,000 entities scale trigger): Rust Core Server (engines/rust_combat_sim) on VPS (ADR-0001)",
+  "target_requirement": "60 FPS locked (<= 16.6667 ms/frame) across 7x5x20 zones (~50 entities/zone realtime) on Mobile (Android APK / iOS IPA) + Web/Localhost 1:1 Parity",
   "shared_asset_under_test": {
     "bundle_id": null,
     "mode": "synthetic_1layer_quad_baseline",
@@ -11,7 +11,7 @@
       256
     ],
     "frames_loaded": 8,
-    "note": "Baseline benchmark (>2,000 CCU @ 60FPS) của Godot 4.7.2 + Rust 1.99.1; hiện tại Roster đang trống (0 nhân vật) chờ Atlas mới."
+    "note": "Baseline benchmark (>2,000 entities) đối chiếu Phase 1 Godot GDScript vs Phase 2 Rust Core theo ADR-0001; giữ bundle_id=null ở báo cáo tổng hợp này."
   },
   "rust_engine": {
     "engine": "Rust 1.99.1 SoA + SpatialHash + Single-Batch GPU Instancing",

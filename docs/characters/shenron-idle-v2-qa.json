@@ -1,0 +1,528 @@
+{
+  "revision": "idle-v2-8frames",
+  "updated_at": "2026-11-15T09:15:18.255114+00:00",
+  "art_source": "host_image",
+  "route": "built-in image_gen",
+  "technical_checks": {
+    "full_test_exit_code": 0,
+    "log": "work/characters/shenron/idle-v2/evidence/integration-test-1.log",
+    "wasm_build_exit_code": 0,
+    "pages": 1,
+    "atlas_size_px": [
+      1166,
+      782
+    ],
+    "canvas_size_px": [
+      384,
+      256
+    ],
+    "anchor_px": [
+      192,
+      240
+    ],
+    "scale": 2.4,
+    "ticks": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "tick_hz": 60,
+    "duration_ms": 800,
+    "master_and_original_four_poses_byte_identical": true,
+    "preserved_positions": [
+      0,
+      2,
+      4,
+      6
+    ]
+  },
+  "motion_quality": {
+    "status": "rejected",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "c41ac172a33f559036a2baea4ebbd5f4bcde2a46f16e60de735b2d584f52a172",
+    "owner_approved": false,
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": false,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true
+    },
+    "not_applicable_checks": {
+      "perspective_turns": "Owner chose front_only stationary idle-only; no turn requested."
+    },
+    "unresolved_structural_failures": [],
+    "review_evidence": "work/characters/shenron/idle-v2/evidence/review.json",
+    "naturalness_verdict": "owner_rejected",
+    "revision": "idle-v2-8frames",
+    "owner_feedback": "như vậy thì cảm giác shenron tĩnh nhưng hoạt ảnh trôi quá nhanh . undo về bản 4frame trước"
+  },
+  "frames": [
+    {
+      "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v2/idle_00.png",
+      "file_sha256": "7d32a92302b9af7a4286d8c11f07222d2874c555e3fa51c5f1738e0af87e0526",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        45,
+        27,
+        294,
+        201
+      ],
+      "visible_pixels": 30266,
+      "rgb_colors": 96,
+      "edge_acutance_sobel": 419.261,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.807646465572568,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+      "frame": 0,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "master_palette_subset": true,
+      "eyes": [
+        {
+          "red_pixels": 18,
+          "bbox": [
+            170,
+            73,
+            6,
+            5
+          ]
+        },
+        {
+          "red_pixels": 19,
+          "bbox": [
+            184,
+            73,
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v2/idle_01.png",
+      "file_sha256": "fd93cffe2e71a9acbed7809ece779bbb71906193d8bb69234fcdf2351b89ba2c",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        46,
+        26,
+        293,
+        200
+      ],
+      "visible_pixels": 29819,
+      "rgb_colors": 91,
+      "edge_acutance_sobel": 461.767,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.7221059774925069,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+      "frame": 1,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "master_palette_subset": true,
+      "eyes": [
+        {
+          "red_pixels": 20,
+          "bbox": [
+            170,
+            69,
+            6,
+            6
+          ]
+        },
+        {
+          "red_pixels": 19,
+          "bbox": [
+            184,
+            69,
+            6,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v2/idle_02.png",
+      "file_sha256": "4d264b4d3f191c1638a1dc188167a86ebbe68f71e592485da25bd436cda1e0b4",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        45,
+        27,
+        294,
+        204
+      ],
+      "visible_pixels": 29976,
+      "rgb_colors": 96,
+      "edge_acutance_sobel": 429.809,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.8017616881231245,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+      "frame": 2,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "master_palette_subset": true,
+      "eyes": [
+        {
+          "red_pixels": 22,
+          "bbox": [
+            170,
+            73,
+            6,
+            5
+          ]
+        },
+        {
+          "red_pixels": 20,
+          "bbox": [
+            184,
+            73,
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v2/idle_03.png",
+      "file_sha256": "2e4bf489183121a756ec5b8d2be32ba03ac536201be807ca50f02efc07a25417",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        45,
+        26,
+        294,
+        199
+      ],
+      "visible_pixels": 29827,
+      "rgb_colors": 95,
+      "edge_acutance_sobel": 472.556,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.7397365532381998,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+      "frame": 3,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "master_palette_subset": true,
+      "eyes": [
+        {
+          "red_pixels": 19,
+          "bbox": [
+            170,
+            72,
+            6,
+            5
+          ]
+        },
+        {
+          "red_pixels": 19,
+          "bbox": [
+            184,
+            72,
+            6,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v2/idle_04.png",
+      "file_sha256": "adf3c1b4675deb5118c388ea55fe0dcbe0670cae0a96a325cc09f4a6a9ac3b06",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        43,
+        25,
+        296,
+        195
+      ],
+      "visible_pixels": 30122,
+      "rgb_colors": 94,
+      "edge_acutance_sobel": 446.412,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.7433053221288516,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+      "frame": 4,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "master_palette_subset": true,
+      "eyes": [
+        {
+          "red_pixels": 19,
+          "bbox": [
+            170,
+            70,
+            6,
+            5
+          ]
+        },
+        {
+          "red_pixels": 19,
+          "bbox": [
+            184,
+            70,
+            6,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v2/idle_05.png",
+      "file_sha256": "63d02db7d051e198229ee0dc4df9ea812b146809b17f2c8f125906929945e579",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        44,
+        28,
+        295,
+        197
+      ],
+      "visible_pixels": 29326,
+      "rgb_colors": 92,
+      "edge_acutance_sobel": 448.522,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.6777890338103078,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+      "frame": 5,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "master_palette_subset": true,
+      "eyes": [
+        {
+          "red_pixels": 21,
+          "bbox": [
+            170,
+            71,
+            6,
+            5
+          ]
+        },
+        {
+          "red_pixels": 22,
+          "bbox": [
+            183,
+            71,
+            7,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v2/idle_06.png",
+      "file_sha256": "0aa2d9d96a453f077713bf9cbea7f188990601545993a3b32b5a9491f4a34c42",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        46,
+        29,
+        293,
+        199
+      ],
+      "visible_pixels": 29098,
+      "rgb_colors": 96,
+      "edge_acutance_sobel": 441.393,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.7453688831780705,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+      "frame": 6,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "master_palette_subset": true,
+      "eyes": [
+        {
+          "red_pixels": 18,
+          "bbox": [
+            170,
+            74,
+            6,
+            4
+          ]
+        },
+        {
+          "red_pixels": 18,
+          "bbox": [
+            184,
+            74,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v2/idle_07.png",
+      "file_sha256": "7ca8a0e6b2fff686e1a32a3eec455d5961a32bf9384b3e679d484ecb95fce79a",
+      "canvas_size_px": [
+        384,
+        256
+      ],
+      "body_bbox_px": [
+        46,
+        27,
+        294,
+        198
+      ],
+      "visible_pixels": 29321,
+      "rgb_colors": 95,
+      "edge_acutance_sobel": 447.109,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.7135779710812835,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+      "frame": 7,
+      "opaque_key_px": 0,
+      "enclosed_key_pockets": 0,
+      "outer_ring_spill_fraction": 0.0,
+      "master_palette_subset": true,
+      "eyes": [
+        {
+          "red_pixels": 21,
+          "bbox": [
+            170,
+            72,
+            6,
+            5
+          ]
+        },
+        {
+          "red_pixels": 20,
+          "bbox": [
+            184,
+            72,
+            6,
+            5
+          ]
+        }
+      ]
+    }
+  ],
+  "adjacent_transitions": [
+    {
+      "from": 0,
+      "to": 1,
+      "rgba_mae": 15.549552917480469,
+      "changed_pixels": 29882
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "rgba_mae": 16.03900909423828,
+      "changed_pixels": 31576
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "rgba_mae": 9.987726847330729,
+      "changed_pixels": 29400
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "rgba_mae": 10.346867879231771,
+      "changed_pixels": 23584
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "rgba_mae": 8.017354329427084,
+      "changed_pixels": 19031
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "rgba_mae": 10.45110829671224,
+      "changed_pixels": 25981
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "rgba_mae": 10.126518249511719,
+      "changed_pixels": 24013
+    },
+    {
+      "from": 7,
+      "to": 0,
+      "rgba_mae": 11.514348347981771,
+      "changed_pixels": 28411
+    }
+  ],
+  "visual_review": {
+    "opened_filmstrip_all_three_backgrounds": true,
+    "opened_consecutive_diff_including_7_to_0": true,
+    "browser_forward_order": "0,1,2,3,4,5,6,7,0",
+    "actual_playback_telemetry": "work/characters/shenron/idle-v2/evidence/browser-playback-unrecorded.json",
+    "observed_complete_cycle_ms": {
+      "light": 817.0,
+      "dark": 799.9,
+      "checker": 816.5
+    },
+    "anatomy_notes": "Reviewed whole connected bodies, facial identity, eyes, whisker/tail phases and7→0 seam; no unresolved structural failures recorded. Owner naturalness acceptance pending."
+  },
+  "warnings": [
+    "Reference clips excluded by Owner remain WARN; Owner Human Test pending. See integration-test-1.log."
+  ],
+  "provenance": {
+    "planned_prompts": "work/characters/shenron/idle-v2/evidence/generation-prompts.json",
+    "raw_poses": "work/characters/shenron/idle-v2/raw",
+    "snapshot_before": "work/characters/shenron/idle-v2/snapshot-before"
+  },
+  "rollback": {
+    "at": "2026-11-15T09:19:02.430289+00:00",
+    "target": "idle-v1-4frames",
+    "snapshot": "work/characters/shenron/idle-v2/snapshot-before",
+    "evidence": "work/characters/shenron/idle-v2/rollback-evidence"
+  }
+}

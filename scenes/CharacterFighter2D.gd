@@ -2,7 +2,7 @@ class_name CharacterFighter2D
 extends Node2D
 ## Prefab nhân vật chuẩn 1-Layer Combined của DR7-Studio trên Godot 4:
 ## - Đọc trực tiếp SpriteFrames (.tres) + engine-export.json (Nearest 1:1, khoá tâm chân offset = -anchor_px).
-## - Tương thích 100% với kiến trúc Godot 4 Client + Lõi Rust Core (GDExtension / MultiMeshInstance2D).
+## - Chạy 100% Godot 4 GDScript trên Compatibility renderer (ADR-0001; không dùng GDExtension ở quy mô <= 50 thực thể/khu).
 
 signal action_event(event_name: String, frame_index: int, at_ms: int, payload: Dictionary)
 signal action_finished(clip_name: StringName)
@@ -16,6 +16,20 @@ var animator: SkillAnimator2D = null
 var _turn_pending := false
 var _turn_target_left := false
 var _turn_clip: StringName = &""
+var _cached_export_meta: Dictionary = {}
+var _cached_export_path: String = ""
+
+func _get_cached_export_meta() -> Dictionary:
+	if engine_export_json.is_empty():
+		return {}
+	if _cached_export_path == engine_export_json and not _cached_export_meta.is_empty():
+		return _cached_export_meta
+	var parsed = JSON.parse_string(FileAccess.get_file_as_string(engine_export_json))
+	if parsed is Dictionary:
+		_cached_export_meta = parsed
+		_cached_export_path = engine_export_json
+		return _cached_export_meta
+	return {}
 
 func set_facing_left(target_left: bool) -> bool:
 	_ensure_nodes()
@@ -23,11 +37,17 @@ func set_facing_left(target_left: bool) -> bool:
 		return false
 	if (scale.x < 0.0) == target_left:
 		return true
-	var meta = JSON.parse_string(FileAccess.get_file_as_string(engine_export_json))
-	if not meta is Dictionary:
+	var meta := _get_cached_export_meta()
+	if meta.is_empty():
 		return false
-	_turn_clip = StringName(String(meta.get("render_contract", {}).get("turning", {}).get("clip", "")))
+	var turning = meta.get("render_contract", {}).get("turning", {})
+	var raw_clip = turning.get("clip", "") if turning is Dictionary else ""
+	_turn_clip = StringName(raw_clip if raw_clip is String else "")
 	if _turn_clip == &"" or not has_clip(_turn_clip):
+		if turning is Dictionary and str(turning.get("method", "")) == "instant_flip":
+			var mag_x := absf(scale.x) if not is_zero_approx(scale.x) else 1.0
+			scale.x = -mag_x if target_left else mag_x
+			return true
 		return false
 	_turn_target_left = target_left
 	_turn_pending = true
@@ -37,6 +57,7 @@ func _ready() -> void:
 	_ensure_nodes()
 
 func _ensure_nodes() -> void:
+	_get_cached_export_meta()
 	if sprite == null:
 		sprite = get_node_or_null("Sprite") as AnimatedSprite2D
 	if projectile_sprite == null:
@@ -98,5 +119,15 @@ func _on_skill_finished(clip_name: StringName) -> void:
 	if _turn_pending and clip_name == _turn_clip:
 		scale.x = -absf(scale.x) if _turn_target_left else absf(scale.x)
 		_turn_pending = false
+		var arena_resume := String(get_meta("_arena_turn_resume_clip", ""))
+		if not arena_resume.is_empty():
+			set_meta("_arena_turn_resume_clip", "")
+			var r_clip := StringName(arena_resume)
+			if has_clip(r_clip):
+				play_clip(r_clip)
+				if sprite != null and (r_clip == &"walk" or r_clip == &"run" or r_clip == &"fly") and sprite.sprite_frames.get_frame_count(r_clip) > 1:
+					sprite.frame = 1
+				action_finished.emit(clip_name)
+				return
 		play_clip(&"idle")
 	action_finished.emit(clip_name)

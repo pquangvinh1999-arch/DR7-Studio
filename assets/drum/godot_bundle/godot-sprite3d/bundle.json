@@ -1,0 +1,65 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d_bundle.v1",
+  "default_action": "idle",
+  "world_height": 0.5,
+  "world_height_max_drift": 0.0,
+  "pixel_size": 0.01,
+  "pixel_size_max_drift": 0.0,
+  "actions": {
+    "idle": {
+      "contract": "action-idle.json",
+      "loop": true,
+      "clip": "idle"
+    },
+    "walk": {
+      "contract": "action-walk.json",
+      "loop": true,
+      "clip": "walk"
+    },
+    "jump": {
+      "contract": "action-jump.json",
+      "loop": false,
+      "clip": "jump"
+    },
+    "teleport": {
+      "contract": "action-teleport.json",
+      "loop": false,
+      "clip": "teleport"
+    },
+    "attack_light": {
+      "contract": "action-attack_light.json",
+      "loop": false,
+      "clip": "attack_light"
+    },
+    "power_up": {
+      "contract": "action-power_up.json",
+      "loop": false,
+      "clip": "power_up"
+    },
+    "hit": {
+      "contract": "action-hit.json",
+      "loop": false,
+      "clip": "hit"
+    },
+    "ko": {
+      "contract": "action-ko.json",
+      "loop": false,
+      "clip": "ko"
+    },
+    "getup": {
+      "contract": "action-getup.json",
+      "loop": false,
+      "clip": "getup"
+    },
+    "electric_orb_fx": {
+      "contract": "action-electric_orb_fx.json",
+      "loop": true,
+      "clip": "electric_orb_fx"
+    },
+    "electric_ring_fx": {
+      "contract": "action-electric_ring_fx.json",
+      "loop": true,
+      "clip": "electric_ring_fx"
+    }
+  }
+}

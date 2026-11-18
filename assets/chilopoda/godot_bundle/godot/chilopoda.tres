@@ -677,29 +677,24 @@ animations = [{
 "speed": 60.0
 }, {
 "frames": [{
-"duration": 2.0,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_p0c66")
 }, {
-"duration": 2.0,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_p0c67")
 }, {
-"duration": 2.0,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_p0c68")
 }, {
-"duration": 2.0,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_p0c69")
 }, {
-"duration": 2.0,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_p0c70")
 }, {
-"duration": 2.0,
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_p0c71")
-}],
-"loop": false,
-"name": &"antenna_glow_fx",
-"speed": 60.0
 }, {
-"frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_p0c72")
 }, {
@@ -713,6 +708,6 @@ animations = [{
 "texture": SubResource("AtlasTexture_p0c75")
 }],
 "loop": false,
-"name": &"red_laser_fx",
+"name": &"fireball_fx",
 "speed": 60.0
 }]

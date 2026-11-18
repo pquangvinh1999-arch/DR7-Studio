@@ -390,29 +390,24 @@ animations = [{
 "speed": 60.0
 }, {
 "frames": [{
-"duration": 2.0,
+"duration": 1.0,
 "texture": ExtResource("85_frame84")
 }, {
-"duration": 2.0,
+"duration": 1.0,
 "texture": ExtResource("86_frame85")
 }, {
-"duration": 2.0,
+"duration": 1.0,
 "texture": ExtResource("87_frame86")
 }, {
-"duration": 2.0,
+"duration": 1.0,
 "texture": ExtResource("88_frame87")
 }, {
-"duration": 2.0,
+"duration": 1.0,
 "texture": ExtResource("89_frame88")
 }, {
-"duration": 2.0,
+"duration": 1.0,
 "texture": ExtResource("90_frame89")
-}],
-"loop": false,
-"name": &"antenna_glow_fx",
-"speed": 60.0
 }, {
-"frames": [{
 "duration": 1.0,
 "texture": ExtResource("91_frame90")
 }, {
@@ -426,6 +421,6 @@ animations = [{
 "texture": ExtResource("94_frame93")
 }],
 "loop": false,
-"name": &"red_laser_fx",
+"name": &"fireball_fx",
 "speed": 60.0
 }]

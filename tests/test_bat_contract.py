@@ -1,4 +1,4 @@
-"""Owner's Bat scope: Pteranodon actions/timing, smaller identity, purple sonic wave."""
+"""Bat - Chiroptera contract: preserves v0.10.0 non-turn clips/FX & snapshot while validating turn-v1."""
 import hashlib
 import json
 import unittest
@@ -10,32 +10,79 @@ R=Path(__file__).resolve().parents[1]
 def read(path):return json.loads((R/path).read_text())
 class BatContract(unittest.TestCase):
     def test_owner_approved_revision_is_frozen(self):
+        prev_cal_receipt=read('docs/releases/bat_chiroptera-v0.11.2-approval.json')
+        self.assertEqual(prev_cal_receipt['status'],'owner_approved')
+        self.assertEqual(prev_cal_receipt['workflow_id'],'PIPE-009')
         receipt=read('assets/bat_chiroptera/owner_approval.json')
         self.assertEqual(receipt['status'],'owner_approved')
-        self.assertEqual(receipt['workflow_id'],'PIPE-007')
-        for path,digest in receipt['approved_runtime_files_sha256'].items():
-            self.assertEqual(hashlib.sha256((R/path).read_bytes()).hexdigest(),digest,path)
+        self.assertEqual(receipt['workflow_id'],'PIPE-016')
+        self.assertEqual(receipt['approved_revision'],'calibration-v1 / v0.12.0')
+        self.assertEqual(hashlib.sha256((R/receipt['atlas_path']).read_bytes()).hexdigest(),receipt['atlas_sha256'])
         self.assertEqual(hashlib.sha256((R/receipt['engine_export_path']).read_bytes()).hexdigest(),receipt['engine_export_sha256'])
-        frozen=R/receipt['frozen_source'];live=R/receipt['clips_manifest_path']
-        self.assertEqual(frozen.read_bytes(),live.read_bytes())
-        for frame in json.loads(frozen.read_text())['frames']:
-            self.assertEqual((frozen.parent/frame['file']).read_bytes(),(live.parent/frame['file']).read_bytes())
+        for path,expected in receipt['approved_runtime_files_sha256'].items():
+            self.assertEqual(hashlib.sha256((R/path).read_bytes()).hexdigest(),expected,path)
+        export=read('assets/bat_chiroptera/godot_bundle/engine-export.json')
+        loc=export['render_contract']['locomotion']
+        self.assertAlmostEqual(loc['default_scale'],1.1,places=4)
+        self.assertEqual(loc['screen_speed_px_per_second'],115)
+        self.assertAlmostEqual(loc['speed_px_per_second'],104.545455,places=6)
+        self.assertEqual(loc['flight_default_y'],250)
+        prev_receipt=read('docs/releases/bat_chiroptera-v0.10.0-approval.json')
+        self.assertEqual(prev_receipt['workflow_id'],'PIPE-007')
+        self.assertEqual(prev_receipt['status'],'owner_approved')
+        baseline=read('docs/contracts/bat_chiroptera/turn-v1-baseline-manifest.json')
+        for bf in baseline['bat_frames']:
+            idx=bf['index']
+            live_frame=R/f'assets/bat_chiroptera/clips/frames/frame-{idx:02d}.png'
+            self.assertEqual(hashlib.sha256(live_frame.read_bytes()).hexdigest(),bf['file_sha256'],bf['file'])
+        frozen=R/receipt['frozen_source']
+        for i,frame in enumerate(json.loads(frozen.read_text())['frames']):
+            self.assertEqual((frozen.parent/frame['file']).read_bytes(),(R/f'assets/bat_chiroptera/clips/frames/frame-{i:02d}.png').read_bytes(),frame['file'])
 
     def test_reference_actions_timing_and_events_are_preserved(self):
         bat=read('assets/bat_chiroptera/clips/animation-clips.json')
         ref=read('assets/pteranodon/clips/animation-clips.json')
-        self.assertEqual(set(bat['clips']),set(ref['clips']))
-        self.assertEqual(bat['states'],ref['states'])
-        self.assertEqual(len(bat['frames']),61)
+        self.assertEqual(set(bat['clips']),set(ref['clips'])|{'turn'})
+        self.assertEqual(bat['states'],{**ref['states'],'turn':'turn'})
+        self.assertEqual(len(bat['frames']),66)
         for name,c in ref['clips'].items():
             for key in ['ticks','duration_ms','loop','loop_policy','events_ms','keys','hitstop_ticks']:
                 self.assertEqual(bat['clips'][name].get(key),c.get(key),(name,key))
-            self.assertEqual(len(bat['clips'][name]['frames']),len(c['frames']))
+            self.assertEqual(bat['clips'][name]['frames'],c['frames'],(name,'frames'))
+        t=bat['clips']['turn']
+        self.assertFalse(t['loop']);self.assertEqual(t['loop_policy'],'oneshot')
+        self.assertEqual(t['ticks'],[2,3,4,3,3]);self.assertEqual(len(set(t['ticks']))>1,True)
+        self.assertEqual(t['total_duration_ms'],250)
+        self.assertEqual(len(t['frames']),5)
+        turn_hashes=set()
+        for idx in t['frames']:
+            a=np.array(Image.open(R/'assets/bat_chiroptera/clips'/bat['frames'][idx]['file']).convert('RGBA'))
+            self.assertTrue(np.isin(a[:,:,3],[0,255]).all(),idx)
+            turn_hashes.add(hashlib.sha256(a.tobytes()).hexdigest())
+        self.assertEqual(len(turn_hashes),5)
+
+    def test_turn_contract_and_bidirectional_runtime(self):
+        meta=read('assets/bat_chiroptera/godot_bundle/engine-export.json')
+        rc=meta['render_contract']
+        self.assertEqual(rc['turning']['clip'],'turn')
+        self.assertEqual(rc['turning']['method'],'complete_perspective_poses')
+        self.assertTrue(rc['turning']['mirror_sequence_for_reverse'])
+        self.assertTrue(rc['locomotion']['patrol']['enabled'])
+        self.assertIn('res://scenes/BatChiropteraFighter2D.gd',(R/'scenes/BatChiroptera.tscn').read_text())
+        roster=read('assets/roster.json')
+        ch=next(c for c in roster['characters'] if c['character_id']=='bat_chiroptera')
+        self.assertEqual(ch['status'],'finalized_owner_approved')
+        self.assertTrue(ch['motion_quality']['owner_approved'])
+        self.assertEqual(ch['motion_quality']['status'],'owner_approved')
+        self.assertEqual(ch['owner_animation_approval']['workflow_id'],'PIPE-016')
+        receipt=read('assets/bat_chiroptera/owner_approval.json')
+        self.assertEqual(ch['motion_quality']['atlas_sha256'],receipt['atlas_sha256'])
+        self.assertEqual(ch['motion_quality']['previous_revision_atlas_sha256'],receipt['previous_atlas_sha256'])
 
     def test_master_size_identity_and_independent_fast_flight(self):
         m=read('assets/bat_chiroptera/clips/animation-clips.json');base=R/'assets/bat_chiroptera/clips'
         im=Image.open(base/m['frames'][m['clips']['idle']['frames'][0]]['file']).convert('RGBA')
-        canonical=Image.open(R/'work/characters/bat_chiroptera/approved-master/master.png').convert('RGBA')
+        canonical=Image.open(R/'assets/bat_chiroptera/source/master.png').convert('RGBA')
         self.assertEqual(im.tobytes(),canonical.tobytes())
         b=im.getbbox();self.assertEqual((b[2]-b[0],b[3]-b[1]),(126,81))
         walk={hashlib.sha256((base/m['frames'][i]['file']).read_bytes()).hexdigest() for i in m['clips']['walk']['frames']}

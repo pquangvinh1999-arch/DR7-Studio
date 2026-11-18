@@ -21,6 +21,17 @@ def assess_motion_quality(review, atlas_sha256, render_contract=None):
         errors.append('Character identity FAIL: clip does not match the canonical character master.')
     for name in sorted(REQUIRED_CHECKS):
         if name == 'perspective_turns' and render_contract:
+            loc = render_contract.get('locomotion', {})
+            facing = render_contract.get('facing', {})
+            if (loc.get('kind') == 'stationary'
+                    and loc.get('clip') == 'idle'
+                    and loc.get('allow_turn_or_flip') is False
+                    and render_contract.get('body_clips') == ['idle']
+                    and facing.get('camera_view') == 'front_only'
+                    and facing.get('directions') == ['front']
+                    and facing.get('owner_instruction')
+                    and review.get('not_applicable_checks', {}).get('perspective_turns')):
+                continue
             turning = render_contract.get('turning', {})
             burrow = render_contract.get('chilopoda', {}).get('burrow_turn', {})
             if (turning.get('method') == 'burrow_reorient_while_hidden'

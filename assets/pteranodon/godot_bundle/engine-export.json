@@ -2028,7 +2028,11 @@
     ],
     "locomotion": {
       "kind": "flight",
-      "clip": "walk"
+      "clip": "walk",
+      "default_scale": 1.5,
+      "screen_speed_px_per_second": 140,
+      "speed_px_per_second": 93.333333,
+      "flight_default_y": 250
     },
     "aura": {
       "loop_clip": null,
@@ -2053,6 +2057,12 @@
         0.0,
         0.0
       ]
+    },
+    "turning": {
+      "clip": null,
+      "method": "instant_flip",
+      "turn_speed_multiplier": 1.2,
+      "owner_instruction": "Owner cancelled turn clip; horizontal flip responsiveness +20%."
     }
   },
   "provenance": {

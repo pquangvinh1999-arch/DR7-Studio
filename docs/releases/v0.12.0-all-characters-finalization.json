@@ -1,0 +1,2601 @@
+{
+  "schema": "dr7-studio.release_finalization.v1",
+  "release_version": "0.12.0",
+  "approved_at": "2026-11-15T05:52:31.727116+00:00",
+  "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác",
+  "characters": {
+    "spinosaurus": {
+      "workflow_id": "PIPE-011",
+      "supersedes": "PIPE-003",
+      "archived_previous_receipt": "docs/releases/spinosaurus-v0.6.0-approval.json",
+      "owner_approval_file": "assets/spinosaurus/owner_approval.json",
+      "atlas_sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e",
+      "tres_sha256": "7b97f2aeafe61fe82280e110373052aa46ba05e0534558a737abbffae49af067",
+      "engine_export_sha256": "07041f875c013b927bec45c0cc183401feb2f2ba42a5f8a984f04229e248b1d2",
+      "runtime_files_frozen": 196
+    },
+    "tasmanian_king_crab": {
+      "workflow_id": "PIPE-012",
+      "supersedes": "PIPE-004",
+      "archived_previous_receipt": "docs/releases/tasmanian_king_crab-v0.7.0-approval.json",
+      "owner_approval_file": "assets/tasmanian_king_crab/owner_approval.json",
+      "atlas_sha256": "c62f2776ffb15133fae9128436c899e222d3e4ed717c2abc46cd64db579da30d",
+      "tres_sha256": "044211888a3bdca7bbacf678968e086f38176e7804e47a0ac558184e697a171b",
+      "engine_export_sha256": "faeaa3d084aa5380285f159e562a0785fb19909d724b816b90c00b7686514006",
+      "runtime_files_frozen": 156
+    },
+    "sarcosuchus": {
+      "workflow_id": "PIPE-013",
+      "supersedes": "PIPE-005",
+      "archived_previous_receipt": "docs/releases/sarcosuchus-v0.8.1-approval.json",
+      "owner_approval_file": "assets/sarcosuchus/owner_approval.json",
+      "atlas_sha256": "81595756c2d1d7d4ca7ddf530bb972eca8964427311db69a38905502fed2a959",
+      "tres_sha256": "6517fddfa01941d900d331a582e33e8ab5f18037d94aae4931a6c67a053145bc",
+      "engine_export_sha256": "eb2601caf365108f3e5198508f1d8cc7184ce4a3e85df0442b27d5baa82be259",
+      "runtime_files_frozen": 194
+    },
+    "dilophosaurus": {
+      "workflow_id": "PIPE-014",
+      "supersedes": "PIPE-006",
+      "archived_previous_receipt": "docs/releases/dilophosaurus-v0.9.1-approval.json",
+      "owner_approval_file": "assets/dilophosaurus/owner_approval.json",
+      "atlas_sha256": "b56bdb47d903f14ea8072831dda6eb039f7d883a5cdadbbecf9548c9458e097b",
+      "tres_sha256": "a44943d6217361d9a06cd4ade7e417de96e01e897bb1b20679bfd92e91bbf2a1",
+      "engine_export_sha256": "6438c3896dfa14924972856ba431d8a37a5102a37dcefe883f275f67161575d5",
+      "runtime_files_frozen": 216
+    },
+    "chilopoda": {
+      "workflow_id": "PIPE-015",
+      "supersedes": "PIPE-008",
+      "archived_previous_receipt": "docs/releases/chilopoda-v0.11.1-approval.json",
+      "owner_approval_file": "assets/chilopoda/owner_approval.json",
+      "atlas_sha256": "0561212a81a8203b33a96981e61c2a38502613026820becbadbed447b0dadeba",
+      "tres_sha256": "cb9839f5d21746fea09dccc4f3e6a143fb9a54dc19f383771348d4ce1f960410",
+      "engine_export_sha256": "84dbb11f2ba4ad87c01997e50b9e969677cba2b62a24b5c48f1bdddbd8a08f7a",
+      "runtime_files_frozen": 242
+    },
+    "bat_chiroptera": {
+      "workflow_id": "PIPE-016",
+      "supersedes": "PIPE-009",
+      "archived_previous_receipt": "docs/releases/bat_chiroptera-v0.11.2-approval.json",
+      "owner_approval_file": "assets/bat_chiroptera/owner_approval.json",
+      "atlas_sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084",
+      "tres_sha256": "cd63ce273820be744e4417b0a6dacc00243caa89c5d7886c19e78502f71d71cd",
+      "engine_export_sha256": "671eb2dbd80a621357bf5cadebe8aeb520280322978e53a44b3559a5e44d97d3",
+      "runtime_files_frozen": 186
+    },
+    "t_rex": {
+      "workflow_id": "PIPE-010",
+      "supersedes": null,
+      "owner_approval_file": "assets/t_rex/owner_approval.json",
+      "atlas_sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c",
+      "tres_sha256": "ac6a3dd694127137d5e20dcec7b04614e964b4a2667b075a827f473dca1bf6c7",
+      "engine_export_sha256": "67f0de7e2a1a53f3c417a323fb5000150bcbc3d351fe95c9b7df960989a5a073",
+      "note": "Calibrated in 1920x1080 arena (v0.12.0) and confirmed by Owner without changing atlas/frames."
+    },
+    "pteranodon": {
+      "workflow_id": "PIPE-002",
+      "supersedes": null,
+      "owner_approval_file": "assets/pteranodon/owner_approval.json",
+      "atlas_sha256": "8b2dfa1fde2de807c899ce8594ef9cb0965e4aa52f7e0f4b114ca70a4b3166d2",
+      "tres_sha256": "fe7399b6ec28f664044072b0462e447367a200f865bdd239a82ab384401d455b",
+      "engine_export_sha256": "0c32b6dc70dfed49fef573a729f60328de13b1f879685e04ef5cba9d8119580e",
+      "note": "Calibrated in 1920x1080 arena (v0.12.0) and confirmed by Owner without changing atlas/frames."
+    }
+  },
+  "cleanup": {
+    "reverted_experiment_removed": {
+      "path": "work/characters/spinosaurus/uniform-walk-v1",
+      "removed_files": 534,
+      "removed_bytes": 20118090,
+      "reason": "Reverted experiment superseded by calibration-v1 -> walk-edge-uniform-v1 per Owner directive (LRN-057)."
+    },
+    "duplicate_stage_pngs_removed_count": 417,
+    "duplicate_stage_pngs_removed_bytes": 20390429,
+    "scope": "Removed reverted uniform-walk-v1 experiment and byte-identical stage PNG copies inside work/characters/spinosaurus/walk-edge-uniform-v1/stage_* and work/characters/tasmanian_king_crab/uniform-color-v1/stage_*. All scripts, manifests, keyframe-reviews, approved-final-frames, canonical masters, and test-referenced snapshot-before trees preserved.",
+    "files": [
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_00.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-28.png",
+        "sha256": "3ad83027a50778a0cd3be3c8cc435456adc768e2b518d698de8abe6c9a55d2e8",
+        "bytes": 14133
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_01.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-29.png",
+        "sha256": "b111a9dfc8d30aee349307454f6984ded47dd1016360d8ce21fa9fb2a5303244",
+        "bytes": 14657
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_02.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-30.png",
+        "sha256": "16b8c3b3eb524a9da397ed5ced316b89a93530ce40ab31ab0918ae1de8ed77e1",
+        "bytes": 14550
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_03.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-31.png",
+        "sha256": "f6920c04ef5a6a7de666382449beec9487247f73911f152053c30f31eafefccd",
+        "bytes": 13919
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_04.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-32.png",
+        "sha256": "a04c69dd31b208d9f09667e7706154f0dd254c838c85967b6ff24a5cef92dc8a",
+        "bytes": 10886
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_05.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-33.png",
+        "sha256": "701908480ca2332930d4d1b5d41d8f0670a788f82a4a7c0284dc38930de37dad",
+        "bytes": 14254
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_06.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-34.png",
+        "sha256": "a1ca6b8bb5934fd3d491d51ee668a07e51627970af08562581126484c67cc36a",
+        "bytes": 12707
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_07.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-35.png",
+        "sha256": "41db8fc9ccc9f3ebedb04954902d9b03a33c2d617cd479cfb5bec56d7c536d02",
+        "bytes": 8867
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_08.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-36.png",
+        "sha256": "38e535020dd9d9dd2ce5eae4cdd2a42bc872458c60be29ee6f8c3c608b273590",
+        "bytes": 10933
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_09.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-37.png",
+        "sha256": "902bc880bf5932dc9a7ce36598302964aeb14334afb862367100a395d07e2ca5",
+        "bytes": 13275
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_10.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-38.png",
+        "sha256": "aa1f3a2039a51326afa63fe489fffbd999e47ba900ad9adfd22a935237e16cc3",
+        "bytes": 14200
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_heavy_11.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-39.png",
+        "sha256": "9bd4ac4af2a7b0370f39ede71bd420f04e3dded9f3f282f3da6267018f888c67",
+        "bytes": 14372
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_light_00.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-20.png",
+        "sha256": "b1baabb1944bb7c916ccfe8f0153954c984e6ea80d29c346186698c76e16d594",
+        "bytes": 13309
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_light_01.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-21.png",
+        "sha256": "79ce4fb5e2c717f278475b9bbf213da4907013b3359ce1d55c851e5593c23883",
+        "bytes": 13448
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_light_02.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-22.png",
+        "sha256": "2e762378a2f29dddab8d332daa258f4aff161d11326986430f3d9226f9442a10",
+        "bytes": 13420
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_light_03.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-23.png",
+        "sha256": "930e808d95ab9c0d0d74a8f4abb897cd87fc16524c86da2fdcab52fd9fe760fa",
+        "bytes": 13116
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_light_04.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-24.png",
+        "sha256": "c053c2a840f72e2ec008da0633921aa2e2d529661305025b82e592cfaec1839f",
+        "bytes": 13102
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_light_05.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-25.png",
+        "sha256": "9dbe254eb3da45d85adf48db3fbf3ea6be84fe0ed45e5ffcd2d730b77a5bb2b2",
+        "bytes": 13319
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_light_06.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-26.png",
+        "sha256": "8f2be70331984777986282facf59065eb384057c76a28c27e7d36e78f4192a3f",
+        "bytes": 13564
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/attack_light_07.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-27.png",
+        "sha256": "ff51d18289a1a181a09f32976d4ab8e245e12904f66ac6dc27e2623093a48136",
+        "bytes": 13925
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/fireball_fx_00.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-67.png",
+        "sha256": "6793901aa57568c20fc250905eed54ca9715f25cbf5c3af4ed76424e137735fe",
+        "bytes": 1278
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/fireball_fx_01.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-68.png",
+        "sha256": "c0dcae0edf8057c9b804482e0733b497abe81cd121664ddf57719f6a71e30add",
+        "bytes": 1006
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/fireball_fx_02.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-69.png",
+        "sha256": "53076137484d6120872c48b143732c133f67667d6601e09d9be1a57fcbc2bbc0",
+        "bytes": 1002
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/fireball_fx_03.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-70.png",
+        "sha256": "ddd1af409a948f51c12b5ea7759970ce9f6be1ac0fcbc3841220dbd04a0128a6",
+        "bytes": 945
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/hit_00.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-49.png",
+        "sha256": "92e9af13c3151ff4c4921d22f8e50e82d03168b3ae68712864da254396b48e23",
+        "bytes": 14899
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/hit_01.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-50.png",
+        "sha256": "4df929e4878a954dd660ffa8c032a502600c9eb412284939ab055ec9d1f0c7a0",
+        "bytes": 14954
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/hit_02.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-51.png",
+        "sha256": "e70d1f8a714a6699ffd94405fd59925eaec01537c3c375286f5995c8c5cfb051",
+        "bytes": 14918
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/hit_03.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-52.png",
+        "sha256": "3ea8c0c0dc1dd670585252a6329fbc513a8615f56f773f7fa72a0db3bd3df86c",
+        "bytes": 14647
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/hit_04.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-53.png",
+        "sha256": "e5c1a419b4474d5672589aac3b4e450953db0c639703a682e1ca699f75b0550d",
+        "bytes": 14565
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/hit_05.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-54.png",
+        "sha256": "d0be2fbe34f9fd9ec4111a985cbee9816e1a2e94b4ab22da064baea20006108c",
+        "bytes": 14807
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_00.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-00.png",
+        "sha256": "60335b85c9df04dd70d2c8f5308b0f665626407cffff38cf645b09a5c2037c1f",
+        "bytes": 13491
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_01.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-01.png",
+        "sha256": "94ac1740e30769b2bf66f11353efc8192c1d9d6410fd19b7e14278ad2fe91a21",
+        "bytes": 13515
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_02.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-02.png",
+        "sha256": "a340b22132ce36666318f87a80cb1146f28fb56fcfad69e65e740804efdfc3cf",
+        "bytes": 13659
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_03.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-03.png",
+        "sha256": "5a61d143c5bb5a2ea1bae82705a6488c56844400edac80bce2ca61d0067d873d",
+        "bytes": 13749
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_04.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-04.png",
+        "sha256": "a16470a2e9ba2fe41d74aa11719402dfebe48cd815aa4554ed945443add0beb4",
+        "bytes": 13980
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_05.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-05.png",
+        "sha256": "4a1bc08513eaf4ce2bab88bd847d884428f09ba96cb6e93bc08e2d36c3c8204a",
+        "bytes": 13931
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_06.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-06.png",
+        "sha256": "b4e6e0f96de0d47ea8de123dab9fa39310ad3f826819b0c0f566ddb087df67e6",
+        "bytes": 13849
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_07.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-07.png",
+        "sha256": "9aafafae62585be863a32c2f1e6a6d5064b5e3ea4c1f5aee4731e4b7ebeff491",
+        "bytes": 13821
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_08.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-08.png",
+        "sha256": "db2cb3a4dfb12495b9a44ab5cb306d26cf99bbcd7dc59ef99261fe44279258a5",
+        "bytes": 13753
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_09.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-09.png",
+        "sha256": "2579c9b1b0c563b82ff8c31cc2052b14854875e7c7afd2c561335f1f1955865b",
+        "bytes": 13547
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_10.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-10.png",
+        "sha256": "87cca661095a6562bd99c605c6548f9008bdccc021e1cb495272d89eb892e4ad",
+        "bytes": 13435
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/idle_11.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-11.png",
+        "sha256": "c6504f6113e070ff27ac8190da31bcf44b230b2c7d631736421100f32a5b3675",
+        "bytes": 13350
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/ko_00.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-55.png",
+        "sha256": "157f349262104610e718a3b0f2929ea324749fd41977d8438db46b645ea81127",
+        "bytes": 14424
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/ko_01.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-56.png",
+        "sha256": "c125358a50200167068f86fd5d459b12227ce456e9a016474f474f6807c2fd04",
+        "bytes": 14358
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/ko_02.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-57.png",
+        "sha256": "f902be30e84e1e57c2cec069f081e2d90667d2bd2e62127090b9c2025491fa73",
+        "bytes": 14362
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/ko_03.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-58.png",
+        "sha256": "22dcf8fe0c03ad789ab373b4653a754231ce496e4eb08837d1c67d11609f665d",
+        "bytes": 13198
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/ko_04.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-59.png",
+        "sha256": "5c321cce119b4acbcb235de0a636bb8b2ae27f33cd4a3ded8aa93ad73e7aae41",
+        "bytes": 11993
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/ko_05.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-60.png",
+        "sha256": "c7810296d3cde3adb485b10a93bc12de2cabf7100f5a68f41ed2edc5e668ea6e",
+        "bytes": 12153
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/ko_06.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-61.png",
+        "sha256": "23bf2c160173747f02fa3951a22ba24652c0e97d4be406c717dcd9eb09229fe8",
+        "bytes": 11357
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/ko_07.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-62.png",
+        "sha256": "1e59b7bf7079fa6b6dabaf5ddea26cb41e8d1d59c0d5cdc8a206ea223801f3f5",
+        "bytes": 9974
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/power_up_00.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-40.png",
+        "sha256": "af331f0ddce0db9efac8d15f81b2bcf75f98a11f1d0ec1cba51ef07f960eb9f3",
+        "bytes": 14631
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/power_up_01.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-41.png",
+        "sha256": "caa0dc253b6c564d28168093e09388d806f6df27f73be28d8c4ec34058fb8ef2",
+        "bytes": 14306
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/power_up_02.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-42.png",
+        "sha256": "33582a0ceb84bd01842cdc472b9965f3ac03689ee21fc49c1836ad7517c98b6a",
+        "bytes": 14723
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/power_up_03.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-43.png",
+        "sha256": "5b76814af6a267421df6c3de44d1f7f88e6a76b76ba4dbf0169fb2b4f9f9770f",
+        "bytes": 14327
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/power_up_04.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-44.png",
+        "sha256": "c61b59c6869eb0a2b16e2321c11a071a643b3743390ed9c4ed0db338d0f11273",
+        "bytes": 14515
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/power_up_05.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-45.png",
+        "sha256": "548107aafddaf48efd90bf919067c60f20ceee4a0a535f53ea53c275a236c0ac",
+        "bytes": 14240
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/power_up_06.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-46.png",
+        "sha256": "6c37d1938da8106ecabfa80b67649cfc9eb6e7cf6b4563fd680a820e1487728e",
+        "bytes": 14221
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/power_up_07.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-47.png",
+        "sha256": "5c1c9de2f6a06de7326694487e69cdd09be3ec92237dbc4e4856e55bce8c99a7",
+        "bytes": 14177
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/power_up_08.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-48.png",
+        "sha256": "80cb0295ed10d658c0b2a5bdf6f57f0734e5ff1eb4d7fd0a4e50de4f4ad35153",
+        "bytes": 14151
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/turn_00.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-28.png",
+        "sha256": "3ad83027a50778a0cd3be3c8cc435456adc768e2b518d698de8abe6c9a55d2e8",
+        "bytes": 14133
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/turn_01.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-31.png",
+        "sha256": "f6920c04ef5a6a7de666382449beec9487247f73911f152053c30f31eafefccd",
+        "bytes": 13919
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/turn_02.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-32.png",
+        "sha256": "a04c69dd31b208d9f09667e7706154f0dd254c838c85967b6ff24a5cef92dc8a",
+        "bytes": 10886
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/turn_03.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-66.png",
+        "sha256": "bf727a31fa23bda1d24941b39457de70db8215229ab57de817afc67f55c60448",
+        "bytes": 12950
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/walk_00.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-12.png",
+        "sha256": "9eae6d24a6e2c145eaa42c0610a3af2a3f01e5671c55974751c7e080bce59eca",
+        "bytes": 13339
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/walk_01.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-13.png",
+        "sha256": "93ed51986b12ec37745a4d662656748719adf7ca428533ae6744af0fc5b18017",
+        "bytes": 12220
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/walk_02.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-14.png",
+        "sha256": "3a1ed17c76771151660d3ad56daf79ef796b627daf3a4e7fadff927f6a5837f2",
+        "bytes": 12297
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/walk_03.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-15.png",
+        "sha256": "5f76360afe930cfd18951b4a54211ab2e786b484c3373f8a2e7e4f656f1f11d4",
+        "bytes": 12222
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/walk_04.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-16.png",
+        "sha256": "300cba546b73cb2c298c97a34eab59d493dcd7b3f6e60da7a5c56067cf5ece31",
+        "bytes": 12258
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/walk_05.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-17.png",
+        "sha256": "e075e433440e5f47c38d90d3a214724202f044b9825c6d2343f76c182fb9d805",
+        "bytes": 12111
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/walk_06.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-18.png",
+        "sha256": "462a3a7651a469c4e43e89afcf2780fc7cbe019b5f87bd8cc0eb742fa372381b",
+        "bytes": 12421
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_src/raw_frames/walk_07.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-19.png",
+        "sha256": "49773210fb7dc8adf3dabf3fc711a1046859963ca1efbe868b3633debca5a496",
+        "bytes": 13590
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/contact-sheet.png",
+        "retained": "assets/spinosaurus/clips/contact-sheet.png",
+        "sha256": "f8c5f770f7aca27c588bc74a90eb15ffe2c79b3105a8082db1b340be8752fd90",
+        "bytes": 857663
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-00.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-00.png",
+        "sha256": "60335b85c9df04dd70d2c8f5308b0f665626407cffff38cf645b09a5c2037c1f",
+        "bytes": 13491
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-01.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-01.png",
+        "sha256": "94ac1740e30769b2bf66f11353efc8192c1d9d6410fd19b7e14278ad2fe91a21",
+        "bytes": 13515
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-02.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-02.png",
+        "sha256": "a340b22132ce36666318f87a80cb1146f28fb56fcfad69e65e740804efdfc3cf",
+        "bytes": 13659
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-03.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-03.png",
+        "sha256": "5a61d143c5bb5a2ea1bae82705a6488c56844400edac80bce2ca61d0067d873d",
+        "bytes": 13749
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-04.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-04.png",
+        "sha256": "a16470a2e9ba2fe41d74aa11719402dfebe48cd815aa4554ed945443add0beb4",
+        "bytes": 13980
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-05.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-05.png",
+        "sha256": "4a1bc08513eaf4ce2bab88bd847d884428f09ba96cb6e93bc08e2d36c3c8204a",
+        "bytes": 13931
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-06.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-06.png",
+        "sha256": "b4e6e0f96de0d47ea8de123dab9fa39310ad3f826819b0c0f566ddb087df67e6",
+        "bytes": 13849
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-07.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-07.png",
+        "sha256": "9aafafae62585be863a32c2f1e6a6d5064b5e3ea4c1f5aee4731e4b7ebeff491",
+        "bytes": 13821
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-08.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-08.png",
+        "sha256": "db2cb3a4dfb12495b9a44ab5cb306d26cf99bbcd7dc59ef99261fe44279258a5",
+        "bytes": 13753
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-09.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-09.png",
+        "sha256": "2579c9b1b0c563b82ff8c31cc2052b14854875e7c7afd2c561335f1f1955865b",
+        "bytes": 13547
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-10.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-10.png",
+        "sha256": "87cca661095a6562bd99c605c6548f9008bdccc021e1cb495272d89eb892e4ad",
+        "bytes": 13435
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-11.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-11.png",
+        "sha256": "c6504f6113e070ff27ac8190da31bcf44b230b2c7d631736421100f32a5b3675",
+        "bytes": 13350
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-12.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-12.png",
+        "sha256": "9eae6d24a6e2c145eaa42c0610a3af2a3f01e5671c55974751c7e080bce59eca",
+        "bytes": 13339
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-13.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-13.png",
+        "sha256": "93ed51986b12ec37745a4d662656748719adf7ca428533ae6744af0fc5b18017",
+        "bytes": 12220
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-14.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-14.png",
+        "sha256": "3a1ed17c76771151660d3ad56daf79ef796b627daf3a4e7fadff927f6a5837f2",
+        "bytes": 12297
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-15.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-15.png",
+        "sha256": "5f76360afe930cfd18951b4a54211ab2e786b484c3373f8a2e7e4f656f1f11d4",
+        "bytes": 12222
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-16.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-16.png",
+        "sha256": "300cba546b73cb2c298c97a34eab59d493dcd7b3f6e60da7a5c56067cf5ece31",
+        "bytes": 12258
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-17.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-17.png",
+        "sha256": "e075e433440e5f47c38d90d3a214724202f044b9825c6d2343f76c182fb9d805",
+        "bytes": 12111
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-18.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-18.png",
+        "sha256": "462a3a7651a469c4e43e89afcf2780fc7cbe019b5f87bd8cc0eb742fa372381b",
+        "bytes": 12421
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-19.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-19.png",
+        "sha256": "49773210fb7dc8adf3dabf3fc711a1046859963ca1efbe868b3633debca5a496",
+        "bytes": 13590
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-20.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-20.png",
+        "sha256": "b1baabb1944bb7c916ccfe8f0153954c984e6ea80d29c346186698c76e16d594",
+        "bytes": 13309
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-21.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-21.png",
+        "sha256": "79ce4fb5e2c717f278475b9bbf213da4907013b3359ce1d55c851e5593c23883",
+        "bytes": 13448
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-22.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-22.png",
+        "sha256": "2e762378a2f29dddab8d332daa258f4aff161d11326986430f3d9226f9442a10",
+        "bytes": 13420
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-23.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-23.png",
+        "sha256": "930e808d95ab9c0d0d74a8f4abb897cd87fc16524c86da2fdcab52fd9fe760fa",
+        "bytes": 13116
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-24.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-24.png",
+        "sha256": "c053c2a840f72e2ec008da0633921aa2e2d529661305025b82e592cfaec1839f",
+        "bytes": 13102
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-25.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-25.png",
+        "sha256": "9dbe254eb3da45d85adf48db3fbf3ea6be84fe0ed45e5ffcd2d730b77a5bb2b2",
+        "bytes": 13319
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-26.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-26.png",
+        "sha256": "8f2be70331984777986282facf59065eb384057c76a28c27e7d36e78f4192a3f",
+        "bytes": 13564
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-27.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-27.png",
+        "sha256": "ff51d18289a1a181a09f32976d4ab8e245e12904f66ac6dc27e2623093a48136",
+        "bytes": 13925
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-28.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-28.png",
+        "sha256": "3ad83027a50778a0cd3be3c8cc435456adc768e2b518d698de8abe6c9a55d2e8",
+        "bytes": 14133
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-29.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-29.png",
+        "sha256": "b111a9dfc8d30aee349307454f6984ded47dd1016360d8ce21fa9fb2a5303244",
+        "bytes": 14657
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-30.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-30.png",
+        "sha256": "16b8c3b3eb524a9da397ed5ced316b89a93530ce40ab31ab0918ae1de8ed77e1",
+        "bytes": 14550
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-31.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-31.png",
+        "sha256": "f6920c04ef5a6a7de666382449beec9487247f73911f152053c30f31eafefccd",
+        "bytes": 13919
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-32.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-32.png",
+        "sha256": "a04c69dd31b208d9f09667e7706154f0dd254c838c85967b6ff24a5cef92dc8a",
+        "bytes": 10886
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-33.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-33.png",
+        "sha256": "701908480ca2332930d4d1b5d41d8f0670a788f82a4a7c0284dc38930de37dad",
+        "bytes": 14254
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-34.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-34.png",
+        "sha256": "a1ca6b8bb5934fd3d491d51ee668a07e51627970af08562581126484c67cc36a",
+        "bytes": 12707
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-35.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-35.png",
+        "sha256": "41db8fc9ccc9f3ebedb04954902d9b03a33c2d617cd479cfb5bec56d7c536d02",
+        "bytes": 8867
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-36.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-36.png",
+        "sha256": "38e535020dd9d9dd2ce5eae4cdd2a42bc872458c60be29ee6f8c3c608b273590",
+        "bytes": 10933
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-37.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-37.png",
+        "sha256": "902bc880bf5932dc9a7ce36598302964aeb14334afb862367100a395d07e2ca5",
+        "bytes": 13275
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-38.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-38.png",
+        "sha256": "aa1f3a2039a51326afa63fe489fffbd999e47ba900ad9adfd22a935237e16cc3",
+        "bytes": 14200
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-39.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-39.png",
+        "sha256": "9bd4ac4af2a7b0370f39ede71bd420f04e3dded9f3f282f3da6267018f888c67",
+        "bytes": 14372
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-40.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-40.png",
+        "sha256": "af331f0ddce0db9efac8d15f81b2bcf75f98a11f1d0ec1cba51ef07f960eb9f3",
+        "bytes": 14631
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-41.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-41.png",
+        "sha256": "caa0dc253b6c564d28168093e09388d806f6df27f73be28d8c4ec34058fb8ef2",
+        "bytes": 14306
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-42.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-42.png",
+        "sha256": "33582a0ceb84bd01842cdc472b9965f3ac03689ee21fc49c1836ad7517c98b6a",
+        "bytes": 14723
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-43.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-43.png",
+        "sha256": "5b76814af6a267421df6c3de44d1f7f88e6a76b76ba4dbf0169fb2b4f9f9770f",
+        "bytes": 14327
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-44.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-44.png",
+        "sha256": "c61b59c6869eb0a2b16e2321c11a071a643b3743390ed9c4ed0db338d0f11273",
+        "bytes": 14515
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-45.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-45.png",
+        "sha256": "548107aafddaf48efd90bf919067c60f20ceee4a0a535f53ea53c275a236c0ac",
+        "bytes": 14240
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-46.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-46.png",
+        "sha256": "6c37d1938da8106ecabfa80b67649cfc9eb6e7cf6b4563fd680a820e1487728e",
+        "bytes": 14221
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-47.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-47.png",
+        "sha256": "5c1c9de2f6a06de7326694487e69cdd09be3ec92237dbc4e4856e55bce8c99a7",
+        "bytes": 14177
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-48.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-48.png",
+        "sha256": "80cb0295ed10d658c0b2a5bdf6f57f0734e5ff1eb4d7fd0a4e50de4f4ad35153",
+        "bytes": 14151
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-49.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-49.png",
+        "sha256": "92e9af13c3151ff4c4921d22f8e50e82d03168b3ae68712864da254396b48e23",
+        "bytes": 14899
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-50.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-50.png",
+        "sha256": "4df929e4878a954dd660ffa8c032a502600c9eb412284939ab055ec9d1f0c7a0",
+        "bytes": 14954
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-51.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-51.png",
+        "sha256": "e70d1f8a714a6699ffd94405fd59925eaec01537c3c375286f5995c8c5cfb051",
+        "bytes": 14918
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-52.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-52.png",
+        "sha256": "3ea8c0c0dc1dd670585252a6329fbc513a8615f56f773f7fa72a0db3bd3df86c",
+        "bytes": 14647
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-53.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-53.png",
+        "sha256": "e5c1a419b4474d5672589aac3b4e450953db0c639703a682e1ca699f75b0550d",
+        "bytes": 14565
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-54.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-54.png",
+        "sha256": "d0be2fbe34f9fd9ec4111a985cbee9816e1a2e94b4ab22da064baea20006108c",
+        "bytes": 14807
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-55.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-55.png",
+        "sha256": "157f349262104610e718a3b0f2929ea324749fd41977d8438db46b645ea81127",
+        "bytes": 14424
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-56.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-56.png",
+        "sha256": "c125358a50200167068f86fd5d459b12227ce456e9a016474f474f6807c2fd04",
+        "bytes": 14358
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-57.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-57.png",
+        "sha256": "f902be30e84e1e57c2cec069f081e2d90667d2bd2e62127090b9c2025491fa73",
+        "bytes": 14362
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-58.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-58.png",
+        "sha256": "22dcf8fe0c03ad789ab373b4653a754231ce496e4eb08837d1c67d11609f665d",
+        "bytes": 13198
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-59.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-59.png",
+        "sha256": "5c321cce119b4acbcb235de0a636bb8b2ae27f33cd4a3ded8aa93ad73e7aae41",
+        "bytes": 11993
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-60.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-60.png",
+        "sha256": "c7810296d3cde3adb485b10a93bc12de2cabf7100f5a68f41ed2edc5e668ea6e",
+        "bytes": 12153
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-61.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-61.png",
+        "sha256": "23bf2c160173747f02fa3951a22ba24652c0e97d4be406c717dcd9eb09229fe8",
+        "bytes": 11357
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-62.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-62.png",
+        "sha256": "1e59b7bf7079fa6b6dabaf5ddea26cb41e8d1d59c0d5cdc8a206ea223801f3f5",
+        "bytes": 9974
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-63.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-28.png",
+        "sha256": "3ad83027a50778a0cd3be3c8cc435456adc768e2b518d698de8abe6c9a55d2e8",
+        "bytes": 14133
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-64.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-31.png",
+        "sha256": "f6920c04ef5a6a7de666382449beec9487247f73911f152053c30f31eafefccd",
+        "bytes": 13919
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-65.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-32.png",
+        "sha256": "a04c69dd31b208d9f09667e7706154f0dd254c838c85967b6ff24a5cef92dc8a",
+        "bytes": 10886
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-66.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-66.png",
+        "sha256": "bf727a31fa23bda1d24941b39457de70db8215229ab57de817afc67f55c60448",
+        "bytes": 12950
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-67.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-67.png",
+        "sha256": "6793901aa57568c20fc250905eed54ca9715f25cbf5c3af4ed76424e137735fe",
+        "bytes": 1278
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-68.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-68.png",
+        "sha256": "c0dcae0edf8057c9b804482e0733b497abe81cd121664ddf57719f6a71e30add",
+        "bytes": 1006
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-69.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-69.png",
+        "sha256": "53076137484d6120872c48b143732c133f67667d6601e09d9be1a57fcbc2bbc0",
+        "bytes": 1002
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/frames/frame-70.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-70.png",
+        "sha256": "ddd1af409a948f51c12b5ea7759970ce9f6be1ac0fcbc3841220dbd04a0128a6",
+        "bytes": 945
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/filmstrip-00.png",
+        "retained": "assets/spinosaurus/clips/review/filmstrip-00.png",
+        "sha256": "e87ba351037ce883396e5bf6b97f8823af14dedc6ee10a08f68806b570e672b8",
+        "bytes": 663906
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/filmstrip-01.png",
+        "retained": "assets/spinosaurus/clips/review/filmstrip-01.png",
+        "sha256": "7f32e7a9f7e40489186b47c66f4ec8a942dd6939e7255099fb934da96e4ef6ab",
+        "bytes": 396395
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/filmstrip-02.png",
+        "retained": "assets/spinosaurus/clips/review/filmstrip-02.png",
+        "sha256": "628dc027d20c441f3077a4f15f149b2346a09a65df03519085d766624346f1cb",
+        "bytes": 426592
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/filmstrip-03.png",
+        "retained": "assets/spinosaurus/clips/review/filmstrip-03.png",
+        "sha256": "66c6d5d9da77bf4035b7b8561a165204e9e50c468a6eb86544d0faf1f0329d1a",
+        "bytes": 649277
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/filmstrip-04.png",
+        "retained": "assets/spinosaurus/clips/review/filmstrip-04.png",
+        "sha256": "ba8d6bf66cb578365cc6ccd6db5dc0278c8caec726d1a3a58b391ad88d5f074a",
+        "bytes": 544986
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/filmstrip-05.png",
+        "retained": "assets/spinosaurus/clips/review/filmstrip-05.png",
+        "sha256": "6c33076564673d9ca395bb4ff7927bfa8d5115b0492a901f4edf3a86586f06a3",
+        "bytes": 352657
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/filmstrip-06.png",
+        "retained": "assets/spinosaurus/clips/review/filmstrip-06.png",
+        "sha256": "a1e6d36fb91e37aa46370c2c255ae7f5f0e097da0234f8f3152a2862fe46d719",
+        "bytes": 405571
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/filmstrip-07.png",
+        "retained": "assets/spinosaurus/clips/review/filmstrip-07.png",
+        "sha256": "1b1ebbbb904164a7287175b0121bc8de773aba3e9aaecd9b0fe373a742ce8126",
+        "bytes": 219793
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/filmstrip-08.png",
+        "retained": "assets/spinosaurus/clips/review/filmstrip-08.png",
+        "sha256": "05d5cfd4e62a2fd9a14809250133e7aae5976d4193e4f936ca8f3af3e0bbf2aa",
+        "bytes": 49303
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/onion-00.png",
+        "retained": "assets/spinosaurus/clips/review/onion-00.png",
+        "sha256": "0124b56b7eb363947ee5b35766ad78878187969b366757bac8ca10c8654c48eb",
+        "bytes": 240827
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/onion-01.png",
+        "retained": "assets/spinosaurus/clips/review/onion-01.png",
+        "sha256": "4e1cd7d777309a91846103adea9fbabfd1dee9d591bda04aa3b5b912f7eee76b",
+        "bytes": 148585
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/onion-02.png",
+        "retained": "assets/spinosaurus/clips/review/onion-02.png",
+        "sha256": "bc97460ed38cddae265acd9b54edbba6dd314598a0a8911c9555d072bbcf7d12",
+        "bytes": 157153
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/onion-03.png",
+        "retained": "assets/spinosaurus/clips/review/onion-03.png",
+        "sha256": "1e50120e85dd9f00c338543f8e92a84891c7f7181d0ea1e9f4ec35ba0c455ecd",
+        "bytes": 242295
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/onion-04.png",
+        "retained": "assets/spinosaurus/clips/review/onion-04.png",
+        "sha256": "18a3755ff39598e37c24ac7a66c3e2143a2c46b2967110d603c0b30004cc07fe",
+        "bytes": 196500
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/onion-05.png",
+        "retained": "assets/spinosaurus/clips/review/onion-05.png",
+        "sha256": "87536e4f2d9affa0cb5ac276b360d9b31e18d40e2b2e3679feff166002566e45",
+        "bytes": 128766
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/onion-06.png",
+        "retained": "assets/spinosaurus/clips/review/onion-06.png",
+        "sha256": "78e72ae025209c9b7e735f00f980c13234159703b563f6ad24376b5e89555814",
+        "bytes": 150846
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/onion-07.png",
+        "retained": "assets/spinosaurus/clips/review/onion-07.png",
+        "sha256": "94dbdf0f08ed6b4de6a06a21c7cf97ad72163f2c2a39992f4b0dfc72b262c302",
+        "bytes": 81210
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/onion-08.png",
+        "retained": "assets/spinosaurus/clips/review/onion-08.png",
+        "sha256": "4bb557eed6fce997e5b5040cf49dc59c1f7b1dfe9f5448f35171c7ddb7e7d03a",
+        "bytes": 19818
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_clips/review/turn-test.png",
+        "retained": "assets/spinosaurus/clips/review/turn-test.png",
+        "sha256": "6a58e99d31d192c5450f694c65fe902b9e53161478721d5670a1580cc2e9edf3",
+        "bytes": 341067
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/aseprite/spinosaurus.png",
+        "retained": "assets/spinosaurus/godot_bundle/aseprite/spinosaurus.png",
+        "sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e",
+        "bytes": 838052
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot/spinosaurus-atlas-00.png",
+        "retained": "assets/spinosaurus/godot_bundle/aseprite/spinosaurus.png",
+        "sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e",
+        "bytes": 838052
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-000.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-00.png",
+        "sha256": "60335b85c9df04dd70d2c8f5308b0f665626407cffff38cf645b09a5c2037c1f",
+        "bytes": 13491
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-001.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-01.png",
+        "sha256": "94ac1740e30769b2bf66f11353efc8192c1d9d6410fd19b7e14278ad2fe91a21",
+        "bytes": 13515
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-002.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-02.png",
+        "sha256": "a340b22132ce36666318f87a80cb1146f28fb56fcfad69e65e740804efdfc3cf",
+        "bytes": 13659
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-003.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-03.png",
+        "sha256": "5a61d143c5bb5a2ea1bae82705a6488c56844400edac80bce2ca61d0067d873d",
+        "bytes": 13749
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-004.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-04.png",
+        "sha256": "a16470a2e9ba2fe41d74aa11719402dfebe48cd815aa4554ed945443add0beb4",
+        "bytes": 13980
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-005.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-05.png",
+        "sha256": "4a1bc08513eaf4ce2bab88bd847d884428f09ba96cb6e93bc08e2d36c3c8204a",
+        "bytes": 13931
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-006.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-06.png",
+        "sha256": "b4e6e0f96de0d47ea8de123dab9fa39310ad3f826819b0c0f566ddb087df67e6",
+        "bytes": 13849
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-007.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-07.png",
+        "sha256": "9aafafae62585be863a32c2f1e6a6d5064b5e3ea4c1f5aee4731e4b7ebeff491",
+        "bytes": 13821
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-008.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-08.png",
+        "sha256": "db2cb3a4dfb12495b9a44ab5cb306d26cf99bbcd7dc59ef99261fe44279258a5",
+        "bytes": 13753
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-009.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-09.png",
+        "sha256": "2579c9b1b0c563b82ff8c31cc2052b14854875e7c7afd2c561335f1f1955865b",
+        "bytes": 13547
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-010.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-10.png",
+        "sha256": "87cca661095a6562bd99c605c6548f9008bdccc021e1cb495272d89eb892e4ad",
+        "bytes": 13435
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-011.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-11.png",
+        "sha256": "c6504f6113e070ff27ac8190da31bcf44b230b2c7d631736421100f32a5b3675",
+        "bytes": 13350
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-012.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-12.png",
+        "sha256": "9eae6d24a6e2c145eaa42c0610a3af2a3f01e5671c55974751c7e080bce59eca",
+        "bytes": 13339
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-013.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-13.png",
+        "sha256": "93ed51986b12ec37745a4d662656748719adf7ca428533ae6744af0fc5b18017",
+        "bytes": 12220
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-014.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-14.png",
+        "sha256": "3a1ed17c76771151660d3ad56daf79ef796b627daf3a4e7fadff927f6a5837f2",
+        "bytes": 12297
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-015.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-15.png",
+        "sha256": "5f76360afe930cfd18951b4a54211ab2e786b484c3373f8a2e7e4f656f1f11d4",
+        "bytes": 12222
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-016.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-16.png",
+        "sha256": "300cba546b73cb2c298c97a34eab59d493dcd7b3f6e60da7a5c56067cf5ece31",
+        "bytes": 12258
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-017.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-17.png",
+        "sha256": "e075e433440e5f47c38d90d3a214724202f044b9825c6d2343f76c182fb9d805",
+        "bytes": 12111
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-018.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-18.png",
+        "sha256": "462a3a7651a469c4e43e89afcf2780fc7cbe019b5f87bd8cc0eb742fa372381b",
+        "bytes": 12421
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-019.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-19.png",
+        "sha256": "49773210fb7dc8adf3dabf3fc711a1046859963ca1efbe868b3633debca5a496",
+        "bytes": 13590
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-020.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-20.png",
+        "sha256": "b1baabb1944bb7c916ccfe8f0153954c984e6ea80d29c346186698c76e16d594",
+        "bytes": 13309
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-021.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-21.png",
+        "sha256": "79ce4fb5e2c717f278475b9bbf213da4907013b3359ce1d55c851e5593c23883",
+        "bytes": 13448
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-022.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-22.png",
+        "sha256": "2e762378a2f29dddab8d332daa258f4aff161d11326986430f3d9226f9442a10",
+        "bytes": 13420
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-023.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-23.png",
+        "sha256": "930e808d95ab9c0d0d74a8f4abb897cd87fc16524c86da2fdcab52fd9fe760fa",
+        "bytes": 13116
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-024.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-24.png",
+        "sha256": "c053c2a840f72e2ec008da0633921aa2e2d529661305025b82e592cfaec1839f",
+        "bytes": 13102
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-025.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-25.png",
+        "sha256": "9dbe254eb3da45d85adf48db3fbf3ea6be84fe0ed45e5ffcd2d730b77a5bb2b2",
+        "bytes": 13319
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-026.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-26.png",
+        "sha256": "8f2be70331984777986282facf59065eb384057c76a28c27e7d36e78f4192a3f",
+        "bytes": 13564
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-027.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-27.png",
+        "sha256": "ff51d18289a1a181a09f32976d4ab8e245e12904f66ac6dc27e2623093a48136",
+        "bytes": 13925
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-028.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-28.png",
+        "sha256": "3ad83027a50778a0cd3be3c8cc435456adc768e2b518d698de8abe6c9a55d2e8",
+        "bytes": 14133
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-029.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-29.png",
+        "sha256": "b111a9dfc8d30aee349307454f6984ded47dd1016360d8ce21fa9fb2a5303244",
+        "bytes": 14657
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-030.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-30.png",
+        "sha256": "16b8c3b3eb524a9da397ed5ced316b89a93530ce40ab31ab0918ae1de8ed77e1",
+        "bytes": 14550
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-031.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-31.png",
+        "sha256": "f6920c04ef5a6a7de666382449beec9487247f73911f152053c30f31eafefccd",
+        "bytes": 13919
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-032.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-32.png",
+        "sha256": "a04c69dd31b208d9f09667e7706154f0dd254c838c85967b6ff24a5cef92dc8a",
+        "bytes": 10886
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-033.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-33.png",
+        "sha256": "701908480ca2332930d4d1b5d41d8f0670a788f82a4a7c0284dc38930de37dad",
+        "bytes": 14254
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-034.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-34.png",
+        "sha256": "a1ca6b8bb5934fd3d491d51ee668a07e51627970af08562581126484c67cc36a",
+        "bytes": 12707
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-035.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-35.png",
+        "sha256": "41db8fc9ccc9f3ebedb04954902d9b03a33c2d617cd479cfb5bec56d7c536d02",
+        "bytes": 8867
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-036.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-36.png",
+        "sha256": "38e535020dd9d9dd2ce5eae4cdd2a42bc872458c60be29ee6f8c3c608b273590",
+        "bytes": 10933
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-037.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-37.png",
+        "sha256": "902bc880bf5932dc9a7ce36598302964aeb14334afb862367100a395d07e2ca5",
+        "bytes": 13275
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-038.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-38.png",
+        "sha256": "aa1f3a2039a51326afa63fe489fffbd999e47ba900ad9adfd22a935237e16cc3",
+        "bytes": 14200
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-039.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-39.png",
+        "sha256": "9bd4ac4af2a7b0370f39ede71bd420f04e3dded9f3f282f3da6267018f888c67",
+        "bytes": 14372
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-040.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-40.png",
+        "sha256": "af331f0ddce0db9efac8d15f81b2bcf75f98a11f1d0ec1cba51ef07f960eb9f3",
+        "bytes": 14631
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-041.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-41.png",
+        "sha256": "caa0dc253b6c564d28168093e09388d806f6df27f73be28d8c4ec34058fb8ef2",
+        "bytes": 14306
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-042.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-42.png",
+        "sha256": "33582a0ceb84bd01842cdc472b9965f3ac03689ee21fc49c1836ad7517c98b6a",
+        "bytes": 14723
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-043.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-43.png",
+        "sha256": "5b76814af6a267421df6c3de44d1f7f88e6a76b76ba4dbf0169fb2b4f9f9770f",
+        "bytes": 14327
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-044.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-44.png",
+        "sha256": "c61b59c6869eb0a2b16e2321c11a071a643b3743390ed9c4ed0db338d0f11273",
+        "bytes": 14515
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-045.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-45.png",
+        "sha256": "548107aafddaf48efd90bf919067c60f20ceee4a0a535f53ea53c275a236c0ac",
+        "bytes": 14240
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-046.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-46.png",
+        "sha256": "6c37d1938da8106ecabfa80b67649cfc9eb6e7cf6b4563fd680a820e1487728e",
+        "bytes": 14221
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-047.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-47.png",
+        "sha256": "5c1c9de2f6a06de7326694487e69cdd09be3ec92237dbc4e4856e55bce8c99a7",
+        "bytes": 14177
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-048.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-48.png",
+        "sha256": "80cb0295ed10d658c0b2a5bdf6f57f0734e5ff1eb4d7fd0a4e50de4f4ad35153",
+        "bytes": 14151
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-049.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-49.png",
+        "sha256": "92e9af13c3151ff4c4921d22f8e50e82d03168b3ae68712864da254396b48e23",
+        "bytes": 14899
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-050.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-50.png",
+        "sha256": "4df929e4878a954dd660ffa8c032a502600c9eb412284939ab055ec9d1f0c7a0",
+        "bytes": 14954
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-051.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-51.png",
+        "sha256": "e70d1f8a714a6699ffd94405fd59925eaec01537c3c375286f5995c8c5cfb051",
+        "bytes": 14918
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-052.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-52.png",
+        "sha256": "3ea8c0c0dc1dd670585252a6329fbc513a8615f56f773f7fa72a0db3bd3df86c",
+        "bytes": 14647
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-053.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-53.png",
+        "sha256": "e5c1a419b4474d5672589aac3b4e450953db0c639703a682e1ca699f75b0550d",
+        "bytes": 14565
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-054.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-54.png",
+        "sha256": "d0be2fbe34f9fd9ec4111a985cbee9816e1a2e94b4ab22da064baea20006108c",
+        "bytes": 14807
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-055.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-55.png",
+        "sha256": "157f349262104610e718a3b0f2929ea324749fd41977d8438db46b645ea81127",
+        "bytes": 14424
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-056.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-56.png",
+        "sha256": "c125358a50200167068f86fd5d459b12227ce456e9a016474f474f6807c2fd04",
+        "bytes": 14358
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-057.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-57.png",
+        "sha256": "f902be30e84e1e57c2cec069f081e2d90667d2bd2e62127090b9c2025491fa73",
+        "bytes": 14362
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-058.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-58.png",
+        "sha256": "22dcf8fe0c03ad789ab373b4653a754231ce496e4eb08837d1c67d11609f665d",
+        "bytes": 13198
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-059.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-59.png",
+        "sha256": "5c321cce119b4acbcb235de0a636bb8b2ae27f33cd4a3ded8aa93ad73e7aae41",
+        "bytes": 11993
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-060.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-60.png",
+        "sha256": "c7810296d3cde3adb485b10a93bc12de2cabf7100f5a68f41ed2edc5e668ea6e",
+        "bytes": 12153
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-061.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-61.png",
+        "sha256": "23bf2c160173747f02fa3951a22ba24652c0e97d4be406c717dcd9eb09229fe8",
+        "bytes": 11357
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-062.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-62.png",
+        "sha256": "1e59b7bf7079fa6b6dabaf5ddea26cb41e8d1d59c0d5cdc8a206ea223801f3f5",
+        "bytes": 9974
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-063.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-28.png",
+        "sha256": "3ad83027a50778a0cd3be3c8cc435456adc768e2b518d698de8abe6c9a55d2e8",
+        "bytes": 14133
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-064.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-31.png",
+        "sha256": "f6920c04ef5a6a7de666382449beec9487247f73911f152053c30f31eafefccd",
+        "bytes": 13919
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-065.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-32.png",
+        "sha256": "a04c69dd31b208d9f09667e7706154f0dd254c838c85967b6ff24a5cef92dc8a",
+        "bytes": 10886
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-066.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-66.png",
+        "sha256": "bf727a31fa23bda1d24941b39457de70db8215229ab57de817afc67f55c60448",
+        "bytes": 12950
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-067.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-67.png",
+        "sha256": "6793901aa57568c20fc250905eed54ca9715f25cbf5c3af4ed76424e137735fe",
+        "bytes": 1278
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-068.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-68.png",
+        "sha256": "c0dcae0edf8057c9b804482e0733b497abe81cd121664ddf57719f6a71e30add",
+        "bytes": 1006
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-069.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-69.png",
+        "sha256": "53076137484d6120872c48b143732c133f67667d6601e09d9be1a57fcbc2bbc0",
+        "bytes": 1002
+      },
+      {
+        "removed": "work/characters/spinosaurus/walk-edge-uniform-v1/stage_bundle/godot-sprite3d/frames/frame-070.png",
+        "retained": "assets/spinosaurus/clips/frames/frame-70.png",
+        "sha256": "ddd1af409a948f51c12b5ea7759970ce9f6be1ac0fcbc3841220dbd04a0128a6",
+        "bytes": 945
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/attack_nomal_00.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-16.png",
+        "sha256": "d8eb97ef107a554025399b22753032b3e9651337250fdb808d1fa00e1eadc025",
+        "bytes": 17680
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/attack_nomal_01.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-17.png",
+        "sha256": "73e8ba5c0dd45349b45accc0d2b3390148cf9c27750513706dc23b029b3364c4",
+        "bytes": 17501
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/attack_nomal_02.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-18.png",
+        "sha256": "7ed428eaa999ba5e9b63bcc14bc58f280d89c715d895509cfb6748015ac918ce",
+        "bytes": 17908
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/attack_nomal_03.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-19.png",
+        "sha256": "d6cc77f3efcf0f7a5506e11222572031dd3a79795c0a2e2a2adb5e4ffea4d094",
+        "bytes": 18238
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/attack_nomal_04.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-20.png",
+        "sha256": "3ea9f06d4c69ba782786a69ac9356493c46bef777faa9e6ae0b9e1ff1d8e1aff",
+        "bytes": 18559
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/attack_nomal_05.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-21.png",
+        "sha256": "e9cab17f662eb47922e7d0e94a984fb1b8a2dca8ab7bac52438b3bee6388e16a",
+        "bytes": 17750
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/attack_nomal_06.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-22.png",
+        "sha256": "66b96093a55a716bc6b2783933da04ddfdf077dd6cccd53f2da78bdb0c4e0fb3",
+        "bytes": 17633
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/attack_nomal_07.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-23.png",
+        "sha256": "4f2779c7834062925f9a7749e467bbddeb21fb1a08d2c6b0992c564f3a046736",
+        "bytes": 17706
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/hit_00.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-32.png",
+        "sha256": "7363f5e386dadae3a732432d9f90280e3a8dc7534003e99dc70a86e811714c2c",
+        "bytes": 18613
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/hit_01.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-33.png",
+        "sha256": "da65e95ebc4db81896f537e4ea1cea694c1f783f62f2348c7a0adff5f6a20ab2",
+        "bytes": 17934
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/hit_02.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-34.png",
+        "sha256": "85a04d1091368ca5f4975d3a67823f910bbe29c781935e856e653b77844e66f5",
+        "bytes": 17124
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/hit_03.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-35.png",
+        "sha256": "9b076c5a3829da86a88a069dcd7d7222c3e8b801cd51fea978fa8bab42b91f8e",
+        "bytes": 16565
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/hit_04.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-36.png",
+        "sha256": "a620963d736c7f1e536f8c0a2babd7a40b3c6eb9e70cf70c2355b9067fe39544",
+        "bytes": 17446
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/hit_05.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-37.png",
+        "sha256": "e15fa3cd0f1f8061baf83f7a2daed5dbe4597cb5801aa6815afa96d438926cfc",
+        "bytes": 17681
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/idle_00.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-00.png",
+        "sha256": "020b0494ed66e90dac831e93b2ca758b436cda698a4c012eb7dfa87c6c704b0d",
+        "bytes": 17968
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/idle_01.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-01.png",
+        "sha256": "9d48106b46010f7c0159091e32f5d0016e0f76b9578b6d27aed1ce35fd88a60a",
+        "bytes": 18711
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/idle_02.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-02.png",
+        "sha256": "118819158f46cce4606329c1a9c198e9ea92674fd145c3300f0fa3db5590caef",
+        "bytes": 19504
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/idle_03.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-03.png",
+        "sha256": "8d0fdcc6f517932238217e501107c83f64251415cdf328d1d5d77b0e5c273143",
+        "bytes": 19733
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/idle_04.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-04.png",
+        "sha256": "b9dbf51fa68d3b48ad21981a9b60526f2667f1e07b5280f917c216961ce33c50",
+        "bytes": 19262
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/idle_05.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-05.png",
+        "sha256": "758dc66ca0642638b28677c8ce115a223ea6680ce15aafc9c932749c589c2fd1",
+        "bytes": 18487
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/idle_06.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-06.png",
+        "sha256": "5cfad5d35dba61492667ac47411c3b23a4039a896e17d6d902026799d372b2f0",
+        "bytes": 18876
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/idle_07.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-07.png",
+        "sha256": "959be0679007fe5377d2345f4674b1369685b66fae8e75b0df2ccb478f7752f4",
+        "bytes": 18960
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/ko_00.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-38.png",
+        "sha256": "bac6cb2615de18c9ccd3f66899f43bebf9ec5efb59bc96bdc7b5cc301c8f43ca",
+        "bytes": 20443
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/ko_01.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-39.png",
+        "sha256": "1f55b7fb14ea7c072bd29de773bbdfc417e796cf6136b5a4af6ce889e3652bca",
+        "bytes": 19782
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/ko_02.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-40.png",
+        "sha256": "e5d050a1af38a9aa9869b1255d424d26f433155522276a44ecfc4d6aaf54cfce",
+        "bytes": 18759
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/ko_03.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-41.png",
+        "sha256": "08bb1925e2be9174cd51905829fe3e36f4402b1508df491cd5deb67247c57b27",
+        "bytes": 16949
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/ko_04.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-42.png",
+        "sha256": "9d25882e5f4f87f8a4f0fc92301f2005a9f883774f4a5e00039d937d484d45be",
+        "bytes": 17002
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/ko_05.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-43.png",
+        "sha256": "ca7ed590e8a0ed7b438e4d4421a89a69e0bdca63fb51ce8667c7d7e4165c0834",
+        "bytes": 16395
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/ko_06.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-44.png",
+        "sha256": "c95e20b933322f47ba10751624d27839b3c61d60bc9427d79bbb289a2b2accff",
+        "bytes": 15560
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/ko_07.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-45.png",
+        "sha256": "829cf1b65cf083c702a7287c55b42d1ecd2828a65c02e05ffaf496cce87464c4",
+        "bytes": 15284
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_orb_00.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-46.png",
+        "sha256": "57014f069e778e0b68480d314c9995e117e96c03ca1bb47a1517a9dc928953db",
+        "bytes": 1001
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_orb_01.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-47.png",
+        "sha256": "2e35e9b8bcf8853f09c003cb4f7f10927568396a8031f19cd58aff0d25ca1c98",
+        "bytes": 2276
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_orb_02.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-48.png",
+        "sha256": "8c488651823e807791b1c5c12829d2a14a3b6a8d04d741aba3b725c598e10ac2",
+        "bytes": 3829
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_orb_03.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-49.png",
+        "sha256": "72f520b08b897472aedc0319aff593c8fcc291a93289e1ba763bd1a71e50a7ab",
+        "bytes": 3904
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_orb_04.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-50.png",
+        "sha256": "ac86eda4d1d9dd610b15c15e36adc46c759218e96838e5f10886090a2ab813bd",
+        "bytes": 3548
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_orb_05.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-51.png",
+        "sha256": "12469482162a1623314c55226ae3b8fc3c7a4a3c76f696cc7aa87c8c426e32d5",
+        "bytes": 2556
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_orb_06.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-52.png",
+        "sha256": "305aa98f07896a573097033522c48be54cd888c87d08b7314d8ebabd8b890b7f",
+        "bytes": 2490
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_orb_07.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-53.png",
+        "sha256": "12e3cfd8966b79bf6b00713661abc98c03f4c755d651ff1b6b9aa71b66835d2f",
+        "bytes": 1167
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_up_00.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-24.png",
+        "sha256": "10d23ff12f5e3112a3f7cb13bb13b6918dc9367e89965b63201778d60e866081",
+        "bytes": 16605
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_up_01.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-25.png",
+        "sha256": "07e060194f889768b629a4797a705f8b0f3baa5da60fd82698ba24496088038c",
+        "bytes": 19495
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_up_02.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-26.png",
+        "sha256": "a90e878b5715343f6c8685ddda1e6803d4fdf66fa05310201f5cfbddc9c3970a",
+        "bytes": 20048
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_up_03.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-27.png",
+        "sha256": "cb91f6fd477b781a097a725fa697897e05c11c2bad31eeaf331c671024528a81",
+        "bytes": 20072
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_up_04.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-28.png",
+        "sha256": "c53409c757964483763b5df979e2093f4d80e305f2651af00ffe04e2f46a7190",
+        "bytes": 19933
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_up_05.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-29.png",
+        "sha256": "65ad840932a71f31572435173cdbd4f4c690eb8778c2e2386bc4d51c28a805d6",
+        "bytes": 17800
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_up_06.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-30.png",
+        "sha256": "0242515f18a1528b7eaf40c52147a3c74505477b8b80b5e600d45756c0dc5140",
+        "bytes": 17255
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/power_up_07.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-31.png",
+        "sha256": "4ea09018071a699467477f45bbae4d711160abab26f719b4416ebd85ec22fd06",
+        "bytes": 17194
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/walk_00.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-08.png",
+        "sha256": "96519a5f5b14cc858a6f0489769cc4b758c44b6cf8e0d46509a2f3fc36593843",
+        "bytes": 17155
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/walk_01.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-09.png",
+        "sha256": "1453aadb8bc4ae6875522afcad359535290f38385983b54d96ec14c089545ce4",
+        "bytes": 16677
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/walk_02.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-10.png",
+        "sha256": "c0e2e4c2b6e82b414be503508b35e9686d37a1fa2fd433b2532c3cf33e0b5abb",
+        "bytes": 16448
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/walk_03.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-11.png",
+        "sha256": "3ec1c0e2e555346cf327a7d126acdd5ef480dac1cf0f29d0817a26d34586a286",
+        "bytes": 17000
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/walk_04.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-12.png",
+        "sha256": "3a277df01ee6c65dfb2a79e3145fa05571694d09e92adfd21224276e555d411a",
+        "bytes": 16888
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/walk_05.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-13.png",
+        "sha256": "b0ffe3bc86286be681149c1a0b84c72c1e771e4228bfa8a0be29a34f446ae1fc",
+        "bytes": 16866
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/walk_06.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-14.png",
+        "sha256": "6f1cba749bd65a7e9893e41598d83fb03a6e4297644439b69482012c909829c8",
+        "bytes": 17030
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_src/raw_frames/walk_07.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-15.png",
+        "sha256": "e9a54bd732200010b72d2ec2d49e689c7495fa8d97e1c924ea1ad1b5b0a0c9e7",
+        "bytes": 17151
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/contact-sheet.png",
+        "retained": "assets/tasmanian_king_crab/clips/contact-sheet.png",
+        "sha256": "0b8045b6150bb08da97cfdba23d2d135aa5cbdf8308d19684bde295b14b43c73",
+        "bytes": 781308
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-00.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-00.png",
+        "sha256": "020b0494ed66e90dac831e93b2ca758b436cda698a4c012eb7dfa87c6c704b0d",
+        "bytes": 17968
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-01.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-01.png",
+        "sha256": "9d48106b46010f7c0159091e32f5d0016e0f76b9578b6d27aed1ce35fd88a60a",
+        "bytes": 18711
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-02.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-02.png",
+        "sha256": "118819158f46cce4606329c1a9c198e9ea92674fd145c3300f0fa3db5590caef",
+        "bytes": 19504
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-03.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-03.png",
+        "sha256": "8d0fdcc6f517932238217e501107c83f64251415cdf328d1d5d77b0e5c273143",
+        "bytes": 19733
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-04.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-04.png",
+        "sha256": "b9dbf51fa68d3b48ad21981a9b60526f2667f1e07b5280f917c216961ce33c50",
+        "bytes": 19262
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-05.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-05.png",
+        "sha256": "758dc66ca0642638b28677c8ce115a223ea6680ce15aafc9c932749c589c2fd1",
+        "bytes": 18487
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-06.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-06.png",
+        "sha256": "5cfad5d35dba61492667ac47411c3b23a4039a896e17d6d902026799d372b2f0",
+        "bytes": 18876
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-07.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-07.png",
+        "sha256": "959be0679007fe5377d2345f4674b1369685b66fae8e75b0df2ccb478f7752f4",
+        "bytes": 18960
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-08.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-08.png",
+        "sha256": "96519a5f5b14cc858a6f0489769cc4b758c44b6cf8e0d46509a2f3fc36593843",
+        "bytes": 17155
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-09.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-09.png",
+        "sha256": "1453aadb8bc4ae6875522afcad359535290f38385983b54d96ec14c089545ce4",
+        "bytes": 16677
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-10.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-10.png",
+        "sha256": "c0e2e4c2b6e82b414be503508b35e9686d37a1fa2fd433b2532c3cf33e0b5abb",
+        "bytes": 16448
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-11.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-11.png",
+        "sha256": "3ec1c0e2e555346cf327a7d126acdd5ef480dac1cf0f29d0817a26d34586a286",
+        "bytes": 17000
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-12.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-12.png",
+        "sha256": "3a277df01ee6c65dfb2a79e3145fa05571694d09e92adfd21224276e555d411a",
+        "bytes": 16888
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-13.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-13.png",
+        "sha256": "b0ffe3bc86286be681149c1a0b84c72c1e771e4228bfa8a0be29a34f446ae1fc",
+        "bytes": 16866
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-14.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-14.png",
+        "sha256": "6f1cba749bd65a7e9893e41598d83fb03a6e4297644439b69482012c909829c8",
+        "bytes": 17030
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-15.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-15.png",
+        "sha256": "e9a54bd732200010b72d2ec2d49e689c7495fa8d97e1c924ea1ad1b5b0a0c9e7",
+        "bytes": 17151
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-16.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-16.png",
+        "sha256": "d8eb97ef107a554025399b22753032b3e9651337250fdb808d1fa00e1eadc025",
+        "bytes": 17680
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-17.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-17.png",
+        "sha256": "73e8ba5c0dd45349b45accc0d2b3390148cf9c27750513706dc23b029b3364c4",
+        "bytes": 17501
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-18.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-18.png",
+        "sha256": "7ed428eaa999ba5e9b63bcc14bc58f280d89c715d895509cfb6748015ac918ce",
+        "bytes": 17908
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-19.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-19.png",
+        "sha256": "d6cc77f3efcf0f7a5506e11222572031dd3a79795c0a2e2a2adb5e4ffea4d094",
+        "bytes": 18238
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-20.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-20.png",
+        "sha256": "3ea9f06d4c69ba782786a69ac9356493c46bef777faa9e6ae0b9e1ff1d8e1aff",
+        "bytes": 18559
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-21.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-21.png",
+        "sha256": "e9cab17f662eb47922e7d0e94a984fb1b8a2dca8ab7bac52438b3bee6388e16a",
+        "bytes": 17750
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-22.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-22.png",
+        "sha256": "66b96093a55a716bc6b2783933da04ddfdf077dd6cccd53f2da78bdb0c4e0fb3",
+        "bytes": 17633
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-23.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-23.png",
+        "sha256": "4f2779c7834062925f9a7749e467bbddeb21fb1a08d2c6b0992c564f3a046736",
+        "bytes": 17706
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-24.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-24.png",
+        "sha256": "10d23ff12f5e3112a3f7cb13bb13b6918dc9367e89965b63201778d60e866081",
+        "bytes": 16605
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-25.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-25.png",
+        "sha256": "07e060194f889768b629a4797a705f8b0f3baa5da60fd82698ba24496088038c",
+        "bytes": 19495
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-26.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-26.png",
+        "sha256": "a90e878b5715343f6c8685ddda1e6803d4fdf66fa05310201f5cfbddc9c3970a",
+        "bytes": 20048
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-27.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-27.png",
+        "sha256": "cb91f6fd477b781a097a725fa697897e05c11c2bad31eeaf331c671024528a81",
+        "bytes": 20072
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-28.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-28.png",
+        "sha256": "c53409c757964483763b5df979e2093f4d80e305f2651af00ffe04e2f46a7190",
+        "bytes": 19933
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-29.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-29.png",
+        "sha256": "65ad840932a71f31572435173cdbd4f4c690eb8778c2e2386bc4d51c28a805d6",
+        "bytes": 17800
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-30.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-30.png",
+        "sha256": "0242515f18a1528b7eaf40c52147a3c74505477b8b80b5e600d45756c0dc5140",
+        "bytes": 17255
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-31.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-31.png",
+        "sha256": "4ea09018071a699467477f45bbae4d711160abab26f719b4416ebd85ec22fd06",
+        "bytes": 17194
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-32.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-32.png",
+        "sha256": "7363f5e386dadae3a732432d9f90280e3a8dc7534003e99dc70a86e811714c2c",
+        "bytes": 18613
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-33.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-33.png",
+        "sha256": "da65e95ebc4db81896f537e4ea1cea694c1f783f62f2348c7a0adff5f6a20ab2",
+        "bytes": 17934
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-34.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-34.png",
+        "sha256": "85a04d1091368ca5f4975d3a67823f910bbe29c781935e856e653b77844e66f5",
+        "bytes": 17124
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-35.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-35.png",
+        "sha256": "9b076c5a3829da86a88a069dcd7d7222c3e8b801cd51fea978fa8bab42b91f8e",
+        "bytes": 16565
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-36.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-36.png",
+        "sha256": "a620963d736c7f1e536f8c0a2babd7a40b3c6eb9e70cf70c2355b9067fe39544",
+        "bytes": 17446
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-37.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-37.png",
+        "sha256": "e15fa3cd0f1f8061baf83f7a2daed5dbe4597cb5801aa6815afa96d438926cfc",
+        "bytes": 17681
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-38.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-38.png",
+        "sha256": "bac6cb2615de18c9ccd3f66899f43bebf9ec5efb59bc96bdc7b5cc301c8f43ca",
+        "bytes": 20443
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-39.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-39.png",
+        "sha256": "1f55b7fb14ea7c072bd29de773bbdfc417e796cf6136b5a4af6ce889e3652bca",
+        "bytes": 19782
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-40.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-40.png",
+        "sha256": "e5d050a1af38a9aa9869b1255d424d26f433155522276a44ecfc4d6aaf54cfce",
+        "bytes": 18759
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-41.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-41.png",
+        "sha256": "08bb1925e2be9174cd51905829fe3e36f4402b1508df491cd5deb67247c57b27",
+        "bytes": 16949
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-42.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-42.png",
+        "sha256": "9d25882e5f4f87f8a4f0fc92301f2005a9f883774f4a5e00039d937d484d45be",
+        "bytes": 17002
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-43.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-43.png",
+        "sha256": "ca7ed590e8a0ed7b438e4d4421a89a69e0bdca63fb51ce8667c7d7e4165c0834",
+        "bytes": 16395
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-44.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-44.png",
+        "sha256": "c95e20b933322f47ba10751624d27839b3c61d60bc9427d79bbb289a2b2accff",
+        "bytes": 15560
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-45.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-45.png",
+        "sha256": "829cf1b65cf083c702a7287c55b42d1ecd2828a65c02e05ffaf496cce87464c4",
+        "bytes": 15284
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-46.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-46.png",
+        "sha256": "57014f069e778e0b68480d314c9995e117e96c03ca1bb47a1517a9dc928953db",
+        "bytes": 1001
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-47.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-47.png",
+        "sha256": "2e35e9b8bcf8853f09c003cb4f7f10927568396a8031f19cd58aff0d25ca1c98",
+        "bytes": 2276
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-48.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-48.png",
+        "sha256": "8c488651823e807791b1c5c12829d2a14a3b6a8d04d741aba3b725c598e10ac2",
+        "bytes": 3829
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-49.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-49.png",
+        "sha256": "72f520b08b897472aedc0319aff593c8fcc291a93289e1ba763bd1a71e50a7ab",
+        "bytes": 3904
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-50.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-50.png",
+        "sha256": "ac86eda4d1d9dd610b15c15e36adc46c759218e96838e5f10886090a2ab813bd",
+        "bytes": 3548
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-51.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-51.png",
+        "sha256": "12469482162a1623314c55226ae3b8fc3c7a4a3c76f696cc7aa87c8c426e32d5",
+        "bytes": 2556
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-52.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-52.png",
+        "sha256": "305aa98f07896a573097033522c48be54cd888c87d08b7314d8ebabd8b890b7f",
+        "bytes": 2490
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/frames/frame-53.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-53.png",
+        "sha256": "12e3cfd8966b79bf6b00713661abc98c03f4c755d651ff1b6b9aa71b66835d2f",
+        "bytes": 1167
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/filmstrip-00.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/filmstrip-00.png",
+        "sha256": "01f3db723c2b1acc2efaf4b40a21f32deb5340158713f81b5447025c650beae4",
+        "bytes": 560744
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/filmstrip-01.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/filmstrip-01.png",
+        "sha256": "449e779a2692419081232273314ba55b9ce31bc6460c1d756c611670438c1a59",
+        "bytes": 504715
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/filmstrip-02.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/filmstrip-02.png",
+        "sha256": "13fbc12e677589f674d62d6f55c8267692cffff5619c4a76a2913979958459a3",
+        "bytes": 536912
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/filmstrip-03.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/filmstrip-03.png",
+        "sha256": "d0c14a019c26e9476943aafa9b51ba1a2828569d7c5446edbce579854b35e420",
+        "bytes": 556298
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/filmstrip-04.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/filmstrip-04.png",
+        "sha256": "eaa965ac9789ea772b467fff1bce4c6fbd0dece362656fbeda8f278ac732baf7",
+        "bytes": 399936
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/filmstrip-05.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/filmstrip-05.png",
+        "sha256": "ba743f90c995648ba66d6794ac1327deef1c422f6bd87a7fd805dbe8360ca869",
+        "bytes": 527353
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/filmstrip-06.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/filmstrip-06.png",
+        "sha256": "94d05784354cde01bcb65552d22568b4b420a8be717caccd62df4a5ffe53c227",
+        "bytes": 121043
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/filmstrip-07.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/filmstrip-07.png",
+        "sha256": "3193373478c6caff3fd8d7eb6e5256faaafb2384c4e9c0c5ee26b72c5c2f5870",
+        "bytes": 58476
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/onion-00.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/onion-00.png",
+        "sha256": "ada72a792bd889dc75d0f747305d43a2279d5371a61555134d82b9e0ad717ab0",
+        "bytes": 199411
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/onion-01.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/onion-01.png",
+        "sha256": "5f530ce51e07518162c320ddc5c50fd105c695e77cc59d19f66903a83b332717",
+        "bytes": 179646
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/onion-02.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/onion-02.png",
+        "sha256": "123ccfb5a129e0629bd6edb60a6b61f67ccf70e846b87fbd9e301c1e1f9e96bc",
+        "bytes": 192002
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/onion-03.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/onion-03.png",
+        "sha256": "c1324ff7ce0978006c91270c9ae2e41eadc91a5297950dbf64caa31c1462f890",
+        "bytes": 199511
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/onion-04.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/onion-04.png",
+        "sha256": "3569033c7304a7e17d48d82939a5bb3b858bd3517fa690158607b5c85f519330",
+        "bytes": 143415
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/onion-05.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/onion-05.png",
+        "sha256": "68c7761cdddff1fc14ebf1f8c1ba9ccc1c1e72cd32e9f3b21a8b9302f9fa1fbe",
+        "bytes": 184750
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/onion-06.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/onion-06.png",
+        "sha256": "9dfe091c7dc16aa6088f83434aa21b127a0596008e9621e7b017f21ab9ea1df7",
+        "bytes": 49556
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/onion-07.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/onion-07.png",
+        "sha256": "35baaeee5db7cfdbcd15da37c592b6934c196877788559e0efd7f0066ba7ec7f",
+        "bytes": 24074
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_clips/review/turn-test.png",
+        "retained": "assets/tasmanian_king_crab/clips/review/turn-test.png",
+        "sha256": "0b410d829eada5464bd1c6ab00b79f96131ffe58de60f4b3f945133ff6bb055f",
+        "bytes": 326551
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/aseprite/tasmanian_king_crab.png",
+        "retained": "assets/tasmanian_king_crab/godot_bundle/aseprite/tasmanian_king_crab.png",
+        "sha256": "c62f2776ffb15133fae9128436c899e222d3e4ed717c2abc46cd64db579da30d",
+        "bytes": 824336
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot/tasmanian_king_crab-atlas-00.png",
+        "retained": "assets/tasmanian_king_crab/godot_bundle/aseprite/tasmanian_king_crab.png",
+        "sha256": "c62f2776ffb15133fae9128436c899e222d3e4ed717c2abc46cd64db579da30d",
+        "bytes": 824336
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-000.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-00.png",
+        "sha256": "020b0494ed66e90dac831e93b2ca758b436cda698a4c012eb7dfa87c6c704b0d",
+        "bytes": 17968
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-001.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-01.png",
+        "sha256": "9d48106b46010f7c0159091e32f5d0016e0f76b9578b6d27aed1ce35fd88a60a",
+        "bytes": 18711
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-002.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-02.png",
+        "sha256": "118819158f46cce4606329c1a9c198e9ea92674fd145c3300f0fa3db5590caef",
+        "bytes": 19504
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-003.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-03.png",
+        "sha256": "8d0fdcc6f517932238217e501107c83f64251415cdf328d1d5d77b0e5c273143",
+        "bytes": 19733
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-004.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-04.png",
+        "sha256": "b9dbf51fa68d3b48ad21981a9b60526f2667f1e07b5280f917c216961ce33c50",
+        "bytes": 19262
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-005.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-05.png",
+        "sha256": "758dc66ca0642638b28677c8ce115a223ea6680ce15aafc9c932749c589c2fd1",
+        "bytes": 18487
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-006.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-06.png",
+        "sha256": "5cfad5d35dba61492667ac47411c3b23a4039a896e17d6d902026799d372b2f0",
+        "bytes": 18876
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-007.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-07.png",
+        "sha256": "959be0679007fe5377d2345f4674b1369685b66fae8e75b0df2ccb478f7752f4",
+        "bytes": 18960
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-008.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-08.png",
+        "sha256": "96519a5f5b14cc858a6f0489769cc4b758c44b6cf8e0d46509a2f3fc36593843",
+        "bytes": 17155
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-009.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-09.png",
+        "sha256": "1453aadb8bc4ae6875522afcad359535290f38385983b54d96ec14c089545ce4",
+        "bytes": 16677
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-010.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-10.png",
+        "sha256": "c0e2e4c2b6e82b414be503508b35e9686d37a1fa2fd433b2532c3cf33e0b5abb",
+        "bytes": 16448
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-011.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-11.png",
+        "sha256": "3ec1c0e2e555346cf327a7d126acdd5ef480dac1cf0f29d0817a26d34586a286",
+        "bytes": 17000
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-012.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-12.png",
+        "sha256": "3a277df01ee6c65dfb2a79e3145fa05571694d09e92adfd21224276e555d411a",
+        "bytes": 16888
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-013.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-13.png",
+        "sha256": "b0ffe3bc86286be681149c1a0b84c72c1e771e4228bfa8a0be29a34f446ae1fc",
+        "bytes": 16866
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-014.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-14.png",
+        "sha256": "6f1cba749bd65a7e9893e41598d83fb03a6e4297644439b69482012c909829c8",
+        "bytes": 17030
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-015.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-15.png",
+        "sha256": "e9a54bd732200010b72d2ec2d49e689c7495fa8d97e1c924ea1ad1b5b0a0c9e7",
+        "bytes": 17151
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-016.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-16.png",
+        "sha256": "d8eb97ef107a554025399b22753032b3e9651337250fdb808d1fa00e1eadc025",
+        "bytes": 17680
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-017.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-17.png",
+        "sha256": "73e8ba5c0dd45349b45accc0d2b3390148cf9c27750513706dc23b029b3364c4",
+        "bytes": 17501
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-018.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-18.png",
+        "sha256": "7ed428eaa999ba5e9b63bcc14bc58f280d89c715d895509cfb6748015ac918ce",
+        "bytes": 17908
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-019.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-19.png",
+        "sha256": "d6cc77f3efcf0f7a5506e11222572031dd3a79795c0a2e2a2adb5e4ffea4d094",
+        "bytes": 18238
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-020.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-20.png",
+        "sha256": "3ea9f06d4c69ba782786a69ac9356493c46bef777faa9e6ae0b9e1ff1d8e1aff",
+        "bytes": 18559
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-021.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-21.png",
+        "sha256": "e9cab17f662eb47922e7d0e94a984fb1b8a2dca8ab7bac52438b3bee6388e16a",
+        "bytes": 17750
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-022.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-22.png",
+        "sha256": "66b96093a55a716bc6b2783933da04ddfdf077dd6cccd53f2da78bdb0c4e0fb3",
+        "bytes": 17633
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-023.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-23.png",
+        "sha256": "4f2779c7834062925f9a7749e467bbddeb21fb1a08d2c6b0992c564f3a046736",
+        "bytes": 17706
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-024.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-24.png",
+        "sha256": "10d23ff12f5e3112a3f7cb13bb13b6918dc9367e89965b63201778d60e866081",
+        "bytes": 16605
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-025.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-25.png",
+        "sha256": "07e060194f889768b629a4797a705f8b0f3baa5da60fd82698ba24496088038c",
+        "bytes": 19495
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-026.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-26.png",
+        "sha256": "a90e878b5715343f6c8685ddda1e6803d4fdf66fa05310201f5cfbddc9c3970a",
+        "bytes": 20048
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-027.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-27.png",
+        "sha256": "cb91f6fd477b781a097a725fa697897e05c11c2bad31eeaf331c671024528a81",
+        "bytes": 20072
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-028.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-28.png",
+        "sha256": "c53409c757964483763b5df979e2093f4d80e305f2651af00ffe04e2f46a7190",
+        "bytes": 19933
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-029.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-29.png",
+        "sha256": "65ad840932a71f31572435173cdbd4f4c690eb8778c2e2386bc4d51c28a805d6",
+        "bytes": 17800
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-030.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-30.png",
+        "sha256": "0242515f18a1528b7eaf40c52147a3c74505477b8b80b5e600d45756c0dc5140",
+        "bytes": 17255
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-031.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-31.png",
+        "sha256": "4ea09018071a699467477f45bbae4d711160abab26f719b4416ebd85ec22fd06",
+        "bytes": 17194
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-032.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-32.png",
+        "sha256": "7363f5e386dadae3a732432d9f90280e3a8dc7534003e99dc70a86e811714c2c",
+        "bytes": 18613
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-033.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-33.png",
+        "sha256": "da65e95ebc4db81896f537e4ea1cea694c1f783f62f2348c7a0adff5f6a20ab2",
+        "bytes": 17934
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-034.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-34.png",
+        "sha256": "85a04d1091368ca5f4975d3a67823f910bbe29c781935e856e653b77844e66f5",
+        "bytes": 17124
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-035.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-35.png",
+        "sha256": "9b076c5a3829da86a88a069dcd7d7222c3e8b801cd51fea978fa8bab42b91f8e",
+        "bytes": 16565
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-036.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-36.png",
+        "sha256": "a620963d736c7f1e536f8c0a2babd7a40b3c6eb9e70cf70c2355b9067fe39544",
+        "bytes": 17446
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-037.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-37.png",
+        "sha256": "e15fa3cd0f1f8061baf83f7a2daed5dbe4597cb5801aa6815afa96d438926cfc",
+        "bytes": 17681
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-038.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-38.png",
+        "sha256": "bac6cb2615de18c9ccd3f66899f43bebf9ec5efb59bc96bdc7b5cc301c8f43ca",
+        "bytes": 20443
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-039.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-39.png",
+        "sha256": "1f55b7fb14ea7c072bd29de773bbdfc417e796cf6136b5a4af6ce889e3652bca",
+        "bytes": 19782
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-040.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-40.png",
+        "sha256": "e5d050a1af38a9aa9869b1255d424d26f433155522276a44ecfc4d6aaf54cfce",
+        "bytes": 18759
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-041.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-41.png",
+        "sha256": "08bb1925e2be9174cd51905829fe3e36f4402b1508df491cd5deb67247c57b27",
+        "bytes": 16949
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-042.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-42.png",
+        "sha256": "9d25882e5f4f87f8a4f0fc92301f2005a9f883774f4a5e00039d937d484d45be",
+        "bytes": 17002
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-043.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-43.png",
+        "sha256": "ca7ed590e8a0ed7b438e4d4421a89a69e0bdca63fb51ce8667c7d7e4165c0834",
+        "bytes": 16395
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-044.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-44.png",
+        "sha256": "c95e20b933322f47ba10751624d27839b3c61d60bc9427d79bbb289a2b2accff",
+        "bytes": 15560
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-045.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-45.png",
+        "sha256": "829cf1b65cf083c702a7287c55b42d1ecd2828a65c02e05ffaf496cce87464c4",
+        "bytes": 15284
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-046.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-46.png",
+        "sha256": "57014f069e778e0b68480d314c9995e117e96c03ca1bb47a1517a9dc928953db",
+        "bytes": 1001
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-047.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-47.png",
+        "sha256": "2e35e9b8bcf8853f09c003cb4f7f10927568396a8031f19cd58aff0d25ca1c98",
+        "bytes": 2276
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-048.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-48.png",
+        "sha256": "8c488651823e807791b1c5c12829d2a14a3b6a8d04d741aba3b725c598e10ac2",
+        "bytes": 3829
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-049.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-49.png",
+        "sha256": "72f520b08b897472aedc0319aff593c8fcc291a93289e1ba763bd1a71e50a7ab",
+        "bytes": 3904
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-050.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-50.png",
+        "sha256": "ac86eda4d1d9dd610b15c15e36adc46c759218e96838e5f10886090a2ab813bd",
+        "bytes": 3548
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-051.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-51.png",
+        "sha256": "12469482162a1623314c55226ae3b8fc3c7a4a3c76f696cc7aa87c8c426e32d5",
+        "bytes": 2556
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-052.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-52.png",
+        "sha256": "305aa98f07896a573097033522c48be54cd888c87d08b7314d8ebabd8b890b7f",
+        "bytes": 2490
+      },
+      {
+        "removed": "work/characters/tasmanian_king_crab/uniform-color-v1/stage_bundle/godot-sprite3d/frames/frame-053.png",
+        "retained": "assets/tasmanian_king_crab/clips/frames/frame-53.png",
+        "sha256": "12e3cfd8966b79bf6b00713661abc98c03f4c755d651ff1b6b9aa71b66835d2f",
+        "bytes": 1167
+      }
+    ]
+  }
+}

@@ -20,32 +20,11 @@ sprite_frames = ExtResource("2")
 animation = &"burrow_dust_fx"
 centered = false
 offset = Vector2(-176, -128)
-[node name="Glow0" type="AnimatedSprite2D" parent="."]
+[node name="FireballFX" type="AnimatedSprite2D" parent="."]
 visible = false
 texture_filter = 1
 sprite_frames = ExtResource("2")
-animation = &"antenna_glow_fx"
-centered = false
-offset = Vector2(-176, -128)
-[node name="Glow1" type="AnimatedSprite2D" parent="."]
-visible = false
-texture_filter = 1
-sprite_frames = ExtResource("2")
-animation = &"antenna_glow_fx"
-centered = false
-offset = Vector2(-176, -128)
-[node name="Laser0" type="AnimatedSprite2D" parent="."]
-visible = false
-texture_filter = 1
-sprite_frames = ExtResource("2")
-animation = &"red_laser_fx"
-centered = false
-offset = Vector2(-176, -128)
-[node name="Laser1" type="AnimatedSprite2D" parent="."]
-visible = false
-texture_filter = 1
-sprite_frames = ExtResource("2")
-animation = &"red_laser_fx"
+animation = &"fireball_fx"
 centered = false
 offset = Vector2(-176, -128)
 [node name="SkillAnimator" type="Node2D" parent="."]

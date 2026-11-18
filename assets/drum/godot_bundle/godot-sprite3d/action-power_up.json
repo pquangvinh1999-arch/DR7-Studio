@@ -1,0 +1,80 @@
+{
+  "schema": "generate2dsprite.godot_sprite3d.v1",
+  "clip": "power_up",
+  "frame_size": [
+    128,
+    96
+  ],
+  "output_origin": [
+    56.0,
+    84.0
+  ],
+  "sprite3d_offset": [
+    8.0,
+    36.0
+  ],
+  "reference_subject_height_px": 50.0,
+  "world_height": 0.5,
+  "recommended_pixel_size": 0.01,
+  "rendered_subject_height_world": 0.5,
+  "scale_source": "Godot default pixel size",
+  "billboard": "enabled",
+  "texture_filter": "nearest",
+  "duration_ms": 79,
+  "fps": 12.687427912341407,
+  "frames": [
+    "frames/frame-016.png",
+    "frames/frame-017.png",
+    "frames/frame-018.png",
+    "frames/frame-019.png",
+    "frames/frame-020.png",
+    "frames/frame-021.png",
+    "frames/frame-022.png",
+    "frames/frame-023.png",
+    "frames/frame-024.png",
+    "frames/frame-025.png",
+    "frames/frame-026.png"
+  ],
+  "frame_sha256": [
+    "88a487c770db1754e409e73c1ab0329db9e9ccedb01b03dcdc04332d9ee06e89",
+    "735e2831c42edbe64874dab25d3d1de458e1193426e8709ca2dfb06377727cb1",
+    "8220a9115fd59c3c26ca7c171d0890d1652786456cfbcb29313eb879a1a9efd1",
+    "068c5723eb34446b04640c4684f69d18195af8658ff7ededeef504148338e88c",
+    "c73983f0a2949a371fe69ef8f23aef5a6271dce600e354ac892f3072f2d27bc3",
+    "3622e11bd3ffa72eaae357c8fbbde0fbbb7367e0979367c3b31a1b7f7707e93e",
+    "256b37eb33fa9c5c9b47ab010edd2e870593597570b2d2bac843bae6fd26ac92",
+    "dfd9e9484c2a06943c1fbde858e57a12e9699d25a4a6e6f5f2e126318fbb77a8",
+    "3c1b488528081fd9c0ebf842e5d7ccd673e520c185a46fc102255f3d7940b56b",
+    "a669680bb2250b8945ee394b4d8fc51f5dfc24f1c3cbd7fe283884367bf34aa8",
+    "7d8a33220dea2a5f5062241a2eb020954758092e090e6319d023e77f08997413"
+  ],
+  "durations_ms": [
+    83,
+    84,
+    66,
+    67,
+    67,
+    66,
+    84,
+    83,
+    67,
+    66,
+    134
+  ],
+  "loop": false,
+  "loop_policy": "oneshot",
+  "events_ms": [
+    {
+      "name": "custom:fireball_release",
+      "at_ms": 733,
+      "at": 10,
+      "position": 10
+    },
+    {
+      "name": "end",
+      "at_ms": 733,
+      "at": 10,
+      "position": 10
+    }
+  ]
+}

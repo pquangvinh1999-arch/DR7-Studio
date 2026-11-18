@@ -1142,7 +1142,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 100
+      "duration": 33
     },
     {
       "filename": "52",
@@ -1164,7 +1164,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 67
+      "duration": 84
     },
     {
       "filename": "53",
@@ -1186,7 +1186,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 66
+      "duration": 100
     },
     {
       "filename": "54",
@@ -1208,7 +1208,7 @@
         "w": 384,
         "h": 256
       },
-      "duration": 100
+      "duration": 50
     },
     {
       "filename": "55",
@@ -1631,7 +1631,7 @@
         "direction": "forward",
         "color": "#000000ff",
         "repeat": "1",
-        "data": "{\"events\":[{\"name\":\"in\",\"frame\":51,\"at_ms\":0},{\"name\":\"end\",\"frame\":54,\"at_ms\":233}]}"
+        "data": "{\"events\":[{\"name\":\"in\",\"frame\":51,\"at_ms\":0},{\"name\":\"end\",\"frame\":54,\"at_ms\":217}]}"
       },
       {
         "name": "energy_blast_fx",

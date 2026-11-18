@@ -1,7 +1,7 @@
 {
   "character_id": "tasmanian_king_crab",
   "status": "owner_approved",
-  "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+  "atlas_sha256": "c62f2776ffb15133fae9128436c899e222d3e4ed717c2abc46cd64db579da30d",
   "atlas": {
     "max_size": 4096,
     "padding": 2,
@@ -87,7 +87,7 @@
   "motion_quality": {
     "status": "owner_approved",
     "method": "imagegen_complete_body_keyframes",
-    "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+    "atlas_sha256": "c62f2776ffb15133fae9128436c899e222d3e4ed717c2abc46cd64db579da30d",
     "checks": {
       "body_connections": true,
       "whole_pose_sequence": true,
@@ -96,13 +96,13 @@
       "three_backgrounds": true,
       "character_identity": true
     },
-    "review_evidence": "work/characters/tasmanian_king_crab/atlas-v1/review/keyframe-review.json",
+    "review_evidence": "work/characters/tasmanian_king_crab/uniform-color-v1/keyframe-review.json",
     "unresolved_structural_failures": [],
     "owner_approved": true,
     "naturalness_verdict": "owner_approved",
-    "notes": "Owner accepted current identity, leg cadence, loop seams, normal claw dissolve and orb charge/release sequence. No authored turn is claimed; intentional fragments remain limited to distal claw during attack3/4.",
-    "approved_at": "2026-11-12T09:51:08.495780+00:00",
-    "owner_feedback": "ok chốt tasmanian và thông số điều chỉnh lúc này đồng bộ bundle godot theo đúng qui trình sau đó push code lên main giúp anh để sang nhân vật tiếp theo"
+    "notes": "Uniform-color-v1: removed idle glare/white flash and unified all 5 body clips (idle, attack_nomal, power_up, hit, ko) to canonical walk luminance CDF & RGB tone curve; walk & orb FX unchanged.",
+    "approved_at": "2026-11-15T05:52:31.727116+00:00",
+    "owner_feedback": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác"
   },
   "technical_checks": {
     "status": "pass",
@@ -229,5 +229,80 @@
   },
   "owner_approval_file": "assets/tasmanian_king_crab/owner_approval.json",
   "owner_approved_at": "2026-11-12T09:51:08.495780+00:00",
-  "release_version": "0.7.0"
+  "release_version": "0.12.0",
+  "uniform_color_v1_stats": {
+    "walk": {
+      "lum_min": 77.6,
+      "lum_max": 79.43,
+      "lum_mean": 78.58,
+      "p95_max": 153.69,
+      "gt180_max_pct": 1.9,
+      "rgb_mean": [
+        129.22,
+        59.91,
+        41.87
+      ]
+    },
+    "idle": {
+      "lum_min": 78.41,
+      "lum_max": 78.77,
+      "lum_mean": 78.59,
+      "p95_max": 153.21,
+      "gt180_max_pct": 1.82,
+      "rgb_mean": [
+        129.62,
+        59.79,
+        41.55
+      ]
+    },
+    "attack_nomal": {
+      "lum_min": 76.42,
+      "lum_max": 80.06,
+      "lum_mean": 78.57,
+      "p95_max": 154.26,
+      "gt180_max_pct": 1.99,
+      "rgb_mean": [
+        129.49,
+        59.87,
+        41.27
+      ]
+    },
+    "power_up": {
+      "lum_min": 75.05,
+      "lum_max": 81.44,
+      "lum_mean": 78.68,
+      "p95_max": 156.63,
+      "gt180_max_pct": 1.96,
+      "rgb_mean": [
+        129.42,
+        60.03,
+        41.68
+      ]
+    },
+    "hit": {
+      "lum_min": 76.46,
+      "lum_max": 80.51,
+      "lum_mean": 78.55,
+      "p95_max": 153.36,
+      "gt180_max_pct": 1.95,
+      "rgb_mean": [
+        129.58,
+        59.81,
+        41.17
+      ]
+    },
+    "ko": {
+      "lum_min": 77.5,
+      "lum_max": 79.38,
+      "lum_mean": 78.57,
+      "p95_max": 154.62,
+      "gt180_max_pct": 1.89,
+      "rgb_mean": [
+        129.36,
+        59.84,
+        41.86
+      ]
+    }
+  },
+  "owner_approved": true
 }

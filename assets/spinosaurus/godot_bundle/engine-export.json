@@ -7,8 +7,8 @@
   },
   "source": {
     "path": "../clips/animation-clips.json",
-    "sha256": "4c5f68c2ea7a791f1e3790112d8bfb766af963964b062c9dc287571999854a64",
-    "bytes": 124638,
+    "sha256": "ba4944c3b3307cb5f53319643578eee9fb82759aaa6061279f654f297e6bf4ca",
+    "bytes": 126060,
     "schema": "generate2dsprite.animation_clips.v2"
   },
   "targets": [
@@ -783,12 +783,12 @@
         66
       ],
       "duration_ms": [
+        33,
         100,
-        67,
-        66,
-        100
+        84,
+        50
       ],
-      "total_duration_ms": 333,
+      "total_duration_ms": 267,
       "loop": false,
       "loop_policy": "oneshot",
       "events_ms": [],
@@ -798,22 +798,22 @@
         "hz": 60,
         "max_drift_ms": 0.333,
         "frame_ticks": [
+          2,
           6,
-          4,
-          4,
-          6
+          5,
+          3
         ],
         "zero_tick_positions": [],
         "even": false,
-        "cycle_ticks": 19.98,
+        "cycle_ticks": 16.02,
         "cycle_aligned": false,
         "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
       },
       "ticks": [
+        2,
         6,
-        4,
-        4,
-        6
+        5,
+        3
       ],
       "tick_hz": 60,
       "aseprite": {
@@ -825,10 +825,10 @@
         "speed": 60.0,
         "basis": "ticks at 60 Hz",
         "relative_durations": [
+          2.0,
           6.0,
-          4.0,
-          4.0,
-          6.0
+          5.0,
+          3.0
         ]
       },
       "sprite3d": {
@@ -975,22 +975,22 @@
   "files": [
     {
       "path": "aseprite/spinosaurus.png",
-      "sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
-      "bytes": 830767
+      "sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e",
+      "bytes": 838052
     },
     {
       "path": "aseprite/spinosaurus.json",
-      "sha256": "919a9de8f4ffaa01cf31b37e5782a3594fbea949908f2a190680beceace893ba",
-      "bytes": 30628
+      "sha256": "8101625eb469113651513f9ceeb5d18ccfe731ddf627eb04221d85e0775efbd5",
+      "bytes": 30627
     },
     {
       "path": "godot/spinosaurus-atlas-00.png",
-      "sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
-      "bytes": 830767
+      "sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e",
+      "bytes": 838052
     },
     {
       "path": "godot/spinosaurus.tres",
-      "sha256": "a52e696181b7da00fc5e126623fcb9b35a4fbbca56eff799df6797b4fda21da3",
+      "sha256": "7b97f2aeafe61fe82280e110373052aa46ba05e0534558a737abbffae49af067",
       "bytes": 15540
     },
     {
@@ -1060,43 +1060,43 @@
     },
     {
       "path": "godot-sprite3d/frames/frame-012.png",
-      "sha256": "5096caee02e2eebcf989cb75f77d9b08ef96b719442047a97eb0d03ca50ef245",
-      "bytes": 12253
+      "sha256": "9eae6d24a6e2c145eaa42c0610a3af2a3f01e5671c55974751c7e080bce59eca",
+      "bytes": 13339
     },
     {
       "path": "godot-sprite3d/frames/frame-013.png",
-      "sha256": "f081cf764fc69f7399d6c1da7823591e65d07821d9f8fbeeca775697d06ea84a",
-      "bytes": 11605
+      "sha256": "93ed51986b12ec37745a4d662656748719adf7ca428533ae6744af0fc5b18017",
+      "bytes": 12220
     },
     {
       "path": "godot-sprite3d/frames/frame-014.png",
-      "sha256": "204aad5239ed6f452111230a1ee7a17c30de351d1c82b9a05088e78696db6da3",
-      "bytes": 11624
+      "sha256": "3a1ed17c76771151660d3ad56daf79ef796b627daf3a4e7fadff927f6a5837f2",
+      "bytes": 12297
     },
     {
       "path": "godot-sprite3d/frames/frame-015.png",
-      "sha256": "496969dfdd2f60c84e9fecb7bccbfa66b3f9e69c6c15c29fdeebfa98bccdf04c",
-      "bytes": 11584
+      "sha256": "5f76360afe930cfd18951b4a54211ab2e786b484c3373f8a2e7e4f656f1f11d4",
+      "bytes": 12222
     },
     {
       "path": "godot-sprite3d/frames/frame-016.png",
-      "sha256": "252adbeade9280c47f4081f6c63453980b6cad27800de3b65ad76002a0ed4a31",
-      "bytes": 11549
+      "sha256": "300cba546b73cb2c298c97a34eab59d493dcd7b3f6e60da7a5c56067cf5ece31",
+      "bytes": 12258
     },
     {
       "path": "godot-sprite3d/frames/frame-017.png",
-      "sha256": "0b2d3a6eabc6f02a061b54ce0411d3439b6fee046cc1cf05f86a80025dfecb71",
-      "bytes": 11460
+      "sha256": "e075e433440e5f47c38d90d3a214724202f044b9825c6d2343f76c182fb9d805",
+      "bytes": 12111
     },
     {
       "path": "godot-sprite3d/frames/frame-018.png",
-      "sha256": "5350a6b4d5df6b1a7e7ae774bdbbb2b23c2f64f9c809449fb752045e8ef14d46",
-      "bytes": 11732
+      "sha256": "462a3a7651a469c4e43e89afcf2780fc7cbe019b5f87bd8cc0eb742fa372381b",
+      "bytes": 12421
     },
     {
       "path": "godot-sprite3d/frames/frame-019.png",
-      "sha256": "b2397cc22812b8f74dbd59ffcf76563967a6bd0fab044272acec3e5c6444aa08",
-      "bytes": 12407
+      "sha256": "49773210fb7dc8adf3dabf3fc711a1046859963ca1efbe868b3633debca5a496",
+      "bytes": 13590
     },
     {
       "path": "godot-sprite3d/frames/frame-020.png",
@@ -1360,7 +1360,7 @@
     },
     {
       "path": "godot-sprite3d/action-walk.json",
-      "sha256": "4c62e57b3c66b393bf04553f1d68cc399d467815fb633db279597e2169d9ddbe",
+      "sha256": "913ce58b21041e1ba4c90e01aab63897adad1476eb00a05f91d2c49c2370392e",
       "bytes": 1665
     },
     {
@@ -1390,8 +1390,8 @@
     },
     {
       "path": "godot-sprite3d/action-turn.json",
-      "sha256": "477a5ae327c42ac388825c5ac3e921260443a4ea22b4df6686c909af75c64eea",
-      "bytes": 1060
+      "sha256": "1c5dda7523fd396239a79b0fc26bfd1a4dcdbd45d99dba281ab20cd06dd34ec8",
+      "bytes": 1057
     },
     {
       "path": "godot-sprite3d/action-fireball_fx.json",
@@ -1400,7 +1400,7 @@
     },
     {
       "path": "godot-sprite3d/spinosaurus.tres",
-      "sha256": "b3346752833185390d62e941a98691b065ca3a494f16d6ca7a824db32b4bb72f",
+      "sha256": "e92ab10f39aa555e6e6fd56110551405ae57b16505ac22505130246dbfd8d495",
       "bytes": 10233
     },
     {
@@ -1493,8 +1493,8 @@
     "inputs": [
       {
         "path": "../clips/animation-clips.json",
-        "sha256": "4c5f68c2ea7a791f1e3790112d8bfb766af963964b062c9dc287571999854a64",
-        "bytes": 124638
+        "sha256": "ba4944c3b3307cb5f53319643578eee9fb82759aaa6061279f654f297e6bf4ca",
+        "bytes": 126060
       },
       {
         "path": "../clips/frames/frame-00.png",
@@ -1558,43 +1558,43 @@
       },
       {
         "path": "../clips/frames/frame-12.png",
-        "sha256": "5096caee02e2eebcf989cb75f77d9b08ef96b719442047a97eb0d03ca50ef245",
-        "bytes": 12253
+        "sha256": "9eae6d24a6e2c145eaa42c0610a3af2a3f01e5671c55974751c7e080bce59eca",
+        "bytes": 13339
       },
       {
         "path": "../clips/frames/frame-13.png",
-        "sha256": "f081cf764fc69f7399d6c1da7823591e65d07821d9f8fbeeca775697d06ea84a",
-        "bytes": 11605
+        "sha256": "93ed51986b12ec37745a4d662656748719adf7ca428533ae6744af0fc5b18017",
+        "bytes": 12220
       },
       {
         "path": "../clips/frames/frame-14.png",
-        "sha256": "204aad5239ed6f452111230a1ee7a17c30de351d1c82b9a05088e78696db6da3",
-        "bytes": 11624
+        "sha256": "3a1ed17c76771151660d3ad56daf79ef796b627daf3a4e7fadff927f6a5837f2",
+        "bytes": 12297
       },
       {
         "path": "../clips/frames/frame-15.png",
-        "sha256": "496969dfdd2f60c84e9fecb7bccbfa66b3f9e69c6c15c29fdeebfa98bccdf04c",
-        "bytes": 11584
+        "sha256": "5f76360afe930cfd18951b4a54211ab2e786b484c3373f8a2e7e4f656f1f11d4",
+        "bytes": 12222
       },
       {
         "path": "../clips/frames/frame-16.png",
-        "sha256": "252adbeade9280c47f4081f6c63453980b6cad27800de3b65ad76002a0ed4a31",
-        "bytes": 11549
+        "sha256": "300cba546b73cb2c298c97a34eab59d493dcd7b3f6e60da7a5c56067cf5ece31",
+        "bytes": 12258
       },
       {
         "path": "../clips/frames/frame-17.png",
-        "sha256": "0b2d3a6eabc6f02a061b54ce0411d3439b6fee046cc1cf05f86a80025dfecb71",
-        "bytes": 11460
+        "sha256": "e075e433440e5f47c38d90d3a214724202f044b9825c6d2343f76c182fb9d805",
+        "bytes": 12111
       },
       {
         "path": "../clips/frames/frame-18.png",
-        "sha256": "5350a6b4d5df6b1a7e7ae774bdbbb2b23c2f64f9c809449fb752045e8ef14d46",
-        "bytes": 11732
+        "sha256": "462a3a7651a469c4e43e89afcf2780fc7cbe019b5f87bd8cc0eb742fa372381b",
+        "bytes": 12421
       },
       {
         "path": "../clips/frames/frame-19.png",
-        "sha256": "b2397cc22812b8f74dbd59ffcf76563967a6bd0fab044272acec3e5c6444aa08",
-        "bytes": 12407
+        "sha256": "49773210fb7dc8adf3dabf3fc711a1046859963ca1efbe868b3633debca5a496",
+        "bytes": 13590
       },
       {
         "path": "../clips/frames/frame-20.png",
@@ -1855,19 +1855,19 @@
     "outputs": [
       {
         "path": "aseprite/spinosaurus.png",
-        "sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4"
+        "sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e"
       },
       {
         "path": "aseprite/spinosaurus.json",
-        "sha256": "919a9de8f4ffaa01cf31b37e5782a3594fbea949908f2a190680beceace893ba"
+        "sha256": "8101625eb469113651513f9ceeb5d18ccfe731ddf627eb04221d85e0775efbd5"
       },
       {
         "path": "godot/spinosaurus-atlas-00.png",
-        "sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4"
+        "sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e"
       },
       {
         "path": "godot/spinosaurus.tres",
-        "sha256": "a52e696181b7da00fc5e126623fcb9b35a4fbbca56eff799df6797b4fda21da3"
+        "sha256": "7b97f2aeafe61fe82280e110373052aa46ba05e0534558a737abbffae49af067"
       },
       {
         "path": "godot/spinosaurus.tscn",
@@ -1923,35 +1923,35 @@
       },
       {
         "path": "godot-sprite3d/frames/frame-012.png",
-        "sha256": "5096caee02e2eebcf989cb75f77d9b08ef96b719442047a97eb0d03ca50ef245"
+        "sha256": "9eae6d24a6e2c145eaa42c0610a3af2a3f01e5671c55974751c7e080bce59eca"
       },
       {
         "path": "godot-sprite3d/frames/frame-013.png",
-        "sha256": "f081cf764fc69f7399d6c1da7823591e65d07821d9f8fbeeca775697d06ea84a"
+        "sha256": "93ed51986b12ec37745a4d662656748719adf7ca428533ae6744af0fc5b18017"
       },
       {
         "path": "godot-sprite3d/frames/frame-014.png",
-        "sha256": "204aad5239ed6f452111230a1ee7a17c30de351d1c82b9a05088e78696db6da3"
+        "sha256": "3a1ed17c76771151660d3ad56daf79ef796b627daf3a4e7fadff927f6a5837f2"
       },
       {
         "path": "godot-sprite3d/frames/frame-015.png",
-        "sha256": "496969dfdd2f60c84e9fecb7bccbfa66b3f9e69c6c15c29fdeebfa98bccdf04c"
+        "sha256": "5f76360afe930cfd18951b4a54211ab2e786b484c3373f8a2e7e4f656f1f11d4"
       },
       {
         "path": "godot-sprite3d/frames/frame-016.png",
-        "sha256": "252adbeade9280c47f4081f6c63453980b6cad27800de3b65ad76002a0ed4a31"
+        "sha256": "300cba546b73cb2c298c97a34eab59d493dcd7b3f6e60da7a5c56067cf5ece31"
       },
       {
         "path": "godot-sprite3d/frames/frame-017.png",
-        "sha256": "0b2d3a6eabc6f02a061b54ce0411d3439b6fee046cc1cf05f86a80025dfecb71"
+        "sha256": "e075e433440e5f47c38d90d3a214724202f044b9825c6d2343f76c182fb9d805"
       },
       {
         "path": "godot-sprite3d/frames/frame-018.png",
-        "sha256": "5350a6b4d5df6b1a7e7ae774bdbbb2b23c2f64f9c809449fb752045e8ef14d46"
+        "sha256": "462a3a7651a469c4e43e89afcf2780fc7cbe019b5f87bd8cc0eb742fa372381b"
       },
       {
         "path": "godot-sprite3d/frames/frame-019.png",
-        "sha256": "b2397cc22812b8f74dbd59ffcf76563967a6bd0fab044272acec3e5c6444aa08"
+        "sha256": "49773210fb7dc8adf3dabf3fc711a1046859963ca1efbe868b3633debca5a496"
       },
       {
         "path": "godot-sprite3d/frames/frame-020.png",
@@ -2163,7 +2163,7 @@
       },
       {
         "path": "godot-sprite3d/action-walk.json",
-        "sha256": "4c62e57b3c66b393bf04553f1d68cc399d467815fb633db279597e2169d9ddbe"
+        "sha256": "913ce58b21041e1ba4c90e01aab63897adad1476eb00a05f91d2c49c2370392e"
       },
       {
         "path": "godot-sprite3d/action-attack_light.json",
@@ -2187,7 +2187,7 @@
       },
       {
         "path": "godot-sprite3d/action-turn.json",
-        "sha256": "477a5ae327c42ac388825c5ac3e921260443a4ea22b4df6686c909af75c64eea"
+        "sha256": "1c5dda7523fd396239a79b0fc26bfd1a4dcdbd45d99dba281ab20cd06dd34ec8"
       },
       {
         "path": "godot-sprite3d/action-fireball_fx.json",
@@ -2195,7 +2195,7 @@
       },
       {
         "path": "godot-sprite3d/spinosaurus.tres",
-        "sha256": "b3346752833185390d62e941a98691b065ca3a494f16d6ca7a824db32b4bb72f"
+        "sha256": "e92ab10f39aa555e6e6fd56110551405ae57b16505ac22505130246dbfd8d495"
       },
       {
         "path": "godot-sprite3d/spinosaurus.tscn",
@@ -2237,7 +2237,10 @@
         5,
         6,
         7
-      ]
+      ],
+      "default_scale": 2.0,
+      "screen_speed_px_per_second": 170,
+      "speed_px_per_second": 85.0
     },
     "aura": {
       "loop_clip": null,
@@ -2267,9 +2270,17 @@
       "clip": "turn",
       "from": "right",
       "to": "left",
-      "duration_ticks": 20,
+      "duration_ticks": 16,
       "method": "complete_perspective_poses",
-      "mirror_sequence_for_reverse": true
+      "mirror_sequence_for_reverse": true,
+      "ticks": [
+        2,
+        6,
+        5,
+        3
+      ],
+      "duration_ms": 267,
+      "speed_boost_pct": 25
     }
   },
   "provenance": {
@@ -2284,7 +2295,16 @@
       "run"
     ],
     "owner_approved": true,
+    "release_version": "0.12.0",
+    "step2_visual_fix_at": "2026-11-14T09:26:26.764136+00:00",
+    "step2_visual_fix_summary": "Step-2 visual fix: register walk_00..07 horizontal torso centroid consistently at ~183.5px (removing +/-11px snap) and ground floating walk_01,02,03,06 onto y=223; non-walk clips byte-identical.",
+    "previous_owner_approval_file": "work/characters/spinosaurus/step2-visual-fix/snapshot-before/owner_approval.json",
+    "previous_atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+    "previous_revision_atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+    "calibration_update": "Walk-edge-uniform-v1: kept idle, walk_01..06, attack_*, power_up, hit, ko, turn, fireball_fx (69/71 PNGs) byte-identical to calibration-v1 (speed 170 px/s); rebuilt ONLY walk_00 & walk_07 from 887x887 walk-seam-v6 source via single Nearest resize (thr=224, h=74, area=4542/4564px, ground=224, torso_x spread=0.75px) to eliminate end-of-loop bloat.",
+    "walk_edge_uniform_v1_at": "2026-11-15T05:24:42.044574+00:00",
     "owner_approval_file": "assets/spinosaurus/owner_approval.json",
-    "release_version": "0.6.0"
+    "workflow_id": "PIPE-011",
+    "approved_at": "2026-11-15T05:52:31.727116+00:00"
   }
 }

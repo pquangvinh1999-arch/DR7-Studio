@@ -1605,6 +1605,116 @@
         "h": 256
       },
       "duration": 83
+    },
+    {
+      "filename": "73",
+      "frame": {
+        "x": 391,
+        "y": 2083,
+        "w": 384,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 256
+      },
+      "duration": 100
+    },
+    {
+      "filename": "74",
+      "frame": {
+        "x": 779,
+        "y": 2083,
+        "w": 384,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 256
+      },
+      "duration": 50
+    },
+    {
+      "filename": "75",
+      "frame": {
+        "x": 1167,
+        "y": 2083,
+        "w": 384,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 256
+      },
+      "duration": 50
+    },
+    {
+      "filename": "76",
+      "frame": {
+        "x": 1555,
+        "y": 2083,
+        "w": 384,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 256
+      },
+      "duration": 50
+    },
+    {
+      "filename": "77",
+      "frame": {
+        "x": 1943,
+        "y": 2083,
+        "w": 384,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 256
+      },
+      "duration": 100
     }
   ],
   "meta": {
@@ -1693,6 +1803,15 @@
         "direction": "forward",
         "color": "#000000ff",
         "repeat": "1"
+      },
+      {
+        "name": "turn",
+        "from": 73,
+        "to": 77,
+        "direction": "forward",
+        "color": "#000000ff",
+        "repeat": "1",
+        "data": "{\"events\":[{\"name\":\"in\",\"frame\":73,\"at_ms\":0},{\"name\":\"end\",\"frame\":77,\"at_ms\":250}]}"
       }
     ],
     "layers": [
@@ -1816,6 +1935,13 @@
       "70",
       "71",
       "72"
+    ],
+    "turn": [
+      "73",
+      "74",
+      "75",
+      "76",
+      "77"
     ]
   }
 }

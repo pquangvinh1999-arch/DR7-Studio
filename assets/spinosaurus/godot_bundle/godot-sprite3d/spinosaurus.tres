@@ -299,16 +299,16 @@ animations = [{
 "speed": 60.0
 }, {
 "frames": [{
-"duration": 6.0,
+"duration": 2.0,
 "texture": ExtResource("64_frame63")
 }, {
-"duration": 4.0,
+"duration": 6.0,
 "texture": ExtResource("65_frame64")
 }, {
-"duration": 4.0,
+"duration": 5.0,
 "texture": ExtResource("66_frame65")
 }, {
-"duration": 6.0,
+"duration": 3.0,
 "texture": ExtResource("67_frame66")
 }],
 "loop": false,

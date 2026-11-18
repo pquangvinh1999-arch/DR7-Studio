@@ -1,138 +1,126 @@
 # HIẾN PHÁP DỰ ÁN DR7-STUDIO (`AGENTS.md`)
 
-Tài liệu `AGENTS.md` này là **Hiến pháp tối cao và duy nhất** ở thư mục gốc của kho mã nguồn `DR7-Studio`, được tự động nạp trực tiếp bởi cả **Antigravity CLI (`agy`)** lẫn **OpenAI Codex (`codex`)**. Mọi quyết định kỹ thuật, xử lý asset, kiểm thử engine và hiển thị preview đều phải tuân thủ tuyệt đối các điều khoản dưới đây.
+Hiến pháp tối cao ở root `DR7-Studio` (tự nạp bởi `agy` & `codex`). Mọi quyết định kỹ thuật, asset, test engine và preview phải tuân thủ tuyệt đối:
 
 ---
 
 ## Điều 1. Cấm Tuyệt Đối Bịa Đặt & Đoán Mò (Zero Hallucination / Evidence-Only)
 
-1. **Không tự ý bịa code, bịa API, bịa tham số cấu hình**: Chỉ dùng API, flag CLI, schema và hàm đã được xác minh thực tế qua tài liệu nội bộ, `--help`, mã nguồn hoặc chạy kiểm thử.
-2. **Không bịa kết quả kiểm thử hoặc QA**: Chỉ báo cáo `PASS` / `OK` khi lệnh kiểm thử thực sự trả về `exit code 0` và đã đọc log/output thực tế. Mọi cảnh báo (`WARN`) hoặc lỗi (`FAIL`) phải được trích dẫn nguyên văn số liệu, tuyệt đối không che giấu.
-3. **Không suy đoán khi thiếu bằng chứng**: Mọi nhận định về lỗi code hoặc lỗi hình ảnh (alpha, viền màu, lệch tâm, mất chi tiết, sai độ nét) phải kèm bằng chứng đo đạc cụ thể (tọa độ pixel `Canvas (x,y)` / `Atlas (x,y)`, giá trị `RGBA`, dòng log, đường dẫn file).
+1. **Cấm bịa code, API, tham số**: Chỉ dùng API, flag CLI, schema, hàm đã xác minh qua tài liệu nội bộ, `--help`, mã nguồn hoặc chạy kiểm thử.
+2. **Cấm bịa kết quả test/QA**: Chỉ báo cáo `PASS`/`OK` khi lệnh trả về `exit code 0` và đã đọc log thực tế. Mọi `WARN`/`FAIL` phải trích nguyên số liệu, không che giấu.
+3. **Cấm suy đoán thiếu bằng chứng**: Nhận định lỗi code hoặc ảnh (alpha, viền màu, lệch tâm, mất chi tiết, độ nét) phải kèm đo đạc cụ thể (`Canvas (x,y)` / `Atlas (x,y)`, `RGBA`, log, path).
 
 ---
 
-## Điều 2. Cổng Đánh Giá Độ Rõ Ràng Trước Khi Code (Pre-Task Clarity Gate)
+## Điều 2. Cổng Rõ Ràng & Đồng Nhất Mẫu Chuẩn (Pre-Task Clarity Gate)
 
-1. **Đánh giá bắt buộc trước khi thực thi**: Trước khi viết code, sửa kiến trúc hoặc chạy pipeline xử lý asset, Agent bắt buộc tự rà soát:
-   - Mục tiêu cuối cùng của Owner trong task này đã rõ 100% chưa?
-   - Logic nghiệp vụ, thông số đầu vào/đầu ra, ràng buộc hiệu năng hoặc nền tảng còn điểm nào mơ hồ không?
-2. **Mơ hồ = Dừng lại & Hỏi rõ Owner**:
-   - Nếu còn bất kỳ điểm nào chưa rõ từ yêu cầu của Owner hoặc từ `state.json` / `skills.md`: **BẮT BUỘC dừng việc triển khai và hỏi lại Owner**.
-   - Khi hỏi, trình bày khách quan các phương án khả thi kèm ưu/nhược điểm kỹ thuật để Owner chốt nhanh, tuyệt đối không tự đoán ý làm trước.
+1. **Rà soát trước khi làm**: Xác nhận rõ 100% mục tiêu, logic, đầu vào/ra, hiệu năng, nền tảng trước khi code hoặc xử lý asset.
+2. **Mơ hồ = Dừng & Hỏi Owner**: Còn điểm chưa rõ từ Owner, `state.json`, `skills.md` thì **BẮT BUỘC dừng, hỏi Owner** kèm phương án + ưu/nhược điểm; cấm đoán mò.
+3. **Đồng nhất mẫu chuẩn**: Nhận 1 mẫu chuẩn thì mọi hoạt ảnh phải đồng nhất **kích thước, hình dạng, màu sắc**; không hiểu phải hỏi ngay.
 
 ---
 
-## Điều 3. Kiến Trúc Lớp Duy Nhất (`Combined 1-Layer`) & Thông Số Kỹ Thuật Bóc Tách Atlas Bắt Buộc
+## Điều 3. Kiến Trúc `Combined 1-Layer` & Quy Trình Chuẩn Asset/Item
 
-1. **Cổng hỏi bắt buộc khi thiếu thông tin**: Khi Owner đính kèm hoặc trỏ tới một file ảnh / atlas bất kỳ mà chưa nêu rõ mục đích xử lý, Agent **chỉ được phép đo đạc thông số thực tế** (kích thước px, số hàng/frame, nền màu, nhiễu/watermark, bố cục chiêu thức), sau đó **BẮT BUỘC hỏi lại Owner** trước khi xử lý.
-2. **Kiến trúc Lớp Chính Thức Duy Nhất — Gộp Chung 1 Lớp Nguyên Bản (`Combined 1-Layer`)**:
-   - Toàn bộ nhân vật trong dự án **bắt buộc sử dụng duy nhất kiến trúc `combined_1layer` (`1 Quad / 1 Draw Call`)**: giữ nguyên thân nhân vật một sprite/lớp; các phần FX theo contract Owner dưới đây. `1 Quad / 1 Draw Call` chỉ nói phần thân khi tắt FX.
-   - **Bãi bỏ vĩnh viễn hướng bóc tách đa lớp (`layered_3d_depth` / `Hướng 2`)** vì làm sai cấu trúc vẽ gốc của sprite 2D. Hệ thống kiểm thử (`./loop.sh check` và `test_character_bundles.gd`) tự động đánh `FAIL` nếu xuất hiện bất kỳ cấu hình `layered_3d_depth` nào.
-   - **Cấm tuyệt đối dùng AI vẽ lại làm biến dạng chi tiết gốc (`Zero AI Redraw`)** khi bóc tách từ sheet của Owner.
-   - **Quy tắc chung mới theo Owner**: Ki/aura phải xuất và điều khiển độc lập để dùng cùng nhiều hoạt ảnh thân, mặc định cho nhân vật có Ki; không hỏi lại. Thân không tách chi/cánh theo chiều sâu. Cùng atlas khi khả thi, contract/anchor/tick đồng bộ Godot và localhost; FX thêm sprite/quad và có chi phí riêng. Sheet đã gộp không tách an toàn thì báo giới hạn, không vẽ lại để nhận bảo toàn pixel.
-3. **Thông Số Kỹ Thuật Bóc Tách, Tách Nền & Đăng Ký Tâm Chân Bắt Buộc (Chuẩn Khởi Đầu Studio từ `trunks_rage`)**:
-   - **Phân tách cụm 2D theo mặt nạ sở hữu liên thông (`2D Component Ownership Masking`)**:
-     - Cắt từng pose bằng nhãn liên thông 2D (`3×3` / `5×5` ownership mask) thay vì cắt hộp chữ nhật thô theo cột dọc, nhằm **ngăn chặn 100% mũi kiếm chéo hoặc tia lửa của pose kế bên lọt vào khung cắt**.
-     - Loại bỏ sạch khung viền header/footer, chữ chú thích trên sheet (như nhãn `WIN`), dấu gạch ngang phân cách `-`, ảnh chân dung cắt ngang (`cut-in`), và vùng rìa giao thoa giữa hai hàng sát nhau (`extra_exclusions`).
-     - Với các tia chưởng chia khúc trên sheet (như `Final Flash` gồm `Đầu | Thân | Ngọn` ngăn bởi vạch tối `1px`), bắt buộc khử vạch chia `1px` và ghép liền mạch vào đúng toạ độ bàn tay nhân vật; sắp xếp đúng thứ tự thời gian thực của chiêu thức.
-   - **Tách nền 2 giai đoạn bảo toàn độ sắc Pixel Art (`Pocket-First Chroma Key + Edge Unmixing`)**:
-     - **Giai đoạn 1**: Đục thủng 100% hốc nền kín kẹt giữa tay/chân/vỏ kiếm/hào quang (`enclosed_key_pockets == 0`, `opaque_key_px == 0`) bằng lan truyền hạt giống màu nền (`binary_propagation`) **trước** khi khử viền.
-     - **Giai đoạn 2**: Khử pha màu trên viền biên `1px` (gồm cả viền pha màu nền trực tiếp lẫn viền vàng-pha-xanh `olive fringe` quanh hào quang sáng, chỉ số sạch viền `outer_ring_spill_fraction <= 0.005`), đồng thời giữ độ cứng biên pixel `alpha_hardness_pct >= 95%` (với pixel art) để không làm nhòe nét gốc.
-   - **Chuẩn căn tâm gốc chống trượt chân (`Shared Row Ground Baseline + Dark-Outline/Torso Centroid`)**:
-     - Trục ngang `X`: Căn theo trung vị viền tối của cơ thể / khăn choàng (`detect_body_center_x`) thay vì tâm hộp bao toàn ảnh, đảm bảo khi vung kiếm dài hoặc bắn chưởng xa cơ thể nhân vật đứng vững tuyệt đối tại `anchor_x`, không bị giật lùi.
-     - Trục dọc `Y`: Căn theo đường mặt đất chung của từng hàng (`row_ground_y`) để giữ nguyên độ cao quỹ đạo nhảy/bay (`jump`, `ultimate`), riêng các frame gồng biến hình có tia lửa đâm xuống dưới đế giày phải căn theo đáy giày tối (`detect_boot_bottom_y`).
-     - Kích thước khung Canvas nhân vật `[W, H]` bội số của `16` (chuẩn tham chiếu `trunks_rage`: `canvas_size_px = [320, 256]`, `foot_anchor_px = [96, 220]`, Godot `AnimatedSprite2D` đặt `centered = false`, `offset = Vector2(-anchor_x, -anchor_y)`).
-   - **Chuẩn đóng gói Texture Atlas cho Engine**:
-     - Đóng gói toàn bộ hoạt ảnh của 1 nhân vật lên **1 trang PNG Atlas duy nhất (`pages == 1`, kích thước tối đa `<= 4096 × 4096 px`)** để toàn bộ thực thể dùng chung nhân vật đó gộp gọn trong `1 Draw Call`.
-     - Bắt buộc bật lọc mẫu **`Nearest` (`texture_filter = 1`)**, tốc độ chuẩn **`60Hz` ticks** trên `.tres` + `engine-export.json`, và đặt `.gdignore` trong `source/` & `clips/`.
+1. **Quy trình phân loại đầu vào bắt buộc (Chốt D7)**:
+   - **1a. Nhân vật mới từ ý tưởng (`imagegen` từ 0)**: Ra bản **demo trước** (luôn hỏi **kích thước** + **phân loại** `tướng chính` dùng nút skill hay `quái/boss` dùng AI) → Owner chốt demo → dựng đủ bộ hoạt ảnh atlas (hỏi thêm **tốc độ**, **độ cao bay** nếu là quái bay) và đóng gói bundle Godot ra APK/iOS; sau khi Human Test duyệt → chốt và **xóa toàn bộ file demo trung gian `/work` (D6)**.
+   - **1b. Nhân vật có sẵn Sprite Sheet (`Exact Sheet Fidelity`)**: Giữ nguyên **100% cấu trúc và màu sắc bản gốc** (`Zero AI Redraw`). Nếu chưa đạt độ nét pixel chuẩn Hiến pháp (Điều 7.2) phải nâng độ nét lên bằng chuẩn mà **không phá vỡ cấu trúc**; hỏi **kích thước**, **tốc độ**, **phân loại** nếu thiếu; nếu sheet thiếu hoạt ảnh theo bộ chuẩn (Điều 7.1) phải **hỏi lại Owner có cần thêm cho đủ không**; mọi hoạt ảnh xuất ra phải đồng bộ 100% nhân vật gốc, không sai lệch giữa các clip.
+   - **1c. Item & ảnh thường (không phải pixel)**: Nếu Owner đưa 1 ảnh không phải pixel vào (áp dụng cho cả **character** lẫn **item**), bắt buộc **convert về đúng pixel chuẩn Hiến pháp trước**, sau đó hỏi kích thước nếu thiếu. Item bắt buộc đủ 4 yếu tố ở Điều 7.5 (`drop_physics`, `diagonal_body_sheen`, `pickup_physics`, icon balo tĩnh).
+2. **Kiến trúc Lớp Chính Thức Duy Nhất — `Combined 1-Layer` (`1 Quad / 1 Draw Call` cho phần thân khi tắt FX)**:
+   - Giữ thân nhân vật 1 sprite/lớp; **bãi bỏ vĩnh viễn `layered_3d_depth` / `Hướng 2`** (`./loop.sh check` đánh `FAIL` nếu xuất hiện).
+   - Ki/aura phải xuất và điều khiển độc lập dùng chung với nhiều hoạt ảnh thân (mặc định cho nhân vật có Ki; không hỏi lại); thân không tách chi/cánh theo chiều sâu.
+   - Sheet đã gộp không tách an toàn thì báo giới hạn, không AI redraw để nhận bảo toàn pixel.
+3. **Thông Số Kỹ Thuật Bóc Tách, Tách Nền & Đóng Gói Bắt Buộc (Chuẩn `trunks_rage`)**:
+   - **Phân tách cụm 2D (`2D Component Ownership Masking`)**: Nhãn liên thông 2D `3×3`/`5×5`, loại bỏ header/footer/chữ thừa/vạch chia `1px`, ghép liền chiêu chia khúc vào đúng tọa độ tay.
+   - **Tách nền 2 giai đoạn**: (1) Đục thủng 100% hốc nền kín (`enclosed_key_pockets == 0`, `opaque_key_px == 0`) trước khi khử viền; (2) Khử pha viền `1px` (`outer_ring_spill_fraction <= 0.005`), giữ `alpha_hardness_pct >= 95%` (với pixel art).
+   - **Tâm gốc chống trượt chân**: `X` theo trung vị thân/viền tối (`detect_body_center_x`); `Y` theo mặt đất chung từng hàng (`row_ground_y` / `detect_boot_bottom_y`). Khung `[W, H]` bội số của `16`; `centered = false`, `offset = Vector2(-anchor_x, -anchor_y)`.
+   - **Texture Atlas Engine**: **1 trang PNG duy nhất (`pages == 1`, `<= 4096 × 4096 px`)**, lọc **`Nearest` (`texture_filter = 1`)**, tốc độ **`60Hz` ticks** trên `.tres` + `engine-export.json`, đặt `.gdignore` trong `source/` & `clips/`.
 
 ---
 
-## Điều 4. Kiến Trúc Engine & Hạ Tầng Chính Thức Đã Chốt
+## Điều 4. Kiến Trúc Engine, Mục Tiêu `0đ` & Lộ Trình Scale `35,000` Thực Thể (`ADR-0001`)
 
-- **Dự án**: Game 2D **Dragon Ball** (`DR7-Studio`).
-- **Nền tảng phát hành mục tiêu**: Mobile (**Android `.apk` / `.aab`** và **iOS `.ipa`**).
-- **Mục tiêu hiệu năng cốt lõi**: **60 FPS mượt tuyệt đối (`<= 16.67 ms/frame`) khi có hơn `2,000` người chơi / thực thể giao tranh theo thời gian thực (Real-time Mass Combat)**.
-- **Kiến trúc Engine Chính Thức (ĐÃ CHỐT — Hybrid Godot 4 + Rust Core + Supabase)**:
-  1. **Godot Engine 4 (Client Chính Thức)**: Đảm nhận Scene, Map, Camera, UI cảm ứng Mobile, Âm thanh, xuất gói cài đặt Android/iOS và vẽ hàng nghìn nhân vật 1 lớp bằng `MultiMeshInstance2D` (`1 Draw Call`).
-  2. **Rust Core (`engines/rust_combat_sim`)**: Đảm nhận tính toán vật lý, va chạm lưới không gian `O(N) Spatial Hash`, máy trạng thái 60Hz và đóng gói buffer GPU/mạng siêu tốc (`~0.61 ms/frame` cho `2,000` thực thể — dưới `4%` quỹ frame 60FPS), tích hợp vào Godot qua **`GDExtension`** (Native Mobile), chạy trực tiếp trên Server combat và biên dịch ra **`WebAssembly` (`rust_combat_sim.wasm`)** cho trạm kiểm thử `localhost:8080`.
-  3. **Supabase**: Đảm nhận Auth, PostgreSQL (Hồ sơ nhân vật, Trang bị, Bang hội), Storage kết hợp đồng bộ nhị phân theo vùng nhìn **Spatial AoI** cho bài toán `> 2,000` CCU.
+Chi tiết kỹ thuật chốt tại [docs/adr/0001-architecture-and-scale-roadmap.md](docs/adr/0001-architecture-and-scale-roadmap.md):
 
----
-
-## Điều 5. Vòng Lặp Kiểm Thử Engine Bắt Buộc & Đồng Bộ Tuyệt Đối 1:1 Với Localhost
-
-1. **Vòng lặp Tự Kiểm Thử & Tự Sửa Trên Engine (`Engine Verification Loop`)**:
-   - Mọi kết quả dựng hoạt ảnh từ atlas **bắt buộc phải chạy kiểm thử tự động đầy đủ trên cả Godot 4 Headless (`test_character_bundles.gd`) và Rust Core (`cargo test` + WASM build)** (kiểm tra nạp texture/atlas, số frame, thời lượng tick `60Hz`, `offset == -anchor_px`, lọc `Nearest`, không hốc màu nền).
-   - **FAIL/sai thông số**: Phân tích → sửa → chạy `./loop.sh test`, tối đa **5 vòng cho mỗi vấn đề**. Hết 5 vòng chưa sửa được phải dừng sửa vấn đề đó, báo Owner kèm lỗi, bằng chứng và các cách đã thử; không chạy vòng 6 hoặc bàn giao bản lỗi.
-   - **Cổng chất lượng chuyển động và liên kết cơ thể (bắt buộc, áp dụng toàn dự án)**: kiểm thử texture/tick/hash không chứng nhận hoạt ảnh tự nhiên. Sau setup atlas, chỉ cần frame phát bị xé/cắt rời cơ thể, hở khớp, mất kết nối cơ quan, lộ mảng vá, biến dạng tỷ lệ hoặc xuyên/chồng bộ phận sai giải phẫu thì **kết quả hoạt ảnh = `FAIL`**, dù mọi unit test kỹ thuật exit0. Báo đúng `technical_checks` và `motion_quality` riêng; không dùng technical PASS để che motion FAIL. Kiểm tra cả từng frame, nối frame liên tiếp, nối vòng, phát ở tốc độ thực trên nền sáng/tối/ô cờ; lưu clip/frame/Canvas/Atlas/ảnh lỗi và kết quả kiểm tra. Thiếu bằng chứng trực quan là `pending`, không phải PASS; Owner báo lỗi cấu trúc thì hạ gate thành FAIL cho đến khi sửa được kiểm chứng.
-   - **Tạo chuyển động từ master tĩnh**: phải tái tạo nhiều pose toàn thân liên tục theo skill, giữ các cơ quan liên kết, đúng giải phẫu, nhận diện và tỷ lệ. **Cấm cắt xé một ảnh tĩnh thành các mảnh thân/chi/đầu rồi xoay, kéo, vá hoặc ghép lại để giả chuỗi chuyển động.** Không dùng lấp khe/sửa alpha hoặc tăng FPS để hợp thức hóa cơ thể bị rách. Việc cắt nguyên frame hoàn chỉnh khỏi sheet và xử lý nền/anchor/atlas vẫn được phép; quy tắc này không cấm bóc tách bảo toàn các frame vốn đã có trong sheet Owner. Zero AI Redraw của sheet nguồn và kiến trúc thân `combined_1layer` vẫn giữ nguyên. Khi Owner chọn imagegen thay video, sinh toàn bộ nhân vật cho từng keyframe, review chuỗi trước đóng atlas; không lấy bộ khớp/mask của nhân vật khác để dựng chuyển động mới.
-2. **Đồng bộ Tuyệt đối 100% Giữa Engine và Localhost (`Zero-Drift Engine ⇄ Localhost Parity`)**:
-   - Sau khi pass kiểm thử trên Engine, kết quả phải được phục vụ lên `localhost:8080` **đồng bộ tuyệt đối 1:1** với Engine để Owner thực hiện **Human Test**.
-   - Cả Godot 4, Rust Core và `localhost:8080` bắt buộc đọc **cùng một nguồn dữ liệu duy nhất** (`assets/roster.json`, cùng file PNG atlas, cùng toạ độ `Rect2(x, y, w, h)` trong `.tres`, cùng thời lượng tick `60Hz`, cùng `anchor_px`). Lệnh `./loop.sh check` tự động đối soát mã băm **SHA-256** và khung kích thước động `[W, H]`.
-3. **Chỉ lưu Nhân vật Đã Hoàn Thiện trên Danh sách Nhân vật**:
-   - Tuyệt đối không lưu trữ rác, nhân vật test cũ hoặc các bản nháp lỗi trong `assets/`, `scenes/` hay `roster.json`.
+- **Mục tiêu ngân sách & quy mô (Chốt D8, D10)**:
+  - **Chi phí giai đoạn dev/test hiện tại = `0đ`** (tối ưu sẵn đường test & scale).
+  - **Nền tảng**: Mobile (**Android `.apk`/`.aab`** & **iOS `.ipa`**), khóa **60 FPS (`<= 16.67 ms/frame`)**.
+  - **Quy mô gameplay mục tiêu (D10)**: **`7 map lớn × 5 map nhỏ (35 map) × 20 khu = 700 khu`**, trung bình **`50 thực thể/khu` (user + quái) = `35,000` thực thể** toàn server; mỗi Client Mobile chỉ xử lý `1` khu (`<= 50` thực thể), đồng thời vẫn giữ năng lực benchmark `> 2,000` thực thể cho server/core.
+- **Kiến trúc Chính Thức Theo 2 Pha (Cấm đánh tráo Pha)**:
+  1. **Client Mobile (Mọi Pha)**: **Godot Engine 4 (`GDScript`, renderer `Compatibility`, `canvas_items` + `expand` full ngang D1, `fractional` mặc định + công tắc `Pixel Perfect integer` D2, Safe Area + Touch)**. Do 1 khu chỉ `<= 50` thực thể, Client **không dùng `GDExtension`** (chỉ xét nếu 1 màn hình mở dồn `> 300–2,000` thực thể). Giữ `engines/rust_combat_sim` cho WASM preview (`60Hz` stepper) và Rust Server Pha 2.
+  2. **Cloudflare (`0đ` Free)**: DNS + Orange-Cloud Proxy (`wss://` port `443`, không có raw UDP/ENet) + WAF chặn cứng IP **`VN` & `JP`**.
+  3. **Supabase (`Free -> Pro`)**: Chỉ Auth JWT + PostgreSQL (hồ sơ, balo, giao dịch ghi theo lô `30–60s` + sự kiện quan trọng); **cấm** dùng Supabase Realtime cho combat 20Hz.
+  4. **Game Server (`INetworkTransport` chuyển được `WebSocket` ⇄ `ENet`)**:
+     - **Pha 1 (`0đ` Test/Alpha)**: **`Godot Headless Dedicated Server`** chạy **`WebSocket (wss://)`** xuyên Cloudflare Proxy (chung 100% logic GDScript).
+     - **Pha 2 (Scale D10 `700` khu / VPS)**: Chuyển Game Server sang **`Rust` trên VPS** (nối crate `engines/rust_combat_sim`, khu trống ngủ) đặt sau Cloudflare WAF Allowlist hoặc mở UDP/ENet kèm firewall GeoIP khi tick server `p99 > 25 ms @20Hz` hay CPU/RAM chạm ngưỡng ADR-0001.
+- **Luật Chống Lệch Hiến Pháp (D8)**: Mọi agent phải bám sát Pha đang hiệu lực; **cấm tuyệt đối** tự ý đổi kiến trúc hoặc ghi comment/tài liệu nhận vơ "đã dùng Rust/GDExtension" khi chưa tích hợp thật.
 
 ---
 
-## Điều 6. Phân Biệt Rạch Ròi Giữa `skills.md` (Quy Trình Nghiệp Vụ) & `.agents/skills/` (Skill Công Cụ Asset)
+## Điều 5. Vòng Lặp Kiểm Thử Engine, Đồng Bộ Đa Nền Tảng & Quản Lý `/work`
 
-Agent tuyệt đối **KHÔNG ĐƯỢC NHẦM LẪN** hai khái niệm sau:
-
-| Thành phần | Bản chất | Khi nào SỬ DỤNG | Khi nào CẬP NHẬT |
-|---|---|---|---|
-| **`.agents/skills/*`** (`.agent/skills/*`: `generate2dsprite`, `video2dsprite`, `generate2dmap`, `generate2dmedia`, `codeart2d`) | **Bộ Skill Công Cụ Kỹ Thuật Cấp Thấp (Asset Tooling Skills)**: Cung cấp script xử lý ảnh, đóng gói `build_animation_clips.py`, xuất `export_engine.py`. | Dùng **bên trong bước thực thi kỹ thuật** khi cần đóng gói clip 60Hz, tạo filmstrip review và xuất `.tres` / PNG atlas. | Bộ thư viện công cụ cài đặt sẵn; không ghi nhật ký quy trình làm việc của Owner vào đây. |
-| **`skills.md`** (ở thư mục gốc dự án) | **Sổ Tay Quy Trình Nghiệp Vụ End-to-End Của Dự Án (`Owner Atlas -> Final Animation Pipeline`)**: Quy định quy trình tổng thể từ lúc nhận atlas từ Owner -> bóc tách 1 lớp bảo toàn chi tiết -> pass Engine -> đồng bộ Localhost đúng ý Owner. | Đọc **ngay đầu task khi nhận ảnh/atlas từ Owner** để áp dụng quy trình chuẩn đã được Owner nghiệm thu. | Khởi tạo **TRỐNG**. Chỉ được ghi vào sau khi hoàn thành trọn vẹn quy trình cùng Owner và **được Owner nghiệm thu Human Test thành công**. |
-
-**Kỷ luật kiểm tra trực quan bắt buộc**:
-- Trước khi bàn giao Human Test, Agent bắt buộc mở xem trực tiếp từng dải ảnh `filmstrip-*.png` bằng mắt trên cả 3 nền (**sáng, tối, ô cờ**) để phát hiện và xử lý triệt để mọi chữ thừa, vạch cắt hoặc chi tiết lấn hàng mà chỉ số tự động có thể bỏ sót.
-
----
-
-## Điều 7. Chuẩn Bộ Hoạt Ảnh Nhân Vật, Thước Đo Map & Giao Tiếp Toạ Độ Trên UI Test
-
-1. **Điều kiện Kiểm thử Bộ Hoạt Ảnh Nhân Vật (`Character Animation Completeness Gate`)**:
-   - Bộ clip tham chiếu chiến đấu cốt lõi gồm: `idle`, `walk`, `run`, `jump`, `guard`, `attack_light`, `attack_heavy`, `power_up`, `aura_loop`, `hit`, `ko`, `win` (cùng các kỹ năng đặc trưng từng tướng như kiếm khí, chưởng lực, tốc biến, chiêu cuối).
-   - Hệ thống kiểm thử (`./loop.sh check` và UI `localhost:8080`) kiểm tra danh sách clip của mỗi nhân vật và phát cảnh báo nhắc nhở (`WARN`) rõ ràng nếu nhân vật mới chỉ có một phần hoạt ảnh.
-   - **Owner chốt phạm vi chung**: không tạo `guard` và `win` cho bất kỳ nhân vật nào; không hỏi lại. Giữ WARN tham chiếu nếu có và ghi lý do Owner loại, không tạo clip giả.
-2. **Thông số Kích thước Nhân vật, Mốc Chuẩn Pixel Art & Phong Cách Chung Mặc Định**:
-   - **Mốc độ nét chung — T-rex đã nâng cấp (Owner chốt mốc 2026-11-12)**:
-     - Nhân vật tạo tiếp theo phải đối chiếu [ảnh T-rex cố định](docs/art-standards/t-rex-sharpness-reference.png) và [thông số/phương pháp](docs/art-standards/character-pixel-sharpness.json): **1px gameplay, Nearest**, alpha thân100%; VFX được alpha mềm. Thay chuẩn100texel/2×/16màu/201.3 cũ; kích thước riêng từng nhân vật vẫn giữ.
-     - Mẫu idle0: canvas384×256,bbox186×134,anchor[176,224],Sobel **245.516**. Đo bằng `python3 tools/art/measure_pixel_sharpness.py <frame.png>`; xem1×/zoom nguyên lần trên3nền. Không ép scalar/dung sai tự đặt, blur/sharpen/LUT/dither để chạy theo số; đo key/pocket/spill theo nền nguồn.
-     - Mốc này chốt độ nét, không chốt atlas/hoạt ảnh T-rex đang demo. Xé cấu trúc/hở khớp/lật ảnh giả xoay vẫn FAIL; không tự sửa nhân vật đã duyệt ngoài phạm vi Owner.
-   - **Phong cách thẩm mỹ chung mặc định**:
-     - Toàn bộ quái thú / sinh vật mặc định mang phong cách **"Hung tợn"** (hàm răng nanh/răng cưa nhọn hoắt tạo cảm giác đáng sợ, ánh mắt sắt lẹm hung dữ, móng vuốt sắc bén uy lực, tông màu đậm chắc sẫm) — trừ khi Owner có yêu cầu đặc thù riêng cho từng nhân vật.
-   - Mọi nhân vật trong `roster.json` bắt buộc đo đạc và công bố đầy đủ:
-     - `canvas_size_px` (`[W, H]`), `foot_anchor_px` (`[ax, ay]`).
-     - `body_only_bbox_px` (rộng × cao phần thân thuần ở tư thế đứng) và `full_fx_bbox_px` (rộng × cao bao trọn kiếm khí / hào quang / chưởng lực cực đại).
-     - `reference_ppu_64` (quy đổi kích thước mét thế giới tại `64 PPU` và số ô Tile Map `32×32 px`) để đồng bộ tỷ lệ nhân vật với Scene Map tương lai.
-     - `pixel_sharpness_metrics` (`texel_scale_ratio`, `edge_acutance_sobel`, `alpha_hardness_pct`, `opaque_key_px == 0`, `enclosed_key_pockets == 0`, `outer_ring_spill_fraction`).
-3. **Chuẩn Giao Tiếp Toạ Độ & Thước Đo Sửa Lỗi Giữa Owner và Agent (`Owner ⇄ Agent Coordinate Protocol`)**:
-   - UI Test tại `localhost:8080` bắt buộc hỗ trợ khung kích thước động `[W, H]` theo từng nhân vật, thanh kéo frame (`frame scrubber`), thước đo pixel X/Y, toạ độ con trỏ + mã màu `RGBA`, và khoanh vùng `Rect(x, y, w, h)` xuất chuỗi `[DR7-EDIT-SPEC]` chuẩn xác 100%.
-
-
-4. **Khóa hướng nhìn nhân vật trên Map 2D (`Movement / Facing Contract`)**:
-   - Trước khi sinh bộ atlas theo hướng, ghi rõ trong hồ sơ nhân vật: kiểu nhìn map/camera, tập hướng cần vẽ, hướng di chuyển trên map, hướng thân/mặt, và hướng tác động vũ khí. Không dùng từ “trước/sau” khi chưa xác định nó là trái/phải trên màn hình hay mặt trước/lưng nhân vật.
-   - Không mặc định map 2D đồng nghĩa với nhìn ngang, top-down hoặc 4/8 hướng. Khi Owner chưa nêu rõ ánh xạ, hỏi trước phần sinh frame phụ thuộc hướng.
-   - Lật ngang chỉ đổi trái/phải; không tạo được mặt lưng từ mặt trước. Không dùng flip dọc để giả lập đổi hướng lên/xuống. Các hướng phải giữ cùng nhận diện, tỷ lệ, anchor và thiết kế vũ khí; kiểm tra chi tiết bất đối xứng khi dùng mirror.
-   - Tách vector di chuyển khỏi hướng nhìn khi có lùi/strafe hoặc đánh theo mục tiêu. Với mỗi clip, ghi rõ nhân vật quay về đâu, chân di chuyển thế nào và búa/vũ khí đánh về đâu; không tự suy hướng mặt chỉ từ vị trí trong atlas.
-   - **Xoay người, quật đuôi và đổi hướng phải có trọng lượng thật**: tạo các pose chuyển tiếp phù hợp trục xoay/góc camera, có thay đổi phối cảnh và che khuất đúng thứ tự, đầu/ngực/hông/chân/đuôi chuyển động liên tục, tiếp đất và trọng tâm hợp lý. Cấm dùng flip_h, xoay quad hoặc thu ngang một tấm ảnh như các frame của hành động xoay; mirror chỉ chọn bộ hướng trái/phải sau khi có chuyển tiếp hợp lệ, không thay thế hoạt ảnh quay đầu/quay thân. Timing60Hz phải tách lấy đà → tăng tốc vung/tác động → giảm tốc/hồi thế, ghi tick và kiểm tra tốc độ thực; không rải đều tick khiến xoay như lật bìa ảnh. Với Spinosaurus, pha vung đuôi `attack_heavy` phải nhanh hơn bản bị Owner loại; tăng tốc đơn thuần mà vẫn lật ảnh hoặc xé cơ thể vẫn FAIL. Không áp cứng tốc độ đó cho mọi sinh vật; thiết kế theo cơ thể và lực tác động.
+1. **Vòng lặp Tự Kiểm Thử (`Engine Verification Loop`)**:
+   - Mọi thay đổi asset/scene/core phải chạy `./loop.sh test` (Python unit + JS/WASM E2E + Godot 4 Headless + Compatibility/OpenGL3 shader check + Rust `cargo test`).
+   - **FAIL/sai thông số**: Phân tích → sửa → chạy `./loop.sh test`, tối đa **5 vòng cho mỗi vấn đề**; quá 5 vòng phải dừng, báo Owner kèm lỗi, bằng chứng và cách đã thử.
+   - **Cổng `motion_quality`**: Kiểm thử kỹ thuật `exit 0` không chứng nhận hoạt ảnh tự nhiên. Frame bị xé/hở khớp/mất kết nối/biến dạng/xuyên sai giải phẫu = **`FAIL`** dù test kỹ thuật pass. Cấm cắt xé ảnh tĩnh thành mảnh xoay/vá; luôn kiểm frame liên tiếp, vòng lặp, tốc độ thực trên 3 nền.
+2. **Đồng bộ 1:1 `Localhost ⇄ Godot Web ⇄ APK ⇄ iOS` (Chốt D9)**:
+   - Mọi demo, asset, UI/SafeArea, cấu hình map & bước tick `60Hz` phải dùng **cùng 1 nguồn** (`assets/`, `arena-stage.json`, `device-profiles.json`, `atlas.png`, `.tres`, `engine-export.json`, kiểm SHA-256 & `get_stage_metrics()`).
+3. **Dọn `/work` & Chỉ lưu Asset Hoàn Thiện (Chốt D6)**:
+   - Sau khi nhân vật/item chốt quy trình và duyệt chuyển char mới, **xóa toàn bộ file demo/trung gian trong `/work`**; không giữ rác, char nháp hay video thừa trong git, `assets/`, `scenes/`, `roster.json`.
+4. **Hai nơi Human Test bắt buộc, không đổi trang khi chọn nhân vật (Owner 2026-11-16)**:
+   - **Tab Human Test tại `localhost:8080`** là nơi xem từng clip và từng frame với scrubber, thước tọa độ, nền sáng/tối/ô cờ và tốc độ thật. Chọn nhân vật trong danh sách phải cập nhật ngay trong tab này; **cấm chuyển sang URL/trang demo khác**. Nhân vật đang chờ Owner duyệt được ghi rõ là `Human Test`, phân loại tướng/quái/boss đúng yêu cầu, tách khỏi roster phát hành.
+   - **Tab Sân Tập** là nơi thử gameplay thực trên **Godot Web** và **APK trên màn Android thực tế**. Trước khi mời Owner test, phải đưa cùng atlas, `.tres`, prefab, thông số size/speed/flight và hành vi tấn công/trúng đòn/chết vào Godot, export Web/APK, kiểm SHA-256 và chạy thử. Canvas2D riêng hoặc trang HTML giả lập không được nhận là Godot Web/Sân Tập thực.
+   - Asset chờ duyệt có thể nằm trong vùng `review/` được export có kiểm soát cho Godot Web/APK; không ghi là `finalized` trong `assets/roster.json`. Sau Owner Human Test OK mới chuyển vào bundle chính thức và dọn nguồn demo `/work`, `review/`.
+   - Với quái bay, xác nhận **hướng nòng súng/đầu trên pose nguồn** bằng pixel cụ thể; chiều chuyển động, hướng nhìn, điểm phát skill và lật ngang phải đồng bộ theo hướng đó ở Human Test, Godot Web và APK. Cấm suy hướng từ thứ tự ô trong sheet hoặc giữ hướng bay ngược nòng súng.
+5. **Chuẩn kiểm thử K70E & parity khi đóng gói/chốt version (Owner 2026-11-17)**: Redmi K70E thực tế là thiết bị chuẩn hiện tại. Mỗi lần đóng gói và chốt version phải đồng bộ 1:1 Godot chạy trực tiếp tại localhost với APK về cùng bản build, nguồn asset, map, camera, gameplay, cấu hình hiển thị và tick; kiểm bằng chứng build/hash và chạy thử, đối chiếu trên K70E thực tế trước khi kết luận đạt. So sánh tại cùng tỷ lệ viewport và trạng thái gameplay; không coi Canvas2D giả lập là Godot. Yêu cầu đồng bộ iOS và Godot Web tại Điều 5.2 vẫn áp dụng.
 
 ---
 
-**Chu kỳ di chuyển và tái sử dụng walk/run — Owner 2026-11-12**:
-- Walk phải là một vòng tiến pha liên tục `0→1→…→N−1→0` (bộ8frame: `0→7→0`), đủ hai nhịp chân đối nhau. Không dùng ping-pong, phát ngược `7→1`, bỏ frame ở biên hoặc nhánh loop riêng để chữa dáng đi sai.
-- Không đưa hai frame trùng hoặc gần trùng pha chuyển động vào chu kỳ; đặc biệt frame cuối phải là pha trước frame đầu, không sao lại tư thế đầu để “đóng vòng”. Lấy mẫu `[0,360°)` không lấy cả0°và360°. Kiểm tra mọi cặp trùng pixel, so thêm tư thế/chân và cadence ở biên cuối→đầu; khác màu vài pixel không đủ chứng minh pose khác. Hai chân phải đổi vai trò chân trụ/chân vung, tránh lò cò. Sai nhịp tiếp đất = motion FAIL dù hash frame khác nhau.
-- **Run phải có dáng chạy riêng** (Owner làm rõ 2026-11-12, thay thế hướng dẫn run=walk tăng tốc trước đó): walk chỉ là tiền đề tham khảo nhận diện, giải phẫu và nhịp chân. Không dùng lại toàn bộ frame/rect walk rồi tăng playback để nhận là run. Tạo pose chạy toàn thân riêng: sải dài, trọng tâm/chúi thân, pha đẩy chân/thu chân/tiếp đất phù hợp; vòng0..N−1→0 liên tục (8pose:0..7→0; thêm pose thì cập nhậtN), không ping-pong. Không áp cứng tỷ lệ duration0.5 giữa hai clip. Review cadence và biên cuối→đầu của run độc lập; tốc độ map tách khỏi tốc độ frame.
-- Turn bắt buộc trong atlas mới; ngoại lệ Owner: King Crab. Xoay phối cảnh thật hoặc cơ chế Owner chốt, giữ nhận diện master, kiểm riêng trái→phải và phải→trái; nối walk→turn→walk ở hai đầu đường/giới hạn trên Godot/localhost, không lật ảnh giả xoay. Sửa/test theo giới hạn 5 vòng; giữ nguyên heavy đã duyệt.
+## Điều 6. Phân Biệt `skills.md` & `.agents/skills/`
 
-## Điều 8. Tiêu Chuẩn Developer (Unit Test, CI/CD, Versioning) & Bộ Nhớ Bắt Buộc (`./loop.sh`)
+- **`.agents/skills/*`**: Thư viện công cụ kỹ thuật (tách nền, `generate2dsprite`, `video2dsprite`, `generate2dmap`, `export_engine.py`).
+- **`skills.md`**: Nhật ký quy trình nghiệp vụ đã qua **Owner Human Test OK** (đọc trước khi làm atlas; chỉ ghi sau khi Owner nghiệm thu). Luôn xem `filmstrip` trên 3 nền (sáng, tối, ô cờ) trước Human Test.
 
-1. **Unit Test, CI/CD & SemVer**:
-   - Mọi module xử lý dữ liệu, Godot prefab/bundle, Rust WASM/combat core và giao diện 3 Tab phải có kiểm thử tự động chạy qua `./loop.sh test` (`exit 0`) và tích hợp CI (`.github/workflows/ci.yml`).
-   - Phiên bản nguồn duy nhất tại `VERSION` theo chuẩn `MAJOR.MINOR.PATCH`, đồng bộ chặt với `state.json`, `project.godot` và `engines/rust_combat_sim/Cargo.toml`.
-2. **Quy tắc Đọc / Ghi Hệ Thống Bộ Nhớ (`./loop.sh`)**:
-   - **`AGENTS.md` & `state.json` (BẮT BUỘC MỌI PHIÊN)**: Chạy `./loop.sh status` ngay khi vào phiên; cập nhật `state.json` ngay sau mỗi task để chống mất ngữ cảnh khi đứt kết nối.
-   - **`skills.md` (ĐỌC TRƯỚC KHI NHẬN XỬ LÝ ATLAS)**: Chỉ ghi vào sau khi Owner nghiệm thu Human Test thành công.
-   - **`lerning.md` (ĐỌC TRƯỚC KHI CODE / SỬA ASSET)**: Đọc để tránh lặp lại lỗi kỹ thuật cũ; ghi bổ sung ngay sau khi gặp lỗi mới và đã sửa xong có kiểm chứng.
+---
+
+## Điều 7. Chuẩn Bộ Hoạt Ảnh, Độ Nét, Hướng Nhìn, Item (`assets/items/`) & Bản Đồ 2D (`assets/maps/`)
+
+1. **Bộ clip chuẩn**: Tham chiếu `idle`, `walk`, `run`, `jump`, `attack_light`, `attack_heavy`, `power_up`, `aura_loop`, `hit`, `ko` (+ kỹ năng đặc trưng). **Owner chốt phạm vi chung: không tạo `guard` và `win`**; giữ WARN tham chiếu không tạo clip giả. Tướng/quái không có hiệu ứng vụ nổ va chạm riêng kèm sheet/atlas hoặc yêu cầu riêng mặc định dùng `assets/fx/powerup_explosion/` (`scale 0.68`).
+2. **Mốc độ nét chuẩn — T-rex (`2026-11-12`) & Thẩm mỹ mặc định**:
+   - Đối chiếu [t-rex-sharpness-reference.png](docs/art-standards/t-rex-sharpness-reference.png) và [character-pixel-sharpness.json](docs/art-standards/character-pixel-sharpness.json): **1px gameplay, Nearest**, alpha thân 100%; VFX được alpha mềm (`idle0` mẫu 384×256, anchor `[176,224]`, Sobel **245.516**). Đo bằng `python3 tools/art/measure_pixel_sharpness.py <frame.png>`, không blur/sharpen/dither ép số.
+   - Quái thú/sinh vật mặc định phong cách **"Hung tợn"** (nanh nhọn, mắt dữ, vuốt bén, màu đậm) trừ khi Owner chỉ định riêng. Công bố đủ metrics chuẩn trong `roster.json`.
+3. **Giao tiếp tọa độ UI**: Hỗ trợ `[W, H]`, scrubber, thước X/Y, `RGBA`, khoanh `Rect` → `[DR7-EDIT-SPEC]`.
+4. **Hướng nhìn, Chu kỳ Walk/Run & Turn**:
+   - Khóa kiểu camera/hướng nhìn/hướng đánh rõ ràng; không flip dọc hay suy hướng mặt từ vị trí atlas.
+   - `walk`: vòng tiến pha liên tục `0→N-1→0`, đủ 2 nhịp chân đối, cấm ping-pong hay trùng pose đóng vòng. `run`: dáng chạy riêng (không tăng tốc walk). `turn`: bắt buộc trong atlas mới (ngoại lệ King Crab), xoay phối cảnh thật (cấm `flip_h`/thu ngang lật bìa), timing lấy đà → vung → hồi thế.
+5. **Chuẩn Bắt Buộc Cho Mọi Item Game (`assets/items/`)**:
+   - Phải convert về pixel chuẩn trước khi đóng gói `1 PNG atlas, 60Hz Nearest, alpha thân 100% 0/255, .gdignore source/&clips/`, và đạt đủ **4 yếu tố** đồng bộ 1:1 Godot ⇄ Localhost ⇄ Mobile:
+     - **Icon Balo (`bag` mode)**: Icon tĩnh nguyên bản, **ẩn 100% hiệu ứng**.
+     - **Quét sáng chéo (`diagonal_body_sheen`)**: Nằm gọn trong silhouette item, chỉ bật khi nằm chờ trên map.
+     - **Rơi từ quái (`drop_physics`)**: Nhảy lên `10px` → rơi chạm `ground_y` → lăn `10px` rồi mới bật sáng chéo.
+     - **Nhặt vào người & Sân Tập (`pickup_physics`)**: Tắt sáng chéo, bay vào thân người nhặt và **thu nhỏ dần** đến khi vào balo; Sân Tập có nút **Ẩn/Hiện** + test rơi & nhặt.
+6. **Chuẩn Bắt Buộc Cho Bản Đồ 2D & Dựng Tile Khối Từ Ảnh Mẫu (`assets/maps/`)**:
+   - Mọi ảnh map mẫu Owner gửi đều **không được** dùng làm tấm ảnh phẳng duy nhất thiếu mặt sàn tương tác; agent **BẮT BUỘC** giữ nguyên tài nguyên/bản gốc và đồng bộ 1:1 Godot ⇄ Localhost ⇄ APK/iOS qua `terrain.json` / `arena-stage.json`:
+     - **Hậu Cảnh Trung Thực Bản Gốc & Phủ Kín Mọi Tỷ Lệ Màn Hình (`D1 expand`)**: Giữ nguyên ảnh gốc về màu và bố cục; trên K70E/iPad dùng `cover` với cùng một hệ số X/Y cho riêng nền, cắt phần vượt khung, không dùng cánh ghép hai bên hoặc dải đen trên/dưới. Nhân vật và va chạm giữ tỷ lệ đều, `Nearest`, không kéo giãn pixel; mặt đất tile phải phủ tới đáy viewport. Không AI vẽ lại hoặc lật gương nguồn.
+     - **TileSet Khối Đất Ngang `32×32` (`TileMapLayer` + `StaticBody2D`, scale `2× = 64px` khớp `ppu_reference=64`)**: Bóc tách trực tiếp màu sắc và kết cấu vốn có từ ảnh mẫu gốc để dựng 1 bục sàn ngang góc nhìn `side-view` (`ground_y`) liền mạch không vết ghép; chỉ bổ sung bục phụ (`One-Way Platforms`) khi map được chỉ định rõ (Sân Tập giữ đúng 1 bục sàn ngang chuẩn).
+     - **Tương Tác Chân–Đất (`Ground Interaction FX`)**: Bắt buộc có **Dynamic Pixel Contact Shadow** bám bề mặt đỡ gần nhất bên dưới chân (co nhỏ & giảm alpha theo độ cao nhảy/bay; ẩn khi độn thổ; cấm vẽ elip thô) và **Footstep / Landing Dust Pixel FX** khi tiếp đất/bứt chạy.
+     - **Duyệt Demo Trước Khi Nhân Rộng**: Với map mẫu mới, xuất demo chạy thử trên cả Godot & Sân Tập `localhost:8080` để Owner nghiệm thu trực quan trước khi nhân bản `35 map` (`D10`).
+7. **Kích thước map độc lập màn hình & camera ngang (Owner 2026-11-17)**:
+   - Neo kích thước thế giới và biên gameplay của map theo góc nhìn K70E được Owner chọn làm chuẩn; lưu biên theo tọa độ thế giới dùng chung cho mọi thiết bị, có thể mở rộng chiều dài theo từng map. Không lấy mép viewport làm biên map, va chạm hay giới hạn di chuyển; tọa độ, khoảng cách và kết quả combat phải thống nhất giữa các client.
+   - Thiết bị có vùng nhìn ngang hẹp hơn chuẩn phải cuộn camera theo player khi đi về phía cuối map, giới hạn camera tại biên map chuẩn; không thay đổi chiều dài map hay kéo giãn nhân vật. Vùng nhìn và camera là hiển thị cục bộ, không thay đổi trạng thái thế giới dùng chung.
+   - Kích thước số cụ thể của map chuẩn và chính sách chiều cao cho màn hình cao hơn K70E cần đo/đối chiếu và Owner chốt; không tự coi kích thước viewport 1920×1080 là biên map đã duyệt. Quy định mới về biên thế giới thay thế cách giới hạn đi lại theo mép màn hình trước đây; việc triển khai và kiểm thử phải được xác minh riêng.
+8. **Bậc địa hình rắn và tương tác skill (Owner 2026-11-17)**: Mọi bậc hạ cấp phải có mặt ngang đủ rộng, tương đương bậc cao trong cùng đoạn map; mặt cắt đứng và mặt sàn dùng chung tọa độ với ảnh, va chạm và bóng tiếp xúc. Nhân vật đi xuống mép bậc được rơi theo trọng lực; đi ngược lên bị mặt cắt chặn và chỉ vượt khi nhảy đủ cao, không tự nâng chân/trồi lên. Skill/đạn phải dừng hoặc va chạm với mặt cắt và khối đất, không xuyên địa hình. Kiểm đường đi hai chiều và đường bay skill trên các cao độ trước Human Test; áp dụng cho mọi map về sau.
+   - Căn chân nhân vật theo **mặt đi được trong ảnh**, không theo mép trước của vách đá; đo ở từng bậc và ở cả frame vừa vượt mép, tránh đứng lơ lửng hoặc chìm sâu trong đất. Nhân vật AI dùng cùng cao độ địa hình.
+   - **Nối map và cây tiền cảnh (Owner 2026-11-18)**: Ảnh map là lớp cuối cùng; cây đặt lớp ngay trên map nhưng dưới mọi nhân vật/FX (`Z_map < Z_cây < Z_nhân_vật`), gốc cây nằm dưới mặt đi trên phần vách đất như ảnh mẫu. Với từng bậc mới, đo mặt cắt **tại độ cao chân nhân vật trên ảnh** rồi dùng đúng X đó cho va chạm, bóng, AI và skill; cấm lấy mép lùi phía sau làm X va chạm khiến nhân vật đi quá mép 30–50 px vẫn đứng trên không. Căn chân lùi vào trong mặt sàn theo ảnh mẫu Owner (ảnh 2026-11-18: khoảng 23 px màn hình từ chân đến mép trước), không đặt chân sát mép trước; nếu cao độ mới làm mất độ rơi thì sinh lại **toàn bộ đoạn ảnh nối** với mặt sàn sâu hơn và mép nối liền mạch, không cắt xé ảnh cũ để vá. Kiểm frame đầu tiên tâm chân vượt mặt cắt phải bắt đầu rơi, và kiểm tiếp đất/đi ngược/đạn ở mọi bậc trước Human Test.
+   - Nghi thức triệu hồi Shenron và hiệu ứng đặt theo **tâm camera hiện tại** cùng cao độ sàn tại khu vực người gọi; không quay về tâm map gốc khi người chơi đã đi sang khu khác.
+
+---
+
+## Điều 8. Tiêu Chuẩn Developer, SemVer & Bộ Nhớ (`./loop.sh`)
+
+1. **Test, CI/CD & SemVer**: Mọi module (data, Godot prefab/layout, Rust/WASM, server transport, UI preview) phải pass `./loop.sh test` (`exit 0`) & `.github/workflows/ci.yml`. Đồng bộ SemVer tại `VERSION`, `state.json`, `project.godot`, `engines/rust_combat_sim/Cargo.toml`.
+2. **Quy tắc Đọc/Ghi File & Bộ Nhớ**:
+   - Chạy `./loop.sh status` ngay đầu phiên; đọc `state.json` và giữ `AGENTS.md <= 24,000 bytes`.
+   - Đọc `skills.md` trước khi làm atlas; chỉ ghi sau khi Owner nghiệm thu Human Test OK.
+   - Đọc `lerning.md` trước khi code/sửa asset; ghi ngay sau khi fix lỗi mới có kiểm chứng.
+   - Cập nhật `state.json` sau mỗi task (`./loop.sh log-task`).

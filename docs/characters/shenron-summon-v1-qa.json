@@ -1,0 +1,97 @@
+{
+  "revision": "shenron-summon-v1",
+  "updated_at": "2026-11-15T10:39:50.112607+00:00",
+  "technical_checks": {
+    "command": "./loop.sh test",
+    "exit_code": 0,
+    "log": "work/rituals/shenron_summon/v1/evidence/integration-test-final.log"
+  },
+  "runtime_parity": {
+    "native_samples": 15,
+    "browser_wasm_samples": 15,
+    "errors": [],
+    "maximum_numeric_difference": [
+      5.7705970903043635e-05,
+      "/4/balls/2/position/0"
+    ],
+    "numeric_tolerance": 0.0002,
+    "precision_note": "Godot Vector2 float32 vs JavaScript float64/WASM f32. Texture regions, tick counts and asset bytes match exactly."
+  },
+  "browser": {
+    "errors": [],
+    "telemetry": {
+      "phases": [
+        {
+          "phase": "flight",
+          "tick": 0,
+          "wall_ms": 0.5
+        },
+        {
+          "phase": "gather",
+          "tick": 167.99999999999997,
+          "wall_ms": 2614.800000000745
+        },
+        {
+          "phase": "vanish",
+          "tick": 211.99199999999996,
+          "wall_ms": 3350.9000000003725
+        },
+        {
+          "phase": "ground_glow",
+          "tick": 228.98999999999998,
+          "wall_ms": 3639.0999999996275
+        },
+        {
+          "phase": "dragon_reveal",
+          "tick": 270.99,
+          "wall_ms": 4334.9000000003725
+        },
+        {
+          "phase": "ready",
+          "tick": 362.9879999999999,
+          "wall_ms": 5872.300000000745
+        }
+      ],
+      "launches": [
+        {
+          "number": 1,
+          "tick": 0
+        },
+        {
+          "number": 2,
+          "tick": 43.00200000000002
+        },
+        {
+          "number": 3,
+          "tick": 43.00200000000002
+        },
+        {
+          "number": 4,
+          "tick": 54
+        },
+        {
+          "number": 5,
+          "tick": 75.00000000000001
+        },
+        {
+          "number": 6,
+          "tick": 96.00000000000001
+        },
+        {
+          "number": 7,
+          "tick": 109.99799999999998
+        }
+      ],
+      "tick": 395.9879999999999
+    },
+    "dismiss": true,
+    "replay": true,
+    "bodyAtlasSha": "0bec53ff60aeb7d5407ed701dd726830653d6c10b13f6a30744a0d02b27858d0"
+  },
+  "sequence_contract": "assets/rituals/shenron_summon/sequence.json",
+  "body_revision": "idle-v4-breath",
+  "visual_review": "reviewed_pending_owner",
+  "owner_approved": false,
+  "source_extraction": "work/rituals/shenron_summon/v1/extraction.json",
+  "evidence": "work/rituals/shenron_summon/v1/evidence/"
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "dr7-studio.device_profiles.v1",
+  "base_viewport_px": [1920, 1080],
+  "default_profile_id": "redmi_k70e",
+  "profiles": [
+    {
+      "id": "redmi_k70e",
+      "name": "Redmi K70E (Owner Primary)",
+      "width_px": 2712,
+      "height_px": 1220,
+      "dpr": 3.0,
+      "aspect_label": "20:9",
+      "safe_area_px": [96, 0, 2568, 1184],
+      "notch_rects_px": [[24, 540, 56, 140]],
+      "golden_owner_phone": true
+    },
+    {
+      "id": "android_20_9_1080",
+      "name": "Android 20:9 FHD+ (1080p)",
+      "width_px": 2400,
+      "height_px": 1080,
+      "dpr": 2.625,
+      "aspect_label": "20:9",
+      "safe_area_px": [80, 0, 2272, 1048],
+      "notch_rects_px": [[20, 480, 48, 120]]
+    },
+    {
+      "id": "galaxy_s24",
+      "name": "Galaxy S24 (19.5:9 FHD+)",
+      "width_px": 2340,
+      "height_px": 1080,
+      "dpr": 3.0,
+      "aspect_label": "19.5:9",
+      "safe_area_px": [76, 0, 2216, 1048],
+      "notch_rects_px": [[20, 480, 48, 120]]
+    },
+    {
+      "id": "fhd_16_9",
+      "name": "Desktop / Tablet FHD (16:9 Golden L3)",
+      "width_px": 1920,
+      "height_px": 1080,
+      "dpr": 1.0,
+      "aspect_label": "16:9",
+      "safe_area_px": [0, 0, 1920, 1080],
+      "notch_rects_px": [],
+      "golden_l3_desktop": true
+    },
+    {
+      "id": "iphone_15_pro",
+      "name": "iPhone 15 Pro (19.5:9)",
+      "width_px": 2556,
+      "height_px": 1179,
+      "dpr": 3.0,
+      "aspect_label": "19.5:9",
+      "safe_area_px": [144, 0, 2268, 1116],
+      "notch_rects_px": [[24, 468, 54, 243]]
+    },
+    {
+      "id": "iphone_15_pro_max",
+      "name": "iPhone 15 Pro Max / 16 Plus",
+      "width_px": 2796,
+      "height_px": 1290,
+      "dpr": 3.0,
+      "aspect_label": "19.5:9",
+      "safe_area_px": [156, 0, 2484, 1221],
+      "notch_rects_px": [[24, 522, 54, 246]]
+    },
+    {
+      "id": "android_qhd_16_9",
+      "name": "Android QHD (16:9)",
+      "width_px": 2560,
+      "height_px": 1440,
+      "dpr": 3.5,
+      "aspect_label": "16:9",
+      "safe_area_px": [0, 0, 2560, 1440],
+      "notch_rects_px": []
+    },
+    {
+      "id": "android_720p_20_9",
+      "name": "Android HD+ 720p (20:9 <1080p)",
+      "width_px": 1600,
+      "height_px": 720,
+      "dpr": 2.0,
+      "aspect_label": "20:9",
+      "safe_area_px": [52, 0, 1516, 696],
+      "notch_rects_px": [[12, 320, 32, 80]],
+      "below_1080p": true
+    },
+    {
+      "id": "ipad_10th",
+      "name": "iPad 10th Gen (4:3)",
+      "width_px": 2360,
+      "height_px": 1640,
+      "dpr": 2.0,
+      "aspect_label": "4:3",
+      "safe_area_px": [0, 40, 2360, 1560],
+      "notch_rects_px": []
+    }
+  ]
+}

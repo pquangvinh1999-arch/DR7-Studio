@@ -1,0 +1,184 @@
+{
+  "schema": "dr7-studio.item_qa.v1",
+  "item_set_id": "dragon_balls",
+  "status": "owner_approved",
+  "atlas_sha256": "5ee1a97b09624b6c15c7a895ff436cb7aab9ccd10964d5485dcace3a59e40bb2",
+  "tres_sha256": "2f3c4dab5e21a3918b4fb4a458f5ff096c9a9c7c5ddd2bad07320bec89c6b5a5",
+  "export_sha256": "07294ccb2fe6e920beb9ba43bcfb64fe78a6c116ce5f75917c560998d99f5da7",
+  "frame_size": [
+    32,
+    32
+  ],
+  "map_anchor_px": [
+    16,
+    32
+  ],
+  "bag_anchor_px": [
+    16,
+    16
+  ],
+  "sparkle_total_ticks": 72,
+  "sharpness_by_ball": {
+    "ball_01": {
+      "file": "/workspaces/DR7-Studio/assets/items/dragon_balls/source/frames_1x/dragon_ball_01.png",
+      "file_sha256": "403a86b875a46325c1227c9c36cf48a9f464f5d1fba16b90c1ee34242c3a0b70",
+      "canvas_size_px": [
+        32,
+        32
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "visible_pixels": 804,
+      "rgb_colors": 494,
+      "edge_acutance_sobel": 572.531,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.9469914040114613,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    },
+    "ball_02": {
+      "file": "/workspaces/DR7-Studio/assets/items/dragon_balls/source/frames_1x/dragon_ball_02.png",
+      "file_sha256": "f19d0d65aeb9799e668ac14d7a0ea58d543023fc018fa012df5d6cac2b648d7b",
+      "canvas_size_px": [
+        32,
+        32
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "visible_pixels": 805,
+      "rgb_colors": 512,
+      "edge_acutance_sobel": 573.302,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.9478138222849083,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    },
+    "ball_03": {
+      "file": "/workspaces/DR7-Studio/assets/items/dragon_balls/source/frames_1x/dragon_ball_03.png",
+      "file_sha256": "243a8fd9ab1cfdee435a2f33fbb4093d943f96c00963ceff1b280df81493fb1c",
+      "canvas_size_px": [
+        32,
+        32
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "visible_pixels": 804,
+      "rgb_colors": 534,
+      "edge_acutance_sobel": 576.55,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.9503448275862069,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    },
+    "ball_04": {
+      "file": "/workspaces/DR7-Studio/assets/items/dragon_balls/source/frames_1x/dragon_ball_04.png",
+      "file_sha256": "ef6d7d849e63004666c89169e3f82e783de0cbdf9da7687364f48f6c5a0c8eed",
+      "canvas_size_px": [
+        32,
+        32
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "visible_pixels": 798,
+      "rgb_colors": 541,
+      "edge_acutance_sobel": 583.525,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.956343792633015,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    },
+    "ball_05": {
+      "file": "/workspaces/DR7-Studio/assets/items/dragon_balls/source/frames_1x/dragon_ball_05.png",
+      "file_sha256": "11e7c028360b0ca3fffc50d5d61c0a96e4a3f4734a77197e59d03f34ac84c5a2",
+      "canvas_size_px": [
+        32,
+        32
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "visible_pixels": 804,
+      "rgb_colors": 549,
+      "edge_acutance_sobel": 563.522,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.9611650485436893,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    },
+    "ball_06": {
+      "file": "/workspaces/DR7-Studio/assets/items/dragon_balls/source/frames_1x/dragon_ball_06.png",
+      "file_sha256": "965c7e0ff92bb9d5f5a60b07acdc26128c8d453f6323e6643c0859b5c8ae9f93",
+      "canvas_size_px": [
+        32,
+        32
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "visible_pixels": 803,
+      "rgb_colors": 578,
+      "edge_acutance_sobel": 564.583,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.9713168187744459,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    },
+    "ball_07": {
+      "file": "/workspaces/DR7-Studio/assets/items/dragon_balls/source/frames_1x/dragon_ball_07.png",
+      "file_sha256": "97926d61bed43884a5e1a0f0640dc5a17c24b4875a606477268fd7bbbfaa63a0",
+      "canvas_size_px": [
+        32,
+        32
+      ],
+      "body_bbox_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "visible_pixels": 800,
+      "rgb_colors": 595,
+      "edge_acutance_sobel": 575.753,
+      "alpha_hardness_pct": 100.0,
+      "visible_alpha_hardness_pct": 100.0,
+      "minimum_horizontal_constant_rgba_run_px": 1,
+      "single_pixel_run_fraction": 0.9647218453188603,
+      "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+      "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid."
+    }
+  }
+}

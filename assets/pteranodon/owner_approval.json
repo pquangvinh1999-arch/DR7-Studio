@@ -41,7 +41,7 @@
   "release_version": "0.7.0",
   "qa_report": "docs/characters/pteranodon-size-sync-v10-qa.json",
   "approval_scope": "Owner approved the157x107 size sample and authorized deterministic size-only application to all existing body/FX frames. Source motion remains previously approved.",
-  "source_approval_receipt": "work/characters/pteranodon/size-sync-v10/source/owner_approval.json",
+  "source_approval_receipt": "docs/contracts/pteranodon/size-sync-v10-source-approval.json",
   "source_atlas_sha256": "8789d914abf677ac043ac16f6cf8713c0f2a28bb8f7acb223e874b9aa39cb005",
   "body_only_bbox_px": {
     "x": 98,
@@ -49,7 +49,7 @@
     "w": 157,
     "h": 107
   },
-  "size_transform": "work/characters/pteranodon/size-sync-v10/transform.json",
+  "size_transform": "docs/contracts/pteranodon/size-sync-v10-transform.json",
   "reconfirmed_at": "2026-11-12T09:51:08.495780+00:00",
   "reconfirmation_message": "ok chốt tasmanian và thông số điều chỉnh lúc này đồng bộ bundle godot theo đúng qui trình sau đó push code lên main giúp anh để sang nhân vật tiếp theo",
   "tres_sha256": "fe7399b6ec28f664044072b0462e447367a200f865bdd239a82ab384401d455b",

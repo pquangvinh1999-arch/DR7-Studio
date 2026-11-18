@@ -1,0 +1,527 @@
+{
+  "revision": "idle-v4-breath",
+  "updated_at": "2026-11-15T10:39:50.112607+00:00",
+  "route": "built-in image_gen",
+  "art_source": "host_image",
+  "owner_intent": "Preserve approved eight wave phases of tail and whiskers; add chest/throat breathing and synchronize with Dragon Ball summoning.",
+  "technical_checks": {
+    "full_test_exit_code": 0,
+    "test_log": "work/rituals/shenron_summon/v1/evidence/integration-test-final.log",
+    "godot_import_exit_code": 0,
+    "wasm_build_exit_code": 0,
+    "pages": 1,
+    "atlas_size_px": [
+      1166,
+      830
+    ],
+    "atlas_sha256": "0bec53ff60aeb7d5407ed701dd726830653d6c10b13f6a30744a0d02b27858d0",
+    "canvas_size_px": [
+      384,
+      272
+    ],
+    "anchor_px": [
+      192,
+      240
+    ],
+    "sampling": "nearest",
+    "scale": 2.76,
+    "tick_hz": 60,
+    "ticks": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12
+    ],
+    "duration_ms": 1600
+  },
+  "motion_quality": {
+    "status": "owner_rejected",
+    "method": "imagegen_complete_body_keyframes",
+    "atlas_sha256": "0bec53ff60aeb7d5407ed701dd726830653d6c10b13f6a30744a0d02b27858d0",
+    "owner_approved": false,
+    "checks": {
+      "body_connections": true,
+      "whole_pose_sequence": true,
+      "perspective_turns": false,
+      "phase_timing": true,
+      "three_backgrounds": true,
+      "character_identity": true
+    },
+    "not_applicable_checks": {
+      "perspective_turns": "Owner chose front_only stationary idle-only; no turn requested."
+    },
+    "unresolved_structural_failures": [],
+    "review_evidence": "work/characters/shenron/idle-v4-breath/evidence/review.json",
+    "naturalness_verdict": "owner_rejected",
+    "revision": "idle-v4-breath",
+    "owner_feedback": "Breathing should move the whole hovering body like four-frame idle."
+  },
+  "frames": {
+    "frames": [
+      {
+        "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v4-breath/idle_00.png",
+        "file_sha256": "08ace1e7362bfa65902e36ace917330e931ef66ab44ba5b611b1f31443f483ca",
+        "canvas_size_px": [
+          384,
+          272
+        ],
+        "body_bbox_px": [
+          45,
+          27,
+          294,
+          201
+        ],
+        "visible_pixels": 30266,
+        "rgb_colors": 96,
+        "edge_acutance_sobel": 419.261,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "minimum_horizontal_constant_rgba_run_px": 1,
+        "single_pixel_run_fraction": 0.807646465572568,
+        "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+        "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+        "frame": 0,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "master_palette_subset": true,
+        "eyes": [
+          {
+            "red_pixels": 18,
+            "bbox": [
+              170,
+              73,
+              6,
+              5
+            ]
+          },
+          {
+            "red_pixels": 19,
+            "bbox": [
+              184,
+              73,
+              5,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v4-breath/idle_01.png",
+        "file_sha256": "272d00564dd32980f2bc529efcfb04fb98b7ea89cb44376f1e20eb6c18d98241",
+        "canvas_size_px": [
+          384,
+          272
+        ],
+        "body_bbox_px": [
+          45,
+          27,
+          294,
+          192
+        ],
+        "visible_pixels": 29884,
+        "rgb_colors": 93,
+        "edge_acutance_sobel": 485.264,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "minimum_horizontal_constant_rgba_run_px": 1,
+        "single_pixel_run_fraction": 0.6899469047202287,
+        "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+        "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+        "frame": 1,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "master_palette_subset": true,
+        "eyes": [
+          {
+            "red_pixels": 20,
+            "bbox": [
+              170,
+              73,
+              6,
+              5
+            ]
+          },
+          {
+            "red_pixels": 18,
+            "bbox": [
+              183,
+              73,
+              7,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v4-breath/idle_02.png",
+        "file_sha256": "6e580ac196d800a1295e98e03f7d4c09c1d7e689c73bafa7f7c75d0cb7a95401",
+        "canvas_size_px": [
+          384,
+          272
+        ],
+        "body_bbox_px": [
+          45,
+          27,
+          294,
+          227
+        ],
+        "visible_pixels": 29779,
+        "rgb_colors": 93,
+        "edge_acutance_sobel": 440.502,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "minimum_horizontal_constant_rgba_run_px": 1,
+        "single_pixel_run_fraction": 0.6984044398196323,
+        "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+        "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+        "frame": 2,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "master_palette_subset": true,
+        "eyes": [
+          {
+            "red_pixels": 19,
+            "bbox": [
+              170,
+              73,
+              6,
+              5
+            ]
+          },
+          {
+            "red_pixels": 16,
+            "bbox": [
+              183,
+              73,
+              6,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v4-breath/idle_03.png",
+        "file_sha256": "8ac46b6a836b9615fabf99b40761f989e06d801eda0a13e0881bcba765ad85f9",
+        "canvas_size_px": [
+          384,
+          272
+        ],
+        "body_bbox_px": [
+          45,
+          27,
+          297,
+          209
+        ],
+        "visible_pixels": 30303,
+        "rgb_colors": 95,
+        "edge_acutance_sobel": 457.592,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "minimum_horizontal_constant_rgba_run_px": 1,
+        "single_pixel_run_fraction": 0.7138816245930512,
+        "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+        "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+        "frame": 3,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "master_palette_subset": true,
+        "eyes": [
+          {
+            "red_pixels": 19,
+            "bbox": [
+              170,
+              73,
+              6,
+              5
+            ]
+          },
+          {
+            "red_pixels": 18,
+            "bbox": [
+              183,
+              73,
+              7,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v4-breath/idle_04.png",
+        "file_sha256": "287fea4e8a27ab19455452a5030b0b23bc275ac1cdee0506dc8090b570cf0467",
+        "canvas_size_px": [
+          384,
+          272
+        ],
+        "body_bbox_px": [
+          43,
+          27,
+          296,
+          207
+        ],
+        "visible_pixels": 30685,
+        "rgb_colors": 96,
+        "edge_acutance_sobel": 449.479,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "minimum_horizontal_constant_rgba_run_px": 1,
+        "single_pixel_run_fraction": 0.7467311850097808,
+        "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+        "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+        "frame": 4,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "master_palette_subset": true,
+        "eyes": [
+          {
+            "red_pixels": 16,
+            "bbox": [
+              170,
+              73,
+              6,
+              5
+            ]
+          },
+          {
+            "red_pixels": 16,
+            "bbox": [
+              184,
+              73,
+              6,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v4-breath/idle_05.png",
+        "file_sha256": "9eca76dcd959efffe02613bfcaf3d96e25c822a7e20f21a6ae0068379e62f3ac",
+        "canvas_size_px": [
+          384,
+          272
+        ],
+        "body_bbox_px": [
+          45,
+          27,
+          294,
+          193
+        ],
+        "visible_pixels": 29190,
+        "rgb_colors": 95,
+        "edge_acutance_sobel": 463.252,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "minimum_horizontal_constant_rgba_run_px": 1,
+        "single_pixel_run_fraction": 0.7216708474206566,
+        "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+        "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+        "frame": 5,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "master_palette_subset": true,
+        "eyes": [
+          {
+            "red_pixels": 22,
+            "bbox": [
+              170,
+              73,
+              7,
+              5
+            ]
+          },
+          {
+            "red_pixels": 20,
+            "bbox": [
+              183,
+              73,
+              7,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v4-breath/idle_06.png",
+        "file_sha256": "552867a6bc0feebca2fc31ec8674b6256ec1f56772c41006a47ecc0271436b8a",
+        "canvas_size_px": [
+          384,
+          272
+        ],
+        "body_bbox_px": [
+          46,
+          27,
+          293,
+          230
+        ],
+        "visible_pixels": 29294,
+        "rgb_colors": 87,
+        "edge_acutance_sobel": 468.847,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "minimum_horizontal_constant_rgba_run_px": 1,
+        "single_pixel_run_fraction": 0.669693890511876,
+        "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+        "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+        "frame": 6,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "master_palette_subset": true,
+        "eyes": [
+          {
+            "red_pixels": 18,
+            "bbox": [
+              170,
+              73,
+              6,
+              5
+            ]
+          },
+          {
+            "red_pixels": 18,
+            "bbox": [
+              183,
+              73,
+              6,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "file": "/workspaces/DR7-Studio/work/characters/shenron/idle-v4-breath/idle_07.png",
+        "file_sha256": "99df3f373ab8a98c3de54dae10f7ebee65f1d7b51e8acfed86afa0e1d09fe20c",
+        "canvas_size_px": [
+          384,
+          272
+        ],
+        "body_bbox_px": [
+          45,
+          27,
+          294,
+          200
+        ],
+        "visible_pixels": 29209,
+        "rgb_colors": 95,
+        "edge_acutance_sobel": 452.752,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "minimum_horizontal_constant_rgba_run_px": 1,
+        "single_pixel_run_fraction": 0.7486689123112029,
+        "method": "BT709 gray; transparent RGB zeroed; scipy Sobel unnormalized/default reflect; inner binary alpha boundary; binary erosion default connectivity1",
+        "limits": "No automatic visual/anatomy/animation verdict; run lengths do not alone measure perceived sharpness or prove a texel grid.",
+        "frame": 7,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "master_palette_subset": true,
+        "eyes": [
+          {
+            "red_pixels": 18,
+            "bbox": [
+              170,
+              73,
+              6,
+              5
+            ]
+          },
+          {
+            "red_pixels": 20,
+            "bbox": [
+              183,
+              73,
+              7,
+              5
+            ]
+          }
+        ]
+      }
+    ],
+    "adjacent_transitions": [
+      {
+        "from": 0,
+        "to": 1,
+        "rgba_mae": 8.022123448988971,
+        "changed_pixels": 27427
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "rgba_mae": 7.219762465533088,
+        "changed_pixels": 19713
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "rgba_mae": 7.2249899471507355,
+        "changed_pixels": 20070
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "rgba_mae": 7.506340475643382,
+        "changed_pixels": 22458
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "rgba_mae": 7.152827244178922,
+        "changed_pixels": 22727
+      },
+      {
+        "from": 5,
+        "to": 6,
+        "rgba_mae": 6.840403837316177,
+        "changed_pixels": 20096
+      },
+      {
+        "from": 6,
+        "to": 7,
+        "rgba_mae": 6.585748410692402,
+        "changed_pixels": 21369
+      },
+      {
+        "from": 7,
+        "to": 0,
+        "rgba_mae": 6.395146388633578,
+        "changed_pixels": 26165
+      }
+    ]
+  },
+  "canvas_padding": {
+    "original_size_px": [
+      384,
+      256
+    ],
+    "new_size_px": [
+      384,
+      272
+    ],
+    "reason": "Phase6 tail bbox extends through canvas y257; old256px canvas would clip. Add16transparentrowsbelow allposes; keep origin, anchor and body pixels unchanged.",
+    "master0_top_384x256_rgba_equal": true,
+    "master0_bottom16_transparent": true
+  },
+  "warnings": [
+    "Owner-excluded reference clips remain WARN; motion reviewed_pending_owner, not approved. See integration-test-1.log."
+  ],
+  "evidence": {
+    "wave_comparison": "work/characters/shenron/idle-v4-breath/evidence/breath-wave-comparison.json",
+    "playback": "work/characters/shenron/idle-v4-breath/evidence/browser-playback-unrecorded.json",
+    "generation": "work/characters/shenron/idle-v4-breath/evidence/generation.json",
+    "repair": "work/characters/shenron/idle-v4-breath/evidence/generation-repair.json"
+  },
+  "visual_review": {
+    "status": "reviewed_pending_owner",
+    "report": "work/characters/shenron/idle-v4-breath/evidence/review.json"
+  }
+}

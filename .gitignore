@@ -53,6 +53,14 @@ target/
 /work/**/verification/*.zip
 /work/**/verification/standalone-godot*/
 
+# Local Playwright browser video recordings
+/work/**/browser-video*/
+
 # Superseded Chilopoda surface-turn snapshots; final frames/source evidence retained
 /work/characters/chilopoda/atlas-v1/stage-surface-turn-baseline/
 /work/characters/chilopoda/atlas-v1/live-surface-turn-baseline/
+
+# Generated local exports & scratch / legacy work demos (Owner D6: purged after approval)
+/build/
+/work/
+/.forge/

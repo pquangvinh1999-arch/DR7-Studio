@@ -1,0 +1,2123 @@
+{
+  "schema": "generate2dsprite.engine_export.v1",
+  "name": "drum",
+  "tool": {
+    "name": "export_engine.py",
+    "version": "0.4.0"
+  },
+  "source": {
+    "path": "../clips/animation-clips.json",
+    "sha256": "02522e6feb43961ef23301ee4b9d3227030ad1d7ae7911db2380f66f247f7b22",
+    "bytes": 112267,
+    "schema": "generate2dsprite.animation_clips.v2"
+  },
+  "targets": [
+    "aseprite-json",
+    "godot-spriteframes",
+    "godot-sprite3d"
+  ],
+  "frame_size": [
+    128,
+    96
+  ],
+  "anchor_px": [
+    56.0,
+    84.0
+  ],
+  "sampling": "nearest",
+  "pixel_art": true,
+  "art_source": "host_image",
+  "shadow": {
+    "rx": 24,
+    "ry": 3,
+    "opacity": 0.32
+  },
+  "default_clip": "idle",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          1058,
+          802
+        ],
+        "cells": 58,
+        "clips": [
+          "idle",
+          "walk",
+          "jump",
+          "teleport",
+          "attack_light",
+          "power_up",
+          "hit",
+          "ko",
+          "getup",
+          "electric_orb_fx",
+          "electric_ring_fx"
+        ]
+      }
+    ]
+  },
+  "scale": {
+    "pixel_size": 0.01,
+    "subject_height_px": 50.0,
+    "world_height": 0.5,
+    "source": "Godot default pixel size",
+    "subject_height_source": "body_height_px"
+  },
+  "clips": {
+    "idle": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "duration_ms": [
+        167,
+        150,
+        166,
+        150
+      ],
+      "total_duration_ms": 633,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          10,
+          9,
+          10,
+          9
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 37.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        10,
+        9,
+        10,
+        9
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "drum.json",
+        "from": 0,
+        "to": 3
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          10.0,
+          9.0,
+          10.0,
+          9.0
+        ]
+      },
+      "sprite3d": {
+        "action": "idle",
+        "contract": "action-idle.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "walk": {
+      "frames": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "duration_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "total_duration_ms": 800,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.0,
+        "frame_ticks": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 48.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "drum.json",
+        "from": 4,
+        "to": 11
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ]
+      },
+      "sprite3d": {
+        "action": "walk",
+        "contract": "action-walk.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "jump": {
+      "frames": [
+        4,
+        5
+      ],
+      "duration_ms": [
+        133,
+        200
+      ],
+      "total_duration_ms": 333,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [],
+      "page": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          8,
+          12
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 19.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        8,
+        12
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "drum.json",
+        "from": 12,
+        "to": 13
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          8.0,
+          12.0
+        ]
+      },
+      "sprite3d": {
+        "action": "jump",
+        "contract": "action-jump.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "teleport": {
+      "frames": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "duration_ms": [
+        67,
+        66,
+        67,
+        100
+      ],
+      "total_duration_ms": 300,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "custom:teleport_relocate",
+          "at_ms": 133,
+          "at": 2,
+          "position": 2
+        },
+        {
+          "name": "end",
+          "at_ms": 200,
+          "at": 3,
+          "position": 3
+        }
+      ],
+      "page": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          4,
+          6
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 18.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        4,
+        4,
+        4,
+        6
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "drum.json",
+        "from": 14,
+        "to": 17
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          4.0,
+          4.0,
+          4.0,
+          6.0
+        ]
+      },
+      "sprite3d": {
+        "action": "teleport",
+        "contract": "action-teleport.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "attack_light": {
+      "frames": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "duration_ms": [
+        83,
+        67,
+        50,
+        50,
+        67,
+        83
+      ],
+      "total_duration_ms": 400,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "tell",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0
+        },
+        {
+          "name": "hit",
+          "at_ms": 200,
+          "at": 3,
+          "position": 3
+        },
+        {
+          "name": "end",
+          "at_ms": 317,
+          "at": 5,
+          "position": 5
+        }
+      ],
+      "page": 0,
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 1,
+        "strike": 3,
+        "recover": 5,
+        "end": 5
+      },
+      "keys_ms": {
+        "wind_start": 0,
+        "wind_peak": 83,
+        "strike": 200,
+        "recover": 317,
+        "end": 317
+      },
+      "hitstop_ticks": 0,
+      "hitstop_ms": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          5,
+          4,
+          3,
+          3,
+          4,
+          5
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 24.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        5,
+        4,
+        3,
+        3,
+        4,
+        5
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "drum.json",
+        "from": 18,
+        "to": 23
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          5.0,
+          4.0,
+          3.0,
+          3.0,
+          4.0,
+          5.0
+        ]
+      },
+      "sprite3d": {
+        "action": "attack_light",
+        "contract": "action-attack_light.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "power_up": {
+      "frames": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "duration_ms": [
+        83,
+        84,
+        66,
+        67,
+        67,
+        66,
+        84,
+        83,
+        67,
+        66,
+        134
+      ],
+      "total_duration_ms": 867,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "custom:fireball_release",
+          "at_ms": 733,
+          "at": 10,
+          "position": 10
+        },
+        {
+          "name": "end",
+          "at_ms": 733,
+          "at": 10,
+          "position": 10
+        }
+      ],
+      "page": 0,
+      "keys": {
+        "wind_start": 0,
+        "wind_peak": 9,
+        "strike": 10,
+        "recover": 10,
+        "end": 10
+      },
+      "keys_ms": {
+        "wind_start": 0,
+        "wind_peak": 667,
+        "strike": 733,
+        "recover": 733,
+        "end": 733
+      },
+      "hitstop_ticks": 0,
+      "hitstop_ms": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5,
+          4,
+          4,
+          8
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 52.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        8
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "drum.json",
+        "from": 24,
+        "to": 34
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          5.0,
+          5.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          5.0,
+          5.0,
+          4.0,
+          4.0,
+          8.0
+        ]
+      },
+      "sprite3d": {
+        "action": "power_up",
+        "contract": "action-power_up.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "hit": {
+      "frames": [
+        27,
+        28,
+        29
+      ],
+      "duration_ms": [
+        83,
+        84,
+        100
+      ],
+      "total_duration_ms": 267,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [],
+      "page": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          5,
+          5,
+          6
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 16.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        5,
+        5,
+        6
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "drum.json",
+        "from": 35,
+        "to": 37
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          5.0,
+          5.0,
+          6.0
+        ]
+      },
+      "sprite3d": {
+        "action": "hit",
+        "contract": "action-hit.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "ko": {
+      "frames": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "duration_ms": [
+        83,
+        84,
+        83,
+        83,
+        84,
+        83,
+        167
+      ],
+      "total_duration_ms": 667,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [],
+      "page": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          10
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 40.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        10
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "drum.json",
+        "from": 38,
+        "to": 44
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          10.0
+        ]
+      },
+      "sprite3d": {
+        "action": "ko",
+        "contract": "action-ko.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "getup": {
+      "frames": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "duration_ms": [
+        83,
+        84,
+        83,
+        100
+      ],
+      "total_duration_ms": 350,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [],
+      "page": 0,
+      "role": "player",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          5,
+          5,
+          5,
+          6
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 21.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        5,
+        5,
+        5,
+        6
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "drum.json",
+        "from": 45,
+        "to": 48
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          5.0,
+          5.0,
+          5.0,
+          6.0
+        ]
+      },
+      "sprite3d": {
+        "action": "getup",
+        "contract": "action-getup.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "electric_orb_fx": {
+      "frames": [
+        41,
+        42
+      ],
+      "duration_ms": [
+        67,
+        66
+      ],
+      "total_duration_ms": 133,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 7.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        4,
+        4
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "drum.json",
+        "from": 49,
+        "to": 50
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          4.0,
+          4.0
+        ]
+      },
+      "sprite3d": {
+        "action": "electric_orb_fx",
+        "contract": "action-electric_orb_fx.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    },
+    "electric_ring_fx": {
+      "frames": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "duration_ms": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50
+      ],
+      "total_duration_ms": 350,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.0,
+        "frame_ticks": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 21.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "drum.json",
+        "from": 51,
+        "to": 57
+      },
+      "godot": {
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz",
+        "relative_durations": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ]
+      },
+      "sprite3d": {
+        "action": "electric_ring_fx",
+        "contract": "action-electric_ring_fx.json",
+        "speed": 60.0,
+        "basis": "ticks at 60 Hz"
+      }
+    }
+  },
+  "states": {
+    "idle": "idle",
+    "walk": "walk",
+    "jump": "jump",
+    "attack": "attack_light"
+  },
+  "unused_frames": [],
+  "mapping": {
+    "anchor_px": [
+      56.0,
+      84.0
+    ],
+    "frame_size": [
+      128,
+      96
+    ],
+    "anchor_normalized_top_left": [
+      0.4375,
+      0.875
+    ],
+    "sampling": "nearest",
+    "godot": {
+      "animated_sprite_2d": {
+        "centered": false,
+        "offset": [
+          -56.0,
+          -84.0
+        ],
+        "texture_filter": 1
+      },
+      "animated_sprite_3d": {
+        "centered": true,
+        "offset": [
+          8.0,
+          36.0
+        ],
+        "pixel_size": 0.01,
+        "texture_filter": 0
+      }
+    },
+    "unity": {
+      "pivot": [
+        0.4375,
+        0.125
+      ],
+      "pixels_per_unit": 64.0,
+      "filter_mode": "Point"
+    },
+    "phaser": {
+      "origin": [
+        0.4375,
+        0.875
+      ],
+      "pixel_art": true
+    },
+    "pixi": {
+      "anchor": [
+        0.4375,
+        0.875
+      ],
+      "scale_mode": "nearest"
+    },
+    "pitch_compensation": {
+      "applies_to": "yaw-only (fixed-y) billboards seen by a pitched camera",
+      "formula": "scale_y = 1 / cos(camera_pitch), applied about the anchor"
+    }
+  },
+  "files": [
+    {
+      "path": "aseprite/drum.png",
+      "sha256": "02b57b829ca4c5dd963249e82bfbf3ee8c900127ec9295dfd036685ece5bebea",
+      "bytes": 63391
+    },
+    {
+      "path": "aseprite/drum.json",
+      "sha256": "9320ea66ca81c68ffb2638cfc3f6b0ef995c3a12db6cfa3c29b5d9fb52d67e25",
+      "bytes": 25407
+    },
+    {
+      "path": "godot/drum-atlas-00.png",
+      "sha256": "02b57b829ca4c5dd963249e82bfbf3ee8c900127ec9295dfd036685ece5bebea",
+      "bytes": 63391
+    },
+    {
+      "path": "godot/drum.tres",
+      "sha256": "c8060c07de81fe4ec01ed2fa1aacb7eddaa10bf7c890405d13b3cd3496bff43b",
+      "bytes": 13188
+    },
+    {
+      "path": "godot/drum.tscn",
+      "sha256": "dad42047e9b05a014254942e89abecea04e433960110b4a50b93a99c98340fc6",
+      "bytes": 289
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-000.png",
+      "sha256": "00173251cbaae84ea6bda5ed22071b984f0af37d0731f77cbe40a5e3689936b9",
+      "bytes": 1856
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-001.png",
+      "sha256": "1a6c422b6f80692c66ecd2deea9439f8da31969251eefffb77df94b8f2fd110e",
+      "bytes": 1794
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-002.png",
+      "sha256": "fb71c187aeec63af020761b65e6a17be9c25cbdb20b437daf1f3ebd3f3b81ac3",
+      "bytes": 1732
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-003.png",
+      "sha256": "363c30ba7437ffe35fc0764d44fc5fbd680b399fb4f358c9bdae09948b2ea67d",
+      "bytes": 1802
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-004.png",
+      "sha256": "897202d99a9ba09ef5efcf7fd4bea8a7fa6d9eecf07646178e854ba286ff72a9",
+      "bytes": 1924
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-005.png",
+      "sha256": "d7b80f3929ad4a80a1131e32c99021a6ab51eb3ddbc54712f96abb96be84ac0e",
+      "bytes": 1900
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-006.png",
+      "sha256": "08fd16023b7cb3c8dad93ec312572a71b28ad2684854911635b0306f56c9c9e5",
+      "bytes": 1929
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-007.png",
+      "sha256": "77030ec90f4b2ca9c04e78cdb1d694fe59c4edae5c26cdc45561d0a2a2bc1704",
+      "bytes": 1392
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-008.png",
+      "sha256": "59d43ef9e1c5e233034c4794c2a0e45186d6f28186ce0600999d4ddafb36b2b1",
+      "bytes": 1392
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-009.png",
+      "sha256": "6a69569501cb3017f30e16835ba37badadbe2a77498534569f61f635f3ee5a4e",
+      "bytes": 1924
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-010.png",
+      "sha256": "c2c9b85be7c464a3c7c3d9f1008caa3c7fc25036a41519b4fd3c2433496244ad",
+      "bytes": 1604
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-011.png",
+      "sha256": "691bb23299cf7599829a16dcc7e941da07b536911a9ccfb785eb7f1fbdccc6fa",
+      "bytes": 1581
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-012.png",
+      "sha256": "a7a58b06a808e8f88b2d484b054feabb23aaec0ada557eee784d55139eac024e",
+      "bytes": 1738
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-013.png",
+      "sha256": "a73a38fc03d448a1ab874007b960620cb7e42c812ee17473f53b4734c8ae0a56",
+      "bytes": 1956
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-014.png",
+      "sha256": "5b04677c14e8e6cc887b54902ad9252494c817de30841e6a1fdeb56baa969acb",
+      "bytes": 2029
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-015.png",
+      "sha256": "bdf07e875aafc6746520e759db5a5b1c34a8c9c7e5e4892dd8a3829d8851e34e",
+      "bytes": 1961
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-016.png",
+      "sha256": "88a487c770db1754e409e73c1ab0329db9e9ccedb01b03dcdc04332d9ee06e89",
+      "bytes": 1880
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-017.png",
+      "sha256": "735e2831c42edbe64874dab25d3d1de458e1193426e8709ca2dfb06377727cb1",
+      "bytes": 1843
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-018.png",
+      "sha256": "8220a9115fd59c3c26ca7c171d0890d1652786456cfbcb29313eb879a1a9efd1",
+      "bytes": 1884
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-019.png",
+      "sha256": "068c5723eb34446b04640c4684f69d18195af8658ff7ededeef504148338e88c",
+      "bytes": 2025
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-020.png",
+      "sha256": "c73983f0a2949a371fe69ef8f23aef5a6271dce600e354ac892f3072f2d27bc3",
+      "bytes": 1882
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-021.png",
+      "sha256": "3622e11bd3ffa72eaae357c8fbbde0fbbb7367e0979367c3b31a1b7f7707e93e",
+      "bytes": 1928
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-022.png",
+      "sha256": "256b37eb33fa9c5c9b47ab010edd2e870593597570b2d2bac843bae6fd26ac92",
+      "bytes": 2010
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-023.png",
+      "sha256": "dfd9e9484c2a06943c1fbde858e57a12e9699d25a4a6e6f5f2e126318fbb77a8",
+      "bytes": 2076
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-024.png",
+      "sha256": "3c1b488528081fd9c0ebf842e5d7ccd673e520c185a46fc102255f3d7940b56b",
+      "bytes": 1836
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-025.png",
+      "sha256": "a669680bb2250b8945ee394b4d8fc51f5dfc24f1c3cbd7fe283884367bf34aa8",
+      "bytes": 1955
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-026.png",
+      "sha256": "7d8a33220dea2a5f5062241a2eb020954758092e090e6319d023e77f08997413",
+      "bytes": 1957
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-027.png",
+      "sha256": "0d292b1251e22899b7ef70e343b17fa2e58ab40f33a0905328469f3efd4885ab",
+      "bytes": 1852
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-028.png",
+      "sha256": "6a68f68dfe3a28478abe1628134dafd977daac80588b3746e00c303250148aa7",
+      "bytes": 1713
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-029.png",
+      "sha256": "790a271cf92903aea8f28c08ec2483c74b2ab6766d08607d489a87c45b87ebcd",
+      "bytes": 1565
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-030.png",
+      "sha256": "daee035982c3b5fc3e8695fd76b19b6e6cc6ecb084697cfd5cf378fd2790c2ee",
+      "bytes": 1626
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-031.png",
+      "sha256": "0d6e20f02179b588b043d7dc5f48ad39f43e2e8e547701d3cdcff3413798161d",
+      "bytes": 1641
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-032.png",
+      "sha256": "5cd8d375e7306b9edd9e098ea7abc7c19c19bb53326ae64463b5f307b5a66800",
+      "bytes": 1619
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-033.png",
+      "sha256": "877723b51d58b9e5c7cb838898636a0914e7e93cde87b4d9c0acc39cc8088e1b",
+      "bytes": 1471
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-034.png",
+      "sha256": "423e435bd30cc1187834fdfb5cbc63a7f8935cb98bb3b86cbfb5f1722cd095a9",
+      "bytes": 1281
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-035.png",
+      "sha256": "50774798988c85af7efe2675014664d5ff160fe67897fa3995d5940d6b9c3e52",
+      "bytes": 1355
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-036.png",
+      "sha256": "7dd8f5496473bff807d359bec668f1d6b4c8fe09cd0c14ec49339ba7e5d668f2",
+      "bytes": 1177
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-037.png",
+      "sha256": "5f141cc5b913f6ce384b7326b2f395490904f8498fb8202b6b14511e58396355",
+      "bytes": 1313
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-038.png",
+      "sha256": "2975b689f1d10a82d7f84b325f81b5f9c3da76bdd56458240a390aac6db35611",
+      "bytes": 1487
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-039.png",
+      "sha256": "16c7ffef7f8bfbfe083e373536cf531868b5bcdff1d8ba90dcb5051950c588fc",
+      "bytes": 1678
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-040.png",
+      "sha256": "0b7ae9b7c7e544d7f16eb95c3222d34d8815d40d0884ff144608e2ccbecae595",
+      "bytes": 1794
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-041.png",
+      "sha256": "ed8c13408bedbae13b7096c4461889748a2f72ca8d3e8a748de6dc37602deae6",
+      "bytes": 678
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-042.png",
+      "sha256": "67610c2bbeb5f794c938c567890a74016ec3cb8ea7e3d3db88247f8bea2ca8c4",
+      "bytes": 724
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-043.png",
+      "sha256": "449a8425ae499e7543c754fb33dfe10403ce57a3985d5391b25d44bf417d11be",
+      "bytes": 529
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-044.png",
+      "sha256": "73d5aa3112b99dd6350d6dd9323d433aa0286aaaf3714679517441f91cb4651f",
+      "bytes": 529
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-045.png",
+      "sha256": "ce9232c1c13a20ad754bea3527dc0be3246cd91fbdfef0a66ea9c0fcb77654c2",
+      "bytes": 288
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-046.png",
+      "sha256": "8c6aa8239d17125ae35a38bfedc7d6a50e1eda336344d292a8ecb5b61f0917de",
+      "bytes": 399
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-047.png",
+      "sha256": "fed79f5604e2a0f2d3bd40c70c62b45c6a83477144cfbf4058dbd63e3344806d",
+      "bytes": 462
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-048.png",
+      "sha256": "5e4bc407f83d1c708d8dfc6a6cbcaf8c9de1563e50c40652d2d25eb17eb004f6",
+      "bytes": 386
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-049.png",
+      "sha256": "3a1430f19913cc1af9b2b1b55d3bf43981128de618dc903df082aeeb2c41ff15",
+      "bytes": 305
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-050.png",
+      "sha256": "0b72d9450012d12118bc4251b44a9c32673f833fd572ca523b41a0cd2b4623a6",
+      "bytes": 1532
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-051.png",
+      "sha256": "ee90ccd7bad312bab9e7b78a91471e257a3da410d6312111f49db374f51a9743",
+      "bytes": 1592
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-052.png",
+      "sha256": "731a9edb3a9953cddb91c368fd9bfe2e506c8f5354160d3325b126ed76825dee",
+      "bytes": 1554
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-053.png",
+      "sha256": "f34e9fae249db57b351f2d47d4c4d002c5e392db51cf30e0958d7383c8a24557",
+      "bytes": 1526
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-054.png",
+      "sha256": "b07a17f172c5e5d620253e262531774d3d99f642fd2ec2377ede1811a2541c56",
+      "bytes": 1494
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-055.png",
+      "sha256": "93b740604bbb5cc2fc9d2de46d23df3481b3f03c70975ee380bdc1d6e5beec5d",
+      "bytes": 1583
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-056.png",
+      "sha256": "160887a0092020d6e3516340d6c8dcec14f782bf1fc123515ed631a276501fc0",
+      "bytes": 1541
+    },
+    {
+      "path": "godot-sprite3d/frames/frame-057.png",
+      "sha256": "658f0fad44c833d184f2918412f938ce73319e0bfb5823fb83466c34d08c0695",
+      "bytes": 1551
+    },
+    {
+      "path": "godot-sprite3d/action-idle.json",
+      "sha256": "c030dd6b34e8b50363509eeecedf930a83ea785fd0b8b9340d8cffac3194a3ee",
+      "bytes": 1054
+    },
+    {
+      "path": "godot-sprite3d/action-walk.json",
+      "sha256": "aaa493429ef87d6319141505e4b6bd59f4565847c0f617858dc00e1b16270430",
+      "bytes": 1476
+    },
+    {
+      "path": "godot-sprite3d/action-jump.json",
+      "sha256": "7d3bffeb8e58d02ca13f867590fc86651811918824f4ef52ddce5c51c6b807fc",
+      "bytes": 838
+    },
+    {
+      "path": "godot-sprite3d/action-teleport.json",
+      "sha256": "9d0038f168f2c7aedb08a1fa7867b92c71bb0378a6e5f52793be4dcf6b3abe1e",
+      "bytes": 1258
+    },
+    {
+      "path": "godot-sprite3d/action-attack_light.json",
+      "sha256": "d2cee76f723972c4ebdb205b2623ea6264c54767db4853d7c423b5423b58c216",
+      "bytes": 1530
+    },
+    {
+      "path": "godot-sprite3d/action-power_up.json",
+      "sha256": "9e50af1c861fae055bc672f2341f6674f0ce24758d37ff4b8aba03c2af48ff67",
+      "bytes": 2017
+    },
+    {
+      "path": "godot-sprite3d/action-hit.json",
+      "sha256": "9e3e8ff96570a3cebb40b0ac5deab201199aaac9f3fdd5d14929b8383cc02244",
+      "bytes": 944
+    },
+    {
+      "path": "godot-sprite3d/action-ko.json",
+      "sha256": "97c71a4fc919265a6fed1feff909818fa17223237b6f8b7a202d4002c19a3786",
+      "bytes": 1375
+    },
+    {
+      "path": "godot-sprite3d/action-getup.json",
+      "sha256": "8928e0329ba71a4ff68c67ce0e09330d130e85148846371d61926139da22c61a",
+      "bytes": 1054
+    },
+    {
+      "path": "godot-sprite3d/action-electric_orb_fx.json",
+      "sha256": "cc031a5221bbb85f2d213da73b93ec13b9756c3c99c6c58972782d421825a45d",
+      "bytes": 844
+    },
+    {
+      "path": "godot-sprite3d/action-electric_ring_fx.json",
+      "sha256": "95a6c852f1402fb299ff382b68f82c0dd10745db241928a05535435ec425b1e4",
+      "bytes": 1371
+    },
+    {
+      "path": "godot-sprite3d/drum.tres",
+      "sha256": "41c9e1284ffd446c6658ad4af3ca2d9d5827d524feaa7ba4e54c528b7ae2155c",
+      "bytes": 8606
+    },
+    {
+      "path": "godot-sprite3d/drum.tscn",
+      "sha256": "a8881be65ca7b9f51e1ab1c4826c1d388d11ea8d64c444954a2825b00911d6bd",
+      "bytes": 301
+    },
+    {
+      "path": "godot-sprite3d/bundle.json",
+      "sha256": "9be870986d55299761ad2054f3691c48bcbcc54f8e3305e1c2a24d5398cd9e5b",
+      "bytes": 1434
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "method": "round trip: every written atlas, Aseprite JSON, SpriteFrames .tres, scene .tscn and Sprite3D contract was parsed back and compared with the source frames (exact RGBA), integer durations, loop flags, events and the shared anchor",
+    "notProven": [
+      "Imports into the Aseprite, Godot 4, Phaser, PixiJS and Unity editors or runtimes were not run; only parse-level round trips were checked.",
+      "Engine import settings (filter, compression, mipmaps) are not written; set them as engine-export.md describes.",
+      "Animation quality, timing feel and silhouette consistency are not judged."
+    ],
+    "checks": [
+      {
+        "id": "aseprite_roundtrip",
+        "status": "pass",
+        "value": {
+          "pages": 1,
+          "frames": 58
+        },
+        "threshold": null
+      },
+      {
+        "id": "aseprite_pivot_rounding_px",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0
+      },
+      {
+        "id": "godot_spriteframes_roundtrip",
+        "status": "pass",
+        "value": {
+          "animations": 11
+        },
+        "threshold": null
+      },
+      {
+        "id": "godot_spriteframes_duration_error_ms",
+        "status": "pass",
+        "value": 0.6666666666666714,
+        "threshold": 1.0
+      },
+      {
+        "id": "godot_sprite3d_frames_roundtrip",
+        "status": "pass",
+        "value": {
+          "animations": 11
+        },
+        "threshold": null
+      },
+      {
+        "id": "godot_sprite3d_frames_duration_error_ms",
+        "status": "pass",
+        "value": 0.6666666666666714,
+        "threshold": 1.0
+      },
+      {
+        "id": "sprite3d_paths_relative",
+        "status": "pass",
+        "value": {
+          "contracts": 11
+        },
+        "threshold": null
+      },
+      {
+        "id": "atlas_max_side_px",
+        "status": "pass",
+        "value": 1058,
+        "threshold": 4096
+      },
+      {
+        "id": "source_frame_hashes",
+        "status": "pass",
+        "value": {
+          "verified": 58,
+          "frames": 58
+        },
+        "threshold": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../clips/animation-clips.json",
+        "sha256": "02522e6feb43961ef23301ee4b9d3227030ad1d7ae7911db2380f66f247f7b22",
+        "bytes": 112267
+      },
+      {
+        "path": "../clips/frames/frame-00.png",
+        "sha256": "8bb5c3316ef207cc29c71d3edc7d7ccea75d5aceb1d57a27037f567a355ea9da",
+        "bytes": 1775
+      },
+      {
+        "path": "../clips/frames/frame-01.png",
+        "sha256": "fe25dd16c0f21a984eff619d1f961683e01c4fe13dfa04f0a25f013e1bd61aba",
+        "bytes": 1702
+      },
+      {
+        "path": "../clips/frames/frame-02.png",
+        "sha256": "46e5be8c5d28d90317c9cfcc2e615fc553e88732f4641959476c760f8a3e8613",
+        "bytes": 1616
+      },
+      {
+        "path": "../clips/frames/frame-03.png",
+        "sha256": "12975830655a056c808f9d65fc725135adebc314018bf627e37e3ebabae1113e",
+        "bytes": 1710
+      },
+      {
+        "path": "../clips/frames/frame-04.png",
+        "sha256": "c0a9f1b1664bc09c4b4ab0aa64b0055f33d12ea1963f5dd73aa84c48d0286a42",
+        "bytes": 1819
+      },
+      {
+        "path": "../clips/frames/frame-05.png",
+        "sha256": "cf1b5805f994c4c00e9db06e149b0b608516cbb57eea4adea4e40975df24a1ca",
+        "bytes": 1789
+      },
+      {
+        "path": "../clips/frames/frame-06.png",
+        "sha256": "081790d3c4bde19cc98bb15ff7aab223334b4b8fca0028ff4c0c8e179fe82494",
+        "bytes": 1804
+      },
+      {
+        "path": "../clips/frames/frame-07.png",
+        "sha256": "1ae4a2fa18dfe6d5cd62c83c818b342b967d32cad7fcea09c413d8108e3a60f3",
+        "bytes": 1296
+      },
+      {
+        "path": "../clips/frames/frame-08.png",
+        "sha256": "55c289790170493907955e7ce8ffaf1d51cf74ecc06750bc6fab9c443d0030a8",
+        "bytes": 1294
+      },
+      {
+        "path": "../clips/frames/frame-09.png",
+        "sha256": "9810a9d091f4de1b4a2eb80bf13286e51a01d26570f72e79c99e6d65b529850c",
+        "bytes": 1819
+      },
+      {
+        "path": "../clips/frames/frame-10.png",
+        "sha256": "29f09ddd89b1c22d9dbca4ce29b5ca2407a017db0391c22007d6dd6f85db1c45",
+        "bytes": 1494
+      },
+      {
+        "path": "../clips/frames/frame-11.png",
+        "sha256": "2e3d166dc455b826f32e2a419cf46a9f9e55eebfdd573b9a3e930f6cbb52d3c0",
+        "bytes": 1559
+      },
+      {
+        "path": "../clips/frames/frame-12.png",
+        "sha256": "5191757addbd94af2bba0448c936063f28cc69df15d149d1bc0cbb79aa272a19",
+        "bytes": 1633
+      },
+      {
+        "path": "../clips/frames/frame-13.png",
+        "sha256": "95fb88db318cd8a0386f24f29a3f83e3f890dadcf186a03e95828b28d5d2e2e5",
+        "bytes": 1814
+      },
+      {
+        "path": "../clips/frames/frame-14.png",
+        "sha256": "08027c3181c94e19bb012bcceaad796c27df31f8761eb6cc1dbe2bb14bb5987d",
+        "bytes": 1907
+      },
+      {
+        "path": "../clips/frames/frame-15.png",
+        "sha256": "7df9c0de207bdb75c6c1da9a1e00b458496a8816963b8a649bb9788fc3aa761d",
+        "bytes": 1864
+      },
+      {
+        "path": "../clips/frames/frame-16.png",
+        "sha256": "fe044c131ad10a8e9e16f4626e437546e33ffd06b09036fd6d96b51f9788a1c1",
+        "bytes": 1774
+      },
+      {
+        "path": "../clips/frames/frame-17.png",
+        "sha256": "c4cf77d9595ddf54a709d9f93b3925d5e81598379a2323634691a2f2763c5aab",
+        "bytes": 1845
+      },
+      {
+        "path": "../clips/frames/frame-18.png",
+        "sha256": "afeca61eeee606ee78eb00beb1f9980a986dec8ba96e8cc28cfe4e2d7a0faa60",
+        "bytes": 1775
+      },
+      {
+        "path": "../clips/frames/frame-19.png",
+        "sha256": "bff5a342c713afabd07d79ba83e1d81bd0efc439f68c231b7572463f3609f84c",
+        "bytes": 1916
+      },
+      {
+        "path": "../clips/frames/frame-20.png",
+        "sha256": "ef4cf409985ed4b5f176fd30cbc739b03215e895738795c955bd9ade30dd8e64",
+        "bytes": 1758
+      },
+      {
+        "path": "../clips/frames/frame-21.png",
+        "sha256": "43d2e4de8aec41f3e971df5db72c0d63f969756c6db4c7a94cb9999cdd5adb45",
+        "bytes": 1819
+      },
+      {
+        "path": "../clips/frames/frame-22.png",
+        "sha256": "ff464a66ed7b053b1bb9c0630bb504891d8bcd8aa7bb63271e0e169f9319e4c4",
+        "bytes": 1893
+      },
+      {
+        "path": "../clips/frames/frame-23.png",
+        "sha256": "69bfb591caeae32160f12f2d0623cebd5243b396935954f0f8c15012ec5b9cd4",
+        "bytes": 1948
+      },
+      {
+        "path": "../clips/frames/frame-24.png",
+        "sha256": "f124f1bba95a40acdce37417d50768001758875d3a76632abc8fcb7d227277f0",
+        "bytes": 1729
+      },
+      {
+        "path": "../clips/frames/frame-25.png",
+        "sha256": "ccb853a4942a795793ebc71771519ac8c2bff4e1418997ef84a58e2e06a452b3",
+        "bytes": 1826
+      },
+      {
+        "path": "../clips/frames/frame-26.png",
+        "sha256": "ef78d751be0b4ca6effd19d63e444e56277735072aefeba1e7809341d42b9b7b",
+        "bytes": 1851
+      },
+      {
+        "path": "../clips/frames/frame-27.png",
+        "sha256": "f92575600937d29802c22da1c0933cd853f1bb72ec6a4813cb74d04ba8b48ece",
+        "bytes": 1844
+      },
+      {
+        "path": "../clips/frames/frame-28.png",
+        "sha256": "7b72ba5fb4e9a545a5c366cac21b1d15e14ccc1e8f0324312f3f7638c2c27fa7",
+        "bytes": 1672
+      },
+      {
+        "path": "../clips/frames/frame-29.png",
+        "sha256": "be2de3cfe4dbd1b0949012d18fe2a278639b2069158258118e82f5dda73cb93e",
+        "bytes": 1465
+      },
+      {
+        "path": "../clips/frames/frame-30.png",
+        "sha256": "181c5621e07c525d50253b39ffaa2db38ab602b1e8a1e4b2dd53e155c0519a13",
+        "bytes": 1506
+      },
+      {
+        "path": "../clips/frames/frame-31.png",
+        "sha256": "a407e9581235da96bb080f7e602392f10dd0e15efc2297f3b4280ebb50ab6cd6",
+        "bytes": 1514
+      },
+      {
+        "path": "../clips/frames/frame-32.png",
+        "sha256": "09e72398675d85ef4172f03a545eba0ec931dc81c9165c01a591630270520916",
+        "bytes": 1507
+      },
+      {
+        "path": "../clips/frames/frame-33.png",
+        "sha256": "203242731c860c91abad529f3c196ea7e08bc49bf1ae00cdf7a1366725d88af1",
+        "bytes": 1378
+      },
+      {
+        "path": "../clips/frames/frame-34.png",
+        "sha256": "bbfc54217bf0de85eaf6d82ef4fec977da189020425624a6e4bae4a3c3f540cf",
+        "bytes": 1215
+      },
+      {
+        "path": "../clips/frames/frame-35.png",
+        "sha256": "b96a9467f678fe02ba0021f4f95894b53f51dd57d42350e83d3e2d022fda7f8b",
+        "bytes": 1261
+      },
+      {
+        "path": "../clips/frames/frame-36.png",
+        "sha256": "e26e578aeb43080229b640c940a98eb7978af14a01f64e4f8e7e3af45fddb391",
+        "bytes": 1107
+      },
+      {
+        "path": "../clips/frames/frame-37.png",
+        "sha256": "056969fd7c21eab37ce3de3ce9d5b8b66878603969638129fca0bfe2b8950259",
+        "bytes": 1230
+      },
+      {
+        "path": "../clips/frames/frame-38.png",
+        "sha256": "b567687466e629eba31af928cda429414f3219d94e1dfa6993aace2166c4fa13",
+        "bytes": 1406
+      },
+      {
+        "path": "../clips/frames/frame-39.png",
+        "sha256": "47d6a8afacda9a091bef3a54a304e3ae82ed3aeba8c455eecdd357c45b7b2eff",
+        "bytes": 1599
+      },
+      {
+        "path": "../clips/frames/frame-40.png",
+        "sha256": "4fbb086b5cdd762362265250a8eb1592741c9280cb209668a32bce95af0b7219",
+        "bytes": 1859
+      },
+      {
+        "path": "../clips/frames/frame-41.png",
+        "sha256": "3a2c9bd990c005587372a4b9b47bb40902c47e4220a8c4d9a7032bee00cc19db",
+        "bytes": 605
+      },
+      {
+        "path": "../clips/frames/frame-42.png",
+        "sha256": "cb0445b86f89ffd1f6ea07c280602cf3697d33347d77512d43cf4c2f22bef43a",
+        "bytes": 670
+      },
+      {
+        "path": "../clips/frames/frame-43.png",
+        "sha256": "86459854b3f13e09215ecfc00c7bd5c02b7e585c8d1a5eaccda5aa7fe5d32c16",
+        "bytes": 474
+      },
+      {
+        "path": "../clips/frames/frame-44.png",
+        "sha256": "cedb14a4f0a5b81c79ae1de1f402255ac0485e7f23c281245182f605f4359dd0",
+        "bytes": 474
+      },
+      {
+        "path": "../clips/frames/frame-45.png",
+        "sha256": "da4256944a472602de20d01817958f457414a31dec1e42645954bc8ab26cccbd",
+        "bytes": 267
+      },
+      {
+        "path": "../clips/frames/frame-46.png",
+        "sha256": "ff99d65ce3f1577824fefe614c8b98b0d81406efbea068e20e857a169b7fabb4",
+        "bytes": 370
+      },
+      {
+        "path": "../clips/frames/frame-47.png",
+        "sha256": "04da23ef0efca9eb8b1870ac53e6715bcdb425574bb5921774a981001389f8e9",
+        "bytes": 424
+      },
+      {
+        "path": "../clips/frames/frame-48.png",
+        "sha256": "bc827c4d7575bc4b430faeac7e5a3f5ebf3948389aa49c49e7af41b5bc33a123",
+        "bytes": 361
+      },
+      {
+        "path": "../clips/frames/frame-49.png",
+        "sha256": "df92f476df2bc43c893e4d7333c05e22354519c5a33877b5d315f56de2fe7de8",
+        "bytes": 283
+      },
+      {
+        "path": "../clips/frames/frame-50.png",
+        "sha256": "baddba8f8dabb270ba7df575e1e55ac92f96fe0f2295fc2f290a03664ebcf582",
+        "bytes": 1433
+      },
+      {
+        "path": "../clips/frames/frame-51.png",
+        "sha256": "f96eb4e2d0e12ef313a4b131546fb5d2b03ab2018d86d4d3350e68b1a5632955",
+        "bytes": 1478
+      },
+      {
+        "path": "../clips/frames/frame-52.png",
+        "sha256": "a824458ec820ed4e4e1de0fb618e7ec09ae98c1706a2751ae463fae427d343db",
+        "bytes": 1438
+      },
+      {
+        "path": "../clips/frames/frame-53.png",
+        "sha256": "eb8de6984b6afd30be0e8957cb69d23fd8760cbde2a21eb11c537d18c7712a6e",
+        "bytes": 1414
+      },
+      {
+        "path": "../clips/frames/frame-54.png",
+        "sha256": "4b233c32635848a362d7ae12244b939184fa95edcc759588c1709dcfeb6c889e",
+        "bytes": 1393
+      },
+      {
+        "path": "../clips/frames/frame-55.png",
+        "sha256": "a3ab459130034cc18659df5f7d13e7f16a9f282cfd381fa96bab177e707c7bc7",
+        "bytes": 1485
+      },
+      {
+        "path": "../clips/frames/frame-56.png",
+        "sha256": "9068e0401597ca70819def7fe880753f8ee5c4771e149ba56ec7adfd2c8a805d",
+        "bytes": 1417
+      },
+      {
+        "path": "../clips/frames/frame-57.png",
+        "sha256": "698608ee58f5d67de43eda01e6b38c6c78a8526aa9ea2436279ca4df582fa412",
+        "bytes": 1453
+      }
+    ],
+    "outputs": [
+      {
+        "path": "aseprite/drum.png",
+        "sha256": "02b57b829ca4c5dd963249e82bfbf3ee8c900127ec9295dfd036685ece5bebea"
+      },
+      {
+        "path": "aseprite/drum.json",
+        "sha256": "9320ea66ca81c68ffb2638cfc3f6b0ef995c3a12db6cfa3c29b5d9fb52d67e25"
+      },
+      {
+        "path": "godot/drum-atlas-00.png",
+        "sha256": "02b57b829ca4c5dd963249e82bfbf3ee8c900127ec9295dfd036685ece5bebea"
+      },
+      {
+        "path": "godot/drum.tres",
+        "sha256": "c8060c07de81fe4ec01ed2fa1aacb7eddaa10bf7c890405d13b3cd3496bff43b"
+      },
+      {
+        "path": "godot/drum.tscn",
+        "sha256": "dad42047e9b05a014254942e89abecea04e433960110b4a50b93a99c98340fc6"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-000.png",
+        "sha256": "00173251cbaae84ea6bda5ed22071b984f0af37d0731f77cbe40a5e3689936b9"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-001.png",
+        "sha256": "1a6c422b6f80692c66ecd2deea9439f8da31969251eefffb77df94b8f2fd110e"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-002.png",
+        "sha256": "fb71c187aeec63af020761b65e6a17be9c25cbdb20b437daf1f3ebd3f3b81ac3"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-003.png",
+        "sha256": "363c30ba7437ffe35fc0764d44fc5fbd680b399fb4f358c9bdae09948b2ea67d"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-004.png",
+        "sha256": "897202d99a9ba09ef5efcf7fd4bea8a7fa6d9eecf07646178e854ba286ff72a9"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-005.png",
+        "sha256": "d7b80f3929ad4a80a1131e32c99021a6ab51eb3ddbc54712f96abb96be84ac0e"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-006.png",
+        "sha256": "08fd16023b7cb3c8dad93ec312572a71b28ad2684854911635b0306f56c9c9e5"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-007.png",
+        "sha256": "77030ec90f4b2ca9c04e78cdb1d694fe59c4edae5c26cdc45561d0a2a2bc1704"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-008.png",
+        "sha256": "59d43ef9e1c5e233034c4794c2a0e45186d6f28186ce0600999d4ddafb36b2b1"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-009.png",
+        "sha256": "6a69569501cb3017f30e16835ba37badadbe2a77498534569f61f635f3ee5a4e"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-010.png",
+        "sha256": "c2c9b85be7c464a3c7c3d9f1008caa3c7fc25036a41519b4fd3c2433496244ad"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-011.png",
+        "sha256": "691bb23299cf7599829a16dcc7e941da07b536911a9ccfb785eb7f1fbdccc6fa"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-012.png",
+        "sha256": "a7a58b06a808e8f88b2d484b054feabb23aaec0ada557eee784d55139eac024e"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-013.png",
+        "sha256": "a73a38fc03d448a1ab874007b960620cb7e42c812ee17473f53b4734c8ae0a56"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-014.png",
+        "sha256": "5b04677c14e8e6cc887b54902ad9252494c817de30841e6a1fdeb56baa969acb"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-015.png",
+        "sha256": "bdf07e875aafc6746520e759db5a5b1c34a8c9c7e5e4892dd8a3829d8851e34e"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-016.png",
+        "sha256": "88a487c770db1754e409e73c1ab0329db9e9ccedb01b03dcdc04332d9ee06e89"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-017.png",
+        "sha256": "735e2831c42edbe64874dab25d3d1de458e1193426e8709ca2dfb06377727cb1"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-018.png",
+        "sha256": "8220a9115fd59c3c26ca7c171d0890d1652786456cfbcb29313eb879a1a9efd1"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-019.png",
+        "sha256": "068c5723eb34446b04640c4684f69d18195af8658ff7ededeef504148338e88c"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-020.png",
+        "sha256": "c73983f0a2949a371fe69ef8f23aef5a6271dce600e354ac892f3072f2d27bc3"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-021.png",
+        "sha256": "3622e11bd3ffa72eaae357c8fbbde0fbbb7367e0979367c3b31a1b7f7707e93e"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-022.png",
+        "sha256": "256b37eb33fa9c5c9b47ab010edd2e870593597570b2d2bac843bae6fd26ac92"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-023.png",
+        "sha256": "dfd9e9484c2a06943c1fbde858e57a12e9699d25a4a6e6f5f2e126318fbb77a8"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-024.png",
+        "sha256": "3c1b488528081fd9c0ebf842e5d7ccd673e520c185a46fc102255f3d7940b56b"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-025.png",
+        "sha256": "a669680bb2250b8945ee394b4d8fc51f5dfc24f1c3cbd7fe283884367bf34aa8"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-026.png",
+        "sha256": "7d8a33220dea2a5f5062241a2eb020954758092e090e6319d023e77f08997413"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-027.png",
+        "sha256": "0d292b1251e22899b7ef70e343b17fa2e58ab40f33a0905328469f3efd4885ab"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-028.png",
+        "sha256": "6a68f68dfe3a28478abe1628134dafd977daac80588b3746e00c303250148aa7"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-029.png",
+        "sha256": "790a271cf92903aea8f28c08ec2483c74b2ab6766d08607d489a87c45b87ebcd"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-030.png",
+        "sha256": "daee035982c3b5fc3e8695fd76b19b6e6cc6ecb084697cfd5cf378fd2790c2ee"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-031.png",
+        "sha256": "0d6e20f02179b588b043d7dc5f48ad39f43e2e8e547701d3cdcff3413798161d"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-032.png",
+        "sha256": "5cd8d375e7306b9edd9e098ea7abc7c19c19bb53326ae64463b5f307b5a66800"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-033.png",
+        "sha256": "877723b51d58b9e5c7cb838898636a0914e7e93cde87b4d9c0acc39cc8088e1b"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-034.png",
+        "sha256": "423e435bd30cc1187834fdfb5cbc63a7f8935cb98bb3b86cbfb5f1722cd095a9"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-035.png",
+        "sha256": "50774798988c85af7efe2675014664d5ff160fe67897fa3995d5940d6b9c3e52"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-036.png",
+        "sha256": "7dd8f5496473bff807d359bec668f1d6b4c8fe09cd0c14ec49339ba7e5d668f2"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-037.png",
+        "sha256": "5f141cc5b913f6ce384b7326b2f395490904f8498fb8202b6b14511e58396355"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-038.png",
+        "sha256": "2975b689f1d10a82d7f84b325f81b5f9c3da76bdd56458240a390aac6db35611"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-039.png",
+        "sha256": "16c7ffef7f8bfbfe083e373536cf531868b5bcdff1d8ba90dcb5051950c588fc"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-040.png",
+        "sha256": "0b7ae9b7c7e544d7f16eb95c3222d34d8815d40d0884ff144608e2ccbecae595"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-041.png",
+        "sha256": "ed8c13408bedbae13b7096c4461889748a2f72ca8d3e8a748de6dc37602deae6"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-042.png",
+        "sha256": "67610c2bbeb5f794c938c567890a74016ec3cb8ea7e3d3db88247f8bea2ca8c4"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-043.png",
+        "sha256": "449a8425ae499e7543c754fb33dfe10403ce57a3985d5391b25d44bf417d11be"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-044.png",
+        "sha256": "73d5aa3112b99dd6350d6dd9323d433aa0286aaaf3714679517441f91cb4651f"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-045.png",
+        "sha256": "ce9232c1c13a20ad754bea3527dc0be3246cd91fbdfef0a66ea9c0fcb77654c2"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-046.png",
+        "sha256": "8c6aa8239d17125ae35a38bfedc7d6a50e1eda336344d292a8ecb5b61f0917de"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-047.png",
+        "sha256": "fed79f5604e2a0f2d3bd40c70c62b45c6a83477144cfbf4058dbd63e3344806d"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-048.png",
+        "sha256": "5e4bc407f83d1c708d8dfc6a6cbcaf8c9de1563e50c40652d2d25eb17eb004f6"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-049.png",
+        "sha256": "3a1430f19913cc1af9b2b1b55d3bf43981128de618dc903df082aeeb2c41ff15"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-050.png",
+        "sha256": "0b72d9450012d12118bc4251b44a9c32673f833fd572ca523b41a0cd2b4623a6"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-051.png",
+        "sha256": "ee90ccd7bad312bab9e7b78a91471e257a3da410d6312111f49db374f51a9743"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-052.png",
+        "sha256": "731a9edb3a9953cddb91c368fd9bfe2e506c8f5354160d3325b126ed76825dee"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-053.png",
+        "sha256": "f34e9fae249db57b351f2d47d4c4d002c5e392db51cf30e0958d7383c8a24557"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-054.png",
+        "sha256": "b07a17f172c5e5d620253e262531774d3d99f642fd2ec2377ede1811a2541c56"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-055.png",
+        "sha256": "93b740604bbb5cc2fc9d2de46d23df3481b3f03c70975ee380bdc1d6e5beec5d"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-056.png",
+        "sha256": "160887a0092020d6e3516340d6c8dcec14f782bf1fc123515ed631a276501fc0"
+      },
+      {
+        "path": "godot-sprite3d/frames/frame-057.png",
+        "sha256": "658f0fad44c833d184f2918412f938ce73319e0bfb5823fb83466c34d08c0695"
+      },
+      {
+        "path": "godot-sprite3d/action-idle.json",
+        "sha256": "c030dd6b34e8b50363509eeecedf930a83ea785fd0b8b9340d8cffac3194a3ee"
+      },
+      {
+        "path": "godot-sprite3d/action-walk.json",
+        "sha256": "aaa493429ef87d6319141505e4b6bd59f4565847c0f617858dc00e1b16270430"
+      },
+      {
+        "path": "godot-sprite3d/action-jump.json",
+        "sha256": "7d3bffeb8e58d02ca13f867590fc86651811918824f4ef52ddce5c51c6b807fc"
+      },
+      {
+        "path": "godot-sprite3d/action-teleport.json",
+        "sha256": "9d0038f168f2c7aedb08a1fa7867b92c71bb0378a6e5f52793be4dcf6b3abe1e"
+      },
+      {
+        "path": "godot-sprite3d/action-attack_light.json",
+        "sha256": "d2cee76f723972c4ebdb205b2623ea6264c54767db4853d7c423b5423b58c216"
+      },
+      {
+        "path": "godot-sprite3d/action-power_up.json",
+        "sha256": "9e50af1c861fae055bc672f2341f6674f0ce24758d37ff4b8aba03c2af48ff67"
+      },
+      {
+        "path": "godot-sprite3d/action-hit.json",
+        "sha256": "9e3e8ff96570a3cebb40b0ac5deab201199aaac9f3fdd5d14929b8383cc02244"
+      },
+      {
+        "path": "godot-sprite3d/action-ko.json",
+        "sha256": "97c71a4fc919265a6fed1feff909818fa17223237b6f8b7a202d4002c19a3786"
+      },
+      {
+        "path": "godot-sprite3d/action-getup.json",
+        "sha256": "8928e0329ba71a4ff68c67ce0e09330d130e85148846371d61926139da22c61a"
+      },
+      {
+        "path": "godot-sprite3d/action-electric_orb_fx.json",
+        "sha256": "cc031a5221bbb85f2d213da73b93ec13b9756c3c99c6c58972782d421825a45d"
+      },
+      {
+        "path": "godot-sprite3d/action-electric_ring_fx.json",
+        "sha256": "95a6c852f1402fb299ff382b68f82c0dd10745db241928a05535435ec425b1e4"
+      },
+      {
+        "path": "godot-sprite3d/drum.tres",
+        "sha256": "41c9e1284ffd446c6658ad4af3ca2d9d5827d524feaa7ba4e54c528b7ae2155c"
+      },
+      {
+        "path": "godot-sprite3d/drum.tscn",
+        "sha256": "a8881be65ca7b9f51e1ab1c4826c1d388d11ea8d64c444954a2825b00911d6bd"
+      },
+      {
+        "path": "godot-sprite3d/bundle.json",
+        "sha256": "9be870986d55299761ad2054f3691c48bcbcc54f8e3305e1c2a24d5398cd9e5b"
+      }
+    ],
+    "tool": {
+      "name": "export_engine.py",
+      "version": "0.4.0"
+    }
+  },
+  "render_contract": {
+    "body_clips": [
+      "idle",
+      "walk",
+      "jump",
+      "teleport",
+      "attack_light",
+      "power_up",
+      "hit",
+      "ko",
+      "getup"
+    ],
+    "effect_clips": [
+      "electric_orb_fx",
+      "electric_ring_fx"
+    ],
+    "locomotion": {
+      "kind": "ambush_teleport",
+      "clip": "walk",
+      "patrol": {
+        "enabled": false,
+        "clip": null,
+        "speed_px_per_second": 0.0
+      },
+      "default_scale": 2.5,
+      "speed_px_per_second": 56.0,
+      "screen_speed_px_per_second": 140
+    },
+    "facing": {
+      "camera_view": "side_view_2d",
+      "directions": [
+        "right",
+        "left"
+      ],
+      "default_facing": "right",
+      "owner_instruction": "GBA side-scroller profile facing right; instant flip toward target on ambush teleport & combo."
+    },
+    "turning": {
+      "clip": null,
+      "method": "instant_flip"
+    },
+    "aura": {
+      "loop_clip": null,
+      "charge_clip": "electric_ring_fx",
+      "independent_clock": true
+    },
+    "fx_pivot_px": [
+      64,
+      48
+    ],
+    "projectile": {
+      "kind": "linear_energy",
+      "body_clip": "power_up",
+      "projectile_clip": "electric_orb_fx",
+      "charge_clip": "electric_ring_fx",
+      "release_frame": 10,
+      "lifetime_ticks": 39,
+      "origin_canvas_px": [
+        98,
+        56
+      ],
+      "velocity_px_per_tick": [
+        12.0,
+        0.0
+      ],
+      "palette": "cyan"
+    }
+  }
+}

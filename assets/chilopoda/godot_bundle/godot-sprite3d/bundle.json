@@ -46,15 +46,10 @@
       "loop": false,
       "clip": "burrow_dust_fx"
     },
-    "antenna_glow_fx": {
-      "contract": "action-antenna_glow_fx.json",
+    "fireball_fx": {
+      "contract": "action-fireball_fx.json",
       "loop": false,
-      "clip": "antenna_glow_fx"
-    },
-    "red_laser_fx": {
-      "contract": "action-red_laser_fx.json",
-      "loop": false,
-      "clip": "red_laser_fx"
+      "clip": "fireball_fx"
     }
   }
 }

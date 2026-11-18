@@ -37,14 +37,24 @@
       "atlas_stage": "finalized_owner_approved",
       "owner_animation_approval": {
         "status": "owner_approved",
-        "approved_at": "2026-11-13T08:22:39.853349+00:00",
+        "workflow_id": "PIPE-015",
+        "revision": "fireball-v1",
+        "release_version": "0.12.0",
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác",
         "approval_file": "assets/chilopoda/owner_approval.json",
-        "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d"
+        "atlas_sha256": "0561212a81a8203b33a96981e61c2a38502613026820becbadbed447b0dadeba",
+        "previous_workflow_id": "PIPE-008",
+        "previous_approval_archive": [
+          "docs/releases/chilopoda-v0.11.1-approval.json",
+          "docs/releases/chilopoda-v0.11.1-approval.json"
+        ],
+        "previous_atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d"
       },
       "canonical_identity": {
-        "path": "work/characters/chilopoda/identity-v2/canonical/master.png",
+        "path": "assets/chilopoda/source/master.png",
         "sha256": "e0ac076682825160ee3723d363269b2d3ead0da463743af8ae3da184c82a04a3",
-        "owner_approval": "work/characters/chilopoda/identity-v2/canonical/approval.json"
+        "owner_approval": "docs/contracts/chilopoda/canonical-approval.json"
       },
       "facing_contract": {
         "camera_view": "side_view_2d_three_quarter",
@@ -108,8 +118,7 @@
       ],
       "effect_clips": [
         "burrow_dust_fx",
-        "antenna_glow_fx",
-        "red_laser_fx"
+        "fireball_fx"
       ],
       "missing_provisional_clips": [
         "run",
@@ -139,8 +148,7 @@
         ],
         "effect_clips": [
           "burrow_dust_fx",
-          "antenna_glow_fx",
-          "red_laser_fx"
+          "fireball_fx"
         ],
         "locomotion": {
           "kind": "ground",
@@ -161,13 +169,16 @@
           ],
           "patrol": {
             "enabled": true,
-            "speed_px_per_second": 32,
+            "speed_px_per_second": 103.703704,
             "default_bounds_px": [
               80,
               880
             ],
             "on_endpoint": "burrow_turn_then_reverse_walk"
-          }
+          },
+          "default_scale": 1.35,
+          "screen_speed_px_per_second": 140,
+          "speed_px_per_second": 103.703704
         },
         "aura": {
           "loop_clip": null,
@@ -199,7 +210,7 @@
             304,
             224
           ],
-          "target_hit_height_px": 24,
+          "target_hit_height_px": 36,
           "burrow": {
             "body_clip": "attack_light",
             "dive_start_tick": 4,
@@ -251,132 +262,8 @@
               4,
               4,
               6
-            ]
-          },
-          "laser": {
-            "body_clip": "power_up",
-            "release_tick": 16,
-            "glow_end_tick": 24,
-            "glow_clip": "antenna_glow_fx",
-            "projectile_clip": "red_laser_fx",
-            "speed_px_per_tick": 24,
-            "two_independent_origins": true,
-            "target_radius_px": 2,
-            "tip_anchors_by_frame": [
-              [
-                [
-                  257,
-                  160
-                ],
-                [
-                  257,
-                  170
-                ]
-              ],
-              [
-                [
-                  263,
-                  157
-                ],
-                [
-                  263,
-                  164
-                ]
-              ],
-              [
-                [
-                  263,
-                  160
-                ],
-                [
-                  265,
-                  167
-                ]
-              ],
-              [
-                [
-                  265,
-                  173
-                ],
-                [
-                  261,
-                  180
-                ]
-              ],
-              [
-                [
-                  264,
-                  184
-                ],
-                [
-                  260,
-                  196
-                ]
-              ],
-              [
-                [
-                  261,
-                  188
-                ],
-                [
-                  255,
-                  199
-                ]
-              ],
-              [
-                [
-                  261,
-                  178
-                ],
-                [
-                  257,
-                  189
-                ]
-              ],
-              [
-                [
-                  260,
-                  172
-                ],
-                [
-                  258,
-                  181
-                ]
-              ],
-              [
-                [
-                  257,
-                  168
-                ],
-                [
-                  256,
-                  177
-                ]
-              ],
-              [
-                [
-                  255,
-                  164
-                ],
-                [
-                  255,
-                  175
-                ]
-              ],
-              [
-                [
-                  257,
-                  160
-                ],
-                [
-                  257,
-                  170
-                ]
-              ]
             ],
-            "on_hit": "hide_projectile",
-            "one_shot": true,
-            "release_frame": 3
+            "dust_scale": 2.65
           },
           "burrow_turn": {
             "body_clip": "turn",
@@ -419,6 +306,78 @@
               149,
               198
             ]
+          },
+          "fireball": {
+            "body_clip": "power_up",
+            "projectile_clip": "fireball_fx",
+            "release_frame": 3,
+            "release_tick": 16,
+            "charge_frames": [
+              0,
+              1,
+              2
+            ],
+            "flight_frames": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "speed_px_per_tick": 26,
+            "min_flight_ticks": 14,
+            "max_flight_ticks": 25.5,
+            "target_radius_px": 2,
+            "mouth_anchors_by_frame": [
+              [
+                235,
+                174
+              ],
+              [
+                236,
+                173
+              ],
+              [
+                237,
+                175
+              ],
+              [
+                238,
+                176
+              ],
+              [
+                238,
+                179
+              ],
+              [
+                237,
+                180
+              ],
+              [
+                236,
+                178
+              ],
+              [
+                235,
+                176
+              ],
+              [
+                235,
+                175
+              ],
+              [
+                235,
+                174
+              ],
+              [
+                235,
+                174
+              ]
+            ],
+            "on_hit": "hide_projectile",
+            "one_shot": true
           }
         }
       },
@@ -432,7 +391,7 @@
       "motion_quality": {
         "status": "owner_approved",
         "method": "imagegen_complete_body_keyframes",
-        "atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+        "atlas_sha256": "0561212a81a8203b33a96981e61c2a38502613026820becbadbed447b0dadeba",
         "checks": {
           "body_connections": true,
           "whole_pose_sequence": true,
@@ -448,10 +407,15 @@
         "owner_approved": true,
         "naturalness_verdict": "owner_approved",
         "unresolved_structural_failures": [],
-        "review_evidence": "work/characters/chilopoda/identity-v2/review/identity-review.json",
-        "notes": "New complete-pose action sheets reviewed on light/dark/checker against selected power_up1. Earlier oversized-head render and truncated dive heads rejected and regenerated. Original power1..10 retained. Canonical ready poses use exact selected master; no old master injection. Runtime checks and wall-clock observations recorded separately.",
-        "approved_at": "2026-11-13T08:22:39.853349+00:00",
-        "owner_message": "todo thêm turn cho các nhân vật kia em làm xong chưa? tính toán xem còn 7% quota có thể hoàn thành được không? sau khi xong chilopoda giúp anh chốt nhân vật sau đó trả lời 2 câu hỏi trên"
+        "review_evidence": "docs/contracts/chilopoda/identity-review.json",
+        "notes": "Calibrated 1.35x scale / 140 px/s speed / 2.65x burrow dust; replaced power_up dual red lasers with single mouth-condensing growing fireball (10 cleaned stages from Owner art).",
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác",
+        "previous_revision_atlas_sha256": "6fae71276ce9e24eff3ae5d5bcd22b7d4573e5e3190730095c438bbe4d83d42d",
+        "reviewed_at": "2026-11-14T15:14:28.999238+00:00",
+        "revision": "fireball-v1",
+        "owner_accepted_motion": true,
+        "workflow_id": "PIPE-015"
       },
       "qa_report": "docs/characters/chilopoda-identity-v2-qa.json"
     },
@@ -471,7 +435,7 @@
       "facing_contract": {
         "camera_view": "side_view_2d_three_quarter_same_as_pteranodon",
         "default_atlas_facing": "right (+X)",
-        "left_facing_rule": "Same direction selection as Pteranodon: whole-sprite horizontal mirror for left-facing set. No turn clip or simulated spin.",
+        "left_facing_rule": "Runtime executes complete whole-body perspective turn clip (turn: 5 poses +68->+55->0->-55->-68, 21 ticks / 350ms, no card-flip spin) before flipping facing across X in both Godot (BatChiropteraFighter2D.gd) and preview arena (index.html), supporting bidirectional input and two-endpoint patrol.",
         "locomotion_vector_rule": "Aerial flight; hover/cruise/fast flight from complete Bat wingbeat poses matching Pteranodon phases. Short-muzzle bite toward+X; purple sonic wave from mouth."
       },
       "map_sync_metrics": {
@@ -491,22 +455,22 @@
         },
         "full_fx_bbox_px": {
           "x": 106,
-          "y": 104,
-          "w": 185,
-          "h": 129
+          "y": 102,
+          "w": 140,
+          "h": 131
         },
         "reference_ppu_64": 64,
         "world_size_at_64ppu_m": {
           "body_w_m": 1.969,
           "body_h_m": 1.266,
-          "aura_w_m": 2.891,
-          "aura_h_m": 2.016
+          "aura_w_m": 2.188,
+          "aura_h_m": 2.047
         },
         "tile_32px_span": {
           "body_tiles_w": 3.9375,
           "body_tiles_h": 2.53125,
-          "full_fx_tiles_w": 5.78125,
-          "full_fx_tiles_h": 4.03125
+          "full_fx_tiles_w": 4.375,
+          "full_fx_tiles_h": 4.09375
         }
       },
       "pixel_sharpness_metrics": {
@@ -526,7 +490,9 @@
         "attack_light",
         "power_up",
         "hit",
-        "ko"
+        "ko",
+        "sonic_screech_fx",
+        "turn"
       ],
       "effect_clips": [
         "sonic_screech_fx"
@@ -550,6 +516,7 @@
           "idle",
           "walk",
           "run",
+          "turn",
           "attack_light",
           "power_up",
           "hit",
@@ -570,7 +537,19 @@
             5,
             6,
             7
-          ]
+          ],
+          "patrol": {
+            "enabled": true,
+            "clip": "walk",
+            "speed_px_per_second": 104.545455,
+            "min_x": 80,
+            "max_x": 880,
+            "endpoint_turn_clip": "turn"
+          },
+          "default_scale": 1.1,
+          "screen_speed_px_per_second": 115,
+          "speed_px_per_second": 104.545455,
+          "flight_default_y": 250
         },
         "aura": {
           "loop_clip": null,
@@ -596,57 +575,90 @@
             0.0
           ],
           "palette": "purple"
+        },
+        "turning": {
+          "clip": "turn",
+          "from": "right",
+          "to": "left",
+          "duration_ms": 250,
+          "duration_ticks": 15,
+          "ticks": [
+            2,
+            3,
+            4,
+            3,
+            3
+          ],
+          "method": "complete_perspective_poses",
+          "mirror_sequence_for_reverse": true,
+          "whole_body_rotation": true,
+          "speed_boost_pct": 40
         }
       },
       "modes": {
         "combined_1layer": {
           "label": "Combined1Layer Bat + independent purple sonic FX",
           "godot_prefab": "res://scenes/BatChiroptera.tscn",
-          "bundle_id": "bat_chiroptera"
+          "bundle_id": "bat_chiroptera",
+          "note": "Owner-approved turn-v1 (PIPE-009 / v0.11.2): 5-pose perspective turn + bidirectional & two-endpoint runtime while preserving v0.10.0 61 frames/FX."
         }
       },
       "atlas_stage": "finalized_owner_approved",
       "motion_quality": {
         "status": "owner_approved",
+        "revision": "calibration-v1",
+        "owner_approved": true,
+        "previous_revision_atlas_sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084",
+        "atlas_sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084",
+        "review_evidence": "docs/contracts/bat_chiroptera/turn-v1-keyframe-review.json",
         "method": "imagegen_complete_body_keyframes",
+        "turn_method": "complete_perspective_poses",
+        "naturalness_verdict": "owner_approved",
         "checks": {
           "body_connections": true,
           "whole_pose_sequence": true,
           "perspective_turns": true,
           "phase_timing": true,
           "three_backgrounds": true,
-          "character_identity": true
+          "character_identity": true,
+          "bidirectional_runtime_wired": true,
+          "two_endpoint_patrol_wired": true
         },
-        "unresolved_structural_failures": [],
-        "owner_approved": true,
-        "filmstrips_opened": [
-          "idle",
-          "walk",
-          "run",
-          "attack_light",
-          "power_up",
-          "hit",
-          "ko",
-          "sonic_screech_fx"
+        "turn_sharpness_sobel": [
+          280.011,
+          247.466,
+          265.706,
+          252.205,
+          260.27
         ],
-        "visual_evidence": "Each full filmstrip opened with light/dark/checker rows. Real-time browser on all3backgrounds; all61pose indices observed. New complete Bat poses rather than cut/warp rigs. No turn clip in requested Pteranodon set; horizontal direction selection only, no cardflip spin.",
-        "realtime_evidence": "work/characters/bat_chiroptera/atlas-v1/verification/offline-realtime.json",
-        "limitations": "Owner accepted this exact revision. Browser sampling limits remain in QA; no mobile60FPS certification.",
-        "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a",
-        "naturalness_verdict": "owner_approved",
-        "approved_at": "2026-11-13T06:34:45.229155+00:00",
-        "owner_message": "ok bat anh chốt luôn tiến hành chốt theo qui trình để qua char tiếp theo"
+        "unresolved_structural_failures": [],
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác",
+        "workflow_id": "PIPE-016",
+        "reviewed_at": "2026-11-14T15:14:28.999238+00:00",
+        "notes": "Calibrated 1.1x scale / 115 px/s speed / fly Y=250; turn sped up +40% ([2,3,4,3,3] = 15 ticks / 250ms) and walk-turn hitch eliminated.",
+        "owner_accepted_motion": true
       },
-      "qa_report": "docs/characters/bat-chiroptera-atlas-v1-qa.json",
+      "qa_report": "docs/characters/bat-chiroptera-turn-v1-qa.json",
       "canonical_identity": {
-        "path": "work/characters/bat_chiroptera/approved-master/master.png",
+        "path": "assets/bat_chiroptera/source/master.png",
         "sha256": "b8656aaba4eb84dc255f24096d889bcb848fb6cb7af53403476ad10372d7555d"
       },
       "owner_animation_approval": {
         "status": "owner_approved",
-        "approved_at": "2026-11-13T06:34:45.229155+00:00",
+        "workflow_id": "PIPE-016",
+        "revision": "calibration-v1",
+        "release_version": "0.12.0",
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác",
         "approval_file": "assets/bat_chiroptera/owner_approval.json",
-        "atlas_sha256": "6312e1806453c4879fa683dfbd8f7fec4d180a6b803e0a7d513943c84f01e67a"
+        "atlas_sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084",
+        "previous_workflow_id": "PIPE-009",
+        "previous_approval_archive": [
+          "docs/releases/bat_chiroptera-v0.11.2-approval.json",
+          "docs/releases/bat_chiroptera-v0.11.2-approval.json"
+        ],
+        "previous_atlas_sha256": "4e4ee4b829bf36f13053d47acaad7845d5834496a1644ae4a9c2cac6714d5084"
       }
     },
     {
@@ -683,22 +695,22 @@
           "h": 74
         },
         "full_fx_bbox_px": {
-          "x": 87,
-          "y": 104,
-          "w": 274,
-          "h": 120
+          "x": 82,
+          "y": 134,
+          "w": 279,
+          "h": 90
         },
         "world_size_at_64ppu_m": {
           "body_w_m": 2.453,
           "body_h_m": 1.156,
-          "aura_w_m": 4.281,
-          "aura_h_m": 1.875
+          "aura_w_m": 4.359,
+          "aura_h_m": 1.406
         },
         "tile_32px_span": {
           "body_tiles_w": 4.906,
           "body_tiles_h": 2.312,
-          "full_fx_tiles_w": 8.562,
-          "full_fx_tiles_h": 3.75
+          "full_fx_tiles_w": 8.719,
+          "full_fx_tiles_h": 2.812
         },
         "reference_ppu_64": 64
       },
@@ -765,7 +777,10 @@
             5,
             6,
             7
-          ]
+          ],
+          "default_scale": 2.0,
+          "screen_speed_px_per_second": 170,
+          "speed_px_per_second": 85.0
         },
         "aura": {
           "loop_clip": null,
@@ -795,9 +810,17 @@
           "clip": "turn",
           "from": "right",
           "to": "left",
-          "duration_ticks": 20,
+          "duration_ticks": 16,
           "method": "complete_perspective_poses",
-          "mirror_sequence_for_reverse": true
+          "mirror_sequence_for_reverse": true,
+          "ticks": [
+            2,
+            6,
+            5,
+            3
+          ],
+          "duration_ms": 267,
+          "speed_boost_pct": 25
         }
       },
       "modes": {
@@ -807,35 +830,68 @@
           "bundle_id": "spinosaurus"
         }
       },
-      "owner_master_approval": "work/characters/spinosaurus/approved-master/approval.json",
+      "owner_master_approval": "docs/contracts/spinosaurus/master-approval.json",
       "owner_animation_approval": {
         "status": "owner_approved",
-        "approved_at": "2026-11-12T07:38:36.605057+00:00",
+        "workflow_id": "PIPE-011",
+        "revision": "walk-edge-uniform-v1",
+        "release_version": "0.12.0",
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác",
         "approval_file": "assets/spinosaurus/owner_approval.json",
-        "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4"
+        "atlas_sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e",
+        "previous_workflow_id": "PIPE-003",
+        "previous_approval_archive": [
+          "docs/releases/spinosaurus-v0.6.0-approval.json",
+          "docs/releases/spinosaurus-v0.6.0-approval.json"
+        ],
+        "previous_atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4"
       },
       "qa_report": "docs/characters/spinosaurus-final-qa.json",
       "owner_visual_override": "Owner requires demo-v2 detail/color fidelity instead of coarse100texel/16color/gain201.3; body hard alpha, small translucent bite VFX.",
       "motion_quality": {
         "status": "owner_approved",
         "method": "existing_complete_source_frames",
-        "atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+        "atlas_sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e",
+        "previous_revision_atlas_sha256": "89d9696e447d346693b516472cdc4dceeca826dff5b2bd463332d911f883c4a4",
+        "reviewed_at": "2026-11-15T05:24:42.044574+00:00",
         "checks": {
           "body_connections": true,
           "whole_pose_sequence": true,
           "perspective_turns": true,
           "phase_timing": true,
-          "three_backgrounds": true
+          "three_backgrounds": true,
+          "character_identity": true
         },
-        "review_evidence": "work/characters/spinosaurus/review-final/keyframe-review.json",
         "unresolved_structural_failures": [],
-        "owner_approved": true,
-        "previous_revision_atlas_sha256": "578912e9e23d4e486052c76c10b302fd925b1e0194f084814e57e5447b9635aa",
-        "owner_feedback": "ok anh thấy chuẩn rồi chốt 3 character theo qui trình rồi xóa những png không còn dùng theo qui định hiến pháp để giảm tải bộ nhớ repo sau đó push ver này lên main",
         "naturalness_verdict": "owner_approved",
-        "approved_at": "2026-11-12T07:38:36.605057+00:00"
+        "owner_approved": true,
+        "notes": "Walk-edge-uniform-v1: kept idle, walk_01..06, attack_*, power_up, hit, ko, turn, fireball_fx (69/71 PNGs) byte-identical to calibration-v1 (speed 170 px/s); rebuilt ONLY walk_00 & walk_07 from 887x887 walk-seam-v6 source via single Nearest resize (thr=224, h=74, area=4542/4564px, ground=224, torso_x spread=0.75px) to eliminate end-of-loop bloat.",
+        "filmstrips_opened": [
+          "filmstrip-00.png",
+          "filmstrip-01.png",
+          "filmstrip-02.png",
+          "filmstrip-03.png",
+          "filmstrip-04.png",
+          "filmstrip-05.png",
+          "filmstrip-06.png",
+          "filmstrip-07.png",
+          "filmstrip-08.png"
+        ],
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "review_evidence": "docs/contracts/spinosaurus/walk-edge-keyframe-review.json",
+        "revision": "walk-edge-uniform-v1",
+        "owner_accepted_motion": true,
+        "workflow_id": "PIPE-011",
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác"
       },
-      "atlas_stage": "finalized_owner_approved"
+      "atlas_stage": "finalized_owner_approved",
+      "atlas_sha256": "51afab60cf7c2c26defba7c76181482be8cd399a54704efebd4592f86943cc9e"
     },
     {
       "character_id": "t_rex",
@@ -852,8 +908,8 @@
       "facing_contract": {
         "camera_view": "side_view_2d",
         "default_atlas_facing": "right (+X)",
-        "left_facing_rule": "horizontal_flip_around_foot_anchor_x (flip_h = true, anchor_x = 176)",
-        "locomotion_vector_rule": "Bipedal two-hind-leg walk/run unchanged; attack_heavy uses complete front/three-quarter/rear poses for a360degree planted tail whip toward screen+X."
+        "left_facing_rule": "Two-way turn clip plays 5 whole-body perspective poses (right -> front -> left) before committing horizontal flip around foot_anchor_x = 176; left -> right plays reverse mirrored sequence while holding -X orientation until the final pose settles.",
+        "locomotion_vector_rule": "Bipedal walk/run unchanged; endpoint and manual direction reversals execute perspective turn with mid-turn lock; attack_heavy retains 360-degree planted tail whip."
       },
       "map_sync_metrics": {
         "canvas_size_px": [
@@ -873,20 +929,20 @@
         "full_fx_bbox_px": {
           "x": 66,
           "y": 75,
-          "w": 316,
+          "w": 278,
           "h": 157
         },
         "world_size_at_64ppu_m": {
           "body_w_m": 2.922,
           "body_h_m": 2.109,
-          "aura_w_m": 4.938,
+          "aura_w_m": 4.344,
           "aura_h_m": 2.453
         },
         "tile_32px_span": {
           "body_tiles_w": 5.844,
           "body_tiles_h": 4.219,
-          "full_fx_tiles_w": 9.875,
-          "full_fx_tiles_h": 4.906
+          "full_fx_tiles_w": 8.6875,
+          "full_fx_tiles_h": 4.9062
         },
         "reference_ppu_64": 64
       },
@@ -897,12 +953,20 @@
         "opaque_key_px": 0,
         "enclosed_key_pockets": 0,
         "outer_ring_spill_fraction": 0.0,
-        "reference_note": "Walk0 canonical reference230.524; current idle measured separately. Native alpha source, no target Sobel fitting."
+        "reference_note": "Walk0 canonical reference230.524; current idle measured separately. Native alpha source, no target Sobel fitting.",
+        "turn_edge_acutance_sobel": [
+          218.251,
+          203.449,
+          177.687,
+          220.831,
+          181.419
+        ]
       },
       "present_clips": [
         "idle",
         "walk",
         "run",
+        "turn",
         "attack_light",
         "attack_heavy",
         "power_up",
@@ -929,6 +993,7 @@
           "idle",
           "walk",
           "run",
+          "turn",
           "attack_light",
           "attack_heavy",
           "power_up",
@@ -940,7 +1005,18 @@
         ],
         "locomotion": {
           "kind": "ground",
-          "clip": "walk"
+          "clip": "walk",
+          "patrol": {
+            "enabled": true,
+            "clip": "walk",
+            "speed_px_per_second": 68.571429,
+            "min_x": 80,
+            "max_x": 880,
+            "endpoint_turn_clip": "turn"
+          },
+          "default_scale": 1.75,
+          "screen_speed_px_per_second": 120,
+          "speed_px_per_second": 68.571429
         },
         "aura": {
           "loop_clip": null,
@@ -965,6 +1041,23 @@
             0.0,
             0.0
           ]
+        },
+        "turning": {
+          "clip": "turn",
+          "from": "right",
+          "to": "left",
+          "duration_ms": 350,
+          "duration_ticks": 21,
+          "ticks": [
+            6,
+            3,
+            3,
+            3,
+            6
+          ],
+          "method": "complete_perspective_poses",
+          "mirror_sequence_for_reverse": true,
+          "whole_body_rotation": true
         }
       },
       "modes": {
@@ -977,38 +1070,54 @@
       "atlas_stage": "finalized_owner_approved",
       "owner_animation_approval": {
         "status": "owner_approved",
-        "approved_at": "2026-11-12T07:38:36.605057+00:00",
+        "approved_at": "2026-11-14T07:12:14+00:00",
+        "workflow_id": "PIPE-010",
+        "revision": "turn-v1 / v0.11.2",
         "approval_file": "assets/t_rex/owner_approval.json",
-        "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7"
+        "atlas_sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c",
+        "previous_revision": "walk-style-v4 / v0.6.0",
+        "previous_approval_file": "docs/releases/t_rex-v0.6.0-approval.json",
+        "previous_atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7"
       },
       "owner_visual_override": "T-rex walk0 selected 2026-11-12; all body clips style-matched, walk0 PNG preserved; no separate material/gloss shader added.",
       "motion_quality": {
         "status": "owner_approved",
+        "revision": "turn-v1",
         "method": "imagegen_complete_body_keyframes",
-        "atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
+        "turn_method": "complete_perspective_poses",
+        "atlas_sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c",
+        "previous_revision_atlas_sha256": "d78b3b750c51793de4eafe3532c2350fff52bce9d54ecd40b879fc6e44c1d1b7",
+        "prior_demo_atlas_sha256": "7cdc28601c3f8ac7867409d4bd6c036e78c5091ffd3d45751a7db1f12798d7e7",
+        "canonical_identity_sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+        "review_evidence": "docs/contracts/t_rex/turn-v1-keyframe-review.json",
+        "turn_sharpness_sobel": [
+          218.251,
+          203.449,
+          177.687,
+          220.831,
+          181.419
+        ],
         "checks": {
           "body_connections": true,
           "whole_pose_sequence": true,
           "perspective_turns": true,
           "phase_timing": true,
           "three_backgrounds": true,
-          "character_identity": true
+          "character_identity": true,
+          "bidirectional_runtime_wired": true,
+          "two_endpoint_patrol_wired": true
         },
-        "review_evidence": "work/characters/t_rex/walk-style-v4/review/keyframe-review.json",
         "unresolved_structural_failures": [],
         "owner_approved": true,
-        "previous_revision_atlas_sha256": "90bb74abb48009fcb0ef624874e12fdefb0942b3ffacae7804bec09856f3236f",
-        "prior_demo_atlas_sha256": "7cdc28601c3f8ac7867409d4bd6c036e78c5091ffd3d45751a7db1f12798d7e7",
-        "owner_feedback": "ok anh thấy chuẩn rồi chốt 3 character theo qui trình rồi xóa những png không còn dùng theo qui định hiến pháp để giảm tải bộ nhớ repo sau đó push ver này lên main",
         "owner_accepted_motion": true,
-        "canonical_identity_sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
-        "identity_owner_approved": true,
         "naturalness_verdict": "owner_approved",
-        "approved_at": "2026-11-12T07:38:36.605057+00:00"
+        "approved_at": "2026-11-14T07:12:14+00:00",
+        "workflow_id": "PIPE-010",
+        "owner_message": "ok anh duyệt t-rex bắt đàu với nhân vật tiếp theo"
       },
-      "qa_report": "docs/characters/t-rex-walk-style-v4-qa.json",
+      "qa_report": "docs/characters/t-rex-turn-v1-qa.json",
       "canonical_identity": {
-        "reference": "work/characters/t_rex/walk-style-v4/walk-00-reference.png",
+        "reference": "assets/t_rex/source/walk-00-reference.png",
         "sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
         "owner_reference": "T-rex walk frame0",
         "source_roles": "Walk0 alone determines identity, pixel detail and baked shading; other sheets are original pose-layout references."
@@ -1118,7 +1227,11 @@
         ],
         "locomotion": {
           "kind": "flight",
-          "clip": "walk"
+          "clip": "walk",
+          "default_scale": 1.5,
+          "screen_speed_px_per_second": 140,
+          "speed_px_per_second": 93.333333,
+          "flight_default_y": 250
         },
         "aura": {
           "loop_clip": null,
@@ -1143,6 +1256,12 @@
             0.0,
             0.0
           ]
+        },
+        "turning": {
+          "clip": null,
+          "method": "instant_flip",
+          "turn_speed_multiplier": 1.2,
+          "owner_instruction": "Owner cancelled turn clip; horizontal flip responsiveness +20%."
         }
       },
       "modes": {
@@ -1172,7 +1291,7 @@
           "three_backgrounds": true,
           "character_identity": true
         },
-        "review_evidence": "work/characters/pteranodon/size-sync-v10/review/keyframe-review.json",
+        "review_evidence": "docs/contracts/pteranodon/size-sync-v10-keyframe-review.json",
         "unresolved_structural_failures": [],
         "owner_approved": true,
         "owner_feedback": "Owner approved157x107 size sample and explicitly requested applying it to the whole bundle. Actions and timing inherit the previously approved source; no new motion authored.",
@@ -1183,11 +1302,11 @@
       },
       "qa_report": "docs/characters/pteranodon-size-sync-v10-qa.json",
       "canonical_identity": {
-        "path": "work/characters/pteranodon/master-match-v9/reference.png",
+        "path": "assets/pteranodon/source/reference.png",
         "sha256": "7c9d71fe2033b0be2644bb8df1bb8d3cd5e5d38a7a0a71e3b7833c84a0e9e702",
-        "owner_input": "work/characters/pteranodon/master-review/test_scaled_canvas.png"
+        "owner_input": "assets/pteranodon/source/owner-canvas.png"
       },
-      "size_transform_reference": "work/characters/pteranodon/size-sync-v10/transform.json"
+      "size_transform_reference": "docs/contracts/pteranodon/size-sync-v10-transform.json"
     },
     {
       "character_id": "tasmanian_king_crab",
@@ -1205,8 +1324,15 @@
       "facing_contract": {
         "camera_view": "side_view_2d_three_quarter",
         "default_atlas_facing": "right(+X);huge anatomicalright claw near camera, smallleft claw far",
-        "left_facing_rule": "Horizontal display mirror only; no back-view or authored turn clip claimed.",
-        "locomotion_vector_rule": "Eight-leg forward ground walk toward+X; walk-only, no run."
+        "default_spawn_facing": "right",
+        "supported_spawn_facings": [
+          "right",
+          "left"
+        ],
+        "turn_exemption_and_flip_rule": "Canonical idle faces right (+X). Owner exempts King Crab from authoring a separate perspective turn clip and allows horizontal flip (scale.x / flip_h mirror, no turn clip) to face right (+X) or left (-X).",
+        "left_facing_rule": "Facing left (-X) mirrors horizontally (scale.x < 0 / flip_h) around foot anchor [176, 224], keeping walk phase 0..7->0 forward and mirroring ChargeFX/ProjectileFX cleanly toward -X.",
+        "locomotion_vector_rule": "Standard bidirectional horizontal facing: pressing A/D, patrolling endpoints, or Utility AI facing an opponent behind the crab immediately rotates facing (horizontal flip without turn clip) so attack_nomal and power_up fire toward the opponent.",
+        "owner_note": "Owner 2026-11-14 override (superseding CRAB-002 sideways lock): restored horizontal flip/rotation without requiring a turn clip so King Crab turns to face enemies behind it before firing power_up or attacking."
       },
       "map_sync_metrics": {
         "canvas_size_px": [
@@ -1245,7 +1371,7 @@
       },
       "pixel_sharpness_metrics": {
         "texel_scale_ratio": "Native gameplay PNG1px, Nearest; one whole-frame scale per action; no LUT/sharpen/palette forcing",
-        "edge_acutance_sobel": 349.243,
+        "edge_acutance_sobel": 307.778,
         "alpha_hardness_pct": 100,
         "visible_alpha_hardness_pct": 100,
         "opaque_key_px": 0,
@@ -1308,7 +1434,21 @@
             5,
             6,
             7
-          ]
+          ],
+          "sideways_strafe": false,
+          "lock_spawn_facing": false,
+          "default_spawn_facing": "right",
+          "allow_turn_or_flip": true,
+          "reverse_playback_mode": "forward_cycle",
+          "patrol": {
+            "enabled": true,
+            "min_x": 80,
+            "max_x": 880,
+            "speed_px_per_second": 92.0
+          },
+          "default_scale": 1.25,
+          "screen_speed_px_per_second": 115,
+          "speed_px_per_second": 92.0
         },
         "aura": {
           "loop_clip": null,
@@ -1349,6 +1489,12 @@
             4,
             0
           ]
+        },
+        "turning": {
+          "clip": null,
+          "method": "instant_flip",
+          "turn_speed_multiplier": 1.3,
+          "owner_instruction": "No turn clip needed; horizontal flip responsiveness +30%."
         }
       },
       "modes": {
@@ -1361,18 +1507,30 @@
       "atlas_stage": "finalized_owner_approved",
       "owner_animation_approval": {
         "status": "owner_approved",
-        "approved_at": "2026-11-12T09:51:08.495780+00:00",
+        "workflow_id": "PIPE-012",
+        "revision": "uniform-color-v1",
+        "release_version": "0.12.0",
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác",
         "approval_file": "assets/tasmanian_king_crab/owner_approval.json",
-        "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1"
+        "atlas_sha256": "c62f2776ffb15133fae9128436c899e222d3e4ed717c2abc46cd64db579da30d",
+        "previous_workflow_id": "PIPE-004",
+        "previous_approval_archive": [
+          "docs/releases/tasmanian_king_crab-v0.7.0-approval.json",
+          "docs/releases/tasmanian_king_crab-v0.7.0-approval.json"
+        ],
+        "previous_atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1"
       },
       "canonical_identity": {
-        "path": "work/characters/tasmanian_king_crab/size-master/master.png",
-        "sha256": "5c93785ff07a1578c9c504cd5ca683da0df50bb9075bb877301efc38b62722ea"
+        "path": "assets/tasmanian_king_crab/source/master.png",
+        "sha256": "020b0494ed66e90dac831e93b2ca758b436cda698a4c012eb7dfa87c6c704b0d"
       },
       "motion_quality": {
         "status": "owner_approved",
         "method": "imagegen_complete_body_keyframes",
-        "atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+        "atlas_sha256": "c62f2776ffb15133fae9128436c899e222d3e4ed717c2abc46cd64db579da30d",
+        "previous_revision_atlas_sha256": "bf079cf2fc96d59fc1cebb86012b39b1548a19c62c5a239e4a9528212efc51e1",
+        "reviewed_at": "2026-11-15T04:36:50.583682+00:00",
         "checks": {
           "body_connections": true,
           "whole_pose_sequence": true,
@@ -1381,15 +1539,34 @@
           "three_backgrounds": true,
           "character_identity": true
         },
-        "review_evidence": "work/characters/tasmanian_king_crab/atlas-v1/review/keyframe-review.json",
         "unresolved_structural_failures": [],
-        "owner_approved": true,
         "naturalness_verdict": "owner_approved",
-        "notes": "Owner accepted current identity, leg cadence, loop seams, normal claw dissolve and orb charge/release sequence. No authored turn is claimed; intentional fragments remain limited to distal claw during attack3/4.",
-        "approved_at": "2026-11-12T09:51:08.495780+00:00",
-        "owner_feedback": "ok chốt tasmanian và thông số điều chỉnh lúc này đồng bộ bundle godot theo đúng qui trình sau đó push code lên main giúp anh để sang nhân vật tiếp theo"
+        "owner_approved": true,
+        "notes": "Uniform-color-v1: removed idle glare/white flash and unified all 5 body clips (idle, attack_nomal, power_up, hit, ko) to canonical walk luminance CDF & RGB tone curve; walk & orb FX unchanged.",
+        "filmstrips_opened": [
+          "filmstrip-00.png",
+          "filmstrip-01.png",
+          "filmstrip-02.png",
+          "filmstrip-03.png",
+          "filmstrip-04.png",
+          "filmstrip-05.png",
+          "filmstrip-06.png",
+          "filmstrip-07.png"
+        ],
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "review_evidence": "docs/contracts/tasmanian_king_crab/uniform-color-keyframe-review.json",
+        "revision": "uniform-color-v1",
+        "owner_accepted_motion": true,
+        "workflow_id": "PIPE-012",
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác"
       },
-      "qa_report": "docs/characters/tasmanian-king-crab-atlas-v1-qa.json"
+      "qa_report": "docs/characters/tasmanian-king-crab-atlas-v1-qa.json",
+      "atlas_sha256": "c62f2776ffb15133fae9128436c899e222d3e4ed717c2abc46cd64db579da30d"
     },
     {
       "character_id": "sarcosuchus",
@@ -1512,7 +1689,10 @@
             5,
             6,
             7
-          ]
+          ],
+          "default_scale": 2.0,
+          "screen_speed_px_per_second": 135,
+          "speed_px_per_second": 67.5
         },
         "aura": {
           "loop_clip": null,
@@ -1560,9 +1740,17 @@
           "clip": "turn",
           "from": "right",
           "to": "left",
-          "duration_ticks": 20,
+          "duration_ticks": 16,
           "method": "complete_perspective_poses",
-          "mirror_sequence_for_reverse": true
+          "mirror_sequence_for_reverse": true,
+          "ticks": [
+            2,
+            5,
+            6,
+            3
+          ],
+          "duration_ms": 267,
+          "speed_boost_pct": 25
         }
       },
       "modes": {
@@ -1575,18 +1763,30 @@
       "atlas_stage": "finalized_owner_approved",
       "owner_animation_approval": {
         "status": "owner_approved",
-        "approved_at": "2026-11-13T02:57:36.459561+00:00",
+        "workflow_id": "PIPE-013",
+        "revision": "step2-visual-fix+calibration-v1",
+        "release_version": "0.12.0",
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác",
         "approval_file": "assets/sarcosuchus/owner_approval.json",
-        "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951"
+        "atlas_sha256": "81595756c2d1d7d4ca7ddf530bb972eca8964427311db69a38905502fed2a959",
+        "previous_workflow_id": "PIPE-005",
+        "previous_approval_archive": [
+          "docs/releases/sarcosuchus-v0.8.1-approval.json",
+          "docs/releases/sarcosuchus-v0.8.1-approval.json"
+        ],
+        "previous_atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951"
       },
       "canonical_identity": {
-        "path": "work/characters/sarcosuchus/master-review/master-gameplay-v1.png",
+        "path": "assets/sarcosuchus/source/master.png",
         "sha256": "8adeda8cbb99493640c296748c76cb05df7110cee909e43b84b844a5e8675ddc"
       },
       "motion_quality": {
         "status": "owner_approved",
         "method": "imagegen_complete_body_keyframes",
-        "atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+        "atlas_sha256": "81595756c2d1d7d4ca7ddf530bb972eca8964427311db69a38905502fed2a959",
+        "previous_revision_atlas_sha256": "4a8751e850128988284160e74cb24cf790034bee749678f105303b100a0f1951",
+        "reviewed_at": "2026-11-14T15:14:28.999238+00:00",
         "checks": {
           "body_connections": true,
           "whole_pose_sequence": true,
@@ -1595,15 +1795,35 @@
           "three_backgrounds": true,
           "character_identity": true
         },
-        "review_evidence": "work/characters/sarcosuchus/power-up-v2/review/keyframe-review.json",
         "unresolved_structural_failures": [],
-        "owner_approved": true,
         "naturalness_verdict": "owner_approved",
-        "notes": "Owner accepted the entire current character after Human Test, including power_up-v2 mouth-fit progressive sphere and identical-size launch. All body poses/ticks/events frozen.",
-        "approved_at": "2026-11-13T02:57:36.459561+00:00",
-        "owner_feedback": "ok anh chốt luôn cá sấu theo qui tình thực hiện chốt xong báo anh để anh yêu cầu sang nhân vật mới"
+        "owner_approved": true,
+        "notes": "Calibrated 2.0x scale / 135 px/s speed; turn sped up to [2,5,6,3] (16 ticks / 267ms) + walk-turn hitch eliminated.",
+        "filmstrips_opened": [
+          "filmstrip-00.png",
+          "filmstrip-01.png",
+          "filmstrip-02.png",
+          "filmstrip-03.png",
+          "filmstrip-04.png",
+          "filmstrip-05.png",
+          "filmstrip-06.png",
+          "filmstrip-07.png",
+          "filmstrip-08.png"
+        ],
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "review_evidence": "docs/contracts/sarcosuchus/step2-keyframe-review.json",
+        "revision": "step2-visual-fix+calibration-v1",
+        "owner_accepted_motion": true,
+        "workflow_id": "PIPE-013",
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác"
       },
-      "qa_report": "docs/characters/sarcosuchus-power-up-v2-qa.json"
+      "qa_report": "docs/characters/sarcosuchus-power-up-v2-qa.json",
+      "atlas_sha256": "81595756c2d1d7d4ca7ddf530bb972eca8964427311db69a38905502fed2a959"
     },
     {
       "character_id": "dilophosaurus",
@@ -1622,12 +1842,22 @@
       "atlas_stage": "finalized_owner_approved",
       "owner_animation_approval": {
         "status": "owner_approved",
-        "approved_at": "2026-11-13T04:57:15.924909+00:00",
+        "workflow_id": "PIPE-014",
+        "revision": "step2-visual-fix+calibration-v1",
+        "release_version": "0.12.0",
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác",
         "approval_file": "assets/dilophosaurus/owner_approval.json",
-        "atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157"
+        "atlas_sha256": "b56bdb47d903f14ea8072831dda6eb039f7d883a5cdadbbecf9548c9458e097b",
+        "previous_workflow_id": "PIPE-006",
+        "previous_approval_archive": [
+          "docs/releases/dilophosaurus-v0.9.1-approval.json",
+          "docs/releases/dilophosaurus-v0.9.1-approval.json"
+        ],
+        "previous_atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157"
       },
       "canonical_identity": {
-        "path": "work/characters/dilophosaurus/master-review/frill-v2/master-gameplay-v2.png",
+        "path": "assets/dilophosaurus/source/master.png",
         "sha256": "93ad864ffa41df0c168e4666af3212632825ae5d8aca314ed06d49c71fccc4a8"
       },
       "facing_contract": {
@@ -1738,7 +1968,10 @@
             5,
             6,
             7
-          ]
+          ],
+          "default_scale": 1.75,
+          "screen_speed_px_per_second": 155,
+          "speed_px_per_second": 88.571429
         },
         "aura": {
           "loop_clip": null,
@@ -1754,9 +1987,17 @@
           "clip": "turn",
           "from": "right",
           "to": "left",
-          "duration_ticks": 20,
+          "duration_ticks": 14,
           "method": "complete_perspective_poses",
-          "mirror_sequence_for_reverse": true
+          "mirror_sequence_for_reverse": true,
+          "ticks": [
+            2,
+            5,
+            5,
+            2
+          ],
+          "duration_ms": 233,
+          "speed_boost_pct": 43
         },
         "target_slashes": {
           "body_clip": "power_up",
@@ -1806,51 +2047,583 @@
       "motion_quality": {
         "status": "owner_approved",
         "method": "imagegen_complete_body_keyframes",
+        "atlas_sha256": "b56bdb47d903f14ea8072831dda6eb039f7d883a5cdadbbecf9548c9458e097b",
+        "previous_revision_atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
+        "reviewed_at": "2026-11-14T15:14:28.999238+00:00",
         "checks": {
           "body_connections": true,
           "whole_pose_sequence": true,
           "perspective_turns": true,
           "phase_timing": true,
           "three_backgrounds": true,
-          "character_identity": true,
-          "head_stability": true,
-          "idle_cadence": true
+          "character_identity": true
         },
-        "review_evidence": "work/characters/dilophosaurus/motion-v2/review/keyframe-review.json",
-        "owner_approved": true,
         "unresolved_structural_failures": [],
         "naturalness_verdict": "owner_approved",
-        "notes": "Only idle/power revised. Complete generated poses; no part slicing/patching. Active head shows residual1px outline/position variation, not pixel-locked. Large head/fan inflation removed; small membrane fold/edge changes repeated every16ticks. Owner must judge feel. Frozen other actions retain prior review by exact SHA. Owner subsequently accepted this entire revision; no image or timing changes during finalization.",
+        "owner_approved": true,
+        "notes": "Calibrated 1.75x scale / 155 px/s speed; Nearest-downscaled turn[1..3] grounded at y=224 to ~95-96px matching idle/walk; turn sped up to [2,5,5,2] (14 ticks / 233ms) + hitch fix.",
         "filmstrips_opened": [
-          "filmstrip-idle.png",
-          "filmstrip-power_wave.png",
-          "filmstrip-power_up.png",
-          "head-front-eight-phases.png",
-          "filmstrip-power_up-composite.png"
+          "filmstrip-00.png",
+          "filmstrip-01.png",
+          "filmstrip-02.png",
+          "filmstrip-03.png",
+          "filmstrip-04.png",
+          "filmstrip-05.png",
+          "filmstrip-06.png",
+          "filmstrip-07.png",
+          "filmstrip-08.png",
+          "filmstrip-09.png"
         ],
         "backgrounds": [
           "light",
           "dark",
           "checker"
         ],
-        "previous_rejected_atlas_sha256": "c1f163930cade1d9d42a945a4a7c7b879c9ada2681f75cf768718a30fc96a5f0",
-        "head_limit_evidence": "work/characters/dilophosaurus/motion-v2/verification/head-front-stability.json",
-        "runtime_review": "21body/backgroundsequences observed,88tickdeterministictrace; see headless skipped-pose warning",
-        "idle_timing": {
-          "old_poses": 4,
-          "old_hold_ticks": 30,
-          "new_poses": 12,
-          "new_hold_ticks": 10,
-          "period_ticks": 120
-        },
-        "turn": "Keep unchanged by explicit Owner instruction",
-        "atlas_sha256": "3dc6d0370e02128509680e6b57f9b67c42390571c39a4df160b29807f60fe157",
-        "timing_proof": "verification/browser-runtime.json",
-        "approved_at": "2026-11-13T04:57:15.924909+00:00",
-        "owner_message": "dilophosaurus  đã xong chốt hoạt ảnh giúp anh tiếp thành theo qui trình để sang nhân vật tiếp theo",
-        "owner_feedback": "dilophosaurus  đã xong chốt hoạt ảnh giúp anh tiếp thành theo qui trình để sang nhân vật tiếp theo"
+        "review_evidence": "docs/contracts/dilophosaurus/step2-keyframe-review.json",
+        "revision": "step2-visual-fix+calibration-v1",
+        "owner_accepted_motion": true,
+        "workflow_id": "PIPE-014",
+        "approved_at": "2026-11-15T05:52:31.727116+00:00",
+        "owner_message": "ok anh chốt toàn bộ nhân vật giúp anh chôt theo qui trình push lên main để qua nhân vật khác"
       },
-      "qa_report": "docs/characters/dilophosaurus-motion-v2-qa.json"
+      "qa_report": "docs/characters/dilophosaurus-motion-v2-qa.json",
+      "atlas_sha256": "b56bdb47d903f14ea8072831dda6eb039f7d883a5cdadbbecf9548c9458e097b"
+    },
+    {
+      "character_id": "shenron",
+      "display_name": "Shenron",
+      "faction": "special_beasts",
+      "combat_role": "npc",
+      "role_label": "NPC (Hỗ trợ Triệu hồi) — Rồng Thần chính diện",
+      "tags": [
+        "dragon",
+        "stationary",
+        "front_only",
+        "pixel_art"
+      ],
+      "status": "finalized_combined_1layer",
+      "atlas_stage": "owner_approved",
+      "owner_animation_approval": "owner_approved",
+      "facing_contract": {
+        "camera_view": "front_only",
+        "directions": [
+          "front"
+        ],
+        "owner_instruction": "Owner selected front_only idle-only; no movement, turn or mirror."
+      },
+      "map_sync_metrics": {
+        "canvas_size_px": [
+          384,
+          272
+        ],
+        "foot_anchor_px": [
+          192,
+          240
+        ],
+        "body_only_bbox_px": {
+          "x": 45,
+          "y": 27,
+          "w": 294,
+          "h": 201
+        },
+        "full_fx_bbox_px": {
+          "x": 43,
+          "y": 25,
+          "w": 299,
+          "h": 235
+        },
+        "reference_ppu_64": 64,
+        "world_size_at_64ppu_m": {
+          "body_w_m": 4.59375,
+          "body_h_m": 3.140625,
+          "aura_w_m": 4.671875,
+          "aura_h_m": 3.671875
+        },
+        "tile_32px_span": {
+          "body_tiles_w": 9.1875,
+          "body_tiles_h": 6.28125,
+          "full_fx_tiles_w": 9.34375,
+          "full_fx_tiles_h": 7.34375
+        }
+      },
+      "pixel_sharpness_metrics": {
+        "texel_scale_ratio": "Native1px gameplay; Nearest",
+        "edge_acutance_sobel": 419.261,
+        "alpha_hardness_pct": 100,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "reference_note": "Blue key measured on keyed candidates; palette restricted to approved master."
+      },
+      "present_clips": [
+        "idle"
+      ],
+      "effect_clips": [],
+      "missing_provisional_clips": [
+        "walk",
+        "run",
+        "jump",
+        "guard",
+        "attack_light",
+        "attack_heavy",
+        "power_up",
+        "aura_loop",
+        "hit",
+        "ko",
+        "win",
+        "turn"
+      ],
+      "not_applicable_clips": {
+        "walk": "Owner selected front_only stationary idle-only; guard/win excluded project-wide.",
+        "run": "Owner selected front_only stationary idle-only; guard/win excluded project-wide.",
+        "jump": "Owner selected front_only stationary idle-only; guard/win excluded project-wide.",
+        "guard": "Owner selected front_only stationary idle-only; guard/win excluded project-wide.",
+        "attack_light": "Owner selected front_only stationary idle-only; guard/win excluded project-wide.",
+        "attack_heavy": "Owner selected front_only stationary idle-only; guard/win excluded project-wide.",
+        "power_up": "Owner selected front_only stationary idle-only; guard/win excluded project-wide.",
+        "aura_loop": "Owner selected front_only stationary idle-only; guard/win excluded project-wide.",
+        "hit": "Owner selected front_only stationary idle-only; guard/win excluded project-wide.",
+        "ko": "Owner selected front_only stationary idle-only; guard/win excluded project-wide.",
+        "win": "Owner selected front_only stationary idle-only; guard/win excluded project-wide.",
+        "turn": "Owner selected front_only stationary idle-only; guard/win excluded project-wide."
+      },
+      "render_contract": {
+        "body_clips": [
+          "idle"
+        ],
+        "effect_clips": [],
+        "locomotion": {
+          "kind": "stationary",
+          "clip": "idle",
+          "speed_px_per_second": 0.0,
+          "default_scale": 2.76,
+          "allow_turn_or_flip": false,
+          "lock_spawn_facing": true
+        },
+        "facing": {
+          "camera_view": "front_only",
+          "directions": [
+            "front"
+          ],
+          "owner_instruction": "Owner selected front_only idle-only; no movement, turn or mirror."
+        },
+        "turning": {
+          "clip": null,
+          "method": "not_applicable_stationary_front"
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": null,
+          "independent_clock": true
+        },
+        "projectile": null,
+        "idle_wave": {
+          "clip": "idle",
+          "pose_count": 8,
+          "cycle_ticks": 96,
+          "tick_hz": 60,
+          "tail": "traveling_S_wave_screen_left_and_right",
+          "whiskers": "traveling_S_bends_from_muzzle_to_tips",
+          "master_frame0": "original pixels preserved with16px transparent bottom padding",
+          "breathing": "whole-body hovering; integer dy=[0,-1,-2,-1,0,1,2,1] over96ticks; approved tail/whisker pixels unchanged within each whole pose"
+        }
+      },
+      "modes": {
+        "combined_1layer": {
+          "label": "Combined 1-Layer — stationary idle",
+          "godot_prefab": "res://scenes/Shenron.tscn",
+          "bundle_id": "shenron"
+        }
+      },
+      "motion_quality": {
+        "status": "owner_approved",
+        "method": "imagegen_complete_body_keyframes",
+        "atlas_sha256": "e94502bbed02ed036f66aa8a5a3dcbf42f111898b3c83deb90b0a4c0669688b2",
+        "owner_approved": true,
+        "checks": {
+          "body_connections": true,
+          "whole_pose_sequence": true,
+          "perspective_turns": false,
+          "phase_timing": true,
+          "three_backgrounds": true,
+          "character_identity": true
+        },
+        "not_applicable_checks": {
+          "perspective_turns": "Owner chose front_only stationary idle-only; no turn requested."
+        },
+        "unresolved_structural_failures": [],
+        "review_evidence": "docs/contracts/shenron/idle-v5-hover-review.json",
+        "naturalness_verdict": "owner_approved",
+        "revision": "idle-v5-hover",
+        "approved_at": "2026-11-15T12:36:59.698744+00:00",
+        "owner_message": "ok anh chốt combo gọi rồng thần này tiến hành chốt theo qui trình giúp anh nhé"
+      },
+      "qa_report": "docs/characters/shenron-idle-v5-hover-qa.json",
+      "canonical_identity": {
+        "path": "assets/shenron/source/master.png",
+        "sha256": "7d32a92302b9af7a4286d8c11f07222d2874c555e3fa51c5f1738e0af87e0526"
+      }
+    },
+    {
+      "character_id": "drum",
+      "display_name": "Drum (Ma Nhân GBA)",
+      "faction": "piccolo_daimao",
+      "combat_role": "monster",
+      "role_label": "Quái (AI) — Tốc biến ≤200px / Đánh nhẹ 0.2s ≤50px / Power Up 200..400px",
+      "tags": [
+        "drum",
+        "piccolo",
+        "monster",
+        "ai",
+        "teleport",
+        "walk",
+        "electric_orb",
+        "gba_source_sheet",
+        "nearest_pixel_art",
+        "combined_1layer"
+      ],
+      "status": "finalized_combined_1layer",
+      "map_sync_metrics": {
+        "canvas_size_px": [
+          128,
+          96
+        ],
+        "foot_anchor_px": [
+          56,
+          84
+        ],
+        "body_only_bbox_px": {
+          "x": 31,
+          "y": 34,
+          "w": 56,
+          "h": 50
+        },
+        "full_fx_bbox_px": {
+          "x": 20,
+          "y": 18,
+          "w": 89,
+          "h": 66
+        },
+        "reference_ppu_64": 64,
+        "world_size_at_64ppu_m": {
+          "body_w_m": 0.875,
+          "body_h_m": 0.781,
+          "aura_w_m": 1.391,
+          "aura_h_m": 1.031
+        },
+        "tile_32px_span": {
+          "body_tiles_w": 1.75,
+          "body_tiles_h": 1.5625,
+          "full_fx_tiles_w": 2.78125,
+          "full_fx_tiles_h": 2.0625
+        }
+      },
+      "pixel_sharpness_metrics": {
+        "texel_scale_ratio": "Native 1px GBA source sheet (PA-1, 2.5x Nearest runtime scale)",
+        "edge_acutance_sobel": 392.542,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "reference_note": "PA-1 exact GBA source pixels & 18-color palette preserved 100% verbatim; exact #9205A7 chroma key removal with zero blur, sharpening, or AI redraw."
+      },
+      "present_clips": [
+        "idle",
+        "walk",
+        "jump",
+        "teleport",
+        "attack_light",
+        "power_up",
+        "hit",
+        "ko",
+        "getup",
+        "electric_orb_fx",
+        "electric_ring_fx"
+      ],
+      "effect_clips": [
+        "electric_orb_fx",
+        "electric_ring_fx"
+      ],
+      "missing_provisional_clips": [
+        "run",
+        "guard",
+        "aura_loop",
+        "win",
+        "turn"
+      ],
+      "not_applicable_clips": {
+        "attack_heavy": "Owner merged Row 3 frames into power_up preparation phase (no separate attack_heavy).",
+        "run": "Owner chose H1 exact GBA sheet + teleport ambush (no separate run).",
+        "guard": "guard/win excluded project-wide per Owner rule.",
+        "aura_loop": "No continuous body aura in source sheet; independent electric orb & ring FX used on cast.",
+        "win": "guard/win excluded project-wide per Owner rule.",
+        "turn": "Owner chose H1 exact GBA sheet with instant horizontal flip."
+      },
+      "render_contract": {
+        "body_clips": [
+          "idle",
+          "walk",
+          "jump",
+          "teleport",
+          "attack_light",
+          "power_up",
+          "hit",
+          "ko",
+          "getup"
+        ],
+        "effect_clips": [
+          "electric_orb_fx",
+          "electric_ring_fx"
+        ],
+        "locomotion": {
+          "kind": "ambush_teleport",
+          "clip": "walk",
+          "patrol": {
+            "enabled": false,
+            "clip": null,
+            "speed_px_per_second": 0.0
+          },
+          "default_scale": 2.5,
+          "speed_px_per_second": 56.0,
+          "screen_speed_px_per_second": 140
+        },
+        "facing": {
+          "camera_view": "side_view_2d",
+          "directions": [
+            "right",
+            "left"
+          ],
+          "default_facing": "right",
+          "owner_instruction": "GBA side-scroller profile facing right; instant flip toward target on ambush teleport & combo."
+        },
+        "turning": {
+          "clip": null,
+          "method": "instant_flip"
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": "electric_ring_fx",
+          "independent_clock": true
+        },
+        "fx_pivot_px": [
+          64,
+          48
+        ],
+        "projectile": {
+          "kind": "linear_energy",
+          "body_clip": "power_up",
+          "projectile_clip": "electric_orb_fx",
+          "charge_clip": "electric_ring_fx",
+          "release_frame": 10,
+          "lifetime_ticks": 39,
+          "origin_canvas_px": [
+            98,
+            56
+          ],
+          "velocity_px_per_tick": [
+            12.0,
+            0.0
+          ],
+          "palette": "cyan"
+        }
+      },
+      "modes": {
+        "combined_1layer": {
+          "label": "Combined 1-Layer Drum + Independent Electric Orb/Ring FX (PA-1 / H1)",
+          "godot_prefab": "res://scenes/Drum.tscn",
+          "bundle_id": "drum"
+        }
+      },
+      "atlas_stage": "finalized_owner_approved",
+      "motion_quality": {
+        "status": "owner_approved",
+        "method": "existing_complete_source_frames",
+        "turn_method": "instant_flip",
+        "atlas_sha256": "02b57b829ca4c5dd963249e82bfbf3ee8c900127ec9295dfd036685ece5bebea",
+        "owner_approved": true,
+        "checks": {
+          "body_connections": true,
+          "whole_pose_sequence": true,
+          "perspective_turns": true,
+          "phase_timing": true,
+          "three_backgrounds": true
+        },
+        "unresolved_structural_failures": [],
+        "review_evidence": "assets/drum/clips/review/filmstrip-01.png",
+        "notes": "Walk v6 rebuilt from canonical idle_00 via Codex (local CLI) locking 1:1 GBA size parity (55-57x50-51px, area 1692-1801px matching idle_00 56x50 / 1733px), natural alternating light foot lift (~2-3px) + short forward step (0..3 left, 4..7 right), speed calibrated to 140 px/s (56.0 * 2.5x), finalized scale 2.5x Nearest (140x125px / 11.6% 1080p), exact GBA palette, {0,255} alpha, 0 pockets, and 3-bg filmstrip verification.",
+        "naturalness_verdict": "owner_approved"
+      }
+    },
+    {
+      "character_id": "floating_camera",
+      "display_name": "Floating Camera",
+      "faction": "special_beasts",
+      "combat_role": "monster",
+      "role_label": "Quái bay · bắn đạn từ nòng súng",
+      "tags": [
+        "monster",
+        "flying",
+        "camera",
+        "pixel_art"
+      ],
+      "status": "finalized_owner_approved",
+      "map_sync_metrics": {
+        "canvas_size_px": [
+          192,
+          160
+        ],
+        "foot_anchor_px": [
+          96,
+          112
+        ],
+        "body_only_bbox_px": {
+          "x": 61,
+          "y": 38,
+          "w": 70,
+          "h": 74
+        },
+        "full_fx_bbox_px": {
+          "x": 47,
+          "y": 28,
+          "w": 116,
+          "h": 115
+        },
+        "reference_ppu_64": 64,
+        "world_size_at_64ppu_m": {
+          "body_w_m": 1.09375,
+          "body_h_m": 1.15625,
+          "aura_w_m": 1.8125,
+          "aura_h_m": 1.796875
+        },
+        "tile_32px_span": {
+          "body_tiles_w": 2.1875,
+          "body_tiles_h": 2.3125,
+          "full_fx_tiles_w": 3.625,
+          "full_fx_tiles_h": 3.59375
+        }
+      },
+      "pixel_sharpness_metrics": {
+        "texel_scale_ratio": "Nearest SX=3.5, SY=3.0833 từ nguồn 20×24 (1-pass direct)",
+        "edge_acutance_sobel": 133.691,
+        "alpha_hardness_pct": 100.0,
+        "visible_alpha_hardness_pct": 100.0,
+        "opaque_key_px": 0,
+        "enclosed_key_pockets": 0,
+        "outer_ring_spill_fraction": 0.0,
+        "reference_note": "1-pass Nearest direct extraction from 20x24 FloatingCamera.gif source (13 exact colors, zero blur, zero AI redraw)."
+      },
+      "present_clips": [
+        "idle",
+        "walk",
+        "attack_light",
+        "projectile_fx",
+        "hit",
+        "ko"
+      ],
+      "effect_clips": [
+        "projectile_fx"
+      ],
+      "missing_provisional_clips": [
+        "run",
+        "jump",
+        "attack_heavy",
+        "aura_loop",
+        "turn"
+      ],
+      "not_applicable_clips": {
+        "run": "Owner only requested flight from row 1 poses.",
+        "jump": "Flying monster hovering in mid-air (no ground jump).",
+        "guard": "guard/win excluded project-wide per Owner rule.",
+        "win": "guard/win excluded project-wide per Owner rule.",
+        "attack_heavy": "Owner scoped attack to row 2 skill + projectile_fx (no separate attack_heavy).",
+        "aura_loop": "No continuous body aura in source sheet.",
+        "turn": "Owner scoped finalized 70x74 asset to available source poses with instant horizontal flip (+X muzzle forward)."
+      },
+      "render_contract": {
+        "body_clips": [
+          "idle",
+          "walk",
+          "attack_light",
+          "hit",
+          "ko"
+        ],
+        "effect_clips": [
+          "projectile_fx"
+        ],
+        "locomotion": {
+          "kind": "flight",
+          "clip": "walk",
+          "default_scale": 1.0,
+          "screen_speed_px_per_second": 150,
+          "speed_px_per_second": 150,
+          "flight_default_y": 300,
+          "default_spawn_facing": "right",
+          "allow_turn_or_flip": true,
+          "preserve_phase_on_idle_walk": true,
+          "patrol": {
+            "enabled": true,
+            "clip": "walk",
+            "speed_px_per_second": 150,
+            "min_x": 300,
+            "max_x": 1620
+          }
+        },
+        "turning": {
+          "method": "instant_flip",
+          "clip": null
+        },
+        "fx_pivot_px": [
+          96,
+          70
+        ],
+        "projectile": {
+          "body_clip": "attack_light",
+          "projectile_clip": "projectile_fx",
+          "release_frame": 1,
+          "origin_local_px": [
+            21,
+            -6
+          ],
+          "velocity_px_per_second": [
+            380,
+            0
+          ],
+          "source_forward": "right (+X)"
+        },
+        "aura": {
+          "loop_clip": null,
+          "charge_clip": null,
+          "independent_clock": true
+        }
+      },
+      "modes": {
+        "combined_1layer": {
+          "label": "Combined 1-Layer Floating Camera + Independent Projectile FX (70×74 1-Pass Nearest)",
+          "godot_prefab": "res://scenes/FloatingCamera.tscn",
+          "bundle_id": "floating_camera"
+        }
+      },
+      "atlas_stage": "finalized_owner_approved",
+      "motion_quality": {
+        "status": "owner_approved",
+        "method": "existing_complete_source_frames",
+        "turn_method": "instant_flip",
+        "atlas_sha256": "c40954fa72f5bee0f5dd5f6a6d47ad42b8827f214e213b58c6ee7e330e4d607e",
+        "owner_approved": true,
+        "checks": {
+          "body_connections": true,
+          "whole_pose_sequence": true,
+          "perspective_turns": true,
+          "phase_timing": true,
+          "three_backgrounds": true
+        },
+        "unresolved_structural_failures": [],
+        "review_evidence": "assets/floating_camera/clips/review/filmstrip-00.png",
+        "notes": "Floating Camera 70x74 via 1-pass direct Nearest from 20x24 source (13 colors, {0,255} alpha, 0 pockets/spill), idle=walk seamless hover phase continuity, flight_default_y=300 at 150 px/s, +X muzzle projectile_fx top_level, 3-bg filmstrips & localhost/Godot Web/Android APK Human Test approved.",
+        "naturalness_verdict": "owner_approved"
+      }
     }
-  ]
+  ],
+  "updated_at": "2026-11-16T15:27:40.485077+00:00"
 }

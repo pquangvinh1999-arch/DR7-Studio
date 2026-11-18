@@ -1,0 +1,1566 @@
+{
+  "approved_at": "2026-11-14T07:12:14+00:00",
+  "workflow_id": "PIPE-010",
+  "supersedes": "PIPE-001",
+  "owner_approval_file": "assets/t_rex/owner_approval.json",
+  "archived_previous_receipt": "docs/releases/t_rex-v0.6.0-approval.json",
+  "atlas_sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c",
+  "tres_sha256": "ac6a3dd694127137d5e20dcec7b04614e964b4a2667b075a827f473dca1bf6c7",
+  "runtime_files_frozen": 291,
+  "cleanup": {
+    "removed_count": 258,
+    "removed_bytes": 19158702,
+    "remaining_stage_pngs": 0,
+    "scope": "Only byte-identical stage PNG copies inside work/characters/t_rex/turn-v1/stage/.",
+    "files": [
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/contact-sheet.png",
+        "retained": "assets/t_rex/clips/contact-sheet.png",
+        "sha256": "caca704dcbb2db9e7518aeb10d8f704a4a6dd05e59ac2f4282ffdae619a35b1a",
+        "bytes": 1753656
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-00.png",
+        "retained": "assets/t_rex/clips/frames/frame-00.png",
+        "sha256": "234ea04b8acb9120e4b17802b24741874f4bebfa6006bd0e252af8692634da39",
+        "bytes": 26911
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-01.png",
+        "retained": "assets/t_rex/clips/frames/frame-01.png",
+        "sha256": "c532ade6a3cf8e0fe28dbae16ba5a9099b9ed20fac11abb0564b5f4b6d8801b1",
+        "bytes": 26532
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-02.png",
+        "retained": "assets/t_rex/clips/frames/frame-02.png",
+        "sha256": "d0e0abad7deb4e00e2ac3ed64cf2916a3f0546be955b55ffae37ed7e3e01230c",
+        "bytes": 26211
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-03.png",
+        "retained": "assets/t_rex/clips/frames/frame-03.png",
+        "sha256": "b811af6e0a46dd9d0038c1d3310064acd2aab0071efd51abe533bdee2e82ca48",
+        "bytes": 25918
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-04.png",
+        "retained": "assets/t_rex/clips/frames/frame-04.png",
+        "sha256": "f8fca2a7ebbf2256e17ce4d0836b4cff54734d3b1da7797a90d9da716be8c74e",
+        "bytes": 26539
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-05.png",
+        "retained": "assets/t_rex/clips/frames/frame-05.png",
+        "sha256": "df04968e5889cefe2c516e612ce00cbb607239d78ea6aed343a794b0aab1f9da",
+        "bytes": 27057
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-06.png",
+        "retained": "assets/t_rex/clips/frames/frame-06.png",
+        "sha256": "03a7965770035785c54fbc7eb3307919dc03efdfff229f22e30fcc2846964115",
+        "bytes": 26741
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-07.png",
+        "retained": "assets/t_rex/clips/frames/frame-07.png",
+        "sha256": "6878ce93fd2e33d81f99470229987cb61499e9cca117f5f02fc9dc861c302636",
+        "bytes": 26753
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-08.png",
+        "retained": "assets/t_rex/clips/frames/frame-08.png",
+        "sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+        "bytes": 25451
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-09.png",
+        "retained": "assets/t_rex/clips/frames/frame-09.png",
+        "sha256": "8f4e83419b79625e8307d3e3c666f22f22b59b781dd3e92c6cba4d8cc6bd1af0",
+        "bytes": 25612
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-10.png",
+        "retained": "assets/t_rex/clips/frames/frame-10.png",
+        "sha256": "4ac77ed7ccd7ee6651403237e2190cc60b67c397c73ba5c0c8ca81b4b1afda00",
+        "bytes": 24632
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-11.png",
+        "retained": "assets/t_rex/clips/frames/frame-11.png",
+        "sha256": "eddd5198744f3c3fada3c11c8e9a463ed9024284fbd0fa647d319c8bbc511030",
+        "bytes": 25037
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-12.png",
+        "retained": "assets/t_rex/clips/frames/frame-12.png",
+        "sha256": "724f01efdc66a878c71bfdbb16be18b86cc3bf9a30af3169e908491a40a09102",
+        "bytes": 25324
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-13.png",
+        "retained": "assets/t_rex/clips/frames/frame-13.png",
+        "sha256": "b6727ae59002766986455cce41c23bb8e6cdd4306cb195ee7be08463f58cc004",
+        "bytes": 26767
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-14.png",
+        "retained": "assets/t_rex/clips/frames/frame-14.png",
+        "sha256": "dfce6753967078aeeb322cc88d8f9c1e9e6aa9642f2d12d96452e4efdd8099a5",
+        "bytes": 27083
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-15.png",
+        "retained": "assets/t_rex/clips/frames/frame-15.png",
+        "sha256": "fde0950ae32cc07cd75326fd380b609ce7b0ed7a2555d753cc3a7b1d8179fae7",
+        "bytes": 27595
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-16.png",
+        "retained": "assets/t_rex/clips/frames/frame-16.png",
+        "sha256": "9544dabcd9e4a111caa57e711718e7ddda1b2dc53697ee0914eb3b932451f551",
+        "bytes": 27647
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-17.png",
+        "retained": "assets/t_rex/clips/frames/frame-17.png",
+        "sha256": "c646d21219d060d7c7da5b9b4fdad1b346b3eeae1fc7c488b870d941b0b8d13d",
+        "bytes": 27939
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-18.png",
+        "retained": "assets/t_rex/clips/frames/frame-18.png",
+        "sha256": "2e54afabf418bc5bfdcdd025778d63330703e568bf5b859cc267a07fb0260358",
+        "bytes": 25941
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-19.png",
+        "retained": "assets/t_rex/clips/frames/frame-19.png",
+        "sha256": "4426e8bc250d173cbf8d6ca2cbf212dc18c8b03fe6e5a9631ae851aaa3a20573",
+        "bytes": 25562
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-20.png",
+        "retained": "assets/t_rex/clips/frames/frame-20.png",
+        "sha256": "a871c866ec51355cc5fb69b34bd30cd6ae34d381573f3f969e71aaae4cefefdb",
+        "bytes": 25491
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-21.png",
+        "retained": "assets/t_rex/clips/frames/frame-21.png",
+        "sha256": "e88026a64d9526bc50ca4527a14c3f46a5b3adc7b6c48d11039ae5053a7e72fa",
+        "bytes": 24805
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-22.png",
+        "retained": "assets/t_rex/clips/frames/frame-22.png",
+        "sha256": "3e6c90892dcfb5a254042ee97f76979370829fc97d26116a1cd66403942ec2bd",
+        "bytes": 26387
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-23.png",
+        "retained": "assets/t_rex/clips/frames/frame-23.png",
+        "sha256": "f153ea2bb3dc474d464d488e71cc52eb9f480cee0a1f71a02578cb07c1f7e531",
+        "bytes": 27752
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-24.png",
+        "retained": "assets/t_rex/clips/frames/frame-24.png",
+        "sha256": "217e1aac0cc16bac2f9efb61ea2c30b55cf2737effd5a092fa09ab4ffd8afa8e",
+        "bytes": 27700
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-25.png",
+        "retained": "assets/t_rex/clips/frames/frame-25.png",
+        "sha256": "a8fe833d9737af7c54b51048d3f0bfe8ffafb8d89f02d35c7ab8c7f70636898e",
+        "bytes": 27385
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-26.png",
+        "retained": "assets/t_rex/clips/frames/frame-26.png",
+        "sha256": "300b70285c5aa4e361aa19dccd8e691397bd0d09ca12925e6fcf10072b0420b4",
+        "bytes": 27917
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-27.png",
+        "retained": "assets/t_rex/clips/frames/frame-27.png",
+        "sha256": "3d3d9b113be63d32be3c1f5f53986d89addd9ad98e78163533777687660e5946",
+        "bytes": 28747
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-28.png",
+        "retained": "assets/t_rex/clips/frames/frame-28.png",
+        "sha256": "e7a57a2d4ddeb1d0ab8fa3e131e0585c24b7cc871e9bb85baf0ecf87921aa2ef",
+        "bytes": 27679
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-29.png",
+        "retained": "assets/t_rex/clips/frames/frame-29.png",
+        "sha256": "4de08876062d94f7c85ac73ce8d5fa59ffdc3964e63969f15e7c37c63b907290",
+        "bytes": 28038
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-30.png",
+        "retained": "assets/t_rex/clips/frames/frame-30.png",
+        "sha256": "b7d0babc2b00ec3d31ba9fa2b1398cbb8d0d1387712dcfd8268989261772a913",
+        "bytes": 27541
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-31.png",
+        "retained": "assets/t_rex/clips/frames/frame-31.png",
+        "sha256": "68745a6b3cc105f8a90861a4a643ee069952b6818c45b4376894311de2ecf1f1",
+        "bytes": 27420
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-32.png",
+        "retained": "assets/t_rex/clips/frames/frame-32.png",
+        "sha256": "344c45a0f0d2d6e3766d38864333c3bf19add1f9aa473040f4636c191b36ac9d",
+        "bytes": 27166
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-33.png",
+        "retained": "assets/t_rex/clips/frames/frame-33.png",
+        "sha256": "d2972b65fbc8032edc09d0a0b66236e817a12c977016174be6c073fba2b00968",
+        "bytes": 27115
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-34.png",
+        "retained": "assets/t_rex/clips/frames/frame-34.png",
+        "sha256": "0ad240348028fe6a3886822a0ad186007abd84b6750d129df39d0b8918b3034f",
+        "bytes": 24473
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-35.png",
+        "retained": "assets/t_rex/clips/frames/frame-35.png",
+        "sha256": "650c9e6337b22e8622b77a3bda374b39955eecb9dae413fd501abbe115c945dc",
+        "bytes": 24046
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-36.png",
+        "retained": "assets/t_rex/clips/frames/frame-36.png",
+        "sha256": "622b848cd48356bc60efc7bf6994a8b1f54ab9d68c096fc48f55498f50a4324e",
+        "bytes": 22264
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-37.png",
+        "retained": "assets/t_rex/clips/frames/frame-37.png",
+        "sha256": "1387be91914056cc00f0adf99164aa6a56395d7575ff091ed39578fe9e0a4d2c",
+        "bytes": 24848
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-38.png",
+        "retained": "assets/t_rex/clips/frames/frame-38.png",
+        "sha256": "9cd84d44db5b02e4541d8a44da35cab58019692025d2d6e87d9c02013e51270a",
+        "bytes": 23410
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-39.png",
+        "retained": "assets/t_rex/clips/frames/frame-39.png",
+        "sha256": "404f9907437ad4946a1bb25b395adecd44d88e90b21c205423975c94e31db0f7",
+        "bytes": 24192
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-40.png",
+        "retained": "assets/t_rex/clips/frames/frame-40.png",
+        "sha256": "328d05ee6cdf90997ac21458e8e54aea38054e72cd7a5e5734e48c6adfcecb4f",
+        "bytes": 20436
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-41.png",
+        "retained": "assets/t_rex/clips/frames/frame-41.png",
+        "sha256": "0588ea75197571f6bfe22f89c860cdd6a45f14ce9d10e22ced3d9d68868552de",
+        "bytes": 17763
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-42.png",
+        "retained": "assets/t_rex/clips/frames/frame-42.png",
+        "sha256": "aa3a1809033b374b59cccce0d557ebbd0d672ecb150debecc2104ab2a7f21ef2",
+        "bytes": 22576
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-43.png",
+        "retained": "assets/t_rex/clips/frames/frame-43.png",
+        "sha256": "5d70ee7305950baa720c3c52631509728f8f778d36ae1f5f71650b860a44696b",
+        "bytes": 24418
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-44.png",
+        "retained": "assets/t_rex/clips/frames/frame-44.png",
+        "sha256": "824ebdbc803b53abfd76652a8a68b18008573f09534ea7ff783377bb8cc17603",
+        "bytes": 23868
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-45.png",
+        "retained": "assets/t_rex/clips/frames/frame-45.png",
+        "sha256": "8108b26cf005d415e4d2d592fa86d61b59746cea0df0fc77c57a6e230da307e6",
+        "bytes": 24648
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-46.png",
+        "retained": "assets/t_rex/clips/frames/frame-46.png",
+        "sha256": "06fbdb56780ddbda3688306d8620d1c8f11f90fcba816c3465d64991b40e3a0f",
+        "bytes": 28388
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-47.png",
+        "retained": "assets/t_rex/clips/frames/frame-47.png",
+        "sha256": "8d7bf5eed706de6c3979302ec4dc44cedf58f5754e8bb7784e2016bfbade0f14",
+        "bytes": 29926
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-48.png",
+        "retained": "assets/t_rex/clips/frames/frame-48.png",
+        "sha256": "3ab1c6b3e5fb732a0fbed98038dddec9589c1fa1d3784420bf1813539e26f26c",
+        "bytes": 26523
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-49.png",
+        "retained": "assets/t_rex/clips/frames/frame-49.png",
+        "sha256": "b590db65605f268302654c21eb4adef00b97ea55162e991e1466de837cc77a32",
+        "bytes": 27621
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-50.png",
+        "retained": "assets/t_rex/clips/frames/frame-50.png",
+        "sha256": "0839cbedc38ac39a85297c61f2391c128a3d0286b070ddf343b20ae659bd66be",
+        "bytes": 28673
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-51.png",
+        "retained": "assets/t_rex/clips/frames/frame-51.png",
+        "sha256": "381b4e31fbc677b7238440211269ff691c9ac8fe1d79d77b72bb6286d2f878a0",
+        "bytes": 28319
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-52.png",
+        "retained": "assets/t_rex/clips/frames/frame-52.png",
+        "sha256": "f380f6046c212e654b15a065a01e50aca82b3c9dff41ddebc1c2fc5e64168445",
+        "bytes": 28395
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-53.png",
+        "retained": "assets/t_rex/clips/frames/frame-53.png",
+        "sha256": "d3a856fe35f1e78b5f2e9e286df5f2cc4382300121a0cf7a390bedbd6b64f792",
+        "bytes": 27553
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-54.png",
+        "retained": "assets/t_rex/clips/frames/frame-54.png",
+        "sha256": "b078fc3c9511cf1819a0ec293a8da05175083923ccb84e2c597b9b66beddf940",
+        "bytes": 28033
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-55.png",
+        "retained": "assets/t_rex/clips/frames/frame-55.png",
+        "sha256": "c45b0ad52a145169c80a903348bec5e3134817738c2496a06c2608c7e158076f",
+        "bytes": 26660
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-56.png",
+        "retained": "assets/t_rex/clips/frames/frame-56.png",
+        "sha256": "268811b39d5ec8495e24dfcd6e6af6685ca77c2a4666cd5365bfcb961348684b",
+        "bytes": 27592
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-57.png",
+        "retained": "assets/t_rex/clips/frames/frame-57.png",
+        "sha256": "795b87bed39a05ab002e28aa5c66e03f492814a00afc1171ed662791a1a0673e",
+        "bytes": 27226
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-58.png",
+        "retained": "assets/t_rex/clips/frames/frame-58.png",
+        "sha256": "f4fc85472a71769d048ea4951ab044b974608030219802ff7236dd8f4137347e",
+        "bytes": 26338
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-59.png",
+        "retained": "assets/t_rex/clips/frames/frame-59.png",
+        "sha256": "c24e136fcdb9d1933d4026a282770a7d484671fc6b5db6cc2f7c7d678292e4e0",
+        "bytes": 26249
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-60.png",
+        "retained": "assets/t_rex/clips/frames/frame-60.png",
+        "sha256": "f164db9477810e60ec0d6833125deafaa1010f88f5cc905624adafa8451d89fc",
+        "bytes": 26384
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-61.png",
+        "retained": "assets/t_rex/clips/frames/frame-61.png",
+        "sha256": "d0cb3d5b4cd57f1e084dd489badcad9d6ba71bcabfa2d58cbdb8abf28e55b268",
+        "bytes": 29870
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-62.png",
+        "retained": "assets/t_rex/clips/frames/frame-62.png",
+        "sha256": "47e7a2f84cbc5d5fe7a583732b807fbf605c2091b9b431e01bff08c0d283bbc9",
+        "bytes": 27789
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-63.png",
+        "retained": "assets/t_rex/clips/frames/frame-63.png",
+        "sha256": "c37b7b3957a65a104d4c05eccff1be11e06f48450c6f65133f1032a66af12903",
+        "bytes": 27425
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-64.png",
+        "retained": "assets/t_rex/clips/frames/frame-64.png",
+        "sha256": "9d886a1c1b59cdbed15584c15176578cff64b19d3bcef8c474c5bf2a3ed734a9",
+        "bytes": 26544
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-65.png",
+        "retained": "assets/t_rex/clips/frames/frame-65.png",
+        "sha256": "c3162c81f3b64d7033c7e824907151cfb8df38e3493fb2e723191fc6f463bba1",
+        "bytes": 25382
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-66.png",
+        "retained": "assets/t_rex/clips/frames/frame-66.png",
+        "sha256": "1a891cc3b12daf0aff9506fa7070db715aca961c7419f18c0c4fe30a1390506d",
+        "bytes": 25040
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-67.png",
+        "retained": "assets/t_rex/clips/frames/frame-67.png",
+        "sha256": "4f79be252d54d93c6bc8a181a3d9efdcd5e4c622a22bd457efbf9a9d4ae2deab",
+        "bytes": 24651
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-68.png",
+        "retained": "assets/t_rex/clips/frames/frame-68.png",
+        "sha256": "cfadafffacc4a642273f39b470b9d971bd630b908d9982eaf9964ea682b0864b",
+        "bytes": 24585
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-69.png",
+        "retained": "assets/t_rex/clips/frames/frame-69.png",
+        "sha256": "e3db9e0776fb59e8c8ccdc2c8767a317564afa03a72513378dc298e78338b24a",
+        "bytes": 5138
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-70.png",
+        "retained": "assets/t_rex/clips/frames/frame-70.png",
+        "sha256": "476a946b571b1d5ad97f7bd5f0003a8872b80d355a758db02d29f4be920e8a61",
+        "bytes": 4008
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-71.png",
+        "retained": "assets/t_rex/clips/frames/frame-71.png",
+        "sha256": "148a2c1a1f2bea56f2ccc26b241ac8eda823e02424f2a3f5ca7643d70efedb4f",
+        "bytes": 3672
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-72.png",
+        "retained": "assets/t_rex/clips/frames/frame-72.png",
+        "sha256": "4f8bfed820ee34fba32a1bca889f2e333f9afbd9f5d2a163f07cd88397e4ec3b",
+        "bytes": 3661
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-73.png",
+        "retained": "assets/t_rex/clips/frames/frame-73.png",
+        "sha256": "a450b5730829bdbb3a4dd294f4a5615a8f1b6ad64a0f15394743966238085544",
+        "bytes": 24722
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-74.png",
+        "retained": "assets/t_rex/clips/frames/frame-74.png",
+        "sha256": "8601e2339477e84b91e74fd2dac1d62cbe368ee75af60acbc07be9b919058b89",
+        "bytes": 23628
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-75.png",
+        "retained": "assets/t_rex/clips/frames/frame-75.png",
+        "sha256": "ee5a72682b442a4fae3fbc08f2602d5be8b14aa887b3025665ffe3ae4fa152a7",
+        "bytes": 20830
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-76.png",
+        "retained": "assets/t_rex/clips/frames/frame-76.png",
+        "sha256": "21649b5bfc42e59fbf83c20b7a707981054d1d47bab026a6dbecffbc5805fedf",
+        "bytes": 23593
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/frames/frame-77.png",
+        "retained": "assets/t_rex/clips/frames/frame-77.png",
+        "sha256": "b20c48b784e1f1aa4f9984135ea5ed6204e86009fd97283d0ca189f539f4a49f",
+        "bytes": 25402
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/filmstrip-00.png",
+        "retained": "assets/t_rex/clips/review/filmstrip-00.png",
+        "sha256": "ac153e65ad9b0163ec126d77e3a7b6b1fbeee8a784fbc5d967d809c1aa9bc09f",
+        "bytes": 572187
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/filmstrip-01.png",
+        "retained": "assets/t_rex/clips/review/filmstrip-01.png",
+        "sha256": "5a35b842b36746ef72b5a4ea9d8edbf0062cdcb79416c58550a7d1e2e88c6b28",
+        "bytes": 733361
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/filmstrip-02.png",
+        "retained": "assets/t_rex/clips/review/filmstrip-02.png",
+        "sha256": "3cdb91c8cf060c899156d882f67b1c1fbecb93289391511415279a05a5d3b37b",
+        "bytes": 575571
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/filmstrip-03.png",
+        "retained": "assets/t_rex/clips/review/filmstrip-03.png",
+        "sha256": "5af8d8f471cecb2d83ec880cdad99f7e253e19cd1e05c17f6556e1c73e1ed185",
+        "bytes": 600465
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/filmstrip-04.png",
+        "retained": "assets/t_rex/clips/review/filmstrip-04.png",
+        "sha256": "bc95008e75e8466e2b1b1e534a9d3e5bbe653a76ee543ab53473e845e3dccfa5",
+        "bytes": 779798
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/filmstrip-05.png",
+        "retained": "assets/t_rex/clips/review/filmstrip-05.png",
+        "sha256": "5714a49f46e0f7c606ec17032dba32f7eabb7883b0c86761e5763f30d379f6b0",
+        "bytes": 704856
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/filmstrip-06.png",
+        "retained": "assets/t_rex/clips/review/filmstrip-06.png",
+        "sha256": "8c5483df202e47355d5a037c899173f0abacbaec500f0dd6c57025e9ceb620ec",
+        "bytes": 436623
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/filmstrip-07.png",
+        "retained": "assets/t_rex/clips/review/filmstrip-07.png",
+        "sha256": "5434d0ecca6c0a25f9ccdbeca0fb959176e2a0c3efd2b18b431a49e998eab2a9",
+        "bytes": 577823
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/filmstrip-08.png",
+        "retained": "assets/t_rex/clips/review/filmstrip-08.png",
+        "sha256": "ae7f3fee956555930bfe125a2e035fc2f49ca205ce56c81ce24a92bd86280ffc",
+        "bytes": 64353
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/filmstrip-09.png",
+        "retained": "assets/t_rex/clips/review/filmstrip-09.png",
+        "sha256": "abdd404431a8e8723d8458114bafe465335168bd85438632493db2ccefc871f4",
+        "bytes": 331992
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/onion-00.png",
+        "retained": "assets/t_rex/clips/review/onion-00.png",
+        "sha256": "8d072211a63947c1e03bc31e767112fcef8cab926350f1c602b250726285c06b",
+        "bytes": 202835
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/onion-01.png",
+        "retained": "assets/t_rex/clips/review/onion-01.png",
+        "sha256": "d4122a3cab4adbfcf3c8b4861d9d7db167709790ea12b8736c3ecc7582dbf752",
+        "bytes": 261953
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/onion-02.png",
+        "retained": "assets/t_rex/clips/review/onion-02.png",
+        "sha256": "9168286bbdaa68b02f7fffce49c3f3565239941682932379f85b13a80ab0ba2c",
+        "bytes": 206896
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/onion-03.png",
+        "retained": "assets/t_rex/clips/review/onion-03.png",
+        "sha256": "ff8d228c18f210ac14f33db34ddac2394455303dd218d8d98c070bdad41eff61",
+        "bytes": 215547
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/onion-04.png",
+        "retained": "assets/t_rex/clips/review/onion-04.png",
+        "sha256": "0a355c2ab12aada8d7e7ee31996a9bd4dc16fe07a2f1942ad2c107c665e9eeef",
+        "bytes": 284465
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/onion-05.png",
+        "retained": "assets/t_rex/clips/review/onion-05.png",
+        "sha256": "775a02e5ece5c4f10e8081844fcce51658b3e1bcd063d74d3b284428cf65fe64",
+        "bytes": 250185
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/onion-06.png",
+        "retained": "assets/t_rex/clips/review/onion-06.png",
+        "sha256": "956358d265c06fbcc41e166452aee0109f77f2ff84847a002d2317d552426093",
+        "bytes": 155736
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/onion-07.png",
+        "retained": "assets/t_rex/clips/review/onion-07.png",
+        "sha256": "ddb879d3b2e8b93fd8086f0df96b9977f2cd2c60449ada7d05a5f8db47feddb3",
+        "bytes": 203439
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/onion-08.png",
+        "retained": "assets/t_rex/clips/review/onion-08.png",
+        "sha256": "89534bdfa8b7af2f150a85f378ae8c898a4bbaf033cc954e1de5927d4e8675f6",
+        "bytes": 25320
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/onion-09.png",
+        "retained": "assets/t_rex/clips/review/onion-09.png",
+        "sha256": "3f31bef28ca7f6e07f6ca33f90556343cb5001c022fa8b7c7f6d9bfd7e540d45",
+        "bytes": 119879
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/clips/review/turn-test.png",
+        "retained": "assets/t_rex/clips/review/turn-test.png",
+        "sha256": "1545fd97a4bcb1931e1fdb51848aef87e52be7da99d3932fe502b49fa6247ef3",
+        "bytes": 457281
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/aseprite/t_rex.png",
+        "retained": "assets/t_rex/godot_bundle/aseprite/t_rex.png",
+        "sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c",
+        "bytes": 1904505
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot/t_rex-atlas-00.png",
+        "retained": "assets/t_rex/godot_bundle/godot/t_rex-atlas-00.png",
+        "sha256": "ee46c57864381ba0e4511e2d1ffa943ad7c1639f5bbe604448600653d57ff55c",
+        "bytes": 1904505
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-000.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-000.png",
+        "sha256": "234ea04b8acb9120e4b17802b24741874f4bebfa6006bd0e252af8692634da39",
+        "bytes": 26911
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-001.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-001.png",
+        "sha256": "c532ade6a3cf8e0fe28dbae16ba5a9099b9ed20fac11abb0564b5f4b6d8801b1",
+        "bytes": 26532
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-002.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-002.png",
+        "sha256": "d0e0abad7deb4e00e2ac3ed64cf2916a3f0546be955b55ffae37ed7e3e01230c",
+        "bytes": 26211
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-003.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-003.png",
+        "sha256": "b811af6e0a46dd9d0038c1d3310064acd2aab0071efd51abe533bdee2e82ca48",
+        "bytes": 25918
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-004.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-004.png",
+        "sha256": "f8fca2a7ebbf2256e17ce4d0836b4cff54734d3b1da7797a90d9da716be8c74e",
+        "bytes": 26539
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-005.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-005.png",
+        "sha256": "df04968e5889cefe2c516e612ce00cbb607239d78ea6aed343a794b0aab1f9da",
+        "bytes": 27057
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-006.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-006.png",
+        "sha256": "03a7965770035785c54fbc7eb3307919dc03efdfff229f22e30fcc2846964115",
+        "bytes": 26741
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-007.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-007.png",
+        "sha256": "6878ce93fd2e33d81f99470229987cb61499e9cca117f5f02fc9dc861c302636",
+        "bytes": 26753
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-008.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-008.png",
+        "sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+        "bytes": 25451
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-009.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-009.png",
+        "sha256": "8f4e83419b79625e8307d3e3c666f22f22b59b781dd3e92c6cba4d8cc6bd1af0",
+        "bytes": 25612
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-010.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-010.png",
+        "sha256": "4ac77ed7ccd7ee6651403237e2190cc60b67c397c73ba5c0c8ca81b4b1afda00",
+        "bytes": 24632
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-011.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-011.png",
+        "sha256": "eddd5198744f3c3fada3c11c8e9a463ed9024284fbd0fa647d319c8bbc511030",
+        "bytes": 25037
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-012.png",
+        "sha256": "724f01efdc66a878c71bfdbb16be18b86cc3bf9a30af3169e908491a40a09102",
+        "bytes": 25324
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-013.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-013.png",
+        "sha256": "b6727ae59002766986455cce41c23bb8e6cdd4306cb195ee7be08463f58cc004",
+        "bytes": 26767
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-014.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-014.png",
+        "sha256": "dfce6753967078aeeb322cc88d8f9c1e9e6aa9642f2d12d96452e4efdd8099a5",
+        "bytes": 27083
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-015.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-015.png",
+        "sha256": "fde0950ae32cc07cd75326fd380b609ce7b0ed7a2555d753cc3a7b1d8179fae7",
+        "bytes": 27595
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-016.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-016.png",
+        "sha256": "9544dabcd9e4a111caa57e711718e7ddda1b2dc53697ee0914eb3b932451f551",
+        "bytes": 27647
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-017.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-017.png",
+        "sha256": "c646d21219d060d7c7da5b9b4fdad1b346b3eeae1fc7c488b870d941b0b8d13d",
+        "bytes": 27939
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-018.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-018.png",
+        "sha256": "2e54afabf418bc5bfdcdd025778d63330703e568bf5b859cc267a07fb0260358",
+        "bytes": 25941
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-019.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-019.png",
+        "sha256": "4426e8bc250d173cbf8d6ca2cbf212dc18c8b03fe6e5a9631ae851aaa3a20573",
+        "bytes": 25562
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-020.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-020.png",
+        "sha256": "a871c866ec51355cc5fb69b34bd30cd6ae34d381573f3f969e71aaae4cefefdb",
+        "bytes": 25491
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-021.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-021.png",
+        "sha256": "e88026a64d9526bc50ca4527a14c3f46a5b3adc7b6c48d11039ae5053a7e72fa",
+        "bytes": 24805
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-022.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-022.png",
+        "sha256": "3e6c90892dcfb5a254042ee97f76979370829fc97d26116a1cd66403942ec2bd",
+        "bytes": 26387
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-023.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-023.png",
+        "sha256": "f153ea2bb3dc474d464d488e71cc52eb9f480cee0a1f71a02578cb07c1f7e531",
+        "bytes": 27752
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-024.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-024.png",
+        "sha256": "217e1aac0cc16bac2f9efb61ea2c30b55cf2737effd5a092fa09ab4ffd8afa8e",
+        "bytes": 27700
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-025.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-025.png",
+        "sha256": "a8fe833d9737af7c54b51048d3f0bfe8ffafb8d89f02d35c7ab8c7f70636898e",
+        "bytes": 27385
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-026.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-026.png",
+        "sha256": "300b70285c5aa4e361aa19dccd8e691397bd0d09ca12925e6fcf10072b0420b4",
+        "bytes": 27917
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-027.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-027.png",
+        "sha256": "3d3d9b113be63d32be3c1f5f53986d89addd9ad98e78163533777687660e5946",
+        "bytes": 28747
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-028.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-028.png",
+        "sha256": "e7a57a2d4ddeb1d0ab8fa3e131e0585c24b7cc871e9bb85baf0ecf87921aa2ef",
+        "bytes": 27679
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-029.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-029.png",
+        "sha256": "4de08876062d94f7c85ac73ce8d5fa59ffdc3964e63969f15e7c37c63b907290",
+        "bytes": 28038
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-030.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-030.png",
+        "sha256": "b7d0babc2b00ec3d31ba9fa2b1398cbb8d0d1387712dcfd8268989261772a913",
+        "bytes": 27541
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-031.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-031.png",
+        "sha256": "68745a6b3cc105f8a90861a4a643ee069952b6818c45b4376894311de2ecf1f1",
+        "bytes": 27420
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-032.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-032.png",
+        "sha256": "344c45a0f0d2d6e3766d38864333c3bf19add1f9aa473040f4636c191b36ac9d",
+        "bytes": 27166
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-033.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-033.png",
+        "sha256": "d2972b65fbc8032edc09d0a0b66236e817a12c977016174be6c073fba2b00968",
+        "bytes": 27115
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-034.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-034.png",
+        "sha256": "0ad240348028fe6a3886822a0ad186007abd84b6750d129df39d0b8918b3034f",
+        "bytes": 24473
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-035.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-035.png",
+        "sha256": "650c9e6337b22e8622b77a3bda374b39955eecb9dae413fd501abbe115c945dc",
+        "bytes": 24046
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-036.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-036.png",
+        "sha256": "622b848cd48356bc60efc7bf6994a8b1f54ab9d68c096fc48f55498f50a4324e",
+        "bytes": 22264
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-037.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-037.png",
+        "sha256": "1387be91914056cc00f0adf99164aa6a56395d7575ff091ed39578fe9e0a4d2c",
+        "bytes": 24848
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-038.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-038.png",
+        "sha256": "9cd84d44db5b02e4541d8a44da35cab58019692025d2d6e87d9c02013e51270a",
+        "bytes": 23410
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-039.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-039.png",
+        "sha256": "404f9907437ad4946a1bb25b395adecd44d88e90b21c205423975c94e31db0f7",
+        "bytes": 24192
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-040.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-040.png",
+        "sha256": "328d05ee6cdf90997ac21458e8e54aea38054e72cd7a5e5734e48c6adfcecb4f",
+        "bytes": 20436
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-041.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-041.png",
+        "sha256": "0588ea75197571f6bfe22f89c860cdd6a45f14ce9d10e22ced3d9d68868552de",
+        "bytes": 17763
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-042.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-042.png",
+        "sha256": "aa3a1809033b374b59cccce0d557ebbd0d672ecb150debecc2104ab2a7f21ef2",
+        "bytes": 22576
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-043.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-043.png",
+        "sha256": "5d70ee7305950baa720c3c52631509728f8f778d36ae1f5f71650b860a44696b",
+        "bytes": 24418
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-044.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-044.png",
+        "sha256": "824ebdbc803b53abfd76652a8a68b18008573f09534ea7ff783377bb8cc17603",
+        "bytes": 23868
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-045.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-045.png",
+        "sha256": "8108b26cf005d415e4d2d592fa86d61b59746cea0df0fc77c57a6e230da307e6",
+        "bytes": 24648
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-046.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-046.png",
+        "sha256": "06fbdb56780ddbda3688306d8620d1c8f11f90fcba816c3465d64991b40e3a0f",
+        "bytes": 28388
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-047.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-047.png",
+        "sha256": "8d7bf5eed706de6c3979302ec4dc44cedf58f5754e8bb7784e2016bfbade0f14",
+        "bytes": 29926
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-048.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-048.png",
+        "sha256": "3ab1c6b3e5fb732a0fbed98038dddec9589c1fa1d3784420bf1813539e26f26c",
+        "bytes": 26523
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-049.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-049.png",
+        "sha256": "b590db65605f268302654c21eb4adef00b97ea55162e991e1466de837cc77a32",
+        "bytes": 27621
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-050.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-050.png",
+        "sha256": "0839cbedc38ac39a85297c61f2391c128a3d0286b070ddf343b20ae659bd66be",
+        "bytes": 28673
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-051.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-051.png",
+        "sha256": "381b4e31fbc677b7238440211269ff691c9ac8fe1d79d77b72bb6286d2f878a0",
+        "bytes": 28319
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-052.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-052.png",
+        "sha256": "f380f6046c212e654b15a065a01e50aca82b3c9dff41ddebc1c2fc5e64168445",
+        "bytes": 28395
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-053.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-053.png",
+        "sha256": "d3a856fe35f1e78b5f2e9e286df5f2cc4382300121a0cf7a390bedbd6b64f792",
+        "bytes": 27553
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-054.png",
+        "sha256": "b078fc3c9511cf1819a0ec293a8da05175083923ccb84e2c597b9b66beddf940",
+        "bytes": 28033
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-055.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-055.png",
+        "sha256": "c45b0ad52a145169c80a903348bec5e3134817738c2496a06c2608c7e158076f",
+        "bytes": 26660
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-056.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-056.png",
+        "sha256": "268811b39d5ec8495e24dfcd6e6af6685ca77c2a4666cd5365bfcb961348684b",
+        "bytes": 27592
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-057.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-057.png",
+        "sha256": "795b87bed39a05ab002e28aa5c66e03f492814a00afc1171ed662791a1a0673e",
+        "bytes": 27226
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-058.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-058.png",
+        "sha256": "f4fc85472a71769d048ea4951ab044b974608030219802ff7236dd8f4137347e",
+        "bytes": 26338
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-059.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-059.png",
+        "sha256": "c24e136fcdb9d1933d4026a282770a7d484671fc6b5db6cc2f7c7d678292e4e0",
+        "bytes": 26249
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-060.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-060.png",
+        "sha256": "f164db9477810e60ec0d6833125deafaa1010f88f5cc905624adafa8451d89fc",
+        "bytes": 26384
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-061.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-061.png",
+        "sha256": "d0cb3d5b4cd57f1e084dd489badcad9d6ba71bcabfa2d58cbdb8abf28e55b268",
+        "bytes": 29870
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-062.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-062.png",
+        "sha256": "47e7a2f84cbc5d5fe7a583732b807fbf605c2091b9b431e01bff08c0d283bbc9",
+        "bytes": 27789
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-063.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-063.png",
+        "sha256": "c37b7b3957a65a104d4c05eccff1be11e06f48450c6f65133f1032a66af12903",
+        "bytes": 27425
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-064.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-064.png",
+        "sha256": "9d886a1c1b59cdbed15584c15176578cff64b19d3bcef8c474c5bf2a3ed734a9",
+        "bytes": 26544
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-065.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-065.png",
+        "sha256": "c3162c81f3b64d7033c7e824907151cfb8df38e3493fb2e723191fc6f463bba1",
+        "bytes": 25382
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-066.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-066.png",
+        "sha256": "1a891cc3b12daf0aff9506fa7070db715aca961c7419f18c0c4fe30a1390506d",
+        "bytes": 25040
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-067.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-067.png",
+        "sha256": "4f79be252d54d93c6bc8a181a3d9efdcd5e4c622a22bd457efbf9a9d4ae2deab",
+        "bytes": 24651
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-068.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-068.png",
+        "sha256": "cfadafffacc4a642273f39b470b9d971bd630b908d9982eaf9964ea682b0864b",
+        "bytes": 24585
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-069.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-069.png",
+        "sha256": "e3db9e0776fb59e8c8ccdc2c8767a317564afa03a72513378dc298e78338b24a",
+        "bytes": 5138
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-070.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-070.png",
+        "sha256": "476a946b571b1d5ad97f7bd5f0003a8872b80d355a758db02d29f4be920e8a61",
+        "bytes": 4008
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-071.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-071.png",
+        "sha256": "148a2c1a1f2bea56f2ccc26b241ac8eda823e02424f2a3f5ca7643d70efedb4f",
+        "bytes": 3672
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-072.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-072.png",
+        "sha256": "4f8bfed820ee34fba32a1bca889f2e333f9afbd9f5d2a163f07cd88397e4ec3b",
+        "bytes": 3661
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-073.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-073.png",
+        "sha256": "a450b5730829bdbb3a4dd294f4a5615a8f1b6ad64a0f15394743966238085544",
+        "bytes": 24722
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-074.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-074.png",
+        "sha256": "8601e2339477e84b91e74fd2dac1d62cbe368ee75af60acbc07be9b919058b89",
+        "bytes": 23628
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-075.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-075.png",
+        "sha256": "ee5a72682b442a4fae3fbc08f2602d5be8b14aa887b3025665ffe3ae4fa152a7",
+        "bytes": 20830
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-076.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-076.png",
+        "sha256": "21649b5bfc42e59fbf83c20b7a707981054d1d47bab026a6dbecffbc5805fedf",
+        "bytes": 23593
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/godot_bundle/godot-sprite3d/frames/frame-077.png",
+        "retained": "assets/t_rex/godot_bundle/godot-sprite3d/frames/frame-077.png",
+        "sha256": "b20c48b784e1f1aa4f9984135ea5ed6204e86009fd97283d0ca189f539f4a49f",
+        "bytes": 25402
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-00.png",
+        "retained": "assets/t_rex/clips/frames/frame-00.png",
+        "sha256": "234ea04b8acb9120e4b17802b24741874f4bebfa6006bd0e252af8692634da39",
+        "bytes": 26911
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-01.png",
+        "retained": "assets/t_rex/clips/frames/frame-01.png",
+        "sha256": "c532ade6a3cf8e0fe28dbae16ba5a9099b9ed20fac11abb0564b5f4b6d8801b1",
+        "bytes": 26532
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-02.png",
+        "retained": "assets/t_rex/clips/frames/frame-02.png",
+        "sha256": "d0e0abad7deb4e00e2ac3ed64cf2916a3f0546be955b55ffae37ed7e3e01230c",
+        "bytes": 26211
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-03.png",
+        "retained": "assets/t_rex/clips/frames/frame-03.png",
+        "sha256": "b811af6e0a46dd9d0038c1d3310064acd2aab0071efd51abe533bdee2e82ca48",
+        "bytes": 25918
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-04.png",
+        "retained": "assets/t_rex/clips/frames/frame-04.png",
+        "sha256": "f8fca2a7ebbf2256e17ce4d0836b4cff54734d3b1da7797a90d9da716be8c74e",
+        "bytes": 26539
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-05.png",
+        "retained": "assets/t_rex/clips/frames/frame-05.png",
+        "sha256": "df04968e5889cefe2c516e612ce00cbb607239d78ea6aed343a794b0aab1f9da",
+        "bytes": 27057
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-06.png",
+        "retained": "assets/t_rex/clips/frames/frame-06.png",
+        "sha256": "03a7965770035785c54fbc7eb3307919dc03efdfff229f22e30fcc2846964115",
+        "bytes": 26741
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-07.png",
+        "retained": "assets/t_rex/clips/frames/frame-07.png",
+        "sha256": "6878ce93fd2e33d81f99470229987cb61499e9cca117f5f02fc9dc861c302636",
+        "bytes": 26753
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-08.png",
+        "retained": "assets/t_rex/clips/frames/frame-08.png",
+        "sha256": "d4dc74e198774a0af2097962967492e3d2f909831b40b7c811ea7b5aa3208e69",
+        "bytes": 25451
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-09.png",
+        "retained": "assets/t_rex/clips/frames/frame-09.png",
+        "sha256": "8f4e83419b79625e8307d3e3c666f22f22b59b781dd3e92c6cba4d8cc6bd1af0",
+        "bytes": 25612
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-10.png",
+        "retained": "assets/t_rex/clips/frames/frame-10.png",
+        "sha256": "4ac77ed7ccd7ee6651403237e2190cc60b67c397c73ba5c0c8ca81b4b1afda00",
+        "bytes": 24632
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-11.png",
+        "retained": "assets/t_rex/clips/frames/frame-11.png",
+        "sha256": "eddd5198744f3c3fada3c11c8e9a463ed9024284fbd0fa647d319c8bbc511030",
+        "bytes": 25037
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-12.png",
+        "retained": "assets/t_rex/clips/frames/frame-12.png",
+        "sha256": "724f01efdc66a878c71bfdbb16be18b86cc3bf9a30af3169e908491a40a09102",
+        "bytes": 25324
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-13.png",
+        "retained": "assets/t_rex/clips/frames/frame-13.png",
+        "sha256": "b6727ae59002766986455cce41c23bb8e6cdd4306cb195ee7be08463f58cc004",
+        "bytes": 26767
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-14.png",
+        "retained": "assets/t_rex/clips/frames/frame-14.png",
+        "sha256": "dfce6753967078aeeb322cc88d8f9c1e9e6aa9642f2d12d96452e4efdd8099a5",
+        "bytes": 27083
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-15.png",
+        "retained": "assets/t_rex/clips/frames/frame-15.png",
+        "sha256": "fde0950ae32cc07cd75326fd380b609ce7b0ed7a2555d753cc3a7b1d8179fae7",
+        "bytes": 27595
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-16.png",
+        "retained": "assets/t_rex/clips/frames/frame-16.png",
+        "sha256": "9544dabcd9e4a111caa57e711718e7ddda1b2dc53697ee0914eb3b932451f551",
+        "bytes": 27647
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-17.png",
+        "retained": "assets/t_rex/clips/frames/frame-17.png",
+        "sha256": "c646d21219d060d7c7da5b9b4fdad1b346b3eeae1fc7c488b870d941b0b8d13d",
+        "bytes": 27939
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-18.png",
+        "retained": "assets/t_rex/clips/frames/frame-18.png",
+        "sha256": "2e54afabf418bc5bfdcdd025778d63330703e568bf5b859cc267a07fb0260358",
+        "bytes": 25941
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-19.png",
+        "retained": "assets/t_rex/clips/frames/frame-19.png",
+        "sha256": "4426e8bc250d173cbf8d6ca2cbf212dc18c8b03fe6e5a9631ae851aaa3a20573",
+        "bytes": 25562
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-20.png",
+        "retained": "assets/t_rex/clips/frames/frame-20.png",
+        "sha256": "a871c866ec51355cc5fb69b34bd30cd6ae34d381573f3f969e71aaae4cefefdb",
+        "bytes": 25491
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-21.png",
+        "retained": "assets/t_rex/clips/frames/frame-21.png",
+        "sha256": "e88026a64d9526bc50ca4527a14c3f46a5b3adc7b6c48d11039ae5053a7e72fa",
+        "bytes": 24805
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-22.png",
+        "retained": "assets/t_rex/clips/frames/frame-22.png",
+        "sha256": "3e6c90892dcfb5a254042ee97f76979370829fc97d26116a1cd66403942ec2bd",
+        "bytes": 26387
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-23.png",
+        "retained": "assets/t_rex/clips/frames/frame-23.png",
+        "sha256": "f153ea2bb3dc474d464d488e71cc52eb9f480cee0a1f71a02578cb07c1f7e531",
+        "bytes": 27752
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-24.png",
+        "retained": "assets/t_rex/clips/frames/frame-24.png",
+        "sha256": "217e1aac0cc16bac2f9efb61ea2c30b55cf2737effd5a092fa09ab4ffd8afa8e",
+        "bytes": 27700
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-25.png",
+        "retained": "assets/t_rex/clips/frames/frame-25.png",
+        "sha256": "a8fe833d9737af7c54b51048d3f0bfe8ffafb8d89f02d35c7ab8c7f70636898e",
+        "bytes": 27385
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-26.png",
+        "retained": "assets/t_rex/clips/frames/frame-26.png",
+        "sha256": "300b70285c5aa4e361aa19dccd8e691397bd0d09ca12925e6fcf10072b0420b4",
+        "bytes": 27917
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-27.png",
+        "retained": "assets/t_rex/clips/frames/frame-27.png",
+        "sha256": "3d3d9b113be63d32be3c1f5f53986d89addd9ad98e78163533777687660e5946",
+        "bytes": 28747
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-28.png",
+        "retained": "assets/t_rex/clips/frames/frame-28.png",
+        "sha256": "e7a57a2d4ddeb1d0ab8fa3e131e0585c24b7cc871e9bb85baf0ecf87921aa2ef",
+        "bytes": 27679
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-29.png",
+        "retained": "assets/t_rex/clips/frames/frame-29.png",
+        "sha256": "4de08876062d94f7c85ac73ce8d5fa59ffdc3964e63969f15e7c37c63b907290",
+        "bytes": 28038
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-30.png",
+        "retained": "assets/t_rex/clips/frames/frame-30.png",
+        "sha256": "b7d0babc2b00ec3d31ba9fa2b1398cbb8d0d1387712dcfd8268989261772a913",
+        "bytes": 27541
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-31.png",
+        "retained": "assets/t_rex/clips/frames/frame-31.png",
+        "sha256": "68745a6b3cc105f8a90861a4a643ee069952b6818c45b4376894311de2ecf1f1",
+        "bytes": 27420
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-32.png",
+        "retained": "assets/t_rex/clips/frames/frame-32.png",
+        "sha256": "344c45a0f0d2d6e3766d38864333c3bf19add1f9aa473040f4636c191b36ac9d",
+        "bytes": 27166
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-33.png",
+        "retained": "assets/t_rex/clips/frames/frame-33.png",
+        "sha256": "d2972b65fbc8032edc09d0a0b66236e817a12c977016174be6c073fba2b00968",
+        "bytes": 27115
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-34.png",
+        "retained": "assets/t_rex/clips/frames/frame-34.png",
+        "sha256": "0ad240348028fe6a3886822a0ad186007abd84b6750d129df39d0b8918b3034f",
+        "bytes": 24473
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-35.png",
+        "retained": "assets/t_rex/clips/frames/frame-35.png",
+        "sha256": "650c9e6337b22e8622b77a3bda374b39955eecb9dae413fd501abbe115c945dc",
+        "bytes": 24046
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-36.png",
+        "retained": "assets/t_rex/clips/frames/frame-36.png",
+        "sha256": "622b848cd48356bc60efc7bf6994a8b1f54ab9d68c096fc48f55498f50a4324e",
+        "bytes": 22264
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-37.png",
+        "retained": "assets/t_rex/clips/frames/frame-37.png",
+        "sha256": "1387be91914056cc00f0adf99164aa6a56395d7575ff091ed39578fe9e0a4d2c",
+        "bytes": 24848
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-38.png",
+        "retained": "assets/t_rex/clips/frames/frame-38.png",
+        "sha256": "9cd84d44db5b02e4541d8a44da35cab58019692025d2d6e87d9c02013e51270a",
+        "bytes": 23410
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-39.png",
+        "retained": "assets/t_rex/clips/frames/frame-39.png",
+        "sha256": "404f9907437ad4946a1bb25b395adecd44d88e90b21c205423975c94e31db0f7",
+        "bytes": 24192
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-40.png",
+        "retained": "assets/t_rex/clips/frames/frame-40.png",
+        "sha256": "328d05ee6cdf90997ac21458e8e54aea38054e72cd7a5e5734e48c6adfcecb4f",
+        "bytes": 20436
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-41.png",
+        "retained": "assets/t_rex/clips/frames/frame-41.png",
+        "sha256": "0588ea75197571f6bfe22f89c860cdd6a45f14ce9d10e22ced3d9d68868552de",
+        "bytes": 17763
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-42.png",
+        "retained": "assets/t_rex/clips/frames/frame-42.png",
+        "sha256": "aa3a1809033b374b59cccce0d557ebbd0d672ecb150debecc2104ab2a7f21ef2",
+        "bytes": 22576
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-43.png",
+        "retained": "assets/t_rex/clips/frames/frame-43.png",
+        "sha256": "5d70ee7305950baa720c3c52631509728f8f778d36ae1f5f71650b860a44696b",
+        "bytes": 24418
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-44.png",
+        "retained": "assets/t_rex/clips/frames/frame-44.png",
+        "sha256": "824ebdbc803b53abfd76652a8a68b18008573f09534ea7ff783377bb8cc17603",
+        "bytes": 23868
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-45.png",
+        "retained": "assets/t_rex/clips/frames/frame-45.png",
+        "sha256": "8108b26cf005d415e4d2d592fa86d61b59746cea0df0fc77c57a6e230da307e6",
+        "bytes": 24648
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-46.png",
+        "retained": "assets/t_rex/clips/frames/frame-46.png",
+        "sha256": "06fbdb56780ddbda3688306d8620d1c8f11f90fcba816c3465d64991b40e3a0f",
+        "bytes": 28388
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-47.png",
+        "retained": "assets/t_rex/clips/frames/frame-47.png",
+        "sha256": "8d7bf5eed706de6c3979302ec4dc44cedf58f5754e8bb7784e2016bfbade0f14",
+        "bytes": 29926
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-48.png",
+        "retained": "assets/t_rex/clips/frames/frame-48.png",
+        "sha256": "3ab1c6b3e5fb732a0fbed98038dddec9589c1fa1d3784420bf1813539e26f26c",
+        "bytes": 26523
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-49.png",
+        "retained": "assets/t_rex/clips/frames/frame-49.png",
+        "sha256": "b590db65605f268302654c21eb4adef00b97ea55162e991e1466de837cc77a32",
+        "bytes": 27621
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-50.png",
+        "retained": "assets/t_rex/clips/frames/frame-50.png",
+        "sha256": "0839cbedc38ac39a85297c61f2391c128a3d0286b070ddf343b20ae659bd66be",
+        "bytes": 28673
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-51.png",
+        "retained": "assets/t_rex/clips/frames/frame-51.png",
+        "sha256": "381b4e31fbc677b7238440211269ff691c9ac8fe1d79d77b72bb6286d2f878a0",
+        "bytes": 28319
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-52.png",
+        "retained": "assets/t_rex/clips/frames/frame-52.png",
+        "sha256": "f380f6046c212e654b15a065a01e50aca82b3c9dff41ddebc1c2fc5e64168445",
+        "bytes": 28395
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-53.png",
+        "retained": "assets/t_rex/clips/frames/frame-53.png",
+        "sha256": "d3a856fe35f1e78b5f2e9e286df5f2cc4382300121a0cf7a390bedbd6b64f792",
+        "bytes": 27553
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-54.png",
+        "retained": "assets/t_rex/clips/frames/frame-54.png",
+        "sha256": "b078fc3c9511cf1819a0ec293a8da05175083923ccb84e2c597b9b66beddf940",
+        "bytes": 28033
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-55.png",
+        "retained": "assets/t_rex/clips/frames/frame-55.png",
+        "sha256": "c45b0ad52a145169c80a903348bec5e3134817738c2496a06c2608c7e158076f",
+        "bytes": 26660
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-56.png",
+        "retained": "assets/t_rex/clips/frames/frame-56.png",
+        "sha256": "268811b39d5ec8495e24dfcd6e6af6685ca77c2a4666cd5365bfcb961348684b",
+        "bytes": 27592
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-57.png",
+        "retained": "assets/t_rex/clips/frames/frame-57.png",
+        "sha256": "795b87bed39a05ab002e28aa5c66e03f492814a00afc1171ed662791a1a0673e",
+        "bytes": 27226
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-58.png",
+        "retained": "assets/t_rex/clips/frames/frame-58.png",
+        "sha256": "f4fc85472a71769d048ea4951ab044b974608030219802ff7236dd8f4137347e",
+        "bytes": 26338
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-59.png",
+        "retained": "assets/t_rex/clips/frames/frame-59.png",
+        "sha256": "c24e136fcdb9d1933d4026a282770a7d484671fc6b5db6cc2f7c7d678292e4e0",
+        "bytes": 26249
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-60.png",
+        "retained": "assets/t_rex/clips/frames/frame-60.png",
+        "sha256": "f164db9477810e60ec0d6833125deafaa1010f88f5cc905624adafa8451d89fc",
+        "bytes": 26384
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-61.png",
+        "retained": "assets/t_rex/clips/frames/frame-61.png",
+        "sha256": "d0cb3d5b4cd57f1e084dd489badcad9d6ba71bcabfa2d58cbdb8abf28e55b268",
+        "bytes": 29870
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-62.png",
+        "retained": "assets/t_rex/clips/frames/frame-62.png",
+        "sha256": "47e7a2f84cbc5d5fe7a583732b807fbf605c2091b9b431e01bff08c0d283bbc9",
+        "bytes": 27789
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-63.png",
+        "retained": "assets/t_rex/clips/frames/frame-63.png",
+        "sha256": "c37b7b3957a65a104d4c05eccff1be11e06f48450c6f65133f1032a66af12903",
+        "bytes": 27425
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-64.png",
+        "retained": "assets/t_rex/clips/frames/frame-64.png",
+        "sha256": "9d886a1c1b59cdbed15584c15176578cff64b19d3bcef8c474c5bf2a3ed734a9",
+        "bytes": 26544
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-65.png",
+        "retained": "assets/t_rex/clips/frames/frame-65.png",
+        "sha256": "c3162c81f3b64d7033c7e824907151cfb8df38e3493fb2e723191fc6f463bba1",
+        "bytes": 25382
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-66.png",
+        "retained": "assets/t_rex/clips/frames/frame-66.png",
+        "sha256": "1a891cc3b12daf0aff9506fa7070db715aca961c7419f18c0c4fe30a1390506d",
+        "bytes": 25040
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-67.png",
+        "retained": "assets/t_rex/clips/frames/frame-67.png",
+        "sha256": "4f79be252d54d93c6bc8a181a3d9efdcd5e4c622a22bd457efbf9a9d4ae2deab",
+        "bytes": 24651
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-68.png",
+        "retained": "assets/t_rex/clips/frames/frame-68.png",
+        "sha256": "cfadafffacc4a642273f39b470b9d971bd630b908d9982eaf9964ea682b0864b",
+        "bytes": 24585
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-69.png",
+        "retained": "assets/t_rex/clips/frames/frame-69.png",
+        "sha256": "e3db9e0776fb59e8c8ccdc2c8767a317564afa03a72513378dc298e78338b24a",
+        "bytes": 5138
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-70.png",
+        "retained": "assets/t_rex/clips/frames/frame-70.png",
+        "sha256": "476a946b571b1d5ad97f7bd5f0003a8872b80d355a758db02d29f4be920e8a61",
+        "bytes": 4008
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-71.png",
+        "retained": "assets/t_rex/clips/frames/frame-71.png",
+        "sha256": "148a2c1a1f2bea56f2ccc26b241ac8eda823e02424f2a3f5ca7643d70efedb4f",
+        "bytes": 3672
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-72.png",
+        "retained": "assets/t_rex/clips/frames/frame-72.png",
+        "sha256": "4f8bfed820ee34fba32a1bca889f2e333f9afbd9f5d2a163f07cd88397e4ec3b",
+        "bytes": 3661
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-73.png",
+        "retained": "assets/t_rex/clips/frames/frame-73.png",
+        "sha256": "a450b5730829bdbb3a4dd294f4a5615a8f1b6ad64a0f15394743966238085544",
+        "bytes": 24722
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-74.png",
+        "retained": "assets/t_rex/clips/frames/frame-74.png",
+        "sha256": "8601e2339477e84b91e74fd2dac1d62cbe368ee75af60acbc07be9b919058b89",
+        "bytes": 23628
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-75.png",
+        "retained": "assets/t_rex/clips/frames/frame-75.png",
+        "sha256": "ee5a72682b442a4fae3fbc08f2602d5be8b14aa887b3025665ffe3ae4fa152a7",
+        "bytes": 20830
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-76.png",
+        "retained": "assets/t_rex/clips/frames/frame-76.png",
+        "sha256": "21649b5bfc42e59fbf83c20b7a707981054d1d47bab026a6dbecffbc5805fedf",
+        "bytes": 23593
+      },
+      {
+        "removed": "work/characters/t_rex/turn-v1/stage/raw_frames/frame-77.png",
+        "retained": "assets/t_rex/clips/frames/frame-77.png",
+        "sha256": "b20c48b784e1f1aa4f9984135ea5ed6204e86009fd97283d0ca189f539f4a49f",
+        "bytes": 25402
+      }
+    ]
+  }
+}
